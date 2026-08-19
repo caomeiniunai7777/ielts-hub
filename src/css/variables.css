@@ -1,0 +1,61 @@
+/* ========================================
+   IELTS Hub — CSS Variables & Design Tokens
+   Warm Cream & Bento Brown
+   ======================================== */
+
+:root {
+  /* --- Backgrounds --- */
+  --bg-global: #F4EFE6;
+  --bg-global-alt: #FAF7F2;
+  --bg-card: #FFFFFF;
+  --bg-card-warm: #FBF9F4;
+  --bg-card-warm-deep: #F5EEE2;
+
+  /* --- Brand / Accent --- */
+  --accent-primary: #5C4A3E;
+  --accent-orange: #EAA844;
+  --accent-orange-deep: #D9822B;
+  --accent-black: #2B2825;
+
+  /* --- Text --- */
+  --text-title: #2E2A27;
+  --text-body: #5C554E;
+  --text-muted: #9E9488;
+
+  /* --- Status Dots --- */
+  --dot-active: #EAA844;
+  --dot-key: #D9534F;
+  --dot-done: #6FAA5B;
+  --dot-pending: #C4B8A8;
+
+  /* --- Borders & Dividers --- */
+  --border-card: #E8E2D8;
+  --border-light: #F0EBE2;
+  --divider: #E5DFD5;
+
+  /* --- Radii --- */
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 20px;
+  --r-pill: 999px;
+
+  /* --- Shadows --- */
+  --shadow-card: 0 1px 3px rgba(92, 74, 62, 0.06), 0 4px 12px rgba(92, 74, 62, 0.04);
+  --shadow-hover: 0 2px 8px rgba(92, 74, 62, 0.1), 0 8px 24px rgba(92, 74, 62, 0.06);
+  --shadow-timer: 0 4px 20px rgba(92, 74, 62, 0.15);
+
+  /* --- Typography --- */
+  --font-serif: Georgia, 'Noto Serif SC', 'Songti SC', serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+  --font-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+
+  /* --- Sizing --- */
+  --sidebar-w: 220px;
+  --metrics-h: 56px;
+  --content-max: 960px;
+
+  /* --- Transitions --- */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur: 0.25s;
+}
