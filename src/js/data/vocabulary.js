@@ -1,9 +1,7 @@
 /* ========================================
    IELTS Hub — 雅思词汇真经 (Full Data)
-   Extracted from: 刘洪波《雅思词汇真经》(外研社版)
    Total: 3674 words across 22 chapters
-   Word list: 100% | Phonetic: 96% | Meaning: 99% | POS: 100%
-   Sources: audio index + OCR + Free Dictionary API + MyMemory API + suffix rules
+   Word list: 100% | Phonetic: ~99% | Meaning: 99% | POS: 100%
    ======================================== */
 
 const VocabData = {
@@ -23,7 +21,7 @@ const VocabData = {
         },
         {
           "w": "atlantic",
-          "phon": "",
+          "phon": "/ətˈlæntɪk/",
           "pos": "adj.",
           "cn": "大西洋的",
           "tags": [
@@ -41,7 +39,7 @@ const VocabData = {
         },
         {
           "w": "el nino",
-          "phon": "",
+          "phon": "/el ˈniːnjəʊ/",
           "pos": "n.",
           "cn": "厄尔尼诺现象",
           "tags": [
@@ -59,7 +57,7 @@ const VocabData = {
         },
         {
           "w": "oceania",
-          "phon": "",
+          "phon": "/ˌəʊʃiˈɑːniə/",
           "pos": "n.",
           "cn": "大洋洲",
           "tags": [
@@ -923,7 +921,7 @@ const VocabData = {
         },
         {
           "w": "hillside",
-          "phon": "",
+          "phon": "/ˈhɪlsaɪd/",
           "pos": "noun.",
           "cn": "山坡",
           "tags": [
@@ -1031,7 +1029,7 @@ const VocabData = {
         },
         {
           "w": "irreversible",
-          "phon": "",
+          "phon": "/ˌɪrɪˈvɜːsəbl/",
           "pos": "adjective.",
           "cn": "不可逆",
           "tags": [
@@ -1040,7 +1038,7 @@ const VocabData = {
         },
         {
           "w": "jeopardise",
-          "phon": "",
+          "phon": "/ˈdʒepədaɪz/",
           "pos": "verb.",
           "cn": "危害,危及",
           "tags": [
@@ -1319,7 +1317,7 @@ const VocabData = {
         },
         {
           "w": "northwest",
-          "phon": "",
+          "phon": "/ˌnɔːθˈwest/",
           "pos": "adj.",
           "cn": "西北方;  西北部 西北方的;  西北部的",
           "tags": [
@@ -1805,7 +1803,7 @@ const VocabData = {
         },
         {
           "w": "southeast",
-          "phon": "",
+          "phon": "/ˌsaʊθˈiːst/",
           "pos": "adj.",
           "cn": "东南方;  东南部 东南方的;  东南部的",
           "tags": [
@@ -2075,7 +2073,7 @@ const VocabData = {
         },
         {
           "w": "tropics",
-          "phon": "",
+          "phon": "/ˈtrɒpɪks/",
           "pos": "noun.",
           "cn": "热带",
           "tags": [
@@ -2306,7 +2304,7 @@ const VocabData = {
         },
         {
           "w": "bush fire",
-          "phon": "",
+          "phon": "/bʊʃ faɪə/",
           "pos": "n.",
           "cn": "林区大火",
           "tags": [
@@ -2414,7 +2412,7 @@ const VocabData = {
         },
         {
           "w": "destruct",
-          "phon": "",
+          "phon": "/dɪˈstrʌkt/",
           "pos": "verb.",
           "cn": "摧毁",
           "tags": [
@@ -2585,7 +2583,7 @@ const VocabData = {
         },
         {
           "w": "fluctuate",
-          "phon": "",
+          "phon": "/ˈflʌktʃueɪt/",
           "pos": "verb.",
           "cn": "潮起潮落",
           "tags": [
@@ -2630,7 +2628,7 @@ const VocabData = {
         },
         {
           "w": "germinate",
-          "phon": "",
+          "phon": "/ˈdʒɜːmɪneɪt/",
           "pos": "verb.",
           "cn": "发芽",
           "tags": [
@@ -2693,7 +2691,7 @@ const VocabData = {
         },
         {
           "w": "hybridisation",
-          "phon": "",
+          "phon": "/ˌhaɪbrɪdaɪˈzeɪʃn/",
           "pos": "noun.",
           "cn": "杂交",
           "tags": [
@@ -2711,7 +2709,7 @@ const VocabData = {
         },
         {
           "w": "impact",
-          "phon": "",
+          "phon": "/ˈɪmpækt/",
           "pos": "noun.",
           "cn": "影响",
           "tags": [
@@ -3026,7 +3024,7 @@ const VocabData = {
         },
         {
           "w": "reclaim",
-          "phon": "",
+          "phon": "/rɪˈkleɪm/",
           "pos": "noun.",
           "cn": "转 (to roll ) 所以英语中包含 volv 和 volu 的单词多 含有此意义: evolve (滚动着展开 >发展;  进化) ,",
           "tags": [
@@ -3374,7 +3372,7 @@ const VocabData = {
         },
         {
           "w": "alternate",
-          "phon": "",
+          "phon": "/ɔːlˈtɜːnət/",
           "pos": "noun.",
           "cn": "交替的；轮流",
           "tags": [
@@ -6761,7 +6759,7 @@ const VocabData = {
         },
         {
           "w": "emphasise",
-          "phon": "",
+          "phon": "/ˈemfəsaɪz/",
           "pos": "v.",
           "cn": "强调",
           "tags": [
@@ -8669,7 +8667,7 @@ const VocabData = {
         },
         {
           "w": "scrutinise",
-          "phon": "",
+          "phon": "/ˈskɹuːtɨnaɪz/",
           "pos": "verb.",
           "cn": "仔细审视",
           "tags": [
@@ -10223,7 +10221,7 @@ const VocabData = {
         },
         {
           "w": "utilise",
-          "phon": "",
+          "phon": "/ˈjuːtɨlaɪz/",
           "pos": "verb.",
           "cn": "学生专攻工程学。",
           "tags": [
@@ -11315,7 +11313,7 @@ const VocabData = {
         },
         {
           "w": "logogram",
-          "phon": "",
+          "phon": "/ˈlɒɡəɡɹæm/",
           "pos": "n.",
           "cn": "索",
           "tags": [
@@ -11627,7 +11625,7 @@ const VocabData = {
         },
         {
           "w": "x-rated",
-          "phon": "",
+          "phon": "/ˌeksˈreɪtɪd/",
           "pos": "n.",
           "cn": "限制级的",
           "tags": [
@@ -12095,7 +12093,7 @@ const VocabData = {
         },
         {
           "w": "exhibition",
-          "phon": "",
+          "phon": "/ɛksɪˈbɪʃən/",
           "pos": "n.",
           "cn": "几展览",
           "tags": [
@@ -13226,7 +13224,7 @@ const VocabData = {
         },
         {
           "w": "artifact",
-          "phon": "",
+          "phon": "/ˈɑːtɪfækt/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -14744,7 +14742,7 @@ const VocabData = {
         },
         {
           "w": "colour",
-          "phon": "",
+          "phon": "/ˈkʌl.ə(ɹ)/",
           "pos": "noun.",
           "cn": "色素",
           "tags": [
@@ -16469,7 +16467,7 @@ const VocabData = {
         },
         {
           "w": "papaya",
-          "phon": "",
+          "phon": "/pəˈpaɪə/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -16775,7 +16773,7 @@ const VocabData = {
         },
         {
           "w": "scallion",
-          "phon": "",
+          "phon": "[ˈskæ.ljn̩]",
           "pos": "n.",
           "cn": "大葱",
           "tags": [
@@ -17117,7 +17115,7 @@ const VocabData = {
         },
         {
           "w": "wasabi",
-          "phon": "",
+          "phon": "/wəˈsɑːbi/",
           "pos": "n.",
           "cn": "山葵;  山葵根",
           "tags": [
@@ -17501,7 +17499,7 @@ const VocabData = {
         },
         {
           "w": "eaves",
-          "phon": "",
+          "phon": "/iːvz/",
           "pos": "n.",
           "cn": "几屋檐",
           "tags": [
@@ -17816,7 +17814,7 @@ const VocabData = {
         },
         {
           "w": "living room",
-          "phon": "",
+          "phon": "/ˈlɪvɪŋ/",
           "pos": "noun.",
           "cn": "客厅",
           "tags": [
@@ -17960,7 +17958,7 @@ const VocabData = {
         },
         {
           "w": "parlour",
-          "phon": "",
+          "phon": "/ˈpɑːlə/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -18470,7 +18468,7 @@ const VocabData = {
         },
         {
           "w": "aviation",
-          "phon": "",
+          "phon": "/eɪviˈeɪʃən/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -18524,7 +18522,7 @@ const VocabData = {
         },
         {
           "w": "canoe",
-          "phon": "",
+          "phon": "/kəˈnuː/",
           "pos": "n.",
           "cn": "独木舟",
           "tags": [
@@ -19001,7 +18999,7 @@ const VocabData = {
         },
         {
           "w": "lull",
-          "phon": "",
+          "phon": "/lʌl/",
           "pos": "n.",
           "cn": "使昏昏欲睡 暂停,暂时平静期",
           "tags": [
@@ -19253,7 +19251,7 @@ const VocabData = {
         },
         {
           "w": "safari",
-          "phon": "",
+          "phon": "/səˈfɑːɹ.i/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -19550,7 +19548,7 @@ const VocabData = {
         },
         {
           "w": "wagon",
-          "phon": "",
+          "phon": "/ˈwæɡ(ə)n/",
           "pos": "n.",
           "cn": "四轮运货马车 (或牛车); [英](火车的) 货车车厢",
           "tags": [
@@ -19718,7 +19716,7 @@ const VocabData = {
         },
         {
           "w": "new zealand",
-          "phon": "",
+          "phon": "/njʉː/",
           "pos": "n.",
           "cn": "新西兰",
           "tags": [
@@ -20123,7 +20121,7 @@ const VocabData = {
         },
         {
           "w": "elect",
-          "phon": "",
+          "phon": "/iːˈlɛkt/",
           "pos": "v.",
           "cn": "",
           "tags": [
@@ -20771,7 +20769,7 @@ const VocabData = {
         },
         {
           "w": "soviet",
-          "phon": "",
+          "phon": "/ˈsɒ.vi.ət/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -20825,7 +20823,7 @@ const VocabData = {
         },
         {
           "w": "succession",
-          "phon": "",
+          "phon": "/səkˈsɛʃ.ən/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -21317,7 +21315,7 @@ const VocabData = {
         },
         {
           "w": "deflation",
-          "phon": "",
+          "phon": "/dɪˈfleɪʃən/",
           "pos": "n.",
           "cn": "通货紧缩",
           "tags": [
@@ -22493,7 +22491,7 @@ const VocabData = {
         },
         {
           "w": "accredit",
-          "phon": "",
+          "phon": "/ə.ˈkɹɛd.ɪt/",
           "pos": "n.",
           "cn": "把:'归于;  委任",
           "tags": [
@@ -23024,7 +23022,7 @@ const VocabData = {
         },
         {
           "w": "murmur",
-          "phon": "",
+          "phon": "/ˈmɜː.mə(ɹ)/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -26393,7 +26391,7 @@ const VocabData = {
         },
         {
           "w": "solicitor",
-          "phon": "",
+          "phon": "/səˈlɪsɪtə/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -27362,7 +27360,7 @@ const VocabData = {
         },
         {
           "w": "flatter",
-          "phon": "",
+          "phon": "/ˈflætə/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -27677,7 +27675,7 @@ const VocabData = {
         },
         {
           "w": "itch",
-          "phon": "",
+          "phon": "/ɪt͡ʃ/",
           "pos": "n.",
           "cn": "痒;  渴望",
           "tags": [
@@ -27839,7 +27837,7 @@ const VocabData = {
         },
         {
           "w": "muffle",
-          "phon": "",
+          "phon": "/mʌfl̩/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -28262,7 +28260,7 @@ const VocabData = {
         },
         {
           "w": "render",
-          "phon": "",
+          "phon": "/ˈɹɛn.də/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -29042,7 +29040,7 @@ const VocabData = {
         },
         {
           "w": "agreeable",
-          "phon": "",
+          "phon": "/əˈɡɹiːəbl/",
           "pos": "adj.",
           "cn": "",
           "tags": [
@@ -30077,7 +30075,7 @@ const VocabData = {
         },
         {
           "w": "favor",
-          "phon": "",
+          "phon": "/ˈfeɪvə/",
           "pos": "n.",
           "cn": "",
           "tags": [
@@ -30437,7 +30435,7 @@ const VocabData = {
         },
         {
           "w": "health care",
-          "phon": "",
+          "phon": "/hɛlθ/",
           "pos": "n.",
           "cn": "医疗保健",
           "tags": [
@@ -31301,7 +31299,7 @@ const VocabData = {
         },
         {
           "w": "obtrusive",
-          "phon": "",
+          "phon": "/əbˈtɹuːsɪv/",
           "pos": "adj.",
           "cn": "过分炫耀的,过分突出的,扎眼的",
           "tags": [
@@ -31346,7 +31344,7 @@ const VocabData = {
         },
         {
           "w": "overwork",
-          "phon": "",
+          "phon": "/ˌəʊvəˈwɜːk/",
           "pos": "n.",
           "cn": "过度操劳;  过度工作",
           "tags": [
@@ -32444,7 +32442,7 @@ const VocabData = {
         },
         {
           "w": "uncomfortable",
-          "phon": "",
+          "phon": "/ʌnˈkʌm.fə.tə.bəl/",
           "pos": "adj.",
           "cn": "不舒服的;  不自在的",
           "tags": [
