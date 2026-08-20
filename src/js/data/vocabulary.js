@@ -3,7 +3,7 @@
    Extracted from: 刘洪波《雅思词汇真经》(外研社版)
    Total: 3674 words across 22 chapters
    Word list: verified from audio file index (100% complete)
-   Meanings: OCR-extracted from PDF (79% coverage)
+   Phonetic: 95% | Meaning: 98% (OCR + Free Dictionary API + MyMemory API)
    ======================================== */
 
 const VocabData = {
@@ -14,7 +14,7 @@ const VocabData = {
       "words": [
         {
           "w": "antarctic",
-          "phon": "",
+          "phon": "/ænˈtɑːktɪk/",
           "pos": "adj.",
           "cn": "南极的",
           "tags": [
@@ -68,7 +68,7 @@ const VocabData = {
         },
         {
           "w": "abnormal",
-          "phon": "",
+          "phon": "/əbˈnɔɹ.ml̩/",
           "pos": "adj.",
           "cn": "不正常的,反常的;  娈态的",
           "tags": [
@@ -77,7 +77,7 @@ const VocabData = {
         },
         {
           "w": "adjacent",
-          "phon": "",
+          "phon": "/əˈdʒeɪ.sənt/",
           "pos": "adj.",
           "cn": "邻近的 , 毗连的",
           "tags": [
@@ -113,7 +113,7 @@ const VocabData = {
         },
         {
           "w": "arid",
-          "phon": "",
+          "phon": "/ˈæ.ɹɪd/",
           "pos": "adj.",
           "cn": "干燥的 干旱的;  枯燥的",
           "tags": [
@@ -122,9 +122,9 @@ const VocabData = {
         },
         {
           "w": "artificial",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɑː(ɹ)təˈfɪʃəl/",
+          "pos": "adjective.",
+          "cn": "adj.假",
           "tags": [
             "reading"
           ]
@@ -167,8 +167,8 @@ const VocabData = {
         },
         {
           "w": "beach",
-          "phon": "",
-          "pos": "",
+          "phon": "/biːt͡ʃ/",
+          "pos": "noun.",
           "cn": "那不是指光秃秃的沙滩 , 而是指天体浴场。英 语中的 却没有用 naked 一词 裸奔\"  和 裸泳 而是:",
           "tags": [
             "reading"
@@ -257,18 +257,18 @@ const VocabData = {
         },
         {
           "w": "chill",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tʃɪl/",
+          "pos": "noun.",
+          "cn": "阴寒",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "circulate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsɚˌkju.leɪt/",
+          "pos": "verb.",
+          "cn": "循环",
           "tags": [
             "reading"
           ]
@@ -284,25 +284,25 @@ const VocabData = {
         },
         {
           "w": "cliff",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/klɪf/",
+          "pos": "noun.",
+          "cn": "悬崖",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "climate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈklaɪmɪt/",
+          "pos": "noun.",
+          "cn": "气候；",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "coast",
-          "phon": "",
+          "phon": "/kəʊst/",
           "pos": "n.",
           "cn": "海岸 _ 海滨",
           "tags": [
@@ -338,8 +338,8 @@ const VocabData = {
         },
         {
           "w": "core",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɔː/",
+          "pos": "noun.",
           "cn": "果核",
           "tags": [
             "reading"
@@ -356,8 +356,8 @@ const VocabData = {
         },
         {
           "w": "crust",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɹʌst/",
+          "pos": "noun.",
           "cn": "地壳;  外壳",
           "tags": [
             "reading"
@@ -365,7 +365,7 @@ const VocabData = {
         },
         {
           "w": "current",
-          "phon": "",
+          "phon": "/ˈkʌɹənt/",
           "pos": "adj.",
           "cn": "当前的 潮流,趋势",
           "tags": [
@@ -401,9 +401,9 @@ const VocabData = {
         },
         {
           "w": "degrade",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/diˈɡɹeɪd/",
+          "pos": "verb.",
+          "cn": "v.降级",
           "tags": [
             "reading"
           ]
@@ -419,7 +419,7 @@ const VocabData = {
         },
         {
           "w": "dense",
-          "phon": "",
+          "phon": "/dɛns/",
           "pos": "adj.",
           "cn": "密集的;  稠密的",
           "tags": [
@@ -428,8 +428,8 @@ const VocabData = {
         },
         {
           "w": "desert",
-          "phon": "",
-          "pos": "",
+          "phon": "/dɪˈzɜːt/",
+          "pos": "noun.",
           "cn": "自然地理",
           "tags": [
             "reading"
@@ -455,9 +455,9 @@ const VocabData = {
         },
         {
           "w": "deteriorate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈtɪəɹɪəɹeɪt/",
+          "pos": "verb.",
+          "cn": "变质",
           "tags": [
             "reading"
           ]
@@ -518,7 +518,7 @@ const VocabData = {
         },
         {
           "w": "dramatic",
-          "phon": "",
+          "phon": "/dɹəˈmætɪk/",
           "pos": "adj.",
           "cn": "戏剧的;  引人注目的",
           "tags": [
@@ -545,9 +545,9 @@ const VocabData = {
         },
         {
           "w": "drown",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɹaʊn/",
+          "pos": "verb.",
+          "cn": "v.溺死 ,淹溺,溺杀",
           "tags": [
             "reading"
           ]
@@ -572,7 +572,7 @@ const VocabData = {
         },
         {
           "w": "eastern",
-          "phon": "",
+          "phon": "/ˈiːstən/",
           "pos": "adj.",
           "cn": "东部的;  东方的",
           "tags": [
@@ -590,9 +590,9 @@ const VocabData = {
         },
         {
           "w": "emerge",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/iˈmɜːd͡ʒ/",
+          "pos": "verb.",
+          "cn": "涌上心头",
           "tags": [
             "reading"
           ]
@@ -626,9 +626,9 @@ const VocabData = {
         },
         {
           "w": "erode",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪˈɹoʊd/",
+          "pos": "verb.",
+          "cn": "侵蚀",
           "tags": [
             "reading"
           ]
@@ -644,9 +644,9 @@ const VocabData = {
         },
         {
           "w": "evaporate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪˈvæpəɹeɪt/",
+          "pos": "verb.",
+          "cn": "蒸融",
           "tags": [
             "reading"
           ]
@@ -671,9 +671,9 @@ const VocabData = {
         },
         {
           "w": "flash",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/flæʃ/",
+          "pos": "noun.",
+          "cn": "闪光",
           "tags": [
             "reading"
           ]
@@ -725,9 +725,9 @@ const VocabData = {
         },
         {
           "w": "freeze",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfɹiːz/",
+          "pos": "verb.",
+          "cn": "停止",
           "tags": [
             "reading"
           ]
@@ -743,7 +743,7 @@ const VocabData = {
         },
         {
           "w": "fringe",
-          "phon": "",
+          "phon": "/fɹɪndʒ/",
           "pos": "adj.",
           "cn": "次要的; 非主流的 边缘;  刘海儿",
           "tags": [
@@ -779,8 +779,8 @@ const VocabData = {
         },
         {
           "w": "gap",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɡæp/",
+          "pos": "noun.",
           "cn": "缺口 裂缝;  差距;  空白",
           "tags": [
             "reading"
@@ -797,9 +797,9 @@ const VocabData = {
         },
         {
           "w": "gasoline",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɡæs.ə.lin/",
+          "pos": "noun.",
+          "cn": "汽油",
           "tags": [
             "reading"
           ]
@@ -860,8 +860,8 @@ const VocabData = {
         },
         {
           "w": "gulf",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɡʌlf/",
+          "pos": "noun.",
           "cn": "海湾",
           "tags": [
             "reading"
@@ -869,9 +869,9 @@ const VocabData = {
         },
         {
           "w": "gush",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɡʌʃ/",
+          "pos": "noun.",
+          "cn": "泉涌",
           "tags": [
             "reading"
           ]
@@ -924,16 +924,16 @@ const VocabData = {
         {
           "w": "hillside",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "山坡",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "horizon",
-          "phon": "",
-          "pos": "",
+          "phon": "/həˈɹaɪzən/",
+          "pos": "noun.",
           "cn": "地平线; [~s] 眼界,见识",
           "tags": [
             "reading"
@@ -959,8 +959,8 @@ const VocabData = {
         },
         {
           "w": "hydrogen",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈhaɪdɹədʒ(ə)n/",
+          "pos": "noun.",
           "cn": "氢气",
           "tags": [
             "reading"
@@ -977,7 +977,7 @@ const VocabData = {
         },
         {
           "w": "inappropriate",
-          "phon": "",
+          "phon": "/ˌɪnəˈpɹəʊpɹi.ət/",
           "pos": "adj.",
           "cn": "不合适的",
           "tags": [
@@ -1032,8 +1032,8 @@ const VocabData = {
         {
           "w": "irreversible",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "adjective.",
+          "cn": "不可逆",
           "tags": [
             "reading"
           ]
@@ -1041,7 +1041,7 @@ const VocabData = {
         {
           "w": "jeopardise",
           "phon": "",
-          "pos": "",
+          "pos": "verb.",
           "cn": "危害,危及",
           "tags": [
             "reading"
@@ -1085,8 +1085,8 @@ const VocabData = {
         },
         {
           "w": "longitude",
-          "phon": "",
-          "pos": "",
+          "phon": "/-tʃuːd/",
+          "pos": "noun.",
           "cn": "弓",
           "tags": [
             "reading"
@@ -1184,7 +1184,7 @@ const VocabData = {
         },
         {
           "w": "mild",
-          "phon": "",
+          "phon": "/ˈmaɪld/",
           "pos": "adj.",
           "cn": "温和的;  不严重的",
           "tags": [
@@ -1220,9 +1220,9 @@ const VocabData = {
         },
         {
           "w": "moderate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmɑdəɹeɪt/",
+          "pos": "noun.",
+          "cn": "中等",
           "tags": [
             "reading"
           ]
@@ -1238,8 +1238,8 @@ const VocabData = {
         },
         {
           "w": "monsoon",
-          "phon": "",
-          "pos": "",
+          "phon": "/mɒnˈsuːn/",
+          "pos": "noun.",
           "cn": "季风;  雨季",
           "tags": [
             "reading"
@@ -1283,9 +1283,9 @@ const VocabData = {
         },
         {
           "w": "natural",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈnætʃəɹəl/",
+          "pos": "noun.",
+          "cn": "自然",
           "tags": [
             "reading"
           ]
@@ -1301,8 +1301,8 @@ const VocabData = {
         },
         {
           "w": "navigation",
-          "phon": "",
-          "pos": "",
+          "phon": "/nævɪˈɡeɪʃən/",
+          "pos": "noun.",
           "cn": "航行;  航海",
           "tags": [
             "reading"
@@ -1337,8 +1337,8 @@ const VocabData = {
         },
         {
           "w": "ocean",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈəʊ.ʃən/",
+          "pos": "noun.",
           "cn": "海洋;(五大洋之一的)洋",
           "tags": [
             "reading"
@@ -1346,8 +1346,8 @@ const VocabData = {
         },
         {
           "w": "ore",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɔː/",
+          "pos": "noun.",
           "cn": "矿石;  矿 例一",
           "tags": [
             "reading"
@@ -1373,8 +1373,8 @@ const VocabData = {
         },
         {
           "w": "overlook",
-          "phon": "",
-          "pos": "",
+          "phon": "/əʊvəˈlʊk/",
+          "pos": "noun.",
           "cn": "俯瞰。远眺;  末注意到",
           "tags": [
             "reading"
@@ -1400,9 +1400,9 @@ const VocabData = {
         },
         {
           "w": "pacific",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pəˈsɪfɪk/",
+          "pos": "adjective.",
+          "cn": "adj.爱好和平 ,和平",
           "tags": [
             "reading"
           ]
@@ -1418,8 +1418,8 @@ const VocabData = {
         },
         {
           "w": "parallel",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpæɹəˌlɛl/",
+          "pos": "noun.",
           "cn": "节;  短文, 短讯 ) 在彼此的旁边 >平行的; 相似的;  平行线 ); parasite (在食物旁边 〉寄生虫 )",
           "tags": [
             "reading"
@@ -1445,8 +1445,8 @@ const VocabData = {
         },
         {
           "w": "peninsula",
-          "phon": "",
-          "pos": "",
+          "phon": "/pəˈnɪn.ʃə.lə/",
+          "pos": "noun.",
           "cn": "翥",
           "tags": [
             "reading"
@@ -1454,17 +1454,17 @@ const VocabData = {
         },
         {
           "w": "petrol",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɛt.ɹəl/",
+          "pos": "noun.",
+          "cn": "n.油",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "petroleum",
-          "phon": "",
-          "pos": "",
+          "phon": "/pəˈtɹoʊliəm/",
+          "pos": "noun.",
           "cn": "石油",
           "tags": [
             "reading"
@@ -1535,8 +1535,8 @@ const VocabData = {
         },
         {
           "w": "pollution",
-          "phon": "",
-          "pos": "",
+          "phon": "/pəˈl(j)uːʃn̩/",
+          "pos": "noun.",
           "cn": "污染",
           "tags": [
             "reading"
@@ -1544,8 +1544,8 @@ const VocabData = {
         },
         {
           "w": "pour",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɔː/",
+          "pos": "noun.",
           "cn": "倾泻;  倒;(雨)倾盆而下",
           "tags": [
             "reading"
@@ -1553,17 +1553,17 @@ const VocabData = {
         },
         {
           "w": "precipitate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɹəˈsɪpɪteɪt/",
+          "pos": "verb.",
+          "cn": "沉淀",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "puff",
-          "phon": "",
-          "pos": "",
+          "phon": "/pʌf/",
+          "pos": "noun.",
           "cn": "喷出;  喘息",
           "tags": [
             "reading"
@@ -1607,8 +1607,8 @@ const VocabData = {
         },
         {
           "w": "remote",
-          "phon": "",
-          "pos": "",
+          "phon": "[ɹəˈməʊt]",
+          "pos": "noun.",
           "cn": "向后移动, 移走 遥远的 ) , emotion ( 移动 到了外面 [e",
           "tags": [
             "reading"
@@ -1634,7 +1634,7 @@ const VocabData = {
         },
         {
           "w": "rough",
-          "phon": "",
+          "phon": "/ɹʌf/",
           "pos": "adj.",
           "cn": "粗糙的;  粗略的",
           "tags": [
@@ -1661,8 +1661,8 @@ const VocabData = {
         },
         {
           "w": "sediment",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈsɛd.ɪ.mənt/",
+          "pos": "noun.",
           "cn": "坐下的东西 〉沉 坐下来的地方 〉拥有 ) ,",
           "tags": [
             "reading"
@@ -1688,8 +1688,8 @@ const VocabData = {
         },
         {
           "w": "shadow",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈʃædəʊ/",
+          "pos": "noun.",
           "cn": "几影子 阴影",
           "tags": [
             "reading"
@@ -1697,27 +1697,27 @@ const VocabData = {
         },
         {
           "w": "shallow",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈʃaləʊ/",
+          "pos": "noun.",
+          "cn": "浅浅的",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "shiver",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈʃɪvə/",
+          "pos": "noun.",
+          "cn": "颤抖",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "shore",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ʃɔː/",
+          "pos": "noun.",
+          "cn": "n.岸",
           "tags": [
             "reading"
           ]
@@ -1733,17 +1733,17 @@ const VocabData = {
         },
         {
           "w": "silt",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/sɪlt/",
+          "pos": "noun.",
+          "cn": "淤泥",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "situation",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɪtjuːˈeɪʃən/",
+          "pos": "noun.",
           "cn": "情况,处境。形势",
           "tags": [
             "reading"
@@ -1796,8 +1796,8 @@ const VocabData = {
         },
         {
           "w": "source",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɔːs/",
+          "pos": "noun.",
           "cn": "河的源头;  根源",
           "tags": [
             "reading"
@@ -1814,7 +1814,7 @@ const VocabData = {
         },
         {
           "w": "southern",
-          "phon": "",
+          "phon": "/ˈsʌðɚn/",
           "pos": "adj.",
           "cn": "南部的;  南方的",
           "tags": [
@@ -1823,7 +1823,7 @@ const VocabData = {
         },
         {
           "w": "southwest",
-          "phon": "",
+          "phon": "/saʊˈwɛst/",
           "pos": "adj.",
           "cn": "西南方;  西南部 西南方的;  西南部的",
           "tags": [
@@ -1832,7 +1832,7 @@ const VocabData = {
         },
         {
           "w": "splendid",
-          "phon": "",
+          "phon": "/ˈsplɛndɪd/",
           "pos": "adj.",
           "cn": "极好的;  壮观的",
           "tags": [
@@ -1850,8 +1850,8 @@ const VocabData = {
         },
         {
           "w": "sprinkle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈspɹɪŋkəl/",
+          "pos": "noun.",
           "cn": "自然地理",
           "tags": [
             "reading"
@@ -1895,8 +1895,8 @@ const VocabData = {
         },
         {
           "w": "suburb",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈsʌbɜːb/",
+          "pos": "noun.",
           "cn": "郯区, 郊外,近郊",
           "tags": [
             "reading"
@@ -1922,8 +1922,8 @@ const VocabData = {
         },
         {
           "w": "sunshine",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈsʌnʃaɪn/",
+          "pos": "noun.",
           "cn": "阳光,日光",
           "tags": [
             "reading"
@@ -1931,7 +1931,7 @@ const VocabData = {
         },
         {
           "w": "super",
-          "phon": "",
+          "phon": "/ˈs(j)uːpə(ɹ)/",
           "pos": "adj.",
           "cn": "超级的, 极好的",
           "tags": [
@@ -1940,7 +1940,7 @@ const VocabData = {
         },
         {
           "w": "superficial",
-          "phon": "",
+          "phon": "/ˌs(j)uːpəˈfɪʃəl/",
           "pos": "adj.",
           "cn": "外表的;  肤浅的 表面的 .",
           "tags": [
@@ -1958,8 +1958,8 @@ const VocabData = {
         },
         {
           "w": "swamp",
-          "phon": "",
-          "pos": "",
+          "phon": "/swɒmp/",
+          "pos": "noun.",
           "cn": "沼泽。湿地",
           "tags": [
             "reading"
@@ -1967,7 +1967,7 @@ const VocabData = {
         },
         {
           "w": "synthetic",
-          "phon": "",
+          "phon": "/sɪnˈθɛtɪk/",
           "pos": "adj.",
           "cn": "人造的,合成的",
           "tags": [
@@ -2030,9 +2030,9 @@ const VocabData = {
         },
         {
           "w": "tide",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/taɪd/",
+          "pos": "noun.",
+          "cn": "『潮』汐",
           "tags": [
             "reading"
           ]
@@ -2066,9 +2066,9 @@ const VocabData = {
         },
         {
           "w": "tremble",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɹɛmbl̩/",
+          "pos": "noun.",
+          "cn": "撼 撼 [han4]",
           "tags": [
             "reading"
           ]
@@ -2076,8 +2076,8 @@ const VocabData = {
         {
           "w": "tropics",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "热带",
           "tags": [
             "reading"
           ]
@@ -2093,8 +2093,8 @@ const VocabData = {
         },
         {
           "w": "typhoon",
-          "phon": "",
-          "pos": "",
+          "phon": "/taɪˈfuːn/",
+          "pos": "noun.",
           "cn": "台风",
           "tags": [
             "reading"
@@ -2102,9 +2102,9 @@ const VocabData = {
         },
         {
           "w": "upgrade",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈʌp.ɡɹeɪd/",
+          "pos": "noun.",
+          "cn": "升级",
           "tags": [
             "reading"
           ]
@@ -2121,15 +2121,15 @@ const VocabData = {
         {
           "w": "vapour",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "浓水",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "vertical",
-          "phon": "",
+          "phon": "/ˈvɜːtɪkəl/",
           "pos": "adj.",
           "cn": "垂直的 直立的",
           "tags": [
@@ -2207,7 +2207,7 @@ const VocabData = {
         },
         {
           "w": "arable",
-          "phon": "",
+          "phon": "/ˈæɹəbl̩/",
           "pos": "adj.",
           "cn": "适于耕种的",
           "tags": [
@@ -2261,8 +2261,8 @@ const VocabData = {
         },
         {
           "w": "branch",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɹæntʃ/",
+          "pos": "noun.",
           "cn": "分店 树枝; (企业或组织的) 分支机构",
           "tags": [
             "reading"
@@ -2288,17 +2288,17 @@ const VocabData = {
         },
         {
           "w": "bundle",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbʌnd(ə)l/",
+          "pos": "noun.",
+          "cn": "课程套餐",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "burgeon",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbɜː.d͡ʒən/",
+          "pos": "noun.",
           "cn": "嫩枝,新芽 急速增长;  发芽,抽枝",
           "tags": [
             "reading"
@@ -2315,8 +2315,8 @@ const VocabData = {
         },
         {
           "w": "catalyst",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkæt.əl.ɪst/",
+          "pos": "noun.",
           "cn": "催化剂;  促进因素",
           "tags": [
             "reading"
@@ -2324,7 +2324,7 @@ const VocabData = {
         },
         {
           "w": "charcoal",
-          "phon": "",
+          "phon": "/ˈtʃɑː.kəʊl/",
           "pos": "n.",
           "cn": "木炭",
           "tags": [
@@ -2333,9 +2333,9 @@ const VocabData = {
         },
         {
           "w": "circulation",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌsɜː(ɹ).kjʊˈleɪ.ʃən/",
+          "pos": "noun.",
+          "cn": "循环",
           "tags": [
             "reading"
           ]
@@ -2360,9 +2360,9 @@ const VocabData = {
         },
         {
           "w": "considerable",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kənˈsɪdəɹəbl̩/",
+          "pos": "noun.",
+          "cn": "颇高",
           "tags": [
             "reading"
           ]
@@ -2378,27 +2378,27 @@ const VocabData = {
         },
         {
           "w": "cultivate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkʌltɪveɪt/",
+          "pos": "verb.",
+          "cn": "吐纳",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "decay",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈkeɪ/",
+          "pos": "noun.",
+          "cn": "衰败",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "decompose",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌdiːkəmˈpəʊz/",
+          "pos": "verb.",
+          "cn": "腐烂",
           "tags": [
             "reading"
           ]
@@ -2432,7 +2432,7 @@ const VocabData = {
         },
         {
           "w": "diversity",
-          "phon": "",
+          "phon": "/daɪˈvɜː(ɹ)sɪti/",
           "pos": "n.",
           "cn": "多样性",
           "tags": [
@@ -2477,7 +2477,7 @@ const VocabData = {
         },
         {
           "w": "efficient",
-          "phon": "",
+          "phon": "/əˈfɪʃənt/",
           "pos": "adj.",
           "cn": "效率高的",
           "tags": [
@@ -2504,8 +2504,8 @@ const VocabData = {
         },
         {
           "w": "enzyme",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɛn.zaɪm/",
+          "pos": "noun.",
           "cn": "酶",
           "tags": [
             "reading"
@@ -2513,9 +2513,9 @@ const VocabData = {
         },
         {
           "w": "evolve",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪˈvɒlv/",
+          "pos": "verb.",
+          "cn": "瑞雅日盛",
           "tags": [
             "reading"
           ]
@@ -2540,9 +2540,9 @@ const VocabData = {
         },
         {
           "w": "extinction",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪkˈstɪŋkʃ(ə)n/",
+          "pos": "noun.",
+          "cn": "n.灭绝 ,消灭",
           "tags": [
             "reading"
           ]
@@ -2558,9 +2558,9 @@ const VocabData = {
         },
         {
           "w": "favourable",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfeɪv(ə)ɹəbəl/",
+          "pos": "adjective.",
+          "cn": "不利變動",
           "tags": [
             "reading"
           ]
@@ -2576,9 +2576,9 @@ const VocabData = {
         },
         {
           "w": "flower",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈflaʊ.ə/",
+          "pos": "noun.",
+          "cn": "花",
           "tags": [
             "reading"
           ]
@@ -2586,8 +2586,8 @@ const VocabData = {
         {
           "w": "fluctuate",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "潮起潮落",
           "tags": [
             "reading"
           ]
@@ -2603,8 +2603,8 @@ const VocabData = {
         },
         {
           "w": "fruit",
-          "phon": "",
-          "pos": "",
+          "phon": "/fɹuːt/",
+          "pos": "noun.",
           "cn": "水果;  成果",
           "tags": [
             "reading"
@@ -2631,8 +2631,8 @@ const VocabData = {
         {
           "w": "germinate",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "发芽",
           "tags": [
             "reading"
           ]
@@ -2648,17 +2648,17 @@ const VocabData = {
         },
         {
           "w": "harvest",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhaːvəst/",
+          "pos": "noun.",
+          "cn": "收集",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "hay",
-          "phon": "",
-          "pos": "",
+          "phon": "/heɪ/",
+          "pos": "noun.",
           "cn": "干草",
           "tags": [
             "reading"
@@ -2666,8 +2666,8 @@ const VocabData = {
         },
         {
           "w": "heap",
-          "phon": "",
-          "pos": "",
+          "phon": "/heːp/",
+          "pos": "noun.",
           "cn": "堆 料",
           "tags": [
             "reading"
@@ -2694,8 +2694,8 @@ const VocabData = {
         {
           "w": "hybridisation",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "杂交",
           "tags": [
             "reading"
           ]
@@ -2712,7 +2712,7 @@ const VocabData = {
         {
           "w": "impact",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "影响",
           "tags": [
             "reading"
@@ -2729,18 +2729,18 @@ const VocabData = {
         },
         {
           "w": "jungle",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdʒʌŋ.ɡ(ə)l/",
+          "pos": "noun.",
+          "cn": "密林",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "lawn",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/lɔːn/",
+          "pos": "noun.",
+          "cn": "草坪",
           "tags": [
             "reading"
           ]
@@ -2792,8 +2792,8 @@ const VocabData = {
         },
         {
           "w": "mechanism",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmɛkənɪzm/",
+          "pos": "noun.",
           "cn": "机制;  构造",
           "tags": [
             "reading"
@@ -2819,9 +2819,9 @@ const VocabData = {
         },
         {
           "w": "mould",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/məʊld/",
+          "pos": "noun.",
+          "cn": "霉菌",
           "tags": [
             "reading"
           ]
@@ -2918,9 +2918,9 @@ const VocabData = {
         },
         {
           "w": "pick",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɪk/",
+          "pos": "noun.",
+          "cn": "选择",
           "tags": [
             "reading"
           ]
@@ -2981,7 +2981,7 @@ const VocabData = {
         },
         {
           "w": "productive",
-          "phon": "",
+          "phon": "/pɹəˈdʌktɪv/",
           "pos": "adj.",
           "cn": "多产的",
           "tags": [
@@ -3027,7 +3027,7 @@ const VocabData = {
         {
           "w": "reclaim",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "转 (to roll ) 所以英语中包含 volv 和 volu 的单词多 含有此意义: evolve (滚动着展开 >发展;  进化) ,",
           "tags": [
             "reading"
@@ -3044,27 +3044,27 @@ const VocabData = {
         },
         {
           "w": "reef",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹiːf/",
+          "pos": "noun.",
+          "cn": "暗礁",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "release",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈliːs/",
+          "pos": "noun.",
+          "cn": "释放",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "reproduce",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɹi.pɹoʊˈdjus/",
+          "pos": "verb.",
+          "cn": "v.复制 ,再创作",
           "tags": [
             "reading"
           ]
@@ -3080,9 +3080,9 @@ const VocabData = {
         },
         {
           "w": "ripen",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹaɪpən/",
+          "pos": "verb.",
+          "cn": "熟化",
           "tags": [
             "reading"
           ]
@@ -3125,9 +3125,9 @@ const VocabData = {
         },
         {
           "w": "seasonal",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsiːzənəl/",
+          "pos": "noun.",
+          "cn": "季节性",
           "tags": [
             "reading"
           ]
@@ -3161,8 +3161,8 @@ const VocabData = {
         },
         {
           "w": "sow",
-          "phon": "",
-          "pos": "",
+          "phon": "/saʊ/",
+          "pos": "noun.",
           "cn": "植物研究",
           "tags": [
             "reading"
@@ -3179,9 +3179,9 @@ const VocabData = {
         },
         {
           "w": "stack",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/stæk/",
+          "pos": "noun.",
+          "cn": "堆栈",
           "tags": [
             "reading"
           ]
@@ -3197,8 +3197,8 @@ const VocabData = {
         },
         {
           "w": "straw",
-          "phon": "",
-          "pos": "",
+          "phon": "/stɹɔː/",
+          "pos": "noun.",
           "cn": "床垫里填充着羽毛。棉花或稻草。",
           "tags": [
             "reading"
@@ -3215,8 +3215,8 @@ const VocabData = {
         },
         {
           "w": "surroundings",
-          "phon": "",
-          "pos": "",
+          "phon": "/səˈɹaʊndɪŋz/",
+          "pos": "noun.",
           "cn": "环境",
           "tags": [
             "reading"
@@ -3242,9 +3242,9 @@ const VocabData = {
         },
         {
           "w": "timber",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɪmbə/",
+          "pos": "noun.",
+          "cn": "木材",
           "tags": [
             "reading"
           ]
@@ -3269,8 +3269,8 @@ const VocabData = {
         },
         {
           "w": "undermine",
-          "phon": "",
-          "pos": "",
+          "phon": "/ʌndəˈmaɪn/",
+          "pos": "verb.",
           "cn": "破坏;  逐渐削弱",
           "tags": [
             "reading"
@@ -3287,8 +3287,8 @@ const VocabData = {
         },
         {
           "w": "variation",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌvɛəɹɪˈeɪʃn̩/",
+          "pos": "noun.",
           "cn": "娈种;  变异",
           "tags": [
             "reading"
@@ -3296,8 +3296,8 @@ const VocabData = {
         },
         {
           "w": "vase",
-          "phon": "",
-          "pos": "",
+          "phon": "/væes/",
+          "pos": "noun.",
           "cn": "瓶,花瓶",
           "tags": [
             "reading"
@@ -3305,8 +3305,8 @@ const VocabData = {
         },
         {
           "w": "vegetation",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌvɛd͡ʒəˈteɪʃən/",
+          "pos": "noun.",
           "cn": "植物 草木",
           "tags": [
             "reading"
@@ -3332,8 +3332,8 @@ const VocabData = {
         },
         {
           "w": "weed",
-          "phon": "",
-          "pos": "",
+          "phon": "/wiːd/",
+          "pos": "noun.",
           "cn": "杂草。野草 除杂草",
           "tags": [
             "reading"
@@ -3341,17 +3341,17 @@ const VocabData = {
         },
         {
           "w": "wither",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈwɪðə/",
+          "pos": "verb.",
+          "cn": "枯",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "yield",
-          "phon": "",
-          "pos": "",
+          "phon": "/jiːld/",
+          "pos": "verb.",
           "cn": "产量;  投资收益 出产;  屈服,服从",
           "tags": [
             "reading"
@@ -3365,7 +3365,7 @@ const VocabData = {
       "words": [
         {
           "w": "acoustic",
-          "phon": "",
+          "phon": "/əˈkuːstɪk/",
           "pos": "adj.",
           "cn": "听觉的;  声音的",
           "tags": [
@@ -3375,7 +3375,7 @@ const VocabData = {
         {
           "w": "alternate",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "reading"
@@ -3383,7 +3383,7 @@ const VocabData = {
         },
         {
           "w": "amphibian",
-          "phon": "",
+          "phon": "/æmˈfɪbɪən/",
           "pos": "adj.",
           "cn": "两栖动物;  水陆两用车 两栖动物的;  水陆两用的",
           "tags": [
@@ -3392,8 +3392,8 @@ const VocabData = {
         },
         {
           "w": "anatomy",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈnætəmi/",
+          "pos": "noun.",
           "cn": "解剖学",
           "tags": [
             "reading"
@@ -3410,17 +3410,17 @@ const VocabData = {
         },
         {
           "w": "bacteria",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bækˈtɪəɹ.ɪ.ə/",
+          "pos": "noun.",
+          "cn": "细菌",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "bar",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɑː/",
+          "pos": "noun.",
           "cn": "酒吧;  吧台",
           "tags": [
             "reading"
@@ -3428,17 +3428,17 @@ const VocabData = {
         },
         {
           "w": "bark",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bɑːk/",
+          "pos": "noun.",
+          "cn": "狗吠",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "barn",
-          "phon": "",
-          "pos": "",
+          "phon": "[baːn]",
+          "pos": "noun.",
           "cn": "谷仓;  牲口棚",
           "tags": [
             "reading"
@@ -3455,8 +3455,8 @@ const VocabData = {
         },
         {
           "w": "beak",
-          "phon": "",
-          "pos": "",
+          "phon": "/biːk/",
+          "pos": "noun.",
           "cn": "鸟嘴,喙",
           "tags": [
             "reading"
@@ -3464,8 +3464,8 @@ const VocabData = {
         },
         {
           "w": "bear",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɛə(ɹ)/",
+          "pos": "noun.",
           "cn": "生 (孩子);容忍;  承担 (责任)",
           "tags": [
             "reading"
@@ -3473,7 +3473,7 @@ const VocabData = {
         },
         {
           "w": "beast",
-          "phon": "",
+          "phon": "/biːst/",
           "pos": "n.",
           "cn": "兽。野兽;  凶残的人, 畜生",
           "tags": [
@@ -3482,9 +3482,9 @@ const VocabData = {
         },
         {
           "w": "behaviour",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bɪˈheɪvjə/",
+          "pos": "noun.",
+          "cn": "行为",
           "tags": [
             "reading"
           ]
@@ -3492,17 +3492,17 @@ const VocabData = {
         {
           "w": "biologist",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "生物学家",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "bite",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bʌɪt/",
+          "pos": "noun.",
+          "cn": "咬合",
           "tags": [
             "reading"
           ]
@@ -3518,8 +3518,8 @@ const VocabData = {
         },
         {
           "w": "breed",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɹiːd/",
+          "pos": "noun.",
           "cn": "饲养;  繁殖 品种",
           "tags": [
             "reading"
@@ -3563,8 +3563,8 @@ const VocabData = {
         },
         {
           "w": "bull",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbʊl/",
+          "pos": "noun.",
           "cn": "公牛",
           "tags": [
             "reading"
@@ -3590,8 +3590,8 @@ const VocabData = {
         },
         {
           "w": "calf",
-          "phon": "",
-          "pos": "",
+          "phon": "/kæf/",
+          "pos": "noun.",
           "cn": "幼兽;  小小牛",
           "tags": [
             "reading"
@@ -3599,9 +3599,9 @@ const VocabData = {
         },
         {
           "w": "camel",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkæməl/",
+          "pos": "noun.",
+          "cn": "駱駝",
           "tags": [
             "reading"
           ]
@@ -3653,8 +3653,8 @@ const VocabData = {
         },
         {
           "w": "cock",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɒk/",
+          "pos": "noun.",
           "cn": "羲",
           "tags": [
             "reading"
@@ -3662,8 +3662,8 @@ const VocabData = {
         },
         {
           "w": "courtship",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkɔː(ɹ)tʃɪp/",
+          "pos": "noun.",
           "cn": "求偶",
           "tags": [
             "reading"
@@ -3671,9 +3671,9 @@ const VocabData = {
         },
         {
           "w": "crawl",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɹɔl/",
+          "pos": "noun.",
+          "cn": "耙梳",
           "tags": [
             "reading"
           ]
@@ -3707,8 +3707,8 @@ const VocabData = {
         },
         {
           "w": "crow",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɹəʊ/",
+          "pos": "noun.",
           "cn": "鸟鸦",
           "tags": [
             "reading"
@@ -3716,8 +3716,8 @@ const VocabData = {
         },
         {
           "w": "crowd",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɹaʊd/",
+          "pos": "noun.",
           "cn": "人群;  观众; -伙人",
           "tags": [
             "reading"
@@ -3743,8 +3743,8 @@ const VocabData = {
         },
         {
           "w": "curl",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəːl/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "reading"
@@ -3815,8 +3815,8 @@ const VocabData = {
         },
         {
           "w": "eagle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈiːɡəl/",
+          "pos": "noun.",
           "cn": "雕",
           "tags": [
             "reading"
@@ -3842,7 +3842,7 @@ const VocabData = {
         },
         {
           "w": "epidemic",
-          "phon": "",
+          "phon": "/ˌɛpɪˈdɛmɪk/",
           "pos": "adj.",
           "cn": "流行性的;  极为盛行的 坏事的)盛行 流行病;",
           "tags": [
@@ -3878,9 +3878,9 @@ const VocabData = {
         },
         {
           "w": "falcon",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfɒlkən/",
+          "pos": "noun.",
+          "cn": "隼",
           "tags": [
             "reading"
           ]
@@ -3914,8 +3914,8 @@ const VocabData = {
         },
         {
           "w": "fin",
-          "phon": "",
-          "pos": "",
+          "phon": "/fɪn/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "reading"
@@ -3932,9 +3932,9 @@ const VocabData = {
         },
         {
           "w": "flock",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/flɒk/",
+          "pos": "noun.",
+          "cn": "Constellation name (optional)",
           "tags": [
             "reading"
           ]
@@ -3986,8 +3986,8 @@ const VocabData = {
         },
         {
           "w": "gene",
-          "phon": "",
-          "pos": "",
+          "phon": "/dʒiːn/",
+          "pos": "noun.",
           "cn": "基因",
           "tags": [
             "reading"
@@ -3995,8 +3995,8 @@ const VocabData = {
         },
         {
           "w": "germ",
-          "phon": "",
-          "pos": "",
+          "phon": "/d͡ʒɜːm/",
+          "pos": "noun.",
           "cn": "几:",
           "tags": [
             "reading"
@@ -4004,8 +4004,8 @@ const VocabData = {
         },
         {
           "w": "goose",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɡuːs/",
+          "pos": "noun.",
           "cn": "鹅;  鹅肉",
           "tags": [
             "reading"
@@ -4040,9 +4040,9 @@ const VocabData = {
         },
         {
           "w": "hatch",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/hætʃ/",
+          "pos": "noun.",
+          "cn": "孵化",
           "tags": [
             "reading"
           ]
@@ -4067,8 +4067,8 @@ const VocabData = {
         },
         {
           "w": "herbivore",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈhɜːbɪvɔː(ɹ)/",
+          "pos": "noun.",
           "cn": "类似地, 食草动物)中的字根",
           "tags": [
             "reading"
@@ -4085,8 +4085,8 @@ const VocabData = {
         },
         {
           "w": "hibernation",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌhaɪ.bəːˈneɪ.ʃən/",
+          "pos": "noun.",
           "cn": "冬眠",
           "tags": [
             "reading"
@@ -4094,8 +4094,8 @@ const VocabData = {
         },
         {
           "w": "hive",
-          "phon": "",
-          "pos": "",
+          "phon": "/haɪv/",
+          "pos": "noun.",
           "cn": "蜂房;  繁忙的场所 像蜜蜂般 ) 密集群居",
           "tags": [
             "reading"
@@ -4103,8 +4103,8 @@ const VocabData = {
         },
         {
           "w": "horn",
-          "phon": "",
-          "pos": "",
+          "phon": "/hɔːn/",
+          "pos": "noun.",
           "cn": "几",
           "tags": [
             "reading"
@@ -4121,17 +4121,17 @@ const VocabData = {
         },
         {
           "w": "hybridize",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhaɪ.bɹɪd.aɪz/",
+          "pos": "verb.",
+          "cn": "杂交",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "insect",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɪnsɛkt/",
+          "pos": "noun.",
           "cn": "躯体分割成 字根 sect 指 切割 (to cut) 如:",
           "tags": [
             "reading"
@@ -4148,8 +4148,8 @@ const VocabData = {
         },
         {
           "w": "intelligence",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪnˈtɛl.ɪ.d͡ʒəns/",
+          "pos": "noun.",
           "cn": "智慧。智力;  情报,谍报",
           "tags": [
             "reading"
@@ -4175,8 +4175,8 @@ const VocabData = {
         },
         {
           "w": "ivory",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈaɪvəɹi/",
+          "pos": "noun.",
           "cn": "象牙",
           "tags": [
             "reading"
@@ -4184,8 +4184,8 @@ const VocabData = {
         },
         {
           "w": "kangaroo",
-          "phon": "",
-          "pos": "",
+          "phon": "/kaŋ.ɡə.ˈɹuː/",
+          "pos": "noun.",
           "cn": "袋鼠",
           "tags": [
             "reading"
@@ -4220,9 +4220,9 @@ const VocabData = {
         },
         {
           "w": "mammal",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmæməl/",
+          "pos": "noun.",
+          "cn": "哺乳动物",
           "tags": [
             "reading"
           ]
@@ -4301,9 +4301,9 @@ const VocabData = {
         },
         {
           "w": "offspring",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɒfspɹɪŋ/",
+          "pos": "noun.",
+          "cn": "后代 ,后嗣,后裔,亲子,子女",
           "tags": [
             "reading"
           ]
@@ -4319,8 +4319,8 @@ const VocabData = {
         },
         {
           "w": "originate",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈɹɪdʒɪneɪt/",
+          "pos": "verb.",
           "cn": "煞",
           "tags": [
             "reading"
@@ -4328,45 +4328,45 @@ const VocabData = {
         },
         {
           "w": "owl",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/aʊl/",
+          "pos": "noun.",
+          "cn": "猫头鹰",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "ox",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɒks/",
+          "pos": "noun.",
+          "cn": "牛",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "panda",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpændə/",
+          "pos": "noun.",
+          "cn": "熊猫",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "parasite",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpæɹəˌsaɪt/",
+          "pos": "noun.",
+          "cn": "寄生者",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "paw",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɔː/",
+          "pos": "noun.",
+          "cn": "爪子",
           "tags": [
             "reading"
           ]
@@ -4382,9 +4382,9 @@ const VocabData = {
         },
         {
           "w": "pest",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɛst/",
+          "pos": "noun.",
+          "cn": "害虫",
           "tags": [
             "reading"
           ]
@@ -4427,9 +4427,9 @@ const VocabData = {
         },
         {
           "w": "prey",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɹeɪ/",
+          "pos": "noun.",
+          "cn": "牺牲品",
           "tags": [
             "reading"
           ]
@@ -4463,8 +4463,8 @@ const VocabData = {
         },
         {
           "w": "pup",
-          "phon": "",
-          "pos": "",
+          "phon": "/pʌp/",
+          "pos": "noun.",
           "cn": "幼小动物",
           "tags": [
             "reading"
@@ -4490,7 +4490,7 @@ const VocabData = {
         },
         {
           "w": "roar",
-          "phon": "",
+          "phon": "/ɹɔː/",
           "pos": "n.",
           "cn": "吼叫,咆哮",
           "tags": [
@@ -4526,8 +4526,8 @@ const VocabData = {
         },
         {
           "w": "secrete",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɪˈkɹiːt/",
+          "pos": "adjective.",
           "cn": "分泌",
           "tags": [
             "reading"
@@ -4544,8 +4544,8 @@ const VocabData = {
         },
         {
           "w": "shepherd",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈʃɛpəd/",
+          "pos": "noun.",
           "cn": "牧羊人 羊倌",
           "tags": [
             "reading"
@@ -4553,8 +4553,8 @@ const VocabData = {
         },
         {
           "w": "skin",
-          "phon": "",
-          "pos": "",
+          "phon": "/skɪn/",
+          "pos": "noun.",
           "cn": "皮肤;  外皮 当他跌倒",
           "tags": [
             "reading"
@@ -4571,18 +4571,18 @@ const VocabData = {
         },
         {
           "w": "spawn",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈspɔːn/",
+          "pos": "verb.",
+          "cn": "衍体",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "species",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈspiːsiːz/",
+          "pos": "noun.",
+          "cn": "物种",
           "tags": [
             "reading"
           ]
@@ -4607,7 +4607,7 @@ const VocabData = {
         },
         {
           "w": "stable",
-          "phon": "",
+          "phon": "/ˈsteɪ.bəɫ/",
           "pos": "adj.",
           "cn": "马厩;  牛棚 稳定的;  稳固的",
           "tags": [
@@ -4670,9 +4670,9 @@ const VocabData = {
         },
         {
           "w": "swallow",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈswɒləʊ/",
+          "pos": "noun.",
+          "cn": "燕子",
           "tags": [
             "reading"
           ]
@@ -4697,7 +4697,7 @@ const VocabData = {
         },
         {
           "w": "tame",
-          "phon": "",
+          "phon": "/teɪm/",
           "pos": "adj.",
           "cn": "驯养;  制服 驯服的;  乏味的",
           "tags": [
@@ -4706,17 +4706,17 @@ const VocabData = {
         },
         {
           "w": "throng",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/θɹɒŋ/",
+          "pos": "noun.",
+          "cn": "人群",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "tortoise",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈtɔː.təs/",
+          "pos": "noun.",
           "cn": "龟; 陆龟",
           "tags": [
             "reading"
@@ -4760,9 +4760,9 @@ const VocabData = {
         },
         {
           "w": "undergo",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌʌndəˈɡəʊ/",
+          "pos": "verb.",
+          "cn": "经过",
           "tags": [
             "reading"
           ]
@@ -4841,7 +4841,7 @@ const VocabData = {
         },
         {
           "w": "wolf",
-          "phon": "",
+          "phon": "/wʊlf/",
           "pos": "n.",
           "cn": "狼",
           "tags": [
@@ -4868,8 +4868,8 @@ const VocabData = {
         },
         {
           "w": "zoologist",
-          "phon": "",
-          "pos": "",
+          "phon": "/zəʊˈɒlədʒɪst/",
+          "pos": "noun.",
           "cn": "动物学家",
           "tags": [
             "reading"
@@ -4883,8 +4883,8 @@ const VocabData = {
       "words": [
         {
           "w": "antenna",
-          "phon": "",
-          "pos": "",
+          "phon": "/ænˈtɛn.ə/",
+          "pos": "noun.",
           "cn": "天线",
           "tags": [
             "reading"
@@ -4892,8 +4892,8 @@ const VocabData = {
         },
         {
           "w": "ash",
-          "phon": "",
-          "pos": "",
+          "phon": "/æʃ/",
+          "pos": "noun.",
           "cn": "灰烬",
           "tags": [
             "reading"
@@ -4901,8 +4901,8 @@ const VocabData = {
         },
         {
           "w": "astrology",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈstɹɒlədʒi/",
+          "pos": "noun.",
           "cn": "占星学;  占星术",
           "tags": [
             "reading"
@@ -4919,8 +4919,8 @@ const VocabData = {
         },
         {
           "w": "astronomy",
-          "phon": "",
-          "pos": "",
+          "phon": "/æˈstɹɑnəˌmi/",
+          "pos": "noun.",
           "cn": "天文学",
           "tags": [
             "reading"
@@ -4946,7 +4946,7 @@ const VocabData = {
         },
         {
           "w": "celestial",
-          "phon": "",
+          "phon": "/səˈlɛstiəl/",
           "pos": "adj.",
           "cn": "天上的",
           "tags": [
@@ -4991,8 +4991,8 @@ const VocabData = {
         },
         {
           "w": "composition",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌkɒmpəˈzɪʃən/",
+          "pos": "noun.",
           "cn": "成分 构成;  作品;  创作",
           "tags": [
             "reading"
@@ -5036,9 +5036,9 @@ const VocabData = {
         },
         {
           "w": "despair",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈspɛə(ɹ)/",
+          "pos": "noun.",
+          "cn": "绝望",
           "tags": [
             "reading"
           ]
@@ -5063,7 +5063,7 @@ const VocabData = {
         },
         {
           "w": "dimension",
-          "phon": "",
+          "phon": "/daɪˈmɛnʃən/",
           "pos": "n.",
           "cn": "范围;  维 (度)",
           "tags": [
@@ -5135,8 +5135,8 @@ const VocabData = {
         },
         {
           "w": "expedition",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɛkspəˈdɪʃən/",
+          "pos": "noun.",
           "cn": "远征,探险",
           "tags": [
             "reading"
@@ -5144,7 +5144,7 @@ const VocabData = {
         },
         {
           "w": "exploration",
-          "phon": "",
+          "phon": "/ˌɛkspləˈɹeɪʃən/",
           "pos": "n.",
           "cn": "探索",
           "tags": [
@@ -5216,7 +5216,7 @@ const VocabData = {
         },
         {
           "w": "hopeless",
-          "phon": "",
+          "phon": "/ˈhəʊplɪs/",
           "pos": "adj.",
           "cn": "无望的;  极差的",
           "tags": [
@@ -5279,9 +5279,9 @@ const VocabData = {
         },
         {
           "w": "module",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmɒdjuːl/",
+          "pos": "noun.",
+          "cn": "模块",
           "tags": [
             "reading"
           ]
@@ -5315,8 +5315,8 @@ const VocabData = {
         },
         {
           "w": "orbit",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɔː(ɹ)bɪt/",
+          "pos": "noun.",
           "cn": "轨道",
           "tags": [
             "reading"
@@ -5324,7 +5324,7 @@ const VocabData = {
         },
         {
           "w": "overwhelming",
-          "phon": "",
+          "phon": "/ˌəʊvəˈwɛlmɪŋ/",
           "pos": "adj.",
           "cn": "压倒性的",
           "tags": [
@@ -5360,8 +5360,8 @@ const VocabData = {
         },
         {
           "w": "propulsion",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɹəˈpʌlʃən/",
+          "pos": "noun.",
           "cn": "推进力",
           "tags": [
             "reading"
@@ -5378,7 +5378,7 @@ const VocabData = {
         },
         {
           "w": "radioactive",
-          "phon": "",
+          "phon": "/ˌɹeɪdioʊˈaktɪv/",
           "pos": "adj.",
           "cn": "放射性的",
           "tags": [
@@ -5433,7 +5433,7 @@ const VocabData = {
         {
           "w": "spacecraft",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "宇宙飞船",
           "tags": [
             "reading"
@@ -5477,17 +5477,17 @@ const VocabData = {
         },
         {
           "w": "squash",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/skwɒʃ/",
+          "pos": "noun.",
+          "cn": "挤 [ji3]",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "substance",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈsʌbstəns/",
+          "pos": "noun.",
           "cn": "物质;  实质。要旨",
           "tags": [
             "reading"
@@ -5540,8 +5540,8 @@ const VocabData = {
         },
         {
           "w": "universe",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈjuːnɪˌvɜːs/",
+          "pos": "proper noun.",
           "cn": "面对面 >交谈) ,",
           "tags": [
             "reading"
@@ -5549,8 +5549,8 @@ const VocabData = {
         },
         {
           "w": "vent",
-          "phon": "",
-          "pos": "",
+          "phon": "/vɛnt/",
+          "pos": "noun.",
           "cn": "排放;  发泄 排气0",
           "tags": [
             "reading"
@@ -5573,8 +5573,8 @@ const VocabData = {
         },
         {
           "w": "abstract",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈæbˌstɹækt/",
+          "pos": "noun.",
           "cn": "拉出来 〉一个事物的实质内容被拉走了 的;  摘要) ;  拉着离开 > distract (使分心) =",
           "tags": [
             "writing"
@@ -5582,17 +5582,17 @@ const VocabData = {
         },
         {
           "w": "abuse",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈbjuːs/",
+          "pos": "noun.",
+          "cn": "虐待",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "academy",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈkæd.ə.mi/",
+          "pos": "noun.",
           "cn": "专科院校;(美国的)私立中学;  研究院, 学会",
           "tags": [
             "writing"
@@ -5600,8 +5600,8 @@ const VocabData = {
         },
         {
           "w": "accommodation",
-          "phon": "",
-          "pos": "",
+          "phon": "/ə.ˌkɒm.ə.ˈdeɪ.ʃən/",
+          "pos": "noun.",
           "cn": "住处;  食宿招待",
           "tags": [
             "writing"
@@ -5627,8 +5627,8 @@ const VocabData = {
         },
         {
           "w": "achieve",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈtʃiːv/",
+          "pos": "verb.",
           "cn": "达到 实现",
           "tags": [
             "writing"
@@ -5645,9 +5645,9 @@ const VocabData = {
         },
         {
           "w": "acquire",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈkwaɪə/",
+          "pos": "verb.",
+          "cn": "收购",
           "tags": [
             "writing"
           ]
@@ -5682,8 +5682,8 @@ const VocabData = {
         {
           "w": "all-round",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "adjective.",
+          "cn": "全方位的",
           "tags": [
             "writing"
           ]
@@ -5708,8 +5708,8 @@ const VocabData = {
         },
         {
           "w": "analogy",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈnæləd͡ʒi/",
+          "pos": "noun.",
           "cn": "类比;  类推",
           "tags": [
             "writing"
@@ -5718,8 +5718,8 @@ const VocabData = {
         {
           "w": "analyse",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "查看",
           "tags": [
             "writing"
           ]
@@ -5735,8 +5735,8 @@ const VocabData = {
         },
         {
           "w": "apply",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈplaɪ/",
+          "pos": "verb.",
           "cn": "应用;  适用",
           "tags": [
             "writing"
@@ -5744,8 +5744,8 @@ const VocabData = {
         },
         {
           "w": "appreciate",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈpɹiː.si.eɪt/",
+          "pos": "verb.",
           "cn": "赏识;  感激;  意识到",
           "tags": [
             "writing"
@@ -5762,17 +5762,17 @@ const VocabData = {
         },
         {
           "w": "approximately",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈpɹɒk.sɪ.mət.li/",
+          "pos": "adverb.",
+          "cn": "大概",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "aptitude",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈæptɪˌtjuːd/",
+          "pos": "noun.",
           "cn": "此 >天才) .",
           "tags": [
             "writing"
@@ -5781,7 +5781,7 @@ const VocabData = {
         {
           "w": "arithmetic",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "算数",
           "tags": [
             "writing"
@@ -5799,16 +5799,16 @@ const VocabData = {
         {
           "w": "assignment",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "分配",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "assistant",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈsɪstənt/",
+          "pos": "noun.",
           "cn": "助手 助理",
           "tags": [
             "writing"
@@ -5816,18 +5816,18 @@ const VocabData = {
         },
         {
           "w": "assume",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈsuːm/",
+          "pos": "verb.",
+          "cn": "表现为",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "attain",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈteɪn/",
+          "pos": "verb.",
+          "cn": "获得",
           "tags": [
             "writing"
           ]
@@ -5888,7 +5888,7 @@ const VocabData = {
         },
         {
           "w": "bibliography",
-          "phon": "",
+          "phon": "/bɪbliɒɡɹəfi/",
           "pos": "n.",
           "cn": "参考书目",
           "tags": [
@@ -5897,8 +5897,8 @@ const VocabData = {
         },
         {
           "w": "biography",
-          "phon": "",
-          "pos": "",
+          "phon": "/baɪˈɒɡɹəfi/",
+          "pos": "noun.",
           "cn": "传记",
           "tags": [
             "writing"
@@ -5906,8 +5906,8 @@ const VocabData = {
         },
         {
           "w": "biology",
-          "phon": "",
-          "pos": "",
+          "phon": "/baɪˈɒlədʒɪ/",
+          "pos": "noun.",
           "cn": "生物学;  生命机理",
           "tags": [
             "writing"
@@ -5915,8 +5915,8 @@ const VocabData = {
         },
         {
           "w": "blend",
-          "phon": "",
-          "pos": "",
+          "phon": "/blɛnd/",
+          "pos": "noun.",
           "cn": "混合物 混合;〈使)交融",
           "tags": [
             "writing"
@@ -5951,8 +5951,8 @@ const VocabData = {
         },
         {
           "w": "calculus",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkæl.kjʊ.ləs/",
+          "pos": "noun.",
           "cn": "微积分;  结石",
           "tags": [
             "writing"
@@ -5960,9 +5960,9 @@ const VocabData = {
         },
         {
           "w": "campus",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkæmpəs/",
+          "pos": "noun.",
+          "cn": "校园",
           "tags": [
             "writing"
           ]
@@ -5996,9 +5996,9 @@ const VocabData = {
         },
         {
           "w": "catalogue",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkætəlɑɡ/",
+          "pos": "noun.",
+          "cn": "目录",
           "tags": [
             "writing"
           ]
@@ -6032,9 +6032,9 @@ const VocabData = {
         },
         {
           "w": "chapter",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈt͡ʃæptə/",
+          "pos": "noun.",
+          "cn": "章节",
           "tags": [
             "writing"
           ]
@@ -6087,8 +6087,8 @@ const VocabData = {
         {
           "w": "coed",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "男女共学",
           "tags": [
             "writing"
           ]
@@ -6104,8 +6104,8 @@ const VocabData = {
         },
         {
           "w": "compare",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəmˈpɛə/",
+          "pos": "noun.",
           "cn": "比较;  把::比作;  比得上",
           "tags": [
             "writing"
@@ -6122,25 +6122,25 @@ const VocabData = {
         },
         {
           "w": "compose",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəmˈpəʊz/",
+          "pos": "verb.",
+          "cn": "撰写",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "comprehend",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɒmpɹɪˈhɛnd/",
+          "pos": "verb.",
+          "cn": "蓋 盖 [gai4]",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "compulsory",
-          "phon": "",
+          "phon": "/kəmˈpʌlsəri/",
           "pos": "adj.",
           "cn": "强制的",
           "tags": [
@@ -6149,8 +6149,8 @@ const VocabData = {
         },
         {
           "w": "conclude",
-          "phon": "",
-          "pos": "",
+          "phon": "/kən.ˈkluːd/",
+          "pos": "verb.",
           "cn": "推断出,得出结论;(使)结束",
           "tags": [
             "writing"
@@ -6186,7 +6186,7 @@ const VocabData = {
         {
           "w": "consult",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "请教;  查阅",
           "tags": [
             "writing"
@@ -6194,17 +6194,17 @@ const VocabData = {
         },
         {
           "w": "content",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kənˈtɛnt/",
+          "pos": "noun.",
+          "cn": "内容",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "context",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkɒntɛkst/",
+          "pos": "noun.",
           "cn": "上下文; 语境;  背景 来龙去脉",
           "tags": [
             "writing"
@@ -6239,17 +6239,17 @@ const VocabData = {
         },
         {
           "w": "copy",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkɒpi/",
+          "pos": "noun.",
+          "cn": "复制 ",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "course",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɔːs/",
+          "pos": "noun.",
           "cn": "课程",
           "tags": [
             "writing"
@@ -6266,8 +6266,8 @@ const VocabData = {
         },
         {
           "w": "cram",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɹæm/",
+          "pos": "noun.",
           "cn": "把塞进; (为应考) 临时死记硬背",
           "tags": [
             "writing"
@@ -6284,8 +6284,8 @@ const VocabData = {
         },
         {
           "w": "cube",
-          "phon": "",
-          "pos": "",
+          "phon": "/kjuːb/",
+          "pos": "noun.",
           "cn": "立方体;  立方, 三次幂;  立方形的东西",
           "tags": [
             "writing"
@@ -6302,9 +6302,9 @@ const VocabData = {
         },
         {
           "w": "data",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdaetə/",
+          "pos": "noun.",
+          "cn": "数据",
           "tags": [
             "writing"
           ]
@@ -6320,9 +6320,9 @@ const VocabData = {
         },
         {
           "w": "dean",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/diːn/",
+          "pos": "noun.",
+          "cn": "n.系主任",
           "tags": [
             "writing"
           ]
@@ -6347,9 +6347,9 @@ const VocabData = {
         },
         {
           "w": "deduce",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈdjuːs/",
+          "pos": "verb.",
+          "cn": "v.演绎",
           "tags": [
             "writing"
           ]
@@ -6375,8 +6375,8 @@ const VocabData = {
         {
           "w": "deliberate",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "v.审议 ,故意 ;adj.蓄意 ,有意",
           "tags": [
             "writing"
           ]
@@ -6455,8 +6455,8 @@ const VocabData = {
         },
         {
           "w": "diary",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈdaɪəɹi/",
+          "pos": "noun.",
           "cn": "日记",
           "tags": [
             "writing"
@@ -6464,8 +6464,8 @@ const VocabData = {
         },
         {
           "w": "dictate",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈdɪkˌteɪt/",
+          "pos": "noun.",
           "cn": "强行规定 让(某人 )听写;  命令 ,",
           "tags": [
             "writing"
@@ -6491,9 +6491,9 @@ const VocabData = {
         },
         {
           "w": "dilute",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/daɪˈljuːt/",
+          "pos": "noun.",
+          "cn": "稀释",
           "tags": [
             "writing"
           ]
@@ -6537,7 +6537,7 @@ const VocabData = {
         {
           "w": "discern",
           "phon": "",
-          "pos": "",
+          "pos": "verb.",
           "cn": "觉察出;  分辨出",
           "tags": [
             "writing"
@@ -6554,9 +6554,9 @@ const VocabData = {
         },
         {
           "w": "displace",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪsˈpleɪs/",
+          "pos": "verb.",
+          "cn": "吪 吪 [hua1]",
           "tags": [
             "writing"
           ]
@@ -6572,17 +6572,17 @@ const VocabData = {
         },
         {
           "w": "dissolve",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈzɒlv/",
+          "pos": "noun.",
+          "cn": "v.解除 ,解散,取消,散伙",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "diverse",
-          "phon": "",
-          "pos": "",
+          "phon": "/daɪˈvɜːs/",
+          "pos": "adjective.",
           "cn": "转向不同 方向 〉不同的 ) ,",
           "tags": [
             "writing"
@@ -6680,8 +6680,8 @@ const VocabData = {
         },
         {
           "w": "economics",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌikəˈnɑmɪks/",
+          "pos": "noun.",
           "cn": "经济学",
           "tags": [
             "writing"
@@ -6689,9 +6689,9 @@ const VocabData = {
         },
         {
           "w": "education",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɛdjʊˈkeɪʃn̩/",
+          "pos": "noun.",
+          "cn": "教育",
           "tags": [
             "writing"
           ]
@@ -6716,7 +6716,7 @@ const VocabData = {
         },
         {
           "w": "elementary",
-          "phon": "",
+          "phon": "/(ˌ)ɛlɪ̈ˈmɛnt(ə)ɹɪ/",
           "pos": "adj.",
           "cn": "基本的;  初级的",
           "tags": [
@@ -6752,9 +6752,9 @@ const VocabData = {
         },
         {
           "w": "emit",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/iˈmɪt/",
+          "pos": "verb.",
+          "cn": "发行(纸币等)",
           "tags": [
             "writing"
           ]
@@ -6770,7 +6770,7 @@ const VocabData = {
         },
         {
           "w": "empirical",
-          "phon": "",
+          "phon": "/ɪmˈpɪɹɪkəl/",
           "pos": "adj.",
           "cn": "以实验为依据的;  经验主义的",
           "tags": [
@@ -6797,8 +6797,8 @@ const VocabData = {
         },
         {
           "w": "engineering",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌen.dʒɪˈnɪə.ɹɪŋ/",
+          "pos": "verb.",
           "cn": "工程;  工程学",
           "tags": [
             "writing"
@@ -6806,9 +6806,9 @@ const VocabData = {
         },
         {
           "w": "enhance",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈhɑːns/",
+          "pos": "verb.",
+          "cn": "增高",
           "tags": [
             "writing"
           ]
@@ -6816,8 +6816,8 @@ const VocabData = {
         {
           "w": "enrol",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "这是为了通知您课程<strong>{course_name}的注册</strong>已过期。您现在必须重新注册该课程才能访问其内容",
           "tags": [
             "writing"
           ]
@@ -6842,8 +6842,8 @@ const VocabData = {
         },
         {
           "w": "esteem",
-          "phon": "",
-          "pos": "",
+          "phon": "[ɛsˈtiːm]",
+          "pos": "noun.",
           "cn": "尊敬 尊重",
           "tags": [
             "writing"
@@ -6851,18 +6851,18 @@ const VocabData = {
         },
         {
           "w": "even",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈiːvən/",
+          "pos": "noun.",
+          "cn": "持平",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "examination",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪɡˌzæmɪˈneɪʃən/",
+          "pos": "noun.",
+          "cn": "检查",
           "tags": [
             "writing"
           ]
@@ -6896,9 +6896,9 @@ const VocabData = {
         },
         {
           "w": "expertise",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɛkspɚˈtiːs/",
+          "pos": "noun.",
+          "cn": "专业知识",
           "tags": [
             "writing"
           ]
@@ -6915,7 +6915,7 @@ const VocabData = {
         {
           "w": "extract",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "摘录",
           "tags": [
             "writing"
@@ -6923,8 +6923,8 @@ const VocabData = {
         },
         {
           "w": "faculty",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfæ.kəl.ti/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "writing"
@@ -6960,8 +6960,8 @@ const VocabData = {
         {
           "w": "ferment",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "发酵",
           "tags": [
             "writing"
           ]
@@ -7022,16 +7022,16 @@ const VocabData = {
         },
         {
           "w": "fresher",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfɹɛʃə/",
+          "pos": "adjective.",
+          "cn": "新鲜",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "friction",
-          "phon": "",
+          "phon": "/ˈfɹɪkʃən̩/",
           "pos": "n.",
           "cn": "摩擦;  摩擦力;  不和,矛盾",
           "tags": [
@@ -7040,7 +7040,7 @@ const VocabData = {
         },
         {
           "w": "fundamental",
-          "phon": "",
+          "phon": "/ˌfʌndəˈmɛntəl/",
           "pos": "adj.",
           "cn": "基础的 , 基本的;  根本的",
           "tags": [
@@ -7067,8 +7067,8 @@ const VocabData = {
         },
         {
           "w": "geometry",
-          "phon": "",
-          "pos": "",
+          "phon": "/dʒiːˈɒmɪtɹi/",
+          "pos": "noun.",
           "cn": "几何学",
           "tags": [
             "writing"
@@ -7085,8 +7085,8 @@ const VocabData = {
         },
         {
           "w": "grade",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɡɹeɪd/",
+          "pos": "noun.",
           "cn": "几 等级;  成绩等级",
           "tags": [
             "writing"
@@ -7095,8 +7095,8 @@ const VocabData = {
         {
           "w": "graduate",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "毕业",
           "tags": [
             "writing"
           ]
@@ -7121,8 +7121,8 @@ const VocabData = {
         },
         {
           "w": "gravity",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɡɹævɪti/",
+          "pos": "noun.",
           "cn": "地球引力,重力",
           "tags": [
             "writing"
@@ -7139,9 +7139,9 @@ const VocabData = {
         },
         {
           "w": "headmaster",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhɛdˌmɑːstə/",
+          "pos": "noun.",
+          "cn": "掌教",
           "tags": [
             "writing"
           ]
@@ -7157,9 +7157,9 @@ const VocabData = {
         },
         {
           "w": "hollow",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhɒl.əʊ/",
+          "pos": "noun.",
+          "cn": "中空",
           "tags": [
             "writing"
           ]
@@ -7175,7 +7175,7 @@ const VocabData = {
         },
         {
           "w": "identical",
-          "phon": "",
+          "phon": "/aɪˈdɛntɪkl̩/",
           "pos": "adj.",
           "cn": "同一的",
           "tags": [
@@ -7229,8 +7229,8 @@ const VocabData = {
         },
         {
           "w": "index",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɪndɛks/",
+          "pos": "noun.",
           "cn": "指数;  指标;  索引",
           "tags": [
             "writing"
@@ -7247,9 +7247,9 @@ const VocabData = {
         },
         {
           "w": "indulge",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈdʌldʒ/",
+          "pos": "verb.",
+          "cn": "沉迷",
           "tags": [
             "writing"
           ]
@@ -7265,16 +7265,16 @@ const VocabData = {
         },
         {
           "w": "infer",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈfɜː/",
+          "pos": "verb.",
+          "cn": "推断",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "inherent",
-          "phon": "",
+          "phon": "/ɪnˈhɛɹənt/",
           "pos": "adj.",
           "cn": "内在的 , 固有的",
           "tags": [
@@ -7283,17 +7283,17 @@ const VocabData = {
         },
         {
           "w": "inquire",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈkwaɪə/",
+          "pos": "verb.",
+          "cn": "问 (wèn)",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "insist",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪnˈsɪst/",
+          "pos": "verb.",
           "cn": "翥",
           "tags": [
             "writing"
@@ -7301,8 +7301,8 @@ const VocabData = {
         },
         {
           "w": "inspect",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪnˈspɛkt/",
+          "pos": "verb.",
           "cn": "检查;  检阅,视察",
           "tags": [
             "writing"
@@ -7310,9 +7310,9 @@ const VocabData = {
         },
         {
           "w": "inspire",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪn.ˈspaɪə(ɹ)/",
+          "pos": "verb.",
+          "cn": "激励",
           "tags": [
             "writing"
           ]
@@ -7328,9 +7328,9 @@ const VocabData = {
         },
         {
           "w": "instil",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈstɪl/",
+          "pos": "verb.",
+          "cn": "灌注",
           "tags": [
             "writing"
           ]
@@ -7346,7 +7346,7 @@ const VocabData = {
         },
         {
           "w": "intelligent",
-          "phon": "",
+          "phon": "/ɪnˈtɛlɪd͡ʒənt/",
           "pos": "adj.",
           "cn": "聪明的,有才智的",
           "tags": [
@@ -7355,9 +7355,9 @@ const VocabData = {
         },
         {
           "w": "introduce",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɪntɹəˈdjuːs/",
+          "pos": "verb.",
+          "cn": "介紹 介绍 [jie4 shao4]",
           "tags": [
             "writing"
           ]
@@ -7373,8 +7373,8 @@ const VocabData = {
         },
         {
           "w": "issue",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɪsjuː/",
+          "pos": "noun.",
           "cn": "重要问题;  发行",
           "tags": [
             "writing"
@@ -7409,9 +7409,9 @@ const VocabData = {
         },
         {
           "w": "laboratory",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ləˈbɔɹətɹi/",
+          "pos": "noun.",
+          "cn": "实验室",
           "tags": [
             "writing"
           ]
@@ -7427,9 +7427,9 @@ const VocabData = {
         },
         {
           "w": "lecturer",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈlɛktʃəɹə/",
+          "pos": "noun.",
+          "cn": "报告人 ,讲师",
           "tags": [
             "writing"
           ]
@@ -7463,8 +7463,8 @@ const VocabData = {
         },
         {
           "w": "license",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈlaɪsəns/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "writing"
@@ -7481,9 +7481,9 @@ const VocabData = {
         },
         {
           "w": "literate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈlɪtəɹət/",
+          "pos": "noun.",
+          "cn": "识字的",
           "tags": [
             "writing"
           ]
@@ -7526,7 +7526,7 @@ const VocabData = {
         },
         {
           "w": "major",
-          "phon": "",
+          "phon": "/ˈmeɪ.dʒə(ɹ)/",
           "pos": "adj.",
           "cn": "主要的",
           "tags": [
@@ -7571,8 +7571,8 @@ const VocabData = {
         },
         {
           "w": "master",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmastə/",
+          "pos": "noun.",
           "cn": "硕士;  大师",
           "tags": [
             "writing"
@@ -7580,9 +7580,9 @@ const VocabData = {
         },
         {
           "w": "maths",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/mæθs/",
+          "pos": "noun.",
+          "cn": "数学",
           "tags": [
             "writing"
           ]
@@ -7634,9 +7634,9 @@ const VocabData = {
         },
         {
           "w": "melt",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/mɛlt/",
+          "pos": "noun.",
+          "cn": "消融",
           "tags": [
             "writing"
           ]
@@ -7652,9 +7652,9 @@ const VocabData = {
         },
         {
           "w": "mercury",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈməː.kjʊ.ɹi/",
+          "pos": "noun.",
+          "cn": "水星",
           "tags": [
             "writing"
           ]
@@ -7679,7 +7679,7 @@ const VocabData = {
         },
         {
           "w": "minor",
-          "phon": "",
+          "phon": "/ˈmaɪnɚ/",
           "pos": "adj.",
           "cn": "不严重的",
           "tags": [
@@ -7697,8 +7697,8 @@ const VocabData = {
         },
         {
           "w": "mixture",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmɪkstʃə/",
+          "pos": "noun.",
           "cn": "混合 (物)",
           "tags": [
             "writing"
@@ -7706,9 +7706,9 @@ const VocabData = {
         },
         {
           "w": "motivate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈməʊtɪveɪt/",
+          "pos": "verb.",
+          "cn": "鼓励别人",
           "tags": [
             "writing"
           ]
@@ -7733,9 +7733,9 @@ const VocabData = {
         },
         {
           "w": "multiply",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmʌltɪplaɪ/",
+          "pos": "noun.",
+          "cn": "乘 ",
           "tags": [
             "writing"
           ]
@@ -7787,9 +7787,9 @@ const VocabData = {
         },
         {
           "w": "object",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɒb.d͡ʒɛkt/",
+          "pos": "noun.",
+          "cn": "对象",
           "tags": [
             "writing"
           ]
@@ -7823,26 +7823,26 @@ const VocabData = {
         },
         {
           "w": "opinion",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈpɪnjən/",
+          "pos": "noun.",
+          "cn": "意见",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "orientation",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɔɹiɛnˈteɪʃən/",
+          "pos": "noun.",
+          "cn": "方向",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "ounce",
-          "phon": "",
-          "pos": "",
+          "phon": "/aʊns/",
+          "pos": "noun.",
           "cn": "盎司;  少量",
           "tags": [
             "writing"
@@ -7886,8 +7886,8 @@ const VocabData = {
         },
         {
           "w": "overlap",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈəʊvəˌlæp/",
+          "pos": "noun.",
           "cn": "与.:复叠;〈与〉部分相同",
           "tags": [
             "writing"
@@ -7940,9 +7940,9 @@ const VocabData = {
         },
         {
           "w": "percent",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pəˈsɛnt/",
+          "pos": "noun.",
+          "cn": "百分率",
           "tags": [
             "writing"
           ]
@@ -8003,9 +8003,9 @@ const VocabData = {
         },
         {
           "w": "plus",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/plʌs/",
+          "pos": "noun.",
+          "cn": "加",
           "tags": [
             "writing"
           ]
@@ -8040,8 +8040,8 @@ const VocabData = {
         {
           "w": "postulate",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "要求",
           "tags": [
             "writing"
           ]
@@ -8066,8 +8066,8 @@ const VocabData = {
         },
         {
           "w": "predict",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɹɪˈdɪkt/",
+          "pos": "noun.",
           "cn": "预言 ); contra (反)",
           "tags": [
             "writing"
@@ -8111,9 +8111,9 @@ const VocabData = {
         },
         {
           "w": "preview",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɹiːvjʉː/",
+          "pos": "noun.",
+          "cn": "预览",
           "tags": [
             "writing"
           ]
@@ -8129,18 +8129,18 @@ const VocabData = {
         },
         {
           "w": "principal",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɹɪnsəpəl/",
+          "pos": "noun.",
+          "cn": "主体",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "principle",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɹɪnsəpəl/",
+          "pos": "noun.",
+          "cn": "原则",
           "tags": [
             "writing"
           ]
@@ -8210,8 +8210,8 @@ const VocabData = {
         },
         {
           "w": "proportion",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɹəˈpɔːʃən/",
+          "pos": "noun.",
           "cn": "比例",
           "tags": [
             "writing"
@@ -8237,8 +8237,8 @@ const VocabData = {
         },
         {
           "w": "pupil",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpjuːpəl/",
+          "pos": "noun.",
           "cn": "小学生;  瞳孔",
           "tags": [
             "writing"
@@ -8309,8 +8309,8 @@ const VocabData = {
         },
         {
           "w": "queue",
-          "phon": "",
-          "pos": "",
+          "phon": "/kjuː/",
+          "pos": "noun.",
           "cn": "排队等候 行列",
           "tags": [
             "writing"
@@ -8336,9 +8336,9 @@ const VocabData = {
         },
         {
           "w": "radiate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹeɪdi.ət/",
+          "pos": "noun.",
+          "cn": "辐射",
           "tags": [
             "writing"
           ]
@@ -8381,8 +8381,8 @@ const VocabData = {
         },
         {
           "w": "recite",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹɪˈsaɪt/",
+          "pos": "verb.",
           "cn": "背诵,朗诵",
           "tags": [
             "writing"
@@ -8471,8 +8471,8 @@ const VocabData = {
         },
         {
           "w": "represent",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹɛp.ɹɪ.ˈzɛnt/",
+          "pos": "verb.",
           "cn": "代表;  象征",
           "tags": [
             "writing"
@@ -8480,8 +8480,8 @@ const VocabData = {
         },
         {
           "w": "reputation",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌɹɛpjʊˈteɪʃən/",
+          "pos": "noun.",
           "cn": "名誉。声誉",
           "tags": [
             "writing"
@@ -8489,8 +8489,8 @@ const VocabData = {
         },
         {
           "w": "research",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹɪˈsɜːtʃ/",
+          "pos": "noun.",
           "cn": "调查;  探索",
           "tags": [
             "writing"
@@ -8516,18 +8516,18 @@ const VocabData = {
         },
         {
           "w": "review",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈvjuː/",
+          "pos": "noun.",
+          "cn": "审校",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "revise",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈvaɪ̯z/",
+          "pos": "noun.",
+          "cn": "修改",
           "tags": [
             "writing"
           ]
@@ -8570,9 +8570,9 @@ const VocabData = {
         },
         {
           "w": "row",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹəʊ/",
+          "pos": "noun.",
+          "cn": "行",
           "tags": [
             "writing"
           ]
@@ -8597,17 +8597,17 @@ const VocabData = {
         },
         {
           "w": "scale",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/skeɪl/",
+          "pos": "noun.",
+          "cn": "比例",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "scan",
-          "phon": "",
-          "pos": "",
+          "phon": "/skæn/",
+          "pos": "noun.",
           "cn": "扫描检查;  浏览",
           "tags": [
             "writing"
@@ -8624,8 +8624,8 @@ const VocabData = {
         },
         {
           "w": "scheme",
-          "phon": "",
-          "pos": "",
+          "phon": "/skiːm/",
+          "pos": "noun.",
           "cn": "计划",
           "tags": [
             "writing"
@@ -8633,8 +8633,8 @@ const VocabData = {
         },
         {
           "w": "scholar",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈskɒlə/",
+          "pos": "noun.",
           "cn": "学者",
           "tags": [
             "writing"
@@ -8642,8 +8642,8 @@ const VocabData = {
         },
         {
           "w": "scholarship",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈskɒləʃɪp/",
+          "pos": "noun.",
           "cn": "引",
           "tags": [
             "writing"
@@ -8670,8 +8670,8 @@ const VocabData = {
         {
           "w": "scrutinise",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "仔细审视",
           "tags": [
             "writing"
           ]
@@ -8714,9 +8714,9 @@ const VocabData = {
         },
         {
           "w": "senior",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsiːnjə(r)/",
+          "pos": "noun.",
+          "cn": "资深",
           "tags": [
             "writing"
           ]
@@ -8750,9 +8750,9 @@ const VocabData = {
         },
         {
           "w": "skim",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/skɪm/",
+          "pos": "noun.",
+          "cn": "撇去",
           "tags": [
             "writing"
           ]
@@ -8768,8 +8768,8 @@ const VocabData = {
         },
         {
           "w": "sociology",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌsəʊsiːˈɒlədʒiː/",
+          "pos": "noun.",
           "cn": "社会学",
           "tags": [
             "writing"
@@ -8777,9 +8777,9 @@ const VocabData = {
         },
         {
           "w": "sophomore",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsɒfəmɔɹ/",
+          "pos": "noun.",
+          "cn": "二年級",
           "tags": [
             "writing"
           ]
@@ -8787,8 +8787,8 @@ const VocabData = {
         {
           "w": "speculate",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "v.买空卖空 ,投机,推测",
           "tags": [
             "writing"
           ]
@@ -8804,17 +8804,17 @@ const VocabData = {
         },
         {
           "w": "spoil",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/spɔɪl/",
+          "pos": "noun.",
+          "cn": "战利品",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "spur",
-          "phon": "",
-          "pos": "",
+          "phon": "/spɜː/",
+          "pos": "noun.",
           "cn": "马刺;  刺激",
           "tags": [
             "writing"
@@ -8840,9 +8840,9 @@ const VocabData = {
         },
         {
           "w": "stimulate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈstɪmjʊleɪt/",
+          "pos": "verb.",
+          "cn": "振奋",
           "tags": [
             "writing"
           ]
@@ -8867,9 +8867,9 @@ const VocabData = {
         },
         {
           "w": "study",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈstʌdi/",
+          "pos": "verb.",
+          "cn": "研究",
           "tags": [
             "writing"
           ]
@@ -8894,8 +8894,8 @@ const VocabData = {
         },
         {
           "w": "subtract",
-          "phon": "",
-          "pos": "",
+          "phon": "/səbˈtɹækt/",
+          "pos": "verb.",
           "cn": "个式子中,12是被除数。",
           "tags": [
             "writing"
@@ -8921,7 +8921,7 @@ const VocabData = {
         },
         {
           "w": "superficial",
-          "phon": "",
+          "phon": "/ˌs(j)uːpəˈfɪʃəl/",
           "pos": "adj.",
           "cn": "外表的;  肤浅的 表面的 .",
           "tags": [
@@ -8930,9 +8930,9 @@ const VocabData = {
         },
         {
           "w": "suppose",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/səˈpəʊz/",
+          "pos": "verb.",
+          "cn": "假定",
           "tags": [
             "writing"
           ]
@@ -8949,7 +8949,7 @@ const VocabData = {
         {
           "w": "survey",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "比: ..活得长",
           "tags": [
             "writing"
@@ -9002,8 +9002,8 @@ const VocabData = {
         },
         {
           "w": "test",
-          "phon": "",
-          "pos": "",
+          "phon": "/test/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "writing"
@@ -9011,8 +9011,8 @@ const VocabData = {
         },
         {
           "w": "theory",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈθiːəɹi/",
+          "pos": "noun.",
           "cn": "理论;  学说",
           "tags": [
             "writing"
@@ -9029,7 +9029,7 @@ const VocabData = {
         },
         {
           "w": "thorough",
-          "phon": "",
+          "phon": "/ˈθʌɹə/",
           "pos": "adj.",
           "cn": "彻底的,详尽的",
           "tags": [
@@ -9038,16 +9038,16 @@ const VocabData = {
         },
         {
           "w": "timetable",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtaɪmˌteɪbəl/",
+          "pos": "noun.",
+          "cn": "时间表 ,时刻表",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "total",
-          "phon": "",
+          "phon": "/ˈtəʊ.təl/",
           "pos": "adj.",
           "cn": "总数 总的。全部的",
           "tags": [
@@ -9092,17 +9092,17 @@ const VocabData = {
         },
         {
           "w": "underestimate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ʌndɚˈɛs.tɨ.meɪt/",
+          "pos": "noun.",
+          "cn": "小看",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "understand",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌɞndəɹˈstand/",
+          "pos": "verb.",
           "cn": "懂得 理解",
           "tags": [
             "writing"
@@ -9110,9 +9110,9 @@ const VocabData = {
         },
         {
           "w": "university",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/juːnɪˈvɜːsətiː/",
+          "pos": "noun.",
+          "cn": "大学",
           "tags": [
             "writing"
           ]
@@ -9137,9 +9137,9 @@ const VocabData = {
         },
         {
           "w": "volume",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈvɒl.juːm/",
+          "pos": "noun.",
+          "cn": "体积",
           "tags": [
             "writing"
           ]
@@ -9188,8 +9188,8 @@ const VocabData = {
         },
         {
           "w": "accessory",
-          "phon": "",
-          "pos": "",
+          "phon": "/ækˈsɛs(ə)ɹi/",
+          "pos": "adjective.",
           "cn": "附件,配件",
           "tags": [
             "writing"
@@ -9197,9 +9197,9 @@ const VocabData = {
         },
         {
           "w": "accumulate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈkjuːmjʊˌleɪt/",
+          "pos": "verb.",
+          "cn": "v.累积",
           "tags": [
             "writing"
           ]
@@ -9215,17 +9215,17 @@ const VocabData = {
         },
         {
           "w": "adapt",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈdæpt/",
+          "pos": "verb.",
+          "cn": "调整",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "add",
-          "phon": "",
-          "pos": "",
+          "phon": "/æd/",
+          "pos": "noun.",
           "cn": "添加;  附加",
           "tags": [
             "writing"
@@ -9233,8 +9233,8 @@ const VocabData = {
         },
         {
           "w": "adjust",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈdʒʌst/",
+          "pos": "verb.",
           "cn": "科技发明",
           "tags": [
             "writing"
@@ -9242,7 +9242,7 @@ const VocabData = {
         },
         {
           "w": "advance",
-          "phon": "",
+          "phon": "/ədˈvaːns/",
           "pos": "n.",
           "cn": "发展;  前迸",
           "tags": [
@@ -9251,17 +9251,17 @@ const VocabData = {
         },
         {
           "w": "alter",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɑl.tɚ/",
+          "pos": "verb.",
+          "cn": "轉變 转变 [zhuan3 bian4]",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "appliance",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈplaɪəns/",
+          "pos": "noun.",
           "cn": "应用; (家",
           "tags": [
             "writing"
@@ -9269,8 +9269,8 @@ const VocabData = {
         },
         {
           "w": "apply",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈplaɪ/",
+          "pos": "verb.",
           "cn": "应用;  适用",
           "tags": [
             "writing"
@@ -9278,17 +9278,17 @@ const VocabData = {
         },
         {
           "w": "aspect",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈæspɛkt/",
+          "pos": "noun.",
+          "cn": "体 (tǐ)",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "assemble",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈsɛmbl̩/",
+          "pos": "verb.",
           "cn": "组装;  装配",
           "tags": [
             "writing"
@@ -9296,17 +9296,17 @@ const VocabData = {
         },
         {
           "w": "assess",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈsɛs/",
+          "pos": "verb.",
+          "cn": "评估",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "attach",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈtætʃ/",
+          "pos": "verb.",
           "cn": "使依附;  附加;  缚。系, 贴",
           "tags": [
             "writing"
@@ -9323,18 +9323,18 @@ const VocabData = {
         },
         {
           "w": "auxiliary",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɔːkˈsɪli.əɹi/",
+          "pos": "noun.",
+          "cn": "adj.辅助 ,附属",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "belong",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bɪˈlɒŋ/",
+          "pos": "verb.",
+          "cn": "属于",
           "tags": [
             "writing"
           ]
@@ -9386,9 +9386,9 @@ const VocabData = {
         },
         {
           "w": "cassette",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kæˈsɛt/",
+          "pos": "noun.",
+          "cn": "盒式磁带",
           "tags": [
             "writing"
           ]
@@ -9404,35 +9404,35 @@ const VocabData = {
         },
         {
           "w": "compress",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəmˈpɹɛs/",
+          "pos": "verb.",
+          "cn": "压缩",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "compute",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəmˈpjuːt/",
+          "pos": "noun.",
+          "cn": "计算",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "concentrate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkɒn.sən.tɹeɪt/",
+          "pos": "noun.",
+          "cn": "香精",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "condense",
-          "phon": "",
-          "pos": "",
+          "phon": "/kənˈdɛns/",
+          "pos": "verb.",
           "cn": "精简; (使气体) 凝结 简缩 ,",
           "tags": [
             "writing"
@@ -9449,18 +9449,18 @@ const VocabData = {
         },
         {
           "w": "convert",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkɒn.vəːt/",
+          "pos": "noun.",
+          "cn": "转换",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "correct",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəˈɹɛkt/",
+          "pos": "adjective.",
+          "cn": "对了",
           "tags": [
             "writing"
           ]
@@ -9521,8 +9521,8 @@ const VocabData = {
         },
         {
           "w": "discover",
-          "phon": "",
-          "pos": "",
+          "phon": "/dɪsˈkʊvə/",
+          "pos": "verb.",
           "cn": "发现",
           "tags": [
             "writing"
@@ -9530,18 +9530,18 @@ const VocabData = {
         },
         {
           "w": "distil",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "[dɪˈstɪɫ]",
+          "pos": "verb.",
+          "cn": "提纯",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "domain",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dəʊˈmeɪn/",
+          "pos": "noun.",
+          "cn": "域",
           "tags": [
             "writing"
           ]
@@ -9557,8 +9557,8 @@ const VocabData = {
         },
         {
           "w": "echo",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɛkəʊ/",
+          "pos": "noun.",
           "cn": "回声",
           "tags": [
             "writing"
@@ -9566,8 +9566,8 @@ const VocabData = {
         },
         {
           "w": "engineer",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌɛnd͡ʒɪˈnɪə/",
+          "pos": "noun.",
           "cn": "技师 工程师 ,",
           "tags": [
             "writing"
@@ -9584,27 +9584,27 @@ const VocabData = {
         },
         {
           "w": "error",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛɹə(ɹ)/",
+          "pos": "noun.",
+          "cn": "失誤",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "estimate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛstɨmɨt/",
+          "pos": "noun.",
+          "cn": "愿望清单“询价请求”",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "evaluate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɨˈvaljʊeɪt/",
+          "pos": "verb.",
+          "cn": "评估",
           "tags": [
             "writing"
           ]
@@ -9665,8 +9665,8 @@ const VocabData = {
         },
         {
           "w": "filter",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfɪltə/",
+          "pos": "noun.",
           "cn": "过滤器 过滤; (光或声) 透过",
           "tags": [
             "writing"
@@ -9674,9 +9674,9 @@ const VocabData = {
         },
         {
           "w": "flaw",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈflɔː/",
+          "pos": "noun.",
+          "cn": "漏洞 ,缺点,缺陷,瑕疵",
           "tags": [
             "writing"
           ]
@@ -9692,9 +9692,9 @@ const VocabData = {
         },
         {
           "w": "foundation",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/faʊnˈdeɪʃən/",
+          "pos": "noun.",
+          "cn": "收牌区slot type",
           "tags": [
             "writing"
           ]
@@ -9710,9 +9710,9 @@ const VocabData = {
         },
         {
           "w": "gather",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɡæðə/",
+          "pos": "noun.",
+          "cn": "集采",
           "tags": [
             "writing"
           ]
@@ -9827,8 +9827,8 @@ const VocabData = {
         },
         {
           "w": "loudspeaker",
-          "phon": "",
-          "pos": "",
+          "phon": "/laʊdˈspiːkə/",
+          "pos": "noun.",
           "cn": "扬声器,喇叭",
           "tags": [
             "writing"
@@ -9890,8 +9890,8 @@ const VocabData = {
         },
         {
           "w": "mode",
-          "phon": "",
-          "pos": "",
+          "phon": "/məʊd/",
+          "pos": "noun.",
           "cn": "模式;  方式",
           "tags": [
             "writing"
@@ -9899,17 +9899,17 @@ const VocabData = {
         },
         {
           "w": "mould",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/məʊld/",
+          "pos": "noun.",
+          "cn": "霉菌",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "multimedia",
-          "phon": "",
-          "pos": "",
+          "phon": "/mʌltiˈmiːdi.ə/",
+          "pos": "noun.",
           "cn": "多媒体",
           "tags": [
             "writing"
@@ -9917,8 +9917,8 @@ const VocabData = {
         },
         {
           "w": "network",
-          "phon": "",
-          "pos": "",
+          "phon": "/nɛtwɜːk/",
+          "pos": "noun.",
           "cn": "电视网 网络;  广播网,",
           "tags": [
             "writing"
@@ -9926,9 +9926,9 @@ const VocabData = {
         },
         {
           "w": "operate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɒpəɹeɪt/",
+          "pos": "verb.",
+          "cn": "操作",
           "tags": [
             "writing"
           ]
@@ -9971,9 +9971,9 @@ const VocabData = {
         },
         {
           "w": "pivot",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɪvət/",
+          "pos": "noun.",
+          "cn": "別針 别针 [bie2 zhen1]",
           "tags": [
             "writing"
           ]
@@ -10016,9 +10016,9 @@ const VocabData = {
         },
         {
           "w": "purify",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpjʊəɹɪfaɪ/",
+          "pos": "verb.",
+          "cn": "净化",
           "tags": [
             "writing"
           ]
@@ -10061,9 +10061,9 @@ const VocabData = {
         },
         {
           "w": "science fiction",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsaɪəns ˌfɪkʃən/",
+          "pos": "noun.",
+          "cn": "科幻小说",
           "tags": [
             "writing"
           ]
@@ -10089,17 +10089,17 @@ const VocabData = {
         {
           "w": "sewage",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "n.污水 ,污物",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "shift",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ʃɪft/",
+          "pos": "noun.",
+          "cn": "转移",
           "tags": [
             "writing"
           ]
@@ -10125,7 +10125,7 @@ const VocabData = {
         {
           "w": "specialise",
           "phon": "",
-          "pos": "",
+          "pos": "verb.",
           "cn": "",
           "tags": [
             "writing"
@@ -10133,8 +10133,8 @@ const VocabData = {
         },
         {
           "w": "stumble",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈstʌmbəl/",
+          "pos": "noun.",
           "cn": "犯错误;  绊脚;  跌跌撞撞地走",
           "tags": [
             "writing"
@@ -10178,8 +10178,8 @@ const VocabData = {
         },
         {
           "w": "tool",
-          "phon": "",
-          "pos": "",
+          "phon": "/tuːl/",
+          "pos": "noun.",
           "cn": "工具",
           "tags": [
             "writing"
@@ -10187,8 +10187,8 @@ const VocabData = {
         },
         {
           "w": "transform",
-          "phon": "",
-          "pos": "",
+          "phon": "/tɹænzˈfɔːm/",
+          "pos": "noun.",
           "cn": "使改娈形态;  使改观",
           "tags": [
             "writing"
@@ -10196,8 +10196,8 @@ const VocabData = {
         },
         {
           "w": "turn",
-          "phon": "",
-          "pos": "",
+          "phon": "/tɜːn/",
+          "pos": "verb.",
           "cn": "几 (依次轮到的)  机会",
           "tags": [
             "writing"
@@ -10224,7 +10224,7 @@ const VocabData = {
         {
           "w": "utilise",
           "phon": "",
-          "pos": "",
+          "pos": "verb.",
           "cn": "学生专攻工程学。",
           "tags": [
             "writing"
@@ -10241,9 +10241,9 @@ const VocabData = {
         },
         {
           "w": "versatile",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈvɝsətl̩/",
+          "pos": "adjective.",
+          "cn": "多才多艺",
           "tags": [
             "writing"
           ]
@@ -10346,8 +10346,8 @@ const VocabData = {
         },
         {
           "w": "anthropologist",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌæn.θɹoʊˈpɑl.ə.d͡ʒɪst/",
+          "pos": "noun.",
           "cn": "人类学家",
           "tags": [
             "reading"
@@ -10364,9 +10364,9 @@ const VocabData = {
         },
         {
           "w": "archaeology",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɑː.kiˈɒ.lə.dʒi/",
+          "pos": "noun.",
+          "cn": "考古学",
           "tags": [
             "reading"
           ]
@@ -10400,8 +10400,8 @@ const VocabData = {
         },
         {
           "w": "cathedral",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəˈθiː.dɹəl/",
+          "pos": "adjective.",
           "cn": "大教堂",
           "tags": [
             "reading"
@@ -10409,8 +10409,8 @@ const VocabData = {
         },
         {
           "w": "celebrity",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɪˈlɛbɹɪti/",
+          "pos": "noun.",
           "cn": "名人;  名誉",
           "tags": [
             "reading"
@@ -10436,8 +10436,8 @@ const VocabData = {
         },
         {
           "w": "church",
-          "phon": "",
-          "pos": "",
+          "phon": "/t͡ʃɜːt͡ʃ/",
+          "pos": "noun.",
           "cn": "教堂",
           "tags": [
             "reading"
@@ -10445,17 +10445,17 @@ const VocabData = {
         },
         {
           "w": "civilisation",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌsɪv.ɪ.laɪˈzeɪ.ʃən/",
+          "pos": "noun.",
+          "cn": "文明",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "convention",
-          "phon": "",
-          "pos": "",
+          "phon": "/kənˈvɛn.ʃən/",
+          "pos": "noun.",
           "cn": "惯例;  大型会议",
           "tags": [
             "reading"
@@ -10481,9 +10481,9 @@ const VocabData = {
         },
         {
           "w": "decorate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdɛkəɹeɪt/",
+          "pos": "verb.",
+          "cn": "踏板",
           "tags": [
             "reading"
           ]
@@ -10517,9 +10517,9 @@ const VocabData = {
         },
         {
           "w": "engrave",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈɡɹeɪv/",
+          "pos": "verb.",
+          "cn": "v.印",
           "tags": [
             "reading"
           ]
@@ -10544,7 +10544,7 @@ const VocabData = {
         },
         {
           "w": "etiquette",
-          "phon": "",
+          "phon": "/ˈɛtɪkɪt/",
           "pos": "n.",
           "cn": "礼节 礼仪,",
           "tags": [
@@ -10553,8 +10553,8 @@ const VocabData = {
         },
         {
           "w": "excavate",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɛk.skə.veɪt/",
+          "pos": "verb.",
           "cn": "",
           "tags": [
             "reading"
@@ -10733,8 +10733,8 @@ const VocabData = {
         },
         {
           "w": "majesty",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmædʒ.əs.ti/",
+          "pos": "noun.",
           "cn": "威严 壮观;  陛下",
           "tags": [
             "reading"
@@ -10877,17 +10877,17 @@ const VocabData = {
         },
         {
           "w": "renaissance",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹɛnəˌsɑns/",
+          "pos": "noun.",
+          "cn": "文艺复兴",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "ritual",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɹɪ.tʃu.əl/",
+          "pos": "noun.",
           "cn": "仪式",
           "tags": [
             "reading"
@@ -10913,8 +10913,8 @@ const VocabData = {
         },
         {
           "w": "setback",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈsɛtbæk/",
+          "pos": "noun.",
           "cn": "次难忘的经历。",
           "tags": [
             "reading"
@@ -10931,18 +10931,18 @@ const VocabData = {
         },
         {
           "w": "soul",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/səʊl/",
+          "pos": "noun.",
+          "cn": "尼发希，普绪克",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "spirit",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈspɪɹɪt/",
+          "pos": "noun.",
+          "cn": "精神",
           "tags": [
             "reading"
           ]
@@ -10967,8 +10967,8 @@ const VocabData = {
         },
         {
           "w": "thrive",
-          "phon": "",
-          "pos": "",
+          "phon": "/θɹaɪv/",
+          "pos": "verb.",
           "cn": "",
           "tags": [
             "reading"
@@ -11000,8 +11000,8 @@ const VocabData = {
       "words": [
         {
           "w": "abbreviation",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˌbɹiː.viˈeɪ.ʃən/",
+          "pos": "noun.",
           "cn": "缩写形式",
           "tags": [
             "writing"
@@ -11018,8 +11018,8 @@ const VocabData = {
         },
         {
           "w": "adjective",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈæ.d͡ʒə(k).tɪv/",
+          "pos": "noun.",
           "cn": "形容词",
           "tags": [
             "writing"
@@ -11045,8 +11045,8 @@ const VocabData = {
         },
         {
           "w": "antonym",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈæntəˌnɪm/",
+          "pos": "noun.",
           "cn": "反义词",
           "tags": [
             "writing"
@@ -11081,17 +11081,17 @@ const VocabData = {
         },
         {
           "w": "communicate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəˈmjuːnɪkeɪt/",
+          "pos": "verb.",
+          "cn": "沟通 ",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "compile",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəmpʌɪl/",
+          "pos": "noun.",
           "cn": "编纂",
           "tags": [
             "writing"
@@ -11117,8 +11117,8 @@ const VocabData = {
         },
         {
           "w": "conjunction",
-          "phon": "",
-          "pos": "",
+          "phon": "/kənˈdʒʌŋkʃən/",
+          "pos": "noun.",
           "cn": "连词;  结合",
           "tags": [
             "writing"
@@ -11153,18 +11153,18 @@ const VocabData = {
         },
         {
           "w": "debate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈbeɪt/",
+          "pos": "noun.",
+          "cn": "争论",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "decipher",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈsaɪfə(ɹ)/",
+          "pos": "noun.",
+          "cn": "破解",
           "tags": [
             "writing"
           ]
@@ -11252,17 +11252,17 @@ const VocabData = {
         },
         {
           "w": "illuminate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪlˈl(j)uməneɪt/",
+          "pos": "noun.",
+          "cn": "照亮",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "inflection",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪnˈflɛkʃən/",
+          "pos": "noun.",
           "cn": "语调的抑扬变化",
           "tags": [
             "writing"
@@ -11279,8 +11279,8 @@ const VocabData = {
         },
         {
           "w": "intonation",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪntɵˈneɪʃən/",
+          "pos": "noun.",
           "cn": "语调",
           "tags": [
             "writing"
@@ -11288,9 +11288,9 @@ const VocabData = {
         },
         {
           "w": "knot",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/nɒt/",
+          "pos": "noun.",
+          "cn": "打结",
           "tags": [
             "writing"
           ]
@@ -11324,9 +11324,9 @@ const VocabData = {
         },
         {
           "w": "narrate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/nəˈɹeɪt/",
+          "pos": "verb.",
+          "cn": "v.叙述",
           "tags": [
             "writing"
           ]
@@ -11342,9 +11342,9 @@ const VocabData = {
         },
         {
           "w": "noun",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/naʊn/",
+          "pos": "noun.",
+          "cn": "名词",
           "tags": [
             "writing"
           ]
@@ -11361,7 +11361,7 @@ const VocabData = {
         {
           "w": "paraphrase",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "人们",
           "tags": [
             "writing"
@@ -11432,8 +11432,8 @@ const VocabData = {
         },
         {
           "w": "pronoun",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpɹəʊnaʊn/",
+          "pos": "noun.",
           "cn": "代词",
           "tags": [
             "writing"
@@ -11441,9 +11441,9 @@ const VocabData = {
         },
         {
           "w": "pronounce",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɹəˈnaʊns/",
+          "pos": "verb.",
+          "cn": "v.判决 ,声明,宣布",
           "tags": [
             "writing"
           ]
@@ -11531,17 +11531,17 @@ const VocabData = {
         },
         {
           "w": "tense",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɛns/",
+          "pos": "noun.",
+          "cn": "时态",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "translate",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈtɹɛnzlæet/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "writing"
@@ -11567,7 +11567,7 @@ const VocabData = {
         },
         {
           "w": "verbal",
-          "phon": "",
+          "phon": "/ˈvɜː.bəl/",
           "pos": "adj.",
           "cn": "口头的;  言语的 例",
           "tags": [
@@ -11576,8 +11576,8 @@ const VocabData = {
         },
         {
           "w": "version",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈvɜːʃən/",
+          "pos": "noun.",
           "cn": "译本;  版本",
           "tags": [
             "writing"
@@ -11594,9 +11594,9 @@ const VocabData = {
         },
         {
           "w": "vowel",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/vaʊl/",
+          "pos": "noun.",
+          "cn": "母音",
           "tags": [
             "writing"
           ]
@@ -11636,26 +11636,26 @@ const VocabData = {
         },
         {
           "w": "aesthetic",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/iːs.ˈθe.tɪk/",
+          "pos": "noun.",
+          "cn": "美学",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "amuse",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈmjuːz/",
+          "pos": "verb.",
+          "cn": "娱乐",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "animation",
-          "phon": "",
-          "pos": "",
+          "phon": "/æn.əˈmeɪ.ʃən/",
+          "pos": "noun.",
           "cn": "动画片;  动画制作",
           "tags": [
             "writing"
@@ -11663,7 +11663,7 @@ const VocabData = {
         },
         {
           "w": "announcer",
-          "phon": "",
+          "phon": "/əˈnaʊnsə/",
           "pos": "n.",
           "cn": "广播员 播音员",
           "tags": [
@@ -11699,8 +11699,8 @@ const VocabData = {
         },
         {
           "w": "await",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈwɛɪt/",
+          "pos": "noun.",
           "cn": "等候。期待;  将降临到身上",
           "tags": [
             "writing"
@@ -11744,9 +11744,9 @@ const VocabData = {
         },
         {
           "w": "bend",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bɛnd/",
+          "pos": "noun.",
+          "cn": "弧线球",
           "tags": [
             "writing"
           ]
@@ -11762,9 +11762,9 @@ const VocabData = {
         },
         {
           "w": "bounce",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/baʊns/",
+          "pos": "noun.",
+          "cn": "退回",
           "tags": [
             "writing"
           ]
@@ -11789,9 +11789,9 @@ const VocabData = {
         },
         {
           "w": "carve",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɑːv/",
+          "pos": "noun.",
+          "cn": "雕凿",
           "tags": [
             "writing"
           ]
@@ -11807,9 +11807,9 @@ const VocabData = {
         },
         {
           "w": "champion",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtʃæmpiən/",
+          "pos": "noun.",
+          "cn": "冠军",
           "tags": [
             "writing"
           ]
@@ -11843,8 +11843,8 @@ const VocabData = {
         },
         {
           "w": "climb",
-          "phon": "",
-          "pos": "",
+          "phon": "/klaɪm/",
+          "pos": "noun.",
           "cn": "娱乐运动",
           "tags": [
             "writing"
@@ -11879,8 +11879,8 @@ const VocabData = {
         },
         {
           "w": "competition",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌkɒmpəˈtɪʃən/",
+          "pos": "noun.",
           "cn": "竞争;  比赛",
           "tags": [
             "writing"
@@ -11906,8 +11906,8 @@ const VocabData = {
         },
         {
           "w": "correspondent",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌkɒɹɪˈspɒndənt/",
+          "pos": "noun.",
           "cn": "通信者;  通讯员 记者",
           "tags": [
             "writing"
@@ -11969,18 +11969,18 @@ const VocabData = {
         },
         {
           "w": "describe",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dəˈskɹaɪb/",
+          "pos": "verb.",
+          "cn": "形容 形容 [xing2 rong2]",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "disc",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪsk/",
+          "pos": "noun.",
+          "cn": "圆盘",
           "tags": [
             "writing"
           ]
@@ -12005,9 +12005,9 @@ const VocabData = {
         },
         {
           "w": "drag",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɹæɡ/",
+          "pos": "noun.",
+          "cn": "拖动",
           "tags": [
             "writing"
           ]
@@ -12023,9 +12023,9 @@ const VocabData = {
         },
         {
           "w": "draw",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɹɔː/",
+          "pos": "noun.",
+          "cn": "平",
           "tags": [
             "writing"
           ]
@@ -12041,8 +12041,8 @@ const VocabData = {
         },
         {
           "w": "drum",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈdɹʌm/",
+          "pos": "noun.",
           "cn": "鼓;  鼓状物;  大桶",
           "tags": [
             "writing"
@@ -12050,8 +12050,8 @@ const VocabData = {
         },
         {
           "w": "editor",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɛdɪtə/",
+          "pos": "noun.",
           "cn": "编辑,校订者; (电台或电视台的 )记者,编辑",
           "tags": [
             "writing"
@@ -12059,7 +12059,7 @@ const VocabData = {
         },
         {
           "w": "energetic",
-          "phon": "",
+          "phon": "/ˌɛnəˈdʒɛtɪk/",
           "pos": "adj.",
           "cn": "充满活力的, 精力充沛的",
           "tags": [
@@ -12068,9 +12068,9 @@ const VocabData = {
         },
         {
           "w": "entertain",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɛntəˈteɪn/",
+          "pos": "noun.",
+          "cn": "娛樂",
           "tags": [
             "writing"
           ]
@@ -12086,8 +12086,8 @@ const VocabData = {
         },
         {
           "w": "exercise",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɛk.sə.saɪz/",
+          "pos": "noun.",
           "cn": "雅思词汇奠经",
           "tags": [
             "writing"
@@ -12104,18 +12104,18 @@ const VocabData = {
         },
         {
           "w": "expect",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɛkˈspɛkt/",
+          "pos": "verb.",
+          "cn": "等",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "exponent",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɛkˈspəʊnənt/",
+          "pos": "noun.",
+          "cn": "指数",
           "tags": [
             "writing"
           ]
@@ -12140,8 +12140,8 @@ const VocabData = {
         },
         {
           "w": "festival",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfɛstəvəl/",
+          "pos": "noun.",
           "cn": "节曰; 音乐。电影等的 )节",
           "tags": [
             "writing"
@@ -12149,9 +12149,9 @@ const VocabData = {
         },
         {
           "w": "film",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "[ˈfɪlm̩]",
+          "pos": "noun.",
+          "cn": "电影",
           "tags": [
             "writing"
           ]
@@ -12221,7 +12221,7 @@ const VocabData = {
         },
         {
           "w": "gossip",
-          "phon": "",
+          "phon": "/ˈɡɒs.ɪp/",
           "pos": "n.",
           "cn": "闲聊;  流言蜚语",
           "tags": [
@@ -12230,17 +12230,17 @@ const VocabData = {
         },
         {
           "w": "guitar",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɡɪˈtɑː(ɹ)/",
+          "pos": "noun.",
+          "cn": "吉他",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "gym",
-          "phon": "",
-          "pos": "",
+          "phon": "/dʒɪm/",
+          "pos": "noun.",
           "cn": "体育活动; (=gymnasium ) 健身房 ,体育馆",
           "tags": [
             "writing"
@@ -12248,8 +12248,8 @@ const VocabData = {
         },
         {
           "w": "handout",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈhændaʊt/",
+          "pos": "noun.",
           "cn": "传单;  讲义",
           "tags": [
             "writing"
@@ -12266,9 +12266,9 @@ const VocabData = {
         },
         {
           "w": "hike",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/haɪk/",
+          "pos": "noun.",
+          "cn": "远足",
           "tags": [
             "writing"
           ]
@@ -12302,7 +12302,7 @@ const VocabData = {
         },
         {
           "w": "hunt",
-          "phon": "",
+          "phon": "/hʌnt/",
           "pos": "n.",
           "cn": "打猎;  搜寻",
           "tags": [
@@ -12311,9 +12311,9 @@ const VocabData = {
         },
         {
           "w": "imitate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɪmɪteɪt/",
+          "pos": "verb.",
+          "cn": "模仿",
           "tags": [
             "writing"
           ]
@@ -12356,45 +12356,45 @@ const VocabData = {
         },
         {
           "w": "journalist",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdʒɜːnəlɪst/",
+          "pos": "noun.",
+          "cn": "记者",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "jump",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dʒʌmp/",
+          "pos": "noun.",
+          "cn": "蹦 蹦 [beng4]",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "kick",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɪk/",
+          "pos": "noun.",
+          "cn": "踢击",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "knock",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/nɒk/",
+          "pos": "noun.",
+          "cn": "咚咚",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "lag",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/læɡ/",
+          "pos": "noun.",
+          "cn": "延隔時間",
           "tags": [
             "writing"
           ]
@@ -12419,18 +12419,18 @@ const VocabData = {
         },
         {
           "w": "linger",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈlɪŋɡə/",
+          "pos": "verb.",
+          "cn": "线条",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "lyric",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈlɪɹ.ɪk/",
+          "pos": "noun.",
+          "cn": "抒情",
           "tags": [
             "writing"
           ]
@@ -12455,7 +12455,7 @@ const VocabData = {
         },
         {
           "w": "medium",
-          "phon": "",
+          "phon": "/ˈmiːdɪəm/",
           "pos": "adj.",
           "cn": "媒介 中间的 , 中等的",
           "tags": [
@@ -12464,7 +12464,7 @@ const VocabData = {
         },
         {
           "w": "melody",
-          "phon": "",
+          "phon": "/ˈmel.ə.di/",
           "pos": "n.",
           "cn": "旋律",
           "tags": [
@@ -12473,8 +12473,8 @@ const VocabData = {
         },
         {
           "w": "messenger",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmɛs.n̩.d͡ʒə/",
+          "pos": "noun.",
           "cn": "邮递员,信使",
           "tags": [
             "writing"
@@ -12482,9 +12482,9 @@ const VocabData = {
         },
         {
           "w": "mimic",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmɪm.ɪk/",
+          "pos": "noun.",
+          "cn": "模仿",
           "tags": [
             "writing"
           ]
@@ -12527,9 +12527,9 @@ const VocabData = {
         },
         {
           "w": "musical",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmju.zɪ.kəl/",
+          "pos": "noun.",
+          "cn": "音乐",
           "tags": [
             "writing"
           ]
@@ -12545,9 +12545,9 @@ const VocabData = {
         },
         {
           "w": "opt",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɒpt/",
+          "pos": "verb.",
+          "cn": "选择",
           "tags": [
             "writing"
           ]
@@ -12563,7 +12563,7 @@ const VocabData = {
         },
         {
           "w": "outdoor",
-          "phon": "",
+          "phon": "/ˌaʊtˈdɔː/",
           "pos": "adj.",
           "cn": "户外的。室外的",
           "tags": [
@@ -12572,8 +12572,8 @@ const VocabData = {
         },
         {
           "w": "pace",
-          "phon": "",
-          "pos": "",
+          "phon": "/peɪs/",
+          "pos": "noun.",
           "cn": "步速。速度;  步调,节奏",
           "tags": [
             "writing"
@@ -12608,8 +12608,8 @@ const VocabData = {
         },
         {
           "w": "patron",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpeɪ.tɹən/",
+          "pos": "noun.",
           "cn": "赞助人; 老主顾)即商家的衣食父母; patronise",
           "tags": [
             "writing"
@@ -12626,8 +12626,8 @@ const VocabData = {
         },
         {
           "w": "perform",
-          "phon": "",
-          "pos": "",
+          "phon": "/pəˈfɔːm/",
+          "pos": "verb.",
           "cn": "履行, 执行",
           "tags": [
             "writing"
@@ -12671,8 +12671,8 @@ const VocabData = {
         },
         {
           "w": "plunge",
-          "phon": "",
-          "pos": "",
+          "phon": "/plʌndʒ/",
+          "pos": "noun.",
           "cn": "纵身投入;  猛跌;(使〉投身 跳水;  猛跌",
           "tags": [
             "writing"
@@ -12680,8 +12680,8 @@ const VocabData = {
         },
         {
           "w": "pop",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɒp/",
+          "pos": "noun.",
           "cn": "流行音乐,流行乐曲",
           "tags": [
             "writing"
@@ -12707,16 +12707,16 @@ const VocabData = {
         },
         {
           "w": "programme",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɹəʊɡɹæm/",
+          "pos": "noun.",
+          "cn": "方案",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "propaganda",
-          "phon": "",
+          "phon": "[ˌpɹɒp.ə.ˈɡæn.də]",
           "pos": "n.",
           "cn": "宣传,鼓吹",
           "tags": [
@@ -12734,9 +12734,9 @@ const VocabData = {
         },
         {
           "w": "pull",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pʊl/",
+          "pos": "noun.",
+          "cn": "拉取",
           "tags": [
             "writing"
           ]
@@ -12752,8 +12752,8 @@ const VocabData = {
         },
         {
           "w": "racket",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɹækɪt/",
+          "pos": "noun.",
           "cn": "网球。羽毛球等的 ) 球拍",
           "tags": [
             "writing"
@@ -12806,9 +12806,9 @@ const VocabData = {
         },
         {
           "w": "rumour",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹuːmə(ɹ)/",
+          "pos": "noun.",
+          "cn": "谣言",
           "tags": [
             "writing"
           ]
@@ -12833,8 +12833,8 @@ const VocabData = {
         },
         {
           "w": "select",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɪˈlɛkt/",
+          "pos": "verb.",
           "cn": "把集合在一起的分离出 一起 〉记起, 想起) ,",
           "tags": [
             "writing"
@@ -12842,18 +12842,18 @@ const VocabData = {
         },
         {
           "w": "simulate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/-jə-/",
+          "pos": "verb.",
+          "cn": "模仿",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "skate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/skeɪt/",
+          "pos": "noun.",
+          "cn": "滑冰",
           "tags": [
             "writing"
           ]
@@ -12869,9 +12869,9 @@ const VocabData = {
         },
         {
           "w": "ski",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ʃiː/",
+          "pos": "noun.",
+          "cn": "滑雪",
           "tags": [
             "writing"
           ]
@@ -12896,9 +12896,9 @@ const VocabData = {
         },
         {
           "w": "soccer",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsɒk.ə/",
+          "pos": "noun.",
+          "cn": "足球",
           "tags": [
             "writing"
           ]
@@ -13013,8 +13013,8 @@ const VocabData = {
         },
         {
           "w": "tennis",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈtɛn.ɪs/",
+          "pos": "noun.",
           "cn": "网球",
           "tags": [
             "writing"
@@ -13031,9 +13031,9 @@ const VocabData = {
         },
         {
           "w": "throw",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/θɹəʊ/",
+          "pos": "verb.",
+          "cn": "扔",
           "tags": [
             "writing"
           ]
@@ -13049,18 +13049,18 @@ const VocabData = {
         },
         {
           "w": "toss",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɑs/",
+          "pos": "noun.",
+          "cn": "簸",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "tournament",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɔːnəmənt/",
+          "pos": "noun.",
+          "cn": "比赛",
           "tags": [
             "writing"
           ]
@@ -13085,9 +13085,9 @@ const VocabData = {
         },
         {
           "w": "trip",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɹɪp/",
+          "pos": "noun.",
+          "cn": "行程",
           "tags": [
             "writing"
           ]
@@ -13103,9 +13103,9 @@ const VocabData = {
         },
         {
           "w": "tumble",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtʌmbl̩/",
+          "pos": "noun.",
+          "cn": "落下",
           "tags": [
             "writing"
           ]
@@ -13121,7 +13121,7 @@ const VocabData = {
         },
         {
           "w": "typist",
-          "phon": "",
+          "phon": "/ˈtaɪpɪst/",
           "pos": "n.",
           "cn": "打字员",
           "tags": [
@@ -13130,8 +13130,8 @@ const VocabData = {
         },
         {
           "w": "vacation",
-          "phon": "",
-          "pos": "",
+          "phon": "/veɪˈkeɪʃ(ə)n/",
+          "pos": "noun.",
           "cn": "翥",
           "tags": [
             "writing"
@@ -13148,8 +13148,8 @@ const VocabData = {
         },
         {
           "w": "violin",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌvɑe.ɘˈlɘn/",
+          "pos": "noun.",
           "cn": "小提琴",
           "tags": [
             "writing"
@@ -13184,9 +13184,9 @@ const VocabData = {
         },
         {
           "w": "well-known",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌwɛlˈnəʊn/",
+          "pos": "adjective.",
+          "cn": "有名",
           "tags": [
             "writing"
           ]
@@ -13208,9 +13208,9 @@ const VocabData = {
       "words": [
         {
           "w": "xerox",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈzɛ.ɹɒks/",
+          "pos": "noun.",
+          "cn": "施乐",
           "tags": [
             "writing"
           ]
@@ -13218,7 +13218,7 @@ const VocabData = {
         {
           "w": "alloy",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "合金; (金属的) 成色",
           "tags": [
             "writing"
@@ -13235,7 +13235,7 @@ const VocabData = {
         },
         {
           "w": "available",
-          "phon": "",
+          "phon": "/əˈveɪləb(ə)l/",
           "pos": "adj.",
           "cn": "可获得的",
           "tags": [
@@ -13280,8 +13280,8 @@ const VocabData = {
         },
         {
           "w": "bolt",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɒlt/",
+          "pos": "noun.",
           "cn": "螺栓;  插销",
           "tags": [
             "writing"
@@ -13298,7 +13298,7 @@ const VocabData = {
         },
         {
           "w": "bronze",
-          "phon": "",
+          "phon": "/bɹɒnz/",
           "pos": "n.",
           "cn": "青铜;  青铜艺术品",
           "tags": [
@@ -13307,8 +13307,8 @@ const VocabData = {
         },
         {
           "w": "broom",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɹuːm/",
+          "pos": "noun.",
           "cn": "扫帚 用扫帚扫",
           "tags": [
             "writing"
@@ -13316,8 +13316,8 @@ const VocabData = {
         },
         {
           "w": "bucket",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbʌkɪt/",
+          "pos": "noun.",
           "cn": "物品材料",
           "tags": [
             "writing"
@@ -13352,9 +13352,9 @@ const VocabData = {
         },
         {
           "w": "can",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkæn/",
+          "pos": "verb.",
+          "cn": "外罐",
           "tags": [
             "writing"
           ]
@@ -13397,8 +13397,8 @@ const VocabData = {
         },
         {
           "w": "cord",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɔːd/",
+          "pos": "noun.",
           "cn": "细绳,粗线",
           "tags": [
             "writing"
@@ -13460,8 +13460,8 @@ const VocabData = {
         },
         {
           "w": "cushion",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkʊʃən/",
+          "pos": "noun.",
           "cn": "软垫",
           "tags": [
             "writing"
@@ -13505,9 +13505,9 @@ const VocabData = {
         },
         {
           "w": "duplicate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdjuː.plɪ.kət/",
+          "pos": "noun.",
+          "cn": "副本",
           "tags": [
             "writing"
           ]
@@ -13523,8 +13523,8 @@ const VocabData = {
         },
         {
           "w": "edge",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɛdʒ/",
+          "pos": "noun.",
           "cn": "边缘 , 边; 刀0",
           "tags": [
             "writing"
@@ -13532,9 +13532,9 @@ const VocabData = {
         },
         {
           "w": "element",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛlɪmənt/",
+          "pos": "noun.",
+          "cn": "元素",
           "tags": [
             "writing"
           ]
@@ -13568,8 +13568,8 @@ const VocabData = {
         },
         {
           "w": "fan",
-          "phon": "",
-          "pos": "",
+          "phon": "/fæn/",
+          "pos": "noun.",
           "cn": "扇子;  风扇;  狂热爱好者",
           "tags": [
             "writing"
@@ -13586,18 +13586,18 @@ const VocabData = {
         },
         {
           "w": "fiber",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfaɪ.bə/",
+          "pos": "noun.",
+          "cn": "纤维",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "flashlight",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈflæʃˌlaɪt/",
+          "pos": "noun.",
+          "cn": "光筒",
           "tags": [
             "writing"
           ]
@@ -13640,18 +13640,18 @@ const VocabData = {
         },
         {
           "w": "fuse",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/fjuːz/",
+          "pos": "noun.",
+          "cn": "熔合",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "garbage",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɡɑːbɪd͡ʒ/",
+          "pos": "noun.",
+          "cn": "垃圾",
           "tags": [
             "writing"
           ]
@@ -13676,8 +13676,8 @@ const VocabData = {
         },
         {
           "w": "hurdle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈhɜːdəl/",
+          "pos": "noun.",
           "cn": "栏架;  跨栏赛跑",
           "tags": [
             "writing"
@@ -13685,7 +13685,7 @@ const VocabData = {
         },
         {
           "w": "inferior",
-          "phon": "",
+          "phon": "/ɪnˈfɪəɹɪə/",
           "pos": "n.",
           "cn": "级别(或地位)低的人;  次品",
           "tags": [
@@ -13694,18 +13694,18 @@ const VocabData = {
         },
         {
           "w": "ink",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪŋk/",
+          "pos": "noun.",
+          "cn": "墨水",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "iron",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈaɪən/",
+          "pos": "noun.",
+          "cn": "Iron Ore",
           "tags": [
             "writing"
           ]
@@ -13730,8 +13730,8 @@ const VocabData = {
         },
         {
           "w": "junk",
-          "phon": "",
-          "pos": "",
+          "phon": "/dʒʌŋk/",
+          "pos": "noun.",
           "cn": "无用的东西,废物",
           "tags": [
             "writing"
@@ -13748,9 +13748,9 @@ const VocabData = {
         },
         {
           "w": "knit",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈnɪt/",
+          "pos": "noun.",
+          "cn": "成圈",
           "tags": [
             "writing"
           ]
@@ -13766,8 +13766,8 @@ const VocabData = {
         },
         {
           "w": "label",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈleɪbəl/",
+          "pos": "noun.",
           "cn": "标签 标贴",
           "tags": [
             "writing"
@@ -13820,9 +13820,9 @@ const VocabData = {
         },
         {
           "w": "lift",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/lɪft/",
+          "pos": "noun.",
+          "cn": "提",
           "tags": [
             "writing"
           ]
@@ -13866,8 +13866,8 @@ const VocabData = {
         {
           "w": "lubricate",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "润滑",
           "tags": [
             "writing"
           ]
@@ -13892,9 +13892,9 @@ const VocabData = {
         },
         {
           "w": "match",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/mæt͡ʃ/",
+          "pos": "noun.",
+          "cn": "匹配",
           "tags": [
             "writing"
           ]
@@ -13910,7 +13910,7 @@ const VocabData = {
         },
         {
           "w": "mattress",
-          "phon": "",
+          "phon": "/ˈmætɹɪs/",
           "pos": "n.",
           "cn": "床垫",
           "tags": [
@@ -13920,7 +13920,7 @@ const VocabData = {
         {
           "w": "memorandum",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "备忘录;  建议书; (= memo ) 公司或组织内部的 ) 公务便条",
           "tags": [
             "writing"
@@ -14009,8 +14009,8 @@ const VocabData = {
         },
         {
           "w": "opacity",
-          "phon": "",
-          "pos": "",
+          "phon": "/oʊˈpæsɪtiː/",
+          "pos": "noun.",
           "cn": "不透明性",
           "tags": [
             "writing"
@@ -14036,9 +14036,9 @@ const VocabData = {
         },
         {
           "w": "pail",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/peɪl/",
+          "pos": "noun.",
+          "cn": "水桶",
           "tags": [
             "writing"
           ]
@@ -14054,9 +14054,9 @@ const VocabData = {
         },
         {
           "w": "pane",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/peɪn/",
+          "pos": "noun.",
+          "cn": "窗格",
           "tags": [
             "writing"
           ]
@@ -14073,7 +14073,7 @@ const VocabData = {
         {
           "w": "pedal",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "用脚操作的东西 「踏 双脚被缠住了 )妨碍 ) ,",
           "tags": [
             "writing"
@@ -14108,8 +14108,8 @@ const VocabData = {
         },
         {
           "w": "pit",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpɪt/",
+          "pos": "noun.",
           "cn": "俗语; 长一智)",
           "tags": [
             "writing"
@@ -14180,8 +14180,8 @@ const VocabData = {
         },
         {
           "w": "raincoat",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɹeɪnkəʊt/",
+          "pos": "noun.",
           "cn": "雨衣",
           "tags": [
             "writing"
@@ -14216,8 +14216,8 @@ const VocabData = {
         },
         {
           "w": "refrigerator",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹɪˈfɹɪd͡ʒəˌɹeɪtə/",
+          "pos": "noun.",
           "cn": "冰箱",
           "tags": [
             "writing"
@@ -14225,8 +14225,8 @@ const VocabData = {
         },
         {
           "w": "reuse",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹiːˈjuːs/",
+          "pos": "noun.",
           "cn": "再次使用",
           "tags": [
             "writing"
@@ -14252,9 +14252,9 @@ const VocabData = {
         },
         {
           "w": "rubbish",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹʌbɪʃ/",
+          "pos": "noun.",
+          "cn": "垃圾",
           "tags": [
             "writing"
           ]
@@ -14270,9 +14270,9 @@ const VocabData = {
         },
         {
           "w": "scissors",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsɪzəz/",
+          "pos": "noun.",
+          "cn": "剪刀",
           "tags": [
             "writing"
           ]
@@ -14315,9 +14315,9 @@ const VocabData = {
         },
         {
           "w": "shear",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ʃɪə(ɹ)/",
+          "pos": "noun.",
+          "cn": "剪切",
           "tags": [
             "writing"
           ]
@@ -14342,8 +14342,8 @@ const VocabData = {
         },
         {
           "w": "shutter",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈʃʌtɚ/",
+          "pos": "noun.",
           "cn": "百叶窗;(相机〉快门",
           "tags": [
             "writing"
@@ -14360,8 +14360,8 @@ const VocabData = {
         },
         {
           "w": "souvenir",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌsuːvəˈnɪə(ɹ)/",
+          "pos": "noun.",
           "cn": "纪念品",
           "tags": [
             "writing"
@@ -14459,18 +14459,18 @@ const VocabData = {
         },
         {
           "w": "tap",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tæp/",
+          "pos": "noun.",
+          "cn": "點選",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "tissue",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɪsjuː/",
+          "pos": "noun.",
+          "cn": "组织",
           "tags": [
             "writing"
           ]
@@ -14486,9 +14486,9 @@ const VocabData = {
         },
         {
           "w": "trash",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɹæʃ/",
+          "pos": "noun.",
+          "cn": "废物",
           "tags": [
             "writing"
           ]
@@ -14522,9 +14522,9 @@ const VocabData = {
         },
         {
           "w": "utensil",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/juˈtɛn.səl/",
+          "pos": "noun.",
+          "cn": "厨具",
           "tags": [
             "writing"
           ]
@@ -14558,9 +14558,9 @@ const VocabData = {
         },
         {
           "w": "weave",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/wiːv/",
+          "pos": "noun.",
+          "cn": "交錯",
           "tags": [
             "writing"
           ]
@@ -14582,9 +14582,9 @@ const VocabData = {
       "words": [
         {
           "w": "adorn",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈdɔː(ɹ)n/",
+          "pos": "noun.",
+          "cn": "装饰",
           "tags": [
             "writing"
           ]
@@ -14600,8 +14600,8 @@ const VocabData = {
         },
         {
           "w": "bead",
-          "phon": "",
-          "pos": "",
+          "phon": "/biːd/",
+          "pos": "noun.",
           "cn": "珠子; (液体的)小滴",
           "tags": [
             "writing"
@@ -14609,9 +14609,9 @@ const VocabData = {
         },
         {
           "w": "beautiful",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbjuːtɪfəl/",
+          "pos": "noun.",
+          "cn": "美丽",
           "tags": [
             "writing"
           ]
@@ -14627,8 +14627,8 @@ const VocabData = {
         },
         {
           "w": "blot",
-          "phon": "",
-          "pos": "",
+          "phon": "/blɒt/",
+          "pos": "noun.",
           "cn": "污点",
           "tags": [
             "writing"
@@ -14654,8 +14654,8 @@ const VocabData = {
         },
         {
           "w": "brim",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɹɪm/",
+          "pos": "noun.",
           "cn": "边缘;  帽檐",
           "tags": [
             "writing"
@@ -14663,7 +14663,7 @@ const VocabData = {
         },
         {
           "w": "brown",
-          "phon": "",
+          "phon": "/bɹaʊn/",
           "pos": "adj.",
           "cn": "褐色 褐色的",
           "tags": [
@@ -14672,8 +14672,8 @@ const VocabData = {
         },
         {
           "w": "button",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbʌtn̩/",
+          "pos": "noun.",
           "cn": "扣上的纽扣 纽扣;  按钮",
           "tags": [
             "writing"
@@ -14681,9 +14681,9 @@ const VocabData = {
         },
         {
           "w": "cap",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kæp/",
+          "pos": "noun.",
+          "cn": "大寫鍵 ",
           "tags": [
             "writing"
           ]
@@ -14699,7 +14699,7 @@ const VocabData = {
         },
         {
           "w": "charming",
-          "phon": "",
+          "phon": "/ˈtʃɑː(ɹ).mɪŋ/",
           "pos": "adj.",
           "cn": "迷人的",
           "tags": [
@@ -14745,8 +14745,8 @@ const VocabData = {
         {
           "w": "colour",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "色素",
           "tags": [
             "writing"
           ]
@@ -14771,7 +14771,7 @@ const VocabData = {
         },
         {
           "w": "current",
-          "phon": "",
+          "phon": "/ˈkʌɹənt/",
           "pos": "adj.",
           "cn": "当前的 潮流,趋势",
           "tags": [
@@ -14789,7 +14789,7 @@ const VocabData = {
         },
         {
           "w": "dress",
-          "phon": "",
+          "phon": "/dɹɛs/",
           "pos": "n.",
           "cn": "衣服;  连衣裙",
           "tags": [
@@ -14825,9 +14825,9 @@ const VocabData = {
         },
         {
           "w": "embroider",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪmˈbɹɔɪdə/",
+          "pos": "verb.",
+          "cn": "刺绣",
           "tags": [
             "writing"
           ]
@@ -14852,8 +14852,8 @@ const VocabData = {
         },
         {
           "w": "fade",
-          "phon": "",
-          "pos": "",
+          "phon": "/feɪd/",
+          "pos": "noun.",
           "cn": "逐渐消失;(使〉褪色",
           "tags": [
             "writing"
@@ -14888,18 +14888,18 @@ const VocabData = {
         },
         {
           "w": "garment",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɡɑː.mənt/",
+          "pos": "noun.",
+          "cn": "衣服",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "gem",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/d͡ʒɛm/",
+          "pos": "noun.",
+          "cn": "宝石",
           "tags": [
             "writing"
           ]
@@ -14915,8 +14915,8 @@ const VocabData = {
         },
         {
           "w": "gown",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɡaʊn/",
+          "pos": "noun.",
           "cn": "长外衣;  女礼服",
           "tags": [
             "writing"
@@ -14933,9 +14933,9 @@ const VocabData = {
         },
         {
           "w": "grey",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɡɹeɪ/",
+          "pos": "adjective.",
+          "cn": "灰色",
           "tags": [
             "writing"
           ]
@@ -14996,8 +14996,8 @@ const VocabData = {
         },
         {
           "w": "jacket",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈd͡ʒæk.ɪt/",
+          "pos": "noun.",
           "cn": "夹克衫",
           "tags": [
             "writing"
@@ -15014,7 +15014,7 @@ const VocabData = {
         },
         {
           "w": "jeans",
-          "phon": "",
+          "phon": "/d͡ʒiːnz/",
           "pos": "n.",
           "cn": "牛仔裤",
           "tags": [
@@ -15033,8 +15033,8 @@ const VocabData = {
         {
           "w": "jewelry",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "首飾",
           "tags": [
             "writing"
           ]
@@ -15050,7 +15050,7 @@ const VocabData = {
         },
         {
           "w": "laundry",
-          "phon": "",
+          "phon": "/ˈlɑn.dɹi/",
           "pos": "n.",
           "cn": "洗衣店;  要(或正在)洗的衣物 , 刚洗好的衣物",
           "tags": [
@@ -15086,8 +15086,8 @@ const VocabData = {
         },
         {
           "w": "model",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmɒdl̩/",
+          "pos": "noun.",
           "cn": "模型;  模范;  模特儿",
           "tags": [
             "writing"
@@ -15095,9 +15095,9 @@ const VocabData = {
         },
         {
           "w": "necklace",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈnɛkləs/",
+          "pos": "noun.",
+          "cn": "項鏈",
           "tags": [
             "writing"
           ]
@@ -15113,9 +15113,9 @@ const VocabData = {
         },
         {
           "w": "ornament",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɔː(ɹ)nəmənt/",
+          "pos": "noun.",
+          "cn": "装饰物",
           "tags": [
             "writing"
           ]
@@ -15123,8 +15123,8 @@ const VocabData = {
         {
           "w": "overall",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "总体",
           "tags": [
             "writing"
           ]
@@ -15149,7 +15149,7 @@ const VocabData = {
         },
         {
           "w": "perfect",
-          "phon": "",
+          "phon": "/ˈpɜː.fɛkt/",
           "pos": "adj.",
           "cn": "完美的",
           "tags": [
@@ -15185,8 +15185,8 @@ const VocabData = {
         },
         {
           "w": "popularity",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌpɒp.jəˈlæɹ.ɪ.ti/",
+          "pos": "noun.",
           "cn": "流行",
           "tags": [
             "writing"
@@ -15194,7 +15194,7 @@ const VocabData = {
         },
         {
           "w": "pretty",
-          "phon": "",
+          "phon": "/ˈpɹɪti/",
           "pos": "adj.",
           "cn": "漂亮的",
           "tags": [
@@ -15203,9 +15203,9 @@ const VocabData = {
         },
         {
           "w": "prevail",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɹɪˈveɪl/",
+          "pos": "verb.",
+          "cn": "获胜",
           "tags": [
             "writing"
           ]
@@ -15221,9 +15221,9 @@ const VocabData = {
         },
         {
           "w": "purse",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɜːs/",
+          "pos": "noun.",
+          "cn": "钱包",
           "tags": [
             "writing"
           ]
@@ -15248,7 +15248,7 @@ const VocabData = {
         },
         {
           "w": "robe",
-          "phon": "",
+          "phon": "/ɹəʊb/",
           "pos": "n.",
           "cn": "长袍;  浴袍",
           "tags": [
@@ -15257,8 +15257,8 @@ const VocabData = {
         },
         {
           "w": "scarf",
-          "phon": "",
-          "pos": "",
+          "phon": "/skɑːf/",
+          "pos": "noun.",
           "cn": "围巾 头巾",
           "tags": [
             "writing"
@@ -15302,7 +15302,7 @@ const VocabData = {
         },
         {
           "w": "slender",
-          "phon": "",
+          "phon": "/ˈslɛndə/",
           "pos": "adj.",
           "cn": "苗条的;  微弱的",
           "tags": [
@@ -15311,7 +15311,7 @@ const VocabData = {
         },
         {
           "w": "slight",
-          "phon": "",
+          "phon": "[sl̥l͡ɐɪʔ̚]",
           "pos": "adj.",
           "cn": "纤细的;  轻微的",
           "tags": [
@@ -15321,16 +15321,16 @@ const VocabData = {
         {
           "w": "slipper",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "拖鞋",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "sock",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɒk/",
+          "pos": "noun.",
           "cn": "短袜",
           "tags": [
             "writing"
@@ -15347,35 +15347,35 @@ const VocabData = {
         },
         {
           "w": "stain",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/steɪn/",
+          "pos": "noun.",
+          "cn": "锈渍",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "stitch",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/stɪt͡ʃ/",
+          "pos": "noun.",
+          "cn": "缝合",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "stocking",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈstɒkɪŋ/",
+          "pos": "noun.",
+          "cn": "存货",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "strap",
-          "phon": "",
-          "pos": "",
+          "phon": "/stɹæp/",
+          "pos": "noun.",
           "cn": "带子 用带子系 (或捆。扎 )",
           "tags": [
             "writing"
@@ -15428,7 +15428,7 @@ const VocabData = {
         },
         {
           "w": "tan",
-          "phon": "",
+          "phon": "/tæn/",
           "pos": "adj.",
           "cn": "棕黄色的 棕黄色;  晒成的棕褐色",
           "tags": [
@@ -15482,16 +15482,16 @@ const VocabData = {
         },
         {
           "w": "trousers",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɹaʊzəz/",
+          "pos": "noun.",
+          "cn": "裤子",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "ugly",
-          "phon": "",
+          "phon": "/ˈʌɡli/",
           "pos": "adj.",
           "cn": "丑陋的",
           "tags": [
@@ -15527,8 +15527,8 @@ const VocabData = {
         },
         {
           "w": "vest",
-          "phon": "",
-          "pos": "",
+          "phon": "/vɛst/",
+          "pos": "noun.",
           "cn": "拉丁语 vestis 指 英语中 衣服 (clothing) ' 所以 invest 就是进入 (in) 衣服 指 \"汗衫, 背心 '",
           "tags": [
             "writing"
@@ -15572,9 +15572,9 @@ const VocabData = {
         },
         {
           "w": "wool",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/wʊl/",
+          "pos": "noun.",
+          "cn": "羊毛",
           "tags": [
             "writing"
           ]
@@ -15623,17 +15623,17 @@ const VocabData = {
         },
         {
           "w": "appetite",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈæp.ə.taɪt/",
+          "pos": "noun.",
+          "cn": "食欲",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "bake",
-          "phon": "",
-          "pos": "",
+          "phon": "/beɪk/",
+          "pos": "noun.",
           "cn": "烘烤;  烤熟",
           "tags": [
             "writing"
@@ -15650,8 +15650,8 @@ const VocabData = {
         },
         {
           "w": "bar",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɑː/",
+          "pos": "noun.",
           "cn": "酒吧;  吧台",
           "tags": [
             "writing"
@@ -15695,18 +15695,18 @@ const VocabData = {
         },
         {
           "w": "beverage",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbevəɹɪdʒ/",
+          "pos": "noun.",
+          "cn": "饮料",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "biscuit",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbɪskɪt/",
+          "pos": "noun.",
+          "cn": "姆鲁古",
           "tags": [
             "writing"
           ]
@@ -15740,8 +15740,8 @@ const VocabData = {
         },
         {
           "w": "buffet",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbʊfeɪ/",
+          "pos": "noun.",
           "cn": "自助餐",
           "tags": [
             "writing"
@@ -15776,8 +15776,8 @@ const VocabData = {
         },
         {
           "w": "candy",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkændi/",
+          "pos": "noun.",
           "cn": "糖果",
           "tags": [
             "writing"
@@ -15794,9 +15794,9 @@ const VocabData = {
         },
         {
           "w": "cater",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkeɪtə/",
+          "pos": "noun.",
+          "cn": "餐饮",
           "tags": [
             "writing"
           ]
@@ -15812,8 +15812,8 @@ const VocabData = {
         },
         {
           "w": "cheese",
-          "phon": "",
-          "pos": "",
+          "phon": "/t͡ʃiz/",
+          "pos": "noun.",
           "cn": "我新买了一根钓鱼竿。 日",
           "tags": [
             "writing"
@@ -15848,9 +15848,9 @@ const VocabData = {
         },
         {
           "w": "chief",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tʃiːf/",
+          "pos": "noun.",
+          "cn": "首席",
           "tags": [
             "writing"
           ]
@@ -15866,8 +15866,8 @@ const VocabData = {
         },
         {
           "w": "cigarette",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɪ.ɡəˈɹɛt/",
+          "pos": "noun.",
           "cn": "香烟",
           "tags": [
             "writing"
@@ -15893,8 +15893,8 @@ const VocabData = {
         },
         {
           "w": "core",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɔː/",
+          "pos": "noun.",
           "cn": "果核",
           "tags": [
             "writing"
@@ -15902,9 +15902,9 @@ const VocabData = {
         },
         {
           "w": "corn",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɔɹn/",
+          "pos": "noun.",
+          "cn": "玉米",
           "tags": [
             "writing"
           ]
@@ -15992,18 +15992,18 @@ const VocabData = {
         },
         {
           "w": "dip",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪp/",
+          "pos": "noun.",
+          "cn": "浸渍",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "dish",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪʃ/",
+          "pos": "noun.",
+          "cn": "盘菜",
           "tags": [
             "writing"
           ]
@@ -16019,7 +16019,7 @@ const VocabData = {
         },
         {
           "w": "drunk",
-          "phon": "",
+          "phon": "/dɹʌŋk/",
           "pos": "adj.",
           "cn": "醉的",
           "tags": [
@@ -16028,7 +16028,7 @@ const VocabData = {
         },
         {
           "w": "edible",
-          "phon": "",
+          "phon": "/ˈɛdɪbl/",
           "pos": "adj.",
           "cn": "可以吃的",
           "tags": [
@@ -16046,8 +16046,8 @@ const VocabData = {
         },
         {
           "w": "fish",
-          "phon": "",
-          "pos": "",
+          "phon": "/fɪʃ/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "writing"
@@ -16055,9 +16055,9 @@ const VocabData = {
         },
         {
           "w": "flavor",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfleɪvə/",
+          "pos": "noun.",
+          "cn": "给调味",
           "tags": [
             "writing"
           ]
@@ -16082,8 +16082,8 @@ const VocabData = {
         },
         {
           "w": "fork",
-          "phon": "",
-          "pos": "",
+          "phon": "/fɔːk/",
+          "pos": "noun.",
           "cn": "餐叉;  分岔处",
           "tags": [
             "writing"
@@ -16091,8 +16091,8 @@ const VocabData = {
         },
         {
           "w": "fruit",
-          "phon": "",
-          "pos": "",
+          "phon": "/fɹuːt/",
+          "pos": "noun.",
           "cn": "水果;  成果",
           "tags": [
             "writing"
@@ -16118,8 +16118,8 @@ const VocabData = {
         },
         {
           "w": "garlic",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɡɑːlɪk/",
+          "pos": "noun.",
           "cn": "蒜",
           "tags": [
             "writing"
@@ -16127,8 +16127,8 @@ const VocabData = {
         },
         {
           "w": "ginger",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈdʒɪndʒə/",
+          "pos": "noun.",
           "cn": "姜",
           "tags": [
             "writing"
@@ -16136,8 +16136,8 @@ const VocabData = {
         },
         {
           "w": "glass",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɡlɑːs/",
+          "pos": "verb.",
           "cn": "玻璃;  玻璃杯",
           "tags": [
             "writing"
@@ -16163,8 +16163,8 @@ const VocabData = {
         },
         {
           "w": "grape",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɡɹeɪp/",
+          "pos": "noun.",
           "cn": "葡萄",
           "tags": [
             "writing"
@@ -16208,9 +16208,9 @@ const VocabData = {
         },
         {
           "w": "hull",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/hʌl/",
+          "pos": "noun.",
+          "cn": "赫尔",
           "tags": [
             "writing"
           ]
@@ -16226,8 +16226,8 @@ const VocabData = {
         },
         {
           "w": "ice cream",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌaɪsˈkɹiːm/",
+          "pos": "noun.",
           "cn": "冰激凌",
           "tags": [
             "writing"
@@ -16235,8 +16235,8 @@ const VocabData = {
         },
         {
           "w": "ingredient",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪnˈɡɹiːdi.ənt/",
+          "pos": "noun.",
           "cn": "成分;(烹调的)原料;  因素",
           "tags": [
             "writing"
@@ -16271,8 +16271,8 @@ const VocabData = {
         },
         {
           "w": "kettle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkɛ.təl/",
+          "pos": "noun.",
           "cn": "水壶; [美]锅",
           "tags": [
             "writing"
@@ -16280,8 +16280,8 @@ const VocabData = {
         },
         {
           "w": "kiwi",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkiːwi/",
+          "pos": "noun.",
           "cn": "猕猴桃 奇异果",
           "tags": [
             "writing"
@@ -16289,8 +16289,8 @@ const VocabData = {
         },
         {
           "w": "knife",
-          "phon": "",
-          "pos": "",
+          "phon": "/naɪf/",
+          "pos": "noun.",
           "cn": "刀",
           "tags": [
             "writing"
@@ -16307,9 +16307,9 @@ const VocabData = {
         },
         {
           "w": "lick",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/lɪk/",
+          "pos": "noun.",
+          "cn": "舔",
           "tags": [
             "writing"
           ]
@@ -16352,8 +16352,8 @@ const VocabData = {
         },
         {
           "w": "melon",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmɛlən/",
+          "pos": "noun.",
           "cn": "瓜,甜瓜",
           "tags": [
             "writing"
@@ -16361,9 +16361,9 @@ const VocabData = {
         },
         {
           "w": "menu",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmɛnju/",
+          "pos": "noun.",
+          "cn": "菜单",
           "tags": [
             "writing"
           ]
@@ -16379,8 +16379,8 @@ const VocabData = {
         },
         {
           "w": "mug",
-          "phon": "",
-          "pos": "",
+          "phon": "/mʌɡ/",
+          "pos": "noun.",
           "cn": "几。大杯 马克杯",
           "tags": [
             "writing"
@@ -16415,8 +16415,8 @@ const VocabData = {
         },
         {
           "w": "nut",
-          "phon": "",
-          "pos": "",
+          "phon": "[nɐt]",
+          "pos": "noun.",
           "cn": "坚果;  螺母 几",
           "tags": [
             "writing"
@@ -16460,8 +16460,8 @@ const VocabData = {
         },
         {
           "w": "pan",
-          "phon": "",
-          "pos": "",
+          "phon": "/pæn/",
+          "pos": "noun.",
           "cn": "平底锅; [美]烤盔",
           "tags": [
             "writing"
@@ -16515,7 +16515,7 @@ const VocabData = {
         {
           "w": "pear",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "梨",
           "tags": [
             "writing"
@@ -16523,8 +16523,8 @@ const VocabData = {
         },
         {
           "w": "peel",
-          "phon": "",
-          "pos": "",
+          "phon": "/piːl/",
+          "pos": "noun.",
           "cn": "蔬菜等的)皮",
           "tags": [
             "writing"
@@ -16532,9 +16532,9 @@ const VocabData = {
         },
         {
           "w": "pepper",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɛpə/",
+          "pos": "noun.",
+          "cn": "辣椒",
           "tags": [
             "writing"
           ]
@@ -16613,8 +16613,8 @@ const VocabData = {
         },
         {
           "w": "pot",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɒt/",
+          "pos": "noun.",
           "cn": "锅;  壶",
           "tags": [
             "writing"
@@ -16640,9 +16640,9 @@ const VocabData = {
         },
         {
           "w": "pudding",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpʊd.ɪŋ/",
+          "pos": "noun.",
+          "cn": "布丁",
           "tags": [
             "writing"
           ]
@@ -16685,16 +16685,16 @@ const VocabData = {
         },
         {
           "w": "refreshment",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈfɹeʃ.mənt/",
+          "pos": "noun.",
+          "cn": "茶点",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "restaurant",
-          "phon": "",
+          "phon": "/ˈɹɛs.t(ə).ɹ(ə)nt/",
           "pos": "n.",
           "cn": "餐馆",
           "tags": [
@@ -16703,9 +16703,9 @@ const VocabData = {
         },
         {
           "w": "roast",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹəʊst/",
+          "pos": "noun.",
+          "cn": "烤",
           "tags": [
             "writing"
           ]
@@ -16748,8 +16748,8 @@ const VocabData = {
         },
         {
           "w": "sauce",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɔːs/",
+          "pos": "noun.",
           "cn": "酱汁",
           "tags": [
             "writing"
@@ -16757,8 +16757,8 @@ const VocabData = {
         },
         {
           "w": "saucer",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈsɔː.sə/",
+          "pos": "noun.",
           "cn": "茶托,茶碟",
           "tags": [
             "writing"
@@ -16811,9 +16811,9 @@ const VocabData = {
         },
         {
           "w": "soak",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/səʊk/",
+          "pos": "noun.",
+          "cn": "浸泡",
           "tags": [
             "writing"
           ]
@@ -16829,8 +16829,8 @@ const VocabData = {
         },
         {
           "w": "soda",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈsəʊdə/",
+          "pos": "noun.",
           "cn": "无水碳酸钠;  苏打水; [美]汽水",
           "tags": [
             "writing"
@@ -16838,18 +16838,18 @@ const VocabData = {
         },
         {
           "w": "soup",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/suːp/",
+          "pos": "noun.",
+          "cn": "汤",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "sour",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsaʊə/",
+          "pos": "noun.",
+          "cn": "酸气",
           "tags": [
             "writing"
           ]
@@ -16865,9 +16865,9 @@ const VocabData = {
         },
         {
           "w": "spice",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/spaɪs/",
+          "pos": "noun.",
+          "cn": "香料",
           "tags": [
             "writing"
           ]
@@ -16883,8 +16883,8 @@ const VocabData = {
         },
         {
           "w": "spoon",
-          "phon": "",
-          "pos": "",
+          "phon": "/spuːn/",
+          "pos": "noun.",
           "cn": "匙,调羹",
           "tags": [
             "writing"
@@ -16892,18 +16892,18 @@ const VocabData = {
         },
         {
           "w": "squeeze",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/skwiːz/",
+          "pos": "noun.",
+          "cn": "挤压",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "stir",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/stɜː/",
+          "pos": "noun.",
+          "cn": "搔动",
           "tags": [
             "writing"
           ]
@@ -16919,8 +16919,8 @@ const VocabData = {
         },
         {
           "w": "strip",
-          "phon": "",
-          "pos": "",
+          "phon": "/stɹɪp/",
+          "pos": "noun.",
           "cn": "除去 条。带",
           "tags": [
             "writing"
@@ -16937,8 +16937,8 @@ const VocabData = {
         },
         {
           "w": "sugar",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈʃʊɡə(ɹ)/",
+          "pos": "noun.",
           "cn": "糖",
           "tags": [
             "writing"
@@ -16955,18 +16955,18 @@ const VocabData = {
         },
         {
           "w": "supplement",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsʌpləmənt/",
+          "pos": "noun.",
+          "cn": "补充",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "swallow",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈswɒləʊ/",
+          "pos": "noun.",
+          "cn": "燕子",
           "tags": [
             "writing"
           ]
@@ -17000,7 +17000,7 @@ const VocabData = {
         },
         {
           "w": "thirsty",
-          "phon": "",
+          "phon": "/ˈθɜː(ɹ)st.i/",
           "pos": "adj.",
           "cn": "渴的;  渴望的",
           "tags": [
@@ -17009,9 +17009,9 @@ const VocabData = {
         },
         {
           "w": "tin",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɪn/",
+          "pos": "noun.",
+          "cn": "听",
           "tags": [
             "writing"
           ]
@@ -17072,7 +17072,7 @@ const VocabData = {
         },
         {
           "w": "turnip",
-          "phon": "",
+          "phon": "/ˈtɜː.nɪp/",
           "pos": "n.",
           "cn": "芜菁",
           "tags": [
@@ -17108,8 +17108,8 @@ const VocabData = {
         },
         {
           "w": "vinegar",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈvɪnəɡə/",
+          "pos": "noun.",
           "cn": "醋",
           "tags": [
             "writing"
@@ -17135,25 +17135,25 @@ const VocabData = {
         },
         {
           "w": "whisky",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈwɪski/",
+          "pos": "noun.",
+          "cn": "威士忌",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "yogurt",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈjəʉɡət/",
+          "pos": "noun.",
+          "cn": "酸奶",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "yummy",
-          "phon": "",
+          "phon": "/ˈjʌm.i/",
           "pos": "adj.",
           "cn": "美味的",
           "tags": [
@@ -17177,8 +17177,8 @@ const VocabData = {
         },
         {
           "w": "aisle",
-          "phon": "",
-          "pos": "",
+          "phon": "/aɪ̯l/",
+          "pos": "noun.",
           "cn": "走廊, 过道",
           "tags": [
             "reading"
@@ -17186,17 +17186,17 @@ const VocabData = {
         },
         {
           "w": "apartment",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈpɑːt.mənt/",
+          "pos": "noun.",
+          "cn": "公寓",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "apparatus",
-          "phon": "",
-          "pos": "",
+          "phon": "/æpəˈɹɑːtəs/",
+          "pos": "noun.",
           "cn": "器械,装置",
           "tags": [
             "reading"
@@ -17204,8 +17204,8 @@ const VocabData = {
         },
         {
           "w": "arch",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɑːt͡ʃ/",
+          "pos": "noun.",
           "cn": "拱门",
           "tags": [
             "reading"
@@ -17222,8 +17222,8 @@ const VocabData = {
         },
         {
           "w": "assemble",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈsɛmbl̩/",
+          "pos": "verb.",
           "cn": "组装;  装配",
           "tags": [
             "reading"
@@ -17258,17 +17258,17 @@ const VocabData = {
         },
         {
           "w": "beam",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/biːm/",
+          "pos": "noun.",
+          "cn": "声束",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "bench",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɛntʃ/",
+          "pos": "noun.",
           "cn": "长凳; [the ~]法官职位",
           "tags": [
             "reading"
@@ -17285,8 +17285,8 @@ const VocabData = {
         },
         {
           "w": "booth",
-          "phon": "",
-          "pos": "",
+          "phon": "/buːð/",
+          "pos": "noun.",
           "cn": "售货摊;  电话亭;  小隔间",
           "tags": [
             "reading"
@@ -17303,9 +17303,9 @@ const VocabData = {
         },
         {
           "w": "build",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bɪld/",
+          "pos": "noun.",
+          "cn": "“建”是指建设。",
           "tags": [
             "reading"
           ]
@@ -17438,8 +17438,8 @@ const VocabData = {
         },
         {
           "w": "cradle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkɹeɪdəl/",
+          "pos": "noun.",
           "cn": "摇篮;  发源地",
           "tags": [
             "reading"
@@ -17447,8 +17447,8 @@ const VocabData = {
         },
         {
           "w": "crane",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɹeɪn/",
+          "pos": "noun.",
           "cn": "起重机;  鹤",
           "tags": [
             "reading"
@@ -17456,8 +17456,8 @@ const VocabData = {
         },
         {
           "w": "dam",
-          "phon": "",
-          "pos": "",
+          "phon": "/dæm/",
+          "pos": "noun.",
           "cn": "水坝",
           "tags": [
             "reading"
@@ -17510,9 +17510,9 @@ const VocabData = {
         },
         {
           "w": "elevator",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛl.ə.veɪ.tɚ/",
+          "pos": "noun.",
+          "cn": "电梯",
           "tags": [
             "reading"
           ]
@@ -17528,8 +17528,8 @@ const VocabData = {
         },
         {
           "w": "entrance",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɛn.tɹəns/",
+          "pos": "noun.",
           "cn": "入口;  进入权 几",
           "tags": [
             "reading"
@@ -17573,9 +17573,9 @@ const VocabData = {
         },
         {
           "w": "exit",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛksɪt/",
+          "pos": "noun.",
+          "cn": "出口",
           "tags": [
             "reading"
           ]
@@ -17618,9 +17618,9 @@ const VocabData = {
         },
         {
           "w": "fix",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfɪks/",
+          "pos": "noun.",
+          "cn": "修理",
           "tags": [
             "reading"
           ]
@@ -17636,8 +17636,8 @@ const VocabData = {
         },
         {
           "w": "found",
-          "phon": "",
-          "pos": "",
+          "phon": "/faʊnd/",
+          "pos": "verb.",
           "cn": "创建,创办",
           "tags": [
             "reading"
@@ -17645,9 +17645,9 @@ const VocabData = {
         },
         {
           "w": "furnish",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfɜːnɪʃ/",
+          "pos": "noun.",
+          "cn": "提供",
           "tags": [
             "reading"
           ]
@@ -17681,8 +17681,8 @@ const VocabData = {
         },
         {
           "w": "hostel",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈhɒstəl/",
+          "pos": "noun.",
           "cn": "医院 )",
           "tags": [
             "reading"
@@ -17708,9 +17708,9 @@ const VocabData = {
         },
         {
           "w": "inhabit",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈhæbɪt/",
+          "pos": "verb.",
+          "cn": "v.居留",
           "tags": [
             "reading"
           ]
@@ -17726,9 +17726,9 @@ const VocabData = {
         },
         {
           "w": "install",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈstɔːl/",
+          "pos": "noun.",
+          "cn": "安装",
           "tags": [
             "reading"
           ]
@@ -17744,7 +17744,7 @@ const VocabData = {
         },
         {
           "w": "internal",
-          "phon": "",
+          "phon": "/ɪnˈtɝnəl/",
           "pos": "adj.",
           "cn": "内部的;  自身的;  国内的",
           "tags": [
@@ -17817,69 +17817,69 @@ const VocabData = {
         {
           "w": "living room",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "客厅",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "lobby",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/lɒbi/",
+          "pos": "noun.",
+          "cn": "休息室",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "locate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ləʊˈkeɪt/",
+          "pos": "verb.",
+          "cn": "定位",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "lodge",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/lɒdʒ/",
+          "pos": "noun.",
+          "cn": "党",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "maintain",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/meɪnˈteɪn/",
+          "pos": "verb.",
+          "cn": "维护",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "malfunction",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌmælˈfʌŋk.ʃən/",
+          "pos": "noun.",
+          "cn": "故障",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "mall",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/mɔːl/",
+          "pos": "noun.",
+          "cn": "商城",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "mansion",
-          "phon": "",
+          "phon": "/ˈmæn(t)ʃən/",
           "pos": "n.",
           "cn": "宅第 ,公馆",
           "tags": [
@@ -17897,8 +17897,8 @@ const VocabData = {
         },
         {
           "w": "mend",
-          "phon": "",
-          "pos": "",
+          "phon": "/mɛnd/",
+          "pos": "noun.",
           "cn": "修理;〈使〉康复",
           "tags": [
             "reading"
@@ -17924,7 +17924,7 @@ const VocabData = {
         },
         {
           "w": "nursery",
-          "phon": "",
+          "phon": "/ˈnɜːsəɹi/",
           "pos": "adj.",
           "cn": "托儿所 托儿所的",
           "tags": [
@@ -17933,8 +17933,8 @@ const VocabData = {
         },
         {
           "w": "obstruct",
-          "phon": "",
-          "pos": "",
+          "phon": "/əbˈstɹʌkt/",
+          "pos": "verb.",
           "cn": "阻塞;  妨碍",
           "tags": [
             "reading"
@@ -17943,8 +17943,8 @@ const VocabData = {
         {
           "w": "outside",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "出场",
           "tags": [
             "reading"
           ]
@@ -17978,8 +17978,8 @@ const VocabData = {
         },
         {
           "w": "pillar",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpɪlə/",
+          "pos": "noun.",
           "cn": "柱子;  中坚。栋梁 强盗把他捆在柱子上。",
           "tags": [
             "reading"
@@ -17996,8 +17996,8 @@ const VocabData = {
         },
         {
           "w": "plaza",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈplæzə/",
+          "pos": "noun.",
           "cn": "素",
           "tags": [
             "reading"
@@ -18005,9 +18005,9 @@ const VocabData = {
         },
         {
           "w": "plumb",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/plʌm/",
+          "pos": "noun.",
+          "cn": "联结",
           "tags": [
             "reading"
           ]
@@ -18059,17 +18059,17 @@ const VocabData = {
         },
         {
           "w": "reside",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈzaɪd/",
+          "pos": "verb.",
+          "cn": "v.居住, 居留",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "room",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹuːm/",
+          "pos": "noun.",
           "cn": "客厅 起居室",
           "tags": [
             "reading"
@@ -18077,8 +18077,8 @@ const VocabData = {
         },
         {
           "w": "saw",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɔː/",
+          "pos": "noun.",
           "cn": "锯",
           "tags": [
             "reading"
@@ -18221,9 +18221,9 @@ const VocabData = {
         },
         {
           "w": "storey",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈstɔːɹi/",
+          "pos": "noun.",
+          "cn": "层",
           "tags": [
             "reading"
           ]
@@ -18239,8 +18239,8 @@ const VocabData = {
         },
         {
           "w": "studio",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈstjuːdiəʊ/",
+          "pos": "noun.",
           "cn": "演播室;  工作室;  单间公寓",
           "tags": [
             "reading"
@@ -18248,8 +18248,8 @@ const VocabData = {
         },
         {
           "w": "supermarket",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌsuːpəˈmɑːkɪt/",
+          "pos": "noun.",
           "cn": "超市",
           "tags": [
             "reading"
@@ -18275,9 +18275,9 @@ const VocabData = {
         },
         {
           "w": "tile",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/taɪl/",
+          "pos": "noun.",
+          "cn": "视频窗",
           "tags": [
             "reading"
           ]
@@ -18293,7 +18293,7 @@ const VocabData = {
         },
         {
           "w": "trim",
-          "phon": "",
+          "phon": "/tɹɪm/",
           "pos": "adj.",
           "cn": "修剪;  装饰 整齐的 , 整洁的",
           "tags": [
@@ -18329,8 +18329,8 @@ const VocabData = {
         },
         {
           "w": "viaduct",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈvaɪəˌdʌkt/",
+          "pos": "noun.",
           "cn": "高架桥",
           "tags": [
             "reading"
@@ -18365,9 +18365,9 @@ const VocabData = {
         },
         {
           "w": "weld",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/wɛld/",
+          "pos": "noun.",
+          "cn": "焊缝",
           "tags": [
             "reading"
           ]
@@ -18380,7 +18380,7 @@ const VocabData = {
       "words": [
         {
           "w": "aboard",
-          "phon": "",
+          "phon": "/əˈbɔːd/",
           "pos": "adv.",
           "cn": "在(船。飞机等)上",
           "tags": [
@@ -18407,8 +18407,8 @@ const VocabData = {
         },
         {
           "w": "ambulance",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈæm.bjə.ləns/",
+          "pos": "noun.",
           "cn": "救护车",
           "tags": [
             "reading"
@@ -18425,8 +18425,8 @@ const VocabData = {
         },
         {
           "w": "arrive",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈɹaɪv/",
+          "pos": "verb.",
           "cn": "到达;  取得成功",
           "tags": [
             "reading"
@@ -18443,8 +18443,8 @@ const VocabData = {
         },
         {
           "w": "attraction",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈtɹækʃən/",
+          "pos": "noun.",
           "cn": "吸引;  具有吸引力的事物",
           "tags": [
             "reading"
@@ -18461,9 +18461,9 @@ const VocabData = {
         },
         {
           "w": "avenue",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈæv.əˌnjuː/",
+          "pos": "noun.",
+          "cn": "大街",
           "tags": [
             "reading"
           ]
@@ -18479,26 +18479,26 @@ const VocabData = {
         },
         {
           "w": "baggage",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbæɡɪdʒ/",
+          "pos": "noun.",
+          "cn": "行李",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "bind",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/baɪnd/",
+          "pos": "noun.",
+          "cn": "繫結",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "brake",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɹeɪk/",
+          "pos": "noun.",
           "cn": "车闸;  刹车",
           "tags": [
             "reading"
@@ -18506,8 +18506,8 @@ const VocabData = {
         },
         {
           "w": "burden",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbɜːdn/",
+          "pos": "noun.",
           "cn": "几重担 负担",
           "tags": [
             "reading"
@@ -18515,8 +18515,8 @@ const VocabData = {
         },
         {
           "w": "canal",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəˈnɛl/",
+          "pos": "noun.",
           "cn": "空气等的)管 运河; (人体内输送食物",
           "tags": [
             "reading"
@@ -18551,8 +18551,8 @@ const VocabData = {
         },
         {
           "w": "carrier",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkæ.ɹɪ.ə/",
+          "pos": "noun.",
           "cn": "航空母舰;  运输工具",
           "tags": [
             "reading"
@@ -18561,8 +18561,8 @@ const VocabData = {
         {
           "w": "carry-on",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "随身物品",
           "tags": [
             "reading"
           ]
@@ -18587,9 +18587,9 @@ const VocabData = {
         },
         {
           "w": "coach",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəʊtʃ/",
+          "pos": "noun.",
+          "cn": "教练",
           "tags": [
             "reading"
           ]
@@ -18605,9 +18605,9 @@ const VocabData = {
         },
         {
           "w": "crash",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɹæʃ/",
+          "pos": "noun.",
+          "cn": "碰撞",
           "tags": [
             "reading"
           ]
@@ -18615,7 +18615,7 @@ const VocabData = {
         {
           "w": "crew",
           "phon": "",
-          "pos": "",
+          "pos": "verb.",
           "cn": "轮船 . 几 ( 飞机等上的 )全体工作人员; (有专门技术的 ) 一组工作人员",
           "tags": [
             "reading"
@@ -18623,9 +18623,9 @@ const VocabData = {
         },
         {
           "w": "cross",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɹɑs/",
+          "pos": "noun.",
+          "cn": "十字",
           "tags": [
             "reading"
           ]
@@ -18641,8 +18641,8 @@ const VocabData = {
         },
         {
           "w": "curb",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɜːb/",
+          "pos": "noun.",
           "cn": "路缘;  起控制作用的事物",
           "tags": [
             "reading"
@@ -18668,8 +18668,8 @@ const VocabData = {
         },
         {
           "w": "deck",
-          "phon": "",
-          "pos": "",
+          "phon": "/dɛk/",
+          "pos": "noun.",
           "cn": "甲板",
           "tags": [
             "reading"
@@ -18677,8 +18677,8 @@ const VocabData = {
         },
         {
           "w": "defer",
-          "phon": "",
-          "pos": "",
+          "phon": "/dɪˈfɜː(ɹ)/",
+          "pos": "verb.",
           "cn": "推迟,拖延",
           "tags": [
             "reading"
@@ -18686,9 +18686,9 @@ const VocabData = {
         },
         {
           "w": "delay",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈleɪ/",
+          "pos": "noun.",
+          "cn": "延迟",
           "tags": [
             "reading"
           ]
@@ -18704,17 +18704,17 @@ const VocabData = {
         },
         {
           "w": "depart",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈpɑːt/",
+          "pos": "noun.",
+          "cn": "离开",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "destination",
-          "phon": "",
-          "pos": "",
+          "phon": "/dɛstɪˈneɪʃən/",
+          "pos": "noun.",
           "cn": "目的地,终点",
           "tags": [
             "reading"
@@ -18722,16 +18722,16 @@ const VocabData = {
         },
         {
           "w": "disappear",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪsəˈpiːɹ/",
+          "pos": "verb.",
+          "cn": "消失",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "ditch",
-          "phon": "",
+          "phon": "/dɪtʃ/",
           "pos": "n.",
           "cn": "沟,渠 抛弃",
           "tags": [
@@ -18758,8 +18758,8 @@ const VocabData = {
         },
         {
           "w": "embark",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɛmˈbɑːk/",
+          "pos": "verb.",
           "cn": "上船 (或飞机等 );  开始做",
           "tags": [
             "reading"
@@ -18794,7 +18794,7 @@ const VocabData = {
         },
         {
           "w": "express",
-          "phon": "",
+          "phon": "/ɛk.ˈspɹɛs/",
           "pos": "adj.",
           "cn": "特快的",
           "tags": [
@@ -18803,9 +18803,9 @@ const VocabData = {
         },
         {
           "w": "fare",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/fɛə(ɹ)/",
+          "pos": "noun.",
+          "cn": "益",
           "tags": [
             "reading"
           ]
@@ -18848,9 +18848,9 @@ const VocabData = {
         },
         {
           "w": "harbour",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhɑɹbəɹ/",
+          "pos": "noun.",
+          "cn": "港口",
           "tags": [
             "reading"
           ]
@@ -18884,9 +18884,9 @@ const VocabData = {
         },
         {
           "w": "highway",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhaɪweɪ/",
+          "pos": "noun.",
+          "cn": "n.公路",
           "tags": [
             "reading"
           ]
@@ -18902,17 +18902,17 @@ const VocabData = {
         },
         {
           "w": "horsepower",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhɔːsˌpaʊə/",
+          "pos": "noun.",
+          "cn": "匹马力",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "intersection",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɪntəɹˌsɛkʃən/",
+          "pos": "noun.",
           "cn": "十字路口 交叉路口",
           "tags": [
             "reading"
@@ -18920,7 +18920,7 @@ const VocabData = {
         },
         {
           "w": "itinerary",
-          "phon": "",
+          "phon": "/aɪˈtɪnəɹi/",
           "pos": "n.",
           "cn": "行程 路线",
           "tags": [
@@ -18947,8 +18947,8 @@ const VocabData = {
         },
         {
           "w": "lane",
-          "phon": "",
-          "pos": "",
+          "phon": "/leɪn/",
+          "pos": "noun.",
           "cn": "小巷;  车道",
           "tags": [
             "reading"
@@ -18965,8 +18965,8 @@ const VocabData = {
         },
         {
           "w": "load",
-          "phon": "",
-          "pos": "",
+          "phon": "/ləʊd/",
+          "pos": "noun.",
           "cn": "负荷;  大量",
           "tags": [
             "reading"
@@ -18974,8 +18974,8 @@ const VocabData = {
         },
         {
           "w": "locomotive",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌləʊkəʊˈməʊtiv/",
+          "pos": "noun.",
           "cn": "机车 火车头",
           "tags": [
             "reading"
@@ -18983,9 +18983,9 @@ const VocabData = {
         },
         {
           "w": "lorry",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈlɒɹi/",
+          "pos": "noun.",
+          "cn": "n.货车",
           "tags": [
             "reading"
           ]
@@ -19046,8 +19046,8 @@ const VocabData = {
         },
         {
           "w": "oar",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɔː/",
+          "pos": "noun.",
           "cn": "几桨",
           "tags": [
             "reading"
@@ -19064,17 +19064,17 @@ const VocabData = {
         },
         {
           "w": "packet",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpak.ɪt/",
+          "pos": "noun.",
+          "cn": "数据包",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "parachute",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpæɹəʃuːt/",
+          "pos": "noun.",
           "cn": "降落伞",
           "tags": [
             "reading"
@@ -19091,8 +19091,8 @@ const VocabData = {
         },
         {
           "w": "parcel",
-          "phon": "",
-          "pos": "",
+          "phon": "[ˈpʰaː.səɫ]",
+          "pos": "noun.",
           "cn": "包",
           "tags": [
             "reading"
@@ -19100,7 +19100,7 @@ const VocabData = {
         },
         {
           "w": "passage",
-          "phon": "",
+          "phon": "/ˈpæsɪd͡ʒ/",
           "pos": "n.",
           "cn": "通过;  通道 走廊",
           "tags": [
@@ -19118,8 +19118,8 @@ const VocabData = {
         },
         {
           "w": "path",
-          "phon": "",
-          "pos": "",
+          "phon": "[pʰäːθ]",
+          "pos": "noun.",
           "cn": "小路",
           "tags": [
             "reading"
@@ -19127,18 +19127,18 @@ const VocabData = {
         },
         {
           "w": "pave",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/peɪv/",
+          "pos": "verb.",
+          "cn": "铺装",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "pedicab",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɛdiˌkæb/",
+          "pos": "noun.",
+          "cn": "三轮车",
           "tags": [
             "reading"
           ]
@@ -19172,8 +19172,8 @@ const VocabData = {
         },
         {
           "w": "postpone",
-          "phon": "",
-          "pos": "",
+          "phon": "/poʊstˈpoʊn/",
+          "pos": "verb.",
           "cn": "推迟 使延期",
           "tags": [
             "reading"
@@ -19182,8 +19182,8 @@ const VocabData = {
         {
           "w": "propeller",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "螺旋槳",
           "tags": [
             "reading"
           ]
@@ -19208,7 +19208,7 @@ const VocabData = {
         },
         {
           "w": "raft",
-          "phon": "",
+          "phon": "/ɹɑːft/",
           "pos": "n.",
           "cn": "木筏,木排",
           "tags": [
@@ -19217,8 +19217,8 @@ const VocabData = {
         },
         {
           "w": "rail",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹeɪl/",
+          "pos": "noun.",
           "cn": "栏杆;  铁路路轨",
           "tags": [
             "reading"
@@ -19226,18 +19226,18 @@ const VocabData = {
         },
         {
           "w": "railroad",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹeɪlɹəʊd/",
+          "pos": "noun.",
+          "cn": "n.铁路",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "railway",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹeɪlˌweɪ/",
+          "pos": "noun.",
+          "cn": "铁路",
           "tags": [
             "reading"
           ]
@@ -19298,8 +19298,8 @@ const VocabData = {
         },
         {
           "w": "speed",
-          "phon": "",
-          "pos": "",
+          "phon": "/spiːd/",
+          "pos": "noun.",
           "cn": "速度;  迅速",
           "tags": [
             "reading"
@@ -19316,8 +19316,8 @@ const VocabData = {
         },
         {
           "w": "steamer",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈstiːmə(ɹ)/",
+          "pos": "noun.",
           "cn": "汽船,轮船",
           "tags": [
             "reading"
@@ -19325,7 +19325,7 @@ const VocabData = {
         },
         {
           "w": "stern",
-          "phon": "",
+          "phon": "/stɜːn/",
           "pos": "adj.",
           "cn": "严厉的;  坚定的",
           "tags": [
@@ -19343,18 +19343,18 @@ const VocabData = {
         },
         {
           "w": "submerge",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/sʌbˈmɜːdʒ/",
+          "pos": "verb.",
+          "cn": "淹没",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "subway",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsʌbˌweɪ/",
+          "pos": "noun.",
+          "cn": "地铁",
           "tags": [
             "reading"
           ]
@@ -19379,9 +19379,9 @@ const VocabData = {
         },
         {
           "w": "tire",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtʌɪ̯ɚ/",
+          "pos": "verb.",
+          "cn": "轮胎",
           "tags": [
             "reading"
           ]
@@ -19406,18 +19406,18 @@ const VocabData = {
         },
         {
           "w": "tram",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɹam/",
+          "pos": "noun.",
+          "cn": "有轨电车",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "transfer",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɹænzfɜː/",
+          "pos": "noun.",
+          "cn": "转移",
           "tags": [
             "reading"
           ]
@@ -19442,9 +19442,9 @@ const VocabData = {
         },
         {
           "w": "travel",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɹævəl/",
+          "pos": "noun.",
+          "cn": "旅行",
           "tags": [
             "reading"
           ]
@@ -19460,8 +19460,8 @@ const VocabData = {
         },
         {
           "w": "tunnel",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈtʌn(ə)l/",
+          "pos": "noun.",
           "cn": "隧道,地道",
           "tags": [
             "reading"
@@ -19469,8 +19469,8 @@ const VocabData = {
         },
         {
           "w": "turbine",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈtɜ(ɹ)baɪn/",
+          "pos": "noun.",
           "cn": "涡轮机",
           "tags": [
             "reading"
@@ -19478,9 +19478,9 @@ const VocabData = {
         },
         {
           "w": "underground",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈʌndəɡɹaʊnd/",
+          "pos": "noun.",
+          "cn": "地铁",
           "tags": [
             "reading"
           ]
@@ -19496,9 +19496,9 @@ const VocabData = {
         },
         {
           "w": "vanish",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈvænɪʃ/",
+          "pos": "noun.",
+          "cn": "人间蒸发",
           "tags": [
             "reading"
           ]
@@ -19559,8 +19559,8 @@ const VocabData = {
         },
         {
           "w": "way",
-          "phon": "",
-          "pos": "",
+          "phon": "/weɪ/",
+          "pos": "noun.",
           "cn": "路;  方式",
           "tags": [
             "reading"
@@ -19754,7 +19754,7 @@ const VocabData = {
         },
         {
           "w": "spanish",
-          "phon": "",
+          "phon": "/ˈspæn.ɪʃ/",
           "pos": "adj.",
           "cn": "西班牙的 西班牙语;  西班牙人",
           "tags": [
@@ -19763,7 +19763,7 @@ const VocabData = {
         },
         {
           "w": "swiss",
-          "phon": "",
+          "phon": "/swɪs/",
           "pos": "adj.",
           "cn": "瑞士的 瑞士人 例",
           "tags": [
@@ -19772,7 +19772,7 @@ const VocabData = {
         },
         {
           "w": "abroad",
-          "phon": "",
+          "phon": "/əˈbɹɔːd/",
           "pos": "adv.",
           "cn": "到国外 在国外;  广为流传",
           "tags": [
@@ -19790,9 +19790,9 @@ const VocabData = {
         },
         {
           "w": "admit",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ədˈmɪt/",
+          "pos": "verb.",
+          "cn": "v.承认 ,供认,接纳",
           "tags": [
             "writing"
           ]
@@ -19808,8 +19808,8 @@ const VocabData = {
         },
         {
           "w": "affect",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈfɛkt/",
+          "pos": "verb.",
           "cn": "感情上) 打动,使悲伤",
           "tags": [
             "writing"
@@ -19826,8 +19826,8 @@ const VocabData = {
         },
         {
           "w": "aid",
-          "phon": "",
-          "pos": "",
+          "phon": "/eɪd/",
+          "pos": "noun.",
           "cn": "救援物资;  辅助物;  救助",
           "tags": [
             "writing"
@@ -19844,17 +19844,17 @@ const VocabData = {
         },
         {
           "w": "announce",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈnaʊns/",
+          "pos": "verb.",
+          "cn": "宣布 宣布 [xuan1 bu4]",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "arena",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈɹiːnə/",
+          "pos": "noun.",
           "cn": "竞技场,运动场;  舞台,活动领域",
           "tags": [
             "writing"
@@ -19862,8 +19862,8 @@ const VocabData = {
         },
         {
           "w": "assist",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈsɪst/",
+          "pos": "noun.",
           "cn": "帮助 协助",
           "tags": [
             "writing"
@@ -19871,8 +19871,8 @@ const VocabData = {
         },
         {
           "w": "association",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˌsəʊsiˈeɪʃən/",
+          "pos": "noun.",
           "cn": "协会,团体;  关联",
           "tags": [
             "writing"
@@ -19880,8 +19880,8 @@ const VocabData = {
         },
         {
           "w": "asylum",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈsaɪləm/",
+          "pos": "noun.",
           "cn": "庇护;  精神病院",
           "tags": [
             "writing"
@@ -19898,7 +19898,7 @@ const VocabData = {
         },
         {
           "w": "banner",
-          "phon": "",
+          "phon": "/ˈbænə/",
           "pos": "n.",
           "cn": "横幅。标语",
           "tags": [
@@ -19934,8 +19934,8 @@ const VocabData = {
         },
         {
           "w": "bureaucracy",
-          "phon": "",
-          "pos": "",
+          "phon": "/bjʊəˈɹɒkɹəsi/",
+          "pos": "noun.",
           "cn": "官僚制度;  官僚作风",
           "tags": [
             "writing"
@@ -19961,7 +19961,7 @@ const VocabData = {
         },
         {
           "w": "civil",
-          "phon": "",
+          "phon": "/ˈsɪv.əl/",
           "pos": "adj.",
           "cn": "公民的,国内的;  民用的;  斯文的",
           "tags": [
@@ -19970,8 +19970,8 @@ const VocabData = {
         },
         {
           "w": "claim",
-          "phon": "",
-          "pos": "",
+          "phon": "/kleɪm/",
+          "pos": "noun.",
           "cn": "声称;  主张;  索赔",
           "tags": [
             "writing"
@@ -19979,8 +19979,8 @@ const VocabData = {
         },
         {
           "w": "clan",
-          "phon": "",
-          "pos": "",
+          "phon": "/klæn/",
+          "pos": "noun.",
           "cn": "宗族,家族;  耜派",
           "tags": [
             "writing"
@@ -20033,7 +20033,7 @@ const VocabData = {
         },
         {
           "w": "conservative",
-          "phon": "",
+          "phon": "/kənˈsɜːvətɪv/",
           "pos": "adj.",
           "cn": "保守的 保守党党员",
           "tags": [
@@ -20087,9 +20087,9 @@ const VocabData = {
         },
         {
           "w": "demographic",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɛməˈɡɹæfɪk/",
+          "pos": "noun.",
+          "cn": "人口",
           "tags": [
             "writing"
           ]
@@ -20105,9 +20105,9 @@ const VocabData = {
         },
         {
           "w": "dominate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdɒməˌneɪt/",
+          "pos": "adjective.",
+          "cn": "v.控制 ,统治,称霸 ,控",
           "tags": [
             "writing"
           ]
@@ -20132,18 +20132,18 @@ const VocabData = {
         },
         {
           "w": "emigrate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛmɪɡɹeɪt/",
+          "pos": "verb.",
+          "cn": "v.迁居 ,移居国外",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "encourage",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈkʌɹɪdʒ/",
+          "pos": "verb.",
+          "cn": "助長 助长 [zhu4 zhang3]",
           "tags": [
             "writing"
           ]
@@ -20168,7 +20168,7 @@ const VocabData = {
         },
         {
           "w": "ethnic",
-          "phon": "",
+          "phon": "/ˈɛθ.nɪk/",
           "pos": "adj.",
           "cn": "民族的 , 种族的",
           "tags": [
@@ -20186,8 +20186,8 @@ const VocabData = {
         },
         {
           "w": "flag",
-          "phon": "",
-          "pos": "",
+          "phon": "/flæɡ/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "writing"
@@ -20213,8 +20213,8 @@ const VocabData = {
         },
         {
           "w": "franchise",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfɹænt͡ʃaɪ̯z/",
+          "pos": "noun.",
           "cn": "出售的特许经营权 特许权; [the ~]选举权",
           "tags": [
             "writing"
@@ -20222,9 +20222,9 @@ const VocabData = {
         },
         {
           "w": "global",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɡləʊbəl/",
+          "pos": "noun.",
+          "cn": "全球",
           "tags": [
             "writing"
           ]
@@ -20285,35 +20285,35 @@ const VocabData = {
         },
         {
           "w": "hint",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/hɪnt/",
+          "pos": "noun.",
+          "cn": "提示",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "immigrate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɪmɪɡɹeɪt/",
+          "pos": "verb.",
+          "cn": "移居入境",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "implement",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɪmpləmənt/",
+          "pos": "noun.",
+          "cn": "n.工具 ;v.履行 ,施行,实施,完成,执行",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "importance",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪmˈpɔːtəns/",
+          "pos": "noun.",
           "cn": "重要,重要性",
           "tags": [
             "writing"
@@ -20321,8 +20321,8 @@ const VocabData = {
         },
         {
           "w": "independence",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪndɪˈpɛndəns/",
+          "pos": "noun.",
           "cn": "独立;  自立",
           "tags": [
             "writing"
@@ -20339,9 +20339,9 @@ const VocabData = {
         },
         {
           "w": "institution",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɪnstɪˈtjuːʃən/",
+          "pos": "noun.",
+          "cn": "12.1： 对1992-1993年医疗机构的评估",
           "tags": [
             "writing"
           ]
@@ -20394,8 +20394,8 @@ const VocabData = {
         {
           "w": "meltdown",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "崩溃",
           "tags": [
             "writing"
           ]
@@ -20447,8 +20447,8 @@ const VocabData = {
         },
         {
           "w": "nominate",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈnɒm.ə.neɪt/",
+          "pos": "verb.",
           "cn": "提名;  任命",
           "tags": [
             "writing"
@@ -20465,17 +20465,17 @@ const VocabData = {
         },
         {
           "w": "organization",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɔɹɡənaɪˈzeɪʃən/",
+          "pos": "noun.",
+          "cn": "主办",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "outlook",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈaʊtˌlʊk/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "writing"
@@ -20483,9 +20483,9 @@ const VocabData = {
         },
         {
           "w": "overseas",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌəʊvəˈsiːz/",
+          "pos": "adjective.",
+          "cn": "海外 ,境外",
           "tags": [
             "writing"
           ]
@@ -20582,9 +20582,9 @@ const VocabData = {
         },
         {
           "w": "process",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɹoʊsɛs/",
+          "pos": "noun.",
+          "cn": "过程",
           "tags": [
             "writing"
           ]
@@ -20699,8 +20699,8 @@ const VocabData = {
         },
         {
           "w": "revolution",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌɹɛvəˈl(j)uːʃən/",
+          "pos": "noun.",
           "cn": "革命;  巨大娈化",
           "tags": [
             "writing"
@@ -20861,7 +20861,7 @@ const VocabData = {
         },
         {
           "w": "unique",
-          "phon": "",
+          "phon": "/juːˈniːk/",
           "pos": "adj.",
           "cn": "独一无二的。唯一的;  独特的",
           "tags": [
@@ -20870,9 +20870,9 @@ const VocabData = {
         },
         {
           "w": "unite",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/juˈnaɪt/",
+          "pos": "noun.",
+          "cn": "联合",
           "tags": [
             "writing"
           ]
@@ -20888,9 +20888,9 @@ const VocabData = {
         },
         {
           "w": "vote",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/vəʊt/",
+          "pos": "noun.",
+          "cn": "票",
           "tags": [
             "writing"
           ]
@@ -20907,8 +20907,8 @@ const VocabData = {
         {
           "w": "well-being",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "健康",
           "tags": [
             "writing"
           ]
@@ -20939,9 +20939,9 @@ const VocabData = {
       "words": [
         {
           "w": "abortion",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈbɔɹ.ʃn̩/",
+          "pos": "noun.",
+          "cn": "流产",
           "tags": [
             "reading"
           ]
@@ -20957,8 +20957,8 @@ const VocabData = {
         },
         {
           "w": "accelerate",
-          "phon": "",
-          "pos": "",
+          "phon": "/æk.ˈsɛl.ə.ˌɹeɪt/",
+          "pos": "verb.",
           "cn": "",
           "tags": [
             "reading"
@@ -20966,8 +20966,8 @@ const VocabData = {
         },
         {
           "w": "account",
-          "phon": "",
-          "pos": "",
+          "phon": "/ə.ˈkaʊnt/",
+          "pos": "noun.",
           "cn": "账户;  解释",
           "tags": [
             "reading"
@@ -20975,8 +20975,8 @@ const VocabData = {
         },
         {
           "w": "acquisition",
-          "phon": "",
-          "pos": "",
+          "phon": "/æ.kwɪ.ˈzɪ.ʃən/",
+          "pos": "noun.",
           "cn": "获得; (对公司的) 井购",
           "tags": [
             "reading"
@@ -21002,17 +21002,17 @@ const VocabData = {
         },
         {
           "w": "affluent",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈæf.lu.ənt/",
+          "pos": "noun.",
+          "cn": "财富",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "afford",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈfɔːd/",
+          "pos": "verb.",
           "cn": "负担得起;  提供,给予",
           "tags": [
             "reading"
@@ -21020,8 +21020,8 @@ const VocabData = {
         },
         {
           "w": "agent",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈeɪ.dʒənt/",
+          "pos": "noun.",
           "cn": "代理人,代理商",
           "tags": [
             "reading"
@@ -21029,8 +21029,8 @@ const VocabData = {
         },
         {
           "w": "attend",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈtɛnd/",
+          "pos": "verb.",
           "cn": "参加 出席",
           "tags": [
             "reading"
@@ -21038,9 +21038,9 @@ const VocabData = {
         },
         {
           "w": "auction",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɒkʃən/",
+          "pos": "noun.",
+          "cn": "拍卖",
           "tags": [
             "reading"
           ]
@@ -21056,17 +21056,17 @@ const VocabData = {
         },
         {
           "w": "bid",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bɪd/",
+          "pos": "verb.",
+          "cn": "投标",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "bond",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɒnd/",
+          "pos": "noun.",
           "cn": "与:黏合 或连接 ) 几 黏合;(感情的)  纽带",
           "tags": [
             "reading"
@@ -21092,8 +21092,8 @@ const VocabData = {
         },
         {
           "w": "cash",
-          "phon": "",
-          "pos": "",
+          "phon": "/kæʃ/",
+          "pos": "noun.",
           "cn": "现金 兑现 (支票)",
           "tags": [
             "reading"
@@ -21137,18 +21137,18 @@ const VocabData = {
         },
         {
           "w": "cheque",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tʃɛk/",
+          "pos": "noun.",
+          "cn": "支票",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "choose",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/t͡ʃuːz/",
+          "pos": "verb.",
+          "cn": "选择",
           "tags": [
             "reading"
           ]
@@ -21173,8 +21173,8 @@ const VocabData = {
         },
         {
           "w": "collaborate",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəˈlabəɹeɪt/",
+          "pos": "verb.",
           "cn": "倒 ) 合作) ; col (一起) + lapse (落",
           "tags": [
             "reading"
@@ -21182,9 +21182,9 @@ const VocabData = {
         },
         {
           "w": "commercial",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəˈmɜːʃəl/",
+          "pos": "noun.",
+          "cn": "商品级",
           "tags": [
             "reading"
           ]
@@ -21209,9 +21209,9 @@ const VocabData = {
         },
         {
           "w": "cooperate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/koʊˈɒpəɹeɪt/",
+          "pos": "verb.",
+          "cn": "v.合作 ,配合,协作",
           "tags": [
             "reading"
           ]
@@ -21219,8 +21219,8 @@ const VocabData = {
         {
           "w": "coordinate",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "座標",
           "tags": [
             "reading"
           ]
@@ -21290,9 +21290,9 @@ const VocabData = {
         },
         {
           "w": "decline",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈklaɪn/",
+          "pos": "noun.",
+          "cn": "拒绝",
           "tags": [
             "reading"
           ]
@@ -21300,8 +21300,8 @@ const VocabData = {
         {
           "w": "decrease",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "减小&#x0D;",
           "tags": [
             "reading"
           ]
@@ -21344,45 +21344,45 @@ const VocabData = {
         },
         {
           "w": "descend",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈsɛnd/",
+          "pos": "verb.",
+          "cn": "降临",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "develop",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɛˈvɛ.ləp/",
+          "pos": "verb.",
+          "cn": "开发\tkāifā",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "diminish",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈmɪnɪʃ/",
+          "pos": "verb.",
+          "cn": "v.减轻",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "discharge",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdɪstʃɑːdʒ/",
+          "pos": "noun.",
+          "cn": "水排放处理",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "discount",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪsˈkaʊnt/",
+          "pos": "noun.",
+          "cn": "折扣",
           "tags": [
             "reading"
           ]
@@ -21443,9 +21443,9 @@ const VocabData = {
         },
         {
           "w": "dwindle",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdwɪn.dəl/",
+          "pos": "verb.",
+          "cn": "减少",
           "tags": [
             "reading"
           ]
@@ -21470,9 +21470,9 @@ const VocabData = {
         },
         {
           "w": "employ",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɛmˈplɔɪ/",
+          "pos": "noun.",
+          "cn": "使用",
           "tags": [
             "reading"
           ]
@@ -21488,17 +21488,17 @@ const VocabData = {
         },
         {
           "w": "enrich",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈɹɪt͡ʃ/",
+          "pos": "verb.",
+          "cn": "扩充",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "enterprise",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɛntɚˌpɹaɪz/",
+          "pos": "noun.",
           "cn": "翥",
           "tags": [
             "reading"
@@ -21515,9 +21515,9 @@ const VocabData = {
         },
         {
           "w": "escalate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛs.kə.leɪt/",
+          "pos": "verb.",
+          "cn": "v.逐步升级",
           "tags": [
             "reading"
           ]
@@ -21560,9 +21560,9 @@ const VocabData = {
         },
         {
           "w": "export",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛks.pɔːt/",
+          "pos": "noun.",
+          "cn": "导出",
           "tags": [
             "reading"
           ]
@@ -21587,18 +21587,18 @@ const VocabData = {
         },
         {
           "w": "fire",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfɑeə(ɹ)/",
+          "pos": "noun.",
+          "cn": "火焰",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "firm",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/fɜːm/",
+          "pos": "noun.",
+          "cn": "公司",
           "tags": [
             "reading"
           ]
@@ -21650,8 +21650,8 @@ const VocabData = {
         },
         {
           "w": "guarantee",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌɡæɹənˈtiː/",
+          "pos": "noun.",
           "cn": "担保物 担保;  确保 保证;  保修单;  担保金,",
           "tags": [
             "reading"
@@ -21668,27 +21668,27 @@ const VocabData = {
         },
         {
           "w": "import",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɪm.pɔːt/",
+          "pos": "noun.",
+          "cn": "导入",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "impose",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪmˈpəʊz/",
+          "pos": "verb.",
+          "cn": "施影响",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "improve",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪmˈpɹuːv/",
+          "pos": "verb.",
+          "cn": "提高",
           "tags": [
             "reading"
           ]
@@ -21714,8 +21714,8 @@ const VocabData = {
         {
           "w": "increase",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "增大",
           "tags": [
             "reading"
           ]
@@ -21740,8 +21740,8 @@ const VocabData = {
         },
         {
           "w": "inflation",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪnˈfleɪʃən/",
+          "pos": "noun.",
           "cn": "通货膨胀",
           "tags": [
             "reading"
@@ -21768,8 +21768,8 @@ const VocabData = {
         {
           "w": "instalment",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "分期付款",
           "tags": [
             "reading"
           ]
@@ -21794,17 +21794,17 @@ const VocabData = {
         },
         {
           "w": "interview",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɪntəvjuː/",
+          "pos": "noun.",
+          "cn": "采访",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "invest",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪnˈvɛst/",
+          "pos": "verb.",
           "cn": "",
           "tags": [
             "reading"
@@ -21830,9 +21830,9 @@ const VocabData = {
         },
         {
           "w": "labour",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈleɪ.bə/",
+          "pos": "noun.",
+          "cn": "生产",
           "tags": [
             "reading"
           ]
@@ -21884,18 +21884,18 @@ const VocabData = {
         },
         {
           "w": "loss",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/lɑs/",
+          "pos": "noun.",
+          "cn": "損失",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "manage",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmænɪdʒ/",
+          "pos": "noun.",
+          "cn": "管理",
           "tags": [
             "reading"
           ]
@@ -21920,8 +21920,8 @@ const VocabData = {
         },
         {
           "w": "negotiation",
-          "phon": "",
-          "pos": "",
+          "phon": "/nɪˌɡəʊʃiˈeɪʃən/",
+          "pos": "noun.",
           "cn": "谈判 , 协商",
           "tags": [
             "reading"
@@ -21929,9 +21929,9 @@ const VocabData = {
         },
         {
           "w": "occupation",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɒkjəˈpeɪʃən/",
+          "pos": "noun.",
+          "cn": "职业",
           "tags": [
             "reading"
           ]
@@ -21965,7 +21965,7 @@ const VocabData = {
         },
         {
           "w": "personnel",
-          "phon": "",
+          "phon": "/-el/",
           "pos": "n.",
           "cn": "人员 职员;  人事部门",
           "tags": [
@@ -22001,8 +22001,8 @@ const VocabData = {
         },
         {
           "w": "promotion",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɹəˈməʊʃən/",
+          "pos": "noun.",
           "cn": "促销活动;  晋升",
           "tags": [
             "reading"
@@ -22010,26 +22010,26 @@ const VocabData = {
         },
         {
           "w": "prompt",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɹɒmpt/",
+          "pos": "noun.",
+          "cn": "提示",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "purchase",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɜːtʃəs/",
+          "pos": "noun.",
+          "cn": "购",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "quota",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkwoʊtə/",
+          "pos": "noun.",
           "cn": "限额。配额;  定额",
           "tags": [
             "reading"
@@ -22046,27 +22046,27 @@ const VocabData = {
         },
         {
           "w": "recession",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈsɛʃn̩/",
+          "pos": "noun.",
+          "cn": "衰退",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "recommend",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɛkəˈmɛnd/",
+          "pos": "verb.",
+          "cn": "推荐",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "reduce",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈdjuːs/",
+          "pos": "verb.",
+          "cn": "v.缩减, 减轻 ,降低,削减",
           "tags": [
             "reading"
           ]
@@ -22083,17 +22083,17 @@ const VocabData = {
         {
           "w": "refund",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "退款",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "regulate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹɛɡjəleɪt/",
+          "pos": "verb.",
+          "cn": "v.调整",
           "tags": [
             "reading"
           ]
@@ -22101,8 +22101,8 @@ const VocabData = {
         {
           "w": "reimburse",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "v.偿付, 补偿",
           "tags": [
             "reading"
           ]
@@ -22118,26 +22118,26 @@ const VocabData = {
         },
         {
           "w": "remuneration",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹə.mjuː.nə.ˈɹeɪ.ʃən/",
+          "pos": "noun.",
+          "cn": "薪酬总额",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "resign",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈzaɪn/",
+          "pos": "verb.",
+          "cn": "n.辞职",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "result",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹɪˈzʌlt/",
+          "pos": "noun.",
           "cn": "后果,结果 导致",
           "tags": [
             "reading"
@@ -22154,18 +22154,18 @@ const VocabData = {
         },
         {
           "w": "retire",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹəˈtaɪə(ɹ)/",
+          "pos": "noun.",
+          "cn": "停用",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "revenue",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹɛvənjuː/",
+          "pos": "noun.",
+          "cn": "收入",
           "tags": [
             "reading"
           ]
@@ -22173,16 +22173,16 @@ const VocabData = {
         {
           "w": "résumé",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "摘要",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "sack",
-          "phon": "",
-          "pos": "",
+          "phon": "/sæk/",
+          "pos": "noun.",
           "cn": "大0袋。麻布袋 开除",
           "tags": [
             "reading"
@@ -22235,8 +22235,8 @@ const VocabData = {
         },
         {
           "w": "share",
-          "phon": "",
-          "pos": "",
+          "phon": "/ʃɛə/",
+          "pos": "noun.",
           "cn": "股份,股票; (在若千人之间分得的) 一份 共享;  分担",
           "tags": [
             "reading"
@@ -22244,8 +22244,8 @@ const VocabData = {
         },
         {
           "w": "shilling",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈʃɪlɪŋ/",
+          "pos": "noun.",
           "cn": "先令",
           "tags": [
             "reading"
@@ -22262,27 +22262,27 @@ const VocabData = {
         },
         {
           "w": "solve",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/sɒlv/",
+          "pos": "noun.",
+          "cn": "解决",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "spare",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈspɛə(ɹ)/",
+          "pos": "noun.",
+          "cn": "v.免除 ,赦免",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "spend",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/spɛnd/",
+          "pos": "noun.",
+          "cn": "支出",
           "tags": [
             "reading"
           ]
@@ -22325,16 +22325,16 @@ const VocabData = {
         },
         {
           "w": "swap",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/swɒp/",
+          "pos": "verb.",
+          "cn": "交换",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "tariff",
-          "phon": "",
+          "phon": "/ˈtæɹəf/",
           "pos": "n.",
           "cn": "关税; (公共服务的) 收费",
           "tags": [
@@ -22352,18 +22352,18 @@ const VocabData = {
         },
         {
           "w": "trade",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɹeɪd/",
+          "pos": "noun.",
+          "cn": "贸易",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "transaction",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɹænˈzækʃən/",
+          "pos": "noun.",
+          "cn": "交易",
           "tags": [
             "reading"
           ]
@@ -22380,16 +22380,16 @@ const VocabData = {
         {
           "w": "turnover",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "周转率",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "undertaking",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈʌndə(ɹ)ˌteɪkɪŋ/",
+          "pos": "verb.",
           "cn": "任务,事业;  许诺,保证",
           "tags": [
             "reading"
@@ -22406,9 +22406,9 @@ const VocabData = {
         },
         {
           "w": "vocation",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/vəʊˈkeɪʃən/",
+          "pos": "noun.",
+          "cn": "职业",
           "tags": [
             "reading"
           ]
@@ -22424,9 +22424,9 @@ const VocabData = {
         },
         {
           "w": "wage",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/weɪd͡ʒ/",
+          "pos": "noun.",
+          "cn": "工资",
           "tags": [
             "reading"
           ]
@@ -22452,7 +22452,7 @@ const VocabData = {
         {
           "w": "workaholic",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "工作狂",
           "tags": [
             "reading"
@@ -22484,9 +22484,9 @@ const VocabData = {
       "words": [
         {
           "w": "access",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈæksɛs/",
+          "pos": "noun.",
+          "cn": "访问权限",
           "tags": [
             "writing"
           ]
@@ -22502,9 +22502,9 @@ const VocabData = {
         },
         {
           "w": "accuse",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈkjuːz/",
+          "pos": "noun.",
+          "cn": "控告",
           "tags": [
             "writing"
           ]
@@ -22520,8 +22520,8 @@ const VocabData = {
         },
         {
           "w": "agreement",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈɡɹiːmənt/",
+          "pos": "noun.",
           "cn": "协定;  同意",
           "tags": [
             "writing"
@@ -22529,8 +22529,8 @@ const VocabData = {
         },
         {
           "w": "allow",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈlaʊ/",
+          "pos": "verb.",
           "cn": "允许,准许",
           "tags": [
             "writing"
@@ -22538,7 +22538,7 @@ const VocabData = {
         },
         {
           "w": "anonymous",
-          "phon": "",
+          "phon": "/əˈnɒnəməs/",
           "pos": "adj.",
           "cn": "匿名的",
           "tags": [
@@ -22547,17 +22547,17 @@ const VocabData = {
         },
         {
           "w": "appeal",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈpiːl/",
+          "pos": "noun.",
+          "cn": "上诉",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "arrest",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈɹɛst/",
+          "pos": "noun.",
           "cn": "逮捕",
           "tags": [
             "writing"
@@ -22574,17 +22574,17 @@ const VocabData = {
         },
         {
           "w": "bound",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbaʊnd/",
+          "pos": "verb.",
+          "cn": "约束",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "boycott",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbɔɪkɒt/",
+          "pos": "noun.",
           "cn": "拒绝购买",
           "tags": [
             "writing"
@@ -22592,8 +22592,8 @@ const VocabData = {
         },
         {
           "w": "bribe",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɹaɪb/",
+          "pos": "noun.",
           "cn": "贿赂 向'行贿",
           "tags": [
             "writing"
@@ -22619,8 +22619,8 @@ const VocabData = {
         },
         {
           "w": "clue",
-          "phon": "",
-          "pos": "",
+          "phon": "/kluː/",
+          "pos": "noun.",
           "cn": "线索;  提示",
           "tags": [
             "writing"
@@ -22628,8 +22628,8 @@ const VocabData = {
         },
         {
           "w": "command",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəˈmɑːnd/",
+          "pos": "noun.",
           "cn": "命令) . 要求;  需要)。 制执行 )",
           "tags": [
             "writing"
@@ -22637,9 +22637,9 @@ const VocabData = {
         },
         {
           "w": "commit",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəˈmɪt/",
+          "pos": "noun.",
+          "cn": "犯罪、押解到…；遣送到…",
           "tags": [
             "writing"
           ]
@@ -22673,17 +22673,17 @@ const VocabData = {
         },
         {
           "w": "confine",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkɒnfaɪn/",
+          "pos": "noun.",
+          "cn": "约束",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "conform",
-          "phon": "",
-          "pos": "",
+          "phon": "/kənˈfɔːm/",
+          "pos": "verb.",
           "cn": "遵守;  顺从;  相符合",
           "tags": [
             "writing"
@@ -22700,8 +22700,8 @@ const VocabData = {
         },
         {
           "w": "constraint",
-          "phon": "",
-          "pos": "",
+          "phon": "/kənˈstɹeɪnt/",
+          "pos": "noun.",
           "cn": "约束。限制;  克制",
           "tags": [
             "writing"
@@ -22754,9 +22754,9 @@ const VocabData = {
         },
         {
           "w": "criteria",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɹaɪˈtɪəɹ.i.ə/",
+          "pos": "noun.",
+          "cn": "标准",
           "tags": [
             "writing"
           ]
@@ -22800,7 +22800,7 @@ const VocabData = {
         {
           "w": "enact",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "法律法规",
           "tags": [
             "writing"
@@ -22835,7 +22835,7 @@ const VocabData = {
         },
         {
           "w": "false",
-          "phon": "",
+          "phon": "/fɒls/",
           "pos": "adj.",
           "cn": "不正确的;  虚假的;  伪造的",
           "tags": [
@@ -22880,9 +22880,9 @@ const VocabData = {
         },
         {
           "w": "instruct",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɪnˈstɹʌkt/",
+          "pos": "noun.",
+          "cn": "讲授",
           "tags": [
             "writing"
           ]
@@ -22907,17 +22907,17 @@ const VocabData = {
         },
         {
           "w": "jail",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dʒeɪl/",
+          "pos": "noun.",
+          "cn": "监狱",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "judge",
-          "phon": "",
-          "pos": "",
+          "phon": "/d͡ʒʌd͡ʒ/",
+          "pos": "noun.",
           "cn": "法官;  裁判员",
           "tags": [
             "writing"
@@ -22952,9 +22952,9 @@ const VocabData = {
         },
         {
           "w": "law",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/lɔː/",
+          "pos": "noun.",
+          "cn": "法律",
           "tags": [
             "writing"
           ]
@@ -22970,17 +22970,17 @@ const VocabData = {
         },
         {
           "w": "legislate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈlɛdʒɪsˌleɪt/",
+          "pos": "verb.",
+          "cn": "立法",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "liar",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈlaɪ.ə/",
+          "pos": "noun.",
           "cn": "说谎的人",
           "tags": [
             "writing"
@@ -22997,9 +22997,9 @@ const VocabData = {
         },
         {
           "w": "mediate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmidi.ət/",
+          "pos": "verb.",
+          "cn": "adj.间接 ;v.调解 ,调停",
           "tags": [
             "writing"
           ]
@@ -23015,9 +23015,9 @@ const VocabData = {
         },
         {
           "w": "murder",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmɜːdə(ɹ)/",
+          "pos": "noun.",
+          "cn": "谋杀",
           "tags": [
             "writing"
           ]
@@ -23042,8 +23042,8 @@ const VocabData = {
         },
         {
           "w": "mutter",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmʌtə/",
+          "pos": "noun.",
           "cn": "轻声低语;  小声抱怨",
           "tags": [
             "writing"
@@ -23060,8 +23060,8 @@ const VocabData = {
         },
         {
           "w": "obey",
-          "phon": "",
-          "pos": "",
+          "phon": "/əʊˈbeɪ/",
+          "pos": "verb.",
           "cn": "服从,顺从",
           "tags": [
             "writing"
@@ -23069,8 +23069,8 @@ const VocabData = {
         },
         {
           "w": "obligation",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɑb.ləˈɡeɪ.ʃən/",
+          "pos": "noun.",
           "cn": "义务。责任",
           "tags": [
             "writing"
@@ -23078,7 +23078,7 @@ const VocabData = {
         },
         {
           "w": "official",
-          "phon": "",
+          "phon": "/əˈfɪʃəl/",
           "pos": "adj.",
           "cn": "正式的 官方的",
           "tags": [
@@ -23087,8 +23087,8 @@ const VocabData = {
         },
         {
           "w": "oversee",
-          "phon": "",
-          "pos": "",
+          "phon": "/əʊvə(ɹ)siː/",
+          "pos": "verb.",
           "cn": "监管",
           "tags": [
             "writing"
@@ -23114,8 +23114,8 @@ const VocabData = {
         },
         {
           "w": "perform",
-          "phon": "",
-          "pos": "",
+          "phon": "/pəˈfɔːm/",
+          "pos": "verb.",
           "cn": "履行, 执行",
           "tags": [
             "writing"
@@ -23141,9 +23141,9 @@ const VocabData = {
         },
         {
           "w": "petition",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pəˈtɪ.ʃən/",
+          "pos": "noun.",
+          "cn": "请愿；请愿书；申请书；请愿书；申请书",
           "tags": [
             "writing"
           ]
@@ -23195,9 +23195,9 @@ const VocabData = {
         },
         {
           "w": "prison",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɹɪzən/",
+          "pos": "noun.",
+          "cn": "监狱",
           "tags": [
             "writing"
           ]
@@ -23222,8 +23222,8 @@ const VocabData = {
         },
         {
           "w": "prosecute",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpɹɒsɪkjuːt/",
+          "pos": "verb.",
           "cn": "检举。起诉",
           "tags": [
             "writing"
@@ -23240,7 +23240,7 @@ const VocabData = {
         },
         {
           "w": "reasonable",
-          "phon": "",
+          "phon": "/ˈɹiː.zən.ə.bəl/",
           "pos": "adj.",
           "cn": "合理的;  理智的",
           "tags": [
@@ -23258,8 +23258,8 @@ const VocabData = {
         },
         {
           "w": "regulation",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌɹɛɡjʊˈleɪʃən/",
+          "pos": "noun.",
           "cn": "规则。规定;  管理",
           "tags": [
             "writing"
@@ -23285,17 +23285,17 @@ const VocabData = {
         },
         {
           "w": "require",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈkwaɪə/",
+          "pos": "verb.",
+          "cn": "要求",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "restrain",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹɪˈstɹeɪn/",
+          "pos": "verb.",
           "cn": "抑制;  制止",
           "tags": [
             "writing"
@@ -23402,17 +23402,17 @@ const VocabData = {
         },
         {
           "w": "succumb",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/səˈkʌm/",
+          "pos": "verb.",
+          "cn": "屈服",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "sue",
-          "phon": "",
-          "pos": "",
+          "phon": "/suː/",
+          "pos": "verb.",
           "cn": "",
           "tags": [
             "writing"
@@ -23429,7 +23429,7 @@ const VocabData = {
         },
         {
           "w": "suitable",
-          "phon": "",
+          "phon": "/ˈsuːtəbl/",
           "pos": "adj.",
           "cn": "合适的, 适宜的",
           "tags": [
@@ -23439,7 +23439,7 @@ const VocabData = {
         {
           "w": "supervise",
           "phon": "",
-          "pos": "",
+          "pos": "verb.",
           "cn": "监督,管理。指导",
           "tags": [
             "writing"
@@ -23456,9 +23456,9 @@ const VocabData = {
         },
         {
           "w": "suspect",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsʌs.pɛkt/",
+          "pos": "noun.",
+          "cn": "n.被怀疑的人 ,可疑分子 ;v.怀疑",
           "tags": [
             "writing"
           ]
@@ -23474,9 +23474,9 @@ const VocabData = {
         },
         {
           "w": "trap",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɹæp/",
+          "pos": "noun.",
+          "cn": "陷阱",
           "tags": [
             "writing"
           ]
@@ -23519,8 +23519,8 @@ const VocabData = {
         },
         {
           "w": "whisper",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈ(h)wɪspə/",
+          "pos": "noun.",
           "cn": "低声说;  私下谈论",
           "tags": [
             "writing"
@@ -23528,8 +23528,8 @@ const VocabData = {
         },
         {
           "w": "witness",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈwɪtnəs/",
+          "pos": "noun.",
           "cn": "巳u 法律法规",
           "tags": [
             "writing"
@@ -23543,17 +23543,17 @@ const VocabData = {
       "words": [
         {
           "w": "abandon",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈbæn.dən/",
+          "pos": "verb.",
+          "cn": "放弃",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "adventure",
-          "phon": "",
-          "pos": "",
+          "phon": "/ædˈvɛnt͡ʃɚ/",
+          "pos": "noun.",
           "cn": "冒险,冒险经历",
           "tags": [
             "reading"
@@ -23561,7 +23561,7 @@ const VocabData = {
         },
         {
           "w": "aggressive",
-          "phon": "",
+          "phon": "/əˈɡɹɛs.ɪv/",
           "pos": "adj.",
           "cn": "侵略的;  好斗的;  积极进取的",
           "tags": [
@@ -23570,8 +23570,8 @@ const VocabData = {
         },
         {
           "w": "alarm",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈlɑːm/",
+          "pos": "noun.",
           "cn": "忧虑;  警报;  警报器 惊恐,",
           "tags": [
             "reading"
@@ -23579,35 +23579,35 @@ const VocabData = {
         },
         {
           "w": "arrow",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈæɹ.əʊ/",
+          "pos": "noun.",
+          "cn": "箭头",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "assault",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈsɔːlt/",
+          "pos": "noun.",
+          "cn": "突袭；侵犯；威吓",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "attack",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈtæk/",
+          "pos": "noun.",
+          "cn": "攻击",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "avoid",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈvɔɪd/",
+          "pos": "verb.",
           "cn": "避免;  躲开",
           "tags": [
             "reading"
@@ -23615,17 +23615,17 @@ const VocabData = {
         },
         {
           "w": "ax",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/æks/",
+          "pos": "noun.",
+          "cn": "斧头",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "battle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbætəl/",
+          "pos": "noun.",
           "cn": "战斗,战役",
           "tags": [
             "reading"
@@ -23669,8 +23669,8 @@ const VocabData = {
         },
         {
           "w": "blast",
-          "phon": "",
-          "pos": "",
+          "phon": "/blɑːst/",
+          "pos": "noun.",
           "cn": "爆炸",
           "tags": [
             "reading"
@@ -23678,8 +23678,8 @@ const VocabData = {
         },
         {
           "w": "blueprint",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbluːˌpɹɪnt/",
+          "pos": "noun.",
           "cn": "蓝图;  行动计划",
           "tags": [
             "reading"
@@ -23696,8 +23696,8 @@ const VocabData = {
         },
         {
           "w": "bombard",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbɒmˌbɑːd/",
+          "pos": "noun.",
           "cn": "轰击 轰炸;  连珠炮般质问 或批评 )",
           "tags": [
             "reading"
@@ -23741,27 +23741,27 @@ const VocabData = {
         },
         {
           "w": "burst",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bɜːst/",
+          "pos": "noun.",
+          "cn": "决口",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "bury",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbʌ.ɹi/",
+          "pos": "noun.",
+          "cn": "伯里",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "camouflage",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkæ.məˌflɑːʒ/",
+          "pos": "noun.",
+          "cn": "伪装",
           "tags": [
             "reading"
           ]
@@ -23804,8 +23804,8 @@ const VocabData = {
         },
         {
           "w": "catastrophe",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəˈtæstɹəfi/",
+          "pos": "noun.",
           "cn": "重大灾难 大祸",
           "tags": [
             "reading"
@@ -23813,8 +23813,8 @@ const VocabData = {
         },
         {
           "w": "cease",
-          "phon": "",
-          "pos": "",
+          "phon": "/siːs/",
+          "pos": "noun.",
           "cn": "辨析 stop ,",
           "tags": [
             "reading"
@@ -23831,8 +23831,8 @@ const VocabData = {
         },
         {
           "w": "chop",
-          "phon": "",
-          "pos": "",
+          "phon": "/tʃɒp/",
+          "pos": "noun.",
           "cn": "切碎 (食物 );  劈 (木头)",
           "tags": [
             "reading"
@@ -23840,7 +23840,7 @@ const VocabData = {
         },
         {
           "w": "collapse",
-          "phon": "",
+          "phon": "/kəˈlæps/",
           "pos": "n.",
           "cn": "倒塌;  崩溃",
           "tags": [
@@ -23849,8 +23849,8 @@ const VocabData = {
         },
         {
           "w": "comfort",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkʊm.fət/",
+          "pos": "noun.",
           "cn": "安慰;  舒适",
           "tags": [
             "reading"
@@ -23858,8 +23858,8 @@ const VocabData = {
         },
         {
           "w": "compel",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəmˈpɛl/",
+          "pos": "verb.",
           "cn": "强迫 迫使",
           "tags": [
             "reading"
@@ -23877,7 +23877,7 @@ const VocabData = {
         {
           "w": "competitor",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "竞争者。对手",
           "tags": [
             "reading"
@@ -23885,8 +23885,8 @@ const VocabData = {
         },
         {
           "w": "compromise",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkɒmpɹəˌmaɪz/",
+          "pos": "noun.",
           "cn": "妥协",
           "tags": [
             "reading"
@@ -23894,9 +23894,9 @@ const VocabData = {
         },
         {
           "w": "conflict",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kənˈflɪkt/",
+          "pos": "noun.",
+          "cn": "冲突",
           "tags": [
             "reading"
           ]
@@ -23912,8 +23912,8 @@ const VocabData = {
         },
         {
           "w": "conspiracy",
-          "phon": "",
-          "pos": "",
+          "phon": "/kənˈspɪɹəsi/",
+          "pos": "noun.",
           "cn": "阴谋,密谋,合谋",
           "tags": [
             "reading"
@@ -23921,35 +23921,35 @@ const VocabData = {
         },
         {
           "w": "contend",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kənˈtɛnd/",
+          "pos": "verb.",
+          "cn": "v.竞争",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "contest",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkɒn.tɛst/",
+          "pos": "noun.",
+          "cn": "比赛",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "contribute",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kənˈt(ʃ)ɹɪb.juːt/",
+          "pos": "verb.",
+          "cn": "贡献",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "counter",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkaʊntə/",
+          "pos": "noun.",
           "cn": "柜台;  工作台",
           "tags": [
             "reading"
@@ -23957,7 +23957,7 @@ const VocabData = {
         },
         {
           "w": "damage",
-          "phon": "",
+          "phon": "/ˈdæmɪdʒ/",
           "pos": "n.",
           "cn": "损害;  伤害",
           "tags": [
@@ -23966,9 +23966,9 @@ const VocabData = {
         },
         {
           "w": "defeat",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈfiːt/",
+          "pos": "verb.",
+          "cn": "击败",
           "tags": [
             "reading"
           ]
@@ -23984,9 +23984,9 @@ const VocabData = {
         },
         {
           "w": "deflect",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈflɛkt/",
+          "pos": "verb.",
+          "cn": "偏转",
           "tags": [
             "reading"
           ]
@@ -24029,8 +24029,8 @@ const VocabData = {
         },
         {
           "w": "devastate",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈdɛvəsteɪt/",
+          "pos": "verb.",
           "cn": "摧毁 毁坏,",
           "tags": [
             "reading"
@@ -24047,9 +24047,9 @@ const VocabData = {
         },
         {
           "w": "devote",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪˈvəʊt/",
+          "pos": "verb.",
+          "cn": "奉献",
           "tags": [
             "reading"
           ]
@@ -24065,17 +24065,17 @@ const VocabData = {
         },
         {
           "w": "discard",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdɪskɑːd/",
+          "pos": "noun.",
+          "cn": "弃置",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "disturb",
-          "phon": "",
-          "pos": "",
+          "phon": "/dɪsˈtɜːb/",
+          "pos": "noun.",
           "cn": "打扰;  使焦虑;  弄乱",
           "tags": [
             "reading"
@@ -24101,8 +24101,8 @@ const VocabData = {
         },
         {
           "w": "enemy",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɛnəmi/",
+          "pos": "noun.",
           "cn": "敌人 仇敌;  敌兵,敌军",
           "tags": [
             "reading"
@@ -24137,8 +24137,8 @@ const VocabData = {
         },
         {
           "w": "event",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈvɛnt/",
+          "pos": "noun.",
           "cn": "事件,大事;  公开活动",
           "tags": [
             "reading"
@@ -24164,9 +24164,9 @@ const VocabData = {
         },
         {
           "w": "execute",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛksɪˌkjuːt/",
+          "pos": "verb.",
+          "cn": "执行",
           "tags": [
             "reading"
           ]
@@ -24191,9 +24191,9 @@ const VocabData = {
         },
         {
           "w": "fierce",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/fɪəs/",
+          "pos": "adjective.",
+          "cn": "刚猛",
           "tags": [
             "reading"
           ]
@@ -24209,17 +24209,17 @@ const VocabData = {
         },
         {
           "w": "flare",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/flɛə̯/",
+          "pos": "noun.",
+          "cn": "烟火",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "fleet",
-          "phon": "",
-          "pos": "",
+          "phon": "/fliːt/",
+          "pos": "noun.",
           "cn": "舰队。船队;  机群,车队",
           "tags": [
             "reading"
@@ -24227,8 +24227,8 @@ const VocabData = {
         },
         {
           "w": "forbid",
-          "phon": "",
-          "pos": "",
+          "phon": "/fəˈbɪd/",
+          "pos": "verb.",
           "cn": "阻止",
           "tags": [
             "reading"
@@ -24236,8 +24236,8 @@ const VocabData = {
         },
         {
           "w": "force",
-          "phon": "",
-          "pos": "",
+          "phon": "/fɔːs/",
+          "pos": "noun.",
           "cn": "力量;  武力",
           "tags": [
             "reading"
@@ -24245,9 +24245,9 @@ const VocabData = {
         },
         {
           "w": "forgo",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/fɔːˈɡəʊ/",
+          "pos": "verb.",
+          "cn": "放弃",
           "tags": [
             "reading"
           ]
@@ -24299,7 +24299,7 @@ const VocabData = {
         },
         {
           "w": "glorious",
-          "phon": "",
+          "phon": "/ˈɡlɔː.ɹi.əs/",
           "pos": "adj.",
           "cn": "荣耀的 光荣的 ,",
           "tags": [
@@ -24326,17 +24326,17 @@ const VocabData = {
         },
         {
           "w": "guard",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɡɑːd/",
+          "pos": "noun.",
+          "cn": "守衛",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "gunpowder",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɡʌnˌpaʊdə/",
+          "pos": "noun.",
           "cn": "火药",
           "tags": [
             "reading"
@@ -24371,9 +24371,9 @@ const VocabData = {
         },
         {
           "w": "happen",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhæpən/",
+          "pos": "verb.",
+          "cn": "發生",
           "tags": [
             "reading"
           ]
@@ -24407,8 +24407,8 @@ const VocabData = {
         },
         {
           "w": "hit",
-          "phon": "",
-          "pos": "",
+          "phon": "/hɪt/",
+          "pos": "noun.",
           "cn": "击。打;  击中",
           "tags": [
             "reading"
@@ -24416,9 +24416,9 @@ const VocabData = {
         },
         {
           "w": "honor",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɒn.ə/",
+          "pos": "noun.",
+          "cn": "尊榮，尊崇，尊敬",
           "tags": [
             "reading"
           ]
@@ -24434,35 +24434,35 @@ const VocabData = {
         },
         {
           "w": "hover",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhɒ.və(ɹ)/",
+          "pos": "noun.",
+          "cn": "悬停",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "humiliate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/hjuːˈmɪliˌeɪt/",
+          "pos": "verb.",
+          "cn": "v.侮辱 ,污辱",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "impair",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪmˈpɛə/",
+          "pos": "verb.",
+          "cn": "v.毁损 ,伤害,损害,妨害",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "interfere",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌɪntəˈfɪə/",
+          "pos": "verb.",
           "cn": "千涉;  妨碍",
           "tags": [
             "reading"
@@ -24488,9 +24488,9 @@ const VocabData = {
         },
         {
           "w": "invade",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈveɪd/",
+          "pos": "verb.",
+          "cn": "干预 ;v.侵犯 ,侵略,侵入,入侵",
           "tags": [
             "reading"
           ]
@@ -24515,9 +24515,9 @@ const VocabData = {
         },
         {
           "w": "maneuver",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/məˈnuːvə/",
+          "pos": "noun.",
+          "cn": "调动 ,演习",
           "tags": [
             "reading"
           ]
@@ -24551,8 +24551,8 @@ const VocabData = {
         },
         {
           "w": "might",
-          "phon": "",
-          "pos": "",
+          "phon": "/maɪt/",
+          "pos": "noun.",
           "cn": "力量。威力",
           "tags": [
             "reading"
@@ -24569,8 +24569,8 @@ const VocabData = {
         },
         {
           "w": "mislead",
-          "phon": "",
-          "pos": "",
+          "phon": "/mɪsˈliːd/",
+          "pos": "verb.",
           "cn": "使误入歧途",
           "tags": [
             "reading"
@@ -24596,8 +24596,8 @@ const VocabData = {
         },
         {
           "w": "mitigate",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmɪt.ɪ.ɡeɪt/",
+          "pos": "verb.",
           "cn": "减轻 缓和",
           "tags": [
             "reading"
@@ -24632,8 +24632,8 @@ const VocabData = {
         },
         {
           "w": "oblige",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈblaɪdʒ/",
+          "pos": "verb.",
           "cn": "迫使。强迫;  帮忙",
           "tags": [
             "reading"
@@ -24659,17 +24659,17 @@ const VocabData = {
         },
         {
           "w": "occur",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈkɜː/",
+          "pos": "verb.",
+          "cn": "發生",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "offend",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈfɛnd/",
+          "pos": "verb.",
           "cn": "冒犯;  犯罪;  违反",
           "tags": [
             "reading"
@@ -24704,8 +24704,8 @@ const VocabData = {
         },
         {
           "w": "owe",
-          "phon": "",
-          "pos": "",
+          "phon": "/əʊ/",
+          "pos": "verb.",
           "cn": "应把.+归功于;  欠 (情) ,感激",
           "tags": [
             "reading"
@@ -24722,9 +24722,9 @@ const VocabData = {
         },
         {
           "w": "patrol",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pəˈtɹəʊl/",
+          "pos": "noun.",
+          "cn": "巡逻",
           "tags": [
             "reading"
           ]
@@ -24740,8 +24740,8 @@ const VocabData = {
         },
         {
           "w": "peril",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpɛɹəl/",
+          "pos": "noun.",
           "cn": "重大危险;  险情,危险",
           "tags": [
             "reading"
@@ -24794,26 +24794,26 @@ const VocabData = {
         },
         {
           "w": "prevent",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɹəˈvɛnt/",
+          "pos": "verb.",
+          "cn": "防止",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "proceed",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɹəˈsiːd/",
+          "pos": "verb.",
+          "cn": "进行",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "progress",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpɹɒɡɹɛs/",
+          "pos": "noun.",
           "cn": "沙场争锋",
           "tags": [
             "reading"
@@ -24839,9 +24839,9 @@ const VocabData = {
         },
         {
           "w": "protest",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɹəʊ.tɛst/",
+          "pos": "noun.",
+          "cn": "抗议",
           "tags": [
             "reading"
           ]
@@ -24857,8 +24857,8 @@ const VocabData = {
         },
         {
           "w": "punch",
-          "phon": "",
-          "pos": "",
+          "phon": "/pʌntʃ/",
+          "pos": "noun.",
           "cn": "打孔机;  重拳击打",
           "tags": [
             "reading"
@@ -24902,9 +24902,9 @@ const VocabData = {
         },
         {
           "w": "rebel",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹɛbəl/",
+          "pos": "noun.",
+          "cn": "叛军",
           "tags": [
             "reading"
           ]
@@ -24920,8 +24920,8 @@ const VocabData = {
         },
         {
           "w": "refute",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹəˈfjut/",
+          "pos": "verb.",
           "cn": "反驳 驳斥;  否认",
           "tags": [
             "reading"
@@ -24938,8 +24938,8 @@ const VocabData = {
         },
         {
           "w": "reinforce",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌɹiːɪnˈfɔː(ɹ)s/",
+          "pos": "verb.",
           "cn": "增援;  增强,加强;  加固",
           "tags": [
             "reading"
@@ -24947,17 +24947,17 @@ const VocabData = {
         },
         {
           "w": "reproach",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈpɹəʊtʃ/",
+          "pos": "noun.",
+          "cn": "恥辱，侮辱",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "resist",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹəˈzɪst/",
+          "pos": "noun.",
           "cn": "反对;  抵御;  忍住",
           "tags": [
             "reading"
@@ -24965,9 +24965,9 @@ const VocabData = {
         },
         {
           "w": "retreat",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹəˈtɹiːt/",
+          "pos": "noun.",
+          "cn": "n.避难所 ,收容所",
           "tags": [
             "reading"
           ]
@@ -24992,8 +24992,8 @@ const VocabData = {
         },
         {
           "w": "rifle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɹaɪfəl/",
+          "pos": "noun.",
           "cn": "步枪",
           "tags": [
             "reading"
@@ -25082,9 +25082,9 @@ const VocabData = {
         },
         {
           "w": "shrink",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈʃɹɪŋk/",
+          "pos": "noun.",
+          "cn": "收缩",
           "tags": [
             "reading"
           ]
@@ -25109,8 +25109,8 @@ const VocabData = {
         },
         {
           "w": "spark",
-          "phon": "",
-          "pos": "",
+          "phon": "/spɑːk/",
+          "pos": "noun.",
           "cn": "火花,火星",
           "tags": [
             "reading"
@@ -25136,18 +25136,18 @@ const VocabData = {
         },
         {
           "w": "stab",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/stæb/",
+          "pos": "noun.",
+          "cn": "v.戳伤 ,刺伤",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "starve",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/stɑːv/",
+          "pos": "verb.",
+          "cn": "星形",
           "tags": [
             "reading"
           ]
@@ -25181,27 +25181,27 @@ const VocabData = {
         },
         {
           "w": "struggle",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈstrʌɡəl/",
+          "pos": "noun.",
+          "cn": "交戰 交战 [jiao1 zhan4]",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "surrender",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/səˈɹɛndəɹ/",
+          "pos": "noun.",
+          "cn": "投降",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "surround",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/səˈɹaʊnd/",
+          "pos": "noun.",
+          "cn": "周围",
           "tags": [
             "reading"
           ]
@@ -25226,8 +25226,8 @@ const VocabData = {
         },
         {
           "w": "tactic",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈtæktɪk/",
+          "pos": "noun.",
           "cn": "策略,战术",
           "tags": [
             "reading"
@@ -25253,8 +25253,8 @@ const VocabData = {
         },
         {
           "w": "tension",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈtɛnʃən/",
+          "pos": "noun.",
           "cn": "紧张;  拉紧状态",
           "tags": [
             "reading"
@@ -25307,8 +25307,8 @@ const VocabData = {
         },
         {
           "w": "torture",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈtɔːt͡ʃə(ɹ)/",
+          "pos": "noun.",
           "cn": "拷问;  痛苦。折磨",
           "tags": [
             "reading"
@@ -25379,8 +25379,8 @@ const VocabData = {
         },
         {
           "w": "twinkle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈtwɪŋkl̩/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "reading"
@@ -25406,9 +25406,9 @@ const VocabData = {
         },
         {
           "w": "violate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈvaɪəˌleɪt/",
+          "pos": "verb.",
+          "cn": "v.触犯 ,犯,冒犯,破坏 , 强奸 ,侵犯,违背",
           "tags": [
             "reading"
           ]
@@ -25424,9 +25424,9 @@ const VocabData = {
         },
         {
           "w": "warn",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/wɔːn/",
+          "pos": "verb.",
+          "cn": "告诫 ;v.预告",
           "tags": [
             "reading"
           ]
@@ -25442,8 +25442,8 @@ const VocabData = {
         },
         {
           "w": "withdraw",
-          "phon": "",
-          "pos": "",
+          "phon": "/wɪðˈdɹɔː/",
+          "pos": "verb.",
           "cn": "收回;(使〉撤退;  提 (款)",
           "tags": [
             "reading"
@@ -25451,9 +25451,9 @@ const VocabData = {
         },
         {
           "w": "withstand",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/wɪðˈstænd/",
+          "pos": "verb.",
+          "cn": "抗住",
           "tags": [
             "reading"
           ]
@@ -25466,17 +25466,17 @@ const VocabData = {
       "words": [
         {
           "w": "accompany",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ə.ˈkʌm.pə.ni/",
+          "pos": "verb.",
+          "cn": "陪伴；爸爸会跟你永远在一起的儿子",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "acquaintance",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈkweɪntəns/",
+          "pos": "noun.",
           "cn": "相识的人,泛泛之交;  认识; 了解",
           "tags": [
             "writing"
@@ -25493,8 +25493,8 @@ const VocabData = {
         },
         {
           "w": "adolescence",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌædəˈlɛsəns/",
+          "pos": "noun.",
           "cn": "青春期",
           "tags": [
             "writing"
@@ -25511,8 +25511,8 @@ const VocabData = {
         },
         {
           "w": "appointment",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈpɔɪnt.mɛnt/",
+          "pos": "noun.",
           "cn": "约会;  指派",
           "tags": [
             "writing"
@@ -25520,8 +25520,8 @@ const VocabData = {
         },
         {
           "w": "apprentice",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈpɹɛntɪs/",
+          "pos": "noun.",
           "cn": "学徒,徒弟",
           "tags": [
             "writing"
@@ -25529,17 +25529,17 @@ const VocabData = {
         },
         {
           "w": "attorney",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈtɜː(ɹ)ni/",
+          "pos": "noun.",
+          "cn": "n.律师 ,代理人 ,辅佐人",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "barber",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈbɑː.bə/",
+          "pos": "noun.",
           "cn": "理发师",
           "tags": [
             "writing"
@@ -25583,8 +25583,8 @@ const VocabData = {
         },
         {
           "w": "cashier",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəˈʃɪə/",
+          "pos": "verb.",
           "cn": "几出纳员,收银员",
           "tags": [
             "writing"
@@ -25601,9 +25601,9 @@ const VocabData = {
         },
         {
           "w": "chase",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tʃeɪs/",
+          "pos": "noun.",
+          "cn": "n.狩猎地",
           "tags": [
             "writing"
           ]
@@ -25647,7 +25647,7 @@ const VocabData = {
         {
           "w": "committee",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "委员会",
           "tags": [
             "writing"
@@ -25682,9 +25682,9 @@ const VocabData = {
         },
         {
           "w": "council",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkaʊn.səl/",
+          "pos": "noun.",
+          "cn": "评议会",
           "tags": [
             "writing"
           ]
@@ -25692,8 +25692,8 @@ const VocabData = {
         {
           "w": "counsellor",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "n.参事 ,参赞",
           "tags": [
             "writing"
           ]
@@ -25718,8 +25718,8 @@ const VocabData = {
         },
         {
           "w": "coward",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkaʊəd/",
+          "pos": "noun.",
           "cn": "那个乞丐一把硬币 恳求;  乞讨",
           "tags": [
             "writing"
@@ -25755,8 +25755,8 @@ const VocabData = {
         {
           "w": "delegate",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "代理人",
           "tags": [
             "writing"
           ]
@@ -25799,9 +25799,9 @@ const VocabData = {
         },
         {
           "w": "each",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/iːt͡ʃ/",
+          "pos": "noun.",
+          "cn": "个",
           "tags": [
             "writing"
           ]
@@ -25817,9 +25817,9 @@ const VocabData = {
         },
         {
           "w": "encounter",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈkaʊntə/",
+          "pos": "noun.",
+          "cn": "会晤",
           "tags": [
             "writing"
           ]
@@ -25836,8 +25836,8 @@ const VocabData = {
         {
           "w": "father-in-law",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "公公，岳父",
           "tags": [
             "writing"
           ]
@@ -25853,8 +25853,8 @@ const VocabData = {
         },
         {
           "w": "fireman",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfaɪəmən/",
+          "pos": "noun.",
           "cn": "消防队员;  司炉工",
           "tags": [
             "writing"
@@ -25934,9 +25934,9 @@ const VocabData = {
         },
         {
           "w": "grandfather",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɡɹæn(d)ˌfɑːðə(r)/",
+          "pos": "noun.",
+          "cn": "祖父",
           "tags": [
             "writing"
           ]
@@ -25988,8 +25988,8 @@ const VocabData = {
         },
         {
           "w": "hero",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈhɛɹ.oʊ/",
+          "pos": "noun.",
           "cn": "男主角,男主人公;  英雄;  勇士",
           "tags": [
             "writing"
@@ -25997,8 +25997,8 @@ const VocabData = {
         },
         {
           "w": "heroine",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈhɛɹoʊɪn/",
+          "pos": "noun.",
           "cn": "女主角 女主人公;  女英雄",
           "tags": [
             "writing"
@@ -26015,7 +26015,7 @@ const VocabData = {
         },
         {
           "w": "host",
-          "phon": "",
+          "phon": "/həʊst/",
           "pos": "n.",
           "cn": "主人,东道主",
           "tags": [
@@ -26069,9 +26069,9 @@ const VocabData = {
         },
         {
           "w": "individual",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɘndɘˈvɘd͡ʒɘl/",
+          "pos": "noun.",
+          "cn": "个人举升",
           "tags": [
             "writing"
           ]
@@ -26105,18 +26105,18 @@ const VocabData = {
         },
         {
           "w": "kin",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɪn/",
+          "pos": "noun.",
+          "cn": "n.家族 ,亲戚",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "kiss",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kɪs/",
+          "pos": "verb.",
+          "cn": "吻",
           "tags": [
             "writing"
           ]
@@ -26159,8 +26159,8 @@ const VocabData = {
         },
         {
           "w": "maid",
-          "phon": "",
-          "pos": "",
+          "phon": "/meɪd/",
+          "pos": "noun.",
           "cn": "女佣 女仆;  少女",
           "tags": [
             "writing"
@@ -26186,9 +26186,9 @@ const VocabData = {
         },
         {
           "w": "marry",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmæɹɪ/",
+          "pos": "verb.",
+          "cn": "v.婚 ,结婚",
           "tags": [
             "writing"
           ]
@@ -26213,9 +26213,9 @@ const VocabData = {
         },
         {
           "w": "miss",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/mɪs/",
+          "pos": "noun.",
+          "cn": "缺席",
           "tags": [
             "writing"
           ]
@@ -26231,9 +26231,9 @@ const VocabData = {
         },
         {
           "w": "neighborhood",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈneɪbə.hʊd/",
+          "pos": "noun.",
+          "cn": "邻里",
           "tags": [
             "writing"
           ]
@@ -26249,8 +26249,8 @@ const VocabData = {
         },
         {
           "w": "niece",
-          "phon": "",
-          "pos": "",
+          "phon": "/niːs/",
+          "pos": "noun.",
           "cn": "侄女;  外甥女",
           "tags": [
             "writing"
@@ -26258,9 +26258,9 @@ const VocabData = {
         },
         {
           "w": "nurse",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/nɜːs/",
+          "pos": "noun.",
+          "cn": "护士",
           "tags": [
             "writing"
           ]
@@ -26285,8 +26285,8 @@ const VocabData = {
         },
         {
           "w": "pioneer",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌpaɪəˈnɪəɹ/",
+          "pos": "noun.",
           "cn": "先驱。开创者",
           "tags": [
             "writing"
@@ -26294,9 +26294,9 @@ const VocabData = {
         },
         {
           "w": "prophet",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɹɒf.ɪt/",
+          "pos": "noun.",
+          "cn": "先知",
           "tags": [
             "writing"
           ]
@@ -26330,7 +26330,7 @@ const VocabData = {
         },
         {
           "w": "respective",
-          "phon": "",
+          "phon": "/ɹɪˈspɛktɪv/",
           "pos": "adj.",
           "cn": "分别的 各自的",
           "tags": [
@@ -26339,9 +26339,9 @@ const VocabData = {
         },
         {
           "w": "separate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsɛpəɹət/",
+          "pos": "noun.",
+          "cn": "单独",
           "tags": [
             "writing"
           ]
@@ -26384,9 +26384,9 @@ const VocabData = {
         },
         {
           "w": "sole",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/səʊl/",
+          "pos": "noun.",
+          "cn": "adj.独身 ,惟一",
           "tags": [
             "writing"
           ]
@@ -26465,9 +26465,9 @@ const VocabData = {
         },
         {
           "w": "teenager",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtiːnˌeɪ.dʒə(ɹ)/",
+          "pos": "noun.",
+          "cn": "『毛』头小子",
           "tags": [
             "writing"
           ]
@@ -26561,8 +26561,8 @@ const VocabData = {
       "words": [
         {
           "w": "accord",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈkɔːd/",
+          "pos": "noun.",
           "cn": "协议",
           "tags": [
             "writing"
@@ -26579,9 +26579,9 @@ const VocabData = {
         },
         {
           "w": "act",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/æk/",
+          "pos": "noun.",
+          "cn": "合同",
           "tags": [
             "writing"
           ]
@@ -26597,17 +26597,17 @@ const VocabData = {
         },
         {
           "w": "allure",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈl(j)ʊɚ/",
+          "pos": "noun.",
+          "cn": "魅惑",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "amaze",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈmeɪz/",
+          "pos": "noun.",
           "cn": "使惊奇 使惊愕",
           "tags": [
             "writing"
@@ -26624,8 +26624,8 @@ const VocabData = {
         },
         {
           "w": "annoy",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈnɔɪ/",
+          "pos": "noun.",
           "cn": "贫穷的国家拥有最丰富的自然资源。",
           "tags": [
             "writing"
@@ -26633,9 +26633,9 @@ const VocabData = {
         },
         {
           "w": "applaud",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈplɔːd/",
+          "pos": "noun.",
+          "cn": "鼓掌",
           "tags": [
             "writing"
           ]
@@ -26651,8 +26651,8 @@ const VocabData = {
         },
         {
           "w": "arouse",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈɹaʊz/",
+          "pos": "verb.",
           "cn": "唤起,激起,引起",
           "tags": [
             "writing"
@@ -26669,8 +26669,8 @@ const VocabData = {
         },
         {
           "w": "aspire",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈspaɪə(ɹ)/",
+          "pos": "verb.",
           "cn": "渴望",
           "tags": [
             "writing"
@@ -26687,8 +26687,8 @@ const VocabData = {
         },
         {
           "w": "assign",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈsaɪn/",
+          "pos": "noun.",
           "cn": "布置;  分配;  指定;  确定",
           "tags": [
             "writing"
@@ -26696,27 +26696,27 @@ const VocabData = {
         },
         {
           "w": "assort",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈsɔːt/",
+          "pos": "verb.",
+          "cn": "整理",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "assure",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈʃɔː/",
+          "pos": "verb.",
+          "cn": "v.保证 ,担保",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "astonish",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈstɒnɪʃ/",
+          "pos": "verb.",
+          "cn": "惊吓",
           "tags": [
             "writing"
           ]
@@ -26732,8 +26732,8 @@ const VocabData = {
         },
         {
           "w": "attract",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈtɹækt/",
+          "pos": "verb.",
           "cn": "吸引;  引起",
           "tags": [
             "writing"
@@ -26742,17 +26742,17 @@ const VocabData = {
         {
           "w": "attribute",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "属性",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "augment",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɔːɡˈmɛnt/",
+          "pos": "noun.",
+          "cn": "v.增补",
           "tags": [
             "writing"
           ]
@@ -26768,8 +26768,8 @@ const VocabData = {
         },
         {
           "w": "bait",
-          "phon": "",
-          "pos": "",
+          "phon": "/beɪt/",
+          "pos": "noun.",
           "cn": "使上当发火 诱饵;  诱惑物",
           "tags": [
             "writing"
@@ -26777,17 +26777,17 @@ const VocabData = {
         },
         {
           "w": "baptize",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbæptaɪz/",
+          "pos": "verb.",
+          "cn": "施洗",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "bear",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɛə(ɹ)/",
+          "pos": "noun.",
           "cn": "生 (孩子);容忍;  承担 (责任)",
           "tags": [
             "writing"
@@ -26795,8 +26795,8 @@ const VocabData = {
         },
         {
           "w": "behave",
-          "phon": "",
-          "pos": "",
+          "phon": "/bəˈheɪv/",
+          "pos": "verb.",
           "cn": "表现; (机器等) 运转",
           "tags": [
             "writing"
@@ -26831,8 +26831,8 @@ const VocabData = {
         },
         {
           "w": "bless",
-          "phon": "",
-          "pos": "",
+          "phon": "/blɛs/",
+          "pos": "verb.",
           "cn": "祝福,为祈求上帝保佑",
           "tags": [
             "writing"
@@ -26840,17 +26840,17 @@ const VocabData = {
         },
         {
           "w": "boast",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/bəʊst/",
+          "pos": "noun.",
+          "cn": "夸下海口",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "bond",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɒnd/",
+          "pos": "noun.",
           "cn": "与:黏合 或连接 ) 几 黏合;(感情的)  纽带",
           "tags": [
             "writing"
@@ -26858,9 +26858,9 @@ const VocabData = {
         },
         {
           "w": "bully",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbʊli/",
+          "pos": "noun.",
+          "cn": "n.地痞 ,恶棍 ;v.威吓",
           "tags": [
             "writing"
           ]
@@ -26876,8 +26876,8 @@ const VocabData = {
         },
         {
           "w": "catch",
-          "phon": "",
-          "pos": "",
+          "phon": "/kæt͡ʃ/",
+          "pos": "noun.",
           "cn": "行为动作",
           "tags": [
             "writing"
@@ -26912,7 +26912,7 @@ const VocabData = {
         },
         {
           "w": "clear",
-          "phon": "",
+          "phon": "/klɪə(ɹ)/",
           "pos": "adj.",
           "cn": "清晰的;  明显的 清除",
           "tags": [
@@ -26921,8 +26921,8 @@ const VocabData = {
         },
         {
           "w": "collide",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəˈlɑɪd/",
+          "pos": "verb.",
           "cn": "碰撞;  抵触",
           "tags": [
             "writing"
@@ -26930,17 +26930,17 @@ const VocabData = {
         },
         {
           "w": "combine",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəmˈbaɪn/",
+          "pos": "noun.",
+          "cn": "结合",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "commence",
-          "phon": "",
-          "pos": "",
+          "phon": "/kəˈmɛns/",
+          "pos": "verb.",
           "cn": "开始,着手",
           "tags": [
             "writing"
@@ -26957,9 +26957,9 @@ const VocabData = {
         },
         {
           "w": "conduct",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkɒndʌkt/",
+          "pos": "noun.",
+          "cn": "行为",
           "tags": [
             "writing"
           ]
@@ -26975,9 +26975,9 @@ const VocabData = {
         },
         {
           "w": "connect",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kəˈnɛkt/",
+          "pos": "verb.",
+          "cn": "连接",
           "tags": [
             "writing"
           ]
@@ -26985,8 +26985,8 @@ const VocabData = {
         {
           "w": "contact",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "欢迎联系我们",
           "tags": [
             "writing"
           ]
@@ -27002,9 +27002,9 @@ const VocabData = {
         },
         {
           "w": "contemplate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkɒn.təmˌpleɪt/",
+          "pos": "verb.",
+          "cn": "思考",
           "tags": [
             "writing"
           ]
@@ -27020,9 +27020,9 @@ const VocabData = {
         },
         {
           "w": "convict",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkɒnvɪkt/",
+          "pos": "noun.",
+          "cn": "n.查明有罪 ,定罪,犯,犯人,既决犯,监犯,囚犯,囚徒,刑事罪犯,已决犯?;v.已决犯",
           "tags": [
             "writing"
           ]
@@ -27047,17 +27047,17 @@ const VocabData = {
         },
         {
           "w": "correspond",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌkɒɹəˈspɒnd/",
+          "pos": "verb.",
+          "cn": "代表 代表 [dai4 biao3]",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "curse",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɜːs/",
+          "pos": "noun.",
           "cn": "咒语;  咒骂话 诅咒;  咒骂",
           "tags": [
             "writing"
@@ -27119,8 +27119,8 @@ const VocabData = {
         },
         {
           "w": "despatch",
-          "phon": "",
-          "pos": "",
+          "phon": "/dəˈspætʃ/",
+          "pos": "noun.",
           "cn": "生了小孩 (hatch ) 找工作 _ 征婚 (match ) 哀悼某人 去世 (despatch 被派遣到上帝身边了 )",
           "tags": [
             "writing"
@@ -27128,18 +27128,18 @@ const VocabData = {
         },
         {
           "w": "detach",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dəˈtætʃ/",
+          "pos": "verb.",
+          "cn": "分离",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "deviate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdiːvi.ət/",
+          "pos": "noun.",
+          "cn": "偏离",
           "tags": [
             "writing"
           ]
@@ -27155,8 +27155,8 @@ const VocabData = {
         },
         {
           "w": "disguise",
-          "phon": "",
-          "pos": "",
+          "phon": "/dɪsˈɡaɪz/",
+          "pos": "noun.",
           "cn": "掩饰;  假扮,伪装 几 假扮;  伪装物",
           "tags": [
             "writing"
@@ -27164,8 +27164,8 @@ const VocabData = {
         },
         {
           "w": "dispose",
-          "phon": "",
-          "pos": "",
+          "phon": "/dɪˈspəʊz/",
+          "pos": "noun.",
           "cn": "安排 布置,",
           "tags": [
             "writing"
@@ -27173,9 +27173,9 @@ const VocabData = {
         },
         {
           "w": "dispute",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈdɪs.pjuːt/",
+          "pos": "noun.",
+          "cn": "n.争议 ,纷争 ,纠纷,争端,争执",
           "tags": [
             "writing"
           ]
@@ -27263,9 +27263,9 @@ const VocabData = {
         },
         {
           "w": "exaggerate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɛɡˈzæ.dʒə.ɹeɪt/",
+          "pos": "verb.",
+          "cn": "浮夸",
           "tags": [
             "writing"
           ]
@@ -27282,25 +27282,25 @@ const VocabData = {
         {
           "w": "excuse",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "v.宽恕 ,赦免,原谅 ;n.借口 ,赦免,原谅",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "exert",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪɡˈzɜːt/",
+          "pos": "verb.",
+          "cn": "发挥",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "exhale",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɛksˈheɪl/",
+          "pos": "noun.",
           "cn": "呼气。呼出",
           "tags": [
             "writing"
@@ -27317,9 +27317,9 @@ const VocabData = {
         },
         {
           "w": "explain",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɛkˈspleɪn/",
+          "pos": "verb.",
+          "cn": "解释",
           "tags": [
             "writing"
           ]
@@ -27335,18 +27335,18 @@ const VocabData = {
         },
         {
           "w": "explore",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪkˈsplɔː/",
+          "pos": "noun.",
+          "cn": "发现",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "farewell",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/fɛəˈwɛl/",
+          "pos": "noun.",
+          "cn": "告别",
           "tags": [
             "writing"
           ]
@@ -27371,9 +27371,9 @@ const VocabData = {
         },
         {
           "w": "flee",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/fliː/",
+          "pos": "verb.",
+          "cn": "出逃",
           "tags": [
             "writing"
           ]
@@ -27408,8 +27408,8 @@ const VocabData = {
         {
           "w": "fulfil",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "履行",
           "tags": [
             "writing"
           ]
@@ -27425,18 +27425,18 @@ const VocabData = {
         },
         {
           "w": "gamble",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɡæm.bəl/",
+          "pos": "noun.",
+          "cn": "赌博",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "gaze",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɡeɪz/",
+          "pos": "noun.",
+          "cn": "目光",
           "tags": [
             "writing"
           ]
@@ -27506,27 +27506,27 @@ const VocabData = {
         },
         {
           "w": "hasten",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈheɪ.sən/",
+          "pos": "verb.",
+          "cn": "v.催办",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "hijack",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈhaɪ.dʒæk/",
+          "pos": "noun.",
+          "cn": "v.绑架 ,劫持",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "hug",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/hʌɡ/",
+          "pos": "noun.",
+          "cn": "抱在一起",
           "tags": [
             "writing"
           ]
@@ -27560,18 +27560,18 @@ const VocabData = {
         },
         {
           "w": "impede",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪmˈpiːd/",
+          "pos": "verb.",
+          "cn": "v.阻碍 ,妨碍",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "impress",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɪmpɹɛs/",
+          "pos": "noun.",
+          "cn": "打印",
           "tags": [
             "writing"
           ]
@@ -27579,8 +27579,8 @@ const VocabData = {
         {
           "w": "incline",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "倾斜",
           "tags": [
             "writing"
           ]
@@ -27605,9 +27605,9 @@ const VocabData = {
         },
         {
           "w": "insert",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈsɜːt/",
+          "pos": "noun.",
+          "cn": "填入",
           "tags": [
             "writing"
           ]
@@ -27623,9 +27623,9 @@ const VocabData = {
         },
         {
           "w": "integrate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɪntəɡɹeɪt/",
+          "pos": "verb.",
+          "cn": "整合",
           "tags": [
             "writing"
           ]
@@ -27633,7 +27633,7 @@ const VocabData = {
         {
           "w": "intervene",
           "phon": "",
-          "pos": "",
+          "pos": "verb.",
           "cn": "插话;  千扰;  千涉",
           "tags": [
             "writing"
@@ -27650,8 +27650,8 @@ const VocabData = {
         },
         {
           "w": "invoke",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪnˈvoʊk/",
+          "pos": "verb.",
           "cn": "唤起 感情等);  向祈求帮助;  恳求",
           "tags": [
             "writing"
@@ -27659,9 +27659,9 @@ const VocabData = {
         },
         {
           "w": "involve",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈvɒlv/",
+          "pos": "verb.",
+          "cn": "要求",
           "tags": [
             "writing"
           ]
@@ -27687,17 +27687,17 @@ const VocabData = {
         {
           "w": "kidnap",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "v.绑架 ,拐骗 ,拐骗,绑票,诱拐 ;n.绑架",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "kneel",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/niːl/",
+          "pos": "verb.",
+          "cn": "蹲下",
           "tags": [
             "writing"
           ]
@@ -27722,9 +27722,9 @@ const VocabData = {
         },
         {
           "w": "lean",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/liːn/",
+          "pos": "noun.",
+          "cn": "屈身",
           "tags": [
             "writing"
           ]
@@ -27740,8 +27740,8 @@ const VocabData = {
         },
         {
           "w": "loosen",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈluːsn̩/",
+          "pos": "verb.",
           "cn": "解开,松开;  放宽",
           "tags": [
             "writing"
@@ -27749,18 +27749,18 @@ const VocabData = {
         },
         {
           "w": "magnify",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmaɡnɪfaɪ/",
+          "pos": "verb.",
+          "cn": "放大",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "manipulate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/məˈnɪpjʊleɪt/",
+          "pos": "verb.",
+          "cn": "操纵",
           "tags": [
             "writing"
           ]
@@ -27776,27 +27776,27 @@ const VocabData = {
         },
         {
           "w": "massacre",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmæs.ə.kə(ɹ)/",
+          "pos": "noun.",
+          "cn": "屠杀",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "mention",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmɛnʃən/",
+          "pos": "noun.",
+          "cn": "援引",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "mesmerize",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmɛzməɹaɪz/",
+          "pos": "verb.",
+          "cn": "响码",
           "tags": [
             "writing"
           ]
@@ -27812,7 +27812,7 @@ const VocabData = {
         },
         {
           "w": "mock",
-          "phon": "",
+          "phon": "/mɒk/",
           "pos": "adj.",
           "cn": "模拟的;  假装的 嘲笑,嘲弄",
           "tags": [
@@ -27821,17 +27821,17 @@ const VocabData = {
         },
         {
           "w": "mortify",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmɔːtɪfaɪ/",
+          "pos": "verb.",
+          "cn": "羞辱",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "mow",
-          "phon": "",
-          "pos": "",
+          "phon": "/məʊ/",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "writing"
@@ -27848,9 +27848,9 @@ const VocabData = {
         },
         {
           "w": "neglect",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/nɪˈɡlɛkt/",
+          "pos": "noun.",
+          "cn": "疏忽",
           "tags": [
             "writing"
           ]
@@ -27884,8 +27884,8 @@ const VocabData = {
         },
         {
           "w": "oath",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈəʊθ/",
+          "pos": "noun.",
           "cn": "誓言;  宣誓",
           "tags": [
             "writing"
@@ -27902,18 +27902,18 @@ const VocabData = {
         },
         {
           "w": "obsess",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əbˈsɛs/",
+          "pos": "verb.",
+          "cn": "执念",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "obtain",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əbˈteɪn/",
+          "pos": "verb.",
+          "cn": "获取",
           "tags": [
             "writing"
           ]
@@ -27929,17 +27929,17 @@ const VocabData = {
         },
         {
           "w": "offset",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɒfˈsɛt/",
+          "pos": "noun.",
+          "cn": "百萬港元",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "omit",
-          "phon": "",
-          "pos": "",
+          "phon": "/oʊˈmɪt/",
+          "pos": "verb.",
           "cn": "遗漏;  省略;  删去",
           "tags": [
             "writing"
@@ -27947,8 +27947,8 @@ const VocabData = {
         },
         {
           "w": "ooze",
-          "phon": "",
-          "pos": "",
+          "phon": "/uːz/",
+          "pos": "noun.",
           "cn": "行为动怍",
           "tags": [
             "writing"
@@ -27956,8 +27956,8 @@ const VocabData = {
         },
         {
           "w": "overshadow",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌəʊ.vəˈʃæd.əʊ/",
+          "pos": "verb.",
           "cn": "遮蔽;  使黯然失色",
           "tags": [
             "writing"
@@ -27965,17 +27965,17 @@ const VocabData = {
         },
         {
           "w": "overtake",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈəʊvə(ɹ).teɪk/",
+          "pos": "verb.",
+          "cn": "超車",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "panic",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈpænɪk/",
+          "pos": "noun.",
           "cn": "惊恐, 惊慌",
           "tags": [
             "writing"
@@ -27983,17 +27983,17 @@ const VocabData = {
         },
         {
           "w": "participate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɑːˈtɪsɪpeɪt/",
+          "pos": "verb.",
+          "cn": "v.参与",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "peel",
-          "phon": "",
-          "pos": "",
+          "phon": "/piːl/",
+          "pos": "noun.",
           "cn": "蔬菜等的)皮",
           "tags": [
             "writing"
@@ -28037,8 +28037,8 @@ const VocabData = {
         },
         {
           "w": "pierce",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɪəs/",
+          "pos": "verb.",
           "cn": "刺穿,刺破,穿透;  使心如刀割",
           "tags": [
             "writing"
@@ -28046,9 +28046,9 @@ const VocabData = {
         },
         {
           "w": "pledge",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/plɛdʒ/",
+          "pos": "noun.",
+          "cn": "抵押",
           "tags": [
             "writing"
           ]
@@ -28073,8 +28073,8 @@ const VocabData = {
         },
         {
           "w": "preach",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɹiːt͡ʃ/",
+          "pos": "noun.",
           "cn": "宣扬",
           "tags": [
             "writing"
@@ -28082,8 +28082,8 @@ const VocabData = {
         },
         {
           "w": "prolong",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɹoʊˈlɑŋ/",
+          "pos": "verb.",
           "cn": "延长) ,",
           "tags": [
             "writing"
@@ -28100,9 +28100,9 @@ const VocabData = {
         },
         {
           "w": "propel",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɹəˈpɛl/",
+          "pos": "verb.",
+          "cn": "推进",
           "tags": [
             "writing"
           ]
@@ -28136,9 +28136,9 @@ const VocabData = {
         },
         {
           "w": "raise",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹeɪz/",
+          "pos": "noun.",
+          "cn": "举",
           "tags": [
             "writing"
           ]
@@ -28163,8 +28163,8 @@ const VocabData = {
         },
         {
           "w": "reassure",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹiəˈʃʊə(ɹ)/",
+          "pos": "verb.",
           "cn": "使安心 , 使放心",
           "tags": [
             "writing"
@@ -28298,18 +28298,18 @@ const VocabData = {
         },
         {
           "w": "reply",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈplaɪ/",
+          "pos": "noun.",
+          "cn": "回复",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "rescue",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹɛs.kjuː/",
+          "pos": "noun.",
+          "cn": "救援",
           "tags": [
             "writing"
           ]
@@ -28343,8 +28343,8 @@ const VocabData = {
         },
         {
           "w": "retell",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹiˈtɛl/",
+          "pos": "verb.",
           "cn": "重新讲述,复述",
           "tags": [
             "writing"
@@ -28361,9 +28361,9 @@ const VocabData = {
         },
         {
           "w": "retrospect",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹɛtɹoˌspɛkt/",
+          "pos": "noun.",
+          "cn": "回顾）",
           "tags": [
             "writing"
           ]
@@ -28388,18 +28388,18 @@ const VocabData = {
         },
         {
           "w": "revive",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈvaɪv/",
+          "pos": "verb.",
+          "cn": "复活",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "rotate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹəʊˈteɪt/",
+          "pos": "verb.",
+          "cn": "旋转",
           "tags": [
             "writing"
           ]
@@ -28415,8 +28415,8 @@ const VocabData = {
         },
         {
           "w": "salute",
-          "phon": "",
-          "pos": "",
+          "phon": "/səˈl(j)uːt/",
+          "pos": "noun.",
           "cn": "行礼;  致敬",
           "tags": [
             "writing"
@@ -28433,18 +28433,18 @@ const VocabData = {
         },
         {
           "w": "scatter",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈskætə/",
+          "pos": "noun.",
+          "cn": "挥散",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "scold",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/skəʊld/",
+          "pos": "verb.",
+          "cn": "责骂",
           "tags": [
             "writing"
           ]
@@ -28460,7 +28460,7 @@ const VocabData = {
         },
         {
           "w": "scratch",
-          "phon": "",
+          "phon": "/skɹætʃ/",
           "pos": "n.",
           "cn": "乱涂;  划痕,擦伤",
           "tags": [
@@ -28487,7 +28487,7 @@ const VocabData = {
         },
         {
           "w": "shake",
-          "phon": "",
+          "phon": "/ˈʃeɪk/",
           "pos": "n.",
           "cn": "摇动,颤动",
           "tags": [
@@ -28496,8 +28496,8 @@ const VocabData = {
         },
         {
           "w": "shuffle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈʃʌfəl/",
+          "pos": "noun.",
           "cn": "索",
           "tags": [
             "writing"
@@ -28505,36 +28505,36 @@ const VocabData = {
         },
         {
           "w": "sideways",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsaɪdweɪz/",
+          "pos": "noun.",
+          "cn": "倾斜",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "sink",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/sɪŋk/",
+          "pos": "noun.",
+          "cn": "下沉",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "smash",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/smæʃ/",
+          "pos": "noun.",
+          "cn": "粉碎",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "smuggle",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsmʌɡəl/",
+          "pos": "verb.",
+          "cn": "v.走私",
           "tags": [
             "writing"
           ]
@@ -28550,8 +28550,8 @@ const VocabData = {
         },
         {
           "w": "sort",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɔːt/",
+          "pos": "noun.",
           "cn": "翥",
           "tags": [
             "writing"
@@ -28559,8 +28559,8 @@ const VocabData = {
         },
         {
           "w": "specify",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈspɛsɪfaɪ/",
+          "pos": "verb.",
           "cn": "具体指定,详细说明",
           "tags": [
             "writing"
@@ -28568,27 +28568,27 @@ const VocabData = {
         },
         {
           "w": "spill",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/spɪl/",
+          "pos": "noun.",
+          "cn": "落下",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "split",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/splɪt/",
+          "pos": "noun.",
+          "cn": "切分",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "stake",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/steɪk/",
+          "pos": "noun.",
+          "cn": "质押",
           "tags": [
             "writing"
           ]
@@ -28604,8 +28604,8 @@ const VocabData = {
         },
         {
           "w": "steer",
-          "phon": "",
-          "pos": "",
+          "phon": "/stɪə(ɹ)/",
+          "pos": "noun.",
           "cn": "为",
           "tags": [
             "writing"
@@ -28613,9 +28613,9 @@ const VocabData = {
         },
         {
           "w": "stipulate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈstɪpjuˌleɪt/",
+          "pos": "verb.",
+          "cn": "v.约定",
           "tags": [
             "writing"
           ]
@@ -28632,7 +28632,7 @@ const VocabData = {
         {
           "w": "strive",
           "phon": "",
-          "pos": "",
+          "pos": "noun.",
           "cn": "",
           "tags": [
             "writing"
@@ -28649,9 +28649,9 @@ const VocabData = {
         },
         {
           "w": "supply",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/səˈplaɪ/",
+          "pos": "noun.",
+          "cn": "供应",
           "tags": [
             "writing"
           ]
@@ -28676,27 +28676,27 @@ const VocabData = {
         },
         {
           "w": "survive",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/səˈvʌɪv/",
+          "pos": "verb.",
+          "cn": "耐 耐 [nai4]",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "sway",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/sweɪ/",
+          "pos": "noun.",
+          "cn": "晃动",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "swear",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/swɛə/",
+          "pos": "verb.",
+          "cn": "v.宣誓",
           "tags": [
             "writing"
           ]
@@ -28712,18 +28712,18 @@ const VocabData = {
         },
         {
           "w": "tap",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tæp/",
+          "pos": "noun.",
+          "cn": "點選",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "tease",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tiːz/",
+          "pos": "noun.",
+          "cn": "风骚",
           "tags": [
             "writing"
           ]
@@ -28739,9 +28739,9 @@ const VocabData = {
         },
         {
           "w": "terrify",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɛɹɪfaɪ/",
+          "pos": "verb.",
+          "cn": "吓坏了",
           "tags": [
             "writing"
           ]
@@ -28757,9 +28757,9 @@ const VocabData = {
         },
         {
           "w": "tilt",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɪlt/",
+          "pos": "noun.",
+          "cn": "吵架",
           "tags": [
             "writing"
           ]
@@ -28784,9 +28784,9 @@ const VocabData = {
         },
         {
           "w": "trail",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tɹeɪl/",
+          "pos": "noun.",
+          "cn": "v.跟踪",
           "tags": [
             "writing"
           ]
@@ -28802,9 +28802,9 @@ const VocabData = {
         },
         {
           "w": "trigger",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɹɪɡə/",
+          "pos": "noun.",
+          "cn": "触发器",
           "tags": [
             "writing"
           ]
@@ -28820,8 +28820,8 @@ const VocabData = {
         },
         {
           "w": "undertake",
-          "phon": "",
-          "pos": "",
+          "phon": "/ʌndəˈteɪk/",
+          "pos": "verb.",
           "cn": "承担;  许诺。保证",
           "tags": [
             "writing"
@@ -28865,9 +28865,9 @@ const VocabData = {
         },
         {
           "w": "urge",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɜːd͡ʒ/",
+          "pos": "noun.",
+          "cn": "v.催办",
           "tags": [
             "writing"
           ]
@@ -28875,17 +28875,17 @@ const VocabData = {
         {
           "w": "verify",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "提交审核",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "vibrate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/vaɪˈbɹeɪt/",
+          "pos": "noun.",
+          "cn": "震『荡』",
           "tags": [
             "writing"
           ]
@@ -28901,9 +28901,9 @@ const VocabData = {
         },
         {
           "w": "welcome",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈwɛlkəm/",
+          "pos": "noun.",
+          "cn": "欢迎",
           "tags": [
             "writing"
           ]
@@ -28928,9 +28928,9 @@ const VocabData = {
         },
         {
           "w": "wipe",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/waɪp/",
+          "pos": "noun.",
+          "cn": "擦试",
           "tags": [
             "writing"
           ]
@@ -28946,9 +28946,9 @@ const VocabData = {
         },
         {
           "w": "worship",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈwɜːʃɪp/",
+          "pos": "noun.",
+          "cn": "崇拜",
           "tags": [
             "writing"
           ]
@@ -28964,8 +28964,8 @@ const VocabData = {
         },
         {
           "w": "yearn",
-          "phon": "",
-          "pos": "",
+          "phon": "/jɜːn/",
+          "pos": "verb.",
           "cn": "",
           "tags": [
             "writing"
@@ -28980,16 +28980,16 @@ const VocabData = {
         {
           "w": "x-ray",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "X射线",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "abdomen",
-          "phon": "",
-          "pos": "",
+          "phon": "/æbˈdəʊ.mən/",
+          "pos": "noun.",
           "cn": "腹。腹部",
           "tags": [
             "writing"
@@ -29006,8 +29006,8 @@ const VocabData = {
         },
         {
           "w": "acute",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈkjuːt/",
+          "pos": "noun.",
           "cn": "疾病) 急性的;  敏锐的,深刻的",
           "tags": [
             "writing"
@@ -29015,8 +29015,8 @@ const VocabData = {
         },
         {
           "w": "admire",
-          "phon": "",
-          "pos": "",
+          "phon": "/ədˈmaɪə/",
+          "pos": "verb.",
           "cn": "仰慕",
           "tags": [
             "writing"
@@ -29033,8 +29033,8 @@ const VocabData = {
         },
         {
           "w": "agony",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈæ.ɡə.niː/",
+          "pos": "noun.",
           "cn": "极度的痛苦;  挣扎",
           "tags": [
             "writing"
@@ -29060,16 +29060,16 @@ const VocabData = {
         },
         {
           "w": "alleviate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈli.vi.eɪt/",
+          "pos": "verb.",
+          "cn": "v.缓和",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "amazing",
-          "phon": "",
+          "phon": "/əˈmeɪzɪŋ/",
           "pos": "adj.",
           "cn": "惊人的 令人惊叹的",
           "tags": [
@@ -29096,9 +29096,9 @@ const VocabData = {
         },
         {
           "w": "antibiotic",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌæn.taɪ.baɪˈɒt.ɪk/",
+          "pos": "noun.",
+          "cn": "抗生素",
           "tags": [
             "writing"
           ]
@@ -29123,17 +29123,17 @@ const VocabData = {
         },
         {
           "w": "apologize",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈpɒləd͡ʒaɪz/",
+          "pos": "verb.",
+          "cn": "v.道歉",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "apology",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈpɒl.ə.dʒi/",
+          "pos": "noun.",
           "cn": "道歉;  辩解",
           "tags": [
             "writing"
@@ -29195,8 +29195,8 @@ const VocabData = {
         },
         {
           "w": "astound",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈstaʊnd/",
+          "pos": "verb.",
           "cn": "使大吃一惊。使惊骇",
           "tags": [
             "writing"
@@ -29222,7 +29222,7 @@ const VocabData = {
         },
         {
           "w": "awake",
-          "phon": "",
+          "phon": "/əˈweɪk/",
           "pos": "adj.",
           "cn": "醒着的;  警觉的",
           "tags": [
@@ -29303,7 +29303,7 @@ const VocabData = {
         },
         {
           "w": "blind",
-          "phon": "",
+          "phon": "/blaɪnd/",
           "pos": "adj.",
           "cn": "盲目的;  瞎的;  未察觉的",
           "tags": [
@@ -29312,8 +29312,8 @@ const VocabData = {
         },
         {
           "w": "bone",
-          "phon": "",
-          "pos": "",
+          "phon": "/bəʉn/",
+          "pos": "noun.",
           "cn": "骨;  骨骼",
           "tags": [
             "writing"
@@ -29321,8 +29321,8 @@ const VocabData = {
         },
         {
           "w": "bore",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɔː/",
+          "pos": "noun.",
           "cn": "讨厌的人;  令人生厌的事 烦扰;  钻孔",
           "tags": [
             "writing"
@@ -29330,9 +29330,9 @@ const VocabData = {
         },
         {
           "w": "born",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈbɔːn/",
+          "pos": "verb.",
+          "cn": "生于",
           "tags": [
             "writing"
           ]
@@ -29348,8 +29348,8 @@ const VocabData = {
         },
         {
           "w": "brain",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɹeɪn/",
+          "pos": "noun.",
           "cn": "脑; [~s] 智慧,智力",
           "tags": [
             "writing"
@@ -29366,8 +29366,8 @@ const VocabData = {
         },
         {
           "w": "brow",
-          "phon": "",
-          "pos": "",
+          "phon": "/bɹaʊ/",
+          "pos": "noun.",
           "cn": "几。额;  眉, 眉毛",
           "tags": [
             "writing"
@@ -29429,9 +29429,9 @@ const VocabData = {
         },
         {
           "w": "check",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/t͡ʃɛk/",
+          "pos": "noun.",
+          "cn": "未登记入住",
           "tags": [
             "writing"
           ]
@@ -29474,18 +29474,18 @@ const VocabData = {
         },
         {
           "w": "chin",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/tʃɪn/",
+          "pos": "noun.",
+          "cn": "颔",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "choke",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/t͡ʃəʊk/",
+          "pos": "noun.",
+          "cn": "收缩",
           "tags": [
             "writing"
           ]
@@ -29537,9 +29537,9 @@ const VocabData = {
         },
         {
           "w": "concern",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/kənˈsɜːn/",
+          "pos": "noun.",
+          "cn": "生意 生意 [sheng1 yi5]",
           "tags": [
             "writing"
           ]
@@ -29582,8 +29582,8 @@ const VocabData = {
         },
         {
           "w": "corpus",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkɔːpəs/",
+          "pos": "noun.",
           "cn": "词的",
           "tags": [
             "writing"
@@ -29627,8 +29627,8 @@ const VocabData = {
         },
         {
           "w": "cure",
-          "phon": "",
-          "pos": "",
+          "phon": "/kɜː(ɹ)/",
+          "pos": "noun.",
           "cn": "治好 治愈 疗法;  治疗",
           "tags": [
             "writing"
@@ -29663,7 +29663,7 @@ const VocabData = {
         },
         {
           "w": "delicate",
-          "phon": "",
+          "phon": "/ˈdɛlɪkət/",
           "pos": "adj.",
           "cn": "精致的;  微妙的;  脆弱的",
           "tags": [
@@ -29672,9 +29672,9 @@ const VocabData = {
         },
         {
           "w": "delight",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dəˈlaɪt/",
+          "pos": "noun.",
+          "cn": "使高兴",
           "tags": [
             "writing"
           ]
@@ -29717,8 +29717,8 @@ const VocabData = {
         },
         {
           "w": "diabetes",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌdaɪəˈbiːdiːz/",
+          "pos": "noun.",
           "cn": "糖尿病",
           "tags": [
             "writing"
@@ -29798,8 +29798,8 @@ const VocabData = {
         },
         {
           "w": "doom",
-          "phon": "",
-          "pos": "",
+          "phon": "/duːm/",
+          "pos": "noun.",
           "cn": "厄运;  毁灭 使注定失败 (或死亡等 )",
           "tags": [
             "writing"
@@ -29816,9 +29816,9 @@ const VocabData = {
         },
         {
           "w": "doubt",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dʌʊt/",
+          "pos": "noun.",
+          "cn": "怀疑",
           "tags": [
             "writing"
           ]
@@ -29852,7 +29852,7 @@ const VocabData = {
         },
         {
           "w": "dwarf",
-          "phon": "",
+          "phon": "/dwɔːf/",
           "pos": "adj.",
           "cn": "矮小的 童话中的)  小矮人;  侏儒",
           "tags": [
@@ -29861,9 +29861,9 @@ const VocabData = {
         },
         {
           "w": "dysfunction",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/dɪsˈfʌŋk.ʃən/",
+          "pos": "noun.",
+          "cn": "机能失调",
           "tags": [
             "writing"
           ]
@@ -29888,9 +29888,9 @@ const VocabData = {
         },
         {
           "w": "ease",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/iːz/",
+          "pos": "noun.",
+          "cn": "缓解",
           "tags": [
             "writing"
           ]
@@ -29933,9 +29933,9 @@ const VocabData = {
         },
         {
           "w": "endure",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈdjɔː(ɹ)/",
+          "pos": "verb.",
+          "cn": "忍受",
           "tags": [
             "writing"
           ]
@@ -29960,9 +29960,9 @@ const VocabData = {
         },
         {
           "w": "envy",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɛnvi/",
+          "pos": "noun.",
+          "cn": "妒忌",
           "tags": [
             "writing"
           ]
@@ -29996,8 +29996,8 @@ const VocabData = {
         },
         {
           "w": "exhilarate",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɛɡ-/",
+          "pos": "verb.",
           "cn": "使高兴,使兴奋",
           "tags": [
             "writing"
@@ -30014,8 +30014,8 @@ const VocabData = {
         },
         {
           "w": "eyesight",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈaɪˌsaɪt/",
+          "pos": "noun.",
           "cn": "视力",
           "tags": [
             "writing"
@@ -30023,9 +30023,9 @@ const VocabData = {
         },
         {
           "w": "faint",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/feɪnt/",
+          "pos": "noun.",
+          "cn": "幽幽",
           "tags": [
             "writing"
           ]
@@ -30068,9 +30068,9 @@ const VocabData = {
         },
         {
           "w": "fatigue",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/fəˈtiːɡ/",
+          "pos": "noun.",
+          "cn": "疲倦",
           "tags": [
             "writing"
           ]
@@ -30086,18 +30086,18 @@ const VocabData = {
         },
         {
           "w": "fear",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/fɪə/",
+          "pos": "noun.",
+          "cn": "害怕",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "feature",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfiːtʃə/",
+          "pos": "noun.",
+          "cn": "特色",
           "tags": [
             "writing"
           ]
@@ -30122,8 +30122,8 @@ const VocabData = {
         },
         {
           "w": "fever",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfiːvə/",
+          "pos": "noun.",
           "cn": "狂热;  发烧,发热",
           "tags": [
             "writing"
@@ -30131,9 +30131,9 @@ const VocabData = {
         },
         {
           "w": "finger",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfɪŋəɹ/",
+          "pos": "noun.",
+          "cn": "接头程序",
           "tags": [
             "writing"
           ]
@@ -30167,16 +30167,16 @@ const VocabData = {
         },
         {
           "w": "flu",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/flʉː/",
+          "pos": "noun.",
+          "cn": "感冒",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "fond",
-          "phon": "",
+          "phon": "/fɒnd/",
           "pos": "adj.",
           "cn": "喜爱的;  溺爱的",
           "tags": [
@@ -30185,8 +30185,8 @@ const VocabData = {
         },
         {
           "w": "forehead",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfɒɹɛd/",
+          "pos": "noun.",
           "cn": "额",
           "tags": [
             "writing"
@@ -30194,8 +30194,8 @@ const VocabData = {
         },
         {
           "w": "fortune",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfɔːtʃuːn/",
+          "pos": "noun.",
           "cn": "她不知道接下来等待她的将是什么样的命运。",
           "tags": [
             "writing"
@@ -30212,8 +30212,8 @@ const VocabData = {
         },
         {
           "w": "freedom",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfɹiːdəm/",
+          "pos": "noun.",
           "cn": "自由 = 独立自主",
           "tags": [
             "writing"
@@ -30248,7 +30248,7 @@ const VocabData = {
         },
         {
           "w": "fun",
-          "phon": "",
+          "phon": "/fʊn/",
           "pos": "n.",
           "cn": "乐趣;  玩笑 有趣的",
           "tags": [
@@ -30257,17 +30257,17 @@ const VocabData = {
         },
         {
           "w": "furious",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfjʊə.ɹɪəs/",
+          "pos": "adjective.",
+          "cn": "狂怒",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "fuss",
-          "phon": "",
-          "pos": "",
+          "phon": "/fʌs/",
+          "pos": "noun.",
           "cn": "大惊小怪,无谓的纷扰",
           "tags": [
             "writing"
@@ -30284,7 +30284,7 @@ const VocabData = {
         },
         {
           "w": "gentle",
-          "phon": "",
+          "phon": "/ˈdʒɛntl̩/",
           "pos": "adj.",
           "cn": "温和的;  柔和的;  文雅的;  出身名门的",
           "tags": [
@@ -30320,7 +30320,7 @@ const VocabData = {
         },
         {
           "w": "grateful",
-          "phon": "",
+          "phon": "/ˈɡɹeɪtfəl/",
           "pos": "adj.",
           "cn": "感激的;  表示感激的",
           "tags": [
@@ -30356,9 +30356,9 @@ const VocabData = {
         },
         {
           "w": "grieve",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɡɹiːv/",
+          "pos": "verb.",
+          "cn": "因心爱的人",
           "tags": [
             "writing"
           ]
@@ -30383,8 +30383,8 @@ const VocabData = {
         },
         {
           "w": "happiness",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈhæpinəs/",
+          "pos": "noun.",
           "cn": "幸福,快乐;  适当",
           "tags": [
             "writing"
@@ -30401,9 +30401,9 @@ const VocabData = {
         },
         {
           "w": "hate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/heɪt/",
+          "pos": "noun.",
+          "cn": "讨厌",
           "tags": [
             "writing"
           ]
@@ -30428,9 +30428,9 @@ const VocabData = {
         },
         {
           "w": "heal",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/hiːl/",
+          "pos": "noun.",
+          "cn": "加血",
           "tags": [
             "writing"
           ]
@@ -30464,8 +30464,8 @@ const VocabData = {
         },
         {
           "w": "heel",
-          "phon": "",
-          "pos": "",
+          "phon": "/hiːl/",
+          "pos": "noun.",
           "cn": "足跟",
           "tags": [
             "writing"
@@ -30491,8 +30491,8 @@ const VocabData = {
         },
         {
           "w": "hormone",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈhɔːməʊn/",
+          "pos": "noun.",
           "cn": "荷尔蒙,激素",
           "tags": [
             "writing"
@@ -30554,9 +30554,9 @@ const VocabData = {
         },
         {
           "w": "hurt",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/hɜːt/",
+          "pos": "noun.",
+          "cn": "受伤",
           "tags": [
             "writing"
           ]
@@ -30581,9 +30581,9 @@ const VocabData = {
         },
         {
           "w": "ignorant",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɪɡnəɹənt/",
+          "pos": "noun.",
+          "cn": "adj.不知情 ,无知",
           "tags": [
             "writing"
           ]
@@ -30644,9 +30644,9 @@ const VocabData = {
         },
         {
           "w": "indifferent",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈdɪf.ə.ɹənt/",
+          "pos": "noun.",
+          "cn": "冷漠",
           "tags": [
             "writing"
           ]
@@ -30707,8 +30707,8 @@ const VocabData = {
         },
         {
           "w": "insomnia",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɪnˈsɒmniə/",
+          "pos": "noun.",
           "cn": "诏22",
           "tags": [
             "writing"
@@ -30734,9 +30734,9 @@ const VocabData = {
         },
         {
           "w": "intuition",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɪntjʊˈɪʃən/",
+          "pos": "noun.",
+          "cn": "直观",
           "tags": [
             "writing"
           ]
@@ -30752,9 +30752,9 @@ const VocabData = {
         },
         {
           "w": "irritate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɪɹɪteɪt/",
+          "pos": "verb.",
+          "cn": "刺激性",
           "tags": [
             "writing"
           ]
@@ -30770,16 +30770,16 @@ const VocabData = {
         },
         {
           "w": "jaw",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/d͡ʒɔː/",
+          "pos": "noun.",
+          "cn": "狭窄入口",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "jealous",
-          "phon": "",
+          "phon": "/ˈdʒɛləs/",
           "pos": "adj.",
           "cn": "嫉妒的。妒忌的",
           "tags": [
@@ -30806,8 +30806,8 @@ const VocabData = {
         },
         {
           "w": "joy",
-          "phon": "",
-          "pos": "",
+          "phon": "/dʒɔɪ/",
+          "pos": "noun.",
           "cn": "欢乐,喜悦;  乐趣",
           "tags": [
             "writing"
@@ -30923,18 +30923,18 @@ const VocabData = {
         },
         {
           "w": "lip",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/lɪp/",
+          "pos": "noun.",
+          "cn": "嘴唇",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "lively",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈlaɪvli/",
+          "pos": "noun.",
+          "cn": "热闹",
           "tags": [
             "writing"
           ]
@@ -30968,8 +30968,8 @@ const VocabData = {
         },
         {
           "w": "lung",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈlʌŋ/",
+          "pos": "noun.",
           "cn": "肺",
           "tags": [
             "writing"
@@ -30977,7 +30977,7 @@ const VocabData = {
         },
         {
           "w": "mad",
-          "phon": "",
+          "phon": "/ˈmæːd/",
           "pos": "adj.",
           "cn": "发疯的;  恼火的",
           "tags": [
@@ -31058,7 +31058,7 @@ const VocabData = {
         },
         {
           "w": "merry",
-          "phon": "",
+          "phon": "/ˈmɛɹi/",
           "pos": "adj.",
           "cn": "愉快的,欢乐的;  微醉的",
           "tags": [
@@ -31067,8 +31067,8 @@ const VocabData = {
         },
         {
           "w": "mind",
-          "phon": "",
-          "pos": "",
+          "phon": "/maɪnd/",
+          "pos": "noun.",
           "cn": "头脑;  思考能力;  思维;  意见;  记忆力",
           "tags": [
             "writing"
@@ -31076,7 +31076,7 @@ const VocabData = {
         },
         {
           "w": "miserable",
-          "phon": "",
+          "phon": "/ˈmɪz(ə)ɹəbəl/",
           "pos": "adj.",
           "cn": "痛苦的 极不愉快的 ,",
           "tags": [
@@ -31085,9 +31085,9 @@ const VocabData = {
         },
         {
           "w": "moan",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/məʊn/",
+          "pos": "noun.",
+          "cn": "呻吟",
           "tags": [
             "writing"
           ]
@@ -31130,9 +31130,9 @@ const VocabData = {
         },
         {
           "w": "mourn",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/mɔːn/",
+          "pos": "noun.",
+          "cn": "莫恩",
           "tags": [
             "writing"
           ]
@@ -31166,7 +31166,7 @@ const VocabData = {
         },
         {
           "w": "mutual",
-          "phon": "",
+          "phon": "/ˈmjuːt͡ʃuəl/",
           "pos": "adj.",
           "cn": "相互的,彼此的;  共同的",
           "tags": [
@@ -31175,7 +31175,7 @@ const VocabData = {
         },
         {
           "w": "mysterious",
-          "phon": "",
+          "phon": "/mɪˈstɪəɹi.əs/",
           "pos": "adj.",
           "cn": "神秘的;  不可思议的",
           "tags": [
@@ -31256,8 +31256,8 @@ const VocabData = {
         },
         {
           "w": "nerve",
-          "phon": "",
-          "pos": "",
+          "phon": "/nɛɾv/",
+          "pos": "noun.",
           "cn": "焦虑 神经;  紧张,",
           "tags": [
             "writing"
@@ -31284,15 +31284,15 @@ const VocabData = {
         {
           "w": "obesity",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "肥胖症，",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "oblivious",
-          "phon": "",
+          "phon": "/əˈblɪ.vi.əs/",
           "pos": "adj.",
           "cn": "不知道的。末注意的 她没有注意",
           "tags": [
@@ -31310,16 +31310,16 @@ const VocabData = {
         },
         {
           "w": "operation",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌɒpəˈɹeɪʃən/",
+          "pos": "noun.",
+          "cn": "运营",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "optimistic",
-          "phon": "",
+          "phon": "/ˌɒptɪˈmɪstɪk/",
           "pos": "adj.",
           "cn": "乐观主义的 乐观的,",
           "tags": [
@@ -31328,8 +31328,8 @@ const VocabData = {
         },
         {
           "w": "organ",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈɔː.ɡən/",
+          "pos": "noun.",
           "cn": "器官;  风琴;  机构",
           "tags": [
             "writing"
@@ -31364,9 +31364,9 @@ const VocabData = {
         },
         {
           "w": "palm",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpæm/",
+          "pos": "noun.",
+          "cn": "棕榈",
           "tags": [
             "writing"
           ]
@@ -31374,8 +31374,8 @@ const VocabData = {
         {
           "w": "paralyse",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "麻翻",
           "tags": [
             "writing"
           ]
@@ -31400,17 +31400,17 @@ const VocabData = {
         },
         {
           "w": "penicillin",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˌpɛnɪˈsɪlɪn/",
+          "pos": "noun.",
+          "cn": "青霉素",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "personality",
-          "phon": "",
-          "pos": "",
+          "phon": "/-i/",
+          "pos": "noun.",
           "cn": "个性,人格",
           "tags": [
             "writing"
@@ -31418,7 +31418,7 @@ const VocabData = {
         },
         {
           "w": "pessimistic",
-          "phon": "",
+          "phon": "/ˌpɛ.səˈmɪs.tɪk/",
           "pos": "adj.",
           "cn": "悲观的,悲观主义的",
           "tags": [
@@ -31445,8 +31445,8 @@ const VocabData = {
         },
         {
           "w": "physician",
-          "phon": "",
-          "pos": "",
+          "phon": "/fɪˈzɪʃən/",
+          "pos": "noun.",
           "cn": "内科医生",
           "tags": [
             "writing"
@@ -31454,7 +31454,7 @@ const VocabData = {
         },
         {
           "w": "picturesque",
-          "phon": "",
+          "phon": "/pɪktʃəˈɹɛsk/",
           "pos": "adj.",
           "cn": "如画的;  独特的",
           "tags": [
@@ -31463,9 +31463,9 @@ const VocabData = {
         },
         {
           "w": "pill",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/pɪl/",
+          "pos": "noun.",
+          "cn": "椭圆",
           "tags": [
             "writing"
           ]
@@ -31517,8 +31517,8 @@ const VocabData = {
         },
         {
           "w": "pore",
-          "phon": "",
-          "pos": "",
+          "phon": "/pɔː/",
+          "pos": "noun.",
           "cn": "毛孔;  小孔,气孔 凝视;  沉思",
           "tags": [
             "writing"
@@ -31580,9 +31580,9 @@ const VocabData = {
         },
         {
           "w": "promising",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈpɹɒmɪsɪŋ/",
+          "pos": "verb.",
+          "cn": "承诺",
           "tags": [
             "writing"
           ]
@@ -31607,8 +31607,8 @@ const VocabData = {
         },
         {
           "w": "quarantine",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈkwɒɹ.ən.taɪn/",
+          "pos": "noun.",
           "cn": "检疫;  隔离检疫期 对进行隔离检疫",
           "tags": [
             "writing"
@@ -31679,16 +31679,16 @@ const VocabData = {
         },
         {
           "w": "refresh",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹiˈfɹɛʃ/",
+          "pos": "noun.",
+          "cn": "刷新",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "regret",
-          "phon": "",
+          "phon": "/ɹiˈɡɹɛt/",
           "pos": "n.",
           "cn": "遗憾;  抱歉;  悲叹 后悔;  痛惜,惋惜",
           "tags": [
@@ -31697,17 +31697,17 @@ const VocabData = {
         },
         {
           "w": "rejoice",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪˈd͡ʒɔɪs/",
+          "pos": "verb.",
+          "cn": "高兴才",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "relax",
-          "phon": "",
-          "pos": "",
+          "phon": "/ɹɪˈlæks/",
+          "pos": "verb.",
           "cn": "放松",
           "tags": [
             "writing"
@@ -31796,9 +31796,9 @@ const VocabData = {
         },
         {
           "w": "rib",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɹɪb/",
+          "pos": "noun.",
+          "cn": "肋骨",
           "tags": [
             "writing"
           ]
@@ -31877,7 +31877,7 @@ const VocabData = {
         },
         {
           "w": "satisfactory",
-          "phon": "",
+          "phon": "/sætɪsˈfækt(ə)ɹi/",
           "pos": "adj.",
           "cn": "令人满意的",
           "tags": [
@@ -31913,8 +31913,8 @@ const VocabData = {
         },
         {
           "w": "sense",
-          "phon": "",
-          "pos": "",
+          "phon": "/sɛn(t)s/",
+          "pos": "noun.",
           "cn": "感官;  感觉",
           "tags": [
             "writing"
@@ -31940,8 +31940,8 @@ const VocabData = {
         },
         {
           "w": "shoulder",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈʃəʊldə/",
+          "pos": "noun.",
           "cn": "几肩,肩膀",
           "tags": [
             "writing"
@@ -31949,7 +31949,7 @@ const VocabData = {
         },
         {
           "w": "sigh",
-          "phon": "",
+          "phon": "/saɪ/",
           "pos": "n.",
           "cn": "叹息,叹气",
           "tags": [
@@ -31994,17 +31994,17 @@ const VocabData = {
         },
         {
           "w": "skeptical",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈskeptɪkəl/",
+          "pos": "adjective.",
+          "cn": "怀疑",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "skull",
-          "phon": "",
-          "pos": "",
+          "phon": "/skʌl/",
+          "pos": "noun.",
           "cn": "头脑;  头骨",
           "tags": [
             "writing"
@@ -32021,7 +32021,7 @@ const VocabData = {
         },
         {
           "w": "sluggish",
-          "phon": "",
+          "phon": "/ˈslʌɡɪʃ/",
           "pos": "adj.",
           "cn": "行动迟缓的",
           "tags": [
@@ -32048,9 +32048,9 @@ const VocabData = {
         },
         {
           "w": "sorrow",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsɔɹoʊ/",
+          "pos": "noun.",
+          "cn": "悲哀",
           "tags": [
             "writing"
           ]
@@ -32075,8 +32075,8 @@ const VocabData = {
         },
         {
           "w": "startle",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈstɑːt(ə)l/",
+          "pos": "noun.",
           "cn": "吃惊 使大吃一惊",
           "tags": [
             "writing"
@@ -32084,9 +32084,9 @@ const VocabData = {
         },
         {
           "w": "stature",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈstætʃ.ə/",
+          "pos": "noun.",
+          "cn": "身形",
           "tags": [
             "writing"
           ]
@@ -32111,7 +32111,7 @@ const VocabData = {
         },
         {
           "w": "stern",
-          "phon": "",
+          "phon": "/stɜːn/",
           "pos": "adj.",
           "cn": "严厉的;  坚定的",
           "tags": [
@@ -32156,8 +32156,8 @@ const VocabData = {
         },
         {
           "w": "stroke",
-          "phon": "",
-          "pos": "",
+          "phon": "/stɹəʊk/",
+          "pos": "noun.",
           "cn": "中风;  击打; 一笔 (画)",
           "tags": [
             "writing"
@@ -32210,7 +32210,7 @@ const VocabData = {
         },
         {
           "w": "surprising",
-          "phon": "",
+          "phon": "/səˈpɹaɪzɪŋ/",
           "pos": "adj.",
           "cn": "令人惊讶的,出人意料的",
           "tags": [
@@ -32237,7 +32237,7 @@ const VocabData = {
         },
         {
           "w": "sympathetic",
-          "phon": "",
+          "phon": "/ˌsɪmpəˈθɛtɪk/",
           "pos": "adj.",
           "cn": "同情的;  和谐的",
           "tags": [
@@ -32264,9 +32264,9 @@ const VocabData = {
         },
         {
           "w": "temperate",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɛmpəɹət/",
+          "pos": "verb.",
+          "cn": "温度",
           "tags": [
             "writing"
           ]
@@ -32300,7 +32300,7 @@ const VocabData = {
         },
         {
           "w": "thoughtful",
-          "phon": "",
+          "phon": "/ˈθɔːtfəl/",
           "pos": "adj.",
           "cn": "认真思考的;  考虑周到的,体贴的",
           "tags": [
@@ -32309,8 +32309,8 @@ const VocabData = {
         },
         {
           "w": "thrill",
-          "phon": "",
-          "pos": "",
+          "phon": "[t̪ɾ̪̊ɪl]",
+          "pos": "noun.",
           "cn": "激动",
           "tags": [
             "writing"
@@ -32336,18 +32336,18 @@ const VocabData = {
         },
         {
           "w": "timid",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtɪmɪd/",
+          "pos": "adjective.",
+          "cn": "胆小",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "tire",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈtʌɪ̯ɚ/",
+          "pos": "verb.",
+          "cn": "轮胎",
           "tags": [
             "writing"
           ]
@@ -32372,8 +32372,8 @@ const VocabData = {
         },
         {
           "w": "tongue",
-          "phon": "",
-          "pos": "",
+          "phon": "/tʌŋ/",
+          "pos": "noun.",
           "cn": "舌头;  语言",
           "tags": [
             "writing"
@@ -32400,8 +32400,8 @@ const VocabData = {
         {
           "w": "transplant",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "移植",
           "tags": [
             "writing"
           ]
@@ -32426,7 +32426,7 @@ const VocabData = {
         },
         {
           "w": "troublesome",
-          "phon": "",
+          "phon": "/ˈtɹʌbl̩səm/",
           "pos": "adj.",
           "cn": "令人烦恼的;  麻烦的",
           "tags": [
@@ -32471,7 +32471,7 @@ const VocabData = {
         },
         {
           "w": "unkind",
-          "phon": "",
+          "phon": "/ʌnˈkaɪnd/",
           "pos": "adj.",
           "cn": "不仁慈的 不和善的,刻薄的",
           "tags": [
@@ -32516,7 +32516,7 @@ const VocabData = {
         },
         {
           "w": "unwilling",
-          "phon": "",
+          "phon": "/ʌnˈwɪlɪŋ/",
           "pos": "adj.",
           "cn": "不愿意的 不情愿的;  勉强的",
           "tags": [
@@ -32534,8 +32534,8 @@ const VocabData = {
         },
         {
           "w": "vaccinate",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈvæksɪneɪt/",
+          "pos": "verb.",
           "cn": "预防接种",
           "tags": [
             "writing"
@@ -32579,9 +32579,9 @@ const VocabData = {
         },
         {
           "w": "virtue",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/-tjuː/",
+          "pos": "noun.",
+          "cn": "德",
           "tags": [
             "writing"
           ]
@@ -32714,9 +32714,9 @@ const VocabData = {
         },
         {
           "w": "yawn",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/jɔːn/",
+          "pos": "noun.",
+          "cn": "呵欠",
           "tags": [
             "writing"
           ]
@@ -32738,8 +32738,8 @@ const VocabData = {
       "words": [
         {
           "w": "anniversary",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌænɪˈvɜːs(ə)ɹi/",
+          "pos": "noun.",
           "cn": "周年纪念日",
           "tags": [
             "writing"
@@ -32801,17 +32801,17 @@ const VocabData = {
         },
         {
           "w": "dawn",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/doːn/",
+          "pos": "noun.",
+          "cn": "黎明",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "dozen",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈdʌzən/",
+          "pos": "noun.",
           "cn": "一打,十二个; +来个",
           "tags": [
             "writing"
@@ -32837,7 +32837,7 @@ const VocabData = {
         },
         {
           "w": "everlasting",
-          "phon": "",
+          "phon": "/ˌɛvəˈlɑːstɪŋ/",
           "pos": "adj.",
           "cn": "永恒的",
           "tags": [
@@ -32846,9 +32846,9 @@ const VocabData = {
         },
         {
           "w": "finally",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfaɪ.nəl.i/",
+          "pos": "adverb.",
+          "cn": "最后",
           "tags": [
             "writing"
           ]
@@ -32891,8 +32891,8 @@ const VocabData = {
         },
         {
           "w": "immediately",
-          "phon": "",
-          "pos": "",
+          "phon": "/əˈmiːdi.ətli/",
+          "pos": "adverb.",
           "cn": "留@",
           "tags": [
             "writing"
@@ -32910,24 +32910,24 @@ const VocabData = {
         {
           "w": "incidentally",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "adverb.",
+          "cn": "顺便说一句",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "initially",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪˈnɪʃli/",
+          "pos": "adverb.",
+          "cn": "当初",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "instant",
-          "phon": "",
+          "phon": "/ˈɪnstənt/",
           "pos": "adj.",
           "cn": "立即的 瞬间",
           "tags": [
@@ -32945,18 +32945,18 @@ const VocabData = {
         },
         {
           "w": "meantime",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmiːntaɪm/",
+          "pos": "noun.",
+          "cn": "与此同时",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "meanwhile",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmiːnhwaɪl/",
+          "pos": "noun.",
+          "cn": "同时（Meanwhile）",
           "tags": [
             "writing"
           ]
@@ -32990,8 +32990,8 @@ const VocabData = {
         },
         {
           "w": "midst",
-          "phon": "",
-          "pos": "",
+          "phon": "/mɪdst/",
+          "pos": "noun.",
           "cn": "中部。中间",
           "tags": [
             "writing"
@@ -33008,17 +33008,17 @@ const VocabData = {
         },
         {
           "w": "million",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈmɪljən/",
+          "pos": "numeral.",
+          "cn": "全球12个最大经济体的1.2亿工人",
           "tags": [
             "writing"
           ]
         },
         {
           "w": "minute",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈmɪnɪt/",
+          "pos": "noun.",
           "cn": "指极短的时间, 但可觉察到时间的持续 =",
           "tags": [
             "writing"
@@ -33026,7 +33026,7 @@ const VocabData = {
         },
         {
           "w": "modern",
-          "phon": "",
+          "phon": "/ˈmɒd(ə)n/",
           "pos": "adj.",
           "cn": "现代的;  近代的",
           "tags": [
@@ -33081,8 +33081,8 @@ const VocabData = {
         {
           "w": "overnight",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "noun.",
+          "cn": "一蹴而就",
           "tags": [
             "writing"
           ]
@@ -33090,8 +33090,8 @@ const VocabData = {
         {
           "w": "periodically",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "adverb.",
+          "cn": "出版",
           "tags": [
             "writing"
           ]
@@ -33161,9 +33161,9 @@ const VocabData = {
         },
         {
           "w": "recent",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈɹiːsənt/",
+          "pos": "adjective.",
+          "cn": "最近",
           "tags": [
             "writing"
           ]
@@ -33179,7 +33179,7 @@ const VocabData = {
         },
         {
           "w": "simultaneous",
-          "phon": "",
+          "phon": "/sɪm.əlˈteɪ̯n.i.əs/",
           "pos": "adj.",
           "cn": "同时发生 或进行)的",
           "tags": [
@@ -33188,7 +33188,7 @@ const VocabData = {
         },
         {
           "w": "up-to-date",
-          "phon": "",
+          "phon": "/ˌʌp tə ˈdeɪt/",
           "pos": "adj.",
           "cn": "直到目前的;  现代的",
           "tags": [
