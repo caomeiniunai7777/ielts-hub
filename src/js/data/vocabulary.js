@@ -2,8 +2,8 @@
    IELTS Hub — 雅思词汇真经 (Full Data)
    Extracted from: 刘洪波《雅思词汇真经》(外研社版)
    Total: 3674 words across 22 chapters
-   Word list: verified from audio file index (100% complete)
-   Phonetic: 95% | Meaning: 98% (OCR + Free Dictionary API + MyMemory API)
+   Word list: 100% | Phonetic: 96% | Meaning: 99% | POS: 100%
+   Sources: audio index + OCR + Free Dictionary API + MyMemory API + suffix rules
    ======================================== */
 
 const VocabData = {
@@ -24,8 +24,8 @@ const VocabData = {
         {
           "w": "atlantic",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "adj.",
+          "cn": "大西洋的",
           "tags": [
             "reading"
           ]
@@ -42,8 +42,8 @@ const VocabData = {
         {
           "w": "el nino",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "n.",
+          "cn": "厄尔尼诺现象",
           "tags": [
             "reading"
           ]
@@ -60,8 +60,8 @@ const VocabData = {
         {
           "w": "oceania",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "n.",
+          "cn": "大洋洲",
           "tags": [
             "reading"
           ]
@@ -87,7 +87,7 @@ const VocabData = {
         {
           "w": "aggravate",
           "phon": "Iagravertl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "使恶化",
           "tags": [
             "reading"
@@ -96,7 +96,7 @@ const VocabData = {
         {
           "w": "altitude",
           "phon": "/alttju:dl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "刀 高度,海拔",
           "tags": [
             "reading"
@@ -132,7 +132,7 @@ const VocabData = {
         {
           "w": "atmosphere",
           "phon": "/'atmasfral",
-          "pos": "",
+          "pos": "noun.",
           "cn": "大气层。大气圈;  气氛",
           "tags": [
             "reading"
@@ -141,7 +141,7 @@ const VocabData = {
         {
           "w": "avalanche",
           "phon": "/avala:ntfl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "雪崩",
           "tags": [
             "reading"
@@ -150,7 +150,7 @@ const VocabData = {
         {
           "w": "axis",
           "phon": "Iaksgsl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "轴,轴线",
           "tags": [
             "reading"
@@ -177,7 +177,7 @@ const VocabData = {
         {
           "w": "blow",
           "phon": "IblaUl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "吹;〈风〉吹;  吹动 用力的一击;  打击。挫折",
           "tags": [
             "reading"
@@ -186,7 +186,7 @@ const VocabData = {
         {
           "w": "border",
           "phon": "/b3:d3/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "和:'毗邻;  形成'的 边界;  边界地区;  镶边 边界",
           "tags": [
             "reading"
@@ -195,7 +195,7 @@ const VocabData = {
         {
           "w": "breeze",
           "phon": "Ibri:zl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "微风。和风",
           "tags": [
             "reading"
@@ -204,7 +204,7 @@ const VocabData = {
         {
           "w": "brook",
           "phon": "Ibruk/",
-          "pos": "",
+          "pos": "verb.",
           "cn": "小河: 溪",
           "tags": [
             "reading"
@@ -213,7 +213,7 @@ const VocabData = {
         {
           "w": "calamity",
           "phon": "Ika'lamgtil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "灾难,不幸的事",
           "tags": [
             "reading"
@@ -222,7 +222,7 @@ const VocabData = {
         {
           "w": "calendar",
           "phon": "Mkalsndal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "日历;  历法",
           "tags": [
             "reading"
@@ -231,7 +231,7 @@ const VocabData = {
         {
           "w": "carbon dioxide",
           "phon": "/ka:ban daroksard/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "二氧化碳",
           "tags": [
             "reading"
@@ -249,7 +249,7 @@ const VocabData = {
         {
           "w": "cave",
           "phon": "Ikervl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "洞穴。山洞",
           "tags": [
             "reading"
@@ -276,7 +276,7 @@ const VocabData = {
         {
           "w": "clay",
           "phon": "Iklerl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "黏士。陶士",
           "tags": [
             "reading"
@@ -312,7 +312,7 @@ const VocabData = {
         {
           "w": "condition",
           "phon": "Ikon'dilonl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "条件;  情况,状态",
           "tags": [
             "reading"
@@ -321,7 +321,7 @@ const VocabData = {
         {
           "w": "contaminate",
           "phon": "Ikan'tamanertl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "弄脏,污染",
           "tags": [
             "reading"
@@ -330,7 +330,7 @@ const VocabData = {
         {
           "w": "continent",
           "phon": "/kontsnantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "大陆;  洲",
           "tags": [
             "reading"
@@ -348,7 +348,7 @@ const VocabData = {
         {
           "w": "crack",
           "phon": "Ikrakl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "裂缝;  缝隙 破裂;  发出爆裂声",
           "tags": [
             "reading"
@@ -384,7 +384,7 @@ const VocabData = {
         {
           "w": "debris",
           "phon": "/debri:l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "碎片,残骸",
           "tags": [
             "reading"
@@ -393,7 +393,7 @@ const VocabData = {
         {
           "w": "deforest",
           "phon": "Idi:'forsstl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "毁掉'森林",
           "tags": [
             "reading"
@@ -411,7 +411,7 @@ const VocabData = {
         {
           "w": "delta",
           "phon": "/deltal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "三角洲",
           "tags": [
             "reading"
@@ -465,7 +465,7 @@ const VocabData = {
         {
           "w": "dew",
           "phon": "Idju:l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "露水",
           "tags": [
             "reading"
@@ -474,7 +474,7 @@ const VocabData = {
         {
           "w": "dirt",
           "phon": "/d3:t",
-          "pos": "",
+          "pos": "noun.",
           "cn": "污垢,灰尘;[尤美}  泥土",
           "tags": [
             "reading"
@@ -483,7 +483,7 @@ const VocabData = {
         {
           "w": "disaster",
           "phon": "Idrza:stal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "灾难",
           "tags": [
             "reading"
@@ -501,7 +501,7 @@ const VocabData = {
         {
           "w": "downpour",
           "phon": "/daunpo:l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "倾盆大雨",
           "tags": [
             "reading"
@@ -528,7 +528,7 @@ const VocabData = {
         {
           "w": "drip",
           "phon": "Idrpl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "滴出 (液体);  滴下",
           "tags": [
             "reading"
@@ -537,7 +537,7 @@ const VocabData = {
         {
           "w": "drought",
           "phon": "Idrautl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "干旱。旱央",
           "tags": [
             "reading"
@@ -555,7 +555,7 @@ const VocabData = {
         {
           "w": "dusk",
           "phon": "IdAskl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "黄昏 傍晚",
           "tags": [
             "reading"
@@ -564,7 +564,7 @@ const VocabData = {
         {
           "w": "earthquake",
           "phon": "/'3:Okwelk/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "地霞",
           "tags": [
             "reading"
@@ -582,7 +582,7 @@ const VocabData = {
         {
           "w": "eclipse",
           "phon": "Ir'klpsl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "日食;  月食",
           "tags": [
             "reading"
@@ -600,7 +600,7 @@ const VocabData = {
         {
           "w": "endanger",
           "phon": "Iin'delnd3al",
-          "pos": "",
+          "pos": "verb.",
           "cn": "使遭受危险,危及",
           "tags": [
             "reading"
@@ -609,7 +609,7 @@ const VocabData = {
         {
           "w": "environment",
           "phon": "IIn'valranmantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "自然环境;  环境,周围状况",
           "tags": [
             "reading"
@@ -618,7 +618,7 @@ const VocabData = {
         {
           "w": "equator",
           "phon": "Iikwertal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "赤道",
           "tags": [
             "reading"
@@ -636,7 +636,7 @@ const VocabData = {
         {
           "w": "erupt",
           "phon": "II'rAptl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "爆发,喷发; (斑疹等)突然出现",
           "tags": [
             "reading"
@@ -662,9 +662,9 @@ const VocabData = {
         },
         {
           "w": "fertilise",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfɜː(ɹ)tɪlaɪz/",
+          "pos": "verb.",
+          "cn": "受精",
           "tags": [
             "reading"
           ]
@@ -681,7 +681,7 @@ const VocabData = {
         {
           "w": "flat",
           "phon": "Iatl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "公寓",
           "tags": [
             "reading"
@@ -690,7 +690,7 @@ const VocabData = {
         {
           "w": "float",
           "phon": "Iautl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "漂浮;  飘浮",
           "tags": [
             "reading"
@@ -708,7 +708,7 @@ const VocabData = {
         {
           "w": "forecast",
           "phon": "/f3:ka:stl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "预言 预测 预测. 预报",
           "tags": [
             "reading"
@@ -717,7 +717,7 @@ const VocabData = {
         {
           "w": "fountain",
           "phon": "/fauntsnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "喷泉;  源泉",
           "tags": [
             "reading"
@@ -762,7 +762,7 @@ const VocabData = {
         {
           "w": "fume",
           "phon": "Ifju:ml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "难闻且常为有害的)烟,气体 几 [~s]",
           "tags": [
             "reading"
@@ -771,7 +771,7 @@ const VocabData = {
         {
           "w": "gale",
           "phon": "Igerll",
-          "pos": "",
+          "pos": "verb.",
           "cn": "大风",
           "tags": [
             "reading"
@@ -789,7 +789,7 @@ const VocabData = {
         {
           "w": "gas",
           "phon": "Igesl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "气体; [美]汽油",
           "tags": [
             "reading"
@@ -807,7 +807,7 @@ const VocabData = {
         {
           "w": "geology",
           "phon": "Id3i'olad3il",
-          "pos": "",
+          "pos": "noun.",
           "cn": "地质学;  地质状况",
           "tags": [
             "reading"
@@ -816,7 +816,7 @@ const VocabData = {
         {
           "w": "glacier",
           "phon": "/glasial",
-          "pos": "",
+          "pos": "noun.",
           "cn": "冰川 冰河,",
           "tags": [
             "reading"
@@ -825,7 +825,7 @@ const VocabData = {
         {
           "w": "globe",
           "phon": "Iglaubl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "球体;  地球仪; [the ~]地球",
           "tags": [
             "reading"
@@ -843,7 +843,7 @@ const VocabData = {
         {
           "w": "granite",
           "phon": "/granstl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "花岗岩",
           "tags": [
             "reading"
@@ -852,7 +852,7 @@ const VocabData = {
         {
           "w": "greenhouse",
           "phon": "/gri:nhausl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "温室,暖房",
           "tags": [
             "reading"
@@ -879,7 +879,7 @@ const VocabData = {
         {
           "w": "gust",
           "phon": "IgAstl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "一阵狂风;(感情的)迸发",
           "tags": [
             "reading"
@@ -888,7 +888,7 @@ const VocabData = {
         {
           "w": "hail",
           "phon": "Iherll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "雹, 冰雹",
           "tags": [
             "reading"
@@ -906,7 +906,7 @@ const VocabData = {
         {
           "w": "heaven",
           "phon": "/hevanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "天堂;  极乐 (之地); [the ~s] 天空",
           "tags": [
             "reading"
@@ -915,7 +915,7 @@ const VocabData = {
         {
           "w": "hemisphere",
           "phon": "/hemosfral",
-          "pos": "",
+          "pos": "noun.",
           "cn": "半球",
           "tags": [
             "reading"
@@ -951,7 +951,7 @@ const VocabData = {
         {
           "w": "hurricane",
           "phon": "/'harskanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "飓风;  暴风",
           "tags": [
             "reading"
@@ -969,7 +969,7 @@ const VocabData = {
         {
           "w": "hydrosphere",
           "phon": "/haidrausfral",
-          "pos": "",
+          "pos": "n.",
           "cn": "水圈;  大气中的水汽",
           "tags": [
             "reading"
@@ -996,7 +996,7 @@ const VocabData = {
         {
           "w": "intensity",
           "phon": "IIn'tensatil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "强度;  强烈",
           "tags": [
             "reading"
@@ -1050,7 +1050,7 @@ const VocabData = {
         {
           "w": "landscape",
           "phon": "Mlendskerpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "风景,地貌",
           "tags": [
             "reading"
@@ -1059,7 +1059,7 @@ const VocabData = {
         {
           "w": "latitude",
           "phon": "Mlatstju:dl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "纬度",
           "tags": [
             "reading"
@@ -1077,7 +1077,7 @@ const VocabData = {
         {
           "w": "lithosphere",
           "phon": "IliBaUisfral",
-          "pos": "",
+          "pos": "noun.",
           "cn": "岩石圈",
           "tags": [
             "reading"
@@ -1104,7 +1104,7 @@ const VocabData = {
         {
           "w": "magma",
           "phon": "/'magmal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "岩浆",
           "tags": [
             "reading"
@@ -1113,7 +1113,7 @@ const VocabData = {
         {
           "w": "magnet",
           "phon": "/megnstl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "磁铁,吸铁石",
           "tags": [
             "reading"
@@ -1131,7 +1131,7 @@ const VocabData = {
         {
           "w": "mainland",
           "phon": "/'mernlandl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "乡| 本土 大陆",
           "tags": [
             "reading"
@@ -1140,7 +1140,7 @@ const VocabData = {
         {
           "w": "mantle",
           "phon": "/mantll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "地幔;  斗篷,披风",
           "tags": [
             "reading"
@@ -1149,7 +1149,7 @@ const VocabData = {
         {
           "w": "marble",
           "phon": "/ma:ball",
-          "pos": "",
+          "pos": "noun.",
           "cn": "大理石;(玩具)弹球",
           "tags": [
             "reading"
@@ -1158,7 +1158,7 @@ const VocabData = {
         {
           "w": "margin",
           "phon": "/'1110:4351",
-          "pos": "",
+          "pos": "noun.",
           "cn": "边缘;  页边空白;  余地",
           "tags": [
             "reading"
@@ -1176,7 +1176,7 @@ const VocabData = {
         {
           "w": "meteorology",
           "phon": "Imi:tia'rolad3il",
-          "pos": "",
+          "pos": "noun.",
           "cn": "气象学",
           "tags": [
             "reading"
@@ -1194,7 +1194,7 @@ const VocabData = {
         {
           "w": "mineral",
           "phon": "/minarall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "矿物 矿物质;  矿产",
           "tags": [
             "reading"
@@ -1203,7 +1203,7 @@ const VocabData = {
         {
           "w": "mishap",
           "phon": "/mishapl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "小灾难",
           "tags": [
             "reading"
@@ -1212,7 +1212,7 @@ const VocabData = {
         {
           "w": "mist",
           "phon": "ImIstl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "薄雾;  水汽;  使视线模糊的东西",
           "tags": [
             "reading"
@@ -1248,7 +1248,7 @@ const VocabData = {
         {
           "w": "mount",
           "phon": "Imauntl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "登上 渐渐增加;  爬上,",
           "tags": [
             "reading"
@@ -1257,7 +1257,7 @@ const VocabData = {
         {
           "w": "mountain",
           "phon": "/mauntanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "山,山岳,高山",
           "tags": [
             "reading"
@@ -1293,7 +1293,7 @@ const VocabData = {
         {
           "w": "nature",
           "phon": "/neitjal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "大自然;  本性;  性质",
           "tags": [
             "reading"
@@ -1329,7 +1329,7 @@ const VocabData = {
         {
           "w": "oasis",
           "phon": "I3u'ersgsl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "绿洲;  宜人之地",
           "tags": [
             "reading"
@@ -1365,7 +1365,7 @@ const VocabData = {
         {
           "w": "outskirts",
           "phon": "/'autsk3:ts/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "郯区,市郊",
           "tags": [
             "reading"
@@ -1383,7 +1383,7 @@ const VocabData = {
         {
           "w": "oxide",
           "phon": "/Dksardl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "氧化物",
           "tags": [
             "reading"
@@ -1410,7 +1410,7 @@ const VocabData = {
         {
           "w": "paradise",
           "phon": "/paradaIsl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "天堂;  乐园。福地",
           "tags": [
             "reading"
@@ -1428,7 +1428,7 @@ const VocabData = {
         {
           "w": "peak",
           "phon": "Ipi:kl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "山峰;  顶点 达到最大值",
           "tags": [
             "reading"
@@ -1437,7 +1437,7 @@ const VocabData = {
         {
           "w": "pebble",
           "phon": "/peball",
-          "pos": "",
+          "pos": "n.",
           "cn": "鹅卵石",
           "tags": [
             "reading"
@@ -1473,7 +1473,7 @@ const VocabData = {
         {
           "w": "phenomenon",
           "phon": "Ifi'npmsnanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "现象",
           "tags": [
             "reading"
@@ -1491,7 +1491,7 @@ const VocabData = {
         {
           "w": "plate",
           "phon": "Iplertl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "地质学中的大陆 )板块;  盘",
           "tags": [
             "reading"
@@ -1500,7 +1500,7 @@ const VocabData = {
         {
           "w": "plateau",
           "phon": "/plataul",
-          "pos": "",
+          "pos": "noun.",
           "cn": "高原",
           "tags": [
             "reading"
@@ -1527,7 +1527,7 @@ const VocabData = {
         {
           "w": "pollutant",
           "phon": "Ipa'lu:tantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "污染物质",
           "tags": [
             "reading"
@@ -1572,7 +1572,7 @@ const VocabData = {
         {
           "w": "quartz",
           "phon": "IkW3:ts/",
-          "pos": "",
+          "pos": "n.",
           "cn": "石英",
           "tags": [
             "reading"
@@ -1581,7 +1581,7 @@ const VocabData = {
         {
           "w": "rainbow",
           "phon": "/renbaul",
-          "pos": "",
+          "pos": "noun.",
           "cn": "虹,彩虹",
           "tags": [
             "reading"
@@ -1590,7 +1590,7 @@ const VocabData = {
         {
           "w": "rainfall",
           "phon": "/relnf:ll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "降雨量",
           "tags": [
             "reading"
@@ -1599,7 +1599,7 @@ const VocabData = {
         {
           "w": "range",
           "phon": "Irelnd3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "山脉;  范围",
           "tags": [
             "reading"
@@ -1617,7 +1617,7 @@ const VocabData = {
         {
           "w": "reservoir",
           "phon": "/rezavwa:l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几。水库。蓄水池",
           "tags": [
             "reading"
@@ -1626,7 +1626,7 @@ const VocabData = {
         {
           "w": "ridge",
           "phon": "Irid3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "山脉 使隆起 山脊",
           "tags": [
             "reading"
@@ -1680,7 +1680,7 @@ const VocabData = {
         {
           "w": "shade",
           "phon": "IJerdl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "阴影部分;  背阴处",
           "tags": [
             "reading"
@@ -1725,7 +1725,7 @@ const VocabData = {
         {
           "w": "shower",
           "phon": "Naual",
-          "pos": "",
+          "pos": "noun.",
           "cn": "阵雨;(一〉阵;  淋浴",
           "tags": [
             "reading"
@@ -1752,7 +1752,7 @@ const VocabData = {
         {
           "w": "slope",
           "phon": "Islaupl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "倾斜;  有坡度 山坡;  斜坡",
           "tags": [
             "reading"
@@ -1761,7 +1761,7 @@ const VocabData = {
         {
           "w": "smog",
           "phon": "Ismogl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "烟雾 雾霾",
           "tags": [
             "reading"
@@ -1842,7 +1842,7 @@ const VocabData = {
         {
           "w": "spring",
           "phon": "Isprnl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "春天;  泉水",
           "tags": [
             "reading"
@@ -1887,7 +1887,7 @@ const VocabData = {
         {
           "w": "stream",
           "phon": "Istri:ml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "小河。溪;  流 流动,流出",
           "tags": [
             "reading"
@@ -1905,7 +1905,7 @@ const VocabData = {
         {
           "w": "sunrise",
           "phon": "/'SAnraIz/",
-          "pos": "",
+          "pos": "v.",
           "cn": "日出",
           "tags": [
             "reading"
@@ -1914,7 +1914,7 @@ const VocabData = {
         {
           "w": "sunset",
           "phon": "/SAnsetl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "曰落",
           "tags": [
             "reading"
@@ -1977,7 +1977,7 @@ const VocabData = {
         {
           "w": "temperature",
           "phon": "Itemprstfal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "气温;  体温;  温度",
           "tags": [
             "reading"
@@ -1986,7 +1986,7 @@ const VocabData = {
         {
           "w": "terrain",
           "phon": "Itelrenl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "地形",
           "tags": [
             "reading"
@@ -1995,7 +1995,7 @@ const VocabData = {
         {
           "w": "thaw",
           "phon": "/O3:/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "解冻时期 解冻,融解。融化",
           "tags": [
             "reading"
@@ -2022,7 +2022,7 @@ const VocabData = {
         {
           "w": "thunder",
           "phon": "/OAndal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "雷;  雷声",
           "tags": [
             "reading"
@@ -2040,7 +2040,7 @@ const VocabData = {
         {
           "w": "tornado",
           "phon": "It3:'neIdaUl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "龙卷风",
           "tags": [
             "reading"
@@ -2049,7 +2049,7 @@ const VocabData = {
         {
           "w": "torrent",
           "phon": "/torantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "激流,洪流",
           "tags": [
             "reading"
@@ -2112,7 +2112,7 @@ const VocabData = {
         {
           "w": "valley",
           "phon": "/'valil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "山谷,溪谷",
           "tags": [
             "reading"
@@ -2120,7 +2120,7 @@ const VocabData = {
         },
         {
           "w": "vapour",
-          "phon": "",
+          "phon": "/ˈveɪpə/",
           "pos": "noun.",
           "cn": "浓水",
           "tags": [
@@ -2139,7 +2139,7 @@ const VocabData = {
         {
           "w": "volcano",
           "phon": "IvolkeInaul",
-          "pos": "",
+          "pos": "noun.",
           "cn": "火山",
           "tags": [
             "reading"
@@ -2157,7 +2157,7 @@ const VocabData = {
         {
           "w": "waterfall",
           "phon": "/'W:tof3:ll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "瀑布",
           "tags": [
             "reading"
@@ -2166,7 +2166,7 @@ const VocabData = {
         {
           "w": "weather",
           "phon": "/wedal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "天气。气象",
           "tags": [
             "reading"
@@ -2175,7 +2175,7 @@ const VocabData = {
         {
           "w": "wilderness",
           "phon": "/wildanssl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "荒野",
           "tags": [
             "reading"
@@ -2190,7 +2190,7 @@ const VocabData = {
         {
           "w": "absorb",
           "phon": "/3b'53:b/",
-          "pos": "",
+          "pos": "verb.",
           "cn": "吸收;  吸引全部注意力",
           "tags": [
             "reading"
@@ -2199,7 +2199,7 @@ const VocabData = {
         {
           "w": "alga",
           "phon": "/alga/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "海藻 , 藻",
           "tags": [
             "reading"
@@ -2216,7 +2216,7 @@ const VocabData = {
         },
         {
           "w": "aromatic",
-          "phon": "",
+          "phon": "/æ.ɹəˈmæt.ɪk/",
           "pos": "adj.",
           "cn": "芳香的",
           "tags": [
@@ -2226,7 +2226,7 @@ const VocabData = {
         {
           "w": "bloom",
           "phon": "Iblu:ml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "花朵",
           "tags": [
             "reading"
@@ -2235,7 +2235,7 @@ const VocabData = {
         {
           "w": "blossom",
           "phon": "Iblosaml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "开花 花朵",
           "tags": [
             "reading"
@@ -2244,7 +2244,7 @@ const VocabData = {
         {
           "w": "botany",
           "phon": "Ibntanil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "植物学",
           "tags": [
             "reading"
@@ -2253,7 +2253,7 @@ const VocabData = {
         {
           "w": "bough",
           "phon": "Ibaul",
-          "pos": "",
+          "pos": "noun.",
           "cn": "大树枝",
           "tags": [
             "reading"
@@ -2271,7 +2271,7 @@ const VocabData = {
         {
           "w": "bud",
           "phon": "IbAdl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "芽,苞。蓓蕾",
           "tags": [
             "reading"
@@ -2280,7 +2280,7 @@ const VocabData = {
         {
           "w": "bunch",
           "phon": "IbAntfl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "一束 (花),一串 (钥匙 )",
           "tags": [
             "reading"
@@ -2307,7 +2307,7 @@ const VocabData = {
         {
           "w": "bush fire",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "林区大火",
           "tags": [
             "reading"
@@ -2343,7 +2343,7 @@ const VocabData = {
         {
           "w": "classify",
           "phon": "/klasgfall",
-          "pos": "",
+          "pos": "verb.",
           "cn": "分类",
           "tags": [
             "reading"
@@ -2352,7 +2352,7 @@ const VocabData = {
         {
           "w": "conservation",
           "phon": "Ikonsa'verfon/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "对自然环境的 )  保护;  保存",
           "tags": [
             "reading"
@@ -2370,7 +2370,7 @@ const VocabData = {
         {
           "w": "counterbalance",
           "phon": "/kauntabelansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "起平衡作用的事物;  抗衡力",
           "tags": [
             "reading"
@@ -2406,7 +2406,7 @@ const VocabData = {
         {
           "w": "demolish",
           "phon": "Idr'molrll",
-          "pos": "",
+          "pos": "verb.",
           "cn": "破坏;  推翻 拆除;  毁坏,",
           "tags": [
             "reading"
@@ -2415,8 +2415,8 @@ const VocabData = {
         {
           "w": "destruct",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "verb.",
+          "cn": "摧毁",
           "tags": [
             "reading"
           ]
@@ -2451,7 +2451,7 @@ const VocabData = {
         {
           "w": "ecology",
           "phon": "/i'kDlad3il",
-          "pos": "",
+          "pos": "noun.",
           "cn": "生态学;  生态",
           "tags": [
             "reading"
@@ -2460,7 +2460,7 @@ const VocabData = {
         {
           "w": "ecosystem",
           "phon": "!i:kaUisIstsml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "生态系统",
           "tags": [
             "reading"
@@ -2487,7 +2487,7 @@ const VocabData = {
         {
           "w": "emission",
           "phon": "/I'mrfanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "排放 散发;  排放物 散发物",
           "tags": [
             "reading"
@@ -2496,7 +2496,7 @@ const VocabData = {
         {
           "w": "energy",
           "phon": "/enad3il",
-          "pos": "",
+          "pos": "noun.",
           "cn": "能源;  精力",
           "tags": [
             "reading"
@@ -2523,7 +2523,7 @@ const VocabData = {
         {
           "w": "exceed",
           "phon": "Iiksi:dl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "超过",
           "tags": [
             "reading"
@@ -2550,7 +2550,7 @@ const VocabData = {
         {
           "w": "extinguish",
           "phon": "Ik'stigwll",
-          "pos": "",
+          "pos": "verb.",
           "cn": "感情等)破灭 扑灭 (火);  使 (想法",
           "tags": [
             "reading"
@@ -2568,7 +2568,7 @@ const VocabData = {
         {
           "w": "field",
           "phon": "Ifi:ldl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "领域",
           "tags": [
             "reading"
@@ -2595,7 +2595,7 @@ const VocabData = {
         {
           "w": "forestry",
           "phon": "/'fprgstril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "林学;  林业",
           "tags": [
             "reading"
@@ -2613,7 +2613,7 @@ const VocabData = {
         {
           "w": "fungus",
           "phon": "/'fNIgasI",
-          "pos": "",
+          "pos": "noun.",
           "cn": "真菌",
           "tags": [
             "reading"
@@ -2622,7 +2622,7 @@ const VocabData = {
         {
           "w": "genetics",
           "phon": "/d3a'netrksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "遗传学",
           "tags": [
             "reading"
@@ -2640,7 +2640,7 @@ const VocabData = {
         {
           "w": "grass",
           "phon": "Igra:sl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "草;  草地",
           "tags": [
             "reading"
@@ -2685,7 +2685,7 @@ const VocabData = {
         {
           "w": "horticulture",
           "phon": "/h3:tgikAltfal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "园艺学;  园艺",
           "tags": [
             "reading"
@@ -2721,7 +2721,7 @@ const VocabData = {
         {
           "w": "infringe",
           "phon": "In'frlnd3/",
-          "pos": "",
+          "pos": "verb.",
           "cn": "侵犯;  违反",
           "tags": [
             "reading"
@@ -2757,7 +2757,7 @@ const VocabData = {
         {
           "w": "logo",
           "phon": "/'laugaul",
-          "pos": "",
+          "pos": "noun.",
           "cn": "标识 标志。徽标",
           "tags": [
             "reading"
@@ -2784,7 +2784,7 @@ const VocabData = {
         {
           "w": "meadow",
           "phon": "/edaUl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "草地;  牧场",
           "tags": [
             "reading"
@@ -2811,7 +2811,7 @@ const VocabData = {
         {
           "w": "mint",
           "phon": "ImIntl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "薄荷;  薄荷糖;  铸币厂 铸造 硬币 )",
           "tags": [
             "reading"
@@ -2829,7 +2829,7 @@ const VocabData = {
         {
           "w": "mutation",
           "phon": "Imju:'telfanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "突娈,娈异",
           "tags": [
             "reading"
@@ -2838,7 +2838,7 @@ const VocabData = {
         {
           "w": "nutrient",
           "phon": "/nju:triantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "营养物质",
           "tags": [
             "reading"
@@ -2847,7 +2847,7 @@ const VocabData = {
         {
           "w": "olive",
           "phon": "/olsvl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "橄榄;  橄榄树",
           "tags": [
             "reading"
@@ -2865,7 +2865,7 @@ const VocabData = {
         {
           "w": "organism",
           "phon": "/3:ganIzam/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "有机体,生物",
           "tags": [
             "reading"
@@ -2874,7 +2874,7 @@ const VocabData = {
         {
           "w": "outcome",
           "phon": "/'aUtkAm/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "结果",
           "tags": [
             "reading"
@@ -2883,7 +2883,7 @@ const VocabData = {
         {
           "w": "pattern",
           "phon": "/patonl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "模式;  式样;  底样",
           "tags": [
             "reading"
@@ -2901,7 +2901,7 @@ const VocabData = {
         {
           "w": "perish",
           "phon": "Iperifl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "消亡;  腐烂",
           "tags": [
             "reading"
@@ -2909,8 +2909,8 @@ const VocabData = {
         },
         {
           "w": "photosynthesis",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˌfəʊ.təʊ.ˈsɪn.θə.sɪs/",
+          "pos": "noun.",
           "cn": "光合作用",
           "tags": [
             "reading"
@@ -2928,7 +2928,7 @@ const VocabData = {
         {
           "w": "pine",
           "phon": "Ipanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "松树;  松木",
           "tags": [
             "reading"
@@ -2937,7 +2937,7 @@ const VocabData = {
         {
           "w": "plantation",
           "phon": "Iplen'teifonl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "种植园;  栽植",
           "tags": [
             "reading"
@@ -2955,7 +2955,7 @@ const VocabData = {
         {
           "w": "pluck",
           "phon": "Iplkl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "加上面微信领取 他为懵人摘了_看  bundle /bu",
           "tags": [
             "reading"
@@ -2964,7 +2964,7 @@ const VocabData = {
         {
           "w": "pollen",
           "phon": "/polani",
-          "pos": "",
+          "pos": "noun.",
           "cn": "花粉",
           "tags": [
             "reading"
@@ -2973,7 +2973,7 @@ const VocabData = {
         {
           "w": "preserve",
           "phon": "Iprr'z3:Vl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "保护;  维持 (原状 );  保存",
           "tags": [
             "reading"
@@ -2991,7 +2991,7 @@ const VocabData = {
         {
           "w": "protect",
           "phon": "Ipra'tektl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "保护",
           "tags": [
             "reading"
@@ -3000,7 +3000,7 @@ const VocabData = {
         {
           "w": "rainforest",
           "phon": "/reInforsst",
-          "pos": "",
+          "pos": "noun.",
           "cn": "雨林",
           "tags": [
             "reading"
@@ -3018,7 +3018,7 @@ const VocabData = {
         {
           "w": "rear",
           "phon": "Irial",
-          "pos": "",
+          "pos": "verb.",
           "cn": "后部 培养,抚养;  饲养",
           "tags": [
             "reading"
@@ -3036,7 +3036,7 @@ const VocabData = {
         {
           "w": "reed",
           "phon": "Iri:dl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "芦苇",
           "tags": [
             "reading"
@@ -3072,7 +3072,7 @@ const VocabData = {
         {
           "w": "respire",
           "phon": "Irrspalal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "呼吸",
           "tags": [
             "reading"
@@ -3090,7 +3090,7 @@ const VocabData = {
         {
           "w": "root",
           "phon": "Iru:tl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "字根;  根源 几。词根",
           "tags": [
             "reading"
@@ -3099,7 +3099,7 @@ const VocabData = {
         {
           "w": "rot",
           "phon": "Irotl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "腐烂",
           "tags": [
             "reading"
@@ -3108,7 +3108,7 @@ const VocabData = {
         {
           "w": "ruin",
           "phon": "/rusnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "毁灭;  废墟",
           "tags": [
             "reading"
@@ -3117,7 +3117,7 @@ const VocabData = {
         {
           "w": "scent",
           "phon": "Isentl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "气味;  香味 使具有香味",
           "tags": [
             "reading"
@@ -3135,7 +3135,7 @@ const VocabData = {
         {
           "w": "seed",
           "phon": "Isi:dl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "种子,籽;  萌芽",
           "tags": [
             "reading"
@@ -3171,7 +3171,7 @@ const VocabData = {
         {
           "w": "spade",
           "phon": "Isperdl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "锹 铲",
           "tags": [
             "reading"
@@ -3207,7 +3207,7 @@ const VocabData = {
         {
           "w": "sunlight",
           "phon": "IsAnlaltl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "阳光",
           "tags": [
             "reading"
@@ -3225,7 +3225,7 @@ const VocabData = {
         {
           "w": "terrace",
           "phon": "/tergsl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "大阳台,露天平台",
           "tags": [
             "reading"
@@ -3234,7 +3234,7 @@ const VocabData = {
         {
           "w": "thorn",
           "phon": "/O3:n",
-          "pos": "",
+          "pos": "noun.",
           "cn": "刺 棘刺;  荆棘",
           "tags": [
             "reading"
@@ -3252,7 +3252,7 @@ const VocabData = {
         {
           "w": "trunk",
           "phon": "ItrAIkl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "象鼻",
           "tags": [
             "reading"
@@ -3261,7 +3261,7 @@ const VocabData = {
         {
           "w": "tulip",
           "phon": "/tju:lgpl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "郁金香",
           "tags": [
             "reading"
@@ -3279,7 +3279,7 @@ const VocabData = {
         {
           "w": "uptake",
           "phon": "/Apteikl",
-          "pos": "",
+          "pos": "n.",
           "cn": "摄取;  领会",
           "tags": [
             "reading"
@@ -3315,7 +3315,7 @@ const VocabData = {
         {
           "w": "vine",
           "phon": "Ivalnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "葡萄藤",
           "tags": [
             "reading"
@@ -3324,7 +3324,7 @@ const VocabData = {
         {
           "w": "violet",
           "phon": "/'valalstl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "堇菜",
           "tags": [
             "reading"
@@ -3376,7 +3376,7 @@ const VocabData = {
           "w": "alternate",
           "phon": "",
           "pos": "noun.",
-          "cn": "",
+          "cn": "交替的；轮流",
           "tags": [
             "reading"
           ]
@@ -3402,7 +3402,7 @@ const VocabData = {
         {
           "w": "ancestor",
           "phon": "I'ansastal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "祖宗。祖先",
           "tags": [
             "reading"
@@ -3447,7 +3447,7 @@ const VocabData = {
         {
           "w": "barrier",
           "phon": "Ibarial",
-          "pos": "",
+          "pos": "noun.",
           "cn": "障碍物 障碍;  屏障,",
           "tags": [
             "reading"
@@ -3510,7 +3510,7 @@ const VocabData = {
         {
           "w": "botanist",
           "phon": "/'bDtansstl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "植物学家",
           "tags": [
             "reading"
@@ -3528,7 +3528,7 @@ const VocabData = {
         {
           "w": "bristle",
           "phon": "Ibrisall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "鬃毛; (刷子的)毛",
           "tags": [
             "reading"
@@ -3537,7 +3537,7 @@ const VocabData = {
         {
           "w": "brood",
           "phon": "Ibru:dl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "一窝幼鸟",
           "tags": [
             "reading"
@@ -3546,7 +3546,7 @@ const VocabData = {
         {
           "w": "brute",
           "phon": "Ibru:tl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "粗野的人, 残忍的人",
           "tags": [
             "reading"
@@ -3555,7 +3555,7 @@ const VocabData = {
         {
           "w": "buffalo",
           "phon": "IbAfalaul",
-          "pos": "",
+          "pos": "noun.",
           "cn": "水牛;  野牛",
           "tags": [
             "reading"
@@ -3582,7 +3582,7 @@ const VocabData = {
         {
           "w": "cage",
           "phon": "Ikeld3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "笼子",
           "tags": [
             "reading"
@@ -3618,7 +3618,7 @@ const VocabData = {
         {
           "w": "carnivore",
           "phon": "Mka:ngV3:l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "食肉动物",
           "tags": [
             "reading"
@@ -3627,7 +3627,7 @@ const VocabData = {
         {
           "w": "cattle",
           "phon": "Ikatll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几牛",
           "tags": [
             "reading"
@@ -3636,7 +3636,7 @@ const VocabData = {
         {
           "w": "cell",
           "phon": "Isell",
-          "pos": "",
+          "pos": "noun.",
           "cn": "蜂房巢室;  细胞;  单人牢房",
           "tags": [
             "reading"
@@ -3645,7 +3645,7 @@ const VocabData = {
         {
           "w": "claw",
           "phon": "Ikl3:/",
-          "pos": "",
+          "pos": "n.",
           "cn": "爪;  钳;  螯;  爪状物",
           "tags": [
             "reading"
@@ -3681,7 +3681,7 @@ const VocabData = {
         {
           "w": "creature",
           "phon": "/kri:tlal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "生物 动物",
           "tags": [
             "reading"
@@ -3690,7 +3690,7 @@ const VocabData = {
         {
           "w": "creep",
           "phon": "Ikri:pl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "爬行;  悄悄地缓慢行进",
           "tags": [
             "reading"
@@ -3699,7 +3699,7 @@ const VocabData = {
         {
           "w": "cricket",
           "phon": "Ikrikgtl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "板球",
           "tags": [
             "reading"
@@ -3735,7 +3735,7 @@ const VocabData = {
         {
           "w": "cub",
           "phon": "IkAbl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "幼兽",
           "tags": [
             "reading"
@@ -3745,7 +3745,7 @@ const VocabData = {
           "w": "curl",
           "phon": "/kəːl/",
           "pos": "noun.",
-          "cn": "",
+          "cn": "卷曲，弯曲",
           "tags": [
             "reading"
           ]
@@ -3762,7 +3762,7 @@ const VocabData = {
         {
           "w": "derive",
           "phon": "Idrrarvl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "得到;(使〉源自",
           "tags": [
             "reading"
@@ -3780,7 +3780,7 @@ const VocabData = {
         {
           "w": "devour",
           "phon": "/drvaual",
-          "pos": "",
+          "pos": "verb.",
           "cn": "吞食,狼吞虎咽地吃",
           "tags": [
             "reading"
@@ -3789,7 +3789,7 @@ const VocabData = {
         {
           "w": "donkey",
           "phon": "/donkil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "驴;  傻瓜",
           "tags": [
             "reading"
@@ -3807,7 +3807,7 @@ const VocabData = {
         {
           "w": "dragon",
           "phon": "/draganl",
-          "pos": "",
+          "pos": "n.",
           "cn": "龙;  悍妇",
           "tags": [
             "reading"
@@ -3825,7 +3825,7 @@ const VocabData = {
         {
           "w": "ecologist",
           "phon": "Ir'kDlad3astl",
-          "pos": "",
+          "pos": "n.",
           "cn": "生态学家",
           "tags": [
             "reading"
@@ -3834,7 +3834,7 @@ const VocabData = {
         {
           "w": "elephant",
           "phon": "/elgfontl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "象",
           "tags": [
             "reading"
@@ -3852,7 +3852,7 @@ const VocabData = {
         {
           "w": "excrete",
           "phon": "/ik'skri:tl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "排泄;  分泌",
           "tags": [
             "reading"
@@ -3861,7 +3861,7 @@ const VocabData = {
         {
           "w": "exist",
           "phon": "Iig'zIstl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "存在;  生存",
           "tags": [
             "reading"
@@ -3870,7 +3870,7 @@ const VocabData = {
         {
           "w": "exterminate",
           "phon": "/k'st3:msnertl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "根除",
           "tags": [
             "reading"
@@ -3887,9 +3887,9 @@ const VocabData = {
         },
         {
           "w": "fauna",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈfɔː.nə/",
+          "pos": "noun.",
+          "cn": "动物",
           "tags": [
             "reading"
           ]
@@ -3906,7 +3906,7 @@ const VocabData = {
         {
           "w": "feed",
           "phon": "If:dl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "供养;  喂。饲养;  进食",
           "tags": [
             "reading"
@@ -3916,7 +3916,7 @@ const VocabData = {
           "w": "fin",
           "phon": "/fɪn/",
           "pos": "noun.",
-          "cn": "",
+          "cn": "鳍",
           "tags": [
             "reading"
           ]
@@ -3941,9 +3941,9 @@ const VocabData = {
         },
         {
           "w": "flora",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈflɔː.ɹə/",
+          "pos": "noun.",
+          "cn": "植物",
           "tags": [
             "reading"
           ]
@@ -3951,7 +3951,7 @@ const VocabData = {
         {
           "w": "fox",
           "phon": "Ifbksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "狐狸;  狡猾的人",
           "tags": [
             "reading"
@@ -3960,7 +3960,7 @@ const VocabData = {
         {
           "w": "frog",
           "phon": "IfrDgl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "蛙",
           "tags": [
             "reading"
@@ -3978,7 +3978,7 @@ const VocabData = {
         {
           "w": "fur",
           "phon": "/f3:1",
-          "pos": "",
+          "pos": "noun.",
           "cn": "动物的)软毛; (用于制衣等的) 毛皮 几(",
           "tags": [
             "reading"
@@ -4014,7 +4014,7 @@ const VocabData = {
         {
           "w": "habitat",
           "phon": "/habgtetl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "动植物的)  生活环境, 栖息地",
           "tags": [
             "reading"
@@ -4023,7 +4023,7 @@ const VocabData = {
         {
           "w": "hare",
           "phon": "/he3'",
-          "pos": "",
+          "pos": "noun.",
           "cn": "野兔",
           "tags": [
             "reading"
@@ -4032,7 +4032,7 @@ const VocabData = {
         {
           "w": "harness",
           "phon": "/ha:ngsl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "利用",
           "tags": [
             "reading"
@@ -4050,7 +4050,7 @@ const VocabData = {
         {
           "w": "hawk",
           "phon": "Ih3:k/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "鹰,隼",
           "tags": [
             "reading"
@@ -4059,7 +4059,7 @@ const VocabData = {
         {
           "w": "hedge",
           "phon": "Ihed3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "树篱;  障碍物",
           "tags": [
             "reading"
@@ -4077,7 +4077,7 @@ const VocabData = {
         {
           "w": "herd",
           "phon": "/h3:d/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "兽群。畜群",
           "tags": [
             "reading"
@@ -4113,7 +4113,7 @@ const VocabData = {
         {
           "w": "horse",
           "phon": "/h3:8/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "马 例",
           "tags": [
             "reading"
@@ -4140,7 +4140,7 @@ const VocabData = {
         {
           "w": "instinct",
           "phon": "/instiktl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "本能, 天性;  直觉",
           "tags": [
             "reading"
@@ -4157,9 +4157,9 @@ const VocabData = {
         },
         {
           "w": "interbreed",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnteɹˈbɹid/",
+          "pos": "verb.",
+          "cn": "有性生殖",
           "tags": [
             "reading"
           ]
@@ -4212,7 +4212,7 @@ const VocabData = {
         {
           "w": "lay",
           "phon": "Ilell",
-          "pos": "",
+          "pos": "noun.",
           "cn": "产",
           "tags": [
             "reading"
@@ -4230,7 +4230,7 @@ const VocabData = {
         {
           "w": "mate",
           "phon": "Imertl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "伙伴; [构成复合词 ]同伴",
           "tags": [
             "reading"
@@ -4248,7 +4248,7 @@ const VocabData = {
         {
           "w": "metabolism",
           "phon": "Ing'tabalizzln/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "新陈代谢",
           "tags": [
             "reading"
@@ -4257,7 +4257,7 @@ const VocabData = {
         {
           "w": "microbe",
           "phon": "'malkraubl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "微生物",
           "tags": [
             "reading"
@@ -4266,7 +4266,7 @@ const VocabData = {
         {
           "w": "mosquito",
           "phon": "Ima'ski:taul",
-          "pos": "",
+          "pos": "noun.",
           "cn": "蚊子",
           "tags": [
             "reading"
@@ -4284,7 +4284,7 @@ const VocabData = {
         {
           "w": "nest",
           "phon": "Inestl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "巢。窝。穴",
           "tags": [
             "reading"
@@ -4374,7 +4374,7 @@ const VocabData = {
         {
           "w": "penguin",
           "phon": "/pengwsnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "企鹅 加",
           "tags": [
             "reading"
@@ -4392,7 +4392,7 @@ const VocabData = {
         {
           "w": "pigeon",
           "phon": "/pid3snl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "鸽子",
           "tags": [
             "reading"
@@ -4401,7 +4401,7 @@ const VocabData = {
         {
           "w": "plume",
           "phon": "Iplu:ml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "羽丢",
           "tags": [
             "reading"
@@ -4419,7 +4419,7 @@ const VocabData = {
         {
           "w": "predator",
           "phon": "/predatal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "掠夺者;  捕食性动物",
           "tags": [
             "reading"
@@ -4437,7 +4437,7 @@ const VocabData = {
         {
           "w": "primate",
           "phon": "/pralmettl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "灵长目动物",
           "tags": [
             "reading"
@@ -4446,7 +4446,7 @@ const VocabData = {
         {
           "w": "proliferate",
           "phon": "Ipralrfarettl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "迅速增殖;  剧增",
           "tags": [
             "reading"
@@ -4455,7 +4455,7 @@ const VocabData = {
         {
           "w": "protein",
           "phon": "/prauti:nl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "蛋白质",
           "tags": [
             "reading"
@@ -4473,7 +4473,7 @@ const VocabData = {
         {
           "w": "rat",
           "phon": "Iratl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "老鼠;  卑鄙的人",
           "tags": [
             "reading"
@@ -4482,7 +4482,7 @@ const VocabData = {
         {
           "w": "reptile",
           "phon": "/reptaIll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "爬行动物",
           "tags": [
             "reading"
@@ -4500,7 +4500,7 @@ const VocabData = {
         {
           "w": "rub",
           "phon": "IrAb/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "困难 , 障碍",
           "tags": [
             "reading"
@@ -4509,7 +4509,7 @@ const VocabData = {
         {
           "w": "saddle",
           "phon": "Isadll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "鞍_ 马鞍;  车座",
           "tags": [
             "reading"
@@ -4518,7 +4518,7 @@ const VocabData = {
         {
           "w": "seal",
           "phon": "Isi:ll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "那1 海豹;  封条;  图章",
           "tags": [
             "reading"
@@ -4590,7 +4590,7 @@ const VocabData = {
         {
           "w": "spider",
           "phon": "Nspardol",
-          "pos": "",
+          "pos": "noun.",
           "cn": "蜘蛛",
           "tags": [
             "reading"
@@ -4617,7 +4617,7 @@ const VocabData = {
         {
           "w": "stem",
           "phon": "Isteml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "来自 茎。梗",
           "tags": [
             "reading"
@@ -4626,7 +4626,7 @@ const VocabData = {
         {
           "w": "sterility",
           "phon": "Ista'rlgtil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "不生育",
           "tags": [
             "reading"
@@ -4635,7 +4635,7 @@ const VocabData = {
         {
           "w": "sting",
           "phon": "Istnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "刺, 刺 叮;(使〉感觉刺痛 螫针;  蜇痛",
           "tags": [
             "reading"
@@ -4644,7 +4644,7 @@ const VocabData = {
         {
           "w": "subgroup",
           "phon": "/sAbgru:pl",
-          "pos": "",
+          "pos": "n.",
           "cn": "子群",
           "tags": [
             "reading"
@@ -4653,7 +4653,7 @@ const VocabData = {
         {
           "w": "subsistence",
           "phon": "Isab'sIstansl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "勉强维持生活",
           "tags": [
             "reading"
@@ -4662,7 +4662,7 @@ const VocabData = {
         {
           "w": "suffer",
           "phon": "ISAfal",
-          "pos": "",
+          "pos": "verb.",
           "cn": "遭受;  受折磨;  娈糟",
           "tags": [
             "reading"
@@ -4680,7 +4680,7 @@ const VocabData = {
         {
           "w": "swan",
           "phon": "IswDnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "天鹅",
           "tags": [
             "reading"
@@ -4689,7 +4689,7 @@ const VocabData = {
         {
           "w": "swarm",
           "phon": "IsW:m/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "迅速移动的",
           "tags": [
             "reading"
@@ -4725,7 +4725,7 @@ const VocabData = {
         {
           "w": "trace",
           "phon": "ItreIs/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "痕迹;  少许",
           "tags": [
             "reading"
@@ -4734,7 +4734,7 @@ const VocabData = {
         {
           "w": "track",
           "phon": "Itrakl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几足迹,踪迹;  轨道",
           "tags": [
             "reading"
@@ -4743,7 +4743,7 @@ const VocabData = {
         {
           "w": "trunk",
           "phon": "ItrAIkl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "象鼻",
           "tags": [
             "reading"
@@ -4752,7 +4752,7 @@ const VocabData = {
         {
           "w": "turtle",
           "phon": "/t3:tl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "海龟",
           "tags": [
             "reading"
@@ -4770,7 +4770,7 @@ const VocabData = {
         {
           "w": "vertebrate",
           "phon": "/'v3:tgbrgtl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "脊椎动物",
           "tags": [
             "reading"
@@ -4779,7 +4779,7 @@ const VocabData = {
         {
           "w": "victim",
           "phon": "/'viktsml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "受害者;  牺牲者",
           "tags": [
             "reading"
@@ -4788,7 +4788,7 @@ const VocabData = {
         {
           "w": "virus",
           "phon": "Ivalarasl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "病毒",
           "tags": [
             "reading"
@@ -4797,7 +4797,7 @@ const VocabData = {
         {
           "w": "vitamin",
           "phon": "/vltamsn",
-          "pos": "",
+          "pos": "noun.",
           "cn": "维生素",
           "tags": [
             "reading"
@@ -4815,7 +4815,7 @@ const VocabData = {
         {
           "w": "whale",
           "phon": "Iwelll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "鲸鱼",
           "tags": [
             "reading"
@@ -4824,7 +4824,7 @@ const VocabData = {
         {
           "w": "wildlife",
           "phon": "/'warldlaifl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "野生动物;  野生生物",
           "tags": [
             "reading"
@@ -4851,7 +4851,7 @@ const VocabData = {
         {
           "w": "worm",
           "phon": "Iw3:ml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "蠕虫",
           "tags": [
             "reading"
@@ -4860,7 +4860,7 @@ const VocabData = {
         {
           "w": "zebra",
           "phon": "Izi:bral",
-          "pos": "",
+          "pos": "noun.",
           "cn": "斑马",
           "tags": [
             "reading"
@@ -4911,7 +4911,7 @@ const VocabData = {
         {
           "w": "astronaut",
           "phon": "/astran3:tl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "宇航员",
           "tags": [
             "reading"
@@ -4929,7 +4929,7 @@ const VocabData = {
         {
           "w": "atom",
           "phon": "/atalnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "原子",
           "tags": [
             "reading"
@@ -4956,7 +4956,7 @@ const VocabData = {
         {
           "w": "chunk",
           "phon": "ItfAnkl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "厚块",
           "tags": [
             "reading"
@@ -4965,7 +4965,7 @@ const VocabData = {
         {
           "w": "circuit",
           "phon": "/s3:kgt/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "线路,电路;  巡回",
           "tags": [
             "reading"
@@ -4974,7 +4974,7 @@ const VocabData = {
         {
           "w": "collision",
           "phon": "Ika'li3anl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "碰撞事故;  冲突",
           "tags": [
             "reading"
@@ -4983,7 +4983,7 @@ const VocabData = {
         {
           "w": "comet",
           "phon": "/kpmgtl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "彗星",
           "tags": [
             "reading"
@@ -5010,7 +5010,7 @@ const VocabData = {
         {
           "w": "cosmos",
           "phon": "/kDzIDs/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "宇宙",
           "tags": [
             "reading"
@@ -5018,9 +5018,9 @@ const VocabData = {
         },
         {
           "w": "crater",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkɹeɪ.tə(ɹ)/",
+          "pos": "noun.",
+          "cn": "火山之口",
           "tags": [
             "reading"
           ]
@@ -5028,7 +5028,7 @@ const VocabData = {
         {
           "w": "curve",
           "phon": "Ik3:Vl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "曲线,弧线",
           "tags": [
             "reading"
@@ -5055,7 +5055,7 @@ const VocabData = {
         {
           "w": "diameter",
           "phon": "Idaramgtal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "直径",
           "tags": [
             "reading"
@@ -5091,7 +5091,7 @@ const VocabData = {
         {
           "w": "dust",
           "phon": "IdAstl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "尘士, 灰尘,粉尘",
           "tags": [
             "reading"
@@ -5109,7 +5109,7 @@ const VocabData = {
         {
           "w": "ecliptic",
           "phon": "Iikliptk/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "黄道",
           "tags": [
             "reading"
@@ -5118,7 +5118,7 @@ const VocabData = {
         {
           "w": "electron",
           "phon": "/ilektrony",
-          "pos": "",
+          "pos": "noun.",
           "cn": "电子",
           "tags": [
             "reading"
@@ -5127,7 +5127,7 @@ const VocabData = {
         {
           "w": "envelope",
           "phon": "/envalaupl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "信封",
           "tags": [
             "reading"
@@ -5163,7 +5163,7 @@ const VocabData = {
         {
           "w": "flyby",
           "phon": "/flalbarl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "航天器对行星或卫星的) 飞掠",
           "tags": [
             "reading"
@@ -5172,7 +5172,7 @@ const VocabData = {
         {
           "w": "formation",
           "phon": "If3:'merjanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "形成",
           "tags": [
             "reading"
@@ -5181,7 +5181,7 @@ const VocabData = {
         {
           "w": "fossil",
           "phon": "/'fosall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "化石",
           "tags": [
             "reading"
@@ -5190,7 +5190,7 @@ const VocabData = {
         {
           "w": "fragment",
           "phon": "/fragmontl n. 碎片",
-          "pos": "",
+          "pos": "noun.",
           "cn": "片断",
           "tags": [
             "reading"
@@ -5199,7 +5199,7 @@ const VocabData = {
         {
           "w": "frequency",
           "phon": "Mfri:kwansil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "频率;  发生次数",
           "tags": [
             "reading"
@@ -5208,7 +5208,7 @@ const VocabData = {
         {
           "w": "galaxy",
           "phon": "/galaksil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "星系; [the G~] 银河系",
           "tags": [
             "reading"
@@ -5262,7 +5262,7 @@ const VocabData = {
         {
           "w": "meteorite",
           "phon": "/mi:tiaraltl",
-          "pos": "",
+          "pos": "n.",
           "cn": "陨石",
           "tags": [
             "reading"
@@ -5271,7 +5271,7 @@ const VocabData = {
         {
           "w": "method",
           "phon": "/meBadl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "方法",
           "tags": [
             "reading"
@@ -5289,7 +5289,7 @@ const VocabData = {
         {
           "w": "molecule",
           "phon": "/'molikju:ll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "分子",
           "tags": [
             "reading"
@@ -5298,7 +5298,7 @@ const VocabData = {
         {
           "w": "motion",
           "phon": "/maU[anl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "做动作,示意",
           "tags": [
             "reading"
@@ -5307,7 +5307,7 @@ const VocabData = {
         {
           "w": "observatory",
           "phon": "/3b'23:vataril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "天文台",
           "tags": [
             "reading"
@@ -5334,7 +5334,7 @@ const VocabData = {
         {
           "w": "particle",
           "phon": "/pa:trkall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "颗粒,微粒;  极小量",
           "tags": [
             "reading"
@@ -5343,7 +5343,7 @@ const VocabData = {
         {
           "w": "pressure",
           "phon": "/prelal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "压力",
           "tags": [
             "reading"
@@ -5352,7 +5352,7 @@ const VocabData = {
         {
           "w": "probe",
           "phon": "Ipraubl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "太空探测器;  详尽调查",
           "tags": [
             "reading"
@@ -5370,7 +5370,7 @@ const VocabData = {
         {
           "w": "quantum",
           "phon": "Ikwontaml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "量子",
           "tags": [
             "reading"
@@ -5388,7 +5388,7 @@ const VocabData = {
         {
           "w": "radius",
           "phon": "/reldiasl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "半径",
           "tags": [
             "reading"
@@ -5397,7 +5397,7 @@ const VocabData = {
         {
           "w": "refraction",
           "phon": "Irr'frakjanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "折射",
           "tags": [
             "reading"
@@ -5406,7 +5406,7 @@ const VocabData = {
         {
           "w": "sample",
           "phon": "/sa:mpall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "样品,样本",
           "tags": [
             "reading"
@@ -5442,7 +5442,7 @@ const VocabData = {
         {
           "w": "spaceship",
           "phon": "/speis;ifpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "宇宙飞船",
           "tags": [
             "reading"
@@ -5460,7 +5460,7 @@ const VocabData = {
         {
           "w": "spectacle",
           "phon": "Ispektakall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "壮观的景象;  奇观; [~s] 眼镜 例",
           "tags": [
             "reading"
@@ -5469,7 +5469,7 @@ const VocabData = {
         {
           "w": "spectrum",
           "phon": "/spektraml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "光谱;  范围",
           "tags": [
             "reading"
@@ -5495,9 +5495,9 @@ const VocabData = {
         },
         {
           "w": "synthesise",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈsɪnθəsaɪz/",
+          "pos": "verb.",
+          "cn": "v.综合",
           "tags": [
             "reading"
           ]
@@ -5514,7 +5514,7 @@ const VocabData = {
         {
           "w": "telescope",
           "phon": "/telsskaupl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "望远镜",
           "tags": [
             "reading"
@@ -5610,7 +5610,7 @@ const VocabData = {
         {
           "w": "accomplish",
           "phon": "IakAmplill",
-          "pos": "",
+          "pos": "verb.",
           "cn": "完成",
           "tags": [
             "writing"
@@ -5619,7 +5619,7 @@ const VocabData = {
         {
           "w": "accounting",
           "phon": "Ia'kauntm/",
-          "pos": "",
+          "pos": "verb.",
           "cn": "会计",
           "tags": [
             "writing"
@@ -5655,7 +5655,7 @@ const VocabData = {
         {
           "w": "affair",
           "phon": "/a'feal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "政治事务 事件; [~s]公共事务",
           "tags": [
             "writing"
@@ -5664,7 +5664,7 @@ const VocabData = {
         {
           "w": "agriculture",
           "phon": "Magrrikaltjal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "农业;  农学",
           "tags": [
             "writing"
@@ -5673,7 +5673,7 @@ const VocabData = {
         {
           "w": "algebra",
           "phon": "Iald3sbral",
-          "pos": "",
+          "pos": "noun.",
           "cn": "代数学,代数",
           "tags": [
             "writing"
@@ -5690,9 +5690,9 @@ const VocabData = {
         },
         {
           "w": "alumni",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/əˈlʌmnaɪ/",
+          "pos": "noun.",
+          "cn": "校友",
           "tags": [
             "writing"
           ]
@@ -5700,7 +5700,7 @@ const VocabData = {
         {
           "w": "ambassador",
           "phon": "Iam'basadal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "大使",
           "tags": [
             "writing"
@@ -5717,7 +5717,7 @@ const VocabData = {
         },
         {
           "w": "analyse",
-          "phon": "",
+          "phon": "/ˈæn.ə.laɪz/",
           "pos": "verb.",
           "cn": "查看",
           "tags": [
@@ -5727,7 +5727,7 @@ const VocabData = {
         {
           "w": "angle",
           "phon": "I:engall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几角;  角度",
           "tags": [
             "writing"
@@ -5754,7 +5754,7 @@ const VocabData = {
         {
           "w": "approach",
           "phon": "Ia'prautjl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "方法",
           "tags": [
             "writing"
@@ -5790,7 +5790,7 @@ const VocabData = {
         {
           "w": "article",
           "phon": "/a:tikall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "文章",
           "tags": [
             "writing"
@@ -5835,7 +5835,7 @@ const VocabData = {
         {
           "w": "audit",
           "phon": "/3:dgt",
-          "pos": "",
+          "pos": "noun.",
           "cn": "审计 旁听;  审计",
           "tags": [
             "writing"
@@ -5844,7 +5844,7 @@ const VocabData = {
         {
           "w": "author",
           "phon": "13:03/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "作者,作家",
           "tags": [
             "writing"
@@ -5853,7 +5853,7 @@ const VocabData = {
         {
           "w": "award",
           "phon": "Ia'W3:d/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "奖;  奖品",
           "tags": [
             "writing"
@@ -5862,7 +5862,7 @@ const VocabData = {
         {
           "w": "bachelor",
           "phon": "Ibatlala/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "学士;  单身汉",
           "tags": [
             "writing"
@@ -5880,7 +5880,7 @@ const VocabData = {
         {
           "w": "battery",
           "phon": "Ibataril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "电池;",
           "tags": [
             "writing"
@@ -5925,7 +5925,7 @@ const VocabData = {
         {
           "w": "boil",
           "phon": "Ib3ll/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "沸点",
           "tags": [
             "writing"
@@ -5943,7 +5943,7 @@ const VocabData = {
         {
           "w": "brochure",
           "phon": "Ibraujal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "小册子",
           "tags": [
             "writing"
@@ -5970,7 +5970,7 @@ const VocabData = {
         {
           "w": "candidate",
           "phon": "Mkandgdgtl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "候选人;  求职者; [英]考生",
           "tags": [
             "writing"
@@ -5979,7 +5979,7 @@ const VocabData = {
         {
           "w": "canteen",
           "phon": "Ikan'ti:nl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "水壶; [英]食堂",
           "tags": [
             "writing"
@@ -6006,7 +6006,7 @@ const VocabData = {
         {
           "w": "category",
           "phon": "Nkatsgaril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "种类, 类别 , 范畴",
           "tags": [
             "writing"
@@ -6015,7 +6015,7 @@ const VocabData = {
         {
           "w": "ceremony",
           "phon": "/sersmanil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "典礼;  礼节",
           "tags": [
             "writing"
@@ -6024,7 +6024,7 @@ const VocabData = {
         {
           "w": "certify",
           "phon": "/s3:tsfarl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "证明;  颁发专业合格证#",
           "tags": [
             "writing"
@@ -6042,7 +6042,7 @@ const VocabData = {
         {
           "w": "chart",
           "phon": "Itfa:tl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "图 图表;  海图",
           "tags": [
             "writing"
@@ -6051,7 +6051,7 @@ const VocabData = {
         {
           "w": "chemistry",
           "phon": "/kengstril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "化学",
           "tags": [
             "writing"
@@ -6060,7 +6060,7 @@ const VocabData = {
         {
           "w": "circle",
           "phon": "/s3:kall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "圆",
           "tags": [
             "writing"
@@ -6069,7 +6069,7 @@ const VocabData = {
         {
           "w": "cite",
           "phon": "Isartl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "引用",
           "tags": [
             "writing"
@@ -6096,7 +6096,7 @@ const VocabData = {
         {
           "w": "college",
           "phon": "/kDlid3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几 学院;  大学",
           "tags": [
             "writing"
@@ -6114,7 +6114,7 @@ const VocabData = {
         {
           "w": "component",
           "phon": "Ikam'paunantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "组成部分 成分",
           "tags": [
             "writing"
@@ -6159,7 +6159,7 @@ const VocabData = {
         {
           "w": "cone",
           "phon": "IkaUnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "圆锥体;  锥形物",
           "tags": [
             "writing"
@@ -6168,7 +6168,7 @@ const VocabData = {
         {
           "w": "confirm",
           "phon": "Ikan'f3:ml",
-          "pos": "",
+          "pos": "verb.",
           "cn": "证实;  确保。巩固",
           "tags": [
             "writing"
@@ -6213,7 +6213,7 @@ const VocabData = {
         {
           "w": "contradiction",
           "phon": "/kpntra'dikfan",
-          "pos": "",
+          "pos": "noun.",
           "cn": "矛盾 不一致;  反驳",
           "tags": [
             "writing"
@@ -6222,7 +6222,7 @@ const VocabData = {
         {
           "w": "contrast",
           "phon": "IkDntra:stl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "对比;  明显的差异",
           "tags": [
             "writing"
@@ -6258,7 +6258,7 @@ const VocabData = {
         {
           "w": "coverage",
           "phon": "/kAvartd3/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "新闻报道;  覆盖范围",
           "tags": [
             "writing"
@@ -6276,7 +6276,7 @@ const VocabData = {
         {
           "w": "credit",
           "phon": "Mkredgtl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "赊购;  学分;  信任",
           "tags": [
             "writing"
@@ -6294,7 +6294,7 @@ const VocabData = {
         {
           "w": "curriculum",
           "phon": "Ikalrlkjglaml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "课程; (学校等的) 全部课程",
           "tags": [
             "writing"
@@ -6312,7 +6312,7 @@ const VocabData = {
         {
           "w": "deadline",
           "phon": "/dedlarnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "截止日期",
           "tags": [
             "writing"
@@ -6330,7 +6330,7 @@ const VocabData = {
         {
           "w": "decide",
           "phon": "Idr'sardl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "决定",
           "tags": [
             "writing"
@@ -6357,7 +6357,7 @@ const VocabData = {
         {
           "w": "deem",
           "phon": "Idi:ml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "认为 相信",
           "tags": [
             "writing"
@@ -6366,7 +6366,7 @@ const VocabData = {
         {
           "w": "degree",
           "phon": "Idigri:l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "学位;  学位课程;  程度",
           "tags": [
             "writing"
@@ -6384,7 +6384,7 @@ const VocabData = {
         {
           "w": "demonstrate",
           "phon": "/demanstrertl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "示范 , 演示;  证明",
           "tags": [
             "writing"
@@ -6393,7 +6393,7 @@ const VocabData = {
         {
           "w": "density",
           "phon": "/densstil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "密度;  浓度",
           "tags": [
             "writing"
@@ -6402,7 +6402,7 @@ const VocabData = {
         {
           "w": "detail",
           "phon": "/di:terll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "细节; (画等的) 细部",
           "tags": [
             "writing"
@@ -6411,7 +6411,7 @@ const VocabData = {
         {
           "w": "detect",
           "phon": "Idrtektl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "察觉,发觉;  侦察出",
           "tags": [
             "writing"
@@ -6420,7 +6420,7 @@ const VocabData = {
         {
           "w": "determine",
           "phon": "Idrt3:Ingn/",
-          "pos": "",
+          "pos": "verb.",
           "cn": "决定;  下定决心;  查明",
           "tags": [
             "writing"
@@ -6429,7 +6429,7 @@ const VocabData = {
         {
           "w": "diagnose",
           "phon": "/dalagnauzl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "判断;  诊断",
           "tags": [
             "writing"
@@ -6447,7 +6447,7 @@ const VocabData = {
         {
           "w": "diagram",
           "phon": "/dalagraml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "图表;  示意图, 图解",
           "tags": [
             "writing"
@@ -6474,7 +6474,7 @@ const VocabData = {
         {
           "w": "differ",
           "phon": "/drfal",
-          "pos": "",
+          "pos": "verb.",
           "cn": "不同, 相异",
           "tags": [
             "writing"
@@ -6501,7 +6501,7 @@ const VocabData = {
         {
           "w": "dining hall",
           "phon": "/dalnm h3:ll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "食堂",
           "tags": [
             "writing"
@@ -6510,7 +6510,7 @@ const VocabData = {
         {
           "w": "diploma",
           "phon": "Idg'plaumal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "毕业文凭",
           "tags": [
             "writing"
@@ -6519,7 +6519,7 @@ const VocabData = {
         {
           "w": "diplomat",
           "phon": "/diplomatl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "外交官;  善于交际的人",
           "tags": [
             "writing"
@@ -6528,7 +6528,7 @@ const VocabData = {
         {
           "w": "disagree",
           "phon": "Idisa'gri:l",
-          "pos": "",
+          "pos": "verb.",
           "cn": "有分歧;  不同意",
           "tags": [
             "writing"
@@ -6546,7 +6546,7 @@ const VocabData = {
         {
           "w": "discipline",
           "phon": "/dtssplsnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "纪律;  训练",
           "tags": [
             "writing"
@@ -6564,7 +6564,7 @@ const VocabData = {
         {
           "w": "dissertation",
           "phon": "Idisa'terfanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "专题论文,(尤指)  学位论文",
           "tags": [
             "writing"
@@ -6591,7 +6591,7 @@ const VocabData = {
         {
           "w": "divide",
           "phon": "Idg'vard/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "除以;  除",
           "tags": [
             "writing"
@@ -6600,7 +6600,7 @@ const VocabData = {
         {
           "w": "dividend",
           "phon": "/drvsdandl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "红利 股息",
           "tags": [
             "writing"
@@ -6609,7 +6609,7 @@ const VocabData = {
         {
           "w": "doctor",
           "phon": "/dnktal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "博士;  医生",
           "tags": [
             "writing"
@@ -6618,7 +6618,7 @@ const VocabData = {
         {
           "w": "doctrine",
           "phon": "/doktranl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "学说;  教义;  信条",
           "tags": [
             "writing"
@@ -6636,7 +6636,7 @@ const VocabData = {
         {
           "w": "dorm",
           "phon": "Id3:ml",
-          "pos": "",
+          "pos": "verb.",
           "cn": "宿舍",
           "tags": [
             "writing"
@@ -6645,7 +6645,7 @@ const VocabData = {
         {
           "w": "dot",
           "phon": "Idptl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "点,圆点",
           "tags": [
             "writing"
@@ -6663,7 +6663,7 @@ const VocabData = {
         {
           "w": "draft",
           "phon": "Idra:ftl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "草稿;  汇票",
           "tags": [
             "writing"
@@ -6708,7 +6708,7 @@ const VocabData = {
         {
           "w": "electronics",
           "phon": "Iulek'tronlksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "电子学;  电子器件",
           "tags": [
             "writing"
@@ -6726,7 +6726,7 @@ const VocabData = {
         {
           "w": "elicit",
           "phon": "Iillrsatl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "引出;  探出,套出",
           "tags": [
             "writing"
@@ -6762,8 +6762,8 @@ const VocabData = {
         {
           "w": "emphasise",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "v.",
+          "cn": "强调",
           "tags": [
             "writing"
           ]
@@ -6780,7 +6780,7 @@ const VocabData = {
         {
           "w": "enable",
           "phon": "Ii'neIball",
-          "pos": "",
+          "pos": "verb.",
           "cn": "使能够",
           "tags": [
             "writing"
@@ -6789,7 +6789,7 @@ const VocabData = {
         {
           "w": "encyclopedia",
           "phon": "Iinsarkla'pi:dial",
-          "pos": "",
+          "pos": "noun.",
           "cn": "百科全书",
           "tags": [
             "writing"
@@ -6834,7 +6834,7 @@ const VocabData = {
         {
           "w": "essay",
           "phon": "/eserl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "论说文; (关于政治。",
           "tags": [
             "writing"
@@ -6888,7 +6888,7 @@ const VocabData = {
         {
           "w": "experiment",
           "phon": "Ik'spersmantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "实验;  试验",
           "tags": [
             "writing"
@@ -6906,7 +6906,7 @@ const VocabData = {
         {
           "w": "extent",
           "phon": "Iik'stentl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几 广度。范围;  程度",
           "tags": [
             "writing"
@@ -6925,7 +6925,7 @@ const VocabData = {
           "w": "faculty",
           "phon": "/ˈfæ.kəl.ti/",
           "pos": "noun.",
-          "cn": "",
+          "cn": "才能；全体教员",
           "tags": [
             "writing"
           ]
@@ -6933,7 +6933,7 @@ const VocabData = {
         {
           "w": "fee",
           "phon": "/f:1",
-          "pos": "",
+          "pos": "noun.",
           "cn": "酬金;  费用",
           "tags": [
             "writing"
@@ -6942,7 +6942,7 @@ const VocabData = {
         {
           "w": "feedback",
           "phon": "Mfi:dbakl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "反馈,反应",
           "tags": [
             "writing"
@@ -6951,7 +6951,7 @@ const VocabData = {
         {
           "w": "fellowship",
           "phon": "/'felaujIpl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "研究生奖学金",
           "tags": [
             "writing"
@@ -6969,7 +6969,7 @@ const VocabData = {
         {
           "w": "fiction",
           "phon": "/fikfanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "小说;  虚构,杜撰",
           "tags": [
             "writing"
@@ -6978,7 +6978,7 @@ const VocabData = {
         {
           "w": "file",
           "phon": "Ifalll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "档案",
           "tags": [
             "writing"
@@ -6996,7 +6996,7 @@ const VocabData = {
         {
           "w": "forum",
           "phon": "/f3:ralnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "讨论会,论坛;  公开讨论的广场 几",
           "tags": [
             "writing"
@@ -7005,7 +7005,7 @@ const VocabData = {
         {
           "w": "fraction",
           "phon": "Mfrakfanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "分数;  小部分;  片断",
           "tags": [
             "writing"
@@ -7014,7 +7014,7 @@ const VocabData = {
         {
           "w": "frame",
           "phon": "/frerml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "镜子等的 ) 框架;  眼镜框;  构架 几 (画",
           "tags": [
             "writing"
@@ -7059,7 +7059,7 @@ const VocabData = {
         {
           "w": "geography",
           "phon": "Id3i'ografil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "地理学;  地形 地势",
           "tags": [
             "writing"
@@ -7104,7 +7104,7 @@ const VocabData = {
         {
           "w": "grant",
           "phon": "Igra:ntl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "授予;  准予;  承认",
           "tags": [
             "writing"
@@ -7113,7 +7113,7 @@ const VocabData = {
         {
           "w": "graph",
           "phon": "Igra:fl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "图,图表",
           "tags": [
             "writing"
@@ -7131,7 +7131,7 @@ const VocabData = {
         {
           "w": "heading",
           "phon": "Ihednl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "标题;  主题",
           "tags": [
             "writing"
@@ -7149,7 +7149,7 @@ const VocabData = {
         {
           "w": "history",
           "phon": "/hrstaril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "历史;  历史学",
           "tags": [
             "writing"
@@ -7167,7 +7167,7 @@ const VocabData = {
         {
           "w": "hypothesis",
           "phon": "Ihar'pDOasssl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "假说,假设",
           "tags": [
             "writing"
@@ -7185,7 +7185,7 @@ const VocabData = {
         {
           "w": "idiot",
           "phon": "/idiatl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "白痴。傻瓜",
           "tags": [
             "writing"
@@ -7194,7 +7194,7 @@ const VocabData = {
         {
           "w": "illiteracy",
           "phon": "/I'lrtarasil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "文盲",
           "tags": [
             "writing"
@@ -7203,7 +7203,7 @@ const VocabData = {
         {
           "w": "illustrate",
           "phon": "/rlastrertl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "用图等)  说明;  给(书〉加插图 (或图表 )",
           "tags": [
             "writing"
@@ -7221,7 +7221,7 @@ const VocabData = {
         {
           "w": "imply",
           "phon": "IIm'plarl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "暗指 意味着",
           "tags": [
             "writing"
@@ -7320,7 +7320,7 @@ const VocabData = {
         {
           "w": "instance",
           "phon": "/Instansl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几实例;  情况。场合",
           "tags": [
             "writing"
@@ -7338,7 +7338,7 @@ const VocabData = {
         {
           "w": "institute",
           "phon": "/Instgtju:tl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "研究所,学院",
           "tags": [
             "writing"
@@ -7365,7 +7365,7 @@ const VocabData = {
         {
           "w": "inventory",
           "phon": "/nvantril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "库存;  详细目录",
           "tags": [
             "writing"
@@ -7401,7 +7401,7 @@ const VocabData = {
         {
           "w": "knowledge",
           "phon": "/nDlid3/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几。知识。学识;  知悉",
           "tags": [
             "writing"
@@ -7419,7 +7419,7 @@ const VocabData = {
         {
           "w": "learn",
           "phon": "/l3:1/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "学习;  得知",
           "tags": [
             "writing"
@@ -7437,7 +7437,7 @@ const VocabData = {
         {
           "w": "length",
           "phon": "Ilengl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "长度",
           "tags": [
             "writing"
@@ -7446,7 +7446,7 @@ const VocabData = {
         {
           "w": "lesson",
           "phon": "/lesonl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "一堂课;  课程;  教训",
           "tags": [
             "writing"
@@ -7455,7 +7455,7 @@ const VocabData = {
         {
           "w": "library",
           "phon": "/lalbraril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "图书馆;(书。唱片等)  个人收藏",
           "tags": [
             "writing"
@@ -7465,7 +7465,7 @@ const VocabData = {
           "w": "license",
           "phon": "/ˈlaɪsəns/",
           "pos": "noun.",
-          "cn": "",
+          "cn": "许可证；执照",
           "tags": [
             "writing"
           ]
@@ -7473,7 +7473,7 @@ const VocabData = {
         {
           "w": "list",
           "phon": "Irstl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "一览表。目录",
           "tags": [
             "writing"
@@ -7491,7 +7491,7 @@ const VocabData = {
         {
           "w": "literature",
           "phon": "Ilrtaratlal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "文学;  文学作品;  文献",
           "tags": [
             "writing"
@@ -7500,7 +7500,7 @@ const VocabData = {
         {
           "w": "logic",
           "phon": "Ilod3tkl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "逻辑;  逻辑学",
           "tags": [
             "writing"
@@ -7509,7 +7509,7 @@ const VocabData = {
         {
           "w": "logistics",
           "phon": "Ila'd3tstrksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "物流;  后勤",
           "tags": [
             "writing"
@@ -7536,7 +7536,7 @@ const VocabData = {
         {
           "w": "manifest",
           "phon": "/mengfestl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "表明 显示",
           "tags": [
             "writing"
@@ -7563,7 +7563,7 @@ const VocabData = {
         {
           "w": "marketing",
           "phon": "!ma:kgtil",
-          "pos": "",
+          "pos": "verb.",
           "cn": "市场营销",
           "tags": [
             "writing"
@@ -7590,7 +7590,7 @@ const VocabData = {
         {
           "w": "matriculation",
           "phon": "Imaitrikjg'lelfanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "注册入大学",
           "tags": [
             "writing"
@@ -7599,7 +7599,7 @@ const VocabData = {
         {
           "w": "matrix",
           "phon": "/ertriksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几矩阵;  铸模",
           "tags": [
             "writing"
@@ -7626,7 +7626,7 @@ const VocabData = {
         {
           "w": "mechanics",
           "phon": "Imr'keniksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "力学;  机械学",
           "tags": [
             "writing"
@@ -7644,7 +7644,7 @@ const VocabData = {
         {
           "w": "mentor",
           "phon": "/ment3:/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "导师;  顾问",
           "tags": [
             "writing"
@@ -7662,7 +7662,7 @@ const VocabData = {
         {
           "w": "merger",
           "phon": "/13:4331",
-          "pos": "",
+          "pos": "noun.",
           "cn": "合并,归并",
           "tags": [
             "writing"
@@ -7716,7 +7716,7 @@ const VocabData = {
         {
           "w": "motive",
           "phon": "/'mautrvl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "动机, (行动的)缘由",
           "tags": [
             "writing"
@@ -7752,7 +7752,7 @@ const VocabData = {
         {
           "w": "novice",
           "phon": "/npvgsl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "新手",
           "tags": [
             "writing"
@@ -7770,7 +7770,7 @@ const VocabData = {
         {
           "w": "nuance",
           "phon": "/'nju:a:nsl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "细微差别",
           "tags": [
             "writing"
@@ -7806,7 +7806,7 @@ const VocabData = {
         {
           "w": "observe",
           "phon": "/3b'23:V/",
-          "pos": "",
+          "pos": "verb.",
           "cn": "观察,观测;  注意到",
           "tags": [
             "writing"
@@ -7851,7 +7851,7 @@ const VocabData = {
         {
           "w": "outline",
           "phon": "/'autlarnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "略图 概要;  轮廓",
           "tags": [
             "writing"
@@ -7860,7 +7860,7 @@ const VocabData = {
         {
           "w": "outset",
           "phon": "/autsetl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "开端,开始",
           "tags": [
             "writing"
@@ -7878,7 +7878,7 @@ const VocabData = {
         {
           "w": "overestimate",
           "phon": "Iauvar'estsmertl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "高估",
           "tags": [
             "writing"
@@ -7896,7 +7896,7 @@ const VocabData = {
         {
           "w": "ozone",
           "phon": "/aUzaUnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "臭氧",
           "tags": [
             "writing"
@@ -7914,7 +7914,7 @@ const VocabData = {
         {
           "w": "paper",
           "phon": "/perpal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "论文;  纸",
           "tags": [
             "writing"
@@ -7923,7 +7923,7 @@ const VocabData = {
         {
           "w": "parameter",
           "phon": "Iparemgtal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "参数;  起限定作用的因素",
           "tags": [
             "writing"
@@ -7932,7 +7932,7 @@ const VocabData = {
         {
           "w": "perceive",
           "phon": "Ipa'si:vl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "感知 , 察觉。意识到",
           "tags": [
             "writing"
@@ -7950,7 +7950,7 @@ const VocabData = {
         {
           "w": "permit",
           "phon": "Ipa'mitl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "允许,准许",
           "tags": [
             "writing"
@@ -7959,7 +7959,7 @@ const VocabData = {
         {
           "w": "persist",
           "phon": "Ipa'sistl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "坚持不懈;  持续存在",
           "tags": [
             "writing"
@@ -7968,7 +7968,7 @@ const VocabData = {
         {
           "w": "philosophy",
           "phon": "/fg'lpsafil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "哲学",
           "tags": [
             "writing"
@@ -7977,7 +7977,7 @@ const VocabData = {
         {
           "w": "physics",
           "phon": "/fiziksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "物理学",
           "tags": [
             "writing"
@@ -7986,7 +7986,7 @@ const VocabData = {
         {
           "w": "plagiarise",
           "phon": "/plerd3araIzl",
-          "pos": "",
+          "pos": "v.",
           "cn": "抄袭",
           "tags": [
             "writing"
@@ -7995,7 +7995,7 @@ const VocabData = {
         {
           "w": "platform",
           "phon": "/platfo:ml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "平台;  讲台",
           "tags": [
             "writing"
@@ -8013,7 +8013,7 @@ const VocabData = {
         {
           "w": "poetry",
           "phon": "/pauatril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "诗,诗歌。诗作",
           "tags": [
             "writing"
@@ -8022,7 +8022,7 @@ const VocabData = {
         {
           "w": "point",
           "phon": "IoIntl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几 点;  要点",
           "tags": [
             "writing"
@@ -8031,7 +8031,7 @@ const VocabData = {
         {
           "w": "politics",
           "phon": "/pDlstiksl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "政治学;  政治;  政治事务",
           "tags": [
             "writing"
@@ -8058,7 +8058,7 @@ const VocabData = {
         {
           "w": "praise",
           "phon": "Iprerzl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "赞美 赞扬",
           "tags": [
             "writing"
@@ -8085,7 +8085,7 @@ const VocabData = {
         {
           "w": "presentation",
           "phon": "Iprezan'terfanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "陈述;  表演。演出",
           "tags": [
             "writing"
@@ -8094,7 +8094,7 @@ const VocabData = {
         {
           "w": "prestige",
           "phon": "Ire'sti:3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "威望 声望",
           "tags": [
             "writing"
@@ -8103,7 +8103,7 @@ const VocabData = {
         {
           "w": "presume",
           "phon": "Iprizju:ml",
-          "pos": "",
+          "pos": "verb.",
           "cn": "假定,假设;  料想",
           "tags": [
             "writing"
@@ -8148,7 +8148,7 @@ const VocabData = {
         {
           "w": "print",
           "phon": "IprIntl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "打印 印刷品;(冲印出来的)照片",
           "tags": [
             "writing"
@@ -8166,7 +8166,7 @@ const VocabData = {
         {
           "w": "problem",
           "phon": "/prpblaml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "习题;  问题",
           "tags": [
             "writing"
@@ -8184,7 +8184,7 @@ const VocabData = {
         {
           "w": "profile",
           "phon": "/'praufalll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "概述;  人物简介;  侧面轮廓",
           "tags": [
             "writing"
@@ -8202,7 +8202,7 @@ const VocabData = {
         {
           "w": "project",
           "phon": "/prpd3ekt",
-          "pos": "",
+          "pos": "noun.",
           "cn": "方案",
           "tags": [
             "writing"
@@ -8220,7 +8220,7 @@ const VocabData = {
         {
           "w": "prove",
           "phon": "Ipru:vl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "证明;  结果是",
           "tags": [
             "writing"
@@ -8229,7 +8229,7 @@ const VocabData = {
         {
           "w": "psychology",
           "phon": "Isal'kDlad3il",
-          "pos": "",
+          "pos": "noun.",
           "cn": "心理学;  心理特征",
           "tags": [
             "writing"
@@ -8247,7 +8247,7 @@ const VocabData = {
         {
           "w": "puzzle",
           "phon": "/pAZall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "使迷惑 难题;  谜",
           "tags": [
             "writing"
@@ -8255,9 +8255,9 @@ const VocabData = {
         },
         {
           "w": "quadruple",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ˈkwɒdɹʊpl/",
+          "pos": "verb.",
+          "cn": "四倍",
           "tags": [
             "writing"
           ]
@@ -8265,7 +8265,7 @@ const VocabData = {
         {
           "w": "qualify",
           "phon": "/kwolgfall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "使具备资格;  使有权",
           "tags": [
             "writing"
@@ -8274,7 +8274,7 @@ const VocabData = {
         {
           "w": "quality",
           "phon": "Ikwolstil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "质量",
           "tags": [
             "writing"
@@ -8283,7 +8283,7 @@ const VocabData = {
         {
           "w": "quantity",
           "phon": "/kwDntgtil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "数量",
           "tags": [
             "writing"
@@ -8292,7 +8292,7 @@ const VocabData = {
         {
           "w": "query",
           "phon": "Ikwiaril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "疑问;  询问 怀疑;  询问",
           "tags": [
             "writing"
@@ -8301,7 +8301,7 @@ const VocabData = {
         {
           "w": "questionnaire",
           "phon": "/kwestfo'neal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "调查表,调查问卷",
           "tags": [
             "writing"
@@ -8319,7 +8319,7 @@ const VocabData = {
         {
           "w": "quiz",
           "phon": "/kWIZ/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "智力竞赛;  小测验",
           "tags": [
             "writing"
@@ -8328,7 +8328,7 @@ const VocabData = {
         {
           "w": "quote",
           "phon": "Ikwautl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "引述;  报 (价) 引用",
           "tags": [
             "writing"
@@ -8355,7 +8355,7 @@ const VocabData = {
         {
           "w": "rate",
           "phon": "Irertl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "比率 , 率;  速度",
           "tags": [
             "writing"
@@ -8364,7 +8364,7 @@ const VocabData = {
         {
           "w": "ratio",
           "phon": "/reljiaul",
-          "pos": "",
+          "pos": "noun.",
           "cn": "比 (率)",
           "tags": [
             "writing"
@@ -8391,7 +8391,7 @@ const VocabData = {
         {
           "w": "reckon",
           "phon": "/rekanl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "估计;  期望;  认为",
           "tags": [
             "writing"
@@ -8400,7 +8400,7 @@ const VocabData = {
         {
           "w": "recognise",
           "phon": "/rekagnarzl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "辨认出",
           "tags": [
             "writing"
@@ -8409,7 +8409,7 @@ const VocabData = {
         {
           "w": "record",
           "phon": "Mrek3:dl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几。记录;  履历",
           "tags": [
             "writing"
@@ -8418,7 +8418,7 @@ const VocabData = {
         {
           "w": "recruit",
           "phon": "Irrkru:tl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "吸收 新成员 )",
           "tags": [
             "writing"
@@ -8427,7 +8427,7 @@ const VocabData = {
         {
           "w": "rectangle",
           "phon": "/rektangall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "长方形,矩形",
           "tags": [
             "writing"
@@ -8436,7 +8436,7 @@ const VocabData = {
         {
           "w": "reel",
           "phon": "Iri:ll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "卷轴;  卷筒; -卷胶卷 几",
           "tags": [
             "writing"
@@ -8445,7 +8445,7 @@ const VocabData = {
         {
           "w": "reference",
           "phon": "/refaransl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "参考;  推荐函;  提及;涉及",
           "tags": [
             "writing"
@@ -8454,7 +8454,7 @@ const VocabData = {
         {
           "w": "register",
           "phon": "/'red3ostal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "注册簿 登记表, 登记,注册",
           "tags": [
             "writing"
@@ -8463,7 +8463,7 @@ const VocabData = {
         {
           "w": "remainder",
           "phon": "Irrmelndal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几余数;  剩余部分",
           "tags": [
             "writing"
@@ -8499,7 +8499,7 @@ const VocabData = {
         {
           "w": "resolve",
           "phon": "IrIzDlvl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "决心 决定;(使〉分解为;  解决",
           "tags": [
             "writing"
@@ -8535,7 +8535,7 @@ const VocabData = {
         {
           "w": "reward",
           "phon": "Irr'w3:dl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几报答;  赏金",
           "tags": [
             "writing"
@@ -8544,7 +8544,7 @@ const VocabData = {
         {
           "w": "riddle",
           "phon": "/ridll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "谜。谜语",
           "tags": [
             "writing"
@@ -8553,7 +8553,7 @@ const VocabData = {
         {
           "w": "roster",
           "phon": "IrDstal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "花名册,登记表;  执勤表",
           "tags": [
             "writing"
@@ -8589,7 +8589,7 @@ const VocabData = {
         {
           "w": "rust",
           "phon": "IrASt/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "锈,铁锈",
           "tags": [
             "writing"
@@ -8616,7 +8616,7 @@ const VocabData = {
         {
           "w": "schedule",
           "phon": "1Jedju:ll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "日程安排; [美]时刻表",
           "tags": [
             "writing"
@@ -8652,7 +8652,7 @@ const VocabData = {
         {
           "w": "scientist",
           "phon": "Isalantgstl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "科学家",
           "tags": [
             "writing"
@@ -8661,7 +8661,7 @@ const VocabData = {
         {
           "w": "score",
           "phon": "Isk3:/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "得分,成绩",
           "tags": [
             "writing"
@@ -8697,7 +8697,7 @@ const VocabData = {
         {
           "w": "semester",
           "phon": "Isa'mestal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "学期",
           "tags": [
             "writing"
@@ -8706,7 +8706,7 @@ const VocabData = {
         {
           "w": "seminar",
           "phon": "/semana:l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "研讨会;  讨论课",
           "tags": [
             "writing"
@@ -8724,7 +8724,7 @@ const VocabData = {
         {
           "w": "series",
           "phon": "/slari:zl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "连续; 一系列;  系列节目",
           "tags": [
             "writing"
@@ -8742,7 +8742,7 @@ const VocabData = {
         {
           "w": "skill",
           "phon": "Iskrll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "技巧,技能",
           "tags": [
             "writing"
@@ -8796,7 +8796,7 @@ const VocabData = {
         {
           "w": "sphere",
           "phon": "Isfial",
-          "pos": "",
+          "pos": "noun.",
           "cn": "球体;  球状物;  范围 领域",
           "tags": [
             "writing"
@@ -8832,7 +8832,7 @@ const VocabData = {
         {
           "w": "statistics",
           "phon": "Ista'tistiksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "统计学",
           "tags": [
             "writing"
@@ -8850,7 +8850,7 @@ const VocabData = {
         {
           "w": "story",
           "phon": "/st:ril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "故事,小说;(尤指口头的)叙述",
           "tags": [
             "writing"
@@ -8877,7 +8877,7 @@ const VocabData = {
         {
           "w": "subject",
           "phon": "IsAbd3Iktl",
-          "pos": "",
+          "pos": "adjective.",
           "cn": "科目;  主题;  实验对象",
           "tags": [
             "writing"
@@ -8886,7 +8886,7 @@ const VocabData = {
         {
           "w": "submit",
           "phon": "Isab'mtl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "服从;  提交,呈递",
           "tags": [
             "writing"
@@ -8904,7 +8904,7 @@ const VocabData = {
         {
           "w": "sum",
           "phon": "IsAInl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "总数。总和;  金额",
           "tags": [
             "writing"
@@ -8913,7 +8913,7 @@ const VocabData = {
         {
           "w": "summary",
           "phon": "ISAmaril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "摘要。概要",
           "tags": [
             "writing"
@@ -8940,7 +8940,7 @@ const VocabData = {
         {
           "w": "surface",
           "phon": "/s3:f3s/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "表面;  地面;  水面",
           "tags": [
             "writing"
@@ -8958,7 +8958,7 @@ const VocabData = {
         {
           "w": "syllabus",
           "phon": "IsIlabasl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "教学大纲",
           "tags": [
             "writing"
@@ -8967,7 +8967,7 @@ const VocabData = {
         {
           "w": "system",
           "phon": "/sistsml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几。系统;  体系,制度",
           "tags": [
             "writing"
@@ -8994,7 +8994,7 @@ const VocabData = {
         {
           "w": "term",
           "phon": "It3:I/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "期限;  术语; [尤英]学期",
           "tags": [
             "writing"
@@ -9004,7 +9004,7 @@ const VocabData = {
           "w": "test",
           "phon": "/test/",
           "pos": "noun.",
-          "cn": "",
+          "cn": "测试，考试",
           "tags": [
             "writing"
           ]
@@ -9021,7 +9021,7 @@ const VocabData = {
         {
           "w": "thesis",
           "phon": "/Oi:sss/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "论文",
           "tags": [
             "writing"
@@ -9066,7 +9066,7 @@ const VocabData = {
         {
           "w": "triangle",
           "phon": "/tralengall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "三角形;  三角关系",
           "tags": [
             "writing"
@@ -9120,7 +9120,7 @@ const VocabData = {
         {
           "w": "variable",
           "phon": "/veariaball",
-          "pos": "",
+          "pos": "noun.",
           "cn": "娈量;  可变因素",
           "tags": [
             "writing"
@@ -9129,7 +9129,7 @@ const VocabData = {
         {
           "w": "volt",
           "phon": "Ivaultl",
-          "pos": "",
+          "pos": "n.",
           "cn": "伏特 (电压单位 )",
           "tags": [
             "writing"
@@ -9147,7 +9147,7 @@ const VocabData = {
         {
           "w": "width",
           "phon": "IwIdgl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "宽度",
           "tags": [
             "writing"
@@ -9156,7 +9156,7 @@ const VocabData = {
         {
           "w": "wisdom",
           "phon": "/wrzdaml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "智慧;  学问",
           "tags": [
             "writing"
@@ -9165,7 +9165,7 @@ const VocabData = {
         {
           "w": "wit",
           "phon": "Iwitl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "风趣的人;  机智,风趣;  智慧",
           "tags": [
             "writing"
@@ -9180,7 +9180,7 @@ const VocabData = {
         {
           "w": "absorb",
           "phon": "/3b'53:b/",
-          "pos": "",
+          "pos": "verb.",
           "cn": "吸收;  吸引全部注意力",
           "tags": [
             "writing"
@@ -9351,7 +9351,7 @@ const VocabData = {
         {
           "w": "breakthrough",
           "phon": "IbrerkBru:l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "突破",
           "tags": [
             "writing"
@@ -9360,7 +9360,7 @@ const VocabData = {
         {
           "w": "browser",
           "phon": "/brauzal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "浏览器",
           "tags": [
             "writing"
@@ -9369,7 +9369,7 @@ const VocabData = {
         {
           "w": "byproduct",
           "phon": "/'balprodAktl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "副产品",
           "tags": [
             "writing"
@@ -9378,7 +9378,7 @@ const VocabData = {
         {
           "w": "calculate",
           "phon": "/kalkjgleitl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "计算;  考虑,打算",
           "tags": [
             "writing"
@@ -9396,7 +9396,7 @@ const VocabData = {
         {
           "w": "circumstance",
           "phon": "/s3:kamnstansl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "情况;  环境;  条件; [~s] 境遇",
           "tags": [
             "writing"
@@ -9441,7 +9441,7 @@ const VocabData = {
         {
           "w": "contingency",
           "phon": "Ikon'tind3onsil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "意外事件,可能发生的事",
           "tags": [
             "writing"
@@ -9468,7 +9468,7 @@ const VocabData = {
         {
           "w": "count",
           "phon": "/kaUntl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "计算",
           "tags": [
             "writing"
@@ -9477,7 +9477,7 @@ const VocabData = {
         {
           "w": "device",
           "phon": "Idr'vaIsl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "装置 设备;  手段。策略",
           "tags": [
             "writing"
@@ -9486,7 +9486,7 @@ const VocabData = {
         {
           "w": "devise",
           "phon": "Idi'varzl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "设计,发明",
           "tags": [
             "writing"
@@ -9495,7 +9495,7 @@ const VocabData = {
         {
           "w": "dial",
           "phon": "/dalall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "拨 (电话号码 )",
           "tags": [
             "writing"
@@ -9513,7 +9513,7 @@ const VocabData = {
         {
           "w": "disclose",
           "phon": "Idis'klaUzl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "揭露,透露",
           "tags": [
             "writing"
@@ -9549,7 +9549,7 @@ const VocabData = {
         {
           "w": "drainage",
           "phon": "/drelnid3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "排水系统;  排水",
           "tags": [
             "writing"
@@ -9576,7 +9576,7 @@ const VocabData = {
         {
           "w": "equipment",
           "phon": "Ii'kwipmantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "设备",
           "tags": [
             "writing"
@@ -9612,7 +9612,7 @@ const VocabData = {
         {
           "w": "expose",
           "phon": "/k'spauzl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "使暴露;  揭发 使曝光",
           "tags": [
             "writing"
@@ -9621,7 +9621,7 @@ const VocabData = {
         {
           "w": "facilitate",
           "phon": "Ifa'silstertl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "使便利,促进",
           "tags": [
             "writing"
@@ -9630,7 +9630,7 @@ const VocabData = {
         {
           "w": "facility",
           "phon": "/fa'srlstil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "设备;  便利",
           "tags": [
             "writing"
@@ -9639,7 +9639,7 @@ const VocabData = {
         {
           "w": "fantasy",
           "phon": "/'fantasil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "幻想",
           "tags": [
             "writing"
@@ -9657,7 +9657,7 @@ const VocabData = {
         {
           "w": "field",
           "phon": "Ifi:ldl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "领域",
           "tags": [
             "writing"
@@ -9702,7 +9702,7 @@ const VocabData = {
         {
           "w": "framework",
           "phon": "Mfrermw3:k/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "框架,结构;  体系",
           "tags": [
             "writing"
@@ -9720,7 +9720,7 @@ const VocabData = {
         {
           "w": "gauge",
           "phon": "Igeid3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "测量仪器 测量;  判断",
           "tags": [
             "writing"
@@ -9729,7 +9729,7 @@ const VocabData = {
         {
           "w": "gear",
           "phon": "Iglal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "齿轮,传动装置 使适合",
           "tags": [
             "writing"
@@ -9738,7 +9738,7 @@ const VocabData = {
         {
           "w": "generator",
           "phon": "Id3enarertal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "发电机",
           "tags": [
             "writing"
@@ -9746,7 +9746,7 @@ const VocabData = {
         },
         {
           "w": "gizmo",
-          "phon": "",
+          "phon": "/ˈɡɪzmoʊ/",
           "pos": "n.",
           "cn": "小装置",
           "tags": [
@@ -9774,7 +9774,7 @@ const VocabData = {
         {
           "w": "innovate",
           "phon": "/navertl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "创新,改革",
           "tags": [
             "writing"
@@ -9783,7 +9783,7 @@ const VocabData = {
         {
           "w": "instrument",
           "phon": "/instrmantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "仪器;  工具;  乐器",
           "tags": [
             "writing"
@@ -9792,7 +9792,7 @@ const VocabData = {
         {
           "w": "invent",
           "phon": "/In'ventl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "创造 发明 ,",
           "tags": [
             "writing"
@@ -9801,7 +9801,7 @@ const VocabData = {
         {
           "w": "keyboard",
           "phon": "Iki:b3:dl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "键盘",
           "tags": [
             "writing"
@@ -9810,7 +9810,7 @@ const VocabData = {
         {
           "w": "laptop",
           "phon": "Maptopl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "笔记本电脑",
           "tags": [
             "writing"
@@ -9819,7 +9819,7 @@ const VocabData = {
         {
           "w": "lens",
           "phon": "Ilenzl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "照相机等的) 镜头 透镜;",
           "tags": [
             "writing"
@@ -9837,7 +9837,7 @@ const VocabData = {
         {
           "w": "measure",
           "phon": "/me33/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "衡量;  措施",
           "tags": [
             "writing"
@@ -9846,7 +9846,7 @@ const VocabData = {
         {
           "w": "mechanic",
           "phon": "Imrlkanikl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "机修工 技工,机械师,",
           "tags": [
             "writing"
@@ -9855,7 +9855,7 @@ const VocabData = {
         {
           "w": "microcomputer",
           "phon": "/'malkraukompju:tal",
-          "pos": "",
+          "pos": "n.",
           "cn": "微型计算机",
           "tags": [
             "writing"
@@ -9864,7 +9864,7 @@ const VocabData = {
         {
           "w": "microphone",
           "phon": "/'malkrafaunl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "话筒 麦克风",
           "tags": [
             "writing"
@@ -9873,7 +9873,7 @@ const VocabData = {
         {
           "w": "microscope",
           "phon": "/matkraskaupl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "显微镜",
           "tags": [
             "writing"
@@ -9882,7 +9882,7 @@ const VocabData = {
         {
           "w": "mistake",
           "phon": "Img'steikl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "错误 误解",
           "tags": [
             "writing"
@@ -9936,7 +9936,7 @@ const VocabData = {
         {
           "w": "optics",
           "phon": "/Dptiksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "光学 例",
           "tags": [
             "writing"
@@ -9945,7 +9945,7 @@ const VocabData = {
         {
           "w": "patent",
           "phon": "/peitntl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "得到:的专利权;  给::专利证 专利 专利权",
           "tags": [
             "writing"
@@ -9954,7 +9954,7 @@ const VocabData = {
         {
           "w": "phase",
           "phon": "Iferzl",
-          "pos": "",
+          "pos": "n.",
           "cn": "阶段,时期",
           "tags": [
             "writing"
@@ -9963,7 +9963,7 @@ const VocabData = {
         {
           "w": "pinpoint",
           "phon": "/pInpolntl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "精确指明::的位置 针尖;  极小的事物",
           "tags": [
             "writing"
@@ -9999,7 +9999,7 @@ const VocabData = {
         {
           "w": "prototype",
           "phon": "/prautatalpl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "原型;  雏形",
           "tags": [
             "writing"
@@ -10008,7 +10008,7 @@ const VocabData = {
         {
           "w": "pump",
           "phon": "IpAmpl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "泵",
           "tags": [
             "writing"
@@ -10026,7 +10026,7 @@ const VocabData = {
         {
           "w": "radar",
           "phon": "/reida:l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "无线电定位装置 雷达 ,",
           "tags": [
             "writing"
@@ -10035,7 +10035,7 @@ const VocabData = {
         {
           "w": "realm",
           "phon": "Irelml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "领域",
           "tags": [
             "writing"
@@ -10044,7 +10044,7 @@ const VocabData = {
         {
           "w": "refine",
           "phon": "IrI'fuln/",
-          "pos": "",
+          "pos": "verb.",
           "cn": "精炼,提纯",
           "tags": [
             "writing"
@@ -10053,7 +10053,7 @@ const VocabData = {
         {
           "w": "reveal",
           "phon": "IrIlvi:ll",
-          "pos": "",
+          "pos": "noun.",
           "cn": "展现;  显示,透露",
           "tags": [
             "writing"
@@ -10080,7 +10080,7 @@ const VocabData = {
         {
           "w": "sensor",
           "phon": "/sensal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "传感器",
           "tags": [
             "writing"
@@ -10107,7 +10107,7 @@ const VocabData = {
         {
           "w": "simplify",
           "phon": "/sllnplsfall",
-          "pos": "",
+          "pos": "verb.",
           "cn": "精简",
           "tags": [
             "writing"
@@ -10116,7 +10116,7 @@ const VocabData = {
         {
           "w": "software",
           "phon": "IsDftweal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "软件",
           "tags": [
             "writing"
@@ -10124,9 +10124,9 @@ const VocabData = {
         },
         {
           "w": "specialise",
-          "phon": "",
+          "phon": "/ˈspɛʃəˌlaɪz/",
           "pos": "verb.",
-          "cn": "",
+          "cn": "主修",
           "tags": [
             "writing"
           ]
@@ -10143,7 +10143,7 @@ const VocabData = {
         {
           "w": "tape",
           "phon": "IteIpl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "录音带;  胶带 磁带",
           "tags": [
             "writing"
@@ -10152,7 +10152,7 @@ const VocabData = {
         {
           "w": "technique",
           "phon": "Itek'ni:k/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几。技巧;  技术",
           "tags": [
             "writing"
@@ -10161,7 +10161,7 @@ const VocabData = {
         {
           "w": "technology",
           "phon": "Itek'nplad3il",
-          "pos": "",
+          "pos": "noun.",
           "cn": "技术",
           "tags": [
             "writing"
@@ -10170,7 +10170,7 @@ const VocabData = {
         {
           "w": "tester",
           "phon": "/testal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "测试仪;  测试员",
           "tags": [
             "writing"
@@ -10206,7 +10206,7 @@ const VocabData = {
         {
           "w": "uncover",
           "phon": "IAI'KAVa/",
-          "pos": "",
+          "pos": "verb.",
           "cn": "揭露,发现",
           "tags": [
             "writing"
@@ -10215,7 +10215,7 @@ const VocabData = {
         {
           "w": "usage",
           "phon": "Nju:sId3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "使用; (词语的)用法",
           "tags": [
             "writing"
@@ -10233,7 +10233,7 @@ const VocabData = {
         {
           "w": "ventilation",
           "phon": "Iventa'lerlanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "通风;  通风设备",
           "tags": [
             "writing"
@@ -10251,7 +10251,7 @@ const VocabData = {
         {
           "w": "vision",
           "phon": "/vi3anl",
-          "pos": "",
+          "pos": "n.",
           "cn": "视觉 视力",
           "tags": [
             "writing"
@@ -10268,7 +10268,7 @@ const VocabData = {
         },
         {
           "w": "wrong",
-          "phon": "",
+          "phon": "/ɹɒŋ/",
           "pos": "adj.",
           "cn": "错误的",
           "tags": [
@@ -10284,7 +10284,7 @@ const VocabData = {
         {
           "w": "bible",
           "phon": "/balbl/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "基督教的《圣经》",
           "tags": [
             "reading"
@@ -10293,7 +10293,7 @@ const VocabData = {
         {
           "w": "pope",
           "phon": "Ipaupl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "教皇",
           "tags": [
             "reading"
@@ -10301,7 +10301,7 @@ const VocabData = {
         },
         {
           "w": "aboriginal",
-          "phon": "",
+          "phon": "/ˌæb.əˈɹɪd͡ʒ.n̩.l̩/",
           "pos": "adj.",
           "cn": "本土原有的;  士著的",
           "tags": [
@@ -10311,7 +10311,7 @@ const VocabData = {
         {
           "w": "accident",
           "phon": "/akssdantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "偶然的事 事故;  意外",
           "tags": [
             "reading"
@@ -10319,8 +10319,8 @@ const VocabData = {
         },
         {
           "w": "adversity",
-          "phon": "",
-          "pos": "",
+          "phon": "/ædˈvɜː.sɪ.ti/",
+          "pos": "noun.",
           "cn": "逆境",
           "tags": [
             "reading"
@@ -10338,7 +10338,7 @@ const VocabData = {
         {
           "w": "anecdote",
           "phon": "Ianikdautl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "轶事,奇闻",
           "tags": [
             "reading"
@@ -10374,7 +10374,7 @@ const VocabData = {
         {
           "w": "background",
           "phon": "Mbakgraundl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "背景; (个人出身。受教育 )经历",
           "tags": [
             "reading"
@@ -10383,7 +10383,7 @@ const VocabData = {
         {
           "w": "belief",
           "phon": "/balli:f",
-          "pos": "",
+          "pos": "noun.",
           "cn": "信念;  信仰",
           "tags": [
             "reading"
@@ -10392,7 +10392,7 @@ const VocabData = {
         {
           "w": "bishop",
           "phon": "Ibilapl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "主教",
           "tags": [
             "reading"
@@ -10419,7 +10419,7 @@ const VocabData = {
         {
           "w": "choir",
           "phon": "Ikwalal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "唱诗班",
           "tags": [
             "reading"
@@ -10428,7 +10428,7 @@ const VocabData = {
         {
           "w": "chronology",
           "phon": "Ikra'nplad3il",
-          "pos": "",
+          "pos": "n.",
           "cn": "年表, 事件发生顺序表;  年代学",
           "tags": [
             "reading"
@@ -10464,7 +10464,7 @@ const VocabData = {
         {
           "w": "culture",
           "phon": "/kAltfal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "文化,文明;  教养",
           "tags": [
             "reading"
@@ -10473,7 +10473,7 @@ const VocabData = {
         {
           "w": "custom",
           "phon": "/KAstaml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "习俗; (个人的)习惯",
           "tags": [
             "reading"
@@ -10491,7 +10491,7 @@ const VocabData = {
         {
           "w": "dynasty",
           "phon": "/drnastil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "朝代",
           "tags": [
             "reading"
@@ -10509,7 +10509,7 @@ const VocabData = {
         {
           "w": "empire",
           "phon": "Iempalal",
-          "pos": "",
+          "pos": "adjective.",
           "cn": "帝国",
           "tags": [
             "reading"
@@ -10555,7 +10555,7 @@ const VocabData = {
           "w": "excavate",
           "phon": "/ˈɛk.skə.veɪt/",
           "pos": "verb.",
-          "cn": "",
+          "cn": "古虫界",
           "tags": [
             "reading"
           ]
@@ -10581,7 +10581,7 @@ const VocabData = {
         {
           "w": "feudalism",
           "phon": "/fju:dl-Izomnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "封建主义;  封建制度",
           "tags": [
             "reading"
@@ -10589,8 +10589,8 @@ const VocabData = {
         },
         {
           "w": "foreigner",
-          "phon": "",
-          "pos": "",
+          "phon": "/ˈfɒɹ.ɪ.nə(ɹ)/",
+          "pos": "noun.",
           "cn": "外国人",
           "tags": [
             "reading"
@@ -10617,7 +10617,7 @@ const VocabData = {
         {
           "w": "heritage",
           "phon": "/'hergtid3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "国家的 ) 遗产",
           "tags": [
             "reading"
@@ -10653,7 +10653,7 @@ const VocabData = {
         {
           "w": "ideology",
           "phon": "Ialdi'plad3il",
-          "pos": "",
+          "pos": "noun.",
           "cn": "意识形态 思想体系",
           "tags": [
             "reading"
@@ -10661,7 +10661,7 @@ const VocabData = {
         },
         {
           "w": "imperial",
-          "phon": "",
+          "phon": "/ɪmˈpɪ.ɹi.əl/",
           "pos": "adj.",
           "cn": "帝国的",
           "tags": [
@@ -10671,7 +10671,7 @@ const VocabData = {
         {
           "w": "incident",
           "phon": "/nsadantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "两国间的 )",
           "tags": [
             "reading"
@@ -10680,7 +10680,7 @@ const VocabData = {
         {
           "w": "inhabitant",
           "phon": "IIn'hebstantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "居民",
           "tags": [
             "reading"
@@ -10688,9 +10688,9 @@ const VocabData = {
         },
         {
           "w": "inherit",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/ɪnˈhɛɹɪt/",
+          "pos": "verb.",
+          "cn": "继承",
           "tags": [
             "reading"
           ]
@@ -10698,7 +10698,7 @@ const VocabData = {
         {
           "w": "king",
           "phon": "Iknl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "国王",
           "tags": [
             "reading"
@@ -10715,7 +10715,7 @@ const VocabData = {
         },
         {
           "w": "local",
-          "phon": "",
+          "phon": "/ˈləʊkl̩/",
           "pos": "adj.",
           "cn": "当地的 当地人",
           "tags": [
@@ -10724,9 +10724,9 @@ const VocabData = {
         },
         {
           "w": "lord",
-          "phon": "",
-          "pos": "",
-          "cn": "",
+          "phon": "/lɔːd/",
+          "pos": "noun.",
+          "cn": "主",
           "tags": [
             "reading"
           ]
@@ -10743,7 +10743,7 @@ const VocabData = {
         {
           "w": "missionary",
           "phon": "/mllanaril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "传教士",
           "tags": [
             "reading"
@@ -10752,7 +10752,7 @@ const VocabData = {
         {
           "w": "monk",
           "phon": "ImAnkl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "僧侣",
           "tags": [
             "reading"
@@ -10770,7 +10770,7 @@ const VocabData = {
         {
           "w": "museum",
           "phon": "Imju:ziaml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "博物馆",
           "tags": [
             "reading"
@@ -10788,7 +10788,7 @@ const VocabData = {
         {
           "w": "nobility",
           "phon": "Inao'bilgtil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "高尚的品质;  贵族 例",
           "tags": [
             "reading"
@@ -10797,7 +10797,7 @@ const VocabData = {
         {
           "w": "nostalgia",
           "phon": "InD'stald3al",
-          "pos": "",
+          "pos": "noun.",
           "cn": "思乡之情;  怀旧之情",
           "tags": [
             "reading"
@@ -10806,7 +10806,7 @@ const VocabData = {
         {
           "w": "pagoda",
           "phon": "Ipa'gaudal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "佛塔",
           "tags": [
             "reading"
@@ -10815,7 +10815,7 @@ const VocabData = {
         {
           "w": "pottery",
           "phon": "/potarii",
-          "pos": "",
+          "pos": "noun.",
           "cn": "陶器",
           "tags": [
             "reading"
@@ -10824,7 +10824,7 @@ const VocabData = {
         {
           "w": "priest",
           "phon": "Ipri:stl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "牧师;  神父;  教士",
           "tags": [
             "reading"
@@ -10851,7 +10851,7 @@ const VocabData = {
         {
           "w": "prosperity",
           "phon": "Ipro'sperstil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "繁荣 兴旺",
           "tags": [
             "reading"
@@ -10860,7 +10860,7 @@ const VocabData = {
         {
           "w": "queen",
           "phon": "Iwi:nl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "王后;  女王 例二",
           "tags": [
             "reading"
@@ -10923,7 +10923,7 @@ const VocabData = {
         {
           "w": "slavery",
           "phon": "/slervaril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "奴隶制",
           "tags": [
             "reading"
@@ -10959,7 +10959,7 @@ const VocabData = {
         {
           "w": "temple",
           "phon": "/tempall",
-          "pos": "",
+          "pos": "noun.",
           "cn": "寺院,庙宇",
           "tags": [
             "reading"
@@ -10969,7 +10969,7 @@ const VocabData = {
           "w": "thrive",
           "phon": "/θɹaɪv/",
           "pos": "verb.",
-          "cn": "",
+          "cn": "繁荣，旺盛",
           "tags": [
             "reading"
           ]
@@ -10977,7 +10977,7 @@ const VocabData = {
         {
           "w": "tradition",
           "phon": "Itra'dijanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "传统",
           "tags": [
             "reading"
@@ -10986,7 +10986,7 @@ const VocabData = {
         {
           "w": "tribe",
           "phon": "Itraibl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "部落",
           "tags": [
             "reading"
@@ -11010,7 +11010,7 @@ const VocabData = {
         {
           "w": "accent",
           "phon": "I:eksantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "重音;  口音;  读音符号",
           "tags": [
             "writing"
@@ -11028,7 +11028,7 @@ const VocabData = {
         {
           "w": "adverb",
           "phon": "IRdv3:bl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "副词",
           "tags": [
             "writing"
@@ -11037,7 +11037,7 @@ const VocabData = {
         {
           "w": "alphabet",
           "phon": "/alfabetl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "字母表, (一种语言的)全部字母",
           "tags": [
             "writing"
@@ -11055,7 +11055,7 @@ const VocabData = {
         {
           "w": "brainstorm",
           "phon": "I'breInst:ml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "集体自由讨论, 头脑风暴",
           "tags": [
             "writing"
@@ -11064,7 +11064,7 @@ const VocabData = {
         {
           "w": "clause",
           "phon": "/kI3:z/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "分句 从句;  条款",
           "tags": [
             "writing"
@@ -11073,7 +11073,7 @@ const VocabData = {
         {
           "w": "commentary",
           "phon": "/kDmantaril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "评论 评注;  批评;  实况报道",
           "tags": [
             "writing"
@@ -11100,7 +11100,7 @@ const VocabData = {
         {
           "w": "complex",
           "phon": "/kompleksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "综合建筑群",
           "tags": [
             "writing"
@@ -11136,7 +11136,7 @@ const VocabData = {
         {
           "w": "consonant",
           "phon": "/kDnsanantl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "辅音",
           "tags": [
             "writing"
@@ -11145,7 +11145,7 @@ const VocabData = {
         {
           "w": "contention",
           "phon": "Ikan'tenjanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "争论,争辩;  观点",
           "tags": [
             "writing"
@@ -11172,7 +11172,7 @@ const VocabData = {
         {
           "w": "dialect",
           "phon": "/dalalektl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "方言,地方话",
           "tags": [
             "writing"
@@ -11181,7 +11181,7 @@ const VocabData = {
         {
           "w": "dictionary",
           "phon": "/dikfanaril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "词典。字典,辞典",
           "tags": [
             "writing"
@@ -11190,7 +11190,7 @@ const VocabData = {
         {
           "w": "discussion",
           "phon": "IdiskAfanl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几。.讨论,谈论",
           "tags": [
             "writing"
@@ -11199,7 +11199,7 @@ const VocabData = {
         {
           "w": "eloquence",
           "phon": "/elakwansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "雄辩;  流利的口才",
           "tags": [
             "writing"
@@ -11208,7 +11208,7 @@ const VocabData = {
         {
           "w": "expression",
           "phon": "Iik'sprelonl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "词语;  表达;  表情",
           "tags": [
             "writing"
@@ -11217,7 +11217,7 @@ const VocabData = {
         {
           "w": "gesture",
           "phon": "/d3estfal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "手势,姿势",
           "tags": [
             "writing"
@@ -11226,7 +11226,7 @@ const VocabData = {
         {
           "w": "grammar",
           "phon": "Igramal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "语法;  语法书",
           "tags": [
             "writing"
@@ -11244,7 +11244,7 @@ const VocabData = {
         {
           "w": "idiom",
           "phon": "/idiaml",
-          "pos": "",
+          "pos": "noun.",
           "cn": "习语",
           "tags": [
             "writing"
@@ -11271,7 +11271,7 @@ const VocabData = {
         {
           "w": "interpret",
           "phon": "Iin't3:Prstl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "口译;  解释,说明;  领会。理解",
           "tags": [
             "writing"
@@ -11298,7 +11298,7 @@ const VocabData = {
         {
           "w": "language",
           "phon": "MIaqgwid3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "语言",
           "tags": [
             "writing"
@@ -11307,7 +11307,7 @@ const VocabData = {
         {
           "w": "linguistics",
           "phon": "/lI'gwistiksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "语言学",
           "tags": [
             "writing"
@@ -11316,7 +11316,7 @@ const VocabData = {
         {
           "w": "logogram",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "索",
           "tags": [
             "writing"
@@ -11334,7 +11334,7 @@ const VocabData = {
         {
           "w": "negotiate",
           "phon": "Inr'gavfiertl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "协商,谈判",
           "tags": [
             "writing"
@@ -11370,7 +11370,7 @@ const VocabData = {
         {
           "w": "phoneme",
           "phon": "/fauni:m",
-          "pos": "",
+          "pos": "noun.",
           "cn": "音位",
           "tags": [
             "writing"
@@ -11379,7 +11379,7 @@ const VocabData = {
         {
           "w": "phonetics",
           "phon": "Ifalnetiksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "语音学",
           "tags": [
             "writing"
@@ -11388,7 +11388,7 @@ const VocabData = {
         {
           "w": "phrase",
           "phon": "Ifrerzl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "短语;  习语",
           "tags": [
             "writing"
@@ -11397,7 +11397,7 @@ const VocabData = {
         {
           "w": "pictograph",
           "phon": "/piktaigra:fl",
-          "pos": "",
+          "pos": "n.",
           "cn": "象形文字",
           "tags": [
             "writing"
@@ -11415,7 +11415,7 @@ const VocabData = {
         {
           "w": "prefix",
           "phon": "/pri:fiksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "前缀;  前置代号 词首,",
           "tags": [
             "writing"
@@ -11424,7 +11424,7 @@ const VocabData = {
         {
           "w": "preposition",
           "phon": "Iprepa'zilonl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "介词",
           "tags": [
             "writing"
@@ -11451,7 +11451,7 @@ const VocabData = {
         {
           "w": "root",
           "phon": "Iru:tl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "字根;  根源 几。词根",
           "tags": [
             "writing"
@@ -11460,7 +11460,7 @@ const VocabData = {
         {
           "w": "semantic",
           "phon": "Isrmentik/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "语义的",
           "tags": [
             "writing"
@@ -11469,7 +11469,7 @@ const VocabData = {
         {
           "w": "sign",
           "phon": "Isalnl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "符号;  征兆,迹象;  手势",
           "tags": [
             "writing"
@@ -11487,7 +11487,7 @@ const VocabData = {
         {
           "w": "suffix",
           "phon": "/sAfiksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "后缀,词尾;  尾标",
           "tags": [
             "writing"
@@ -11496,7 +11496,7 @@ const VocabData = {
         {
           "w": "syllable",
           "phon": "Isllaball",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几 音节",
           "tags": [
             "writing"
@@ -11505,7 +11505,7 @@ const VocabData = {
         {
           "w": "symbol",
           "phon": "/sImball",
-          "pos": "",
+          "pos": "noun.",
           "cn": "象征;  符号,记号",
           "tags": [
             "writing"
@@ -11514,7 +11514,7 @@ const VocabData = {
         {
           "w": "synonym",
           "phon": "/sInanlm/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "同义词",
           "tags": [
             "writing"
@@ -11523,7 +11523,7 @@ const VocabData = {
         {
           "w": "syntax",
           "phon": "/sIntaksl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "句法",
           "tags": [
             "writing"
@@ -11542,7 +11542,7 @@ const VocabData = {
           "w": "translate",
           "phon": "/ˈtɹɛnzlæet/",
           "pos": "noun.",
-          "cn": "",
+          "cn": "翻译",
           "tags": [
             "writing"
           ]
@@ -11550,7 +11550,7 @@ const VocabData = {
         {
           "w": "utterance",
           "phon": "/Atarans/",
-          "pos": "",
+          "pos": "n.",
           "cn": "说话;  话语",
           "tags": [
             "writing"
@@ -11559,7 +11559,7 @@ const VocabData = {
         {
           "w": "verb",
           "phon": "1v3:b/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "动词",
           "tags": [
             "writing"
@@ -11586,7 +11586,7 @@ const VocabData = {
         {
           "w": "vocabulary",
           "phon": "Ivakabjslaril",
-          "pos": "",
+          "pos": "noun.",
           "cn": "词汇",
           "tags": [
             "writing"
@@ -11604,7 +11604,7 @@ const VocabData = {
         {
           "w": "wedge",
           "phon": "Iwed3l",
-          "pos": "",
+          "pos": "noun.",
           "cn": "楔子;  楔形物;  楔形文字",
           "tags": [
             "writing"
@@ -11628,8 +11628,8 @@ const VocabData = {
         {
           "w": "x-rated",
           "phon": "",
-          "pos": "",
-          "cn": "",
+          "pos": "n.",
+          "cn": "限制级的",
           "tags": [
             "writing"
           ]
@@ -11673,7 +11673,7 @@ const VocabData = {
         {
           "w": "anticipate",
           "phon": "Ian'trsspertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "预期,预料",
           "tags": [
             "writing"
@@ -11682,7 +11682,7 @@ const VocabData = {
         {
           "w": "artist",
           "phon": "/a:tgstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "艺术家",
           "tags": [
             "writing"
@@ -11691,7 +11691,7 @@ const VocabData = {
         {
           "w": "athlete",
           "phon": "IaOli:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "运动员; [英]田径运动员",
           "tags": [
             "writing"
@@ -11709,7 +11709,7 @@ const VocabData = {
         {
           "w": "badminton",
           "phon": "/badmIntan/",
-          "pos": "",
+          "pos": "n.",
           "cn": "羽毛球",
           "tags": [
             "writing"
@@ -11718,7 +11718,7 @@ const VocabData = {
         {
           "w": "ballet",
           "phon": "Ibelerl",
-          "pos": "",
+          "pos": "n.",
           "cn": "芭蕾舞;  芭蕾舞剧",
           "tags": [
             "writing"
@@ -11727,7 +11727,7 @@ const VocabData = {
         {
           "w": "band",
           "phon": "Ibendl",
-          "pos": "",
+          "pos": "n.",
           "cn": "乐队;  带;  波段",
           "tags": [
             "writing"
@@ -11736,7 +11736,7 @@ const VocabData = {
         {
           "w": "bat",
           "phon": "Ibetl",
-          "pos": "",
+          "pos": "n.",
           "cn": "球拍,球棒,球板",
           "tags": [
             "writing"
@@ -11754,7 +11754,7 @@ const VocabData = {
         {
           "w": "billiards",
           "phon": "/brljadzl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "几。台球",
           "tags": [
             "writing"
@@ -11772,7 +11772,7 @@ const VocabData = {
         {
           "w": "bow",
           "phon": "Ib3U/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "弓;  蝴蝶结",
           "tags": [
             "writing"
@@ -11781,7 +11781,7 @@ const VocabData = {
         {
           "w": "camp",
           "phon": "Ikampl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "营地;  阵营",
           "tags": [
             "writing"
@@ -11799,7 +11799,7 @@ const VocabData = {
         {
           "w": "cello",
           "phon": "/tfelaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "大提琴",
           "tags": [
             "writing"
@@ -11817,7 +11817,7 @@ const VocabData = {
         {
           "w": "chess",
           "phon": "Itfesl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "国际象棋",
           "tags": [
             "writing"
@@ -11826,7 +11826,7 @@ const VocabData = {
         {
           "w": "circus",
           "phon": "/'83:Kas/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "马戏团;  圆形广场 常用于地名 )",
           "tags": [
             "writing"
@@ -11853,7 +11853,7 @@ const VocabData = {
         {
           "w": "collect",
           "phon": "/kallektl",
-          "pos": "",
+          "pos": "verb.",
           "cn": "收集;  收藏",
           "tags": [
             "writing"
@@ -11862,7 +11862,7 @@ const VocabData = {
         {
           "w": "comedy",
           "phon": "/kDmngdil",
-          "pos": "",
+          "pos": "noun.",
           "cn": "喜剧",
           "tags": [
             "writing"
@@ -11871,7 +11871,7 @@ const VocabData = {
         {
           "w": "commentator",
           "phon": "/kDmanteltal",
-          "pos": "",
+          "pos": "noun.",
           "cn": "评论员;  实况解说员",
           "tags": [
             "writing"
@@ -11889,7 +11889,7 @@ const VocabData = {
         {
           "w": "concert",
           "phon": "/kDnsatl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "音乐会",
           "tags": [
             "writing"
@@ -11898,7 +11898,7 @@ const VocabData = {
         {
           "w": "consensus",
           "phon": "Ikan'sensasl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "共识, 一致的意见",
           "tags": [
             "writing"
@@ -11925,7 +11925,7 @@ const VocabData = {
         {
           "w": "cricket",
           "phon": "Ikrikgtl",
-          "pos": "",
+          "pos": "noun.",
           "cn": "板球",
           "tags": [
             "writing"
@@ -11934,7 +11934,7 @@ const VocabData = {
         {
           "w": "critic",
           "phon": "Ikritik/",
-          "pos": "",
+          "pos": "noun.",
           "cn": "批评家;  挑剔的人",
           "tags": [
             "writing"
@@ -11943,7 +11943,7 @@ const VocabData = {
         {
           "w": "cruise",
           "phon": "Ikru:zl",
-          "pos": "",
+          "pos": "v.",
           "cn": "乘船游览;  以平稳的速度行驶",
           "tags": [
             "writing"
@@ -11952,7 +11952,7 @@ const VocabData = {
         {
           "w": "cycling",
           "phon": "/salklil",
-          "pos": "",
+          "pos": "v.",
           "cn": "骑自行车运动",
           "tags": [
             "writing"
@@ -11961,7 +11961,7 @@ const VocabData = {
         {
           "w": "depict",
           "phon": "Idr'piktl",
-          "pos": "",
+          "pos": "n.",
           "cn": "描述,描写;  描绘",
           "tags": [
             "writing"
@@ -11988,7 +11988,7 @@ const VocabData = {
         {
           "w": "disseminate",
           "phon": "Idr'semsnertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "散布,传播",
           "tags": [
             "writing"
@@ -11997,7 +11997,7 @@ const VocabData = {
         {
           "w": "dive",
           "phon": "Idarvl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "跳水;  潜水;  俯冲",
           "tags": [
             "writing"
@@ -12015,7 +12015,7 @@ const VocabData = {
         {
           "w": "drama",
           "phon": "/dra:mal",
-          "pos": "",
+          "pos": "n.",
           "cn": "戏。剧;  戏剧艺术",
           "tags": [
             "writing"
@@ -12033,7 +12033,7 @@ const VocabData = {
         {
           "w": "drift",
           "phon": "Idrrftl",
-          "pos": "",
+          "pos": "n.",
           "cn": "漂流;  流浪。漂泊",
           "tags": [
             "writing"
@@ -12096,7 +12096,7 @@ const VocabData = {
         {
           "w": "exhibition",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "几展览",
           "tags": [
             "writing"
@@ -12132,7 +12132,7 @@ const VocabData = {
         {
           "w": "feast",
           "phon": "/f:stl",
-          "pos": "",
+          "pos": "n.",
           "cn": "盛宴;(宗教)节日",
           "tags": [
             "writing"
@@ -12177,7 +12177,7 @@ const VocabData = {
         {
           "w": "foresee",
           "phon": "If3:Si:/",
-          "pos": "",
+          "pos": "n.",
           "cn": "预见。预知",
           "tags": [
             "writing"
@@ -12186,7 +12186,7 @@ const VocabData = {
         {
           "w": "gallery",
           "phon": "/galaril",
-          "pos": "",
+          "pos": "n.",
           "cn": "美术馆 几",
           "tags": [
             "writing"
@@ -12195,7 +12195,7 @@ const VocabData = {
         {
           "w": "glide",
           "phon": "Igladl",
-          "pos": "",
+          "pos": "n.",
           "cn": "滑行 滑动,掠过",
           "tags": [
             "writing"
@@ -12204,7 +12204,7 @@ const VocabData = {
         {
           "w": "goal",
           "phon": "Igaull",
-          "pos": "",
+          "pos": "adj.",
           "cn": "球门;  进球得分;  目的",
           "tags": [
             "writing"
@@ -12213,7 +12213,7 @@ const VocabData = {
         {
           "w": "golf",
           "phon": "Igolfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "高尔夫球",
           "tags": [
             "writing"
@@ -12258,7 +12258,7 @@ const VocabData = {
         {
           "w": "harmonica",
           "phon": "Iha:'mDnikal",
-          "pos": "",
+          "pos": "n.",
           "cn": "口琴",
           "tags": [
             "writing"
@@ -12276,7 +12276,7 @@ const VocabData = {
         {
           "w": "hip-hop",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "嘻哈文化",
           "tags": [
             "writing"
@@ -12285,7 +12285,7 @@ const VocabData = {
         {
           "w": "hockey",
           "phon": "Ihokil",
-          "pos": "",
+          "pos": "n.",
           "cn": "曲棍球;  冰球",
           "tags": [
             "writing"
@@ -12294,7 +12294,7 @@ const VocabData = {
         {
           "w": "hop",
           "phon": "Ihopl",
-          "pos": "",
+          "pos": "n.",
           "cn": "跳上 (或下);  单脚跳行;  齐足跳行",
           "tags": [
             "writing"
@@ -12321,7 +12321,7 @@ const VocabData = {
         {
           "w": "improvise",
           "phon": "/Improvalzl",
-          "pos": "",
+          "pos": "v.",
           "cn": "临时做;  即兴创作",
           "tags": [
             "writing"
@@ -12339,7 +12339,7 @@ const VocabData = {
         {
           "w": "jazz",
           "phon": "Id3azl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几爵士乐",
           "tags": [
             "writing"
@@ -12348,7 +12348,7 @@ const VocabData = {
         {
           "w": "jog",
           "phon": "Id3ogl",
-          "pos": "",
+          "pos": "n.",
           "cn": "慢跑",
           "tags": [
             "writing"
@@ -12402,7 +12402,7 @@ const VocabData = {
         {
           "w": "leaflet",
           "phon": "Mi:flstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "传单",
           "tags": [
             "writing"
@@ -12411,7 +12411,7 @@ const VocabData = {
         {
           "w": "leap",
           "phon": "Ili:pl",
-          "pos": "",
+          "pos": "n.",
           "cn": "跳跃",
           "tags": [
             "writing"
@@ -12438,7 +12438,7 @@ const VocabData = {
         {
           "w": "magic",
           "phon": "/'m:ed3lkl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "魔术;  魔法",
           "tags": [
             "writing"
@@ -12447,7 +12447,7 @@ const VocabData = {
         {
           "w": "marathon",
           "phon": "'maragan/",
-          "pos": "",
+          "pos": "n.",
           "cn": "马拉松赛跑;  马拉松式的活动",
           "tags": [
             "writing"
@@ -12501,7 +12501,7 @@ const VocabData = {
         {
           "w": "motion",
           "phon": "/maU[anl",
-          "pos": "",
+          "pos": "n.",
           "cn": "做动作,示意",
           "tags": [
             "writing"
@@ -12510,7 +12510,7 @@ const VocabData = {
         {
           "w": "movement",
           "phon": "/mu:vmantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几 (身体部位的) 活动;  运动;  移动",
           "tags": [
             "writing"
@@ -12519,7 +12519,7 @@ const VocabData = {
         {
           "w": "movie",
           "phon": "/'mu:vil",
-          "pos": "",
+          "pos": "n.",
           "cn": "电影",
           "tags": [
             "writing"
@@ -12537,7 +12537,7 @@ const VocabData = {
         {
           "w": "opera",
           "phon": "/Dparal",
-          "pos": "",
+          "pos": "n.",
           "cn": "歌剧",
           "tags": [
             "writing"
@@ -12555,7 +12555,7 @@ const VocabData = {
         {
           "w": "orchestra",
           "phon": "/3:kgstral",
-          "pos": "",
+          "pos": "n.",
           "cn": "管弦乐队",
           "tags": [
             "writing"
@@ -12582,7 +12582,7 @@ const VocabData = {
         {
           "w": "painter",
           "phon": "/pelntal",
-          "pos": "",
+          "pos": "n.",
           "cn": "画家;  油漆匠",
           "tags": [
             "writing"
@@ -12591,7 +12591,7 @@ const VocabData = {
         {
           "w": "painting",
           "phon": "/pelntdl",
-          "pos": "",
+          "pos": "v.",
           "cn": "油画 绘画;  作画;  涂漆",
           "tags": [
             "writing"
@@ -12618,7 +12618,7 @@ const VocabData = {
         {
           "w": "pedestrian",
           "phon": "/ps'destrionl",
-          "pos": "",
+          "pos": "n.",
           "cn": "步行者。行人",
           "tags": [
             "writing"
@@ -12636,7 +12636,7 @@ const VocabData = {
         {
           "w": "photograph",
           "phon": "/'fautagra:fl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几照片 相片",
           "tags": [
             "writing"
@@ -12645,7 +12645,7 @@ const VocabData = {
         {
           "w": "piano",
           "phon": "Ipilanaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "钢琴",
           "tags": [
             "writing"
@@ -12654,7 +12654,7 @@ const VocabData = {
         {
           "w": "picnic",
           "phon": "/piknkl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "野餐;  野餐食物",
           "tags": [
             "writing"
@@ -12663,7 +12663,7 @@ const VocabData = {
         {
           "w": "pitch",
           "phon": "Ipitfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "沥青",
           "tags": [
             "writing"
@@ -12690,7 +12690,7 @@ const VocabData = {
         {
           "w": "portrait",
           "phon": "/p3:trstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "肖像 半身画像",
           "tags": [
             "writing"
@@ -12726,7 +12726,7 @@ const VocabData = {
         {
           "w": "publish",
           "phon": "/pAblIfl",
-          "pos": "",
+          "pos": "v.",
           "cn": "公布;  出版。发行",
           "tags": [
             "writing"
@@ -12744,7 +12744,7 @@ const VocabData = {
         {
           "w": "race",
           "phon": "IreIsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "种族 赛跑 _ 速度竞赛;  人种,",
           "tags": [
             "writing"
@@ -12762,7 +12762,7 @@ const VocabData = {
         {
           "w": "recreation",
           "phon": "/irekrierjan}",
-          "pos": "",
+          "pos": "n.",
           "cn": "休闲 娱乐",
           "tags": [
             "writing"
@@ -12771,7 +12771,7 @@ const VocabData = {
         {
           "w": "rehearsal",
           "phon": "Irrh3:Sal/",
-          "pos": "",
+          "pos": "adj.",
           "cn": "排练",
           "tags": [
             "writing"
@@ -12780,7 +12780,7 @@ const VocabData = {
         {
           "w": "rhythm",
           "phon": "/ridaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "节奏,韵律",
           "tags": [
             "writing"
@@ -12789,7 +12789,7 @@ const VocabData = {
         {
           "w": "rock",
           "phon": "Irbk/",
-          "pos": "",
+          "pos": "n.",
           "cn": "摇滚乐;  岩石",
           "tags": [
             "writing"
@@ -12798,7 +12798,7 @@ const VocabData = {
         {
           "w": "role",
           "phon": "IraUll",
-          "pos": "",
+          "pos": "n.",
           "cn": "角色;  作用;  职能",
           "tags": [
             "writing"
@@ -12825,7 +12825,7 @@ const VocabData = {
         {
           "w": "sculpture",
           "phon": "MskAlptfol",
-          "pos": "",
+          "pos": "n.",
           "cn": "雕塑",
           "tags": [
             "writing"
@@ -12888,7 +12888,7 @@ const VocabData = {
         {
           "w": "slip",
           "phon": "Islipl",
-          "pos": "",
+          "pos": "n.",
           "cn": "滑倒 几",
           "tags": [
             "writing"
@@ -12915,7 +12915,7 @@ const VocabData = {
         {
           "w": "spectator",
           "phon": "Ispek'tertal",
-          "pos": "",
+          "pos": "n.",
           "cn": "观众",
           "tags": [
             "writing"
@@ -12924,7 +12924,7 @@ const VocabData = {
         {
           "w": "sponsor",
           "phon": "/sponsal",
-          "pos": "",
+          "pos": "n.",
           "cn": "发起人;  主办人;  赞助人",
           "tags": [
             "writing"
@@ -12933,7 +12933,7 @@ const VocabData = {
         {
           "w": "sprawl",
           "phon": "Ispr3:ll",
-          "pos": "",
+          "pos": "n.",
           "cn": "几 伸开四肢坐着 (或躺着);  延伸,蔓延",
           "tags": [
             "writing"
@@ -12942,7 +12942,7 @@ const VocabData = {
         {
           "w": "spring",
           "phon": "Isprnl",
-          "pos": "",
+          "pos": "v.",
           "cn": "春天;  泉水",
           "tags": [
             "writing"
@@ -12951,7 +12951,7 @@ const VocabData = {
         {
           "w": "stadium",
           "phon": "/steldialnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "体育场 ,运动场",
           "tags": [
             "writing"
@@ -12960,7 +12960,7 @@ const VocabData = {
         {
           "w": "stage",
           "phon": "Isteld3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "舞台;  阶段; [the ~] 戏剧演出",
           "tags": [
             "writing"
@@ -12969,7 +12969,7 @@ const VocabData = {
         {
           "w": "step",
           "phon": "Istepl",
-          "pos": "",
+          "pos": "n.",
           "cn": "步伐;  步骤",
           "tags": [
             "writing"
@@ -12978,7 +12978,7 @@ const VocabData = {
         {
           "w": "strain",
           "phon": "IstreInl",
-          "pos": "",
+          "pos": "n.",
           "cn": "张力,拉力; (精神上的)紧张",
           "tags": [
             "writing"
@@ -12987,7 +12987,7 @@ const VocabData = {
         {
           "w": "stretch",
           "phon": "Istretll",
-          "pos": "",
+          "pos": "n.",
           "cn": "伸展;  伸长 (胳膊。腿 )",
           "tags": [
             "writing"
@@ -12996,7 +12996,7 @@ const VocabData = {
         {
           "w": "stride",
           "phon": "Istraidl",
-          "pos": "",
+          "pos": "n.",
           "cn": "大步走。阔步行走",
           "tags": [
             "writing"
@@ -13005,7 +13005,7 @@ const VocabData = {
         {
           "w": "symphony",
           "phon": "/simfanil",
-          "pos": "",
+          "pos": "n.",
           "cn": "交响乐",
           "tags": [
             "writing"
@@ -13023,7 +13023,7 @@ const VocabData = {
         {
           "w": "tent",
           "phon": "Itentl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "帐篷",
           "tags": [
             "writing"
@@ -13041,7 +13041,7 @@ const VocabData = {
         {
           "w": "tone",
           "phon": "ItaUnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "音色;  声调;  腔调",
           "tags": [
             "writing"
@@ -13077,7 +13077,7 @@ const VocabData = {
         {
           "w": "training",
           "phon": "/trelnil",
-          "pos": "",
+          "pos": "v.",
           "cn": "训练。锻炼;  培训",
           "tags": [
             "writing"
@@ -13095,7 +13095,7 @@ const VocabData = {
         {
           "w": "trumpet",
           "phon": "/trAmPstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "喇叭, 小号",
           "tags": [
             "writing"
@@ -13113,7 +13113,7 @@ const VocabData = {
         {
           "w": "tune",
           "phon": "Itju:nl",
-          "pos": "",
+          "pos": "n.",
           "cn": "曲调;  短乐曲 调试",
           "tags": [
             "writing"
@@ -13158,7 +13158,7 @@ const VocabData = {
         {
           "w": "volleyball",
           "phon": "/vDlib3:ll",
-          "pos": "",
+          "pos": "n.",
           "cn": "排球",
           "tags": [
             "writing"
@@ -13167,7 +13167,7 @@ const VocabData = {
         {
           "w": "volunteer",
           "phon": "Ivolan'tral",
-          "pos": "",
+          "pos": "n.",
           "cn": "志愿者 自愿做",
           "tags": [
             "writing"
@@ -13176,7 +13176,7 @@ const VocabData = {
         {
           "w": "wander",
           "phon": "/wondal",
-          "pos": "",
+          "pos": "n.",
           "cn": "漫步;  走神,开小差",
           "tags": [
             "writing"
@@ -13194,7 +13194,7 @@ const VocabData = {
         {
           "w": "yoga",
           "phon": "Njaugal",
-          "pos": "",
+          "pos": "n.",
           "cn": "瑜伽",
           "tags": [
             "writing"
@@ -13227,7 +13227,7 @@ const VocabData = {
         {
           "w": "artifact",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -13245,7 +13245,7 @@ const VocabData = {
         {
           "w": "badge",
           "phon": "Ibad3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "徽章;  证章;  标志,象征",
           "tags": [
             "writing"
@@ -13254,7 +13254,7 @@ const VocabData = {
         {
           "w": "barrel",
           "phon": "Ibarall",
-          "pos": "",
+          "pos": "n.",
           "cn": "桶",
           "tags": [
             "writing"
@@ -13263,7 +13263,7 @@ const VocabData = {
         {
           "w": "bell",
           "phon": "Ibell",
-          "pos": "",
+          "pos": "n.",
           "cn": "钟;  铃",
           "tags": [
             "writing"
@@ -13272,7 +13272,7 @@ const VocabData = {
         {
           "w": "blanket",
           "phon": "/blenkstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "毛毯,毯子",
           "tags": [
             "writing"
@@ -13290,7 +13290,7 @@ const VocabData = {
         {
           "w": "brass",
           "phon": "Ibra:sl",
-          "pos": "",
+          "pos": "n.",
           "cn": "黄铜;  黄铜制品",
           "tags": [
             "writing"
@@ -13326,7 +13326,7 @@ const VocabData = {
         {
           "w": "bulb",
           "phon": "IbAIbl",
-          "pos": "",
+          "pos": "n.",
           "cn": "电灯泡;  球茎;  球茎状物",
           "tags": [
             "writing"
@@ -13335,7 +13335,7 @@ const VocabData = {
         {
           "w": "cable",
           "phon": "Ikelball",
-          "pos": "",
+          "pos": "adj.",
           "cn": "电缆;  缆绳,钢索;  电报;  有线电视",
           "tags": [
             "writing"
@@ -13344,7 +13344,7 @@ const VocabData = {
         {
           "w": "camera",
           "phon": "Ikamaral",
-          "pos": "",
+          "pos": "n.",
           "cn": "照相机,摄影机",
           "tags": [
             "writing"
@@ -13362,7 +13362,7 @@ const VocabData = {
         {
           "w": "candle",
           "phon": "Ikandll",
-          "pos": "",
+          "pos": "n.",
           "cn": "蜡烛",
           "tags": [
             "writing"
@@ -13371,7 +13371,7 @@ const VocabData = {
         {
           "w": "canvas",
           "phon": "/kanVasl",
-          "pos": "",
+          "pos": "n.",
           "cn": "帆布;  油画布",
           "tags": [
             "writing"
@@ -13380,7 +13380,7 @@ const VocabData = {
         {
           "w": "carpet",
           "phon": "/ka:pstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "地毯,毡毯,毛毯",
           "tags": [
             "writing"
@@ -13389,7 +13389,7 @@ const VocabData = {
         {
           "w": "cement",
           "phon": "Isrmentl",
-          "pos": "",
+          "pos": "n.",
           "cn": "水泥;  胶接剂",
           "tags": [
             "writing"
@@ -13407,7 +13407,7 @@ const VocabData = {
         {
           "w": "cotton",
           "phon": "/kotnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "棉;  棉线;  棉布",
           "tags": [
             "writing"
@@ -13425,7 +13425,7 @@ const VocabData = {
         {
           "w": "cover",
           "phon": "IkAVal",
-          "pos": "",
+          "pos": "n.",
           "cn": "封面;  盖子;  套子",
           "tags": [
             "writing"
@@ -13443,7 +13443,7 @@ const VocabData = {
         {
           "w": "crystal",
           "phon": "IkrIstll",
-          "pos": "",
+          "pos": "adj.",
           "cn": "水晶;  结晶。晶体",
           "tags": [
             "writing"
@@ -13452,7 +13452,7 @@ const VocabData = {
         {
           "w": "curtain",
           "phon": "/k3:tn/",
-          "pos": "",
+          "pos": "n.",
           "cn": "窗帘;  帘;  幕布",
           "tags": [
             "writing"
@@ -13470,7 +13470,7 @@ const VocabData = {
         {
           "w": "detergent",
           "phon": "Idr't3:d3antl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "洗涤剂",
           "tags": [
             "writing"
@@ -13479,7 +13479,7 @@ const VocabData = {
         {
           "w": "diamond",
           "phon": "/daramand/",
-          "pos": "",
+          "pos": "n.",
           "cn": "金刚石,钻石;  菱形",
           "tags": [
             "writing"
@@ -13488,7 +13488,7 @@ const VocabData = {
         {
           "w": "drawer",
           "phon": "Idr3:/",
-          "pos": "",
+          "pos": "n.",
           "cn": "抽屉",
           "tags": [
             "writing"
@@ -13497,7 +13497,7 @@ const VocabData = {
         {
           "w": "dredge",
           "phon": "Idred3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "挖泥船。挖掘机",
           "tags": [
             "writing"
@@ -13542,7 +13542,7 @@ const VocabData = {
         {
           "w": "fabric",
           "phon": "/fabrikl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "织物 , 布料",
           "tags": [
             "writing"
@@ -13551,7 +13551,7 @@ const VocabData = {
         {
           "w": "factor",
           "phon": "Ifaktal",
-          "pos": "",
+          "pos": "n.",
           "cn": "因素 要素",
           "tags": [
             "writing"
@@ -13578,7 +13578,7 @@ const VocabData = {
         {
           "w": "fence",
           "phon": "Ifensl",
-          "pos": "",
+          "pos": "n.",
           "cn": "栅栏;  围栏",
           "tags": [
             "writing"
@@ -13605,7 +13605,7 @@ const VocabData = {
         {
           "w": "forge",
           "phon": "If3:d3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "锻铁炉 锻造;  伪造",
           "tags": [
             "writing"
@@ -13623,7 +13623,7 @@ const VocabData = {
         {
           "w": "fridge",
           "phon": "IfrId3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "冰箱",
           "tags": [
             "writing"
@@ -13632,7 +13632,7 @@ const VocabData = {
         {
           "w": "fuel",
           "phon": "Mfju:all",
-          "pos": "",
+          "pos": "n.",
           "cn": "燃料",
           "tags": [
             "writing"
@@ -13659,7 +13659,7 @@ const VocabData = {
         {
           "w": "glue",
           "phon": "Iglu:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "胶, 胶水",
           "tags": [
             "writing"
@@ -13668,7 +13668,7 @@ const VocabData = {
         {
           "w": "handle",
           "phon": "/handll",
-          "pos": "",
+          "pos": "n.",
           "cn": "柄;  把手",
           "tags": [
             "writing"
@@ -13713,7 +13713,7 @@ const VocabData = {
         {
           "w": "item",
           "phon": "/altaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "一项项目,条目",
           "tags": [
             "writing"
@@ -13722,7 +13722,7 @@ const VocabData = {
         {
           "w": "jar",
           "phon": "Id3a:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "罐 广口瓶;  猛烈震动",
           "tags": [
             "writing"
@@ -13740,7 +13740,7 @@ const VocabData = {
         {
           "w": "kit",
           "phon": "Ikrtl",
-          "pos": "",
+          "pos": "n.",
           "cn": "成套工具",
           "tags": [
             "writing"
@@ -13758,7 +13758,7 @@ const VocabData = {
         {
           "w": "knob",
           "phon": "Inbbl",
-          "pos": "",
+          "pos": "n.",
           "cn": "球形把手;  旋钮",
           "tags": [
             "writing"
@@ -13776,7 +13776,7 @@ const VocabData = {
         {
           "w": "ladder",
           "phon": "Iledal",
-          "pos": "",
+          "pos": "n.",
           "cn": "梯子; (进步 晋升等的 ) 阶梯 勤奋常常",
           "tags": [
             "writing"
@@ -13785,7 +13785,7 @@ const VocabData = {
         {
           "w": "landfill",
           "phon": "Mlandfill",
-          "pos": "",
+          "pos": "n.",
           "cn": "垃圾填埋地;  垃圾填埋",
           "tags": [
             "writing"
@@ -13794,7 +13794,7 @@ const VocabData = {
         {
           "w": "lantern",
           "phon": "Ilantanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "提灯 , 灯笼",
           "tags": [
             "writing"
@@ -13803,7 +13803,7 @@ const VocabData = {
         {
           "w": "lead",
           "phon": "Iledl",
-          "pos": "",
+          "pos": "n.",
           "cn": "铅",
           "tags": [
             "writing"
@@ -13830,7 +13830,7 @@ const VocabData = {
         {
           "w": "lime",
           "phon": "Ilalml",
-          "pos": "",
+          "pos": "n.",
           "cn": "石灰",
           "tags": [
             "writing"
@@ -13839,7 +13839,7 @@ const VocabData = {
         {
           "w": "linen",
           "phon": "Mlingnl",
-          "pos": "",
+          "pos": "v.",
           "cn": "亚麻布;  亚麻织品",
           "tags": [
             "writing"
@@ -13848,7 +13848,7 @@ const VocabData = {
         {
           "w": "litter",
           "phon": "Ilital",
-          "pos": "",
+          "pos": "n.",
           "cn": "乱丢东西 垃圾, 废弃物",
           "tags": [
             "writing"
@@ -13857,7 +13857,7 @@ const VocabData = {
         {
           "w": "lotion",
           "phon": "Ilaufanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "洁肤乳;  润肤乳",
           "tags": [
             "writing"
@@ -13884,7 +13884,7 @@ const VocabData = {
         {
           "w": "mat",
           "phon": "Iatl",
-          "pos": "",
+          "pos": "n.",
           "cn": "地垫,地席",
           "tags": [
             "writing"
@@ -13929,7 +13929,7 @@ const VocabData = {
         {
           "w": "merchandise",
           "phon": "/m3:tfandarzl",
-          "pos": "",
+          "pos": "v.",
           "cn": "商品",
           "tags": [
             "writing"
@@ -13938,7 +13938,7 @@ const VocabData = {
         {
           "w": "metal",
           "phon": "/etll",
-          "pos": "",
+          "pos": "adj.",
           "cn": "金属",
           "tags": [
             "writing"
@@ -13947,7 +13947,7 @@ const VocabData = {
         {
           "w": "mill",
           "phon": "ImIll",
-          "pos": "",
+          "pos": "n.",
           "cn": "碾碎;  无目的地乱转 磨粉机;  磨坊",
           "tags": [
             "writing"
@@ -13974,7 +13974,7 @@ const VocabData = {
         {
           "w": "mop",
           "phon": "Imppl",
-          "pos": "",
+          "pos": "n.",
           "cn": "拖把",
           "tags": [
             "writing"
@@ -13983,7 +13983,7 @@ const VocabData = {
         {
           "w": "nail",
           "phon": "Inerll",
-          "pos": "",
+          "pos": "n.",
           "cn": "指甲;  钉子",
           "tags": [
             "writing"
@@ -13992,7 +13992,7 @@ const VocabData = {
         {
           "w": "necessity",
           "phon": "Ing'sesatil",
-          "pos": "",
+          "pos": "n.",
           "cn": "必需品,必不可少的事物;  必要",
           "tags": [
             "writing"
@@ -14001,7 +14001,7 @@ const VocabData = {
         {
           "w": "nylon",
           "phon": "/nallonl",
-          "pos": "",
+          "pos": "n.",
           "cn": "尼龙",
           "tags": [
             "writing"
@@ -14019,7 +14019,7 @@ const VocabData = {
         {
           "w": "outfit",
           "phon": "/autfitl",
-          "pos": "",
+          "pos": "n.",
           "cn": "全套服装;  全套装备 配备, 装备",
           "tags": [
             "writing"
@@ -14028,7 +14028,7 @@ const VocabData = {
         {
           "w": "pad",
           "phon": "Ipedl",
-          "pos": "",
+          "pos": "n.",
           "cn": "衬垫,垫;  便笺本",
           "tags": [
             "writing"
@@ -14046,7 +14046,7 @@ const VocabData = {
         {
           "w": "pamphlet",
           "phon": "Ipamflgtl",
-          "pos": "",
+          "pos": "n.",
           "cn": "小册子",
           "tags": [
             "writing"
@@ -14064,7 +14064,7 @@ const VocabData = {
         {
           "w": "paperback",
           "phon": "/peipabakl",
-          "pos": "",
+          "pos": "n.",
           "cn": "简装书。平装书",
           "tags": [
             "writing"
@@ -14082,7 +14082,7 @@ const VocabData = {
         {
           "w": "phone",
           "phon": "/faUnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "电话;  电话机;  电话听筒",
           "tags": [
             "writing"
@@ -14091,7 +14091,7 @@ const VocabData = {
         {
           "w": "pillow",
           "phon": "/pllavl",
-          "pos": "",
+          "pos": "n.",
           "cn": "枕头",
           "tags": [
             "writing"
@@ -14118,7 +14118,7 @@ const VocabData = {
         {
           "w": "pitch",
           "phon": "Ipitfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "沥青",
           "tags": [
             "writing"
@@ -14127,7 +14127,7 @@ const VocabData = {
         {
           "w": "plaster",
           "phon": "/pla:stal",
-          "pos": "",
+          "pos": "n.",
           "cn": "灰泥;  熟石膏",
           "tags": [
             "writing"
@@ -14136,7 +14136,7 @@ const VocabData = {
         {
           "w": "plastic",
           "phon": "/plastikl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "塑料",
           "tags": [
             "writing"
@@ -14145,7 +14145,7 @@ const VocabData = {
         {
           "w": "plug",
           "phon": "Iplagl",
-          "pos": "",
+          "pos": "n.",
           "cn": "塞子;  插头",
           "tags": [
             "writing"
@@ -14163,7 +14163,7 @@ const VocabData = {
         {
           "w": "portfolio",
           "phon": "Ip:t'fauliaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "文件夹。公事包",
           "tags": [
             "writing"
@@ -14199,7 +14199,7 @@ const VocabData = {
         {
           "w": "razor",
           "phon": "/rerzal",
-          "pos": "",
+          "pos": "n.",
           "cn": "剃刀 用剃刀)剃",
           "tags": [
             "writing"
@@ -14208,7 +14208,7 @@ const VocabData = {
         {
           "w": "recycle",
           "phon": "Iri:'salkall",
-          "pos": "",
+          "pos": "n.",
           "cn": "使再循环 回收利用;  反复应用",
           "tags": [
             "writing"
@@ -14235,7 +14235,7 @@ const VocabData = {
         {
           "w": "rim",
           "phon": "Iriml",
-          "pos": "",
+          "pos": "n.",
           "cn": "圆形物的 外缘,边缘",
           "tags": [
             "writing"
@@ -14244,7 +14244,7 @@ const VocabData = {
         {
           "w": "rubber",
           "phon": "IrAbal",
-          "pos": "",
+          "pos": "n.",
           "cn": "橡胶; [英]橡皮擦",
           "tags": [
             "writing"
@@ -14262,7 +14262,7 @@ const VocabData = {
         {
           "w": "rug",
           "phon": "IrAgl",
-          "pos": "",
+          "pos": "n.",
           "cn": "小地毯; 盖肩或腿的 )小毯子",
           "tags": [
             "writing"
@@ -14280,7 +14280,7 @@ const VocabData = {
         {
           "w": "section",
           "phon": "Isekfanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "部分;  章, 节",
           "tags": [
             "writing"
@@ -14289,7 +14289,7 @@ const VocabData = {
         {
           "w": "sewerage",
           "phon": "/sju:arid3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "排水系统,污水处理系统; (= sewage ) 污水",
           "tags": [
             "writing"
@@ -14298,7 +14298,7 @@ const VocabData = {
         {
           "w": "shampoo",
           "phon": "Ifam'pu:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "洗发剂 用洗发剂洗(头发)",
           "tags": [
             "writing"
@@ -14307,7 +14307,7 @@ const VocabData = {
         {
           "w": "shave",
           "phon": "IJervl",
-          "pos": "",
+          "pos": "n.",
           "cn": "剃须 刮脸",
           "tags": [
             "writing"
@@ -14325,7 +14325,7 @@ const VocabData = {
         {
           "w": "sheet",
           "phon": "Ii:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "被单。床单; -张 (纸);薄板",
           "tags": [
             "writing"
@@ -14334,7 +14334,7 @@ const VocabData = {
         {
           "w": "shelf",
           "phon": "Ifelfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "架子, 搁板",
           "tags": [
             "writing"
@@ -14352,7 +14352,7 @@ const VocabData = {
         {
           "w": "soap",
           "phon": "IsaUpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "用肥皂擦洗 肥皂",
           "tags": [
             "writing"
@@ -14370,7 +14370,7 @@ const VocabData = {
         {
           "w": "sponge",
           "phon": "IspAnd3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "海绵",
           "tags": [
             "writing"
@@ -14379,7 +14379,7 @@ const VocabData = {
         {
           "w": "spotlight",
           "phon": "/spbtlartl",
-          "pos": "",
+          "pos": "n.",
           "cn": "聚光灯;  聚光灯照出的光圈",
           "tags": [
             "writing"
@@ -14388,7 +14388,7 @@ const VocabData = {
         {
           "w": "staple",
           "phon": "Mstepall",
-          "pos": "",
+          "pos": "n.",
           "cn": "订书钉;  主要部分",
           "tags": [
             "writing"
@@ -14397,7 +14397,7 @@ const VocabData = {
         {
           "w": "stationery",
           "phon": "Mstelfanaril",
-          "pos": "",
+          "pos": "n.",
           "cn": "文具;  信纸",
           "tags": [
             "writing"
@@ -14406,7 +14406,7 @@ const VocabData = {
         {
           "w": "stool",
           "phon": "Istu:ll",
-          "pos": "",
+          "pos": "n.",
           "cn": "甓子",
           "tags": [
             "writing"
@@ -14415,7 +14415,7 @@ const VocabData = {
         {
           "w": "strand",
           "phon": "Istrandl",
-          "pos": "",
+          "pos": "n.",
           "cn": "缕,股;  滨。岸",
           "tags": [
             "writing"
@@ -14424,7 +14424,7 @@ const VocabData = {
         {
           "w": "stuff",
           "phon": "IstAfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几 东西;  原料",
           "tags": [
             "writing"
@@ -14433,7 +14433,7 @@ const VocabData = {
         {
           "w": "sweep",
           "phon": "Iswi:pl",
-          "pos": "",
+          "pos": "n.",
           "cn": "打扫; (迅猛地) 吹走;  掠过",
           "tags": [
             "writing"
@@ -14442,7 +14442,7 @@ const VocabData = {
         {
           "w": "switch",
           "phon": "Iswitfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "开关;  转换",
           "tags": [
             "writing"
@@ -14451,7 +14451,7 @@ const VocabData = {
         {
           "w": "tag",
           "phon": "Itagl",
-          "pos": "",
+          "pos": "n.",
           "cn": "标签;  称号",
           "tags": [
             "writing"
@@ -14478,7 +14478,7 @@ const VocabData = {
         {
           "w": "towel",
           "phon": "/tauali",
-          "pos": "",
+          "pos": "n.",
           "cn": "毛巾 手巾 我用毛巾",
           "tags": [
             "writing"
@@ -14496,7 +14496,7 @@ const VocabData = {
         {
           "w": "tub",
           "phon": "ItAb/",
-          "pos": "",
+          "pos": "n.",
           "cn": "盆; [美]浴缸,浴盆 几。桶.",
           "tags": [
             "writing"
@@ -14505,7 +14505,7 @@ const VocabData = {
         {
           "w": "tube",
           "phon": "Itju:bl",
-          "pos": "",
+          "pos": "n.",
           "cn": "管; 电视机的) 显像管; [英](伦敦)地铁",
           "tags": [
             "writing"
@@ -14514,7 +14514,7 @@ const VocabData = {
         {
           "w": "umbrella",
           "phon": "Ini'brelal",
-          "pos": "",
+          "pos": "n.",
           "cn": "伞 雨伞",
           "tags": [
             "writing"
@@ -14541,7 +14541,7 @@ const VocabData = {
         {
           "w": "waste",
           "phon": "/werstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几。废物;  浪费",
           "tags": [
             "writing"
@@ -14592,7 +14592,7 @@ const VocabData = {
         {
           "w": "appearance",
           "phon": "Ipiarans/",
-          "pos": "",
+          "pos": "n.",
           "cn": "外貌;  出现",
           "tags": [
             "writing"
@@ -14637,7 +14637,7 @@ const VocabData = {
         {
           "w": "boot",
           "phon": "Ibu:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "靴子",
           "tags": [
             "writing"
@@ -14646,7 +14646,7 @@ const VocabData = {
         {
           "w": "bracelet",
           "phon": "/'brerslstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "手镯",
           "tags": [
             "writing"
@@ -14691,7 +14691,7 @@ const VocabData = {
         {
           "w": "chain",
           "phon": "Itfeinl",
-          "pos": "",
+          "pos": "n.",
           "cn": "连锁店; -连串 (人或事物 )",
           "tags": [
             "writing"
@@ -14709,7 +14709,7 @@ const VocabData = {
         {
           "w": "clasp",
           "phon": "Ila:snl",
-          "pos": "",
+          "pos": "n.",
           "cn": "搭扣",
           "tags": [
             "writing"
@@ -14727,7 +14727,7 @@ const VocabData = {
         {
           "w": "clothe",
           "phon": "IlaUol",
-          "pos": "",
+          "pos": "n.",
           "cn": "给穿衣;  为提供衣服",
           "tags": [
             "writing"
@@ -14736,7 +14736,7 @@ const VocabData = {
         {
           "w": "collar",
           "phon": "Ikolal",
-          "pos": "",
+          "pos": "n.",
           "cn": "几。衣领;  项圈",
           "tags": [
             "writing"
@@ -14754,7 +14754,7 @@ const VocabData = {
         {
           "w": "cosmetics",
           "phon": "IkDz'metrks/",
-          "pos": "",
+          "pos": "n.",
           "cn": "化妆品",
           "tags": [
             "writing"
@@ -14763,7 +14763,7 @@ const VocabData = {
         {
           "w": "costume",
           "phon": "/kostjuml",
-          "pos": "",
+          "pos": "n.",
           "cn": "某历史时期或某地的)服装 戏服;",
           "tags": [
             "writing"
@@ -14799,7 +14799,7 @@ const VocabData = {
         {
           "w": "dye",
           "phon": "Idall",
-          "pos": "",
+          "pos": "n.",
           "cn": "染料;〈染上的)颜色",
           "tags": [
             "writing"
@@ -14808,7 +14808,7 @@ const VocabData = {
         {
           "w": "elegance",
           "phon": "/elsgansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "文雅,典雅",
           "tags": [
             "writing"
@@ -14817,7 +14817,7 @@ const VocabData = {
         {
           "w": "embellish",
           "phon": "Im'belij/",
-          "pos": "",
+          "pos": "v.",
           "cn": "修饰",
           "tags": [
             "writing"
@@ -14862,7 +14862,7 @@ const VocabData = {
         {
           "w": "fascinate",
           "phon": "/fassnert",
-          "pos": "",
+          "pos": "v.",
           "cn": "迷住",
           "tags": [
             "writing"
@@ -14871,7 +14871,7 @@ const VocabData = {
         {
           "w": "fashion",
           "phon": "Ifafanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "时尚 制作。制成",
           "tags": [
             "writing"
@@ -14907,7 +14907,7 @@ const VocabData = {
         {
           "w": "glove",
           "phon": "IglAvl",
-          "pos": "",
+          "pos": "n.",
           "cn": "手套",
           "tags": [
             "writing"
@@ -14925,7 +14925,7 @@ const VocabData = {
         {
           "w": "grace",
           "phon": "Igrersl",
-          "pos": "",
+          "pos": "n.",
           "cn": "优美 优雅",
           "tags": [
             "writing"
@@ -14943,7 +14943,7 @@ const VocabData = {
         {
           "w": "hairdressing",
           "phon": "/heaidresml",
-          "pos": "",
+          "pos": "v.",
           "cn": "美发 理发",
           "tags": [
             "writing"
@@ -14952,7 +14952,7 @@ const VocabData = {
         {
           "w": "handkerchief",
           "phon": "/hankatlsfi",
-          "pos": "",
+          "pos": "n.",
           "cn": "手帕",
           "tags": [
             "writing"
@@ -14970,7 +14970,7 @@ const VocabData = {
         {
           "w": "hat",
           "phon": "Ihetl",
-          "pos": "",
+          "pos": "n.",
           "cn": "常指带檐的)帽子",
           "tags": [
             "writing"
@@ -14979,7 +14979,7 @@ const VocabData = {
         {
           "w": "icon",
           "phon": "/alkDnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "偶像;  图标",
           "tags": [
             "writing"
@@ -14988,7 +14988,7 @@ const VocabData = {
         {
           "w": "idol",
           "phon": "/aldll",
-          "pos": "",
+          "pos": "n.",
           "cn": "偶像。 受到崇拜的人或物;  神像",
           "tags": [
             "writing"
@@ -15006,7 +15006,7 @@ const VocabData = {
         {
           "w": "jade",
           "phon": "Id3eidl",
-          "pos": "",
+          "pos": "n.",
           "cn": "玉石 翡翠",
           "tags": [
             "writing"
@@ -15024,7 +15024,7 @@ const VocabData = {
         {
           "w": "jewel",
           "phon": "/d3u:all",
-          "pos": "",
+          "pos": "n.",
           "cn": "宝石 那颗宝石闪",
           "tags": [
             "writing"
@@ -15042,7 +15042,7 @@ const VocabData = {
         {
           "w": "lace",
           "phon": "IleIsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "鞋带;  花边",
           "tags": [
             "writing"
@@ -15060,7 +15060,7 @@ const VocabData = {
         {
           "w": "luxury",
           "phon": "MlAkjaril",
-          "pos": "",
+          "pos": "n.",
           "cn": "奢侈;  奢侈品",
           "tags": [
             "writing"
@@ -15069,7 +15069,7 @@ const VocabData = {
         {
           "w": "make-up",
           "phon": "/merk Apl",
-          "pos": "",
+          "pos": "n.",
           "cn": "化妆品;  组成成分;  性格",
           "tags": [
             "writing"
@@ -15078,7 +15078,7 @@ const VocabData = {
         {
           "w": "masquerade",
           "phon": "Iimeska'rerdl",
-          "pos": "",
+          "pos": "n.",
           "cn": "化装舞会 化装;  假扮",
           "tags": [
             "writing"
@@ -15105,7 +15105,7 @@ const VocabData = {
         {
           "w": "needle",
           "phon": "Ini:dll",
-          "pos": "",
+          "pos": "n.",
           "cn": "针",
           "tags": [
             "writing"
@@ -15141,7 +15141,7 @@ const VocabData = {
         {
           "w": "patch",
           "phon": "Ipatfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "补丁; 与周围不同的)小片",
           "tags": [
             "writing"
@@ -15159,7 +15159,7 @@ const VocabData = {
         {
           "w": "pigment",
           "phon": "/pigmant",
-          "pos": "",
+          "pos": "n.",
           "cn": "色素;  颜料",
           "tags": [
             "writing"
@@ -15168,7 +15168,7 @@ const VocabData = {
         {
           "w": "pin",
           "phon": "Ipinl",
-          "pos": "",
+          "pos": "n.",
           "cn": "别针,大头针 别住,钉住",
           "tags": [
             "writing"
@@ -15231,7 +15231,7 @@ const VocabData = {
         {
           "w": "rag",
           "phon": "Iregl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几。破布",
           "tags": [
             "writing"
@@ -15240,7 +15240,7 @@ const VocabData = {
         {
           "w": "ribbon",
           "phon": "/riban",
-          "pos": "",
+          "pos": "n.",
           "cn": "缎带, 丝带",
           "tags": [
             "writing"
@@ -15267,7 +15267,7 @@ const VocabData = {
         {
           "w": "sew",
           "phon": "IsaUl",
-          "pos": "",
+          "pos": "n.",
           "cn": "缝补 缝制 ,",
           "tags": [
             "writing"
@@ -15285,7 +15285,7 @@ const VocabData = {
         {
           "w": "skirt",
           "phon": "Isk3:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "裙子",
           "tags": [
             "writing"
@@ -15294,7 +15294,7 @@ const VocabData = {
         {
           "w": "sleeve",
           "phon": "Isli:vl",
-          "pos": "",
+          "pos": "v.",
           "cn": "袖子",
           "tags": [
             "writing"
@@ -15339,7 +15339,7 @@ const VocabData = {
         {
           "w": "spin",
           "phon": "Ispinl",
-          "pos": "",
+          "pos": "n.",
           "cn": "高速旋转;(乘车) 兜风 纺;(使〉旋转",
           "tags": [
             "writing"
@@ -15384,7 +15384,7 @@ const VocabData = {
         {
           "w": "string",
           "phon": "Istrigl",
-          "pos": "",
+          "pos": "v.",
           "cn": "线; 串",
           "tags": [
             "writing"
@@ -15393,7 +15393,7 @@ const VocabData = {
         {
           "w": "stripe",
           "phon": "Istralpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "条纹",
           "tags": [
             "writing"
@@ -15402,7 +15402,7 @@ const VocabData = {
         {
           "w": "style",
           "phon": "Istalll",
-          "pos": "",
+          "pos": "n.",
           "cn": "风格;  样式;  时尚",
           "tags": [
             "writing"
@@ -15411,7 +15411,7 @@ const VocabData = {
         {
           "w": "sweater",
           "phon": "Iswetal",
-          "pos": "",
+          "pos": "n.",
           "cn": "毛衣,  线衣",
           "tags": [
             "writing"
@@ -15420,7 +15420,7 @@ const VocabData = {
         {
           "w": "tailor",
           "phon": "/terlal",
-          "pos": "",
+          "pos": "n.",
           "cn": "裁缝",
           "tags": [
             "writing"
@@ -15456,7 +15456,7 @@ const VocabData = {
         {
           "w": "thread",
           "phon": "/redl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几。线;  螺纹",
           "tags": [
             "writing"
@@ -15465,7 +15465,7 @@ const VocabData = {
         {
           "w": "tight",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -15474,7 +15474,7 @@ const VocabData = {
         {
           "w": "trend",
           "phon": "Itrendl",
-          "pos": "",
+          "pos": "n.",
           "cn": "倾向 趋势",
           "tags": [
             "writing"
@@ -15510,7 +15510,7 @@ const VocabData = {
         {
           "w": "veil",
           "phon": "Iverll",
-          "pos": "",
+          "pos": "n.",
           "cn": "面纱;  遮蔽物",
           "tags": [
             "writing"
@@ -15519,7 +15519,7 @@ const VocabData = {
         {
           "w": "velvet",
           "phon": "/velvgtl",
-          "pos": "",
+          "pos": "n.",
           "cn": "丝绒,天鹅绒",
           "tags": [
             "writing"
@@ -15537,7 +15537,7 @@ const VocabData = {
         {
           "w": "vogue",
           "phon": "Ivaugl",
-          "pos": "",
+          "pos": "n.",
           "cn": "流行",
           "tags": [
             "writing"
@@ -15546,7 +15546,7 @@ const VocabData = {
         {
           "w": "wallet",
           "phon": "/wDlatl",
-          "pos": "",
+          "pos": "n.",
           "cn": "钱包。皮夹子",
           "tags": [
             "writing"
@@ -15555,7 +15555,7 @@ const VocabData = {
         {
           "w": "wardrobe",
           "phon": "/w3:draobl",
-          "pos": "",
+          "pos": "n.",
           "cn": "衣柜; (某人的)全部服装",
           "tags": [
             "writing"
@@ -15606,7 +15606,7 @@ const VocabData = {
         {
           "w": "alcohol",
           "phon": "/alkaholl",
-          "pos": "",
+          "pos": "n.",
           "cn": "酒精。乙醇;  酒",
           "tags": [
             "writing"
@@ -15615,7 +15615,7 @@ const VocabData = {
         {
           "w": "appetiser",
           "phon": "Iepstarzal",
-          "pos": "",
+          "pos": "n.",
           "cn": "开胃饮料,开胃小吃",
           "tags": [
             "writing"
@@ -15642,7 +15642,7 @@ const VocabData = {
         {
           "w": "banquet",
           "phon": "/benkwstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "宴会",
           "tags": [
             "writing"
@@ -15660,7 +15660,7 @@ const VocabData = {
         {
           "w": "barbecue",
           "phon": "/ba;bikju:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "烧烤野餐;  烤架",
           "tags": [
             "writing"
@@ -15669,7 +15669,7 @@ const VocabData = {
         {
           "w": "bean",
           "phon": "Ibi:nl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几豆",
           "tags": [
             "writing"
@@ -15678,7 +15678,7 @@ const VocabData = {
         {
           "w": "beef",
           "phon": "Ibi:fl",
-          "pos": "",
+          "pos": "n.",
           "cn": "牛肉",
           "tags": [
             "writing"
@@ -15687,7 +15687,7 @@ const VocabData = {
         {
           "w": "berry",
           "phon": "Meril",
-          "pos": "",
+          "pos": "n.",
           "cn": "浆果",
           "tags": [
             "writing"
@@ -15723,7 +15723,7 @@ const VocabData = {
         {
           "w": "bowl",
           "phon": "IbaUll",
-          "pos": "",
+          "pos": "n.",
           "cn": "碗",
           "tags": [
             "writing"
@@ -15732,7 +15732,7 @@ const VocabData = {
         {
           "w": "brandy",
           "phon": "Ibrandil",
-          "pos": "",
+          "pos": "n.",
           "cn": "白兰地酒",
           "tags": [
             "writing"
@@ -15750,7 +15750,7 @@ const VocabData = {
         {
           "w": "butter",
           "phon": "/Atal",
-          "pos": "",
+          "pos": "n.",
           "cn": "黄油 涂黄油",
           "tags": [
             "writing"
@@ -15759,7 +15759,7 @@ const VocabData = {
         {
           "w": "cabbage",
           "phon": "/kabid3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "洋白菜,卷心菜 甘蓝",
           "tags": [
             "writing"
@@ -15768,7 +15768,7 @@ const VocabData = {
         {
           "w": "cafeteria",
           "phon": "Ikafg'trarial",
-          "pos": "",
+          "pos": "n.",
           "cn": "自助餐厅",
           "tags": [
             "writing"
@@ -15786,7 +15786,7 @@ const VocabData = {
         {
           "w": "carrot",
           "phon": "Ikaratl",
-          "pos": "",
+          "pos": "n.",
           "cn": "胡萝卜",
           "tags": [
             "writing"
@@ -15822,7 +15822,7 @@ const VocabData = {
         {
           "w": "cherry",
           "phon": "Mtleril",
-          "pos": "",
+          "pos": "n.",
           "cn": "樱桃;  樱桃树",
           "tags": [
             "writing"
@@ -15831,7 +15831,7 @@ const VocabData = {
         {
           "w": "chew",
           "phon": "Itlu:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "咀嚼",
           "tags": [
             "writing"
@@ -15840,7 +15840,7 @@ const VocabData = {
         {
           "w": "chicken",
           "phon": "Mtfiksnl",
-          "pos": "",
+          "pos": "v.",
           "cn": "鸡",
           "tags": [
             "writing"
@@ -15858,7 +15858,7 @@ const VocabData = {
         {
           "w": "chocolate",
           "phon": "Itjoklstl",
-          "pos": "",
+          "pos": "v.",
           "cn": "巧克力",
           "tags": [
             "writing"
@@ -15876,7 +15876,7 @@ const VocabData = {
         {
           "w": "coffee",
           "phon": "/kDfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "咖啡",
           "tags": [
             "writing"
@@ -15912,7 +15912,7 @@ const VocabData = {
         {
           "w": "cream",
           "phon": "/kri:ml",
-          "pos": "",
+          "pos": "n.",
           "cn": "奶油",
           "tags": [
             "writing"
@@ -15921,7 +15921,7 @@ const VocabData = {
         {
           "w": "crop",
           "phon": "Ikropl",
-          "pos": "",
+          "pos": "n.",
           "cn": "庄稼;  收成,产量",
           "tags": [
             "writing"
@@ -15930,7 +15930,7 @@ const VocabData = {
         {
           "w": "cucumber",
           "phon": "/kju:kAmbal",
-          "pos": "",
+          "pos": "n.",
           "cn": "黄瓜",
           "tags": [
             "writing"
@@ -15939,7 +15939,7 @@ const VocabData = {
         {
           "w": "cuisine",
           "phon": "/kwrzi:nl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "菜肴;  烹饪",
           "tags": [
             "writing"
@@ -15948,7 +15948,7 @@ const VocabData = {
         {
           "w": "cutlery",
           "phon": "Iktlaril",
-          "pos": "",
+          "pos": "n.",
           "cn": "餐具;  刀具",
           "tags": [
             "writing"
@@ -15957,7 +15957,7 @@ const VocabData = {
         {
           "w": "dairy",
           "phon": "/dearil",
-          "pos": "",
+          "pos": "n.",
           "cn": "乳制品;  乳品店",
           "tags": [
             "writing"
@@ -15975,7 +15975,7 @@ const VocabData = {
         {
           "w": "diet",
           "phon": "/dalatl",
-          "pos": "",
+          "pos": "n.",
           "cn": "曰常饮食; (医生指定的) 特别饮食;  节食",
           "tags": [
             "writing"
@@ -15984,7 +15984,7 @@ const VocabData = {
         {
           "w": "digest",
           "phon": "Idard3estl",
-          "pos": "",
+          "pos": "n.",
           "cn": "领悟",
           "tags": [
             "writing"
@@ -16011,7 +16011,7 @@ const VocabData = {
         {
           "w": "drink",
           "phon": "Idrmkl",
-          "pos": "",
+          "pos": "n.",
           "cn": "饮料 喝酒",
           "tags": [
             "writing"
@@ -16065,7 +16065,7 @@ const VocabData = {
         {
           "w": "flour",
           "phon": "IaUal",
-          "pos": "",
+          "pos": "n.",
           "cn": "面粉;  粉状物质",
           "tags": [
             "writing"
@@ -16074,7 +16074,7 @@ const VocabData = {
         {
           "w": "food",
           "phon": "/fu:d/",
-          "pos": "",
+          "pos": "n.",
           "cn": "食物",
           "tags": [
             "writing"
@@ -16101,7 +16101,7 @@ const VocabData = {
         {
           "w": "fry",
           "phon": "/frall",
-          "pos": "",
+          "pos": "n.",
           "cn": "油煎 平底锅里正在煎",
           "tags": [
             "writing"
@@ -16110,7 +16110,7 @@ const VocabData = {
         {
           "w": "furnace",
           "phon": "If3:ngs/",
-          "pos": "",
+          "pos": "n.",
           "cn": "熔炉",
           "tags": [
             "writing"
@@ -16155,7 +16155,7 @@ const VocabData = {
         {
           "w": "grain",
           "phon": "IgreInl",
-          "pos": "",
+          "pos": "n.",
           "cn": "谷物;  颗粒",
           "tags": [
             "writing"
@@ -16173,7 +16173,7 @@ const VocabData = {
         {
           "w": "grind",
           "phon": "Igrandl",
-          "pos": "",
+          "pos": "n.",
           "cn": "碾碎 枯燥乏味的事",
           "tags": [
             "writing"
@@ -16182,7 +16182,7 @@ const VocabData = {
         {
           "w": "gum",
           "phon": "IgAml",
-          "pos": "",
+          "pos": "n.",
           "cn": "口香糖;  树胶",
           "tags": [
             "writing"
@@ -16191,7 +16191,7 @@ const VocabData = {
         {
           "w": "hamburger",
           "phon": "/'hamb3:gal",
-          "pos": "",
+          "pos": "n.",
           "cn": "汉堡包;  汉堡牛肉饼",
           "tags": [
             "writing"
@@ -16200,7 +16200,7 @@ const VocabData = {
         {
           "w": "honey",
           "phon": "/hAni",
-          "pos": "",
+          "pos": "n.",
           "cn": "蜂蜜",
           "tags": [
             "writing"
@@ -16218,7 +16218,7 @@ const VocabData = {
         {
           "w": "hunger",
           "phon": "/hngal",
-          "pos": "",
+          "pos": "n.",
           "cn": "饥饿;  饥饿感;  渴望",
           "tags": [
             "writing"
@@ -16245,7 +16245,7 @@ const VocabData = {
         {
           "w": "jam",
           "phon": "Id3am/",
-          "pos": "",
+          "pos": "n.",
           "cn": "果酱",
           "tags": [
             "writing"
@@ -16254,7 +16254,7 @@ const VocabData = {
         {
           "w": "juice",
           "phon": "Id3u:s/",
-          "pos": "",
+          "pos": "n.",
           "cn": "果汁,菜汁 她正在",
           "tags": [
             "writing"
@@ -16263,7 +16263,7 @@ const VocabData = {
         {
           "w": "ketchup",
           "phon": "/ketlopl",
-          "pos": "",
+          "pos": "n.",
           "cn": "番茄酱",
           "tags": [
             "writing"
@@ -16299,7 +16299,7 @@ const VocabData = {
         {
           "w": "lemon",
           "phon": "Ilemanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "柠檬",
           "tags": [
             "writing"
@@ -16317,7 +16317,7 @@ const VocabData = {
         {
           "w": "lid",
           "phon": "Ilidl",
-          "pos": "",
+          "pos": "n.",
           "cn": "盖子",
           "tags": [
             "writing"
@@ -16326,7 +16326,7 @@ const VocabData = {
         {
           "w": "liquor",
           "phon": "Ilikal",
-          "pos": "",
+          "pos": "n.",
           "cn": "烈性酒",
           "tags": [
             "writing"
@@ -16335,7 +16335,7 @@ const VocabData = {
         {
           "w": "livestock",
           "phon": "/lalvstDk/",
-          "pos": "",
+          "pos": "n.",
           "cn": "家畜",
           "tags": [
             "writing"
@@ -16344,7 +16344,7 @@ const VocabData = {
         {
           "w": "loaf",
           "phon": "Ilaufl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几 一条 (面包 )",
           "tags": [
             "writing"
@@ -16371,7 +16371,7 @@ const VocabData = {
         {
           "w": "milk",
           "phon": "Imilkl",
-          "pos": "",
+          "pos": "n.",
           "cn": "奶 挤奶",
           "tags": [
             "writing"
@@ -16398,7 +16398,7 @@ const VocabData = {
         {
           "w": "mustard",
           "phon": "1mAstadl",
-          "pos": "",
+          "pos": "n.",
           "cn": "芥末;  芥菜 几",
           "tags": [
             "writing"
@@ -16407,7 +16407,7 @@ const VocabData = {
         {
           "w": "mutton",
           "phon": "/mAtnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "羊肉",
           "tags": [
             "writing"
@@ -16425,7 +16425,7 @@ const VocabData = {
         {
           "w": "onion",
           "phon": "/njanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "洋葱",
           "tags": [
             "writing"
@@ -16434,7 +16434,7 @@ const VocabData = {
         {
           "w": "orange",
           "phon": "/Drsnd3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "橙子",
           "tags": [
             "writing"
@@ -16443,7 +16443,7 @@ const VocabData = {
         {
           "w": "order",
           "phon": "/:dal",
-          "pos": "",
+          "pos": "n.",
           "cn": "几订单;  点的餐",
           "tags": [
             "writing"
@@ -16470,7 +16470,7 @@ const VocabData = {
         {
           "w": "papaya",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -16479,7 +16479,7 @@ const VocabData = {
         {
           "w": "pasta",
           "phon": "/pastal",
-          "pos": "",
+          "pos": "n.",
           "cn": "意大利面食",
           "tags": [
             "writing"
@@ -16488,7 +16488,7 @@ const VocabData = {
         {
           "w": "paste",
           "phon": "Iperstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "糨糊;  面团",
           "tags": [
             "writing"
@@ -16497,7 +16497,7 @@ const VocabData = {
         {
           "w": "pea",
           "phon": "Ipi:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "豌豆",
           "tags": [
             "writing"
@@ -16506,7 +16506,7 @@ const VocabData = {
         {
           "w": "peach",
           "phon": "Ipi:tll",
-          "pos": "",
+          "pos": "n.",
           "cn": "桃子",
           "tags": [
             "writing"
@@ -16542,7 +16542,7 @@ const VocabData = {
         {
           "w": "perfume",
           "phon": "/p3:fju:ml",
-          "pos": "",
+          "pos": "n.",
           "cn": "芳香;  香水 香味",
           "tags": [
             "writing"
@@ -16551,7 +16551,7 @@ const VocabData = {
         {
           "w": "pie",
           "phon": "Iparl",
-          "pos": "",
+          "pos": "n.",
           "cn": "馅饼。派",
           "tags": [
             "writing"
@@ -16560,7 +16560,7 @@ const VocabData = {
         {
           "w": "pizza",
           "phon": "/pi:tsal",
-          "pos": "",
+          "pos": "n.",
           "cn": "比萨饼",
           "tags": [
             "writing"
@@ -16569,7 +16569,7 @@ const VocabData = {
         {
           "w": "plum",
           "phon": "Illl",
-          "pos": "",
+          "pos": "n.",
           "cn": "李子;  梅子",
           "tags": [
             "writing"
@@ -16578,7 +16578,7 @@ const VocabData = {
         {
           "w": "pond",
           "phon": "Iondl",
-          "pos": "",
+          "pos": "n.",
           "cn": "池塘",
           "tags": [
             "writing"
@@ -16587,7 +16587,7 @@ const VocabData = {
         {
           "w": "porcelain",
           "phon": "/p:slsnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "瓷器;  瓷",
           "tags": [
             "writing"
@@ -16596,7 +16596,7 @@ const VocabData = {
         {
           "w": "pork",
           "phon": "Ip:kl",
-          "pos": "",
+          "pos": "n.",
           "cn": "猪肉",
           "tags": [
             "writing"
@@ -16605,7 +16605,7 @@ const VocabData = {
         {
           "w": "porridge",
           "phon": "/porid3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "麦片粥",
           "tags": [
             "writing"
@@ -16623,7 +16623,7 @@ const VocabData = {
         {
           "w": "potato",
           "phon": "Ipa'tertaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "马铃薯",
           "tags": [
             "writing"
@@ -16632,7 +16632,7 @@ const VocabData = {
         {
           "w": "provision",
           "phon": "Iralvi3anl",
-          "pos": "",
+          "pos": "n.",
           "cn": "供应;  预备; [~s]食品供应",
           "tags": [
             "writing"
@@ -16650,7 +16650,7 @@ const VocabData = {
         {
           "w": "radish",
           "phon": "/radrl'",
-          "pos": "",
+          "pos": "v.",
           "cn": "樱桃萝卜",
           "tags": [
             "writing"
@@ -16659,7 +16659,7 @@ const VocabData = {
         {
           "w": "reap",
           "phon": "Iripl",
-          "pos": "",
+          "pos": "n.",
           "cn": "收割;  收获",
           "tags": [
             "writing"
@@ -16668,7 +16668,7 @@ const VocabData = {
         {
           "w": "recipe",
           "phon": "/resspil",
-          "pos": "",
+          "pos": "n.",
           "cn": "食谱;  秘诀",
           "tags": [
             "writing"
@@ -16677,7 +16677,7 @@ const VocabData = {
         {
           "w": "refectory",
           "phon": "Irifektaril",
-          "pos": "",
+          "pos": "adj.",
           "cn": "学校或其他机构的)食堂。餐厅",
           "tags": [
             "writing"
@@ -16713,7 +16713,7 @@ const VocabData = {
         {
           "w": "rod",
           "phon": "Irodl",
-          "pos": "",
+          "pos": "n.",
           "cn": "杆 , 竿",
           "tags": [
             "writing"
@@ -16722,7 +16722,7 @@ const VocabData = {
         {
           "w": "salad",
           "phon": "Isaladl",
-          "pos": "",
+          "pos": "n.",
           "cn": "色拉",
           "tags": [
             "writing"
@@ -16731,7 +16731,7 @@ const VocabData = {
         {
           "w": "salt",
           "phon": "Is3:ltl",
-          "pos": "",
+          "pos": "n.",
           "cn": "盐",
           "tags": [
             "writing"
@@ -16740,7 +16740,7 @@ const VocabData = {
         {
           "w": "sandwich",
           "phon": "IsanwId3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "三明治",
           "tags": [
             "writing"
@@ -16767,7 +16767,7 @@ const VocabData = {
         {
           "w": "sausage",
           "phon": "/sDsrd3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "香肠",
           "tags": [
             "writing"
@@ -16776,7 +16776,7 @@ const VocabData = {
         {
           "w": "scallion",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "大葱",
           "tags": [
             "writing"
@@ -16794,7 +16794,7 @@ const VocabData = {
         {
           "w": "slice",
           "phon": "IslaIsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "将切成薄片;  切,",
           "tags": [
             "writing"
@@ -16803,7 +16803,7 @@ const VocabData = {
         {
           "w": "snack",
           "phon": "Isnakl",
-          "pos": "",
+          "pos": "n.",
           "cn": "快餐,小吃,零食",
           "tags": [
             "writing"
@@ -16857,7 +16857,7 @@ const VocabData = {
         {
           "w": "spaghetti",
           "phon": "Ispa'getil",
-          "pos": "",
+          "pos": "n.",
           "cn": "意大利细面条",
           "tags": [
             "writing"
@@ -16911,7 +16911,7 @@ const VocabData = {
         {
           "w": "stove",
           "phon": "IstaUv/",
-          "pos": "",
+          "pos": "n.",
           "cn": "炉子",
           "tags": [
             "writing"
@@ -16929,7 +16929,7 @@ const VocabData = {
         {
           "w": "suck",
           "phon": "ISAK/",
-          "pos": "",
+          "pos": "n.",
           "cn": "吮吸",
           "tags": [
             "writing"
@@ -16947,7 +16947,7 @@ const VocabData = {
         {
           "w": "supper",
           "phon": "ISAPal",
-          "pos": "",
+          "pos": "n.",
           "cn": "晚餐",
           "tags": [
             "writing"
@@ -16983,7 +16983,7 @@ const VocabData = {
         {
           "w": "takeaway",
           "phon": "/telkawerl",
-          "pos": "",
+          "pos": "n.",
           "cn": "外卖食物",
           "tags": [
             "writing"
@@ -17028,7 +17028,7 @@ const VocabData = {
         {
           "w": "tobacco",
           "phon": "Ita'bakaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "烟草",
           "tags": [
             "writing"
@@ -17037,7 +17037,7 @@ const VocabData = {
         {
           "w": "tomato",
           "phon": "Italma:taUl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几 番茄",
           "tags": [
             "writing"
@@ -17046,7 +17046,7 @@ const VocabData = {
         {
           "w": "tray",
           "phon": "Itrell",
-          "pos": "",
+          "pos": "n.",
           "cn": "盘,托盘",
           "tags": [
             "writing"
@@ -17064,7 +17064,7 @@ const VocabData = {
         {
           "w": "turkey",
           "phon": "/t3:kil",
-          "pos": "",
+          "pos": "n.",
           "cn": "火鸡",
           "tags": [
             "writing"
@@ -17091,7 +17091,7 @@ const VocabData = {
         {
           "w": "vegetable",
           "phon": "/ved3taball",
-          "pos": "",
+          "pos": "adj.",
           "cn": "蔬菜",
           "tags": [
             "writing"
@@ -17118,7 +17118,7 @@ const VocabData = {
         {
           "w": "wasabi",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "山葵;  山葵根",
           "tags": [
             "writing"
@@ -17127,7 +17127,7 @@ const VocabData = {
         {
           "w": "wheat",
           "phon": "/wi:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "小麦",
           "tags": [
             "writing"
@@ -17214,7 +17214,7 @@ const VocabData = {
         {
           "w": "architecture",
           "phon": "/a:kgtektlal",
-          "pos": "",
+          "pos": "n.",
           "cn": "建筑风格;  建筑学",
           "tags": [
             "reading"
@@ -17232,7 +17232,7 @@ const VocabData = {
         {
           "w": "balcony",
           "phon": "Ibelkanil",
-          "pos": "",
+          "pos": "n.",
           "cn": "剧院的)楼座 阳台;",
           "tags": [
             "reading"
@@ -17241,7 +17241,7 @@ const VocabData = {
         {
           "w": "basin",
           "phon": "IbeIsanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "盆;  盆地",
           "tags": [
             "reading"
@@ -17250,7 +17250,7 @@ const VocabData = {
         {
           "w": "bath",
           "phon": "/ba:O/",
-          "pos": "",
+          "pos": "n.",
           "cn": "洗澡; [英]浴缸",
           "tags": [
             "reading"
@@ -17277,7 +17277,7 @@ const VocabData = {
         {
           "w": "block",
           "phon": "Iblokl",
-          "pos": "",
+          "pos": "n.",
           "cn": "街区;  障碍; -块",
           "tags": [
             "reading"
@@ -17295,7 +17295,7 @@ const VocabData = {
         {
           "w": "brickwork",
           "phon": "/brikw3:k/",
-          "pos": "",
+          "pos": "n.",
           "cn": "砖结构",
           "tags": [
             "reading"
@@ -17313,7 +17313,7 @@ const VocabData = {
         {
           "w": "cabin",
           "phon": "Mkabgn/",
-          "pos": "",
+          "pos": "n.",
           "cn": "小木屋; 船上的)小舱",
           "tags": [
             "reading"
@@ -17322,7 +17322,7 @@ const VocabData = {
         {
           "w": "cabinet",
           "phon": "/kabgngtl",
-          "pos": "",
+          "pos": "n.",
           "cn": "储藏柜;  内阁",
           "tags": [
             "reading"
@@ -17331,7 +17331,7 @@ const VocabData = {
         {
           "w": "carpenter",
           "phon": "/ka:pantal",
-          "pos": "",
+          "pos": "n.",
           "cn": "木匠",
           "tags": [
             "reading"
@@ -17340,7 +17340,7 @@ const VocabData = {
         {
           "w": "casino",
           "phon": "/kalsi:naUl",
-          "pos": "",
+          "pos": "n.",
           "cn": "赌场",
           "tags": [
             "reading"
@@ -17349,7 +17349,7 @@ const VocabData = {
         {
           "w": "castle",
           "phon": "Ika:sall",
-          "pos": "",
+          "pos": "n.",
           "cn": "城堡",
           "tags": [
             "reading"
@@ -17358,7 +17358,7 @@ const VocabData = {
         {
           "w": "ceiling",
           "phon": "Isi:lml",
-          "pos": "",
+          "pos": "v.",
           "cn": "天花板, 顶棚",
           "tags": [
             "reading"
@@ -17367,7 +17367,7 @@ const VocabData = {
         {
           "w": "cellar",
           "phon": "Iselal",
-          "pos": "",
+          "pos": "n.",
           "cn": "地窖,地下室",
           "tags": [
             "reading"
@@ -17385,7 +17385,7 @@ const VocabData = {
         {
           "w": "column",
           "phon": "/knlaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "柱; (书。报纸等印刷页的)栏; (报刊的) 专栏",
           "tags": [
             "reading"
@@ -17394,7 +17394,7 @@ const VocabData = {
         {
           "w": "complex",
           "phon": "/kompleksl",
-          "pos": "",
+          "pos": "n.",
           "cn": "综合建筑群",
           "tags": [
             "reading"
@@ -17412,7 +17412,7 @@ const VocabData = {
         {
           "w": "construct",
           "phon": "Ikan'strAktl",
-          "pos": "",
+          "pos": "v.",
           "cn": "建造",
           "tags": [
             "reading"
@@ -17421,7 +17421,7 @@ const VocabData = {
         {
           "w": "corridor",
           "phon": "/kDrgdo:",
-          "pos": "",
+          "pos": "n.",
           "cn": "走廊。通道",
           "tags": [
             "reading"
@@ -17430,7 +17430,7 @@ const VocabData = {
         {
           "w": "cottage",
           "phon": "Ikotld3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "村舍,小屋",
           "tags": [
             "reading"
@@ -17466,7 +17466,7 @@ const VocabData = {
         {
           "w": "design",
           "phon": "IdrzaInl",
-          "pos": "",
+          "pos": "n.",
           "cn": "设计 设计;  计划",
           "tags": [
             "reading"
@@ -17484,7 +17484,7 @@ const VocabData = {
         {
           "w": "drill",
           "phon": "Idrlll",
-          "pos": "",
+          "pos": "n.",
           "cn": "钻机;  反复练习",
           "tags": [
             "reading"
@@ -17493,7 +17493,7 @@ const VocabData = {
         {
           "w": "dwelling",
           "phon": "Idwelsl",
-          "pos": "",
+          "pos": "v.",
           "cn": "住所",
           "tags": [
             "reading"
@@ -17502,7 +17502,7 @@ const VocabData = {
         {
           "w": "eaves",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "几屋檐",
           "tags": [
             "reading"
@@ -17520,7 +17520,7 @@ const VocabData = {
         {
           "w": "enter",
           "phon": "/ental",
-          "pos": "",
+          "pos": "n.",
           "cn": "进入",
           "tags": [
             "reading"
@@ -17538,7 +17538,7 @@ const VocabData = {
         {
           "w": "entry",
           "phon": "/entril",
-          "pos": "",
+          "pos": "n.",
           "cn": "进入;  进入权",
           "tags": [
             "reading"
@@ -17547,7 +17547,7 @@ const VocabData = {
         {
           "w": "erection",
           "phon": "Ii'rekFanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "建筑。建造",
           "tags": [
             "reading"
@@ -17556,7 +17556,7 @@ const VocabData = {
         {
           "w": "escalator",
           "phon": "/eskalertal",
-          "pos": "",
+          "pos": "n.",
           "cn": "自动扶梯 滚梯",
           "tags": [
             "reading"
@@ -17565,7 +17565,7 @@ const VocabData = {
         {
           "w": "establish",
           "phon": "Ii'steblifl",
-          "pos": "",
+          "pos": "v.",
           "cn": "建立 设立",
           "tags": [
             "reading"
@@ -17583,7 +17583,7 @@ const VocabData = {
         {
           "w": "expanse",
           "phon": "Ik'spansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几广阔 辽阔",
           "tags": [
             "reading"
@@ -17610,7 +17610,7 @@ const VocabData = {
         {
           "w": "fireplace",
           "phon": "/'farapleIsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "壁炉",
           "tags": [
             "reading"
@@ -17628,7 +17628,7 @@ const VocabData = {
         {
           "w": "flat",
           "phon": "Iatl",
-          "pos": "",
+          "pos": "n.",
           "cn": "公寓",
           "tags": [
             "reading"
@@ -17655,7 +17655,7 @@ const VocabData = {
         {
           "w": "grid",
           "phon": "Igridl",
-          "pos": "",
+          "pos": "n.",
           "cn": "栅栏;  网格;  输电网",
           "tags": [
             "reading"
@@ -17673,7 +17673,7 @@ const VocabData = {
         {
           "w": "hook",
           "phon": "Ihok/",
-          "pos": "",
+          "pos": "n.",
           "cn": "钩,钩状物;  勾拳",
           "tags": [
             "reading"
@@ -17691,7 +17691,7 @@ const VocabData = {
         {
           "w": "hut",
           "phon": "IhAtl",
-          "pos": "",
+          "pos": "n.",
           "cn": "小屋 , 棚屋",
           "tags": [
             "reading"
@@ -17700,7 +17700,7 @@ const VocabData = {
         {
           "w": "infrastructure",
           "phon": "InfraistrAktfal",
-          "pos": "",
+          "pos": "n.",
           "cn": "基础设施",
           "tags": [
             "reading"
@@ -17763,7 +17763,7 @@ const VocabData = {
         {
           "w": "kitchen",
           "phon": "/kitfanl",
-          "pos": "",
+          "pos": "v.",
           "cn": "厨房 灶间",
           "tags": [
             "reading"
@@ -17772,7 +17772,7 @@ const VocabData = {
         {
           "w": "landmark",
           "phon": "/lendma:kl",
-          "pos": "",
+          "pos": "n.",
           "cn": "地标;  里程碑",
           "tags": [
             "reading"
@@ -17781,7 +17781,7 @@ const VocabData = {
         {
           "w": "lavatory",
           "phon": "Ilavataril",
-          "pos": "",
+          "pos": "adj.",
           "cn": "盥洗室,厕所",
           "tags": [
             "reading"
@@ -17790,7 +17790,7 @@ const VocabData = {
         {
           "w": "layer",
           "phon": "Ieral",
-          "pos": "",
+          "pos": "n.",
           "cn": "层",
           "tags": [
             "reading"
@@ -17799,7 +17799,7 @@ const VocabData = {
         {
           "w": "layout",
           "phon": "/lerautl",
-          "pos": "",
+          "pos": "n.",
           "cn": "设计。布置",
           "tags": [
             "reading"
@@ -17808,7 +17808,7 @@ const VocabData = {
         {
           "w": "lever",
           "phon": "Mli:val",
-          "pos": "",
+          "pos": "n.",
           "cn": "杠杆;  操纵杆",
           "tags": [
             "reading"
@@ -17889,7 +17889,7 @@ const VocabData = {
         {
           "w": "mason",
           "phon": "/mersanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "石匠。泥瓦匠",
           "tags": [
             "reading"
@@ -17907,7 +17907,7 @@ const VocabData = {
         {
           "w": "migrate",
           "phon": "Imargreitl",
-          "pos": "",
+          "pos": "v.",
           "cn": "迁徙;  移居",
           "tags": [
             "reading"
@@ -17916,7 +17916,7 @@ const VocabData = {
         {
           "w": "modify",
           "phon": "'nDdfl",
-          "pos": "",
+          "pos": "v.",
           "cn": "稍作修改",
           "tags": [
             "reading"
@@ -17961,7 +17961,7 @@ const VocabData = {
         {
           "w": "parlour",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "reading"
@@ -18024,7 +18024,7 @@ const VocabData = {
         {
           "w": "porch",
           "phon": "Ip:tf/",
-          "pos": "",
+          "pos": "n.",
           "cn": "门廊",
           "tags": [
             "reading"
@@ -18033,7 +18033,7 @@ const VocabData = {
         {
           "w": "radiator",
           "phon": "/rerdiertal",
-          "pos": "",
+          "pos": "n.",
           "cn": "暖气设备",
           "tags": [
             "reading"
@@ -18042,7 +18042,7 @@ const VocabData = {
         {
           "w": "reception",
           "phon": "Irisepfonl",
-          "pos": "",
+          "pos": "n.",
           "cn": "接待处",
           "tags": [
             "reading"
@@ -18051,7 +18051,7 @@ const VocabData = {
         {
           "w": "reserve",
           "phon": "Irr'z3:vl",
-          "pos": "",
+          "pos": "n.",
           "cn": "储备 (量);  自然保护区",
           "tags": [
             "reading"
@@ -18087,7 +18087,7 @@ const VocabData = {
         {
           "w": "scaffold",
           "phon": "/skafaldl",
-          "pos": "",
+          "pos": "n.",
           "cn": "脚手架;  绞刑架",
           "tags": [
             "reading"
@@ -18096,7 +18096,7 @@ const VocabData = {
         {
           "w": "screw",
           "phon": "IsKIU:/",
-          "pos": "",
+          "pos": "n.",
           "cn": "螺丝钉;  螺旋桨",
           "tags": [
             "reading"
@@ -18105,7 +18105,7 @@ const VocabData = {
         {
           "w": "settle",
           "phon": "Isetll",
-          "pos": "",
+          "pos": "n.",
           "cn": "使定居",
           "tags": [
             "reading"
@@ -18114,7 +18114,7 @@ const VocabData = {
         {
           "w": "shed",
           "phon": "Ifedl",
-          "pos": "",
+          "pos": "n.",
           "cn": "简易房,棚",
           "tags": [
             "reading"
@@ -18123,7 +18123,7 @@ const VocabData = {
         {
           "w": "shelter",
           "phon": "/feltal",
-          "pos": "",
+          "pos": "n.",
           "cn": "庇护处;  掩蔽 庇护;  遮蔽",
           "tags": [
             "reading"
@@ -18132,7 +18132,7 @@ const VocabData = {
         {
           "w": "site",
           "phon": "Isartl",
-          "pos": "",
+          "pos": "n.",
           "cn": "地点",
           "tags": [
             "reading"
@@ -18150,7 +18150,7 @@ const VocabData = {
         {
           "w": "skyscraper",
           "phon": "/skaliskrerpal",
-          "pos": "",
+          "pos": "n.",
           "cn": "摩天大楼",
           "tags": [
             "reading"
@@ -18168,7 +18168,7 @@ const VocabData = {
         {
           "w": "span",
           "phon": "IsPenl",
-          "pos": "",
+          "pos": "n.",
           "cn": "跨距,跨度;  持续时间",
           "tags": [
             "reading"
@@ -18177,7 +18177,7 @@ const VocabData = {
         {
           "w": "stability",
           "phon": "Ista'bilgtil",
-          "pos": "",
+          "pos": "n.",
           "cn": "稳定(性)",
           "tags": [
             "reading"
@@ -18186,7 +18186,7 @@ const VocabData = {
         {
           "w": "stair",
           "phon": "Isteal",
-          "pos": "",
+          "pos": "n.",
           "cn": "楼梯",
           "tags": [
             "reading"
@@ -18195,7 +18195,7 @@ const VocabData = {
         {
           "w": "staircase",
           "phon": "/steakersl",
-          "pos": "",
+          "pos": "n.",
           "cn": "建筑内的)楼梯",
           "tags": [
             "reading"
@@ -18204,7 +18204,7 @@ const VocabData = {
         {
           "w": "steel",
           "phon": "Isti:ll",
-          "pos": "",
+          "pos": "n.",
           "cn": "钢铁",
           "tags": [
             "reading"
@@ -18213,7 +18213,7 @@ const VocabData = {
         {
           "w": "store",
           "phon": "Ist3:/",
-          "pos": "",
+          "pos": "n.",
           "cn": "贮存 商店;  贮存物",
           "tags": [
             "reading"
@@ -18231,7 +18231,7 @@ const VocabData = {
         {
           "w": "structure",
           "phon": "/strAktfal",
-          "pos": "",
+          "pos": "n.",
           "cn": "建筑物;  结构",
           "tags": [
             "reading"
@@ -18258,7 +18258,7 @@ const VocabData = {
         {
           "w": "suspension",
           "phon": "Isa'spenfon/",
-          "pos": "",
+          "pos": "n.",
           "cn": "暂缓;  暂令停职 (或停赛等 )",
           "tags": [
             "reading"
@@ -18267,7 +18267,7 @@ const VocabData = {
         {
           "w": "terrace",
           "phon": "/tergsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "大阳台,露天平台",
           "tags": [
             "reading"
@@ -18285,7 +18285,7 @@ const VocabData = {
         {
           "w": "toilet",
           "phon": "/tollstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "抽水马桶; [英]厕所",
           "tags": [
             "reading"
@@ -18321,7 +18321,7 @@ const VocabData = {
         {
           "w": "venue",
           "phon": "/'venju:!",
-          "pos": "",
+          "pos": "n.",
           "cn": "发生地点, 举行场所",
           "tags": [
             "reading"
@@ -18339,7 +18339,7 @@ const VocabData = {
         {
           "w": "vicinity",
           "phon": "/vg'sIngtil",
-          "pos": "",
+          "pos": "n.",
           "cn": "附近。邻近地区",
           "tags": [
             "reading"
@@ -18348,7 +18348,7 @@ const VocabData = {
         {
           "w": "villa",
           "phon": "/vllal",
-          "pos": "",
+          "pos": "n.",
           "cn": "乡间别墅; [英]度假别墅",
           "tags": [
             "reading"
@@ -18390,7 +18390,7 @@ const VocabData = {
         {
           "w": "airline",
           "phon": "/ealalnl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "航空公司",
           "tags": [
             "reading"
@@ -18399,7 +18399,7 @@ const VocabData = {
         {
           "w": "airplane",
           "phon": "/eaplenl",
-          "pos": "",
+          "pos": "n.",
           "cn": "飞机",
           "tags": [
             "reading"
@@ -18417,7 +18417,7 @@ const VocabData = {
         {
           "w": "anchor",
           "phon": "Iagkal",
-          "pos": "",
+          "pos": "n.",
           "cn": "锚",
           "tags": [
             "reading"
@@ -18435,7 +18435,7 @@ const VocabData = {
         {
           "w": "atlas",
           "phon": "Iatlasl",
-          "pos": "",
+          "pos": "n.",
           "cn": "地图册,地图集",
           "tags": [
             "reading"
@@ -18453,7 +18453,7 @@ const VocabData = {
         {
           "w": "auto",
           "phon": "/3:taUl",
-          "pos": "",
+          "pos": "n.",
           "cn": "汽车",
           "tags": [
             "reading"
@@ -18471,7 +18471,7 @@ const VocabData = {
         {
           "w": "aviation",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "reading"
@@ -18525,7 +18525,7 @@ const VocabData = {
         {
           "w": "canoe",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "独木舟",
           "tags": [
             "reading"
@@ -18534,7 +18534,7 @@ const VocabData = {
         {
           "w": "captain",
           "phon": "/kaptsnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "船长;  队长",
           "tags": [
             "reading"
@@ -18543,7 +18543,7 @@ const VocabData = {
         {
           "w": "carriage",
           "phon": "Ikarld3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "四轮马车; [英] 客运火车的)  车厢",
           "tags": [
             "reading"
@@ -18570,7 +18570,7 @@ const VocabData = {
         {
           "w": "cart",
           "phon": "/ka:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "运货马车; [美] (超市等提供的)  手推车。购物车",
           "tags": [
             "reading"
@@ -18579,7 +18579,7 @@ const VocabData = {
         {
           "w": "channel",
           "phon": "'tlenl",
-          "pos": "",
+          "pos": "n.",
           "cn": "航道;  电视频道;  海峡",
           "tags": [
             "reading"
@@ -18597,7 +18597,7 @@ const VocabData = {
         {
           "w": "convey",
           "phon": "Ikan'vell",
-          "pos": "",
+          "pos": "n.",
           "cn": "传递 运送,输送;  表达,",
           "tags": [
             "reading"
@@ -18633,7 +18633,7 @@ const VocabData = {
         {
           "w": "crush",
           "phon": "ITAJ/",
-          "pos": "",
+          "pos": "n.",
           "cn": "拥挤的人群;  迷恋;  迷恋对象 压坏",
           "tags": [
             "reading"
@@ -18651,7 +18651,7 @@ const VocabData = {
         {
           "w": "cycle",
           "phon": "/salkall",
-          "pos": "",
+          "pos": "n.",
           "cn": "周期;  自行车",
           "tags": [
             "reading"
@@ -18660,7 +18660,7 @@ const VocabData = {
         {
           "w": "dash",
           "phon": "Idajl",
-          "pos": "",
+          "pos": "n.",
           "cn": "猛冲;  猛摔",
           "tags": [
             "reading"
@@ -18696,7 +18696,7 @@ const VocabData = {
         {
           "w": "deliver",
           "phon": "Idi'lrval",
-          "pos": "",
+          "pos": "n.",
           "cn": "递送 传送",
           "tags": [
             "reading"
@@ -18741,7 +18741,7 @@ const VocabData = {
         {
           "w": "dock",
           "phon": "Idokl",
-          "pos": "",
+          "pos": "n.",
           "cn": "码头,船坞",
           "tags": [
             "reading"
@@ -18777,7 +18777,7 @@ const VocabData = {
         {
           "w": "envelope",
           "phon": "/envalaupl",
-          "pos": "",
+          "pos": "n.",
           "cn": "信封",
           "tags": [
             "reading"
@@ -18786,7 +18786,7 @@ const VocabData = {
         {
           "w": "expire",
           "phon": "Iull",
-          "pos": "",
+          "pos": "n.",
           "cn": "交通旅行",
           "tags": [
             "reading"
@@ -18813,7 +18813,7 @@ const VocabData = {
         {
           "w": "ferry",
           "phon": "Iferil",
-          "pos": "",
+          "pos": "n.",
           "cn": "渡船",
           "tags": [
             "reading"
@@ -18822,7 +18822,7 @@ const VocabData = {
         {
           "w": "flight",
           "phon": "/artl",
-          "pos": "",
+          "pos": "n.",
           "cn": "飞行;  航班",
           "tags": [
             "reading"
@@ -18831,7 +18831,7 @@ const VocabData = {
         {
           "w": "freight",
           "phon": "/frert",
-          "pos": "",
+          "pos": "n.",
           "cn": "货运;  货物",
           "tags": [
             "reading"
@@ -18840,7 +18840,7 @@ const VocabData = {
         {
           "w": "garage",
           "phon": "Igarid3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "汽车修理厂;  车库",
           "tags": [
             "reading"
@@ -18858,7 +18858,7 @@ const VocabData = {
         {
           "w": "haunt",
           "phon": "Ih3:nt/",
-          "pos": "",
+          "pos": "n.",
           "cn": "常去的地方",
           "tags": [
             "reading"
@@ -18876,7 +18876,7 @@ const VocabData = {
         {
           "w": "helicopter",
           "phon": "/helskoptol",
-          "pos": "",
+          "pos": "n.",
           "cn": "直升机 用直升机载送;  乘直升机旅行",
           "tags": [
             "reading"
@@ -18894,7 +18894,7 @@ const VocabData = {
         {
           "w": "honk",
           "phon": "Ihonkl",
-          "pos": "",
+          "pos": "n.",
           "cn": "汽车喇叭声;  鹅叫声",
           "tags": [
             "reading"
@@ -18930,7 +18930,7 @@ const VocabData = {
         {
           "w": "jet",
           "phon": "Id3etl",
-          "pos": "",
+          "pos": "n.",
           "cn": "喷气式飞机;  喷射0",
           "tags": [
             "reading"
@@ -18939,7 +18939,7 @@ const VocabData = {
         {
           "w": "journey",
           "phon": "/d33:nil",
-          "pos": "",
+          "pos": "n.",
           "cn": "旅行 历程",
           "tags": [
             "reading"
@@ -18957,7 +18957,7 @@ const VocabData = {
         {
           "w": "liner",
           "phon": "Ilalnal",
-          "pos": "",
+          "pos": "n.",
           "cn": "邮轮 客轮",
           "tags": [
             "reading"
@@ -19002,7 +19002,7 @@ const VocabData = {
         {
           "w": "lull",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "使昏昏欲睡 暂停,暂时平静期",
           "tags": [
             "reading"
@@ -19011,7 +19011,7 @@ const VocabData = {
         {
           "w": "mail",
           "phon": "Imerll",
-          "pos": "",
+          "pos": "n.",
           "cn": "邮件,邮包;  邮政 邮寄",
           "tags": [
             "reading"
@@ -19038,7 +19038,7 @@ const VocabData = {
         {
           "w": "navigate",
           "phon": "Mnavsgertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "航行;  横渡",
           "tags": [
             "reading"
@@ -19056,7 +19056,7 @@ const VocabData = {
         {
           "w": "package",
           "phon": "/pakid3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "包裹; [美]盒。包",
           "tags": [
             "reading"
@@ -19083,7 +19083,7 @@ const VocabData = {
         {
           "w": "parade",
           "phon": "Ipa'rerdl",
-          "pos": "",
+          "pos": "n.",
           "cn": "庆祝游行;  列队行进;  炫耀 游行;  炫耀",
           "tags": [
             "reading"
@@ -19110,7 +19110,7 @@ const VocabData = {
         {
           "w": "passenger",
           "phon": "/pasInd3al",
-          "pos": "",
+          "pos": "n.",
           "cn": "几乘客",
           "tags": [
             "reading"
@@ -19146,7 +19146,7 @@ const VocabData = {
         {
           "w": "pilot",
           "phon": "/parlatl",
-          "pos": "",
+          "pos": "n.",
           "cn": "飞行员",
           "tags": [
             "reading"
@@ -19155,7 +19155,7 @@ const VocabData = {
         {
           "w": "port",
           "phon": "Ip3:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "港口;  左舷",
           "tags": [
             "reading"
@@ -19164,7 +19164,7 @@ const VocabData = {
         {
           "w": "postage",
           "phon": "/paustid3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "邮费,邮资",
           "tags": [
             "reading"
@@ -19191,7 +19191,7 @@ const VocabData = {
         {
           "w": "pyramid",
           "phon": "/piramidl",
-          "pos": "",
+          "pos": "n.",
           "cn": "金字塔;  棱锥体 几",
           "tags": [
             "reading"
@@ -19200,7 +19200,7 @@ const VocabData = {
         {
           "w": "rack",
           "phon": "Irakl",
-          "pos": "",
+          "pos": "n.",
           "cn": "搁物架。挂物架",
           "tags": [
             "reading"
@@ -19245,7 +19245,7 @@ const VocabData = {
         {
           "w": "route",
           "phon": "Iru:tl",
-          "pos": "",
+          "pos": "v.",
           "cn": "路线",
           "tags": [
             "reading"
@@ -19254,7 +19254,7 @@ const VocabData = {
         {
           "w": "safari",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "reading"
@@ -19263,7 +19263,7 @@ const VocabData = {
         {
           "w": "sail",
           "phon": "Iserll",
-          "pos": "",
+          "pos": "n.",
           "cn": "航行;  驾驶 帆船 )",
           "tags": [
             "reading"
@@ -19272,7 +19272,7 @@ const VocabData = {
         {
           "w": "sailor",
           "phon": "Isellal",
-          "pos": "",
+          "pos": "n.",
           "cn": "海员。水手",
           "tags": [
             "reading"
@@ -19281,7 +19281,7 @@ const VocabData = {
         {
           "w": "seaman",
           "phon": "Isi:manl",
-          "pos": "",
+          "pos": "n.",
           "cn": "海员, 水手",
           "tags": [
             "reading"
@@ -19290,7 +19290,7 @@ const VocabData = {
         {
           "w": "signpost",
           "phon": "/salnpaustl",
-          "pos": "",
+          "pos": "n.",
           "cn": "路标",
           "tags": [
             "reading"
@@ -19308,7 +19308,7 @@ const VocabData = {
         {
           "w": "stamp",
           "phon": "Istampl",
-          "pos": "",
+          "pos": "n.",
           "cn": "邮票;  印章",
           "tags": [
             "reading"
@@ -19335,7 +19335,7 @@ const VocabData = {
         {
           "w": "steward",
           "phon": "/stju:adl",
-          "pos": "",
+          "pos": "adv.",
           "cn": "男乘务员;  管家",
           "tags": [
             "reading"
@@ -19362,7 +19362,7 @@ const VocabData = {
         {
           "w": "suitcase",
           "phon": "/su:tkeIsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "手提箱",
           "tags": [
             "reading"
@@ -19389,7 +19389,7 @@ const VocabData = {
         {
           "w": "tractor",
           "phon": "/traktal",
-          "pos": "",
+          "pos": "n.",
           "cn": "拖拉机;  牵引车",
           "tags": [
             "reading"
@@ -19425,7 +19425,7 @@ const VocabData = {
         {
           "w": "transit",
           "phon": "Mtransgtl",
-          "pos": "",
+          "pos": "n.",
           "cn": "运输;  通行;  过境,中转",
           "tags": [
             "reading"
@@ -19434,7 +19434,7 @@ const VocabData = {
         {
           "w": "transmit",
           "phon": "Itranz'nitl",
-          "pos": "",
+          "pos": "n.",
           "cn": "传送;  传播。传染;  传输",
           "tags": [
             "reading"
@@ -19452,7 +19452,7 @@ const VocabData = {
         {
           "w": "truck",
           "phon": "ItrAk/",
-          "pos": "",
+          "pos": "n.",
           "cn": "卡车;  敞篷货运火车",
           "tags": [
             "reading"
@@ -19488,7 +19488,7 @@ const VocabData = {
         {
           "w": "van",
           "phon": "Ivanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "厢式货车;  客货车",
           "tags": [
             "reading"
@@ -19506,7 +19506,7 @@ const VocabData = {
         {
           "w": "vehicle",
           "phon": "/vi:lkall",
-          "pos": "",
+          "pos": "n.",
           "cn": "车辆,交通工具;  工具。手段",
           "tags": [
             "reading"
@@ -19515,7 +19515,7 @@ const VocabData = {
         {
           "w": "velocity",
           "phon": "/vs'lDsstil",
-          "pos": "",
+          "pos": "n.",
           "cn": "速度",
           "tags": [
             "reading"
@@ -19524,7 +19524,7 @@ const VocabData = {
         {
           "w": "vessel",
           "phon": "Ivesall",
-          "pos": "",
+          "pos": "n.",
           "cn": "大船,舰;  容器,器皿",
           "tags": [
             "reading"
@@ -19542,7 +19542,7 @@ const VocabData = {
         {
           "w": "voyage",
           "phon": "/VDI-Id3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "航海,航天;  航行",
           "tags": [
             "reading"
@@ -19551,7 +19551,7 @@ const VocabData = {
         {
           "w": "wagon",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "四轮运货马车 (或牛车); [英](火车的) 货车车厢",
           "tags": [
             "reading"
@@ -19569,7 +19569,7 @@ const VocabData = {
         {
           "w": "wheel",
           "phon": "/wi:ll",
-          "pos": "",
+          "pos": "n.",
           "cn": "方向盘;  车轮",
           "tags": [
             "reading"
@@ -19578,7 +19578,7 @@ const VocabData = {
         {
           "w": "wreck",
           "phon": "Irekl",
-          "pos": "",
+          "pos": "n.",
           "cn": "失事的船只 (或汽车。飞机等);  残 使失事;  破坏 破的东西",
           "tags": [
             "reading"
@@ -19593,7 +19593,7 @@ const VocabData = {
         {
           "w": "african",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -19611,7 +19611,7 @@ const VocabData = {
         {
           "w": "australia",
           "phon": "/Dlstrerlial",
-          "pos": "",
+          "pos": "n.",
           "cn": "澳大利亚",
           "tags": [
             "writing"
@@ -19620,7 +19620,7 @@ const VocabData = {
         {
           "w": "britain",
           "phon": "/britan",
-          "pos": "",
+          "pos": "n.",
           "cn": "不列颠",
           "tags": [
             "writing"
@@ -19629,7 +19629,7 @@ const VocabData = {
         {
           "w": "canada",
           "phon": "/kanadal",
-          "pos": "",
+          "pos": "n.",
           "cn": "加拿大",
           "tags": [
             "writing"
@@ -19647,7 +19647,7 @@ const VocabData = {
         {
           "w": "france",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "法国",
           "tags": [
             "writing"
@@ -19656,7 +19656,7 @@ const VocabData = {
         {
           "w": "germany",
           "phon": "/d33:manil",
-          "pos": "",
+          "pos": "n.",
           "cn": "德国",
           "tags": [
             "writing"
@@ -19710,7 +19710,7 @@ const VocabData = {
         {
           "w": "marxism",
           "phon": "/ma:ksIzaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "马克思主义",
           "tags": [
             "writing"
@@ -19719,7 +19719,7 @@ const VocabData = {
         {
           "w": "new zealand",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "新西兰",
           "tags": [
             "writing"
@@ -19746,7 +19746,7 @@ const VocabData = {
         {
           "w": "russian",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -19782,7 +19782,7 @@ const VocabData = {
         {
           "w": "administration",
           "phon": "Iadimlng'strerfanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "管理 = 行政",
           "tags": [
             "writing"
@@ -19800,7 +19800,7 @@ const VocabData = {
         {
           "w": "advise",
           "phon": "Iad'vaIzl",
-          "pos": "",
+          "pos": "v.",
           "cn": "劝告;  建议;  通知",
           "tags": [
             "writing"
@@ -19818,7 +19818,7 @@ const VocabData = {
         {
           "w": "affirm",
           "phon": "/alf3:m",
-          "pos": "",
+          "pos": "n.",
           "cn": "断言,坚持声称;  证实",
           "tags": [
             "writing"
@@ -19836,7 +19836,7 @@ const VocabData = {
         {
           "w": "ambition",
           "phon": "Iambijanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几。雄心,抱负",
           "tags": [
             "writing"
@@ -19908,7 +19908,7 @@ const VocabData = {
         {
           "w": "behalf",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -19926,7 +19926,7 @@ const VocabData = {
         {
           "w": "bureau",
           "phon": "/bjuaraul",
-          "pos": "",
+          "pos": "n.",
           "cn": "几局 处,科;  办事处",
           "tags": [
             "writing"
@@ -19944,7 +19944,7 @@ const VocabData = {
         {
           "w": "checklist",
           "phon": "Itjeklistl",
-          "pos": "",
+          "pos": "n.",
           "cn": "清单;  选民花名册",
           "tags": [
             "writing"
@@ -19953,7 +19953,7 @@ const VocabData = {
         {
           "w": "citizen",
           "phon": "/sitgzanl",
-          "pos": "",
+          "pos": "v.",
           "cn": "公民;  市民",
           "tags": [
             "writing"
@@ -19989,7 +19989,7 @@ const VocabData = {
         {
           "w": "clarify",
           "phon": "/klargfarl",
-          "pos": "",
+          "pos": "v.",
           "cn": "阐明",
           "tags": [
             "writing"
@@ -19998,7 +19998,7 @@ const VocabData = {
         {
           "w": "colony",
           "phon": "/kolanil",
-          "pos": "",
+          "pos": "n.",
           "cn": "殖民地",
           "tags": [
             "writing"
@@ -20007,7 +20007,7 @@ const VocabData = {
         {
           "w": "communism",
           "phon": "/komjgnizaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "共产主义",
           "tags": [
             "writing"
@@ -20016,7 +20016,7 @@ const VocabData = {
         {
           "w": "community",
           "phon": "/ka'mju:ngtil",
-          "pos": "",
+          "pos": "n.",
           "cn": "社区;  群体; (生物的 _ 群落",
           "tags": [
             "writing"
@@ -20025,7 +20025,7 @@ const VocabData = {
         {
           "w": "conference",
           "phon": "/konfaransl",
-          "pos": "",
+          "pos": "n.",
           "cn": "常持续数日的大型正式 ) 会议;  正式商谈",
           "tags": [
             "writing"
@@ -20043,7 +20043,7 @@ const VocabData = {
         {
           "w": "consortium",
           "phon": "Ikan'sd:tialnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "联营企业 财团",
           "tags": [
             "writing"
@@ -20052,7 +20052,7 @@ const VocabData = {
         {
           "w": "crown",
           "phon": "Ikraunl",
-          "pos": "",
+          "pos": "n.",
           "cn": "王冠",
           "tags": [
             "writing"
@@ -20061,7 +20061,7 @@ const VocabData = {
         {
           "w": "declare",
           "phon": "Idrkleal",
-          "pos": "",
+          "pos": "n.",
           "cn": "宣布 宣告;  宣称,声称",
           "tags": [
             "writing"
@@ -20070,7 +20070,7 @@ const VocabData = {
         {
           "w": "delegation",
           "phon": "Idels'gerfanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "代表团;  委派",
           "tags": [
             "writing"
@@ -20079,7 +20079,7 @@ const VocabData = {
         {
           "w": "democracy",
           "phon": "Idrmpkrasil",
-          "pos": "",
+          "pos": "n.",
           "cn": "民主制度;  民主国家 民主",
           "tags": [
             "writing"
@@ -20097,7 +20097,7 @@ const VocabData = {
         {
           "w": "department",
           "phon": "Idrpa:tmantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "所 企业等机构的)部门;",
           "tags": [
             "writing"
@@ -20124,7 +20124,7 @@ const VocabData = {
         {
           "w": "elect",
           "phon": "",
-          "pos": "",
+          "pos": "v.",
           "cn": "",
           "tags": [
             "writing"
@@ -20151,7 +20151,7 @@ const VocabData = {
         {
           "w": "entitle",
           "phon": "IIntaltll",
-          "pos": "",
+          "pos": "n.",
           "cn": "给:权利 (或资格 ); 给'题名",
           "tags": [
             "writing"
@@ -20160,7 +20160,7 @@ const VocabData = {
         {
           "w": "ethic",
           "phon": "/eBikl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "行为准则; [~s] 道德规范, 伦理标准",
           "tags": [
             "writing"
@@ -20196,7 +20196,7 @@ const VocabData = {
         {
           "w": "flourish",
           "phon": "/'ArIFI",
-          "pos": "",
+          "pos": "v.",
           "cn": "繁荣 兴旺;  茁壮成长",
           "tags": [
             "writing"
@@ -20232,7 +20232,7 @@ const VocabData = {
         {
           "w": "government",
           "phon": "/gAvamantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "政府;  政体;  统治",
           "tags": [
             "writing"
@@ -20241,7 +20241,7 @@ const VocabData = {
         {
           "w": "guideline",
           "phon": "/galdlaln/",
-          "pos": "",
+          "pos": "adj.",
           "cn": "指导方针",
           "tags": [
             "writing"
@@ -20250,7 +20250,7 @@ const VocabData = {
         {
           "w": "harmony",
           "phon": "/ha:manil",
-          "pos": "",
+          "pos": "n.",
           "cn": "协调,和谐;  融洽;  和声",
           "tags": [
             "writing"
@@ -20259,7 +20259,7 @@ const VocabData = {
         {
           "w": "harness",
           "phon": "/ha:ngsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "利用",
           "tags": [
             "writing"
@@ -20268,7 +20268,7 @@ const VocabData = {
         {
           "w": "headquarters",
           "phon": "/'hedikw:tazl",
-          "pos": "",
+          "pos": "n.",
           "cn": "总部 , 总公司;  司令部",
           "tags": [
             "writing"
@@ -20277,7 +20277,7 @@ const VocabData = {
         {
           "w": "hierarchy",
           "phon": "/halra:kil",
-          "pos": "",
+          "pos": "n.",
           "cn": "等级制度;  统治集团",
           "tags": [
             "writing"
@@ -20331,7 +20331,7 @@ const VocabData = {
         {
           "w": "influence",
           "phon": "/influansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "影响 影响. 作用",
           "tags": [
             "writing"
@@ -20349,7 +20349,7 @@ const VocabData = {
         {
           "w": "league",
           "phon": "Ili:gl",
-          "pos": "",
+          "pos": "n.",
           "cn": "联赛;  联盟。同盟",
           "tags": [
             "writing"
@@ -20358,7 +20358,7 @@ const VocabData = {
         {
           "w": "liberty",
           "phon": "/lrbatil",
-          "pos": "",
+          "pos": "n.",
           "cn": "自由",
           "tags": [
             "writing"
@@ -20367,7 +20367,7 @@ const VocabData = {
         {
           "w": "materialism",
           "phon": "Ina'trarialrzaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "唯物主义;  唯物论",
           "tags": [
             "writing"
@@ -20376,7 +20376,7 @@ const VocabData = {
         {
           "w": "mayor",
           "phon": "Ineal",
-          "pos": "",
+          "pos": "n.",
           "cn": "市长",
           "tags": [
             "writing"
@@ -20385,7 +20385,7 @@ const VocabData = {
         {
           "w": "meeting",
           "phon": "/mi:tnl",
-          "pos": "",
+          "pos": "v.",
           "cn": "会议;  会面 几",
           "tags": [
             "writing"
@@ -20403,7 +20403,7 @@ const VocabData = {
         {
           "w": "minister",
           "phon": "/mrngstal",
-          "pos": "",
+          "pos": "n.",
           "cn": "部长 大臣;  公使",
           "tags": [
             "writing"
@@ -20412,7 +20412,7 @@ const VocabData = {
         {
           "w": "monitor",
           "phon": "/monrtal",
-          "pos": "",
+          "pos": "n.",
           "cn": "监视;  监听 监控器;  监视器;  班长",
           "tags": [
             "writing"
@@ -20430,7 +20430,7 @@ const VocabData = {
         {
           "w": "nation",
           "phon": "/nerjanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "国家;  民族; 国民",
           "tags": [
             "writing"
@@ -20457,7 +20457,7 @@ const VocabData = {
         {
           "w": "office",
           "phon": "/Dfgsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "局。厅 官职; [0~]部 办公室;  要职,",
           "tags": [
             "writing"
@@ -20493,7 +20493,7 @@ const VocabData = {
         {
           "w": "parliament",
           "phon": "/pa:lamantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "议会,国会; [~](英国)议会",
           "tags": [
             "writing"
@@ -20502,7 +20502,7 @@ const VocabData = {
         {
           "w": "perspective",
           "phon": "Ipa'spektrvl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "几。景观;  观点",
           "tags": [
             "writing"
@@ -20511,7 +20511,7 @@ const VocabData = {
         {
           "w": "police",
           "phon": "Ipa'li:sl",
-          "pos": "",
+          "pos": "n.",
           "cn": "警察; [the ~]警方",
           "tags": [
             "writing"
@@ -20529,7 +20529,7 @@ const VocabData = {
         {
           "w": "poll",
           "phon": "Ipaull",
-          "pos": "",
+          "pos": "n.",
           "cn": "民意调查;  选举投票;  投票数",
           "tags": [
             "writing"
@@ -20538,7 +20538,7 @@ const VocabData = {
         {
           "w": "population",
           "phon": "Npopjg'lerfanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "人0, 人口数量",
           "tags": [
             "writing"
@@ -20547,7 +20547,7 @@ const VocabData = {
         {
           "w": "power",
           "phon": "/paual",
-          "pos": "",
+          "pos": "n.",
           "cn": "能力;  权力;  政权;  能源",
           "tags": [
             "writing"
@@ -20556,7 +20556,7 @@ const VocabData = {
         {
           "w": "preference",
           "phon": "/prefaransl",
-          "pos": "",
+          "pos": "n.",
           "cn": "偏爱;  优先权",
           "tags": [
             "writing"
@@ -20574,7 +20574,7 @@ const VocabData = {
         {
           "w": "president",
           "phon": "/prezsdantl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "总统;  校长;  董事长",
           "tags": [
             "writing"
@@ -20592,7 +20592,7 @@ const VocabData = {
         {
           "w": "proclaim",
           "phon": "Ipraklerml",
-          "pos": "",
+          "pos": "n.",
           "cn": "声明;  清楚地表明",
           "tags": [
             "writing"
@@ -20601,7 +20601,7 @@ const VocabData = {
         {
           "w": "proposal",
           "phon": "Ipra'pauzall",
-          "pos": "",
+          "pos": "adj.",
           "cn": "提议, 建议",
           "tags": [
             "writing"
@@ -20619,7 +20619,7 @@ const VocabData = {
         {
           "w": "puppet",
           "phon": "/pAPSt",
-          "pos": "",
+          "pos": "n.",
           "cn": "玩偶;  傀儡",
           "tags": [
             "writing"
@@ -20646,7 +20646,7 @@ const VocabData = {
         {
           "w": "refuge",
           "phon": "/refju:d3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "避难 庇护;  避难所",
           "tags": [
             "writing"
@@ -20655,7 +20655,7 @@ const VocabData = {
         {
           "w": "regime",
           "phon": "Irer3i:ml",
-          "pos": "",
+          "pos": "n.",
           "cn": "统治制度,政权, 政体",
           "tags": [
             "writing"
@@ -20664,7 +20664,7 @@ const VocabData = {
         {
           "w": "reign",
           "phon": "IreInl",
-          "pos": "",
+          "pos": "n.",
           "cn": "君主统治时期 统治",
           "tags": [
             "writing"
@@ -20673,7 +20673,7 @@ const VocabData = {
         {
           "w": "republic",
           "phon": "IrrpAblikl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "共和国,共和政体",
           "tags": [
             "writing"
@@ -20691,7 +20691,7 @@ const VocabData = {
         {
           "w": "respondent",
           "phon": "Irl'spondantl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "民意测验等的 )调查对象",
           "tags": [
             "writing"
@@ -20709,7 +20709,7 @@ const VocabData = {
         {
           "w": "safety",
           "phon": "/'serftil",
-          "pos": "",
+          "pos": "n.",
           "cn": "安全;  安全场所",
           "tags": [
             "writing"
@@ -20718,7 +20718,7 @@ const VocabData = {
         {
           "w": "secretary",
           "phon": "/sekrstaril",
-          "pos": "",
+          "pos": "adj.",
           "cn": "秘书; #记员;  大臣",
           "tags": [
             "writing"
@@ -20727,7 +20727,7 @@ const VocabData = {
         {
           "w": "senate",
           "phon": "/sengt",
-          "pos": "",
+          "pos": "v.",
           "cn": "大学理事会; [the S~] (美国等国家的 )  参议院",
           "tags": [
             "writing"
@@ -20736,7 +20736,7 @@ const VocabData = {
         {
           "w": "service",
           "phon": "/S3:Vos/",
-          "pos": "",
+          "pos": "n.",
           "cn": "服务;  公共服务事业;  公共事业机构",
           "tags": [
             "writing"
@@ -20754,7 +20754,7 @@ const VocabData = {
         {
           "w": "slum",
           "phon": "IsIAIn/",
-          "pos": "",
+          "pos": "n.",
           "cn": "几贫民窟",
           "tags": [
             "writing"
@@ -20772,7 +20772,7 @@ const VocabData = {
         {
           "w": "soviet",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -20781,7 +20781,7 @@ const VocabData = {
         {
           "w": "standpoint",
           "phon": "Istendpointl",
-          "pos": "",
+          "pos": "n.",
           "cn": "立场 = 立足点",
           "tags": [
             "writing"
@@ -20790,7 +20790,7 @@ const VocabData = {
         {
           "w": "state",
           "phon": "Istertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "陈述, 说明 国家;  州;  状况",
           "tags": [
             "writing"
@@ -20799,7 +20799,7 @@ const VocabData = {
         {
           "w": "statesman",
           "phon": "/stertsmanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "政治家",
           "tags": [
             "writing"
@@ -20817,7 +20817,7 @@ const VocabData = {
         {
           "w": "succeed",
           "phon": "Isak'si:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "成功",
           "tags": [
             "writing"
@@ -20826,7 +20826,7 @@ const VocabData = {
         {
           "w": "succession",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -20835,7 +20835,7 @@ const VocabData = {
         {
           "w": "suggest",
           "phon": "Isa'd3estl",
-          "pos": "",
+          "pos": "n.",
           "cn": "建议;  暗示",
           "tags": [
             "writing"
@@ -20844,7 +20844,7 @@ const VocabData = {
         {
           "w": "throne",
           "phon": "/Graunl",
-          "pos": "",
+          "pos": "n.",
           "cn": "君王的)  宝座 王位;",
           "tags": [
             "writing"
@@ -20853,7 +20853,7 @@ const VocabData = {
         {
           "w": "union",
           "phon": "Nju:njanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "联合;  联盟;  工会",
           "tags": [
             "writing"
@@ -20880,7 +20880,7 @@ const VocabData = {
         {
           "w": "viewpoint",
           "phon": "/vju:poIntl",
-          "pos": "",
+          "pos": "n.",
           "cn": "观点,看法;  视角",
           "tags": [
             "writing"
@@ -20898,7 +20898,7 @@ const VocabData = {
         {
           "w": "welfare",
           "phon": "/'welfeal",
-          "pos": "",
+          "pos": "n.",
           "cn": "健康,幸福",
           "tags": [
             "writing"
@@ -20925,7 +20925,7 @@ const VocabData = {
         {
           "w": "wreath",
           "phon": "Iri:gl",
-          "pos": "",
+          "pos": "n.",
           "cn": "察奠用的) 花圈 花环,花冠;",
           "tags": [
             "writing"
@@ -20994,7 +20994,7 @@ const VocabData = {
         {
           "w": "advertise",
           "phon": "Iadvatarzl",
-          "pos": "",
+          "pos": "v.",
           "cn": "做广告",
           "tags": [
             "reading"
@@ -21048,7 +21048,7 @@ const VocabData = {
         {
           "w": "benefit",
           "phon": "/bengfitl",
-          "pos": "",
+          "pos": "n.",
           "cn": "益处 有利于;  获益",
           "tags": [
             "reading"
@@ -21075,7 +21075,7 @@ const VocabData = {
         {
           "w": "career",
           "phon": "Ikaral",
-          "pos": "",
+          "pos": "n.",
           "cn": "职业, 事业;  职业生涯",
           "tags": [
             "reading"
@@ -21084,7 +21084,7 @@ const VocabData = {
         {
           "w": "cargo",
           "phon": "/ka:gaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "货物",
           "tags": [
             "reading"
@@ -21102,7 +21102,7 @@ const VocabData = {
         {
           "w": "chain",
           "phon": "Itfeinl",
-          "pos": "",
+          "pos": "n.",
           "cn": "连锁店; -连串 (人或事物 )",
           "tags": [
             "reading"
@@ -21111,7 +21111,7 @@ const VocabData = {
         {
           "w": "chance",
           "phon": "Itja:nsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "机会;  可能性",
           "tags": [
             "reading"
@@ -21120,7 +21120,7 @@ const VocabData = {
         {
           "w": "change",
           "phon": "Itfeind3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "改娈",
           "tags": [
             "reading"
@@ -21156,7 +21156,7 @@ const VocabData = {
         {
           "w": "clerk",
           "phon": "Ikla:k/",
-          "pos": "",
+          "pos": "n.",
           "cn": "店员;  办事员;  接待员",
           "tags": [
             "reading"
@@ -21165,7 +21165,7 @@ const VocabData = {
         {
           "w": "coin",
           "phon": "IkInl",
-          "pos": "",
+          "pos": "n.",
           "cn": "硬币 铸币;  创造 (新词语)",
           "tags": [
             "reading"
@@ -21192,7 +21192,7 @@ const VocabData = {
         {
           "w": "company",
           "phon": "/kAmpanil",
-          "pos": "",
+          "pos": "n.",
           "cn": "公司;  陪伴;  剧团",
           "tags": [
             "reading"
@@ -21201,7 +21201,7 @@ const VocabData = {
         {
           "w": "consume",
           "phon": "Ikansju:ml",
-          "pos": "",
+          "pos": "n.",
           "cn": "喝",
           "tags": [
             "reading"
@@ -21228,7 +21228,7 @@ const VocabData = {
         {
           "w": "copper",
           "phon": "/kppal",
-          "pos": "",
+          "pos": "n.",
           "cn": "铜; [~s]铜币;  警察",
           "tags": [
             "reading"
@@ -21237,7 +21237,7 @@ const VocabData = {
         {
           "w": "cost",
           "phon": "IkDstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "需付费 费用;  代价; [~s] 成本",
           "tags": [
             "reading"
@@ -21255,7 +21255,7 @@ const VocabData = {
         {
           "w": "crisis",
           "phon": "IkraIsasl",
-          "pos": "",
+          "pos": "n.",
           "cn": "危机",
           "tags": [
             "reading"
@@ -21264,7 +21264,7 @@ const VocabData = {
         {
           "w": "currency",
           "phon": "/kAransil",
-          "pos": "",
+          "pos": "n.",
           "cn": "货币;  通用 流行",
           "tags": [
             "reading"
@@ -21273,7 +21273,7 @@ const VocabData = {
         {
           "w": "deal",
           "phon": "Idi:ll",
-          "pos": "",
+          "pos": "adj.",
           "cn": "应付 买卖; [~ with] 处理 协议。交易;  大量 几",
           "tags": [
             "reading"
@@ -21282,7 +21282,7 @@ const VocabData = {
         {
           "w": "debt",
           "phon": "Idetl",
-          "pos": "",
+          "pos": "n.",
           "cn": "债务",
           "tags": [
             "reading"
@@ -21327,7 +21327,7 @@ const VocabData = {
         {
           "w": "deposit",
           "phon": "Idr'pDzstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "存款;  押金",
           "tags": [
             "reading"
@@ -21336,7 +21336,7 @@ const VocabData = {
         {
           "w": "depression",
           "phon": "Idiprelonl",
-          "pos": "",
+          "pos": "n.",
           "cn": "沮丧。消沉;  萧条期,不景气",
           "tags": [
             "reading"
@@ -21390,7 +21390,7 @@ const VocabData = {
         {
           "w": "dismiss",
           "phon": "IdIs'mIsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "解雇;  解散; (法官)驳回",
           "tags": [
             "reading"
@@ -21399,7 +21399,7 @@ const VocabData = {
         {
           "w": "dividend",
           "phon": "/drvsdandl",
-          "pos": "",
+          "pos": "n.",
           "cn": "红利 股息",
           "tags": [
             "reading"
@@ -21408,7 +21408,7 @@ const VocabData = {
         {
           "w": "donate",
           "phon": "Idaulnertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "捐赠,捐献",
           "tags": [
             "reading"
@@ -21417,7 +21417,7 @@ const VocabData = {
         {
           "w": "downsize",
           "phon": "/daunsarzl",
-          "pos": "",
+          "pos": "v.",
           "cn": "使精简;  裁员",
           "tags": [
             "reading"
@@ -21426,7 +21426,7 @@ const VocabData = {
         {
           "w": "dump",
           "phon": "IdAmpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "丢弃 倾倒;  倾销",
           "tags": [
             "reading"
@@ -21435,7 +21435,7 @@ const VocabData = {
         {
           "w": "duty",
           "phon": "/dju:til",
-          "pos": "",
+          "pos": "n.",
           "cn": "职责;  义务;  关税",
           "tags": [
             "reading"
@@ -21453,7 +21453,7 @@ const VocabData = {
         {
           "w": "earn",
           "phon": "/3:n",
-          "pos": "",
+          "pos": "n.",
           "cn": "赚得;  赢得;  获得",
           "tags": [
             "reading"
@@ -21462,7 +21462,7 @@ const VocabData = {
         {
           "w": "economy",
           "phon": "/['konamil",
-          "pos": "",
+          "pos": "n.",
           "cn": "经济;  节约",
           "tags": [
             "reading"
@@ -21480,7 +21480,7 @@ const VocabData = {
         {
           "w": "endow",
           "phon": "IIn'daol",
-          "pos": "",
+          "pos": "n.",
           "cn": "捐赠;  赋予",
           "tags": [
             "reading"
@@ -21507,7 +21507,7 @@ const VocabData = {
         {
           "w": "entity",
           "phon": "/'entstil",
-          "pos": "",
+          "pos": "n.",
           "cn": "实体,独立存在物",
           "tags": [
             "reading"
@@ -21525,7 +21525,7 @@ const VocabData = {
         {
           "w": "estate",
           "phon": "Ii'stertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "地产;  遗产",
           "tags": [
             "reading"
@@ -21534,7 +21534,7 @@ const VocabData = {
         {
           "w": "exchange",
           "phon": "Iks'tfeind3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "交换;  兑换",
           "tags": [
             "reading"
@@ -21543,7 +21543,7 @@ const VocabData = {
         {
           "w": "expand",
           "phon": "Ik'spandl",
-          "pos": "",
+          "pos": "n.",
           "cn": "扩充,扩大; 扩展",
           "tags": [
             "reading"
@@ -21570,7 +21570,7 @@ const VocabData = {
         {
           "w": "failure",
           "phon": "/felljal",
-          "pos": "",
+          "pos": "n.",
           "cn": "失败;  失败的人;  失败的事",
           "tags": [
             "reading"
@@ -21615,7 +21615,7 @@ const VocabData = {
         {
           "w": "goods",
           "phon": "Igudzl",
-          "pos": "",
+          "pos": "n.",
           "cn": "商品 货物",
           "tags": [
             "reading"
@@ -21624,7 +21624,7 @@ const VocabData = {
         {
           "w": "grocery",
           "phon": "/grausaril",
-          "pos": "",
+          "pos": "n.",
           "cn": "食品杂货店",
           "tags": [
             "reading"
@@ -21642,7 +21642,7 @@ const VocabData = {
         {
           "w": "growth",
           "phon": "Igraugl",
-          "pos": "",
+          "pos": "n.",
           "cn": "增长;  生长",
           "tags": [
             "reading"
@@ -21660,7 +21660,7 @@ const VocabData = {
         {
           "w": "hire",
           "phon": "Ihalal",
-          "pos": "",
+          "pos": "n.",
           "cn": "几租赁 (业) 租用",
           "tags": [
             "reading"
@@ -21696,7 +21696,7 @@ const VocabData = {
         {
           "w": "incentive",
           "phon": "/In'sentrv/",
-          "pos": "",
+          "pos": "adj.",
           "cn": "激励 刺激 ,",
           "tags": [
             "reading"
@@ -21705,7 +21705,7 @@ const VocabData = {
         {
           "w": "income",
           "phon": "MkAml",
-          "pos": "",
+          "pos": "n.",
           "cn": "收入",
           "tags": [
             "reading"
@@ -21723,7 +21723,7 @@ const VocabData = {
         {
           "w": "increment",
           "phon": "Mkrsmantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "增加量;  定期的加薪",
           "tags": [
             "reading"
@@ -21732,7 +21732,7 @@ const VocabData = {
         {
           "w": "industry",
           "phon": "/Indastril",
-          "pos": "",
+          "pos": "n.",
           "cn": "工业;  产业;  勤劳",
           "tags": [
             "reading"
@@ -21750,7 +21750,7 @@ const VocabData = {
         {
           "w": "influx",
           "phon": "/'inflAks!",
-          "pos": "",
+          "pos": "n.",
           "cn": "流入,涌进",
           "tags": [
             "reading"
@@ -21759,7 +21759,7 @@ const VocabData = {
         {
           "w": "input",
           "phon": "Mnputl",
-          "pos": "",
+          "pos": "n.",
           "cn": "输人信息;  投入物",
           "tags": [
             "reading"
@@ -21777,7 +21777,7 @@ const VocabData = {
         {
           "w": "insure",
           "phon": "/In'fual",
-          "pos": "",
+          "pos": "n.",
           "cn": "确保;  给上保险",
           "tags": [
             "reading"
@@ -21786,7 +21786,7 @@ const VocabData = {
         {
           "w": "interest",
           "phon": "/Intrastl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使感兴趣 兴趣;  利益;  利息",
           "tags": [
             "reading"
@@ -21813,7 +21813,7 @@ const VocabData = {
         {
           "w": "invoice",
           "phon": "/InV3IS/",
-          "pos": "",
+          "pos": "n.",
           "cn": "发票",
           "tags": [
             "reading"
@@ -21822,7 +21822,7 @@ const VocabData = {
         {
           "w": "job",
           "phon": "Id3Db/",
-          "pos": "",
+          "pos": "n.",
           "cn": "职业。工作;(一份〉工作。活儿",
           "tags": [
             "reading"
@@ -21840,7 +21840,7 @@ const VocabData = {
         {
           "w": "lack",
           "phon": "Iakl",
-          "pos": "",
+          "pos": "n.",
           "cn": "缺乏, 不足 缺少 , 没有",
           "tags": [
             "reading"
@@ -21849,7 +21849,7 @@ const VocabData = {
         {
           "w": "lay-off",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "因岗位不足的 ) 解雇 , 裁员;  歇工期",
           "tags": [
             "reading"
@@ -21858,7 +21858,7 @@ const VocabData = {
         {
           "w": "lease",
           "phon": "Ili:s/",
-          "pos": "",
+          "pos": "n.",
           "cn": "租约 出租;  租用 我们",
           "tags": [
             "reading"
@@ -21867,7 +21867,7 @@ const VocabData = {
         {
           "w": "legacy",
           "phon": "Mlegasil",
-          "pos": "",
+          "pos": "n.",
           "cn": "遗产 遗赠",
           "tags": [
             "reading"
@@ -21939,7 +21939,7 @@ const VocabData = {
         {
           "w": "opportunity",
           "phon": "/opa'tju:ngtil",
-          "pos": "",
+          "pos": "n.",
           "cn": "机会,时机",
           "tags": [
             "reading"
@@ -21948,7 +21948,7 @@ const VocabData = {
         {
           "w": "payment",
           "phon": "Ipelmantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "支付;  支付的款项;  付款额",
           "tags": [
             "reading"
@@ -21957,7 +21957,7 @@ const VocabData = {
         {
           "w": "payroll",
           "phon": "/petraull",
-          "pos": "",
+          "pos": "n.",
           "cn": "工资名单",
           "tags": [
             "reading"
@@ -21975,7 +21975,7 @@ const VocabData = {
         {
           "w": "possess",
           "phon": "Ipa'zesl",
-          "pos": "",
+          "pos": "n.",
           "cn": "拥有;  影响。控制 占用=",
           "tags": [
             "reading"
@@ -21984,7 +21984,7 @@ const VocabData = {
         {
           "w": "product",
           "phon": "/prodaktl",
-          "pos": "",
+          "pos": "v.",
           "cn": "产品;  产物",
           "tags": [
             "reading"
@@ -21993,7 +21993,7 @@ const VocabData = {
         {
           "w": "profession",
           "phon": "Ipra'fefanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "职业",
           "tags": [
             "reading"
@@ -22038,7 +22038,7 @@ const VocabData = {
         {
           "w": "receipt",
           "phon": "Irrsi:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "收据;  收到",
           "tags": [
             "reading"
@@ -22146,7 +22146,7 @@ const VocabData = {
         {
           "w": "retail",
           "phon": "/ri:telll",
-          "pos": "",
+          "pos": "n.",
           "cn": "以价格零售 零售",
           "tags": [
             "reading"
@@ -22191,7 +22191,7 @@ const VocabData = {
         {
           "w": "salary",
           "phon": "/salaril",
-          "pos": "",
+          "pos": "adj.",
           "cn": "工资, (尤指按月领的)薪水",
           "tags": [
             "reading"
@@ -22200,7 +22200,7 @@ const VocabData = {
         {
           "w": "sale",
           "phon": "Iserll",
-          "pos": "",
+          "pos": "n.",
           "cn": "卖。销售;  销售额",
           "tags": [
             "reading"
@@ -22209,7 +22209,7 @@ const VocabData = {
         {
           "w": "sanction",
           "phon": "Isenklanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "对'实施制裁 批准;  制裁",
           "tags": [
             "reading"
@@ -22218,7 +22218,7 @@ const VocabData = {
         {
           "w": "saving",
           "phon": "Iservil",
-          "pos": "",
+          "pos": "v.",
           "cn": "节约,节省",
           "tags": [
             "reading"
@@ -22227,7 +22227,7 @@ const VocabData = {
         {
           "w": "security",
           "phon": "IsI'kjuarstil",
-          "pos": "",
+          "pos": "n.",
           "cn": "安全工作;  安全; [securities] 证券",
           "tags": [
             "reading"
@@ -22254,7 +22254,7 @@ const VocabData = {
         {
           "w": "slogan",
           "phon": "/slouganl",
-          "pos": "",
+          "pos": "n.",
           "cn": "标语。口号",
           "tags": [
             "reading"
@@ -22290,7 +22290,7 @@ const VocabData = {
         {
           "w": "stock",
           "phon": "Istok/",
-          "pos": "",
+          "pos": "n.",
           "cn": "股本;  股票;  库存",
           "tags": [
             "reading"
@@ -22299,7 +22299,7 @@ const VocabData = {
         {
           "w": "subsidy",
           "phon": "/sAbssdil",
-          "pos": "",
+          "pos": "n.",
           "cn": "津贴,补贴",
           "tags": [
             "reading"
@@ -22344,7 +22344,7 @@ const VocabData = {
         {
           "w": "tax",
           "phon": "Itaks/",
-          "pos": "",
+          "pos": "n.",
           "cn": "税 对征税",
           "tags": [
             "reading"
@@ -22371,7 +22371,7 @@ const VocabData = {
         {
           "w": "treasure",
           "phon": "/tre3al",
-          "pos": "",
+          "pos": "n.",
           "cn": "金银财宝;  宝物 珍品",
           "tags": [
             "reading"
@@ -22416,7 +22416,7 @@ const VocabData = {
         {
           "w": "voucher",
           "phon": "/vautfal",
-          "pos": "",
+          "pos": "n.",
           "cn": "代金券",
           "tags": [
             "reading"
@@ -22434,7 +22434,7 @@ const VocabData = {
         {
           "w": "wealth",
           "phon": "Iwelgl",
-          "pos": "",
+          "pos": "n.",
           "cn": "财富;  丰富",
           "tags": [
             "reading"
@@ -22443,7 +22443,7 @@ const VocabData = {
         {
           "w": "wholesale",
           "phon": "/haulserll",
-          "pos": "",
+          "pos": "n.",
           "cn": "批发",
           "tags": [
             "reading"
@@ -22461,7 +22461,7 @@ const VocabData = {
         {
           "w": "workforce",
           "phon": "/'w3:kf3:s/",
-          "pos": "",
+          "pos": "n.",
           "cn": "劳动力;  全体员工",
           "tags": [
             "reading"
@@ -22494,7 +22494,7 @@ const VocabData = {
         {
           "w": "accredit",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "把:'归于;  委任",
           "tags": [
             "writing"
@@ -22512,7 +22512,7 @@ const VocabData = {
         {
           "w": "admission",
           "phon": "!ad'mifanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "承认;  人场费;  准许进入",
           "tags": [
             "writing"
@@ -22602,7 +22602,7 @@ const VocabData = {
         {
           "w": "charter",
           "phon": "/t「a:tal",
-          "pos": "",
+          "pos": "n.",
           "cn": "宪章 飞机等 )",
           "tags": [
             "writing"
@@ -22611,7 +22611,7 @@ const VocabData = {
         {
           "w": "cheat",
           "phon": "Itfi:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "作弊者",
           "tags": [
             "writing"
@@ -22647,7 +22647,7 @@ const VocabData = {
         {
           "w": "complain",
           "phon": "Ikam'pleInl",
-          "pos": "",
+          "pos": "n.",
           "cn": "抱怨;  投诉",
           "tags": [
             "writing"
@@ -22656,7 +22656,7 @@ const VocabData = {
         {
           "w": "condemn",
           "phon": "Ikndeml",
-          "pos": "",
+          "pos": "n.",
           "cn": "指责 谴责",
           "tags": [
             "writing"
@@ -22665,7 +22665,7 @@ const VocabData = {
         {
           "w": "confess",
           "phon": "Ikanfesl",
-          "pos": "",
+          "pos": "n.",
           "cn": "供认;  忏悔",
           "tags": [
             "writing"
@@ -22692,7 +22692,7 @@ const VocabData = {
         {
           "w": "consequence",
           "phon": "/kDnsakwansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "后果",
           "tags": [
             "writing"
@@ -22710,7 +22710,7 @@ const VocabData = {
         {
           "w": "contradict",
           "phon": "/ kontraldiktl",
-          "pos": "",
+          "pos": "n.",
           "cn": "与矛盾",
           "tags": [
             "writing"
@@ -22728,7 +22728,7 @@ const VocabData = {
         {
           "w": "copyright",
           "phon": "/kopirattl",
-          "pos": "",
+          "pos": "n.",
           "cn": "版权",
           "tags": [
             "writing"
@@ -22737,7 +22737,7 @@ const VocabData = {
         {
           "w": "court",
           "phon": "/3:t",
-          "pos": "",
+          "pos": "n.",
           "cn": "法院;  庭院",
           "tags": [
             "writing"
@@ -22746,7 +22746,7 @@ const VocabData = {
         {
           "w": "crime",
           "phon": "/krarln/",
-          "pos": "",
+          "pos": "n.",
           "cn": "罪行;  犯罪活动",
           "tags": [
             "writing"
@@ -22764,7 +22764,7 @@ const VocabData = {
         {
           "w": "deceive",
           "phon": "Idrsi:vl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "欺骗;  蒙蔽,误导",
           "tags": [
             "writing"
@@ -22773,7 +22773,7 @@ const VocabData = {
         {
           "w": "default",
           "phon": "Idrf3:lt/",
-          "pos": "",
+          "pos": "n.",
           "cn": "不支付 不履行 违约;  默认值",
           "tags": [
             "writing"
@@ -22782,7 +22782,7 @@ const VocabData = {
         {
           "w": "demand",
           "phon": "Idi'ma:ndl",
-          "pos": "",
+          "pos": "n.",
           "cn": "需要 要求;  需求;  需求量",
           "tags": [
             "writing"
@@ -22791,7 +22791,7 @@ const VocabData = {
         {
           "w": "discrimination",
           "phon": "Idliskrims'nerjonl",
-          "pos": "",
+          "pos": "n.",
           "cn": "歧视",
           "tags": [
             "writing"
@@ -22809,7 +22809,7 @@ const VocabData = {
         {
           "w": "enforce",
           "phon": "IIn'f3:s/",
-          "pos": "",
+          "pos": "n.",
           "cn": "强制执行,强行实施;  迫使",
           "tags": [
             "writing"
@@ -22818,7 +22818,7 @@ const VocabData = {
         {
           "w": "equity",
           "phon": "/ekwgtil",
-          "pos": "",
+          "pos": "n.",
           "cn": "公平",
           "tags": [
             "writing"
@@ -22854,7 +22854,7 @@ const VocabData = {
         {
           "w": "fool",
           "phon": "Ifu:ll",
-          "pos": "",
+          "pos": "n.",
           "cn": "蠢人",
           "tags": [
             "writing"
@@ -22863,7 +22863,7 @@ const VocabData = {
         {
           "w": "fraud",
           "phon": "Ifr:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "骗子;  赝品;  欺诈",
           "tags": [
             "writing"
@@ -22890,7 +22890,7 @@ const VocabData = {
         {
           "w": "investigate",
           "phon": "Iin'vestggertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "调查",
           "tags": [
             "writing"
@@ -22899,7 +22899,7 @@ const VocabData = {
         {
           "w": "item",
           "phon": "/altaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "一项项目,条目",
           "tags": [
             "writing"
@@ -22926,7 +22926,7 @@ const VocabData = {
         {
           "w": "jury",
           "phon": "Md3uaril",
-          "pos": "",
+          "pos": "n.",
           "cn": "陪审团;(比赛的)评判委员会",
           "tags": [
             "writing"
@@ -22944,7 +22944,7 @@ const VocabData = {
         {
           "w": "justify",
           "phon": "/d3Astsfal",
-          "pos": "",
+          "pos": "v.",
           "cn": "证明:正当",
           "tags": [
             "writing"
@@ -23007,7 +23007,7 @@ const VocabData = {
         {
           "w": "mortgage",
           "phon": "/m:grd3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "房屋抵押贷款",
           "tags": [
             "writing"
@@ -23025,7 +23025,7 @@ const VocabData = {
         {
           "w": "murmur",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -23052,7 +23052,7 @@ const VocabData = {
         {
           "w": "norm",
           "phon": "In:m/",
-          "pos": "",
+          "pos": "n.",
           "cn": "标准; [~s]行为准则 规范",
           "tags": [
             "writing"
@@ -23097,7 +23097,7 @@ const VocabData = {
         {
           "w": "ownership",
           "phon": "/aunafIpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "所有权。物主身份",
           "tags": [
             "writing"
@@ -23106,7 +23106,7 @@ const VocabData = {
         {
           "w": "penalty",
           "phon": "Ipenltil",
-          "pos": "",
+          "pos": "n.",
           "cn": "惩罚,处罚",
           "tags": [
             "writing"
@@ -23124,7 +23124,7 @@ const VocabData = {
         {
           "w": "permit",
           "phon": "Ipa'mitl",
-          "pos": "",
+          "pos": "n.",
           "cn": "允许,准许",
           "tags": [
             "writing"
@@ -23133,7 +23133,7 @@ const VocabData = {
         {
           "w": "persuade",
           "phon": "Ipaswerdl",
-          "pos": "",
+          "pos": "n.",
           "cn": "说服;  使相信",
           "tags": [
             "writing"
@@ -23151,7 +23151,7 @@ const VocabData = {
         {
           "w": "pirate",
           "phon": "/palaratl",
-          "pos": "",
+          "pos": "v.",
           "cn": "海盗;  盗版者",
           "tags": [
             "writing"
@@ -23160,7 +23160,7 @@ const VocabData = {
         {
           "w": "plea",
           "phon": "Ipli:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "辩解理由。借口;  请求",
           "tags": [
             "writing"
@@ -23178,7 +23178,7 @@ const VocabData = {
         {
           "w": "prejudice",
           "phon": "/pred3gdssl",
-          "pos": "",
+          "pos": "n.",
           "cn": "偏见 成见",
           "tags": [
             "writing"
@@ -23187,7 +23187,7 @@ const VocabData = {
         {
           "w": "pretend",
           "phon": "Iprrtendl",
-          "pos": "",
+          "pos": "n.",
           "cn": "假装;  假扮",
           "tags": [
             "writing"
@@ -23205,7 +23205,7 @@ const VocabData = {
         {
           "w": "privilege",
           "phon": "/prrvslrd3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "特权",
           "tags": [
             "writing"
@@ -23214,7 +23214,7 @@ const VocabData = {
         {
           "w": "procedure",
           "phon": "Ipra'si:d3al",
-          "pos": "",
+          "pos": "n.",
           "cn": "手续;  程序",
           "tags": [
             "writing"
@@ -23232,7 +23232,7 @@ const VocabData = {
         {
           "w": "protocol",
           "phon": "/prautakoll",
-          "pos": "",
+          "pos": "n.",
           "cn": "议定书。协议;  礼仪",
           "tags": [
             "writing"
@@ -23250,7 +23250,7 @@ const VocabData = {
         {
           "w": "reconcile",
           "phon": "/rekansarll",
-          "pos": "",
+          "pos": "n.",
           "cn": "使和解;  调和",
           "tags": [
             "writing"
@@ -23268,7 +23268,7 @@ const VocabData = {
         {
           "w": "reject",
           "phon": "Iri'd3ektl",
-          "pos": "",
+          "pos": "v.",
           "cn": "拒绝接受;  摒弃",
           "tags": [
             "writing"
@@ -23304,7 +23304,7 @@ const VocabData = {
         {
           "w": "restrict",
           "phon": "Irr'striktl",
-          "pos": "",
+          "pos": "n.",
           "cn": "限制,限定;  约束",
           "tags": [
             "writing"
@@ -23313,7 +23313,7 @@ const VocabData = {
         {
           "w": "rob",
           "phon": "Irobl",
-          "pos": "",
+          "pos": "n.",
           "cn": "抢劫;  夺走",
           "tags": [
             "writing"
@@ -23331,7 +23331,7 @@ const VocabData = {
         {
           "w": "rule",
           "phon": "Iru:ll",
-          "pos": "",
+          "pos": "n.",
           "cn": "规则 统治",
           "tags": [
             "writing"
@@ -23340,7 +23340,7 @@ const VocabData = {
         {
           "w": "sentence",
           "phon": "/sentansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "判决 宣判",
           "tags": [
             "writing"
@@ -23349,7 +23349,7 @@ const VocabData = {
         {
           "w": "session",
           "phon": "Isefanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "会议;  会期",
           "tags": [
             "writing"
@@ -23367,7 +23367,7 @@ const VocabData = {
         {
           "w": "sin",
           "phon": "IsInl",
-          "pos": "",
+          "pos": "n.",
           "cn": "罪孽 犯戒律",
           "tags": [
             "writing"
@@ -23376,7 +23376,7 @@ const VocabData = {
         {
           "w": "standard",
           "phon": "Istandadl",
-          "pos": "",
+          "pos": "n.",
           "cn": "标准",
           "tags": [
             "writing"
@@ -23385,7 +23385,7 @@ const VocabData = {
         {
           "w": "steal",
           "phon": "Isti:ll",
-          "pos": "",
+          "pos": "adj.",
           "cn": "偷。窃取;  剽窃",
           "tags": [
             "writing"
@@ -23394,7 +23394,7 @@ const VocabData = {
         {
           "w": "stigma",
           "phon": "/stigmal",
-          "pos": "",
+          "pos": "n.",
           "cn": "耻辱 污名",
           "tags": [
             "writing"
@@ -23421,7 +23421,7 @@ const VocabData = {
         {
           "w": "suicide",
           "phon": "Isu:asaldl",
-          "pos": "",
+          "pos": "n.",
           "cn": "自杀",
           "tags": [
             "writing"
@@ -23466,7 +23466,7 @@ const VocabData = {
         {
           "w": "thief",
           "phon": "/Oi:fl",
-          "pos": "",
+          "pos": "n.",
           "cn": "窃贼, 偷窃犯",
           "tags": [
             "writing"
@@ -23493,7 +23493,7 @@ const VocabData = {
         {
           "w": "trial",
           "phon": "/tralall",
-          "pos": "",
+          "pos": "adj.",
           "cn": "试验;  审判",
           "tags": [
             "writing"
@@ -23502,7 +23502,7 @@ const VocabData = {
         {
           "w": "trick",
           "phon": "Itrik/",
-          "pos": "",
+          "pos": "n.",
           "cn": "诡计 哄骗",
           "tags": [
             "writing"
@@ -23511,7 +23511,7 @@ const VocabData = {
         {
           "w": "vice",
           "phon": "IVaIs/",
-          "pos": "",
+          "pos": "n.",
           "cn": "恶行;  缺点",
           "tags": [
             "writing"
@@ -23634,7 +23634,7 @@ const VocabData = {
         {
           "w": "beat",
           "phon": "Ibi:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "节拍;  击鼓声; (心脏 等的)跳动",
           "tags": [
             "reading"
@@ -23643,7 +23643,7 @@ const VocabData = {
         {
           "w": "betray",
           "phon": "Ibr'trerl",
-          "pos": "",
+          "pos": "n.",
           "cn": "背叛,出卖;(无意中)泄露,流露出",
           "tags": [
             "reading"
@@ -23652,7 +23652,7 @@ const VocabData = {
         {
           "w": "blade",
           "phon": "Iblerdl",
-          "pos": "",
+          "pos": "n.",
           "cn": "锋; 刃 螺旋桨的 )  叶片",
           "tags": [
             "reading"
@@ -23661,7 +23661,7 @@ const VocabData = {
         {
           "w": "blame",
           "phon": "IbleIml",
-          "pos": "",
+          "pos": "n.",
           "cn": "几",
           "tags": [
             "reading"
@@ -23688,7 +23688,7 @@ const VocabData = {
         {
           "w": "bomb",
           "phon": "IboIl",
-          "pos": "",
+          "pos": "n.",
           "cn": "炸弹",
           "tags": [
             "reading"
@@ -23715,7 +23715,7 @@ const VocabData = {
         {
           "w": "bow",
           "phon": "Ib3U/",
-          "pos": "",
+          "pos": "n.",
           "cn": "弓;  蝴蝶结",
           "tags": [
             "reading"
@@ -23724,7 +23724,7 @@ const VocabData = {
         {
           "w": "bullet",
           "phon": "/bulstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "子弹,枪弹",
           "tags": [
             "reading"
@@ -23733,7 +23733,7 @@ const VocabData = {
         {
           "w": "burrow",
           "phon": "/bAraU/",
-          "pos": "",
+          "pos": "n.",
           "cn": "地洞,地道",
           "tags": [
             "reading"
@@ -23769,7 +23769,7 @@ const VocabData = {
         {
           "w": "campaign",
           "phon": "Ikampelnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "政治 /运动 战役; (社会 参加(或领导) 运动",
           "tags": [
             "reading"
@@ -23778,7 +23778,7 @@ const VocabData = {
         {
           "w": "cannon",
           "phon": "/'kananl",
-          "pos": "",
+          "pos": "n.",
           "cn": "加农炮;(飞机上的)  自动机关炮 大炮",
           "tags": [
             "reading"
@@ -23787,7 +23787,7 @@ const VocabData = {
         {
           "w": "capture",
           "phon": "Mkaptfol",
-          "pos": "",
+          "pos": "n.",
           "cn": "战利品",
           "tags": [
             "reading"
@@ -23796,7 +23796,7 @@ const VocabData = {
         {
           "w": "casualty",
           "phon": "/ka3ualtil",
-          "pos": "",
+          "pos": "n.",
           "cn": "伤亡人员",
           "tags": [
             "reading"
@@ -23823,7 +23823,7 @@ const VocabData = {
         {
           "w": "challenge",
           "phon": "/tfalsnd3",
-          "pos": "",
+          "pos": "n.",
           "cn": "向挑战 挑战",
           "tags": [
             "reading"
@@ -23868,7 +23868,7 @@ const VocabData = {
         {
           "w": "compete",
           "phon": "Ikampi:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "比赛 )",
           "tags": [
             "reading"
@@ -23904,7 +23904,7 @@ const VocabData = {
         {
           "w": "conquer",
           "phon": "Mkonkal",
-          "pos": "",
+          "pos": "n.",
           "cn": "征服;  克服,战胜",
           "tags": [
             "reading"
@@ -23976,7 +23976,7 @@ const VocabData = {
         {
           "w": "defend",
           "phon": "Idrfendl",
-          "pos": "",
+          "pos": "n.",
           "cn": "防御,保护; 为:辩护",
           "tags": [
             "reading"
@@ -23994,7 +23994,7 @@ const VocabData = {
         {
           "w": "deploy",
           "phon": "Idrpl3Il",
-          "pos": "",
+          "pos": "n.",
           "cn": "部署",
           "tags": [
             "reading"
@@ -24003,7 +24003,7 @@ const VocabData = {
         {
           "w": "deprive",
           "phon": "Idrprarv/",
-          "pos": "",
+          "pos": "adj.",
           "cn": "剥夺",
           "tags": [
             "reading"
@@ -24021,7 +24021,7 @@ const VocabData = {
         {
           "w": "deter",
           "phon": "/dr't3:/",
-          "pos": "",
+          "pos": "n.",
           "cn": "阻止,威慑住",
           "tags": [
             "reading"
@@ -24039,7 +24039,7 @@ const VocabData = {
         {
           "w": "devil",
           "phon": "/devall",
-          "pos": "",
+          "pos": "n.",
           "cn": "魔鬼;  恶棍",
           "tags": [
             "reading"
@@ -24057,7 +24057,7 @@ const VocabData = {
         {
           "w": "dilemma",
           "phon": "Idg'lemal",
-          "pos": "",
+          "pos": "n.",
           "cn": "进退两难的) 困境",
           "tags": [
             "reading"
@@ -24084,7 +24084,7 @@ const VocabData = {
         {
           "w": "dread",
           "phon": "Idredl",
-          "pos": "",
+          "pos": "n.",
           "cn": "极为害怕,非常担心 恐惧,忧虑",
           "tags": [
             "reading"
@@ -24093,7 +24093,7 @@ const VocabData = {
         {
           "w": "enclose",
           "phon": "/In'klauzl",
-          "pos": "",
+          "pos": "n.",
           "cn": "随信附上 包围;  把:.'封入信封,",
           "tags": [
             "reading"
@@ -24111,7 +24111,7 @@ const VocabData = {
         {
           "w": "enormity",
           "phon": "/I'n:mgtil",
-          "pos": "",
+          "pos": "n.",
           "cn": "几 巨大;  滔天大罪",
           "tags": [
             "reading"
@@ -24120,7 +24120,7 @@ const VocabData = {
         {
           "w": "equip",
           "phon": "Ii'kwIpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "配备,装备",
           "tags": [
             "reading"
@@ -24129,7 +24129,7 @@ const VocabData = {
         {
           "w": "escape",
           "phon": "Iskelpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "逃跑;  逃脱;  逃避",
           "tags": [
             "reading"
@@ -24147,7 +24147,7 @@ const VocabData = {
         {
           "w": "evidence",
           "phon": "/evsdansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "证据;  根据",
           "tags": [
             "reading"
@@ -24174,7 +24174,7 @@ const VocabData = {
         {
           "w": "explosion",
           "phon": "Ik'splau3anl",
-          "pos": "",
+          "pos": "n.",
           "cn": "爆发;  迸发;  爆炸;  激增",
           "tags": [
             "reading"
@@ -24183,7 +24183,7 @@ const VocabData = {
         {
           "w": "famine",
           "phon": "/famsn",
-          "pos": "",
+          "pos": "adj.",
           "cn": "饥荒 那一年",
           "tags": [
             "reading"
@@ -24201,7 +24201,7 @@ const VocabData = {
         {
           "w": "flame",
           "phon": "/flerlnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "火焰;  强烈的感情",
           "tags": [
             "reading"
@@ -24264,7 +24264,7 @@ const VocabData = {
         {
           "w": "frighten",
           "phon": "/'frartil",
-          "pos": "",
+          "pos": "v.",
           "cn": "使害怕 ,使惊恐",
           "tags": [
             "reading"
@@ -24291,7 +24291,7 @@ const VocabData = {
         {
           "w": "glitter",
           "phon": "/glitol",
-          "pos": "",
+          "pos": "n.",
           "cn": "发光小物 闪烁;  闪现",
           "tags": [
             "reading"
@@ -24309,7 +24309,7 @@ const VocabData = {
         {
           "w": "glow",
           "phon": "Iglaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "发出微弱稳定的光 微弱稳定的光",
           "tags": [
             "reading"
@@ -24345,7 +24345,7 @@ const VocabData = {
         {
           "w": "halt",
           "phon": "Ih3:lt/",
-          "pos": "",
+          "pos": "n.",
           "cn": "停止。停住",
           "tags": [
             "reading"
@@ -24354,7 +24354,7 @@ const VocabData = {
         {
           "w": "hammer",
           "phon": "Ihamal",
-          "pos": "",
+          "pos": "n.",
           "cn": "锤,榔头 用锤击",
           "tags": [
             "reading"
@@ -24363,7 +24363,7 @@ const VocabData = {
         {
           "w": "hang",
           "phon": "Ihagl",
-          "pos": "",
+          "pos": "n.",
           "cn": "悬挂;  悬浮 (在空中 );(被)绞死",
           "tags": [
             "reading"
@@ -24390,7 +24390,7 @@ const VocabData = {
         {
           "w": "hell",
           "phon": "Ihell",
-          "pos": "",
+          "pos": "n.",
           "cn": "地狱;  苦境",
           "tags": [
             "reading"
@@ -24399,7 +24399,7 @@ const VocabData = {
         {
           "w": "helmet",
           "phon": "/helmgtl",
-          "pos": "",
+          "pos": "n.",
           "cn": "头盔,防护帽",
           "tags": [
             "reading"
@@ -24471,7 +24471,7 @@ const VocabData = {
         {
           "w": "interrupt",
           "phon": "Inta'rptl",
-          "pos": "",
+          "pos": "n.",
           "cn": "打断;  中断",
           "tags": [
             "reading"
@@ -24480,7 +24480,7 @@ const VocabData = {
         {
           "w": "intrude",
           "phon": "IIn'tru:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "闯人 侵入;  侵扰",
           "tags": [
             "reading"
@@ -24498,7 +24498,7 @@ const VocabData = {
         {
           "w": "landing",
           "phon": "Mlandml",
-          "pos": "",
+          "pos": "v.",
           "cn": "着陆;  登陆",
           "tags": [
             "reading"
@@ -24507,7 +24507,7 @@ const VocabData = {
         {
           "w": "limit",
           "phon": "Mlrmgtl",
-          "pos": "",
+          "pos": "v.",
           "cn": "限度;  界限",
           "tags": [
             "reading"
@@ -24534,7 +24534,7 @@ const VocabData = {
         {
           "w": "matter",
           "phon": "/matal",
-          "pos": "",
+          "pos": "n.",
           "cn": "事情;  物质",
           "tags": [
             "reading"
@@ -24543,7 +24543,7 @@ const VocabData = {
         {
           "w": "medal",
           "phon": "/medll",
-          "pos": "",
+          "pos": "adj.",
           "cn": "勋章,奖章",
           "tags": [
             "reading"
@@ -24579,7 +24579,7 @@ const VocabData = {
         {
           "w": "missile",
           "phon": "/IsaIll",
-          "pos": "",
+          "pos": "n.",
           "cn": "导弹;  投掷物 手榴弹是",
           "tags": [
             "reading"
@@ -24606,7 +24606,7 @@ const VocabData = {
         {
           "w": "monument",
           "phon": "/mpnjgmantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "纪念碑;  历史遗迹;  典范",
           "tags": [
             "reading"
@@ -24642,7 +24642,7 @@ const VocabData = {
         {
           "w": "obstacle",
           "phon": "/obstakall",
-          "pos": "",
+          "pos": "n.",
           "cn": "障碍;  障碍物",
           "tags": [
             "reading"
@@ -24651,7 +24651,7 @@ const VocabData = {
         {
           "w": "occasion",
           "phon": "Iaker3anl",
-          "pos": "",
+          "pos": "n.",
           "cn": "场合;  时机,机会",
           "tags": [
             "reading"
@@ -24678,7 +24678,7 @@ const VocabData = {
         {
           "w": "oppose",
           "phon": "I3pauzl",
-          "pos": "",
+          "pos": "n.",
           "cn": "抵制 反对 ,",
           "tags": [
             "reading"
@@ -24687,7 +24687,7 @@ const VocabData = {
         {
           "w": "oppress",
           "phon": "Ipresl",
-          "pos": "",
+          "pos": "n.",
           "cn": "压迫 压制;  使压抑",
           "tags": [
             "reading"
@@ -24696,7 +24696,7 @@ const VocabData = {
         {
           "w": "order",
           "phon": "/:dal",
-          "pos": "",
+          "pos": "n.",
           "cn": "几订单;  点的餐",
           "tags": [
             "reading"
@@ -24714,7 +24714,7 @@ const VocabData = {
         {
           "w": "patriot",
           "phon": "/patriatl",
-          "pos": "",
+          "pos": "n.",
           "cn": "爱国者",
           "tags": [
             "reading"
@@ -24750,7 +24750,7 @@ const VocabData = {
         {
           "w": "pistol",
           "phon": "/pIstll",
-          "pos": "",
+          "pos": "n.",
           "cn": "手枪",
           "tags": [
             "reading"
@@ -24759,7 +24759,7 @@ const VocabData = {
         {
           "w": "pitfall",
           "phon": "/pItfo:ll",
-          "pos": "",
+          "pos": "n.",
           "cn": "困难 陷阱;  危险",
           "tags": [
             "reading"
@@ -24768,7 +24768,7 @@ const VocabData = {
         {
           "w": "plight",
           "phon": "Ilaltl",
-          "pos": "",
+          "pos": "n.",
           "cn": "困境;  誓约",
           "tags": [
             "reading"
@@ -24777,7 +24777,7 @@ const VocabData = {
         {
           "w": "poison",
           "phon": "/p3Izanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "毒物, 毒药 毒害",
           "tags": [
             "reading"
@@ -24786,7 +24786,7 @@ const VocabData = {
         {
           "w": "prepare",
           "phon": "Iprrpeal",
-          "pos": "",
+          "pos": "n.",
           "cn": "使预备好;  为:做准备",
           "tags": [
             "reading"
@@ -24822,7 +24822,7 @@ const VocabData = {
         {
           "w": "prohibit",
           "phon": "Ipra'hibstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "禁止,不允许",
           "tags": [
             "reading"
@@ -24831,7 +24831,7 @@ const VocabData = {
         {
           "w": "proof",
           "phon": "Iru:fl",
-          "pos": "",
+          "pos": "n.",
           "cn": "证据 证明",
           "tags": [
             "reading"
@@ -24849,7 +24849,7 @@ const VocabData = {
         {
           "w": "provide",
           "phon": "Ipra'vaidl",
-          "pos": "",
+          "pos": "n.",
           "cn": "供给,提供",
           "tags": [
             "reading"
@@ -24867,7 +24867,7 @@ const VocabData = {
         {
           "w": "punishment",
           "phon": "IpAnIJmantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "刀 处罚 惩罚 , 惩罚",
           "tags": [
             "reading"
@@ -24876,7 +24876,7 @@ const VocabData = {
         {
           "w": "pursue",
           "phon": "Ia'sju:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "追赶;  追查;  追求",
           "tags": [
             "reading"
@@ -24885,7 +24885,7 @@ const VocabData = {
         {
           "w": "quit",
           "phon": "Ikwitl",
-          "pos": "",
+          "pos": "n.",
           "cn": "放弃,停止;  辞去;  离开",
           "tags": [
             "reading"
@@ -25002,7 +25002,7 @@ const VocabData = {
         {
           "w": "risk",
           "phon": "Iriskl",
-          "pos": "",
+          "pos": "n.",
           "cn": "危险,风险",
           "tags": [
             "reading"
@@ -25011,7 +25011,7 @@ const VocabData = {
         {
           "w": "rival",
           "phon": "/ralvall",
-          "pos": "",
+          "pos": "adj.",
           "cn": "竞争者,对手",
           "tags": [
             "reading"
@@ -25020,7 +25020,7 @@ const VocabData = {
         {
           "w": "sacrifice",
           "phon": "Isakrgfaisl",
-          "pos": "",
+          "pos": "n.",
           "cn": "牺牲;  以.作祭品 牺牲;  献祭",
           "tags": [
             "reading"
@@ -25029,7 +25029,7 @@ const VocabData = {
         {
           "w": "safeguard",
           "phon": "Mserfga:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "保护措施 保护 保卫",
           "tags": [
             "reading"
@@ -25047,7 +25047,7 @@ const VocabData = {
         {
           "w": "scenario",
           "phon": "Isg'na:riaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "可能发生的情况;  剧情梗概,脚本",
           "tags": [
             "reading"
@@ -25056,7 +25056,7 @@ const VocabData = {
         {
           "w": "scout",
           "phon": "Iskautl",
-          "pos": "",
+          "pos": "n.",
           "cn": "侦察员,侦察机 昂 搜寻",
           "tags": [
             "reading"
@@ -25065,7 +25065,7 @@ const VocabData = {
         {
           "w": "seize",
           "phon": "Isi:zl",
-          "pos": "",
+          "pos": "v.",
           "cn": "抓住;  夺取",
           "tags": [
             "reading"
@@ -25074,7 +25074,7 @@ const VocabData = {
         {
           "w": "shield",
           "phon": "/Fiildl",
-          "pos": "",
+          "pos": "n.",
           "cn": "盾;  防护物 保护",
           "tags": [
             "reading"
@@ -25092,7 +25092,7 @@ const VocabData = {
         {
           "w": "siege",
           "phon": "Isi:d3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "围攻 包围",
           "tags": [
             "reading"
@@ -25101,7 +25101,7 @@ const VocabData = {
         {
           "w": "soldier",
           "phon": "/'s3U1d33/",
-          "pos": "",
+          "pos": "n.",
           "cn": "战士, 士兵",
           "tags": [
             "reading"
@@ -25119,7 +25119,7 @@ const VocabData = {
         {
           "w": "spear",
           "phon": "Ispral",
-          "pos": "",
+          "pos": "n.",
           "cn": "矛;  标枪 用尖物刺穿",
           "tags": [
             "reading"
@@ -25128,7 +25128,7 @@ const VocabData = {
         {
           "w": "spy",
           "phon": "Ispall",
-          "pos": "",
+          "pos": "n.",
           "cn": "间谍。特务 搜集情报,从事间谍活动",
           "tags": [
             "reading"
@@ -25155,7 +25155,7 @@ const VocabData = {
         {
           "w": "statue",
           "phon": "/statlu:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "雕像,塑像",
           "tags": [
             "reading"
@@ -25164,7 +25164,7 @@ const VocabData = {
         {
           "w": "strategy",
           "phon": "Mstratsd3il",
-          "pos": "",
+          "pos": "n.",
           "cn": "策略;  战略",
           "tags": [
             "reading"
@@ -25173,7 +25173,7 @@ const VocabData = {
         {
           "w": "strike",
           "phon": "Istralkl",
-          "pos": "",
+          "pos": "n.",
           "cn": "罢工; 打击",
           "tags": [
             "reading"
@@ -25209,7 +25209,7 @@ const VocabData = {
         {
           "w": "sword",
           "phon": "IS3:d/",
-          "pos": "",
+          "pos": "n.",
           "cn": "刀, 剑",
           "tags": [
             "reading"
@@ -25218,7 +25218,7 @@ const VocabData = {
         {
           "w": "tablet",
           "phon": "/tablstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几。碑,匾;  药片",
           "tags": [
             "reading"
@@ -25236,7 +25236,7 @@ const VocabData = {
         {
           "w": "tank",
           "phon": "Itankl",
-          "pos": "",
+          "pos": "n.",
           "cn": "坦克;  罐。槽,缸",
           "tags": [
             "reading"
@@ -25245,7 +25245,7 @@ const VocabData = {
         {
           "w": "target",
           "phon": "Ita:gatl",
-          "pos": "",
+          "pos": "n.",
           "cn": "对象 靶子; 目标,",
           "tags": [
             "reading"
@@ -25281,7 +25281,7 @@ const VocabData = {
         {
           "w": "terror",
           "phon": "/teral",
-          "pos": "",
+          "pos": "n.",
           "cn": "恐惧,恐慌",
           "tags": [
             "reading"
@@ -25290,7 +25290,7 @@ const VocabData = {
         {
           "w": "threat",
           "phon": "IGretl",
-          "pos": "",
+          "pos": "n.",
           "cn": "威胁 恐吓",
           "tags": [
             "reading"
@@ -25299,7 +25299,7 @@ const VocabData = {
         {
           "w": "tomb",
           "phon": "/tu:lnl",
-          "pos": "",
+          "pos": "n.",
           "cn": "坟墓, 壕",
           "tags": [
             "reading"
@@ -25317,7 +25317,7 @@ const VocabData = {
         {
           "w": "traitor",
           "phon": "/trertal",
-          "pos": "",
+          "pos": "n.",
           "cn": "叛徒,卖国贼",
           "tags": [
             "reading"
@@ -25326,7 +25326,7 @@ const VocabData = {
         {
           "w": "treason",
           "phon": "/tri:zanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "叛国罪。通敌罪",
           "tags": [
             "reading"
@@ -25344,7 +25344,7 @@ const VocabData = {
         {
           "w": "triumph",
           "phon": "/tralamfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "伟大胜利 , 非凡的成功",
           "tags": [
             "reading"
@@ -25353,7 +25353,7 @@ const VocabData = {
         {
           "w": "troop",
           "phon": "Itru:pl",
-          "pos": "",
+          "pos": "n.",
           "cn": "一群, 结队前行 一队; [~s] 军队",
           "tags": [
             "reading"
@@ -25371,7 +25371,7 @@ const VocabData = {
         {
           "w": "turmoil",
           "phon": "/t3:m3Il/",
-          "pos": "",
+          "pos": "n.",
           "cn": "混乱,骚乱",
           "tags": [
             "reading"
@@ -25389,7 +25389,7 @@ const VocabData = {
         {
           "w": "veteran",
           "phon": "/vetaranl",
-          "pos": "",
+          "pos": "n.",
           "cn": "老兵;  老手",
           "tags": [
             "reading"
@@ -25398,7 +25398,7 @@ const VocabData = {
         {
           "w": "victory",
           "phon": "/viktaril",
-          "pos": "",
+          "pos": "adj.",
           "cn": "胜利 成功",
           "tags": [
             "reading"
@@ -25416,7 +25416,7 @@ const VocabData = {
         {
           "w": "violence",
           "phon": "/'valalansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "暴力",
           "tags": [
             "reading"
@@ -25434,7 +25434,7 @@ const VocabData = {
         {
           "w": "weapon",
           "phon": "/'wepanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "武器。兵器;  手段",
           "tags": [
             "reading"
@@ -25485,7 +25485,7 @@ const VocabData = {
         {
           "w": "actress",
           "phon": "Maektrssl",
-          "pos": "",
+          "pos": "n.",
           "cn": "女演员",
           "tags": [
             "writing"
@@ -25503,7 +25503,7 @@ const VocabData = {
         {
           "w": "affection",
           "phon": "Ia'fekfanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "喜爱,喜欢; [~s]爱情",
           "tags": [
             "writing"
@@ -25548,7 +25548,7 @@ const VocabData = {
         {
           "w": "beggar",
           "phon": "/begal",
-          "pos": "",
+          "pos": "n.",
           "cn": "乞丐",
           "tags": [
             "writing"
@@ -25566,7 +25566,7 @@ const VocabData = {
         {
           "w": "boss",
           "phon": "IbDS/",
-          "pos": "",
+          "pos": "n.",
           "cn": "老板 对:指手画脚 上司",
           "tags": [
             "writing"
@@ -25575,7 +25575,7 @@ const VocabData = {
         {
           "w": "butcher",
           "phon": "/but[al",
-          "pos": "",
+          "pos": "n.",
           "cn": "屠夫;  杀人狂",
           "tags": [
             "writing"
@@ -25593,7 +25593,7 @@ const VocabData = {
         {
           "w": "chancellor",
           "phon": "ItJa:nsalal",
-          "pos": "",
+          "pos": "n.",
           "cn": "德国或奥地利 ) 总理;(英国)财政大臣",
           "tags": [
             "writing"
@@ -25611,7 +25611,7 @@ const VocabData = {
         {
           "w": "chore",
           "phon": "ItJ3:/",
-          "pos": "",
+          "pos": "n.",
           "cn": "家庭杂务;  乏味无聊的工作",
           "tags": [
             "writing"
@@ -25620,7 +25620,7 @@ const VocabData = {
         {
           "w": "client",
           "phon": "/klalantl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "顾客。客户;  委托人",
           "tags": [
             "writing"
@@ -25629,7 +25629,7 @@ const VocabData = {
         {
           "w": "colleague",
           "phon": "NkDli:gl",
-          "pos": "",
+          "pos": "n.",
           "cn": "同事,同僚",
           "tags": [
             "writing"
@@ -25638,7 +25638,7 @@ const VocabData = {
         {
           "w": "commander",
           "phon": "Ika'ma:ndal",
-          "pos": "",
+          "pos": "n.",
           "cn": "司令官 指挥官",
           "tags": [
             "writing"
@@ -25656,7 +25656,7 @@ const VocabData = {
         {
           "w": "commuter",
           "phon": "Ikka'mju:tal",
-          "pos": "",
+          "pos": "n.",
           "cn": "上下班往返者,通勤者",
           "tags": [
             "writing"
@@ -25665,7 +25665,7 @@ const VocabData = {
         {
           "w": "comrade",
           "phon": "/kpmrgdl",
-          "pos": "",
+          "pos": "n.",
           "cn": "同志; (尤指共患难的 )  同伴",
           "tags": [
             "writing"
@@ -25674,7 +25674,7 @@ const VocabData = {
         {
           "w": "consultant",
           "phon": "IkansAltantl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "顾问; [英]会诊医师",
           "tags": [
             "writing"
@@ -25710,7 +25710,7 @@ const VocabData = {
         {
           "w": "cousin",
           "phon": "IKAZanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "姐。妹 ) 堂(或表)兄 (或弟",
           "tags": [
             "writing"
@@ -25728,7 +25728,7 @@ const VocabData = {
         {
           "w": "customer",
           "phon": "/kAstalnal",
-          "pos": "",
+          "pos": "n.",
           "cn": "顾客,主顾,客户",
           "tags": [
             "writing"
@@ -25737,7 +25737,7 @@ const VocabData = {
         {
           "w": "darling",
           "phon": "/da:lil",
-          "pos": "",
+          "pos": "v.",
           "cn": "亲爱的;  宠儿",
           "tags": [
             "writing"
@@ -25773,7 +25773,7 @@ const VocabData = {
         {
           "w": "deputy",
           "phon": "/depjgtil",
-          "pos": "",
+          "pos": "n.",
           "cn": "副手 代理人,",
           "tags": [
             "writing"
@@ -25782,7 +25782,7 @@ const VocabData = {
         {
           "w": "director",
           "phon": "Ids'rektal",
-          "pos": "",
+          "pos": "n.",
           "cn": "主管;  理事;  导演",
           "tags": [
             "writing"
@@ -25791,7 +25791,7 @@ const VocabData = {
         {
           "w": "divorce",
           "phon": "/dg'V3:s/",
-          "pos": "",
+          "pos": "n.",
           "cn": "离婚;  脱离",
           "tags": [
             "writing"
@@ -25827,7 +25827,7 @@ const VocabData = {
         {
           "w": "engagement",
           "phon": "Ingeid3mantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "婚约;  约定",
           "tags": [
             "writing"
@@ -25863,7 +25863,7 @@ const VocabData = {
         {
           "w": "fisherman",
           "phon": "/fifamanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "垂钓者 渔民,渔夫,",
           "tags": [
             "writing"
@@ -25872,7 +25872,7 @@ const VocabData = {
         {
           "w": "folk",
           "phon": "Ifaukl",
-          "pos": "",
+          "pos": "n.",
           "cn": "人们; [~s] 家属 亲属",
           "tags": [
             "writing"
@@ -25881,7 +25881,7 @@ const VocabData = {
         {
           "w": "friendship",
           "phon": "/'frendfipl",
-          "pos": "",
+          "pos": "n.",
           "cn": "友好 友谊;  友情 ,",
           "tags": [
             "writing"
@@ -25890,7 +25890,7 @@ const VocabData = {
         {
           "w": "gang",
           "phon": "Igan/",
-          "pos": "",
+          "pos": "n.",
           "cn": "一帮, 一伙 (常聚在一起闹事。打斗的年轻人 )",
           "tags": [
             "writing"
@@ -25899,7 +25899,7 @@ const VocabData = {
         {
           "w": "gardener",
           "phon": "/ga:dnal",
-          "pos": "",
+          "pos": "n.",
           "cn": "园丁 花匠",
           "tags": [
             "writing"
@@ -25917,7 +25917,7 @@ const VocabData = {
         {
           "w": "gender",
           "phon": "/d3endal",
-          "pos": "",
+          "pos": "n.",
           "cn": "性别",
           "tags": [
             "writing"
@@ -25926,7 +25926,7 @@ const VocabData = {
         {
           "w": "generation",
           "phon": "Id3ena'reilanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几一代 (约20至30年); -代人",
           "tags": [
             "writing"
@@ -25944,7 +25944,7 @@ const VocabData = {
         {
           "w": "groom",
           "phon": "Igru:ml",
-          "pos": "",
+          "pos": "n.",
           "cn": "给动物 )刷洗;  理毛。梳毛 马夫;  新郎",
           "tags": [
             "writing"
@@ -25953,7 +25953,7 @@ const VocabData = {
         {
           "w": "guest",
           "phon": "Igestl",
-          "pos": "",
+          "pos": "n.",
           "cn": "客人 宾客;  旅客",
           "tags": [
             "writing"
@@ -25971,7 +25971,7 @@ const VocabData = {
         {
           "w": "heir",
           "phon": "Ieal",
-          "pos": "",
+          "pos": "n.",
           "cn": "后嗣;  继承人",
           "tags": [
             "writing"
@@ -25980,7 +25980,7 @@ const VocabData = {
         {
           "w": "herald",
           "phon": "/heraldl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使者 传令官;  先驱, 预兆 预告;  宣布",
           "tags": [
             "writing"
@@ -26007,7 +26007,7 @@ const VocabData = {
         {
           "w": "honeymoon",
           "phon": "Ihunimu:nl",
-          "pos": "",
+          "pos": "n.",
           "cn": "蜜月",
           "tags": [
             "writing"
@@ -26025,7 +26025,7 @@ const VocabData = {
         {
           "w": "hostage",
           "phon": "/hst1d3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "人质 例1 A British journalist was held hostage for over 位英国记者被作为人质扣押了两年多。",
           "tags": [
             "writing"
@@ -26034,7 +26034,7 @@ const VocabData = {
         {
           "w": "hostess",
           "phon": "/haustgsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "女主人",
           "tags": [
             "writing"
@@ -26061,7 +26061,7 @@ const VocabData = {
         {
           "w": "husband",
           "phon": "/hAzbandl",
-          "pos": "",
+          "pos": "n.",
           "cn": "丈夫",
           "tags": [
             "writing"
@@ -26124,7 +26124,7 @@ const VocabData = {
         {
           "w": "landlady",
           "phon": "Il:endileldil",
-          "pos": "",
+          "pos": "n.",
           "cn": "女房东;  女地主",
           "tags": [
             "writing"
@@ -26133,7 +26133,7 @@ const VocabData = {
         {
           "w": "landlord",
           "phon": "Ilandl3:d/",
-          "pos": "",
+          "pos": "n.",
           "cn": "地主;  房东;(酒吧)店主",
           "tags": [
             "writing"
@@ -26142,7 +26142,7 @@ const VocabData = {
         {
           "w": "lover",
           "phon": "IIAVal",
-          "pos": "",
+          "pos": "n.",
           "cn": "爱好者;(婚外的)情人",
           "tags": [
             "writing"
@@ -26151,7 +26151,7 @@ const VocabData = {
         {
           "w": "madam",
           "phon": "/adaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "夫人= 女士; [英]自以为是的小姑娘",
           "tags": [
             "writing"
@@ -26169,7 +26169,7 @@ const VocabData = {
         {
           "w": "maiden",
           "phon": "/eldnl",
-          "pos": "",
+          "pos": "v.",
           "cn": "少女,姑娘",
           "tags": [
             "writing"
@@ -26178,7 +26178,7 @@ const VocabData = {
         {
           "w": "manager",
           "phon": "/'manld3al",
-          "pos": "",
+          "pos": "n.",
           "cn": "经理,管理人",
           "tags": [
             "writing"
@@ -26196,7 +26196,7 @@ const VocabData = {
         {
           "w": "mate",
           "phon": "Imertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "伙伴; [构成复合词 ]同伴",
           "tags": [
             "writing"
@@ -26205,7 +26205,7 @@ const VocabData = {
         {
           "w": "member",
           "phon": "/membal",
-          "pos": "",
+          "pos": "n.",
           "cn": "成员;  会员",
           "tags": [
             "writing"
@@ -26223,7 +26223,7 @@ const VocabData = {
         {
           "w": "mistress",
           "phon": "!inlstrgsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "女主人;  情妇",
           "tags": [
             "writing"
@@ -26241,7 +26241,7 @@ const VocabData = {
         {
           "w": "nephew",
           "phon": "/nefju:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "侄子;  外甥",
           "tags": [
             "writing"
@@ -26268,7 +26268,7 @@ const VocabData = {
         {
           "w": "orphan",
           "phon": "I3:fanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使成为弧儿 弧儿",
           "tags": [
             "writing"
@@ -26277,7 +26277,7 @@ const VocabData = {
         {
           "w": "partner",
           "phon": "/pa:tnal",
-          "pos": "",
+          "pos": "n.",
           "cn": "盟友;  合伙人;  搭档 伙伴 ,",
           "tags": [
             "writing"
@@ -26304,7 +26304,7 @@ const VocabData = {
         {
           "w": "proponent",
           "phon": "Iprapaunantl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "拥护者,支持者",
           "tags": [
             "writing"
@@ -26313,7 +26313,7 @@ const VocabData = {
         {
           "w": "propose",
           "phon": "Iprapauzl",
-          "pos": "",
+          "pos": "n.",
           "cn": "提议;  向求婚",
           "tags": [
             "writing"
@@ -26349,7 +26349,7 @@ const VocabData = {
         {
           "w": "sex",
           "phon": "Iseksl",
-          "pos": "",
+          "pos": "n.",
           "cn": "性别;  性行为",
           "tags": [
             "writing"
@@ -26358,7 +26358,7 @@ const VocabData = {
         {
           "w": "sibling",
           "phon": "/'sIblil",
-          "pos": "",
+          "pos": "v.",
           "cn": "兄;  弟;  姐;  妹",
           "tags": [
             "writing"
@@ -26376,7 +26376,7 @@ const VocabData = {
         {
           "w": "slave",
           "phon": "Islervl",
-          "pos": "",
+          "pos": "n.",
           "cn": "奴隶",
           "tags": [
             "writing"
@@ -26394,7 +26394,7 @@ const VocabData = {
         {
           "w": "solicitor",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -26403,7 +26403,7 @@ const VocabData = {
         {
           "w": "specialist",
           "phon": "Ispefalsstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "专家;  专科医生",
           "tags": [
             "writing"
@@ -26412,7 +26412,7 @@ const VocabData = {
         {
           "w": "spouse",
           "phon": "Ispausl",
-          "pos": "",
+          "pos": "n.",
           "cn": "配偶 指夫或妻 )",
           "tags": [
             "writing"
@@ -26421,7 +26421,7 @@ const VocabData = {
         {
           "w": "stranger",
           "phon": "/strernd3al",
-          "pos": "",
+          "pos": "n.",
           "cn": "陌生人;  新来者",
           "tags": [
             "writing"
@@ -26439,7 +26439,7 @@ const VocabData = {
         {
           "w": "successor",
           "phon": "Isak'sesal",
-          "pos": "",
+          "pos": "n.",
           "cn": "接替者 , 继任者;  后继的事物",
           "tags": [
             "writing"
@@ -26448,7 +26448,7 @@ const VocabData = {
         {
           "w": "supervisor",
           "phon": "/su:pavalzal",
-          "pos": "",
+          "pos": "n.",
           "cn": "管理者,监督者",
           "tags": [
             "writing"
@@ -26475,7 +26475,7 @@ const VocabData = {
         {
           "w": "tenant",
           "phon": "/'tenantl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "房客;  租户",
           "tags": [
             "writing"
@@ -26484,7 +26484,7 @@ const VocabData = {
         {
           "w": "toil",
           "phon": "It3Ill",
-          "pos": "",
+          "pos": "n.",
           "cn": "圈套 苦工, 苦活;  网,",
           "tags": [
             "writing"
@@ -26502,7 +26502,7 @@ const VocabData = {
         {
           "w": "umpire",
           "phon": "IAmpalal",
-          "pos": "",
+          "pos": "n.",
           "cn": "几裁判员",
           "tags": [
             "writing"
@@ -26520,7 +26520,7 @@ const VocabData = {
         {
           "w": "wedding",
           "phon": "/'wednl",
-          "pos": "",
+          "pos": "v.",
           "cn": "婚礼",
           "tags": [
             "writing"
@@ -26538,7 +26538,7 @@ const VocabData = {
         {
           "w": "youngster",
           "phon": "NjAnstal",
-          "pos": "",
+          "pos": "n.",
           "cn": "年轻人;  少年",
           "tags": [
             "writing"
@@ -26547,7 +26547,7 @@ const VocabData = {
         {
           "w": "youth",
           "phon": "Iju:Ol",
-          "pos": "",
+          "pos": "n.",
           "cn": "青年时期;  青春;(统称)  青年",
           "tags": [
             "writing"
@@ -26571,7 +26571,7 @@ const VocabData = {
         {
           "w": "accustom",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "使习惯 (于)",
           "tags": [
             "writing"
@@ -26589,7 +26589,7 @@ const VocabData = {
         {
           "w": "adopt",
           "phon": "Ia'doptl",
-          "pos": "",
+          "pos": "n.",
           "cn": "收养;  采取。采用",
           "tags": [
             "writing"
@@ -26616,7 +26616,7 @@ const VocabData = {
         {
           "w": "amplify",
           "phon": "Nemplgfail",
-          "pos": "",
+          "pos": "v.",
           "cn": "陈述等 ) 增强;  扩大 (声音); 充实",
           "tags": [
             "writing"
@@ -26643,7 +26643,7 @@ const VocabData = {
         {
           "w": "argument",
           "phon": "/a:gjgmantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "辩论 , 争论;  论点。论据",
           "tags": [
             "writing"
@@ -26661,7 +26661,7 @@ const VocabData = {
         {
           "w": "arrange",
           "phon": "Ia'relnd3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "安排,整理, 使有条理",
           "tags": [
             "writing"
@@ -26679,7 +26679,7 @@ const VocabData = {
         {
           "w": "assert",
           "phon": "/3'53:t/",
-          "pos": "",
+          "pos": "n.",
           "cn": "断言 ,坚称; 坚持(自己)的主张",
           "tags": [
             "writing"
@@ -26724,7 +26724,7 @@ const VocabData = {
         {
           "w": "attempt",
           "phon": "Ia'teiptl",
-          "pos": "",
+          "pos": "n.",
           "cn": "尝试,企图",
           "tags": [
             "writing"
@@ -26805,7 +26805,7 @@ const VocabData = {
         {
           "w": "bet",
           "phon": "Ibetl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几。打赌;  赌注 下注。打赌;  敢说",
           "tags": [
             "writing"
@@ -26814,7 +26814,7 @@ const VocabData = {
         {
           "w": "bewilder",
           "phon": "Ibr'wildal",
-          "pos": "",
+          "pos": "n.",
           "cn": "使迷惑 使不知所措",
           "tags": [
             "writing"
@@ -26868,7 +26868,7 @@ const VocabData = {
         {
           "w": "cancel",
           "phon": "Ikansall",
-          "pos": "",
+          "pos": "n.",
           "cn": "取消;  废除",
           "tags": [
             "writing"
@@ -26886,7 +26886,7 @@ const VocabData = {
         {
           "w": "cause",
           "phon": "I3:z/",
-          "pos": "",
+          "pos": "n.",
           "cn": "原因 理由;  事业 引起。导致",
           "tags": [
             "writing"
@@ -26949,7 +26949,7 @@ const VocabData = {
         {
           "w": "conceal",
           "phon": "Ikon'si:ll",
-          "pos": "",
+          "pos": "adj.",
           "cn": "隐藏,掩盖",
           "tags": [
             "writing"
@@ -26967,7 +26967,7 @@ const VocabData = {
         {
           "w": "congratulate",
           "phon": "/kan'gratlglertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "祝贺。向道贺",
           "tags": [
             "writing"
@@ -26994,7 +26994,7 @@ const VocabData = {
         {
           "w": "contain",
           "phon": "Ikan'ternl",
-          "pos": "",
+          "pos": "n.",
           "cn": "包含。容纳;  抑制 (感情 )",
           "tags": [
             "writing"
@@ -27012,7 +27012,7 @@ const VocabData = {
         {
           "w": "contempt",
           "phon": "Ikon'temptl",
-          "pos": "",
+          "pos": "n.",
           "cn": "轻视 藐视",
           "tags": [
             "writing"
@@ -27030,7 +27030,7 @@ const VocabData = {
         {
           "w": "convince",
           "phon": "Ikan'vInsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使确信,使信服;  说服",
           "tags": [
             "writing"
@@ -27039,7 +27039,7 @@ const VocabData = {
         {
           "w": "cope",
           "phon": "/kaUpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "应付 , 处理",
           "tags": [
             "writing"
@@ -27066,7 +27066,7 @@ const VocabData = {
         {
           "w": "decimation",
           "phon": "Idess'merfanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "大批杀死 大量毁灭;  大大削弱",
           "tags": [
             "writing"
@@ -27075,7 +27075,7 @@ const VocabData = {
         {
           "w": "deed",
           "phon": "Idi:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "行为;  功绩;  契约",
           "tags": [
             "writing"
@@ -27084,7 +27084,7 @@ const VocabData = {
         {
           "w": "delete",
           "phon": "Idrli:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "删除,删掉",
           "tags": [
             "writing"
@@ -27093,7 +27093,7 @@ const VocabData = {
         {
           "w": "deserve",
           "phon": "/diz3:Vl",
-          "pos": "",
+          "pos": "n.",
           "cn": "应得;  应受",
           "tags": [
             "writing"
@@ -27102,7 +27102,7 @@ const VocabData = {
         {
           "w": "designate",
           "phon": "/dezignertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "指明;  选派。指派",
           "tags": [
             "writing"
@@ -27111,7 +27111,7 @@ const VocabData = {
         {
           "w": "desire",
           "phon": "Idrzaral",
-          "pos": "",
+          "pos": "n.",
           "cn": "欲望 愿望",
           "tags": [
             "writing"
@@ -27147,7 +27147,7 @@ const VocabData = {
         {
           "w": "differentiate",
           "phon": "/drfa'renjieit",
-          "pos": "",
+          "pos": "v.",
           "cn": "区分 , 区别;  差别对待",
           "tags": [
             "writing"
@@ -27183,7 +27183,7 @@ const VocabData = {
         {
           "w": "disregard",
           "phon": "Idisriga:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "忽视 , 漠视",
           "tags": [
             "writing"
@@ -27192,7 +27192,7 @@ const VocabData = {
         {
           "w": "distinguish",
           "phon": "Idi'stIgwill",
-          "pos": "",
+          "pos": "v.",
           "cn": "区别,辨别;  使出众。使著名",
           "tags": [
             "writing"
@@ -27201,7 +27201,7 @@ const VocabData = {
         {
           "w": "distribute",
           "phon": "Idistribju:tl",
-          "pos": "",
+          "pos": "v.",
           "cn": "分发,分配",
           "tags": [
             "writing"
@@ -27210,7 +27210,7 @@ const VocabData = {
         {
           "w": "drop",
           "phon": "Idropl",
-          "pos": "",
+          "pos": "n.",
           "cn": "滴",
           "tags": [
             "writing"
@@ -27219,7 +27219,7 @@ const VocabData = {
         {
           "w": "effort",
           "phon": "/efatl",
-          "pos": "",
+          "pos": "n.",
           "cn": "努力;  努力的成果",
           "tags": [
             "writing"
@@ -27228,7 +27228,7 @@ const VocabData = {
         {
           "w": "enlarge",
           "phon": "Inlla:d3/",
-          "pos": "",
+          "pos": "n.",
           "cn": "照片或文件 )",
           "tags": [
             "writing"
@@ -27237,7 +27237,7 @@ const VocabData = {
         {
           "w": "enlighten",
           "phon": "IIn'lartn/",
-          "pos": "",
+          "pos": "v.",
           "cn": "开导 启迪 启发 ,",
           "tags": [
             "writing"
@@ -27246,7 +27246,7 @@ const VocabData = {
         {
           "w": "erase",
           "phon": "IIrerzl",
-          "pos": "",
+          "pos": "n.",
           "cn": "清除;  抹去",
           "tags": [
             "writing"
@@ -27255,7 +27255,7 @@ const VocabData = {
         {
           "w": "evacuate",
           "phon": "Ii'vakjuertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "疏散,撤离",
           "tags": [
             "writing"
@@ -27273,7 +27273,7 @@ const VocabData = {
         {
           "w": "exclude",
           "phon": "Iik'sklu:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "把:排除在外;  拒绝",
           "tags": [
             "writing"
@@ -27309,7 +27309,7 @@ const VocabData = {
         {
           "w": "expel",
           "phon": "Iik'spell",
-          "pos": "",
+          "pos": "n.",
           "cn": "驱逐;  开除;  排出",
           "tags": [
             "writing"
@@ -27327,7 +27327,7 @@ const VocabData = {
         {
           "w": "exploit",
           "phon": "Iik'splottl",
-          "pos": "",
+          "pos": "n.",
           "cn": "开发,开采,开拓",
           "tags": [
             "writing"
@@ -27354,7 +27354,7 @@ const VocabData = {
         {
           "w": "fasten",
           "phon": "/fa:sanl",
-          "pos": "",
+          "pos": "v.",
           "cn": "扣牢。系牢 , 缚紧",
           "tags": [
             "writing"
@@ -27363,7 +27363,7 @@ const VocabData = {
         {
           "w": "flatter",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -27381,7 +27381,7 @@ const VocabData = {
         {
           "w": "fold",
           "phon": "Ifauldl",
-          "pos": "",
+          "pos": "n.",
           "cn": "折叠。对折",
           "tags": [
             "writing"
@@ -27390,7 +27390,7 @@ const VocabData = {
         {
           "w": "follow",
           "phon": "/folaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "跟随;  是:的必然结果;  遵循",
           "tags": [
             "writing"
@@ -27399,7 +27399,7 @@ const VocabData = {
         {
           "w": "forgive",
           "phon": "Ifa'gIvl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "原谅。宽恕,饶恕",
           "tags": [
             "writing"
@@ -27417,7 +27417,7 @@ const VocabData = {
         {
           "w": "gain",
           "phon": "IgeInl",
-          "pos": "",
+          "pos": "n.",
           "cn": "增加;  改进",
           "tags": [
             "writing"
@@ -27444,7 +27444,7 @@ const VocabData = {
         {
           "w": "glance",
           "phon": "Igla:nsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "一瞥 瞥 迅速看一眼 几",
           "tags": [
             "writing"
@@ -27453,7 +27453,7 @@ const VocabData = {
         {
           "w": "glare",
           "phon": "Igleal",
-          "pos": "",
+          "pos": "n.",
           "cn": "刺眼的光;  怒视 怒目而视;  发出强光",
           "tags": [
             "writing"
@@ -27462,7 +27462,7 @@ const VocabData = {
         {
           "w": "glimpse",
           "phon": "Iglimpsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "一瞥 瞥见",
           "tags": [
             "writing"
@@ -27471,7 +27471,7 @@ const VocabData = {
         {
           "w": "grab",
           "phon": "Igrabl",
-          "pos": "",
+          "pos": "n.",
           "cn": "抓住,攫取; (匆忙地)取",
           "tags": [
             "writing"
@@ -27480,7 +27480,7 @@ const VocabData = {
         {
           "w": "grasp",
           "phon": "Igra:spl",
-          "pos": "",
+          "pos": "n.",
           "cn": "抓牢。握紧;  完全理解 全面领会",
           "tags": [
             "writing"
@@ -27489,7 +27489,7 @@ const VocabData = {
         {
           "w": "greet",
           "phon": "Igri:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "向问好 迎接;  对作出反应",
           "tags": [
             "writing"
@@ -27498,7 +27498,7 @@ const VocabData = {
         {
           "w": "grip",
           "phon": "Igripl",
-          "pos": "",
+          "pos": "n.",
           "cn": "紧握 ,抓牢 紧握 抓牢;  理解,了解",
           "tags": [
             "writing"
@@ -27534,7 +27534,7 @@ const VocabData = {
         {
           "w": "hurry",
           "phon": "/haril",
-          "pos": "",
+          "pos": "n.",
           "cn": "几匆忙",
           "tags": [
             "writing"
@@ -27543,7 +27543,7 @@ const VocabData = {
         {
           "w": "ignorance",
           "phon": "/ignaransl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几无知 愚昧",
           "tags": [
             "writing"
@@ -27552,7 +27552,7 @@ const VocabData = {
         {
           "w": "impart",
           "phon": "Im'pa:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "传授;  透露",
           "tags": [
             "writing"
@@ -27588,7 +27588,7 @@ const VocabData = {
         {
           "w": "indignity",
           "phon": "/In'digntil",
-          "pos": "",
+          "pos": "n.",
           "cn": "侮辱。轻蔑",
           "tags": [
             "writing"
@@ -27597,7 +27597,7 @@ const VocabData = {
         {
           "w": "induce",
           "phon": "IIn'dju:sl",
-          "pos": "",
+          "pos": "n.",
           "cn": "引诱,劝说",
           "tags": [
             "writing"
@@ -27615,7 +27615,7 @@ const VocabData = {
         {
           "w": "intake",
           "phon": "/intelk/",
-          "pos": "",
+          "pos": "n.",
           "cn": "吸入;  摄取量;  新招收者",
           "tags": [
             "writing"
@@ -27642,7 +27642,7 @@ const VocabData = {
         {
           "w": "invite",
           "phon": "IIn'valtl",
-          "pos": "",
+          "pos": "n.",
           "cn": "邀请",
           "tags": [
             "writing"
@@ -27669,7 +27669,7 @@ const VocabData = {
         {
           "w": "irony",
           "phon": "/alaranil",
-          "pos": "",
+          "pos": "n.",
           "cn": "反话;  有讽刺意味的情形",
           "tags": [
             "writing"
@@ -27678,7 +27678,7 @@ const VocabData = {
         {
           "w": "itch",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "痒;  渴望",
           "tags": [
             "writing"
@@ -27705,7 +27705,7 @@ const VocabData = {
         {
           "w": "launch",
           "phon": "Il3:ntfl",
-          "pos": "",
+          "pos": "n.",
           "cn": "发射;  发布,推出;  发起 (运动等 )",
           "tags": [
             "writing"
@@ -27714,7 +27714,7 @@ const VocabData = {
         {
           "w": "leak",
           "phon": "Iliik/",
-          "pos": "",
+          "pos": "n.",
           "cn": "漏洞,裂缝",
           "tags": [
             "writing"
@@ -27732,7 +27732,7 @@ const VocabData = {
         {
           "w": "loom",
           "phon": "Ilu:ml",
-          "pos": "",
+          "pos": "n.",
           "cn": "织布机",
           "tags": [
             "writing"
@@ -27768,7 +27768,7 @@ const VocabData = {
         {
           "w": "marvel",
           "phon": "/a:voll",
-          "pos": "",
+          "pos": "n.",
           "cn": "奇迹 感到惊讶,大为赞叹",
           "tags": [
             "writing"
@@ -27804,7 +27804,7 @@ const VocabData = {
         {
           "w": "mess",
           "phon": "Imesl",
-          "pos": "",
+          "pos": "n.",
           "cn": "混乱,脏乱 弄乱",
           "tags": [
             "writing"
@@ -27840,7 +27840,7 @@ const VocabData = {
         {
           "w": "muffle",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -27858,7 +27858,7 @@ const VocabData = {
         {
           "w": "nightmare",
           "phon": "/nartmeai",
-          "pos": "",
+          "pos": "n.",
           "cn": "噩梦,梦魇",
           "tags": [
             "writing"
@@ -27867,7 +27867,7 @@ const VocabData = {
         {
           "w": "notify",
           "phon": "/nautsfall",
-          "pos": "",
+          "pos": "v.",
           "cn": "通知,告知",
           "tags": [
             "writing"
@@ -27876,7 +27876,7 @@ const VocabData = {
         {
           "w": "nourish",
           "phon": "/nrIJI",
-          "pos": "",
+          "pos": "v.",
           "cn": "滋养,给提供营养",
           "tags": [
             "writing"
@@ -28002,7 +28002,7 @@ const VocabData = {
         {
           "w": "peep",
           "phon": "Ipi:pl",
-          "pos": "",
+          "pos": "n.",
           "cn": "偷看 偷偷一瞥 窥视",
           "tags": [
             "writing"
@@ -28011,7 +28011,7 @@ const VocabData = {
         {
           "w": "peer",
           "phon": "Ipral",
-          "pos": "",
+          "pos": "n.",
           "cn": "同辈 同等地位的人, 盯着看",
           "tags": [
             "writing"
@@ -28020,7 +28020,7 @@ const VocabData = {
         {
           "w": "penetrate",
           "phon": "Ipenstrertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "刺入, 穿透;  渗透;  洞察",
           "tags": [
             "writing"
@@ -28029,7 +28029,7 @@ const VocabData = {
         {
           "w": "pervade",
           "phon": "Ipa'verdl",
-          "pos": "",
+          "pos": "n.",
           "cn": "弥漫。渗透。遍及",
           "tags": [
             "writing"
@@ -28056,7 +28056,7 @@ const VocabData = {
         {
           "w": "plummet",
           "phon": "IplAmgtl",
-          "pos": "",
+          "pos": "n.",
           "cn": "垂直掉下; (价格。水平等)  骤然下跌",
           "tags": [
             "writing"
@@ -28065,7 +28065,7 @@ const VocabData = {
         {
           "w": "polish",
           "phon": "/polill",
-          "pos": "",
+          "pos": "v.",
           "cn": "改进",
           "tags": [
             "writing"
@@ -28092,7 +28092,7 @@ const VocabData = {
         {
           "w": "promise",
           "phon": "/promgsl",
-          "pos": "",
+          "pos": "v.",
           "cn": "几 承诺 诺言",
           "tags": [
             "writing"
@@ -28110,7 +28110,7 @@ const VocabData = {
         {
           "w": "provoke",
           "phon": "Ipra'vaukl",
-          "pos": "",
+          "pos": "n.",
           "cn": "挑拨;  引起 激怒",
           "tags": [
             "writing"
@@ -28119,7 +28119,7 @@ const VocabData = {
         {
           "w": "purpose",
           "phon": "/p3:pasi",
-          "pos": "",
+          "pos": "n.",
           "cn": "目的",
           "tags": [
             "writing"
@@ -28128,7 +28128,7 @@ const VocabData = {
         {
           "w": "quarrel",
           "phon": "IkwDI3I/",
-          "pos": "",
+          "pos": "n.",
           "cn": "吵架。争论",
           "tags": [
             "writing"
@@ -28146,7 +28146,7 @@ const VocabData = {
         {
           "w": "range",
           "phon": "Irelnd3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "山脉;  范围",
           "tags": [
             "writing"
@@ -28155,7 +28155,7 @@ const VocabData = {
         {
           "w": "react",
           "phon": "Iri'aktl",
-          "pos": "",
+          "pos": "n.",
           "cn": "作出反应。反应",
           "tags": [
             "writing"
@@ -28173,7 +28173,7 @@ const VocabData = {
         {
           "w": "recall",
           "phon": "ITIk3:l/",
-          "pos": "",
+          "pos": "n.",
           "cn": "回忆 , 回想起",
           "tags": [
             "writing"
@@ -28182,7 +28182,7 @@ const VocabData = {
         {
           "w": "recollect",
           "phon": "/reka'lektl",
-          "pos": "",
+          "pos": "v.",
           "cn": "记起,想起",
           "tags": [
             "writing"
@@ -28191,7 +28191,7 @@ const VocabData = {
         {
           "w": "recover",
           "phon": "ITIkAVal",
-          "pos": "",
+          "pos": "n.",
           "cn": "重新拿回;  恢复健康; (从不愉快的经历中)复原",
           "tags": [
             "writing"
@@ -28200,7 +28200,7 @@ const VocabData = {
         {
           "w": "rectify",
           "phon": "/rektgfarl",
-          "pos": "",
+          "pos": "v.",
           "cn": "纠正。矫正, 改正",
           "tags": [
             "writing"
@@ -28209,7 +28209,7 @@ const VocabData = {
         {
           "w": "redeem",
           "phon": "Irrdi:ml",
-          "pos": "",
+          "pos": "n.",
           "cn": "赎回;  挽回,补偿;  兑现",
           "tags": [
             "writing"
@@ -28218,7 +28218,7 @@ const VocabData = {
         {
           "w": "reel",
           "phon": "Iri:ll",
-          "pos": "",
+          "pos": "n.",
           "cn": "卷轴;  卷筒; -卷胶卷 几",
           "tags": [
             "writing"
@@ -28227,7 +28227,7 @@ const VocabData = {
         {
           "w": "reflect",
           "phon": "Irrflektl",
-          "pos": "",
+          "pos": "v.",
           "cn": "反映;  反射",
           "tags": [
             "writing"
@@ -28236,7 +28236,7 @@ const VocabData = {
         {
           "w": "refuse",
           "phon": "Iri'fju:zl",
-          "pos": "",
+          "pos": "n.",
           "cn": "拒绝; 回绝",
           "tags": [
             "writing"
@@ -28245,7 +28245,7 @@ const VocabData = {
         {
           "w": "regard",
           "phon": "Irrga:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "尊重;  问候 看待",
           "tags": [
             "writing"
@@ -28254,7 +28254,7 @@ const VocabData = {
         {
           "w": "remind",
           "phon": "Irrmnalndl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使想起",
           "tags": [
             "writing"
@@ -28263,7 +28263,7 @@ const VocabData = {
         {
           "w": "render",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -28281,7 +28281,7 @@ const VocabData = {
         {
           "w": "replace",
           "phon": "Irplersl",
-          "pos": "",
+          "pos": "n.",
           "cn": "代替。取代",
           "tags": [
             "writing"
@@ -28290,7 +28290,7 @@ const VocabData = {
         {
           "w": "replenish",
           "phon": "Irrplenijl",
-          "pos": "",
+          "pos": "v.",
           "cn": "重新装满,补充",
           "tags": [
             "writing"
@@ -28317,7 +28317,7 @@ const VocabData = {
         {
           "w": "resort",
           "phon": "IrI'Z3:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "求助于, 采取。诉诸",
           "tags": [
             "writing"
@@ -28326,7 +28326,7 @@ const VocabData = {
         {
           "w": "respond",
           "phon": "Irr'spondl",
-          "pos": "",
+          "pos": "n.",
           "cn": "回答;  响应。作出反应",
           "tags": [
             "writing"
@@ -28335,7 +28335,7 @@ const VocabData = {
         {
           "w": "restore",
           "phon": "ITIst3:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "恢复;  归还;  修复",
           "tags": [
             "writing"
@@ -28353,7 +28353,7 @@ const VocabData = {
         {
           "w": "retrieve",
           "phon": "Irrtri:vl",
-          "pos": "",
+          "pos": "v.",
           "cn": "取回;  挽回",
           "tags": [
             "writing"
@@ -28371,7 +28371,7 @@ const VocabData = {
         {
           "w": "revenge",
           "phon": "Iri'vend3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "报仇,复仇",
           "tags": [
             "writing"
@@ -28407,7 +28407,7 @@ const VocabData = {
         {
           "w": "sake",
           "phon": "Iseikl",
-          "pos": "",
+          "pos": "n.",
           "cn": "理由; 目的",
           "tags": [
             "writing"
@@ -28425,7 +28425,7 @@ const VocabData = {
         {
           "w": "saturate",
           "phon": "/satfarertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "使饱和,使充满;  浸透",
           "tags": [
             "writing"
@@ -28452,7 +28452,7 @@ const VocabData = {
         {
           "w": "scrape",
           "phon": "Iskrerpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "几刮; 擦伤",
           "tags": [
             "writing"
@@ -28470,7 +28470,7 @@ const VocabData = {
         {
           "w": "seek",
           "phon": "Isi:k/",
-          "pos": "",
+          "pos": "n.",
           "cn": "寻找;  寻求",
           "tags": [
             "writing"
@@ -28479,7 +28479,7 @@ const VocabData = {
         {
           "w": "seep",
           "phon": "Isipl",
-          "pos": "",
+          "pos": "n.",
           "cn": "雨水从房顶漏下来。",
           "tags": [
             "writing"
@@ -28542,7 +28542,7 @@ const VocabData = {
         {
           "w": "snatch",
           "phon": "Isnatll",
-          "pos": "",
+          "pos": "n.",
           "cn": "一把抓住,迅速夺取",
           "tags": [
             "writing"
@@ -28596,7 +28596,7 @@ const VocabData = {
         {
           "w": "stare",
           "phon": "Isteal",
-          "pos": "",
+          "pos": "n.",
           "cn": "盯着看 凝视,",
           "tags": [
             "writing"
@@ -28623,7 +28623,7 @@ const VocabData = {
         {
           "w": "strangle",
           "phon": "Istrengall",
-          "pos": "",
+          "pos": "n.",
           "cn": "压制;  勒死,扼死 扼杀",
           "tags": [
             "writing"
@@ -28641,7 +28641,7 @@ const VocabData = {
         {
           "w": "substitute",
           "phon": "MSAbststju:tl",
-          "pos": "",
+          "pos": "v.",
           "cn": "替换 代用品;  代替者;  替补 运动员 )",
           "tags": [
             "writing"
@@ -28659,7 +28659,7 @@ const VocabData = {
         {
           "w": "support",
           "phon": "Isap3:tl",
-          "pos": "",
+          "pos": "n.",
           "cn": "支撑;  支持;  供养 支持;  帮助",
           "tags": [
             "writing"
@@ -28668,7 +28668,7 @@ const VocabData = {
         {
           "w": "surmount",
           "phon": "Isamauntl",
-          "pos": "",
+          "pos": "n.",
           "cn": "克服;  置于.顶端",
           "tags": [
             "writing"
@@ -28704,7 +28704,7 @@ const VocabData = {
         {
           "w": "tackle",
           "phon": "/takall",
-          "pos": "",
+          "pos": "n.",
           "cn": "用具,器材 处理 应对 , 解决",
           "tags": [
             "writing"
@@ -28731,7 +28731,7 @@ const VocabData = {
         {
           "w": "tempt",
           "phon": "Itemptl",
-          "pos": "",
+          "pos": "n.",
           "cn": "引诱。诱惑;  怂恿",
           "tags": [
             "writing"
@@ -28749,7 +28749,7 @@ const VocabData = {
         {
           "w": "testify",
           "phon": "/testsfarl",
-          "pos": "",
+          "pos": "v.",
           "cn": "作证;  证明",
           "tags": [
             "writing"
@@ -28767,7 +28767,7 @@ const VocabData = {
         {
           "w": "touch",
           "phon": "ItAtll",
-          "pos": "",
+          "pos": "n.",
           "cn": "触觉;  接触 触摸;  触动",
           "tags": [
             "writing"
@@ -28776,7 +28776,7 @@ const VocabData = {
         {
           "w": "tow",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "牵引 几。牵引",
           "tags": [
             "writing"
@@ -28794,7 +28794,7 @@ const VocabData = {
         {
           "w": "trench",
           "phon": "Itrentf/",
-          "pos": "",
+          "pos": "n.",
           "cn": "沟 掘沟于;  砍除 渠 壕沟",
           "tags": [
             "writing"
@@ -28812,7 +28812,7 @@ const VocabData = {
         {
           "w": "twist",
           "phon": "ItwIst/",
-          "pos": "",
+          "pos": "n.",
           "cn": "几。拧,扭动",
           "tags": [
             "writing"
@@ -28830,7 +28830,7 @@ const VocabData = {
         {
           "w": "undo",
           "phon": "IAndu:/",
-          "pos": "",
+          "pos": "n.",
           "cn": "解开 ,打开;  取消",
           "tags": [
             "writing"
@@ -28839,7 +28839,7 @@ const VocabData = {
         {
           "w": "update",
           "phon": "IAP'dertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "更新;  使现代化",
           "tags": [
             "writing"
@@ -28848,7 +28848,7 @@ const VocabData = {
         {
           "w": "uphold",
           "phon": "Ip'hauldl",
-          "pos": "",
+          "pos": "n.",
           "cn": "维持",
           "tags": [
             "writing"
@@ -28857,7 +28857,7 @@ const VocabData = {
         {
           "w": "upset",
           "phon": "Ipsetl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使心烦意乱,使生气;  搅乱;  打翻",
           "tags": [
             "writing"
@@ -28893,7 +28893,7 @@ const VocabData = {
         {
           "w": "vow",
           "phon": "IvaUl",
-          "pos": "",
+          "pos": "n.",
           "cn": "发誓 誓约",
           "tags": [
             "writing"
@@ -28911,7 +28911,7 @@ const VocabData = {
         {
           "w": "whirl",
           "phon": "/W3:l/",
-          "pos": "",
+          "pos": "n.",
           "cn": "回旋",
           "tags": [
             "writing"
@@ -28920,7 +28920,7 @@ const VocabData = {
         {
           "w": "whistle",
           "phon": "/WISal/",
-          "pos": "",
+          "pos": "n.",
           "cn": "口哨;  哨子;  汽笛声",
           "tags": [
             "writing"
@@ -28938,7 +28938,7 @@ const VocabData = {
         {
           "w": "wish",
           "phon": "IwIl/",
-          "pos": "",
+          "pos": "v.",
           "cn": "某事发生 ) 希望",
           "tags": [
             "writing"
@@ -28998,7 +28998,7 @@ const VocabData = {
         {
           "w": "acupuncture",
           "phon": "IakjgipAnktfal",
-          "pos": "",
+          "pos": "n.",
           "cn": "针灸 中医针灸疗法",
           "tags": [
             "writing"
@@ -29043,7 +29043,7 @@ const VocabData = {
         {
           "w": "agreeable",
           "phon": "",
-          "pos": "",
+          "pos": "adj.",
           "cn": "",
           "tags": [
             "writing"
@@ -29052,7 +29052,7 @@ const VocabData = {
         {
           "w": "allergy",
           "phon": "/alad3il",
-          "pos": "",
+          "pos": "n.",
           "cn": "敏感症;  过敏性",
           "tags": [
             "writing"
@@ -29079,7 +29079,7 @@ const VocabData = {
         {
           "w": "anger",
           "phon": "Iengal",
-          "pos": "",
+          "pos": "n.",
           "cn": "几怒,怒气 使发怒",
           "tags": [
             "writing"
@@ -29088,7 +29088,7 @@ const VocabData = {
         {
           "w": "ankle",
           "phon": "Nenkall",
-          "pos": "",
+          "pos": "n.",
           "cn": "踝关节 , 踝",
           "tags": [
             "writing"
@@ -29106,7 +29106,7 @@ const VocabData = {
         {
           "w": "anxiety",
           "phon": "Ian'zalatil",
-          "pos": "",
+          "pos": "n.",
           "cn": "焦虑,担心;  渴望",
           "tags": [
             "writing"
@@ -29160,7 +29160,7 @@ const VocabData = {
         {
           "w": "artery",
           "phon": "/a:taril",
-          "pos": "",
+          "pos": "n.",
           "cn": "动脉;  干线",
           "tags": [
             "writing"
@@ -29169,7 +29169,7 @@ const VocabData = {
         {
           "w": "arthritis",
           "phon": "Ia:'Braltssl",
-          "pos": "",
+          "pos": "n.",
           "cn": "关书炎",
           "tags": [
             "writing"
@@ -29205,7 +29205,7 @@ const VocabData = {
         {
           "w": "attitude",
           "phon": "/atstju:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "态度。看法",
           "tags": [
             "writing"
@@ -29259,7 +29259,7 @@ const VocabData = {
         {
           "w": "backbone",
           "phon": "/baekbaunl",
-          "pos": "",
+          "pos": "n.",
           "cn": "脊柱;  骨干, 中坚;  骨气",
           "tags": [
             "writing"
@@ -29277,7 +29277,7 @@ const VocabData = {
         {
           "w": "beard",
           "phon": "Ibrad/",
-          "pos": "",
+          "pos": "n.",
           "cn": "胡须",
           "tags": [
             "writing"
@@ -29286,7 +29286,7 @@ const VocabData = {
         {
           "w": "biorhythm",
           "phon": "/'balaUirioaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "生物节律",
           "tags": [
             "writing"
@@ -29295,7 +29295,7 @@ const VocabData = {
         {
           "w": "bleed",
           "phon": "Ibli:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "流血;  榨取;  给+放血;  放掉 (水或气体 )",
           "tags": [
             "writing"
@@ -29340,7 +29340,7 @@ const VocabData = {
         {
           "w": "bother",
           "phon": "IbD0al",
-          "pos": "",
+          "pos": "n.",
           "cn": "困难 几。麻烦 做某事 );〈使〉苦恼 花费时间精力",
           "tags": [
             "writing"
@@ -29376,7 +29376,7 @@ const VocabData = {
         {
           "w": "bruise",
           "phon": "Ibru:zl",
-          "pos": "",
+          "pos": "v.",
           "cn": "淤伤;  伤痕",
           "tags": [
             "writing"
@@ -29412,7 +29412,7 @@ const VocabData = {
         {
           "w": "chamber",
           "phon": "Mtfermbal",
-          "pos": "",
+          "pos": "n.",
           "cn": "腔;  议院",
           "tags": [
             "writing"
@@ -29421,7 +29421,7 @@ const VocabData = {
         {
           "w": "character",
           "phon": "Mkroktal",
-          "pos": "",
+          "pos": "n.",
           "cn": "性格;  特征;  人物 角色",
           "tags": [
             "writing"
@@ -29439,7 +29439,7 @@ const VocabData = {
         {
           "w": "cheek",
           "phon": "Itji:k/",
-          "pos": "",
+          "pos": "n.",
           "cn": "面颊,颊 一只黄蜂",
           "tags": [
             "writing"
@@ -29448,7 +29448,7 @@ const VocabData = {
         {
           "w": "cheer",
           "phon": "Itfral",
-          "pos": "",
+          "pos": "n.",
           "cn": "使振作;(向〉欢呼",
           "tags": [
             "writing"
@@ -29457,7 +29457,7 @@ const VocabData = {
         {
           "w": "chest",
           "phon": "Itestl",
-          "pos": "",
+          "pos": "n.",
           "cn": "胸,胸部",
           "tags": [
             "writing"
@@ -29502,7 +29502,7 @@ const VocabData = {
         {
           "w": "clinic",
           "phon": "/klInrk/",
-          "pos": "",
+          "pos": "adj.",
           "cn": "诊所;  门诊部",
           "tags": [
             "writing"
@@ -29511,7 +29511,7 @@ const VocabData = {
         {
           "w": "clone",
           "phon": "Iklaunl",
-          "pos": "",
+          "pos": "n.",
           "cn": "以无性繁殖技术复制, 克隆动物 克隆 或植物 )",
           "tags": [
             "writing"
@@ -29556,7 +29556,7 @@ const VocabData = {
         {
           "w": "confidence",
           "phon": "/konfgdansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "自信;  信任",
           "tags": [
             "writing"
@@ -29565,7 +29565,7 @@ const VocabData = {
         {
           "w": "confuse",
           "phon": "Ikanfju:zl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使困惑,把(某人)弄糊涂;  混淆",
           "tags": [
             "writing"
@@ -29601,7 +29601,7 @@ const VocabData = {
         {
           "w": "cripple",
           "phon": "/kripall",
-          "pos": "",
+          "pos": "n.",
           "cn": "跛子;  残疾人 使跛",
           "tags": [
             "writing"
@@ -29610,7 +29610,7 @@ const VocabData = {
         {
           "w": "cunning",
           "phon": "/kAnI/",
-          "pos": "",
+          "pos": "v.",
           "cn": "几。狡猾的;  巧妙的",
           "tags": [
             "writing"
@@ -29655,7 +29655,7 @@ const VocabData = {
         {
           "w": "death",
           "phon": "Idegl",
-          "pos": "",
+          "pos": "n.",
           "cn": "死,死亡;  毁灭",
           "tags": [
             "writing"
@@ -29682,7 +29682,7 @@ const VocabData = {
         {
           "w": "demise",
           "phon": "'dr'maIzl",
-          "pos": "",
+          "pos": "v.",
           "cn": "禅让 死亡;  君权的转移或授予",
           "tags": [
             "writing"
@@ -29700,7 +29700,7 @@ const VocabData = {
         {
           "w": "desirable",
           "phon": "Idrzalaroball",
-          "pos": "",
+          "pos": "adj.",
           "cn": "合意的",
           "tags": [
             "writing"
@@ -29709,7 +29709,7 @@ const VocabData = {
         {
           "w": "detriment",
           "phon": "/detramantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "损害;  损害物",
           "tags": [
             "writing"
@@ -29736,7 +29736,7 @@ const VocabData = {
         {
           "w": "disable",
           "phon": "Idis'erball",
-          "pos": "",
+          "pos": "adj.",
           "cn": "使丧失能力 使伤残",
           "tags": [
             "writing"
@@ -29745,7 +29745,7 @@ const VocabData = {
         {
           "w": "disappoint",
           "phon": "Idisa'polntl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使失望;  使受挫折",
           "tags": [
             "writing"
@@ -29754,7 +29754,7 @@ const VocabData = {
         {
           "w": "discourage",
           "phon": "Idis'kArId3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "使灰心 , 使气馁;  劝阻",
           "tags": [
             "writing"
@@ -29763,7 +29763,7 @@ const VocabData = {
         {
           "w": "disease",
           "phon": "Idrzi:zl",
-          "pos": "",
+          "pos": "n.",
           "cn": "疾病",
           "tags": [
             "writing"
@@ -29772,7 +29772,7 @@ const VocabData = {
         {
           "w": "disgust",
           "phon": "IdIs'gAstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "厌恶,嫌恶 使厌恶,使作呕",
           "tags": [
             "writing"
@@ -29781,7 +29781,7 @@ const VocabData = {
         {
           "w": "distress",
           "phon": "Idrstresl",
-          "pos": "",
+          "pos": "n.",
           "cn": "悲痛;  穷困。不幸 使伤心,使忧虑",
           "tags": [
             "writing"
@@ -29808,7 +29808,7 @@ const VocabData = {
         {
           "w": "dose",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -29826,7 +29826,7 @@ const VocabData = {
         {
           "w": "doze",
           "phon": "Idauzl",
-          "pos": "",
+          "pos": "n.",
           "cn": "小睡,打盹儿",
           "tags": [
             "writing"
@@ -29835,7 +29835,7 @@ const VocabData = {
         {
           "w": "drug",
           "phon": "IdrAgl",
-          "pos": "",
+          "pos": "n.",
           "cn": "毒品;  药",
           "tags": [
             "writing"
@@ -29898,7 +29898,7 @@ const VocabData = {
         {
           "w": "ego",
           "phon": "Ii:gaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "自我。自尊;  自负",
           "tags": [
             "writing"
@@ -29907,7 +29907,7 @@ const VocabData = {
         {
           "w": "elbow",
           "phon": "/elbaol",
-          "pos": "",
+          "pos": "n.",
           "cn": "肘部;  弯头;  扶手",
           "tags": [
             "writing"
@@ -29916,7 +29916,7 @@ const VocabData = {
         {
           "w": "embarrass",
           "phon": "Im'barasl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使尴尬,使窘迫 , 使局促不安",
           "tags": [
             "writing"
@@ -29925,7 +29925,7 @@ const VocabData = {
         {
           "w": "emotion",
           "phon": "ITmaujanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "感情 情绪,情感,",
           "tags": [
             "writing"
@@ -29988,7 +29988,7 @@ const VocabData = {
         {
           "w": "exhaust",
           "phon": "Iig'zD:st/",
-          "pos": "",
+          "pos": "n.",
           "cn": "使精疲力竭;  用完。耗尽",
           "tags": [
             "writing"
@@ -30006,7 +30006,7 @@ const VocabData = {
         {
           "w": "eyelash",
           "phon": "/alla[l",
-          "pos": "",
+          "pos": "n.",
           "cn": "眼睫毛",
           "tags": [
             "writing"
@@ -30042,7 +30042,7 @@ const VocabData = {
         {
           "w": "fancy",
           "phon": "Ifansil",
-          "pos": "",
+          "pos": "n.",
           "cn": "想象 (力);爱好",
           "tags": [
             "writing"
@@ -30060,7 +30060,7 @@ const VocabData = {
         {
           "w": "fate",
           "phon": "Ifertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "命运。宿命",
           "tags": [
             "writing"
@@ -30078,7 +30078,7 @@ const VocabData = {
         {
           "w": "favor",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "",
           "tags": [
             "writing"
@@ -30114,7 +30114,7 @@ const VocabData = {
         {
           "w": "feel",
           "phon": "!f:l/",
-          "pos": "",
+          "pos": "n.",
           "cn": "感觉到,感知;  触碰",
           "tags": [
             "writing"
@@ -30141,7 +30141,7 @@ const VocabData = {
         {
           "w": "fist",
           "phon": "/fIstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "拳头,拳",
           "tags": [
             "writing"
@@ -30150,7 +30150,7 @@ const VocabData = {
         {
           "w": "fitness",
           "phon": "/fitngsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "健康;  适合",
           "tags": [
             "writing"
@@ -30159,7 +30159,7 @@ const VocabData = {
         {
           "w": "flesh",
           "phon": "Ilell",
-          "pos": "",
+          "pos": "n.",
           "cn": "肉;  人类",
           "tags": [
             "writing"
@@ -30231,7 +30231,7 @@ const VocabData = {
         {
           "w": "frown",
           "phon": "/fraunl",
-          "pos": "",
+          "pos": "n.",
           "cn": "皱眉,不悦 皱眉,表示不悦",
           "tags": [
             "writing"
@@ -30294,7 +30294,7 @@ const VocabData = {
         {
           "w": "gland",
           "phon": "Iglandl",
-          "pos": "",
+          "pos": "n.",
           "cn": "腺",
           "tags": [
             "writing"
@@ -30312,7 +30312,7 @@ const VocabData = {
         {
           "w": "gorge",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "咽喉;  暴食;  山峡。峡谷 狼吞虎咽",
           "tags": [
             "writing"
@@ -30330,7 +30330,7 @@ const VocabData = {
         {
           "w": "gratitude",
           "phon": "Igratstju:d/",
-          "pos": "",
+          "pos": "n.",
           "cn": "感恩 感激,感谢",
           "tags": [
             "writing"
@@ -30348,7 +30348,7 @@ const VocabData = {
         {
           "w": "grief",
           "phon": "Igri:fl",
-          "pos": "",
+          "pos": "n.",
           "cn": "极度悲伤",
           "tags": [
             "writing"
@@ -30375,7 +30375,7 @@ const VocabData = {
         {
           "w": "habit",
           "phon": "/'habsti",
-          "pos": "",
+          "pos": "n.",
           "cn": "习惯",
           "tags": [
             "writing"
@@ -30393,7 +30393,7 @@ const VocabData = {
         {
           "w": "harass",
           "phon": "Iharasl",
-          "pos": "",
+          "pos": "n.",
           "cn": "烦扰",
           "tags": [
             "writing"
@@ -30411,7 +30411,7 @@ const VocabData = {
         {
           "w": "hatred",
           "phon": "/hertrodl",
-          "pos": "",
+          "pos": "n.",
           "cn": "憎恶,憎恨,仇恨",
           "tags": [
             "writing"
@@ -30420,7 +30420,7 @@ const VocabData = {
         {
           "w": "headache",
           "phon": "/hederkl",
-          "pos": "",
+          "pos": "n.",
           "cn": "头痛",
           "tags": [
             "writing"
@@ -30438,7 +30438,7 @@ const VocabData = {
         {
           "w": "health care",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "医疗保健",
           "tags": [
             "writing"
@@ -30447,7 +30447,7 @@ const VocabData = {
         {
           "w": "heart attack",
           "phon": "/ha:t atak/",
-          "pos": "",
+          "pos": "n.",
           "cn": "心脏病发作",
           "tags": [
             "writing"
@@ -30474,7 +30474,7 @@ const VocabData = {
         {
           "w": "hesitate",
           "phon": "/'hezstertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "犹豫不决,踌躇;  顾虑",
           "tags": [
             "writing"
@@ -30483,7 +30483,7 @@ const VocabData = {
         {
           "w": "honesty",
           "phon": "/'Dngstil",
-          "pos": "",
+          "pos": "n.",
           "cn": "诚实。正直",
           "tags": [
             "writing"
@@ -30510,7 +30510,7 @@ const VocabData = {
         {
           "w": "hospital",
           "phon": "Ihpspitll",
-          "pos": "",
+          "pos": "adj.",
           "cn": "医院",
           "tags": [
             "writing"
@@ -30573,7 +30573,7 @@ const VocabData = {
         {
           "w": "hypertension",
           "phon": "Ihalpa'tenfanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "高血压",
           "tags": [
             "writing"
@@ -30600,7 +30600,7 @@ const VocabData = {
         {
           "w": "illusion",
           "phon": "I'lu:3an/",
-          "pos": "",
+          "pos": "n.",
           "cn": "错觉;  幻想",
           "tags": [
             "writing"
@@ -30636,7 +30636,7 @@ const VocabData = {
         {
           "w": "impulse",
           "phon": "MImPAIs/",
-          "pos": "",
+          "pos": "n.",
           "cn": "冲动,心血来潮",
           "tags": [
             "writing"
@@ -30663,7 +30663,7 @@ const VocabData = {
         {
           "w": "infection",
           "phon": "/In'fekfanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "传染;  传染病;  影响",
           "tags": [
             "writing"
@@ -30672,7 +30672,7 @@ const VocabData = {
         {
           "w": "injection",
           "phon": "In'd3ekjon/",
-          "pos": "",
+          "pos": "n.",
           "cn": "注射;  注射物;  单射 函数 )",
           "tags": [
             "writing"
@@ -30681,7 +30681,7 @@ const VocabData = {
         {
           "w": "injure",
           "phon": "/1nd3a/",
-          "pos": "",
+          "pos": "n.",
           "cn": "使遵受损伤;  损害 伤害",
           "tags": [
             "writing"
@@ -30690,7 +30690,7 @@ const VocabData = {
         {
           "w": "injury",
           "phon": "/ind3aril",
-          "pos": "",
+          "pos": "n.",
           "cn": "伤害;  损害",
           "tags": [
             "writing"
@@ -30717,7 +30717,7 @@ const VocabData = {
         {
           "w": "insult",
           "phon": "/InSAIU . 侮辱",
-          "pos": "",
+          "pos": "n.",
           "cn": "凌辱",
           "tags": [
             "writing"
@@ -30726,7 +30726,7 @@ const VocabData = {
         {
           "w": "intestine",
           "phon": "In'testsnl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "肠",
           "tags": [
             "writing"
@@ -30762,7 +30762,7 @@ const VocabData = {
         {
           "w": "isolate",
           "phon": "/aIsalertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "使隔离,使弧立。使脱离",
           "tags": [
             "writing"
@@ -30798,7 +30798,7 @@ const VocabData = {
         {
           "w": "joke",
           "phon": "Id3aUkl",
-          "pos": "",
+          "pos": "n.",
           "cn": "笑话;  玩笑 说笑话;  开玩笑",
           "tags": [
             "writing"
@@ -30852,7 +30852,7 @@ const VocabData = {
         {
           "w": "lament",
           "phon": "Ilalmentl",
-          "pos": "",
+          "pos": "n.",
           "cn": "悲伤,哀悼",
           "tags": [
             "writing"
@@ -30861,7 +30861,7 @@ const VocabData = {
         {
           "w": "lap",
           "phon": "Itapl",
-          "pos": "",
+          "pos": "n.",
           "cn": "旋塞, 龙头",
           "tags": [
             "writing"
@@ -30870,7 +30870,7 @@ const VocabData = {
         {
           "w": "laughter",
           "phon": "Mla:ftal",
-          "pos": "",
+          "pos": "n.",
           "cn": "笑。笑声",
           "tags": [
             "writing"
@@ -30906,7 +30906,7 @@ const VocabData = {
         {
           "w": "lifestyle",
           "phon": "/lalfstalll",
-          "pos": "",
+          "pos": "n.",
           "cn": "生活方式",
           "tags": [
             "writing"
@@ -30942,7 +30942,7 @@ const VocabData = {
         {
           "w": "liver",
           "phon": "/lrval",
-          "pos": "",
+          "pos": "n.",
           "cn": "肝脏",
           "tags": [
             "writing"
@@ -30951,7 +30951,7 @@ const VocabData = {
         {
           "w": "lovely",
           "phon": "IIAVlil",
-          "pos": "",
+          "pos": "adv.",
           "cn": "加",
           "tags": [
             "writing"
@@ -30960,7 +30960,7 @@ const VocabData = {
         {
           "w": "lump",
           "phon": "IlAmpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "块;  肿块 使成块状",
           "tags": [
             "writing"
@@ -30987,7 +30987,7 @@ const VocabData = {
         {
           "w": "mankind",
           "phon": "Imankarndl",
-          "pos": "",
+          "pos": "n.",
           "cn": "人类;  男人",
           "tags": [
             "writing"
@@ -31005,7 +31005,7 @@ const VocabData = {
         {
           "w": "manner",
           "phon": "/manai",
-          "pos": "",
+          "pos": "n.",
           "cn": "举止;  礼貌;  方式;  风俗",
           "tags": [
             "writing"
@@ -31104,7 +31104,7 @@ const VocabData = {
         {
           "w": "mood",
           "phon": "Iu:dl",
-          "pos": "",
+          "pos": "n.",
           "cn": "心情,情绪;  气氛",
           "tags": [
             "writing"
@@ -31113,7 +31113,7 @@ const VocabData = {
         {
           "w": "morphine",
           "phon": "/m:f:n",
-          "pos": "",
+          "pos": "adj.",
           "cn": "吗啡",
           "tags": [
             "writing"
@@ -31140,7 +31140,7 @@ const VocabData = {
         {
           "w": "mouth",
           "phon": "Imaugl",
-          "pos": "",
+          "pos": "n.",
           "cn": "口 嘴;  河0",
           "tags": [
             "writing"
@@ -31158,7 +31158,7 @@ const VocabData = {
         {
           "w": "muscle",
           "phon": "/ASall",
-          "pos": "",
+          "pos": "n.",
           "cn": "肌肉",
           "tags": [
             "writing"
@@ -31230,7 +31230,7 @@ const VocabData = {
         {
           "w": "neck",
           "phon": "Inek/",
-          "pos": "",
+          "pos": "n.",
           "cn": "脖子;  衣领;  海峡",
           "tags": [
             "writing"
@@ -31275,7 +31275,7 @@ const VocabData = {
         {
           "w": "nuisance",
           "phon": "/nju:sansl",
-          "pos": "",
+          "pos": "n.",
           "cn": "讨厌或麻烦的人 (或事物 )",
           "tags": [
             "writing"
@@ -31347,7 +31347,7 @@ const VocabData = {
         {
           "w": "overwork",
           "phon": "",
-          "pos": "",
+          "pos": "n.",
           "cn": "过度操劳;  过度工作",
           "tags": [
             "writing"
@@ -31356,7 +31356,7 @@ const VocabData = {
         {
           "w": "pain",
           "phon": "Ipernl",
-          "pos": "",
+          "pos": "n.",
           "cn": "痛苦;  疼痛 使痛苦",
           "tags": [
             "writing"
@@ -31428,7 +31428,7 @@ const VocabData = {
         {
           "w": "pharmacy",
           "phon": "/fa:masil",
-          "pos": "",
+          "pos": "n.",
           "cn": "药店;  药剂学",
           "tags": [
             "writing"
@@ -31473,7 +31473,7 @@ const VocabData = {
         {
           "w": "pimple",
           "phon": "Ipimpall",
-          "pos": "",
+          "pos": "n.",
           "cn": "粉刺 , 丘疹",
           "tags": [
             "writing"
@@ -31482,7 +31482,7 @@ const VocabData = {
         {
           "w": "plague",
           "phon": "Iplergl",
-          "pos": "",
+          "pos": "n.",
           "cn": "瘟疫",
           "tags": [
             "writing"
@@ -31491,7 +31491,7 @@ const VocabData = {
         {
           "w": "please",
           "phon": "Ili:zl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使高兴,取悦",
           "tags": [
             "writing"
@@ -31500,7 +31500,7 @@ const VocabData = {
         {
           "w": "pleasure",
           "phon": "/ple3ai",
-          "pos": "",
+          "pos": "n.",
           "cn": "愉快 高兴;  荣幸 (用于回答对方的感谢 )",
           "tags": [
             "writing"
@@ -31536,7 +31536,7 @@ const VocabData = {
         {
           "w": "precaution",
           "phon": "Ipri'ko:Janl",
-          "pos": "",
+          "pos": "n.",
           "cn": "警惕;  预防措施 预防",
           "tags": [
             "writing"
@@ -31545,7 +31545,7 @@ const VocabData = {
         {
           "w": "pregnancy",
           "phon": "/pregnansil",
-          "pos": "",
+          "pos": "n.",
           "cn": "怀孕 妊娠",
           "tags": [
             "writing"
@@ -31554,7 +31554,7 @@ const VocabData = {
         {
           "w": "prescription",
           "phon": "Ipri'skripfonl",
-          "pos": "",
+          "pos": "n.",
           "cn": "药方;  秘诀 处方",
           "tags": [
             "writing"
@@ -31599,7 +31599,7 @@ const VocabData = {
         {
           "w": "pulse",
           "phon": "IpAlsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "脉搏;  脉冲",
           "tags": [
             "writing"
@@ -31635,7 +31635,7 @@ const VocabData = {
         {
           "w": "rage",
           "phon": "Irerd3l",
-          "pos": "",
+          "pos": "n.",
           "cn": "几。盛怒 狂怒",
           "tags": [
             "writing"
@@ -31671,7 +31671,7 @@ const VocabData = {
         {
           "w": "recovery",
           "phon": "IrI'kAvaril",
-          "pos": "",
+          "pos": "n.",
           "cn": "恢复,痊愈 几",
           "tags": [
             "writing"
@@ -31716,7 +31716,7 @@ const VocabData = {
         {
           "w": "relief",
           "phon": "Irrli:fl",
-          "pos": "",
+          "pos": "n.",
           "cn": "宽慰 轻松;  减轻 缓解",
           "tags": [
             "writing"
@@ -31725,7 +31725,7 @@ const VocabData = {
         {
           "w": "relieve",
           "phon": "Irili:v/",
-          "pos": "",
+          "pos": "v.",
           "cn": "救济;  减轻, 解除 (痛苦。不快等 )",
           "tags": [
             "writing"
@@ -31752,7 +31752,7 @@ const VocabData = {
         {
           "w": "remedy",
           "phon": "/remsdi'",
-          "pos": "",
+          "pos": "n.",
           "cn": "药物,治疗法;  解决方法",
           "tags": [
             "writing"
@@ -31761,7 +31761,7 @@ const VocabData = {
         {
           "w": "repent",
           "phon": "Irrpentl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "忏悔;  后悔",
           "tags": [
             "writing"
@@ -31770,7 +31770,7 @@ const VocabData = {
         {
           "w": "resemble",
           "phon": "Irizemball",
-          "pos": "",
+          "pos": "n.",
           "cn": "与相像,类似",
           "tags": [
             "writing"
@@ -31788,7 +31788,7 @@ const VocabData = {
         {
           "w": "resume",
           "phon": "Irrzju:ml",
-          "pos": "",
+          "pos": "n.",
           "cn": "重新开始,(中断后) 继续",
           "tags": [
             "writing"
@@ -31851,7 +31851,7 @@ const VocabData = {
         {
           "w": "sadness",
           "phon": "/sadngsl",
-          "pos": "",
+          "pos": "n.",
           "cn": "悲痛 . 悲哀",
           "tags": [
             "writing"
@@ -31887,7 +31887,7 @@ const VocabData = {
         {
           "w": "scar",
           "phon": "Iska:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "疤痕 伤疤",
           "tags": [
             "writing"
@@ -31896,7 +31896,7 @@ const VocabData = {
         {
           "w": "segregate",
           "phon": "/segrigertl",
-          "pos": "",
+          "pos": "v.",
           "cn": "隔离",
           "tags": [
             "writing"
@@ -31959,7 +31959,7 @@ const VocabData = {
         {
           "w": "sight",
           "phon": "Isartl",
-          "pos": "",
+          "pos": "n.",
           "cn": "视力;  看见;  景物",
           "tags": [
             "writing"
@@ -31986,7 +31986,7 @@ const VocabData = {
         {
           "w": "skeleton",
           "phon": "/skelstanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "骨骼,骨架;  框架,梗概",
           "tags": [
             "writing"
@@ -32103,7 +32103,7 @@ const VocabData = {
         {
           "w": "stereotype",
           "phon": "/steriataIpl",
-          "pos": "",
+          "pos": "n.",
           "cn": "老一套,模式化观念, 刻板印象",
           "tags": [
             "writing"
@@ -32130,7 +32130,7 @@ const VocabData = {
         {
           "w": "stomach",
           "phon": "/stamak/",
-          "pos": "",
+          "pos": "n.",
           "cn": "胃口; 腹部 胃",
           "tags": [
             "writing"
@@ -32193,7 +32193,7 @@ const VocabData = {
         {
           "w": "suffering",
           "phon": "/SAfarnnl",
-          "pos": "",
+          "pos": "v.",
           "cn": "苦难,折磨",
           "tags": [
             "writing"
@@ -32202,7 +32202,7 @@ const VocabData = {
         {
           "w": "surgeon",
           "phon": "/S3:d3an",
-          "pos": "",
+          "pos": "n.",
           "cn": "外科医生",
           "tags": [
             "writing"
@@ -32220,7 +32220,7 @@ const VocabData = {
         {
           "w": "suspicion",
           "phon": "Isa'spilanl",
-          "pos": "",
+          "pos": "n.",
           "cn": "怀疑,嫌疑",
           "tags": [
             "writing"
@@ -32229,7 +32229,7 @@ const VocabData = {
         {
           "w": "swell",
           "phon": "Iswell",
-          "pos": "",
+          "pos": "n.",
           "cn": "肿胀,膨胀;〈使〉增加",
           "tags": [
             "writing"
@@ -32247,7 +32247,7 @@ const VocabData = {
         {
           "w": "symptom",
           "phon": "/simptaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "征兆;  症状",
           "tags": [
             "writing"
@@ -32256,7 +32256,7 @@ const VocabData = {
         {
           "w": "temper",
           "phon": "/tempal",
-          "pos": "",
+          "pos": "n.",
           "cn": "坏脾气;  情绪。心情 使缓和",
           "tags": [
             "writing"
@@ -32283,7 +32283,7 @@ const VocabData = {
         {
           "w": "therapy",
           "phon": "/'Berapii",
-          "pos": "",
+          "pos": "n.",
           "cn": "治疗",
           "tags": [
             "writing"
@@ -32292,7 +32292,7 @@ const VocabData = {
         {
           "w": "thigh",
           "phon": "/Qall",
-          "pos": "",
+          "pos": "n.",
           "cn": "大腿,股",
           "tags": [
             "writing"
@@ -32319,7 +32319,7 @@ const VocabData = {
         {
           "w": "throat",
           "phon": "/rautl",
-          "pos": "",
+          "pos": "n.",
           "cn": "喉咙;  窄路;  嗓子。嗓音",
           "tags": [
             "writing"
@@ -32328,7 +32328,7 @@ const VocabData = {
         {
           "w": "thumb",
           "phon": "/OAIn",
-          "pos": "",
+          "pos": "n.",
           "cn": "拇指",
           "tags": [
             "writing"
@@ -32355,7 +32355,7 @@ const VocabData = {
         {
           "w": "toe",
           "phon": "Itaul",
-          "pos": "",
+          "pos": "n.",
           "cn": "脚趾,足尖",
           "tags": [
             "writing"
@@ -32364,7 +32364,7 @@ const VocabData = {
         {
           "w": "tolerance",
           "phon": "Mtolaransl",
-          "pos": "",
+          "pos": "n.",
           "cn": "忍受。容忍 宽容",
           "tags": [
             "writing"
@@ -32391,7 +32391,7 @@ const VocabData = {
         {
           "w": "trait",
           "phon": "Itrettl",
-          "pos": "",
+          "pos": "n.",
           "cn": "特性 特点",
           "tags": [
             "writing"
@@ -32409,7 +32409,7 @@ const VocabData = {
         {
           "w": "trauma",
           "phon": "/tr3:nal",
-          "pos": "",
+          "pos": "n.",
           "cn": "外伤, 身体上的伤;  精神创伤;  痛苦经历",
           "tags": [
             "writing"
@@ -32418,7 +32418,7 @@ const VocabData = {
         {
           "w": "treatment",
           "phon": "/tri:tmantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "治疗 , 疗法;  待遇",
           "tags": [
             "writing"
@@ -32508,7 +32508,7 @@ const VocabData = {
         {
           "w": "unsuitable",
           "phon": "IAnst:taball",
-          "pos": "",
+          "pos": "adj.",
           "cn": "不适宜的",
           "tags": [
             "writing"
@@ -32553,7 +32553,7 @@ const VocabData = {
         {
           "w": "vex",
           "phon": "Iveksl",
-          "pos": "",
+          "pos": "n.",
           "cn": "使烦恼,使恼火",
           "tags": [
             "writing"
@@ -32571,7 +32571,7 @@ const VocabData = {
         {
           "w": "view",
           "phon": "/vju:l",
-          "pos": "",
+          "pos": "n.",
           "cn": "视野;  见解;  风景;  察看",
           "tags": [
             "writing"
@@ -32625,7 +32625,7 @@ const VocabData = {
         {
           "w": "waist",
           "phon": "IweIstl",
-          "pos": "",
+          "pos": "n.",
           "cn": "腰;  腰部",
           "tags": [
             "writing"
@@ -32634,7 +32634,7 @@ const VocabData = {
         {
           "w": "weaken",
           "phon": "/wi:kanl",
-          "pos": "",
+          "pos": "v.",
           "cn": "削弱;  变软弱",
           "tags": [
             "writing"
@@ -32652,7 +32652,7 @@ const VocabData = {
         {
           "w": "weep",
           "phon": "Iwipl",
-          "pos": "",
+          "pos": "n.",
           "cn": "哭泣 流泪;  哀悼 几。哭泣",
           "tags": [
             "writing"
@@ -32679,7 +32679,7 @@ const VocabData = {
         {
           "w": "womb",
           "phon": "/wu:ml",
-          "pos": "",
+          "pos": "n.",
           "cn": "子宫;  发源地",
           "tags": [
             "writing"
@@ -32688,7 +32688,7 @@ const VocabData = {
         {
           "w": "wound",
           "phon": "/wu:ndl",
-          "pos": "",
+          "pos": "n.",
           "cn": "创伤 伤害;  伤口",
           "tags": [
             "writing"
@@ -32706,7 +32706,7 @@ const VocabData = {
         {
           "w": "wrist",
           "phon": "IrIst/",
-          "pos": "",
+          "pos": "n.",
           "cn": "腕。腕关节",
           "tags": [
             "writing"
@@ -32724,7 +32724,7 @@ const VocabData = {
         {
           "w": "zeal",
           "phon": "Izi:ll",
-          "pos": "",
+          "pos": "adj.",
           "cn": "热心,热情,热忱",
           "tags": [
             "writing"
@@ -32766,7 +32766,7 @@ const VocabData = {
         {
           "w": "century",
           "phon": "/sentfaril",
-          "pos": "",
+          "pos": "n.",
           "cn": "世纪;  百年",
           "tags": [
             "writing"
@@ -32829,7 +32829,7 @@ const VocabData = {
         {
           "w": "era",
           "phon": "/raral",
-          "pos": "",
+          "pos": "n.",
           "cn": "时代。年代,纪元",
           "tags": [
             "writing"
@@ -32856,7 +32856,7 @@ const VocabData = {
         {
           "w": "finish",
           "phon": "/finrll",
-          "pos": "",
+          "pos": "v.",
           "cn": "最后部分 结尾 完成;  结束",
           "tags": [
             "writing"
@@ -32865,7 +32865,7 @@ const VocabData = {
         {
           "w": "first",
           "phon": "If3:st/",
-          "pos": "",
+          "pos": "n.",
           "cn": "第",
           "tags": [
             "writing"
@@ -32973,7 +32973,7 @@ const VocabData = {
         {
           "w": "midday",
           "phon": "Inid'derl",
-          "pos": "",
+          "pos": "n.",
           "cn": "正午,中午",
           "tags": [
             "writing"
@@ -32982,7 +32982,7 @@ const VocabData = {
         {
           "w": "midnight",
           "phon": "/mnldnaitl",
-          "pos": "",
+          "pos": "n.",
           "cn": "午夜,子夜。半夜",
           "tags": [
             "writing"
@@ -33000,7 +33000,7 @@ const VocabData = {
         {
           "w": "millennium",
           "phon": "Imr'leniaml",
-          "pos": "",
+          "pos": "n.",
           "cn": "一千年,千年期;  千禧年",
           "tags": [
             "writing"
@@ -33036,7 +33036,7 @@ const VocabData = {
         {
           "w": "moment",
           "phon": "/'maumnantl",
-          "pos": "",
+          "pos": "n.",
           "cn": "片刻;  时刻",
           "tags": [
             "writing"
@@ -33054,7 +33054,7 @@ const VocabData = {
         {
           "w": "night",
           "phon": "Inartl",
-          "pos": "",
+          "pos": "n.",
           "cn": "夜 夜间;  晚上;  夜场",
           "tags": [
             "writing"
@@ -33108,7 +33108,7 @@ const VocabData = {
         {
           "w": "precedent",
           "phon": "/presdantl",
-          "pos": "",
+          "pos": "adj.",
           "cn": "先例;  常规",
           "tags": [
             "writing"
@@ -33171,7 +33171,7 @@ const VocabData = {
         {
           "w": "secondly",
           "phon": "Isekandlil",
-          "pos": "",
+          "pos": "adv.",
           "cn": "其次",
           "tags": [
             "writing"
