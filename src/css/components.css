@@ -239,7 +239,7 @@
   z-index: 999;
   background: var(--accent-black);
   color: #fff;
-  border-radius: var(--r-pill);
+  border-radius: var(--r-xl);
   box-shadow: var(--shadow-timer);
   overflow: hidden;
   transition: all var(--dur) var(--ease);
