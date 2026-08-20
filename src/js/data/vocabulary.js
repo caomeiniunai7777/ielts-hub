@@ -1,8 +1,8 @@
 /* ========================================
    IELTS Hub — 雅思词汇真经 (Full Data)
    Extracted from: 刘洪波《雅思词汇真经》(外研社版)
-   Total: 2190 words across 22 chapters
-   Source: PDF OCR (EasyOCR en+ch_sim, 336 pages, two-column layout)
+   Total: 3288 words across 22 chapters
+   Source: PDF OCR (EasyOCR, 336 pages, two-column layout)
    ======================================== */
 
 const VocabData = {
@@ -12,10 +12,32 @@ const VocabData = {
       "name": "自然地理",
       "words": [
         {
+          "w": "ltt",
+          "phon": "",
+          "pos": "",
+          "cn": "地核",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "atmosphere",
           "phon": "/'atmasfral",
           "pos": "",
           "cn": "大气层。大气圈;  气氛",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "working atmosphere",
+          "phon": "",
+          "pos": "",
+          "cn": "工作环境。工作氛围",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -45,10 +67,32 @@ const VocabData = {
           ]
         },
         {
+          "w": "litho",
+          "phon": "",
+          "pos": "",
+          "cn": "石头 )",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "oxygen",
           "phon": "/'Dksid3anl",
           "pos": "n.",
           "cn": "氧气",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "oxide",
+          "phon": "/Dksardl",
+          "pos": "",
+          "cn": "氧化物",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -68,9 +112,108 @@ const VocabData = {
         },
         {
           "w": "hydrogen",
-          "phon": "Mhaldrad3an",
+          "phon": "",
           "pos": "",
           "cn": "氢气",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "gen",
+          "phon": "",
+          "pos": "",
+          "cn": "后 )会产生水而得名 c",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "core",
+          "phon": "Ik3:/",
+          "pos": "",
+          "cn": "中心,核心;  地核",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "crust",
+          "phon": "",
+          "pos": "",
+          "cn": "地壳;  外壳",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "mantle",
+          "phon": "/mantll",
+          "pos": "",
+          "cn": "地幔;  斗篷,披风",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "longitude",
+          "phon": "/lond3stju:dl",
+          "pos": "n.",
+          "cn": "经度",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "latitude",
+          "phon": "Mlatstju:dl",
+          "pos": "",
+          "cn": "纬度",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "horizon",
+          "phon": "",
+          "pos": "",
+          "cn": "地平线; [~s] 眼界,见识",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "altitude",
+          "phon": "/alttju:dl",
+          "pos": "",
+          "cn": "刀 高度,海拔",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "disaster",
+          "phon": "Idrza:stal",
+          "pos": "",
+          "cn": "灾难",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -111,6 +254,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "iying coastal",
+          "phon": "",
+          "pos": "",
+          "cn": "飓风会带来灾难",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "endanger",
           "phon": "Iin'delnd3al",
           "pos": "",
@@ -122,8 +276,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "en",
-          "phon": "/d3epadaIzl",
+          "w": "jeopardise",
+          "phon": "",
           "pos": "",
           "cn": "危害,危及",
           "chapter": 1,
@@ -147,7 +301,7 @@ const VocabData = {
           "w": "de",
           "phon": "",
           "pos": "",
-          "cn": "建造 )",
+          "cn": "建造 ) 除去 )",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -177,21 +331,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "a natural",
-          "phon": "",
-          "pos": "",
-          "cn": "名词后缀) 〉现象。",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "pheno",
           "phon": "",
           "pos": "",
-          "cn": "显示 ,",
+          "cn": "显示 , 出现 )",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -232,10 +375,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "ore",
+          "phon": "",
+          "pos": "",
+          "cn": "矿石;  矿 例一",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "mineral",
           "phon": "/minarall",
           "pos": "",
-          "cn": "矿物",
+          "cn": "矿物 矿物质;  矿产",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -298,6 +452,105 @@ const VocabData = {
           ]
         },
         {
+          "w": "breeze",
+          "phon": "Ibri:zl",
+          "pos": "",
+          "cn": "微风。和风",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "monsoon",
+          "phon": "",
+          "pos": "",
+          "cn": "季风;  雨季",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "gale",
+          "phon": "Igerll",
+          "pos": "",
+          "cn": "大风",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "hurricane",
+          "phon": "/'harskanl",
+          "pos": "",
+          "cn": "飓风;  暴风",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "tornado",
+          "phon": "It3:'neIdaUl",
+          "pos": "",
+          "cn": "龙卷风",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "typhoon",
+          "phon": "",
+          "pos": "",
+          "cn": "台风",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "volcano",
+          "phon": "IvolkeInaul",
+          "pos": "",
+          "cn": "火山",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sit on a volcano",
+          "phon": "",
+          "pos": "",
+          "cn": "处境危险 该词来自罗马神话中的火神武尔坎 (Vulcan ) 他的妻子 是鼎鼎大名的司爱情与美丽的女神维纳斯",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "erupt",
+          "phon": "II'rAptl",
+          "pos": "",
+          "cn": "爆发,喷发; (斑疹等)突然出现",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "magma",
           "phon": "/'magmal",
           "pos": "",
@@ -323,7 +576,7 @@ const VocabData = {
           "w": "smog",
           "phon": "Ismogl",
           "pos": "",
-          "cn": "烟雾",
+          "cn": "烟雾 雾霾",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -334,7 +587,84 @@ const VocabData = {
           "w": "fume",
           "phon": "Ifju:ml",
           "pos": "",
-          "cn": "难闻且常为有害的)烟,气体",
+          "cn": "难闻且常为有害的)烟,气体 几 [~s]",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "mist",
+          "phon": "ImIstl",
+          "pos": "",
+          "cn": "薄雾;  水汽;  使视线模糊的东西",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "tsunami",
+          "phon": "ItsU'na:lnil",
+          "pos": "n.",
+          "cn": "海啸",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "drought",
+          "phon": "Idrautl",
+          "pos": "",
+          "cn": "干旱。旱央",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "flooding",
+          "phon": "/'flAdwl",
+          "pos": "n.",
+          "cn": "洪水泛滥",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "torrent",
+          "phon": "/torantl",
+          "pos": "",
+          "cn": "激流,洪流",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "earthquake",
+          "phon": "/'3:Okwelk/",
+          "pos": "",
+          "cn": "地霞",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "earth",
+          "phon": "",
+          "pos": "",
+          "cn": "地震。 地球 )",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -345,7 +675,7 @@ const VocabData = {
           "w": "seismic",
           "phon": "/sarzmlk/",
           "pos": "adj.",
-          "cn": "地震的 ,",
+          "cn": "地震的 , 地震引起的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -389,7 +719,7 @@ const VocabData = {
           "w": "land",
           "phon": "",
           "pos": "",
-          "cn": "地貌。",
+          "cn": "地貌。 陆地 ) 表示性质 _ 状况等 )",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -401,6 +731,83 @@ const VocabData = {
           "phon": "/kontsnantl",
           "pos": "",
           "cn": "大陆;  洲",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cave",
+          "phon": "Ikervl",
+          "pos": "",
+          "cn": "洞穴。山洞",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "glacier",
+          "phon": "/glasial",
+          "pos": "",
+          "cn": "冰川 冰河,",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "swamp",
+          "phon": "",
+          "pos": "",
+          "cn": "沼泽。湿地",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "delta",
+          "phon": "/deltal",
+          "pos": "",
+          "cn": "三角洲",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "plain",
+          "phon": "Iplernl",
+          "pos": "adj.",
+          "cn": "简朴的;  明白的 平原",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "plateau",
+          "phon": "/plataul",
+          "pos": "",
+          "cn": "高原",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "oasis",
+          "phon": "I3u'ersgsl",
+          "pos": "",
+          "cn": "绿洲;  宜人之地",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -441,6 +848,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "sphere",
+          "phon": "",
+          "pos": "",
+          "cn": "球 ) 半球。",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "equator",
           "phon": "Iikwertal",
           "pos": "",
@@ -463,10 +881,175 @@ const VocabData = {
           ]
         },
         {
-          "w": "superficial",
-          "phon": "Isu:pa'fijall",
+          "w": "antarctic",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "南极的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "ant",
+          "phon": "",
           "pos": "",
-          "cn": "面微信",
+          "cn": "对面的 )",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "polar",
+          "phon": "/paulal",
+          "pos": "adj.",
+          "cn": "极地的,近极地的;  对立的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "axis",
+          "phon": "Iaksgsl",
+          "pos": "",
+          "cn": "轴,轴线",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "aggravate",
+          "phon": "Iagravertl",
+          "pos": "",
+          "cn": "使恶化",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "mediterranean",
+          "phon": "Imedgta'reinianl",
+          "pos": "adj.",
+          "cn": "地中海;  地中海地区 地中海的;  地中海地区的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "ocean",
+          "phon": "",
+          "pos": "",
+          "cn": "海洋;(五大洋之一的)洋",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "marine",
+          "phon": "Imalri:nl",
+          "pos": "adj.",
+          "cn": "几水兵 海生的,海洋的;  海事的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "navigation",
+          "phon": "",
+          "pos": "",
+          "cn": "航行;  航海",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "gulf",
+          "phon": "",
+          "pos": "",
+          "cn": "海湾",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "beach",
+          "phon": "",
+          "pos": "",
+          "cn": "海滩。河滩",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "coast",
+          "phon": "",
+          "pos": "n.",
+          "cn": "海岸 _ 海滨",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "current",
+          "phon": "IkArantl",
+          "pos": "",
+          "cn": "水流,潮流;  电流;  气流",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "brook",
+          "phon": "Ibruk/",
+          "pos": "",
+          "cn": "小河: 溪",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "stream",
+          "phon": "Istri:ml",
+          "pos": "",
+          "cn": "小河。溪;  流 流动,流出",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "source",
+          "phon": "",
+          "pos": "",
+          "cn": "河的源头;  根源",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -529,6 +1112,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "vertical",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "垂直的 直立的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "steep",
           "phon": "Isti:pl",
           "pos": "adj.",
@@ -540,21 +1134,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "path",
-          "phon": "",
-          "pos": "",
-          "cn": "一条长而陡的小径通向一家能看",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "parallel",
           "phon": "Iparalell",
-          "pos": "",
-          "cn": "平行线;  相似之物;  相似之处",
+          "pos": "adj.",
+          "cn": "平行线;  相似之物;  相似之处 平行的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -573,10 +1156,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "jaufrelnial",
+          "phon": "",
+          "pos": "",
+          "cn": "大洋洲",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "mainland",
           "phon": "/'mernlandl",
           "pos": "",
-          "cn": "乡|",
+          "cn": "乡| 本土 大陆",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -606,10 +1200,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "climate",
-          "phon": "/klarmst",
+          "w": "m scsn",
+          "phon": "",
           "pos": "",
-          "cn": "气候;  风气,思潮 ,",
+          "cn": "了其他汨C",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -617,10 +1211,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "wear clothing",
-          "phon": "",
+          "w": "weather",
+          "phon": "/wedal",
           "pos": "",
-          "cn": "你应该穿凉",
+          "cn": "天气。气象",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -639,8 +1233,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "logy",
-          "phon": "Imalldl",
+          "w": "mild",
+          "phon": "",
           "pos": "adj.",
           "cn": "温和的;  不严重的",
           "chapter": 1,
@@ -683,10 +1277,76 @@ const VocabData = {
           ]
         },
         {
+          "w": "arid",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "干燥的 干旱的;  枯燥的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "moist",
+          "phon": "InIstl",
+          "pos": "adj.",
+          "cn": "潮湿的,湿润的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "damp",
+          "phon": "Idampl",
+          "pos": "adj.",
+          "cn": "潮湿的,湿气重的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "humid",
+          "phon": "/'hju:ngdl",
+          "pos": "adj.",
+          "cn": "湿热的 潮湿的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "snowy",
+          "phon": "/snaUil",
+          "pos": "adj.",
+          "cn": "下雪多的;  被雪覆盖的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "frost",
+          "phon": "/frostl",
+          "pos": "n.",
+          "cn": "霜;  霜冻;  严塞",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "hail",
           "phon": "Iherll",
           "pos": "",
-          "cn": "冰雹",
+          "cn": "雹, 冰雹",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -697,29 +1357,7 @@ const VocabData = {
           "w": "thaw",
           "phon": "/O3:/",
           "pos": "",
-          "cn": "解冻时期",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "chill",
-          "phon": "Itfill",
-          "pos": "",
-          "cn": "塞冷;  害怕",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "freeze",
-          "phon": "Ifri:zl",
-          "pos": "",
-          "cn": "霜冻;  严寒期",
+          "cn": "解冻时期 解冻,融解。融化",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -738,10 +1376,109 @@ const VocabData = {
           ]
         },
         {
-          "w": "city",
+          "w": "thunder",
+          "phon": "/OAndal",
+          "pos": "",
+          "cn": "雷;  雷声",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "station",
           "phon": "",
           "pos": "",
-          "cn": "十分寒冷",
+          "cn": "辆快车轰隆隆地驶过车站。",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "lightning",
+          "phon": "MlartnIl",
+          "pos": "adj.",
+          "cn": "闪电般的,极快的 闪电",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "stormy",
+          "phon": "/'st:mil",
+          "pos": "adj.",
+          "cn": "有暴风雨的;  争吵激烈的;(大海)波涛汹涌的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "downpour",
+          "phon": "/daunpo:l",
+          "pos": "",
+          "cn": "倾盆大雨",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "rainfall",
+          "phon": "/relnf:ll",
+          "pos": "",
+          "cn": "降雨量",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sprinkle",
+          "phon": "",
+          "pos": "",
+          "cn": "自然地理",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "rainbow",
+          "phon": "/renbaul",
+          "pos": "",
+          "cn": "虹,彩虹",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "shower",
+          "phon": "Naual",
+          "pos": "",
+          "cn": "阵雨;(一〉阵;  淋浴",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "celsius",
+          "phon": "Iselsiasl",
+          "pos": "adj.",
+          "cn": "摄氏温度 摄氏的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -760,21 +1497,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "sharp drop in",
-          "phon": "",
-          "pos": "",
-          "cn": "气温将骤降。",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "forecast",
           "phon": "/f3:ka:stl",
           "pos": "",
-          "cn": "预言",
+          "cn": "预言 预测 预测. 预报",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -785,7 +1511,7 @@ const VocabData = {
           "w": "peak",
           "phon": "Ipi:kl",
           "pos": "",
-          "cn": "山峰;  顶点",
+          "cn": "山峰;  顶点 达到最大值",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -796,7 +1522,7 @@ const VocabData = {
           "w": "mount",
           "phon": "Imauntl",
           "pos": "",
-          "cn": "登上",
+          "cn": "登上 渐渐增加;  爬上,",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -829,7 +1555,7 @@ const VocabData = {
           "w": "ridge",
           "phon": "Irid3l",
           "pos": "",
-          "cn": "山脉",
+          "cn": "山脉 使隆起 山脊",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -840,7 +1566,18 @@ const VocabData = {
           "w": "slope",
           "phon": "Islaupl",
           "pos": "",
-          "cn": "倾斜;  有坡度",
+          "cn": "倾斜;  有坡度 山坡;  斜坡",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "valley",
+          "phon": "/'valil",
+          "pos": "",
+          "cn": "山谷,溪谷",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -859,10 +1596,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "southern",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "南部的;  南方的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "southeast",
           "phon": "",
-          "pos": "",
-          "cn": "东南方;  东南部",
+          "pos": "adj.",
+          "cn": "东南方;  东南部 东南方的;  东南部的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -872,8 +1620,8 @@ const VocabData = {
         {
           "w": "southwest",
           "phon": "",
-          "pos": "",
-          "cn": "西南方;  西南部",
+          "pos": "adj.",
+          "cn": "西南方;  西南部 西南方的;  西南部的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -883,19 +1631,8 @@ const VocabData = {
         {
           "w": "northeast",
           "phon": "In3:B'i:stl",
-          "pos": "",
-          "cn": "东北方;  东北部",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "is nothing strange in",
-          "phon": "",
-          "pos": "",
-          "cn": "怪的事",
+          "pos": "adj.",
+          "cn": "东北方;  东北部 东北方的;  东北部的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -905,19 +1642,8 @@ const VocabData = {
         {
           "w": "northwest",
           "phon": "",
-          "pos": "",
-          "cn": "西北方;  西北部",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "hilly",
-          "phon": "",
-          "pos": "",
-          "cn": "西北部有一大片丘陵地带。",
+          "pos": "adj.",
+          "cn": "西北方;  西北部 西北方的;  西北部的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -947,32 +1673,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "originator",
-          "phon": "",
-          "pos": "",
-          "cn": "定方向 )",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "inevitable",
           "phon": "/inevstaball",
           "pos": "adj.",
           "cn": "不可避免的。必然的",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "sediment",
-          "phon": "",
-          "pos": "",
-          "cn": "无法治愈。",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1006,6 +1710,17 @@ const VocabData = {
           "phon": "",
           "pos": "adj.",
           "cn": "不正常的,反常的;  娈态的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sediment",
+          "phon": "/sedgmantl",
+          "pos": "",
+          "cn": "沉淀物;  沉积物",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1071,7 +1786,18 @@ const VocabData = {
           "w": "suburb",
           "phon": "",
           "pos": "",
-          "cn": "郯区,",
+          "cn": "郯区, 郊外,近郊",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sub",
+          "phon": "",
+          "pos": "",
+          "cn": "接近) + urb 城市 ) 城市附近。",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1126,7 +1852,7 @@ const VocabData = {
           "w": "adjacent",
           "phon": "",
           "pos": "adj.",
-          "cn": "邻近的 ,",
+          "cn": "邻近的 , 毗连的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1145,8 +1871,19 @@ const VocabData = {
           ]
         },
         {
+          "w": "temote",
+          "phon": "",
+          "pos": "",
+          "cn": "字根 人们普遍在箭头上涂毒药, 提高弓箭的杀伤力, 毒",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "pollution",
-          "phon": "Ipa'lu:fan",
+          "phon": "",
           "pos": "",
           "cn": "污染",
           "chapter": 1,
@@ -1189,6 +1926,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "border",
+          "phon": "/b3:d3/",
+          "pos": "",
+          "cn": "和:'毗邻;  形成'的 边界;  边界地区;  镶边 边界",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "margin",
           "phon": "/'1110:4351",
           "pos": "",
@@ -1201,9 +1949,9 @@ const VocabData = {
         },
         {
           "w": "fringe",
-          "phon": "Ifrind3",
+          "phon": "",
           "pos": "adj.",
-          "cn": "次要的; 非主流的",
+          "cn": "次要的; 非主流的 边缘;  刘海儿",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1236,7 +1984,7 @@ const VocabData = {
           "w": "crack",
           "phon": "Ikrakl",
           "pos": "",
-          "cn": "裂缝;  缝隙",
+          "cn": "裂缝;  缝隙 破裂;  发出爆裂声",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1256,9 +2004,9 @@ const VocabData = {
         },
         {
           "w": "gap",
-          "phon": "Igep'",
+          "phon": "",
           "pos": "",
-          "cn": "缺口",
+          "cn": "缺口 裂缝;  差距;  空白",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1279,8 +2027,8 @@ const VocabData = {
         {
           "w": "grand",
           "phon": "Igrandl",
-          "pos": "",
-          "cn": "宏伟的;  极好的",
+          "pos": "adj.",
+          "cn": "宏伟的;  极好的 宏大的;  豪华的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1290,8 +2038,30 @@ const VocabData = {
         {
           "w": "magnificent",
           "phon": "Imag'nifssontl",
+          "pos": "adj.",
+          "cn": "宏伟的;  令人印象深刻的 壮丽的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "super",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "超级的, 极好的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "a super restaurant",
+          "phon": "",
           "pos": "",
-          "cn": "宏伟的;  令人印象深刻的",
+          "cn": "我在附近发现一家超级棒的餐馆!",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1300,7 +2070,7 @@ const VocabData = {
         },
         {
           "w": "interesting",
-          "phon": "",
+          "phon": "!intrsstn/",
           "pos": "adj.",
           "cn": "有趣的;  引人入胜的",
           "chapter": 1,
@@ -1379,7 +2149,7 @@ const VocabData = {
           "w": "fertile",
           "phon": "/f3:talll",
           "pos": "adj.",
-          "cn": "肥沃的 ,",
+          "cn": "肥沃的 , 富饶的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1387,10 +2157,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "fertilise",
-          "phon": "/f3:tglalzl",
-          "pos": "",
-          "cn": "施肥于",
+          "w": "solar",
+          "phon": "Isaulal",
+          "pos": "adj.",
+          "cn": "太阳的, 日光的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1412,7 +2182,84 @@ const VocabData = {
           "w": "lunar",
           "phon": "/lu:nal",
           "pos": "adj.",
-          "cn": "月亮的",
+          "cn": "月亮的 月球的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "calendar",
+          "phon": "Mkalsndal",
+          "pos": "",
+          "cn": "日历;  历法",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sunrise",
+          "phon": "/'SAnraIz/",
+          "pos": "",
+          "cn": "日出",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sunset",
+          "phon": "/SAnsetl",
+          "pos": "",
+          "cn": "曰落",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "eclipse",
+          "phon": "Ir'klpsl",
+          "pos": "",
+          "cn": "日食;  月食",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "dusk",
+          "phon": "IdAskl",
+          "pos": "",
+          "cn": "黄昏 傍晚",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "heaven",
+          "phon": "/hevanl",
+          "pos": "",
+          "cn": "天堂;  极乐 (之地); [the ~s] 天空",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "paradise",
+          "phon": "/paradaIsl",
+          "pos": "",
+          "cn": "天堂;  乐园。福地",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1421,7 +2268,7 @@ const VocabData = {
         },
         {
           "w": "sunshine",
-          "phon": "ISAnJaln",
+          "phon": "",
           "pos": "",
           "cn": "阳光,日光",
           "chapter": 1,
@@ -1445,7 +2292,7 @@ const VocabData = {
           "w": "shadow",
           "phon": "",
           "pos": "",
-          "cn": "几影子",
+          "cn": "几影子 阴影",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1453,10 +2300,87 @@ const VocabData = {
           ]
         },
         {
-          "w": "precipitate",
-          "phon": "Irs'stpstertl",
+          "w": "reservoir",
+          "phon": "/rezavwa:l",
           "pos": "",
-          "cn": "云常会凝结成雨或雪",
+          "cn": "几。水库。蓄水池",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "waterfall",
+          "phon": "/'W:tof3:ll",
+          "pos": "",
+          "cn": "瀑布",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "fountain",
+          "phon": "/fauntsnl",
+          "pos": "",
+          "cn": "喷泉;  源泉",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "spring",
+          "phon": "Isprnl",
+          "pos": "",
+          "cn": "春天;  泉水",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "dew",
+          "phon": "Idju:l",
+          "pos": "",
+          "cn": "露水",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "pour",
+          "phon": "",
+          "pos": "",
+          "cn": "倾泻;  倒;(雨)倾盆而下",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "drain",
+          "phon": "IdreInl",
+          "pos": "n.",
+          "cn": "耗蝎 排空;(使〉流出",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "dry",
+          "phon": "",
+          "pos": "",
+          "cn": "词源同",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1478,18 +2402,7 @@ const VocabData = {
           "w": "drop",
           "phon": "",
           "pos": "",
-          "cn": "都是象声词",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "drown",
-          "phon": "Idraunl",
-          "pos": "",
-          "cn": "她企图投河自尽",
+          "cn": "都是象声词 仔细听- 听雨滴落在地上 的声音",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1500,7 +2413,7 @@ const VocabData = {
           "w": "blow",
           "phon": "IblaUl",
           "pos": "",
-          "cn": "吹;〈风〉吹;  吹动",
+          "cn": "吹;〈风〉吹;  吹动 用力的一击;  打击。挫折",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1519,8 +2432,19 @@ const VocabData = {
           ]
         },
         {
-          "w": "gush",
-          "phon": "Idensl",
+          "w": "puff",
+          "phon": "",
+          "pos": "",
+          "cn": "喷出;  喘息",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "dense",
+          "phon": "",
           "pos": "adj.",
           "cn": "密集的;  稠密的",
           "chapter": 1,
@@ -1544,18 +2468,7 @@ const VocabData = {
           "w": "intensive",
           "phon": "Iin'tensIv/",
           "pos": "adj.",
-          "cn": "加强的,集中的",
-          "chapter": 1,
-          "chapterName": "自然地理",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "emerge",
-          "phon": "",
-          "pos": "",
-          "cn": "从云后面露出来。",
+          "cn": "加强的,集中的 密集的",
           "chapter": 1,
           "chapterName": "自然地理",
           "tags": [
@@ -1596,6 +2509,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "condition",
+          "phon": "Ikon'dilonl",
+          "pos": "",
+          "cn": "条件;  情况,状态",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "situation",
           "phon": "",
           "pos": "",
@@ -1627,6 +2551,61 @@ const VocabData = {
           "tags": [
             "reading"
           ]
+        },
+        {
+          "w": "synthetic",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "人造的,合成的",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "my",
+          "phon": "",
+          "pos": "",
+          "cn": "是太耗油了",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "gas",
+          "phon": "Igesl",
+          "pos": "",
+          "cn": "气体; [美]汽油",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "petroleum",
+          "phon": "",
+          "pos": "",
+          "cn": "石油",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "petrology",
+          "phon": "",
+          "pos": "",
+          "cn": "字根 petr 指 \"石头",
+          "chapter": 1,
+          "chapterName": "自然地理",
+          "tags": [
+            "reading"
+          ]
         }
       ]
     },
@@ -1639,6 +2618,17 @@ const VocabData = {
           "phon": "",
           "pos": "",
           "cn": "一Rabindranath",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "tagore",
+          "phon": "",
+          "pos": "",
+          "cn": "使生如夏花之绚烂 , 死如秋叶之静美。 泰戈尔",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1693,7 +2683,7 @@ const VocabData = {
           "w": "vegetation",
           "phon": "",
           "pos": "",
-          "cn": "植物",
+          "cn": "植物 草木",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1714,8 +2704,8 @@ const VocabData = {
         {
           "w": "perennial",
           "phon": "Ia'reniall",
-          "pos": "",
-          "cn": "多年生植物",
+          "pos": "adj.",
+          "cn": "多年生植物 长期的 , 持久的",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1746,7 +2736,7 @@ const VocabData = {
         },
         {
           "w": "ecosystem",
-          "phon": "",
+          "phon": "!i:kaUisIstsml",
           "pos": "",
           "cn": "生态系统",
           "chapter": 2,
@@ -1759,7 +2749,7 @@ const VocabData = {
           "w": "eco-friendly",
           "phon": "/i:kaU frendlil",
           "pos": "adj.",
-          "cn": "对生态环境友好的",
+          "cn": "对生态环境友好的 不妨害生态环境的",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1792,7 +2782,7 @@ const VocabData = {
           "w": "a host",
           "phon": "",
           "pos": "",
-          "cn": "这种昆虫的行为像寄生虫,即一种生活在被称为",
+          "cn": "这种昆虫的行为像寄生虫,即一种生活在被称为 宿主 的另一个生物身上或体内的生物。",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1822,8 +2812,19 @@ const VocabData = {
           ]
         },
         {
+          "w": "variation",
+          "phon": "",
+          "pos": "",
+          "cn": "娈种;  变异",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "diversity",
-          "phon": "Idal'v3:sstil",
+          "phon": "",
           "pos": "n.",
           "cn": "多样性",
           "chapter": 2,
@@ -1844,10 +2845,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "harvest",
-          "phon": "/'ha:vsstl",
+          "w": "reclaim",
+          "phon": "",
           "pos": "",
-          "cn": "收获;  收成",
+          "cn": "转 (to roll ) 所以英语中包含 volv 和 volu 的单词多 含有此意义: evolve (滚动着展开 >发展;  进化) ,",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sow",
+          "phon": "",
+          "pos": "",
+          "cn": "植物研究",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1858,18 +2870,7 @@ const VocabData = {
           "w": "pluck",
           "phon": "Iplkl",
           "pos": "",
-          "cn": "加上面微信领取",
-          "chapter": 2,
-          "chapterName": "植物研究",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "pick",
-          "phon": "Ipikl",
-          "pos": "",
-          "cn": "从地毯上捡起来。",
+          "cn": "加上面微信领取 他为懵人摘了_看  bundle /bu",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1880,7 +2881,7 @@ const VocabData = {
           "w": "yield",
           "phon": "",
           "pos": "",
-          "cn": "产量;  投资收益",
+          "cn": "产量;  投资收益 出产;  屈服,服从",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1891,7 +2892,7 @@ const VocabData = {
           "w": "rear",
           "phon": "Irial",
           "pos": "",
-          "cn": "后部",
+          "cn": "后部 培养,抚养;  饲养",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1924,7 +2925,7 @@ const VocabData = {
           "w": "spade",
           "phon": "Isperdl",
           "pos": "",
-          "cn": "锹",
+          "cn": "锹 铲",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -1944,7 +2945,7 @@ const VocabData = {
         },
         {
           "w": "heap",
-          "phon": "NipyS",
+          "phon": "",
           "pos": "",
           "cn": "堆 料",
           "chapter": 2,
@@ -1958,6 +2959,28 @@ const VocabData = {
           "phon": "IbAntfl",
           "pos": "",
           "cn": "一束 (花),一串 (钥匙 )",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "vase",
+          "phon": "",
+          "pos": "",
+          "cn": "瓶,花瓶",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "enenyasi",
+          "phon": "",
+          "pos": "",
+          "cn": "加上面微偿 卖爪全且爪清晰",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2009,32 +3032,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "mould",
-          "phon": "Imauldl",
-          "pos": "",
-          "cn": "霉菌",
-          "chapter": 2,
-          "chapterName": "植物研究",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "pollen",
           "phon": "/polani",
           "pos": "",
           "cn": "花粉",
-          "chapter": 2,
-          "chapterName": "植物研究",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "germinate",
-          "phon": "/d33:msnertl",
-          "pos": "",
-          "cn": "种子发芽需要一定的温度。",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2053,10 +3054,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "fruit",
-          "phon": "Ifru:tl",
+          "w": "burgeon",
+          "phon": "",
           "pos": "",
-          "cn": "树很早就开始结果了",
+          "cn": "嫩枝,新芽 急速增长;  发芽,抽枝",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2064,10 +3065,65 @@ const VocabData = {
           ]
         },
         {
-          "w": "wither",
-          "phon": "IWIOal",
+          "w": "bud",
+          "phon": "IbAdl",
           "pos": "",
-          "cn": "萄干瘪了",
+          "cn": "芽,苞。蓓蕾",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "blossom",
+          "phon": "Iblosaml",
+          "pos": "",
+          "cn": "开花 花朵",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "bloom",
+          "phon": "Iblu:ml",
+          "pos": "",
+          "cn": "花朵",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "scent",
+          "phon": "Isentl",
+          "pos": "",
+          "cn": "气味;  香味 使具有香味",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "aromatic",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "芳香的",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "rpen",
+          "phon": "",
+          "pos": "",
+          "cn": "植物研究",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2079,17 +3135,6 @@ const VocabData = {
           "phon": "Irotl",
           "pos": "",
           "cn": "腐烂",
-          "chapter": 2,
-          "chapterName": "植物研究",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "decay",
-          "phon": "Idrkerl",
-          "pos": "",
-          "cn": "已开始腐烂",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2119,10 +3164,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "jungle",
-          "phon": "Id3MIgall",
+          "w": "plantation",
+          "phon": "Iplen'teifonl",
           "pos": "",
-          "cn": "丛林中有老虎。",
+          "cn": "种植园;  栽植",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2130,10 +3175,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "plantation",
-          "phon": "Iplen'teifonl",
+          "w": "field",
+          "phon": "",
           "pos": "",
-          "cn": "种植园;  栽植",
+          "cn": "原野;  场地;  野外",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2174,10 +3219,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "iog",
+          "phon": "",
+          "pos": "",
+          "cn": "了他开车的去路。 航海时用来测量航行速度的测速仪是用木板 早期, 铅块和绳子等制成的。所以 log 既有 \"原",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "logo",
           "phon": "/'laugaul",
           "pos": "",
-          "cn": "标识",
+          "cn": "标识 标志。徽标",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2199,7 +3255,7 @@ const VocabData = {
           "w": "branch",
           "phon": "",
           "pos": "",
-          "cn": "分店",
+          "cn": "分店 树枝; (企业或组织的) 分支机构",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2207,8 +3263,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "trunk",
-          "phon": "ItrAIkJ",
+          "w": "itraikj",
+          "phon": "",
           "pos": "",
           "cn": "树干;  躯干;  大箱子",
           "chapter": 2,
@@ -2251,6 +3307,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "straw",
+          "phon": "",
+          "pos": "",
+          "cn": "稻草。麦秆;  吸管",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "reed",
           "phon": "Iri:dl",
           "pos": "",
@@ -2265,7 +3332,84 @@ const VocabData = {
           "w": "thorn",
           "phon": "/O3:n",
           "pos": "",
-          "cn": "刺",
+          "cn": "刺 棘刺;  荆棘",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "weed",
+          "phon": "",
+          "pos": "",
+          "cn": "杂草。野草 除杂草",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "grass",
+          "phon": "Igra:sl",
+          "pos": "",
+          "cn": "草;  草地",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "meadow",
+          "phon": "/edaUl",
+          "pos": "",
+          "cn": "草地;  牧场",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "iawn",
+          "phon": "",
+          "pos": "",
+          "cn": "草地,草坪",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "olive",
+          "phon": "/olsvl",
+          "pos": "",
+          "cn": "橄榄;  橄榄树",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "pine",
+          "phon": "Ipanl",
+          "pos": "",
+          "cn": "松树;  松木",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "vine",
+          "phon": "Ivalnl",
+          "pos": "",
+          "cn": "葡萄藤",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2298,7 +3442,7 @@ const VocabData = {
           "w": "mint",
           "phon": "ImIntl",
           "pos": "",
-          "cn": "薄荷;  薄荷糖;  铸币厂",
+          "cn": "薄荷;  薄荷糖;  铸币厂 铸造 硬币 )",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2309,7 +3453,7 @@ const VocabData = {
           "w": "alga",
           "phon": "/alga/",
           "pos": "",
-          "cn": "海藻 ,",
+          "cn": "海藻 , 藻",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2317,8 +3461,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "catalyst",
-          "phon": "/enzalm/",
+          "w": "enzyme",
+          "phon": "",
           "pos": "",
           "cn": "酶",
           "chapter": 2,
@@ -2328,10 +3472,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "thousand of these",
+          "w": "catalyst",
           "phon": "",
           "pos": "",
-          "cn": "酶在一小时内可激",
+          "cn": "催化剂;  促进因素",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2342,7 +3486,7 @@ const VocabData = {
           "w": "emission",
           "phon": "/I'mrfanl",
           "pos": "",
-          "cn": "排放",
+          "cn": "排放 散发;  排放物 散发物",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2383,10 +3527,32 @@ const VocabData = {
           ]
         },
         {
+          "w": "nutrient",
+          "phon": "/nju:triantl",
+          "pos": "",
+          "cn": "营养物质",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "energy",
           "phon": "/enad3il",
           "pos": "",
           "cn": "能源;  精力",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "surroundings",
+          "phon": "",
+          "pos": "",
+          "cn": "环境",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2449,8 +3615,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "perish",
-          "phon": "/buj fal3l",
+          "w": "bush fire",
+          "phon": "",
           "pos": "",
           "cn": "林区大火",
           "chapter": 2,
@@ -2463,7 +3629,7 @@ const VocabData = {
           "w": "extinguish",
           "phon": "Ik'stigwll",
           "pos": "",
-          "cn": "感情等)破灭",
+          "cn": "感情等)破灭 扑灭 (火);  使 (想法",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2482,10 +3648,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "perish",
+          "phon": "Iperifl",
+          "pos": "",
+          "cn": "消亡;  腐烂",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "demolish",
           "phon": "Idr'molrll",
           "pos": "",
-          "cn": "破坏;  推翻",
+          "cn": "破坏;  推翻 拆除;  毁坏,",
           "chapter": 2,
           "chapterName": "植物研究",
           "tags": [
@@ -2502,31 +3679,25 @@ const VocabData = {
           "tags": [
             "reading"
           ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "动物保护",
-      "words": [
+        },
         {
           "w": "undermine",
           "phon": "",
           "pos": "",
           "cn": "破坏;  逐渐削弱",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
         },
         {
-          "w": "extinction",
-          "phon": "Iik'stikfan",
+          "w": "iik'stikfan",
+          "phon": "",
           "pos": "",
           "cn": "灭绝",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
@@ -2536,8 +3707,8 @@ const VocabData = {
           "phon": "/patonl",
           "pos": "",
           "cn": "模式;  式样;  底样",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
@@ -2547,19 +3718,19 @@ const VocabData = {
           "phon": "/'aUtkAm/",
           "pos": "",
           "cn": "结果",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "impact",
-          "phon": "Iimpekt",
+          "phon": "",
           "pos": "",
           "cn": "影响",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
@@ -2569,19 +3740,19 @@ const VocabData = {
           "phon": "Ikispers'mentll",
           "pos": "adj.",
           "cn": "实验的;  试验性的",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
         },
         {
-          "w": "favourable",
-          "phon": "/fervaraball",
-          "pos": "",
-          "cn": "肯定的",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "w": "productive",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "多产的",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
@@ -2591,19 +3762,30 @@ const VocabData = {
           "phon": "/I'fektrvl",
           "pos": "adj.",
           "cn": "有效的",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
         },
         {
           "w": "efficient",
-          "phon": "Iififant",
+          "phon": "",
           "pos": "adj.",
           "cn": "效率高的",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "kkansidaraball",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "相当多的",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
@@ -2611,10 +3793,10 @@ const VocabData = {
         {
           "w": "massive",
           "phon": "/masIvl",
-          "pos": "",
-          "cn": "庞大的",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "pos": "adj.",
+          "cn": "庞大的 巨大的, 大规模的",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
@@ -2624,8 +3806,8 @@ const VocabData = {
           "phon": "Ii'mensl",
           "pos": "adj.",
           "cn": "巨大的",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
@@ -2635,8 +3817,8 @@ const VocabData = {
           "phon": "/maksamall",
           "pos": "adj.",
           "cn": "最大的",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
@@ -2645,18 +3827,35 @@ const VocabData = {
           "w": "minimal",
           "phon": "/mlnsmall",
           "pos": "adj.",
-          "cn": "最小的 ,",
-          "chapter": 3,
-          "chapterName": "动物保护",
+          "cn": "最小的 , 极小的",
+          "chapter": 2,
+          "chapterName": "植物研究",
           "tags": [
             "reading"
           ]
         },
         {
-          "w": "biologist",
+          "w": "optimal",
+          "phon": "/optsmall",
+          "pos": "adj.",
+          "cn": "最佳的 最理想的",
+          "chapter": 2,
+          "chapterName": "植物研究",
+          "tags": [
+            "reading"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "动物保护",
+      "words": [
+        {
+          "w": "charles darwin",
           "phon": "",
           "pos": "",
-          "cn": "生物学家",
+          "cn": "动物保护",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2664,8 +3863,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "biology",
-          "phon": "Izu:'Dlad3astl",
+          "w": "zoologist",
+          "phon": "",
           "pos": "",
           "cn": "动物学家",
           "chapter": 3,
@@ -2697,10 +3896,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "beings",
-          "phon": "",
+          "w": "primate",
+          "phon": "/pralmettl",
           "pos": "",
-          "cn": "人类也属于哺乳动物",
+          "cn": "灵长目动物",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "vertebrate",
+          "phon": "/'v3:tgbrgtl",
+          "pos": "",
+          "cn": "脊椎动物",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2719,10 +3929,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "prmate",
-          "phon": "Iem'fibian/",
-          "pos": "",
-          "cn": "两栖动物;  水陆两用车",
+          "w": "amphibian",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "两栖动物;  水陆两用车 两栖动物的;  水陆两用的",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2744,7 +3954,7 @@ const VocabData = {
           "w": "herbivore",
           "phon": "",
           "pos": "",
-          "cn": "类似地,",
+          "cn": "类似地, 食草动物)中的字根",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2755,7 +3965,7 @@ const VocabData = {
           "w": "creature",
           "phon": "/kri:tlal",
           "pos": "",
-          "cn": "生物",
+          "cn": "生物 动物",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2777,29 +3987,7 @@ const VocabData = {
           "w": "floral",
           "phon": "",
           "pos": "",
-          "cn": "的单词 fauna",
-          "chapter": 3,
-          "chapterName": "动物保护",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "species",
-          "phon": "/spi:fi:zl",
-          "pos": "",
-          "cn": "物种",
-          "chapter": 3,
-          "chapterName": "动物保护",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "flock",
-          "phon": "/pk/",
-          "pos": "",
-          "cn": "羊或鸟)群",
+          "cn": "的单词 fauna 地 表示 \"(尤指某一地区的)  动物群 源自罗马神话中保佑森林。农田和畜牧业的女神浮娜",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2811,6 +3999,83 @@ const VocabData = {
           "phon": "/h3:d/",
           "pos": "",
           "cn": "兽群。畜群",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "swarm",
+          "phon": "IsW:m/",
+          "pos": "",
+          "cn": "迅速移动的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "crowd",
+          "phon": "",
+          "pos": "",
+          "cn": "人群;  观众; -伙人",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "beast",
+          "phon": "",
+          "pos": "n.",
+          "cn": "兽。野兽;  凶残的人, 畜生",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "brute",
+          "phon": "Ibru:tl",
+          "pos": "",
+          "cn": "粗野的人, 残忍的人",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cruel",
+          "phon": "/kru:all",
+          "pos": "adj.",
+          "cn": "残酷的,残忍的,残暴的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "derive",
+          "phon": "Idrrarvl",
+          "pos": "",
+          "cn": "得到;(使〉源自",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "stem",
+          "phon": "Isteml",
+          "pos": "",
+          "cn": "来自 茎。梗",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2831,19 +4096,8 @@ const VocabData = {
         {
           "w": "descendant",
           "phon": "Idrsendantl",
-          "pos": "",
-          "cn": "后裔。后代",
-          "chapter": 3,
-          "chapterName": "动物保护",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "offspring",
-          "phon": "MDfisprml",
-          "pos": "",
-          "cn": "子孙;  产物",
+          "pos": "adj.",
+          "cn": "几 后裔。后代 下降的",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2873,6 +4127,83 @@ const VocabData = {
           ]
         },
         {
+          "w": "breed",
+          "phon": "",
+          "pos": "",
+          "cn": "饲养;  繁殖 品种",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "proliferate",
+          "phon": "Ipralrfarettl",
+          "pos": "",
+          "cn": "迅速增殖;  剧增",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sterility",
+          "phon": "Ista'rlgtil",
+          "pos": "",
+          "cn": "不生育",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "females",
+          "phon": "",
+          "pos": "",
+          "cn": "该病会导致男女不孕不育",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "mate",
+          "phon": "Imettl",
+          "pos": "",
+          "cn": "交配 配偶",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "courtship",
+          "phon": "",
+          "pos": "",
+          "cn": "求偶",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "lay",
+          "phon": "Ilell",
+          "pos": "",
+          "cn": "产",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "brood",
           "phon": "Ibru:dl",
           "pos": "",
@@ -2887,7 +4218,7 @@ const VocabData = {
           "w": "mature",
           "phon": "Ima'tfual",
           "pos": "adj.",
-          "cn": "成熟的",
+          "cn": "成熟的 成熟",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2896,9 +4227,9 @@ const VocabData = {
         },
         {
           "w": "skin",
-          "phon": "IskIm",
+          "phon": "",
           "pos": "",
-          "cn": "皮肤;  外皮",
+          "cn": "皮肤;  外皮 当他跌倒",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2917,10 +4248,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "paw",
-          "phon": "Ip3:/",
+          "w": "beak",
+          "phon": "",
           "pos": "",
-          "cn": "爪子",
+          "cn": "鸟嘴,喙",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2928,10 +4259,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "pest",
-          "phon": "Ipestl",
-          "pos": "",
-          "cn": "害虫;  有害动物",
+          "w": "wing",
+          "phon": "IWII/",
+          "pos": "n.",
+          "cn": "翼,翅膀",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2939,10 +4270,87 @@ const VocabData = {
           ]
         },
         {
-          "w": "parasite",
-          "phon": "/parasartl",
+          "w": "plume",
+          "phon": "Iplu:ml",
           "pos": "",
-          "cn": "寄生虫",
+          "cn": "羽丢",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "feather",
+          "phon": "Ifedal",
+          "pos": "n.",
+          "cn": "羽丢。翎毛",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "fur",
+          "phon": "/f3:1",
+          "pos": "",
+          "cn": "动物的)软毛; (用于制衣等的) 毛皮 几(",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "bristle",
+          "phon": "Ibrisall",
+          "pos": "",
+          "cn": "鬃毛; (刷子的)毛",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "curi",
+          "phon": "I3:l/",
+          "pos": "n.",
+          "cn": "鬈发;  卷曲;  螺旋状物",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "insect",
+          "phon": "/'Insektl",
+          "pos": "",
+          "cn": "昆虫",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "bisect",
+          "phon": "",
+          "pos": "",
+          "cn": "一节一节的>昆虫 ) , 派别;  教派;  党派) ,",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "worm",
+          "phon": "Iw3:ml",
+          "pos": "",
+          "cn": "蠕虫",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2963,8 +4371,8 @@ const VocabData = {
         {
           "w": "butterfly",
           "phon": "/bAtaflarl",
-          "pos": "",
-          "cn": "蝴蝶",
+          "pos": "adj.",
+          "cn": "蝴蝶 蝶状的",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -2997,7 +4405,84 @@ const VocabData = {
           "w": "penguin",
           "phon": "/pengwsnl",
           "pos": "",
-          "cn": "企鹅",
+          "cn": "企鹅 加",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "seal",
+          "phon": "Isi:ll",
+          "pos": "",
+          "cn": "那1 海豹;  封条;  图章",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "tortoise",
+          "phon": "",
+          "pos": "",
+          "cn": "龟; 陆龟",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "turtle",
+          "phon": "/t3:tl",
+          "pos": "",
+          "cn": "海龟",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "whale",
+          "phon": "Iwelll",
+          "pos": "",
+          "cn": "鲸鱼",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "kangaroo",
+          "phon": "",
+          "pos": "",
+          "cn": "袋鼠",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "t denas",
+          "phon": "",
+          "pos": "",
+          "cn": "料",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "elephant",
+          "phon": "/elgfontl",
+          "pos": "",
+          "cn": "象",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3027,10 +4512,32 @@ const VocabData = {
           ]
         },
         {
+          "w": "horn",
+          "phon": "",
+          "pos": "",
+          "cn": "几",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "bear",
           "phon": "Ibeal",
           "pos": "",
           "cn": "熊",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "wolf",
+          "phon": "",
+          "pos": "n.",
+          "cn": "狼",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3049,10 +4556,131 @@ const VocabData = {
           ]
         },
         {
+          "w": "fox",
+          "phon": "Ifbksl",
+          "pos": "",
+          "cn": "狐狸;  狡猾的人",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cub",
+          "phon": "IkAbl",
+          "pos": "",
+          "cn": "幼兽",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "calf",
+          "phon": "",
+          "pos": "",
+          "cn": "幼兽;  小小牛",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "pup",
+          "phon": "",
+          "pos": "",
+          "cn": "幼小动物",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "lamb",
+          "phon": "Ilaml",
+          "pos": "n.",
+          "cn": "羔羊 小羊",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cattle",
+          "phon": "Ikatll",
+          "pos": "",
+          "cn": "几牛",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "bull",
+          "phon": "",
+          "pos": "",
+          "cn": "公牛",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "buffalo",
+          "phon": "IbAfalaul",
+          "pos": "",
+          "cn": "水牛;  野牛",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "horse",
+          "phon": "/h3:8/",
+          "pos": "",
+          "cn": "马 例",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "zebra",
+          "phon": "Izi:bral",
+          "pos": "",
+          "cn": "斑马",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "donkey",
+          "phon": "/donkil",
+          "pos": "",
+          "cn": "驴;  傻瓜",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "saddle",
           "phon": "Isadll",
           "pos": "",
-          "cn": "鞍_",
+          "cn": "鞍_ 马鞍;  车座",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3064,17 +4692,6 @@ const VocabData = {
           "phon": "/ha:ngsl",
           "pos": "",
           "cn": "几马具,挽具",
-          "chapter": 3,
-          "chapterName": "动物保护",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "falcon",
-          "phon": "/f:lkanl",
-          "pos": "",
-          "cn": "猎鹰",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3104,10 +4721,120 @@ const VocabData = {
           ]
         },
         {
+          "w": "owi",
+          "phon": "",
+          "pos": "",
+          "cn": "猫头鹰",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "swaiiow",
+          "phon": "/swDlaUl",
+          "pos": "",
+          "cn": "燕子",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sparrow",
+          "phon": "Isparaul",
+          "pos": "n.",
+          "cn": "麻雀",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "pigeon",
           "phon": "/pid3snl",
           "pos": "",
           "cn": "鸽子",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "crow",
+          "phon": "",
+          "pos": "",
+          "cn": "鸟鸦",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "swan",
+          "phon": "IswDnl",
+          "pos": "",
+          "cn": "天鹅",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "goose",
+          "phon": "",
+          "pos": "",
+          "cn": "鹅;  鹅肉",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cock",
+          "phon": "IkDk/",
+          "pos": "",
+          "cn": "雄禽;  公鸡",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "mouse",
+          "phon": "ImaUsl",
+          "pos": "n.",
+          "cn": "老鼠",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "rat",
+          "phon": "Iratl",
+          "pos": "",
+          "cn": "老鼠;  卑鄙的人",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "squirrel",
+          "phon": "/skwIral/",
+          "pos": "n.",
+          "cn": "松鼠",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3137,21 +4864,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "bite",
-          "phon": "Ibartl",
-          "pos": "",
-          "cn": "昆虫)叮;  吞饵",
-          "chapter": 3,
-          "chapterName": "动物保护",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "sting",
           "phon": "Istnl",
           "pos": "",
-          "cn": "刺,",
+          "cn": "刺, 刺 叮;(使〉感觉刺痛 螫针;  蜇痛",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3159,21 +4875,98 @@ const VocabData = {
           ]
         },
         {
-          "w": "bark",
-          "phon": "Iba:kl",
-          "pos": "",
-          "cn": "树皮",
-          "chapter": 3,
-          "chapterName": "动物保护",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "dogs",
-          "phon": "Ir3:/",
+          "w": "roar",
+          "phon": "",
           "pos": "n.",
           "cn": "吼叫,咆哮",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "rub",
+          "phon": "IrAb/",
+          "pos": "",
+          "cn": "困难 , 障碍",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "creep",
+          "phon": "Ikri:pl",
+          "pos": "",
+          "cn": "爬行;  悄悄地缓慢行进",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "habitat",
+          "phon": "/habgtetl",
+          "pos": "",
+          "cn": "动植物的)  生活环境, 栖息地",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "nest",
+          "phon": "Inestl",
+          "pos": "",
+          "cn": "巢。窝。穴",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "hive",
+          "phon": "",
+          "pos": "",
+          "cn": "蜂房;  繁忙的场所 像蜜蜂般 ) 密集群居",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cell",
+          "phon": "Isell",
+          "pos": "",
+          "cn": "蜂房巢室;  细胞;  单人牢房",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cage",
+          "phon": "Ikeld3l",
+          "pos": "",
+          "cn": "笼子",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "stable",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "马厩;  牛棚 稳定的;  稳固的",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3206,7 +4999,7 @@ const VocabData = {
           "w": "barrier",
           "phon": "Ibarial",
           "pos": "",
-          "cn": "障碍物",
+          "cn": "障碍物 障碍;  屏障,",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3217,7 +5010,7 @@ const VocabData = {
           "w": "bar",
           "phon": "Iba:/",
           "pos": "",
-          "cn": "栏杆;  条",
+          "cn": "栏杆;  条 几。栅 长块",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3239,7 +5032,7 @@ const VocabData = {
           "w": "epidemic",
           "phon": "",
           "pos": "adj.",
-          "cn": "流行性的;  极为盛行的",
+          "cn": "流行性的;  极为盛行的 坏事的)盛行 流行病;",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3248,9 +5041,75 @@ const VocabData = {
         },
         {
           "w": "gene",
-          "phon": "Id3i:ni",
+          "phon": "",
           "pos": "",
           "cn": "基因",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "long",
+          "phon": "",
+          "pos": "",
+          "cn": "所以应当能够活得很长。 的基因, 基因的;  起源的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "germ",
+          "phon": "",
+          "pos": "",
+          "cn": "微生物,细菌",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "virus",
+          "phon": "Ivalarasl",
+          "pos": "",
+          "cn": "病毒",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "microbe",
+          "phon": "'malkraubl",
+          "pos": "",
+          "cn": "微生物",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "metabolism",
+          "phon": "Ing'tabalizzln/",
+          "pos": "",
+          "cn": "新陈代谢",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "protein",
+          "phon": "/prauti:nl",
+          "pos": "",
+          "cn": "蛋白质",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3261,7 +5120,18 @@ const VocabData = {
           "w": "vitamin",
           "phon": "/vltamsn",
           "pos": "",
-          "cn": "新鲜的绿色蔬菜含有丰富的维生素。",
+          "cn": "维生素",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "secrete",
+          "phon": "",
+          "pos": "",
+          "cn": "分泌",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3294,7 +5164,7 @@ const VocabData = {
           "w": "instinct",
           "phon": "/instiktl",
           "pos": "",
-          "cn": "本能,",
+          "cn": "本能, 天性;  直觉",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3315,8 +5185,107 @@ const VocabData = {
         {
           "w": "potential",
           "phon": "Ipa'tenfall",
+          "pos": "adj.",
+          "cn": "潜力 潜在的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "intelligence",
+          "phon": "",
           "pos": "",
-          "cn": "潜力",
+          "cn": "智慧。智力;  情报,谍报",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "day",
+          "phon": "",
+          "pos": "",
+          "cn": "定会成功 有才智的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "functional",
+          "phon": "/fxnkfanall",
+          "pos": "adj.",
+          "cn": "功能的;  起作用的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sensitive",
+          "phon": "/sensatrvl",
+          "pos": "adj.",
+          "cn": "灵敏的;  过敏的;  易担忧的; (话题等)须谨慎对 待的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "flexible",
+          "phon": "/flekssball",
+          "pos": "adj.",
+          "cn": "可弯曲的;  灵活的,易娈通的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "acoustic",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "听觉的;  声音的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "optical",
+          "phon": "/optrkall",
+          "pos": "adj.",
+          "cn": "视觉的;  光学的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "nocturnal",
+          "phon": "Inbk't3:nll",
+          "pos": "adj.",
+          "cn": "夜间发生的;  夜间活动的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "noct",
+          "phon": "",
+          "pos": "",
+          "cn": "夜) + ambul (走) + ist ( 人) >夜里游荡 的人。中文里把特别能熬夜的人称为 夜猫子' 对应的 英语是 night owl 猫头鹰 ) 而早晨起来精神饱满的人 则被形容为 fresh",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3368,21 +5337,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "alternate",
-          "phon": "/3:ltanertl",
+          "w": "alt",
+          "phon": "",
           "pos": "",
-          "cn": "交替",
-          "chapter": 3,
-          "chapterName": "动物保护",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "prey",
-          "phon": "Iprerl",
-          "pos": "",
-          "cn": "被捕食的动物,猎物",
+          "cn": "那就是 alternate 的简写。",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3401,10 +5359,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "victim",
+          "phon": "/'viktsml",
+          "pos": "",
+          "cn": "受害者;  牺牲者",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "captive",
           "phon": "/kaptrvl",
-          "pos": "",
-          "cn": "俘虏",
+          "pos": "adj.",
+          "cn": "俘虏 被关押的;  受控制的",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3416,6 +5385,28 @@ const VocabData = {
           "phon": "Idrfensrvl",
           "pos": "adj.",
           "cn": "防御性的",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "suffer",
+          "phon": "ISAfal",
+          "pos": "",
+          "cn": "遭受;  受折磨;  娈糟",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "vulnerable",
+          "phon": "IVAInaraball",
+          "pos": "adj.",
+          "cn": "易受伤的,脆弱的;  易受影响的",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3456,10 +5447,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "shepherd",
-          "phon": "Iterml",
-          "pos": "",
-          "cn": "驯养;  制服",
+          "w": "tame",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "驯养;  制服 驯服的;  乏味的",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3471,6 +5462,17 @@ const VocabData = {
           "phon": "/ki:pal",
           "pos": "n.",
           "cn": "看守人;  饲养员",
+          "chapter": 3,
+          "chapterName": "动物保护",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "shepherd",
+          "phon": "",
+          "pos": "",
+          "cn": "牧羊人 羊倌",
           "chapter": 3,
           "chapterName": "动物保护",
           "tags": [
@@ -3488,6 +5490,17 @@ const VocabData = {
           "phon": "/galaksil",
           "pos": "",
           "cn": "星系; [the G~] 银河系",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cosmos",
+          "phon": "/kDzIDs/",
+          "pos": "",
+          "cn": "宇宙",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3550,6 +5563,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "astronomy",
+          "phon": "",
+          "pos": "",
+          "cn": "天文学",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "astrology",
           "phon": "",
           "pos": "",
@@ -3597,7 +5621,18 @@ const VocabData = {
           "w": "dust",
           "phon": "IdAstl",
           "pos": "",
-          "cn": "尘士,",
+          "cn": "尘士, 灰尘,粉尘",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "ash",
+          "phon": "",
+          "pos": "",
+          "cn": "灰烬",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3660,21 +5695,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "part",
+          "w": "propulsion",
           "phon": "",
           "pos": "",
-          "cn": "可",
-          "chapter": 4,
-          "chapterName": "太空探索",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "propulsion",
-          "phon": "Iprapalfon",
-          "pos": "",
-          "cn": "是喷气推进的",
+          "cn": "推进力",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3686,6 +5710,94 @@ const VocabData = {
           "phon": "/prelal",
           "pos": "",
           "cn": "压力",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "dynamics",
+          "phon": "Idarnaemiksl",
+          "pos": "n.",
+          "cn": "。动力学;  动态",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "motion",
+          "phon": "/maujanl",
+          "pos": "",
+          "cn": "动作;  移动",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "vent",
+          "phon": "",
+          "pos": "",
+          "cn": "排放;  发泄 排气0",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "tail",
+          "phon": "Itelll",
+          "pos": "n.",
+          "cn": "尾部",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "curve",
+          "phon": "Ik3:Vl",
+          "pos": "",
+          "cn": "曲线,弧线",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "exploration",
+          "phon": "",
+          "pos": "n.",
+          "cn": "探索",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "expedition",
+          "phon": "",
+          "pos": "",
+          "cn": "远征,探险",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "flyby",
+          "phon": "/flalbarl",
+          "pos": "",
+          "cn": "航天器对行星或卫星的) 飞掠",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3718,7 +5830,7 @@ const VocabData = {
           "w": "spectacle",
           "phon": "Ispektakall",
           "pos": "",
-          "cn": "壮观的景象;  奇观; [~s] 眼镜",
+          "cn": "壮观的景象;  奇观; [~s] 眼镜 例",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3727,7 +5839,7 @@ const VocabData = {
         },
         {
           "w": "orbit",
-          "phon": "M3:bat",
+          "phon": "",
           "pos": "",
           "cn": "轨道",
           "chapter": 4,
@@ -3771,7 +5883,7 @@ const VocabData = {
         },
         {
           "w": "substance",
-          "phon": "/sAbstansl",
+          "phon": "",
           "pos": "",
           "cn": "物质;  实质。要旨",
           "chapter": 4,
@@ -3782,9 +5894,9 @@ const VocabData = {
         },
         {
           "w": "composition",
-          "phon": "Ikompa'zifan",
+          "phon": "",
           "pos": "",
-          "cn": "成分",
+          "cn": "成分 构成;  作品;  创作",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3794,19 +5906,8 @@ const VocabData = {
         {
           "w": "compound",
           "phon": "/kompaundl",
-          "pos": "",
-          "cn": "混合物;  化合物",
-          "chapter": 4,
-          "chapterName": "太空探索",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "washing",
-          "phon": "",
-          "pos": "",
-          "cn": "像是",
+          "pos": "adj.",
+          "cn": "混合物;  化合物 复合的,组合的",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3916,7 +6017,7 @@ const VocabData = {
           "w": "liquid",
           "phon": "Mlikwadl",
           "pos": "adj.",
-          "cn": "液态的",
+          "cn": "液态的 液体",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3926,8 +6027,85 @@ const VocabData = {
         {
           "w": "fluid",
           "phon": "/flu:gd/",
+          "pos": "adj.",
+          "cn": "液体,流体 流动的",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "solid",
+          "phon": "IsDlsdl",
+          "pos": "adj.",
+          "cn": "固体 固体的;  牢固的",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "formation",
+          "phon": "If3:'merjanl",
           "pos": "",
-          "cn": "液体,流体",
+          "cn": "形成",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "method",
+          "phon": "/meBadl",
+          "pos": "",
+          "cn": "方法",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "spectrum",
+          "phon": "/spektraml",
+          "pos": "",
+          "cn": "光谱;  范围",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "dimension",
+          "phon": "",
+          "pos": "n.",
+          "cn": "范围;  维 (度)",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "frequency",
+          "phon": "Mfri:kwansil",
+          "pos": "",
+          "cn": "频率;  发生次数",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "signal",
+          "phon": "Msignall",
+          "pos": "n.",
+          "cn": "信号",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3947,9 +6125,9 @@ const VocabData = {
         },
         {
           "w": "circuit",
-          "phon": "",
+          "phon": "/s3:kgt/",
           "pos": "",
-          "cn": "许多年来。他都是巡回剧团里的主角-",
+          "cn": "线路,电路;  巡回",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3961,6 +6139,17 @@ const VocabData = {
           "phon": "Irr'frakjanl",
           "pos": "",
           "cn": "折射",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "ultraviolet",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "紫外辐射 紫外线的",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -3993,7 +6182,7 @@ const VocabData = {
           "w": "discernible",
           "phon": "Idi's3:nsball",
           "pos": "adj.",
-          "cn": "可辨别的 ,",
+          "cn": "可辨别的 , 看得清的",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -4023,10 +6212,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "squash",
-          "phon": "IskwDll",
+          "w": "fragment",
+          "phon": "/fragmontl n. 碎片",
           "pos": "",
-          "cn": "壁球",
+          "cn": "片断",
           "chapter": 4,
           "chapterName": "太空探索",
           "tags": [
@@ -4054,6 +6243,39 @@ const VocabData = {
           "tags": [
             "reading"
           ]
+        },
+        {
+          "w": "boy",
+          "phon": "",
+          "pos": "",
+          "cn": "使他的妈妈十分绝望",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "desperate",
+          "phon": "/desparstl",
+          "pos": "adj.",
+          "cn": "绝望的;  极需要的",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "hopeless",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "无望的;  极差的",
+          "chapter": 4,
+          "chapterName": "太空探索",
+          "tags": [
+            "reading"
+          ]
         }
       ]
     },
@@ -4062,7 +6284,7 @@ const VocabData = {
       "name": "学校教育",
       "words": [
         {
-          "w": "education",
+          "w": "ledju'keifanl",
           "phon": "",
           "pos": "",
           "cn": "教育;  教育学",
@@ -4073,10 +6295,131 @@ const VocabData = {
           ]
         },
         {
-          "w": "good",
+          "w": "start in life-",
           "phon": "",
           "pos": "",
-          "cn": "良好的教育会让你的孩子在人生中有个良",
+          "cn": "良好的教育会让你的孩子在人生中有个良 好的开端",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "primary",
+          "phon": "/pralmaril",
+          "pos": "adj.",
+          "cn": "主要的;  最初的;  小学教育的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "secondary",
+          "phon": "/sekandaril",
+          "pos": "adj.",
+          "cn": "中等教育的;  次要的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "diverse",
+          "phon": "",
+          "pos": "",
+          "cn": "转向不同 方向 〉不同的 ) ,",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "universe",
+          "phon": "",
+          "pos": "",
+          "cn": "面对面 >交谈) ,",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "college",
+          "phon": "/kDlid3l",
+          "pos": "",
+          "cn": "几 学院;  大学",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "institute",
+          "phon": "/Instgtju:tl",
+          "pos": "",
+          "cn": "研究所,学院",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "academy",
+          "phon": "",
+          "pos": "",
+          "cn": "专科院校;(美国的)私立中学;  研究院, 学会",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "chinese academy of sciences",
+          "phon": "",
+          "pos": "",
+          "cn": "中国科学院 )。",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "learn",
+          "phon": "/l3:1/",
+          "pos": "",
+          "cn": "学习;  得知",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "knowledge",
+          "phon": "/nDlid3/",
+          "pos": "",
+          "cn": "几。知识。学识;  知悉",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "novice",
+          "phon": "/npvgsl",
+          "pos": "",
+          "cn": "新手",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4087,18 +6430,7 @@ const VocabData = {
           "w": "recruit",
           "phon": "Irrkru:tl",
           "pos": "",
-          "cn": "吸收",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "fully",
-          "phon": "",
-          "pos": "",
-          "cn": "读写能力",
+          "cn": "吸收 新成员 )",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4128,10 +6460,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "emphasise",
-          "phon": "/emfasalzl",
+          "w": "problem",
+          "phon": "/prpblaml",
           "pos": "",
-          "cn": "着重",
+          "cn": "习题;  问题",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4139,10 +6471,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "enhance",
-          "phon": "Inha:ns/",
+          "w": "issue",
+          "phon": "",
           "pos": "",
-          "cn": "更大的希望被录取。",
+          "cn": "重要问题;  发行",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "affair",
+          "phon": "/a'feal",
+          "pos": "",
+          "cn": "政治事务 事件; [~s]公共事务",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "controversial",
+          "phon": "/ kontra'v3:fall",
+          "pos": "adj.",
+          "cn": "有争议的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "puzzle",
+          "phon": "/pAZall",
+          "pos": "",
+          "cn": "使迷惑 难题;  谜",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "riddle",
+          "phon": "/ridll",
+          "pos": "",
+          "cn": "谜。谜语",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "obscure",
+          "phon": "Iab'skjual",
+          "pos": "adj.",
+          "cn": "难以理解的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cram",
+          "phon": "",
+          "pos": "",
+          "cn": "把塞进; (为应考) 临时死记硬背",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4161,10 +6559,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "inspire",
-          "phon": "Iinspalal",
+          "w": "ability",
+          "phon": "",
           "pos": "",
-          "cn": "积极性并鼓励他们加入我们的事业。",
+          "cn": "几",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4183,6 +6581,72 @@ const VocabData = {
           ]
         },
         {
+          "w": "remote",
+          "phon": "",
+          "pos": "",
+          "cn": "升 ) .",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "stimulus",
+          "phon": "",
+          "pos": "",
+          "cn": "刺激物;",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "spur",
+          "phon": "",
+          "pos": "",
+          "cn": "马刺;  刺激",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "impetus",
+          "phon": "/impstasl",
+          "pos": "n.",
+          "cn": "推动 促进;  动量;  惯性",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "intelligent",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "聪明的,有才智的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "clever",
+          "phon": "/kleval",
+          "pos": "adj.",
+          "cn": "聪明的;  精明的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "smart",
           "phon": "Isma:tl",
           "pos": "adj.",
@@ -4194,10 +6658,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "all-round",
-          "phon": "/3:1 'raundl",
-          "pos": "",
-          "cn": "全面的",
+          "w": "genius",
+          "phon": "/d3i:niasl",
+          "pos": "n.",
+          "cn": "天才人物;  天赋",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4205,10 +6669,98 @@ const VocabData = {
           ]
         },
         {
-          "w": "genius",
-          "phon": "/d3i:niasl",
+          "w": "aptitude",
+          "phon": "",
+          "pos": "",
+          "cn": "此 >天才) .",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "elite",
+          "phon": "/erli:tl",
           "pos": "n.",
-          "cn": "天才人物;  天赋",
+          "cn": "精英人物;  精华;  上层人士",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "idiot",
+          "phon": "/idiatl",
+          "pos": "",
+          "cn": "白痴。傻瓜",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wisdom",
+          "phon": "/wrzdaml",
+          "pos": "",
+          "cn": "智慧;  学问",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wit",
+          "phon": "Iwitl",
+          "pos": "",
+          "cn": "风趣的人;  机智,风趣;  智慧",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "capable",
+          "phon": "Ikeipaball",
+          "pos": "adj.",
+          "cn": "有能力的,有才能的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "capacity",
+          "phon": "",
+          "pos": "",
+          "cn": "能力;  容积 几",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "excellent",
+          "phon": "/eksalantl",
+          "pos": "adj.",
+          "cn": "优秀的 杰出的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "outstanding",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "突出的 , 杰出的",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4230,7 +6782,7 @@ const VocabData = {
           "w": "prestige",
           "phon": "Ire'sti:3l",
           "pos": "",
-          "cn": "威望",
+          "cn": "威望 声望",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4241,7 +6793,18 @@ const VocabData = {
           "w": "stage",
           "phon": "",
           "pos": "",
-          "cn": "的。",
+          "cn": "的。 在政治舞台上的人都是有 威望",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "reputation",
+          "phon": "",
+          "pos": "",
+          "cn": "名誉。声誉",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4271,10 +6834,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "reputation",
-          "phon": "/i'sti:ml",
+          "w": "esteem",
+          "phon": "",
           "pos": "",
-          "cn": "尊敬",
+          "cn": "尊敬 尊重",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4295,8 +6858,8 @@ const VocabData = {
         {
           "w": "diligent",
           "phon": "/dilsd3antl",
-          "pos": "",
-          "cn": "勤奋的",
+          "pos": "adj.",
+          "cn": "勤奋的 勤勉的",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4307,7 +6870,29 @@ const VocabData = {
           "w": "painstaking",
           "phon": "/pernzterkul",
           "pos": "adj.",
-          "cn": "极其仔细的",
+          "cn": "极其仔细的 辛苦的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "skill",
+          "phon": "Iskrll",
+          "pos": "",
+          "cn": "技巧,技能",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "approach",
+          "phon": "Ia'prautjl",
+          "pos": "",
+          "cn": "方法",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4318,51 +6903,7 @@ const VocabData = {
           "w": "scheme",
           "phon": "",
           "pos": "",
-          "cn": "方案;  阴谋",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "headmaster",
-          "phon": "/hedma:stal",
-          "pos": "",
-          "cn": "他作为校长的工作履历非常优秀",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "principal",
-          "phon": "/prinsapall",
-          "pos": "",
-          "cn": "学院院长",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "dean",
-          "phon": "Idi:nl",
-          "pos": "",
-          "cn": "她是社会科学学院的院长。",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "faculty",
-          "phon": "/fakoltil",
-          "pos": "",
-          "cn": "院; [美](大学的)  全体教员",
+          "cn": "计划",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4381,8 +6922,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "assistant",
-          "phon": "/skDlal",
+          "w": "scholar",
+          "phon": "",
           "pos": "",
           "cn": "学者",
           "chapter": 5,
@@ -4418,6 +6959,17 @@ const VocabData = {
           "phon": "/tju:tal",
           "pos": "n.",
           "cn": "家庭教师; (英国大学或学院中的)  导师",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "assistant",
+          "phon": "",
+          "pos": "",
+          "cn": "助手 助理",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4469,17 +7021,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "license",
-          "phon": "Ilarsansl",
-          "pos": "",
-          "cn": "执照,",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "permit",
           "phon": "/p3:mit",
           "pos": "",
@@ -4524,6 +7065,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "pupil",
+          "phon": "",
+          "pos": "",
+          "cn": "小学生;  瞳孔",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "ceremony",
           "phon": "/sersmanil",
           "pos": "",
@@ -4557,32 +7109,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "doctor",
+          "phon": "/dnktal",
+          "pos": "",
+          "cn": "博士;  医生",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "junior",
           "phon": "/d3u:nial",
           "pos": "adj.",
           "cn": "成人的;",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "senior",
-          "phon": "/si:nial",
-          "pos": "adj.",
-          "cn": "成人的;",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "orientation",
-          "phon": "I:rian'terfanl",
-          "pos": "",
-          "cn": "岗前等的 )情况介绍,迎新会;  方向",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4601,21 +7142,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "coed",
-          "phon": "/kauedl",
-          "pos": "",
-          "cn": "学中的)女生",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "coeds",
           "phon": "",
           "pos": "",
-          "cn": "一项针对男女同校大学中的典型女生的全国性调",
+          "cn": "一项针对男女同校大学中的典型女生的全国性调 查正在展开。",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4626,7 +7156,7 @@ const VocabData = {
           "w": "register",
           "phon": "/'red3ostal",
           "pos": "",
-          "cn": "注册簿",
+          "cn": "注册簿 登记表, 登记,注册",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4744,17 +7274,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "books",
-          "phon": "",
-          "pos": "",
-          "cn": "替你把书还了",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "literature",
           "phon": "Ilrtaratlal",
           "pos": "",
@@ -4778,7 +7297,7 @@ const VocabData = {
         },
         {
           "w": "author",
-          "phon": "",
+          "phon": "13:03/",
           "pos": "",
           "cn": "作者,作家",
           "chapter": 5,
@@ -4824,7 +7343,7 @@ const VocabData = {
           "w": "diary",
           "phon": "/dalaril",
           "pos": "",
-          "cn": "日记簿",
+          "cn": "日记簿 日记,",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4856,8 +7375,85 @@ const VocabData = {
         {
           "w": "journal",
           "phon": "/d33:nl/",
+          "pos": "n.",
+          "cn": "周报; (尤指专门学科的) 杂志;  日志 日报,",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "coverage",
+          "phon": "/kAvartd3/",
           "pos": "",
-          "cn": "周报; (尤指专门学科的) 杂志;  日志",
+          "cn": "新闻报道;  覆盖范围",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "bibliography",
+          "phon": "",
+          "pos": "n.",
+          "cn": "参考书目",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "encyclopedia",
+          "phon": "Iinsarkla'pi:dial",
+          "pos": "",
+          "cn": "百科全书",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cyclo",
+          "phon": "",
+          "pos": "",
+          "cn": "后指百科全书。 小孩的通识教育,",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "biography",
+          "phon": "",
+          "pos": "",
+          "cn": "传记",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "documentary",
+          "phon": "Idokjg'mentaril",
+          "pos": "adj.",
+          "cn": "纪录片 纪录的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "series",
+          "phon": "/slari:zl",
+          "pos": "",
+          "cn": "连续; 一系列;  系列节目",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4912,7 +7508,7 @@ const VocabData = {
           "w": "sketch",
           "phon": "Isketfl",
           "pos": "",
-          "cn": "概略",
+          "cn": "概略 概述",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4933,8 +7529,8 @@ const VocabData = {
         {
           "w": "manual",
           "phon": "/manjuall",
-          "pos": "",
-          "cn": "使用手册,指南",
+          "pos": "adj.",
+          "cn": "使用手册,指南 手工的",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4945,7 +7541,7 @@ const VocabData = {
           "w": "frame",
           "phon": "/frerml",
           "pos": "",
-          "cn": "镜子等的 ) 框架;  眼镜框;  构架",
+          "cn": "镜子等的 ) 框架;  眼镜框;  构架 几 (画",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4956,7 +7552,7 @@ const VocabData = {
           "w": "index",
           "phon": "",
           "pos": "",
-          "cn": "而四个 finger 是:  食指",
+          "cn": "指数;  指标;  索引",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4967,7 +7563,7 @@ const VocabData = {
           "w": "fnger",
           "phon": "",
           "pos": "",
-          "cn": "或forefinger,",
+          "cn": "或forefinger, 中指",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -4989,7 +7585,7 @@ const VocabData = {
           "w": "category",
           "phon": "Nkatsgaril",
           "pos": "",
-          "cn": "种类, 类别 ,",
+          "cn": "种类, 类别 , 范畴",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5008,10 +7604,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "museum",
+          "phon": "",
+          "pos": "",
+          "cn": "我们针对这家老博物馆的所有藏品列了张清单。",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "context",
           "phon": "",
           "pos": "",
-          "cn": "上下文;",
+          "cn": "上下文; 语境;  背景 来龙去脉",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5033,7 +7640,7 @@ const VocabData = {
           "w": "reel",
           "phon": "Iri:ll",
           "pos": "",
-          "cn": "卷轴;  卷筒; -卷胶卷",
+          "cn": "卷轴;  卷筒; -卷胶卷 几",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5064,9 +7671,97 @@ const VocabData = {
         },
         {
           "w": "major",
-          "phon": "/merd3al",
+          "phon": "",
           "pos": "adj.",
           "cn": "主要的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "minor",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "不严重的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sociology",
+          "phon": "",
+          "pos": "",
+          "cn": "社会学",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "politics",
+          "phon": "/pDlstiksl",
+          "pos": "",
+          "cn": "政治学;  政治;  政治事务",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "economics",
+          "phon": "",
+          "pos": "",
+          "cn": "经济学",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "marketing",
+          "phon": "!ma:kgtil",
+          "pos": "",
+          "cn": "市场营销",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "accounting",
+          "phon": "Ia'kauntm/",
+          "pos": "",
+          "cn": "会计",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "audit",
+          "phon": "/3:dgt",
+          "pos": "",
+          "cn": "审计 旁听;  审计",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "statistics",
+          "phon": "Ista'tistiksl",
+          "pos": "",
+          "cn": "统计学",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5099,7 +7794,7 @@ const VocabData = {
           "w": "philo",
           "phon": "",
           "pos": "",
-          "cn": "爱) + sophos ( 智慧 )",
+          "cn": "爱) + sophos ( 智慧 ) 爱智慧。据说该词由古希腊哲人毕达哥拉斯创造。毕 达哥拉斯和由他创建的学派在数学和西方理性哲学发展 方面有诸多影响 , 如发现了毕达哥拉斯定理 (相当于我 国的勾股定理 )等。但他认为, 他远远不够智慧, 如果 非要把智慧 sophos 和他联系在一起 那么就请称呼他 为 philosopher , 即 爱智慧的人",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5176,7 +7871,7 @@ const VocabData = {
           "w": "geography",
           "phon": "Id3i'ografil",
           "pos": "",
-          "cn": "地理学;  地形",
+          "cn": "地理学;  地形 地势",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5196,7 +7891,7 @@ const VocabData = {
         },
         {
           "w": "engineering",
-          "phon": "Iend3s'narmi",
+          "phon": "",
           "pos": "",
           "cn": "工程;  工程学",
           "chapter": 5,
@@ -5228,17 +7923,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "maths",
-          "phon": "Imadsi",
-          "pos": "",
-          "cn": "数学",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "arithmetic",
           "phon": "",
           "pos": "",
@@ -5250,8 +7934,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "tril",
-          "phon": "Id3i'mst",
+          "w": "geometry",
+          "phon": "",
           "pos": "",
           "cn": "几何学",
           "chapter": 5,
@@ -5264,7 +7948,7 @@ const VocabData = {
           "w": "algebra",
           "phon": "Iald3sbral",
           "pos": "",
-          "cn": "长代数。",
+          "cn": "代数学,代数",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5283,21 +7967,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "plus",
-          "phon": "IplAsl",
-          "pos": "prep.",
-          "cn": "加上",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "huge",
-          "phon": "",
+          "w": "sum",
+          "phon": "IsAInl",
           "pos": "",
-          "cn": "这个男人决定给儿子一大笔钱。让他离家自立。",
+          "cn": "总数。总和;  金额",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5307,8 +7980,8 @@ const VocabData = {
         {
           "w": "total",
           "phon": "",
-          "pos": "",
-          "cn": "总数",
+          "pos": "adj.",
+          "cn": "总数 总的。全部的",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5330,7 +8003,7 @@ const VocabData = {
           "w": "equation",
           "phon": "Iikweronl",
           "pos": "n.",
-          "cn": "相等;  平衡,",
+          "cn": "相等;  平衡, 综合体;  方程式,等式",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5360,17 +8033,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "multiply",
-          "phon": "/nAltaplarl",
-          "pos": "",
-          "cn": "友谊能增进欢乐,分担苦衷。",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "divide",
           "phon": "Idg'vard/",
           "pos": "",
@@ -5382,10 +8044,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "triple",
-          "phon": "/trlpall",
+          "w": "dividend",
+          "phon": "/divsdandl",
           "pos": "",
-          "cn": "三重的",
+          "cn": "被除数",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5393,10 +8055,120 @@ const VocabData = {
           ]
         },
         {
-          "w": "quadruple",
-          "phon": "/kwodrupall",
+          "w": "subtract",
+          "phon": "",
           "pos": "",
-          "cn": "四倍",
+          "cn": "个式子中,12是被除数。",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "remainder",
+          "phon": "Irrmelndal",
+          "pos": "",
+          "cn": "几余数;  剩余部分",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rational",
+          "phon": "Irejanall",
+          "pos": "adj.",
+          "cn": "有理数 (数。式等)有理的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "parameter",
+          "phon": "Iparemgtal",
+          "pos": "",
+          "cn": "参数;  起限定作用的因素",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "parameter of modern life",
+          "phon": "",
+          "pos": "",
+          "cn": "不同政见是现代生活的一大参数。 前缀 para 指 \"旁. 侧\" 如: paragraph ([ 文章的]段",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "parallel",
+          "phon": "",
+          "pos": "",
+          "cn": "节;  短文, 短讯 ) 在彼此的旁边 >平行的; 相似的;  平行线 ); parasite (在食物旁边 〉寄生虫 )",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "variable",
+          "phon": "/veariaball",
+          "pos": "",
+          "cn": "娈量;  可变因素",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "odd",
+          "phon": "Iodl",
+          "pos": "adj.",
+          "cn": "奇数的;  古怪的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mean",
+          "phon": "Ini:nl",
+          "pos": "adj.",
+          "cn": "几平均数。平均值 平均的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "double",
+          "phon": "/dAball",
+          "pos": "adj.",
+          "cn": "两倍的 几两倍数。两倍量",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "triple",
+          "phon": "/trlpall",
+          "pos": "adj.",
+          "cn": "三重的 三倍的 , 三倍数, 三倍量 三倍",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5406,8 +8178,8 @@ const VocabData = {
         {
           "w": "multiple",
           "phon": "/'mAltspall",
-          "pos": "",
-          "cn": "倍数",
+          "pos": "adj.",
+          "cn": "倍数 多样的 , 数量多的",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5437,10 +8209,87 @@ const VocabData = {
           ]
         },
         {
+          "w": "chart",
+          "phon": "Itfa:tl",
+          "pos": "",
+          "cn": "图 图表;  海图",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "graph",
           "phon": "Igra:fl",
           "pos": "",
           "cn": "图,图表",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "diagram",
+          "phon": "/dalagraml",
+          "pos": "",
+          "cn": "图表;  示意图, 图解",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "table",
+          "phon": "/terball",
+          "pos": "n.",
+          "cn": "表格;  桌子",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "matrix",
+          "phon": "/ertriksl",
+          "pos": "",
+          "cn": "几矩阵;  铸模",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rectangle",
+          "phon": "/rektangall",
+          "pos": "",
+          "cn": "长方形,矩形",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cube",
+          "phon": "",
+          "pos": "",
+          "cn": "立方体;  立方, 三次幂;  立方形的东西",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "angle",
+          "phon": "I:engall",
+          "pos": "",
+          "cn": "几角;  角度",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5462,7 +8311,7 @@ const VocabData = {
           "w": "diagonal",
           "phon": "Idaragonall",
           "pos": "adj.",
-          "cn": "斜纹的;  对角线的",
+          "cn": "斜纹的;  对角线的 对角线;  斜纹织物",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5506,7 +8355,7 @@ const VocabData = {
           "w": "round",
           "phon": "Iraundl",
           "pos": "adj.",
-          "cn": "圆的",
+          "cn": "圆的 绕圈; 一轮 环绕",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5514,10 +8363,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "mapi",
-          "phon": "",
+          "w": "dot",
+          "phon": "Idptl",
           "pos": "",
-          "cn": "很多现代人认为,朋友间比较舒服的关系是在交往过程",
+          "cn": "点,圆点",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sphere",
+          "phon": "Isfial",
+          "pos": "",
+          "cn": "球体;  球状物;  范围 领域",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5539,7 +8399,7 @@ const VocabData = {
           "w": "extent",
           "phon": "Iik'stentl",
           "pos": "",
-          "cn": "广度。范围;  程度",
+          "cn": "几 广度。范围;  程度",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5572,7 +8432,7 @@ const VocabData = {
           "w": "decimal",
           "phon": "/dessmall",
           "pos": "adj.",
-          "cn": "小数的; +进位的",
+          "cn": "小数的; +进位的 几小数",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5594,18 +8454,7 @@ const VocabData = {
           "w": "plane",
           "phon": "",
           "pos": "",
-          "cn": "平面 ) , square",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "centigrade",
-          "phon": "",
-          "pos": "",
-          "cn": "一百只脚\", 意为 \"蜈蚣",
+          "cn": "平面 ) , square 正方形;  平方) .",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5614,7 +8463,7 @@ const VocabData = {
         },
         {
           "w": "proportion",
-          "phon": "Ipro'po:fon",
+          "phon": "",
           "pos": "",
           "cn": "比例",
           "chapter": 5,
@@ -5627,7 +8476,7 @@ const VocabData = {
           "w": "rate",
           "phon": "Irertl",
           "pos": "",
-          "cn": "比率 ,",
+          "cn": "比率 , 率;  速度",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5657,10 +8506,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "scale",
-          "phon": "Iskerll",
-          "pos": "n.",
-          "cn": "刻度;  规模; [~s]天平;  鳞",
+          "w": "ounce",
+          "phon": "",
+          "pos": "",
+          "cn": "盎司;  少量",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5668,10 +8517,54 @@ const VocabData = {
           ]
         },
         {
-          "w": "radiate",
-          "phon": "/reldiertl",
+          "w": "density",
+          "phon": "/densstil",
           "pos": "",
-          "cn": "荫大道从那广场向四方延伸 =",
+          "cn": "密度;  浓度",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fahrenheit",
+          "phon": "/faranhartl",
+          "pos": "adj.",
+          "cn": "华氏温标的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "enenyas",
+          "phon": "",
+          "pos": "",
+          "cn": "公众徙俦",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "battery",
+          "phon": "Ibataril",
+          "pos": "",
+          "cn": "电池;",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "volt",
+          "phon": "Ivaultl",
+          "pos": "",
+          "cn": "伏特 (电压单位 )",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5682,7 +8575,7 @@ const VocabData = {
           "w": "radioactivity",
           "phon": "",
           "pos": "",
-          "cn": "放射〈性)",
+          "cn": "放射〈性) 几",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5701,17 +8594,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "hollow",
-          "phon": "/'holaul",
-          "pos": "",
-          "cn": "空(心)的,中空的",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "ozone",
           "phon": "/aUzaUnl",
           "pos": "",
@@ -5723,8 +8605,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "layer",
-          "phon": "/gravstil",
+          "w": "gravity",
+          "phon": "",
           "pos": "",
           "cn": "地球引力,重力",
           "chapter": 5,
@@ -5734,10 +8616,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "to launch",
+          "w": "friction",
           "phon": "",
-          "pos": "",
-          "cn": "飞船。使其摆脱地球引力",
+          "pos": "n.",
+          "cn": "摩擦;  摩擦力;  不和,矛盾",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5756,10 +8638,54 @@ const VocabData = {
           ]
         },
         {
+          "w": "boil",
+          "phon": "Ib3ll/",
+          "pos": "",
+          "cn": "沸点",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rust",
+          "phon": "IrASt/",
+          "pos": "",
+          "cn": "锈,铁锈",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "drug",
+          "phon": "",
+          "pos": "",
+          "cn": "护士用生理盐水把药加以稀释",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "acid",
           "phon": "/aesadl",
+          "pos": "adj.",
+          "cn": "酸 尖刻的 酸的;  讽刺的 =",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "diamonds",
+          "phon": "",
           "pos": "",
-          "cn": "酸",
+          "cn": "看看歌名里的大写字母!",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5792,7 +8718,7 @@ const VocabData = {
           "w": "inert",
           "phon": "/1'n3:t/",
           "pos": "adj.",
-          "cn": "无生气的;  惰性的",
+          "cn": "无生气的;  惰性的 不活泼的",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5800,10 +8726,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "mixture",
-          "phon": "IIn'hrarantl",
+          "w": "inherent",
+          "phon": "",
           "pos": "adj.",
-          "cn": "内在的 ,",
+          "cn": "内在的 , 固有的",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5813,8 +8739,41 @@ const VocabData = {
         {
           "w": "formula",
           "phon": "/fD:mjglal",
+          "pos": "n.",
+          "cn": "方程式;  原则;  配方;  分子式 公式,",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "williams",
+          "phon": "",
           "pos": "",
-          "cn": "方程式;  原则;  配方;  分子式",
+          "cn": "法拉利 ) , 威廉姆斯) ,",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "porsche",
+          "phon": "",
+          "pos": "",
+          "cn": "保时捷) 纳通 )",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "renault",
+          "phon": "",
+          "pos": "",
+          "cn": "雷诺 ) ,",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5825,7 +8784,7 @@ const VocabData = {
           "w": "component",
           "phon": "Ikam'paunantl",
           "pos": "",
-          "cn": "组成部分",
+          "cn": "组成部分 成分",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5833,19 +8792,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "key",
+          "w": "mixture",
           "phon": "",
-          "pos": "",
-          "cn": "的重要组成部分之一",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "pose",
-          "phon": "/mikstjal",
           "pos": "",
           "cn": "混合 (物)",
           "chapter": 5,
@@ -5858,7 +8806,7 @@ const VocabData = {
           "w": "blend",
           "phon": "",
           "pos": "",
-          "cn": "混合物",
+          "cn": "混合物 混合;〈使)交融",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5910,17 +8858,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "principle",
-          "phon": "/prinsapall",
-          "pos": "",
-          "cn": "原则",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "discipline",
           "phon": "/dtssplsnl",
           "pos": "",
@@ -5943,6 +8880,94 @@ const VocabData = {
           ]
         },
         {
+          "w": "semester",
+          "phon": "Isa'mestal",
+          "pos": "",
+          "cn": "学期",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "semestris",
+          "phon": "",
+          "pos": "",
+          "cn": "来自 sex (六)  和 mensis (月)的组合 意思是 六个月的时期",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "schedule",
+          "phon": "1Jedju:ll",
+          "pos": "",
+          "cn": "日程安排; [美]时刻表",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "behind schedule",
+          "phon": "",
+          "pos": "",
+          "cn": "落后于预定时间",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "deadline",
+          "phon": "/dedlarnl",
+          "pos": "",
+          "cn": "截止日期",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "course",
+          "phon": "",
+          "pos": "",
+          "cn": "课程",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lesson",
+          "phon": "/lesonl",
+          "pos": "",
+          "cn": "一堂课;  课程;  教训",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "curriculum",
+          "phon": "Ikalrlkjglaml",
+          "pos": "",
+          "cn": "课程; (学校等的) 全部课程",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "seminar",
           "phon": "/semana:l",
           "pos": "",
@@ -5957,7 +8982,18 @@ const VocabData = {
           "w": "forum",
           "phon": "/f3:ralnl",
           "pos": "",
-          "cn": "讨论会,论坛;  公开讨论的广场",
+          "cn": "讨论会,论坛;  公开讨论的广场 几",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "syllabus",
+          "phon": "IsIlabasl",
+          "pos": "",
+          "cn": "教学大纲",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -5990,7 +9026,84 @@ const VocabData = {
           "w": "basic",
           "phon": "/bersik/",
           "pos": "adj.",
-          "cn": "基本的,",
+          "cn": "基本的, 基础的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dairy",
+          "phon": "",
+          "pos": "",
+          "cn": "政府提高了肉类。乳制品等几种基本商品的价格。",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fundamental",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "基础的 , 基本的;  根本的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "elementary",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "基本的;  初级的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "profound",
+          "phon": "Ipra'faundl",
+          "pos": "adj.",
+          "cn": "(影响 )深刻的 深远的;  见解深刻的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "superficial",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "外表的;  肤浅的 表面的 .",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "surface",
+          "phon": "/s3:f3s/",
+          "pos": "",
+          "cn": "表面;  地面;  水面",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "compulsory",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "强制的",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6000,8 +9113,8 @@ const VocabData = {
         {
           "w": "prerequisite",
           "phon": "Ipri:'rekwszgtl",
-          "pos": "",
-          "cn": "必备条件",
+          "pos": "adj.",
+          "cn": "必备条件 必备的",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6053,10 +9166,87 @@ const VocabData = {
           ]
         },
         {
-          "w": "preview",
-          "phon": "/pri:vju:l",
+          "w": "inspect",
+          "phon": "",
           "pos": "",
-          "cn": "预习和复习工作。",
+          "cn": "检查;  检阅,视察",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "consult",
+          "phon": "",
+          "pos": "",
+          "cn": "请教;  查阅",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "scan",
+          "phon": "",
+          "pos": "",
+          "cn": "扫描检查;  浏览",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "recite",
+          "phon": "",
+          "pos": "",
+          "cn": "背诵,朗诵",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dictate",
+          "phon": "",
+          "pos": "",
+          "cn": "强行规定 让(某人 )听写;  命令 ,",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dict",
+          "phon": "",
+          "pos": "",
+          "cn": "说)",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "predict",
+          "phon": "",
+          "pos": "",
+          "cn": "预言 ); contra (反)",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "contradict",
+          "phon": "",
+          "pos": "",
+          "cn": "就是 反驳' 顶 啦 )",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6097,10 +9287,109 @@ const VocabData = {
           ]
         },
         {
+          "w": "print",
+          "phon": "IprIntl",
+          "pos": "",
+          "cn": "打印 印刷品;(冲印出来的)照片",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "thesis",
+          "phon": "/Oi:sss/",
+          "pos": "",
+          "cn": "论文",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "essay",
+          "phon": "/eserl",
+          "pos": "",
+          "cn": "论说文; (关于政治。",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "paper",
+          "phon": "/perpal",
+          "pos": "",
+          "cn": "论文;  纸",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dissertation",
+          "phon": "Idisa'terfanl",
+          "pos": "",
+          "cn": "专题论文,(尤指)  学位论文",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "project",
+          "phon": "/prpd3ekt",
+          "pos": "",
+          "cn": "方案",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "heading",
+          "phon": "Ihednl",
+          "pos": "",
+          "cn": "标题;  主题",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "outset",
+          "phon": "/autsetl",
+          "pos": "",
+          "cn": "开端,开始",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "outline",
+          "phon": "/'autlarnl",
+          "pos": "",
+          "cn": "略图 概要;  轮廓",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "point",
           "phon": "IoIntl",
           "pos": "",
-          "cn": "点;  要点",
+          "cn": "几 点;  要点",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6111,7 +9400,18 @@ const VocabData = {
           "w": "gist",
           "phon": "Id3istl",
           "pos": "n.",
-          "cn": "主旨",
+          "cn": "主旨 要点",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ja'pinjanl",
+          "phon": "",
+          "pos": "",
+          "cn": "看法;  评价",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6155,7 +9455,18 @@ const VocabData = {
           "w": "quote",
           "phon": "Ikwautl",
           "pos": "",
-          "cn": "引述;  报 (价)",
+          "cn": "引述;  报 (价) 引用",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "extract",
+          "phon": "",
+          "pos": "",
+          "cn": "摘录",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6207,21 +9518,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "predict",
-          "phon": "Iprr'diktl",
-          "pos": "",
-          "cn": "预测",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "perceive",
           "phon": "Ipa'si:vl",
           "pos": "",
-          "cn": "感知 ,",
+          "cn": "感知 , 察觉。意识到",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6287,7 +9587,7 @@ const VocabData = {
           "w": "deem",
           "phon": "Idi:ml",
           "pos": "",
-          "cn": "认为",
+          "cn": "认为 相信",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6298,7 +9598,7 @@ const VocabData = {
           "w": "imply",
           "phon": "IIm'plarl",
           "pos": "",
-          "cn": "暗指",
+          "cn": "暗指 意味着",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6342,7 +9642,7 @@ const VocabData = {
           "w": "understand",
           "phon": "",
           "pos": "",
-          "cn": "懂得",
+          "cn": "懂得 理解",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6350,21 +9650,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "kompri'hendl",
+          "w": "misunderstanding",
           "phon": "",
           "pos": "",
-          "cn": "确而有效地使用一个词",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "analyse",
-          "phon": "/analalz/",
-          "pos": "",
-          "cn": "分析",
+          "cn": "几",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6376,28 +9665,6 @@ const VocabData = {
           "phon": "/dalagnauzl",
           "pos": "",
           "cn": "判断;  诊断",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "infer",
-          "phon": "",
-          "pos": "",
-          "cn": "根据你的笑容 ,",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "deduce",
-          "phon": "Idrdju:sl",
-          "pos": "",
-          "cn": "我们可以根据这个前提推出结论。",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6449,6 +9716,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "comparison",
+          "phon": "",
+          "pos": "",
+          "cn": "几",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "contrast",
           "phon": "IkDntra:stl",
           "pos": "",
@@ -6474,7 +9752,7 @@ const VocabData = {
           "w": "contradiction",
           "phon": "/kpntra'dikfan",
           "pos": "",
-          "cn": "矛盾",
+          "cn": "矛盾 不一致;  反驳",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6496,18 +9774,7 @@ const VocabData = {
           "w": "differ",
           "phon": "/drfal",
           "pos": "",
-          "cn": "不同,",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "diverse",
-          "phon": "/darv3:s/",
-          "pos": "adj.",
-          "cn": "不一样的",
+          "cn": "不同, 相异",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6519,6 +9786,94 @@ const VocabData = {
           "phon": "/'nju:a:nsl",
           "pos": "",
           "cn": "细微差别",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "every",
+          "phon": "",
+          "pos": "",
+          "cn": "专注地看着嫌疑人的脸,捕捉其表情的每一丝细微娈化。",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "inductive",
+          "phon": "IindAktIv/",
+          "pos": "adj.",
+          "cn": "归纳的;  诱导的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "detail",
+          "phon": "/di:terll",
+          "pos": "",
+          "cn": "细节; (画等的) 细部",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "thorough",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "彻底的,详尽的",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "example",
+          "phon": "Iig'za:mpall",
+          "pos": "n.",
+          "cn": "例子;  榜样",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "instance",
+          "phon": "/Instansl",
+          "pos": "",
+          "cn": "几实例;  情况。场合",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "confirm",
+          "phon": "Ikan'f3:ml",
+          "pos": "",
+          "cn": "证实;  确保。巩固",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "demonstrate",
+          "phon": "/demanstrertl",
+          "pos": "",
+          "cn": "示范 , 演示;  证明",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6540,7 +9895,7 @@ const VocabData = {
           "w": "manifest",
           "phon": "/mengfestl",
           "pos": "",
-          "cn": "表明",
+          "cn": "表明 显示",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6584,7 +9939,7 @@ const VocabData = {
           "w": "resolve",
           "phon": "IrIzDlvl",
           "pos": "",
-          "cn": "决心",
+          "cn": "决心 决定;(使〉分解为;  解决",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6595,7 +9950,7 @@ const VocabData = {
           "w": "research",
           "phon": "",
           "pos": "",
-          "cn": "溶液",
+          "cn": "调查;  探索",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6614,21 +9969,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "inquire",
-          "phon": "IInkwaral",
-          "pos": "",
-          "cn": "询问;  调查",
-          "chapter": 5,
-          "chapterName": "学校教育",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "query",
           "phon": "Ikwiaril",
           "pos": "",
-          "cn": "疑问;  询问",
+          "cn": "疑问;  询问 怀疑;  询问",
           "chapter": 5,
           "chapterName": "学校教育",
           "tags": [
@@ -6658,6 +10002,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "achieve",
+          "phon": "",
+          "pos": "",
+          "cn": "达到 实现",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "accomplish",
           "phon": "IakAmplill",
           "pos": "",
@@ -6678,20 +10033,102 @@ const VocabData = {
           "tags": [
             "writing"
           ]
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "科技发明",
-      "words": [
+        },
+        {
+          "w": "score",
+          "phon": "Isk3:/",
+          "pos": "",
+          "cn": "得分,成绩",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mark",
+          "phon": "Ima:k/",
+          "pos": "n.",
+          "cn": "分数;  标记",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "grade",
+          "phon": "",
+          "pos": "",
+          "cn": "几 等级;  成绩等级",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rank",
+          "phon": "Irankl",
+          "pos": "n.",
+          "cn": "等级;  排。列",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "queue",
+          "phon": "",
+          "pos": "",
+          "cn": "排队等候 行列",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "queue up at",
+          "phon": "",
+          "pos": "",
+          "cn": "源自法语, 原指 尾巴\" 就是在售票窗口外组",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "grant",
+          "phon": "Igra:ntl",
+          "pos": "",
+          "cn": "授予;  准予;  承认",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "praise",
+          "phon": "Iprerzl",
+          "pos": "",
+          "cn": "赞美 赞扬",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
         {
           "w": "appreciate",
           "phon": "",
           "pos": "",
           "cn": "赏识;  感激;  意识到",
-          "chapter": 6,
-          "chapterName": "科技发明",
+          "chapter": 5,
+          "chapterName": "学校教育",
           "tags": [
             "writing"
           ]
@@ -6701,8 +10138,19 @@ const VocabData = {
           "phon": "Mfi:dbakl",
           "pos": "",
           "cn": "反馈,反应",
-          "chapter": 6,
-          "chapterName": "科技发明",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "on out new",
+          "phon": "",
+          "pos": "",
+          "cn": "我们将感激不尽 馈意见",
+          "chapter": 5,
+          "chapterName": "学校教育",
           "tags": [
             "writing"
           ]
@@ -6712,8 +10160,8 @@ const VocabData = {
           "phon": "Iauvar'estsmertl",
           "pos": "",
           "cn": "高估",
-          "chapter": 6,
-          "chapterName": "科技发明",
+          "chapter": 5,
+          "chapterName": "学校教育",
           "tags": [
             "writing"
           ]
@@ -6723,8 +10171,8 @@ const VocabData = {
           "phon": "Ia'plall",
           "pos": "",
           "cn": "申请",
-          "chapter": 6,
-          "chapterName": "科技发明",
+          "chapter": 5,
+          "chapterName": "学校教育",
           "tags": [
             "writing"
           ]
@@ -6734,8 +10182,19 @@ const VocabData = {
           "phon": "/'felaujIpl",
           "pos": "",
           "cn": "研究生奖学金",
-          "chapter": 6,
-          "chapterName": "科技发明",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "scholarship",
+          "phon": "",
+          "pos": "",
+          "cn": "奖学金;  学问。学识",
+          "chapter": 5,
+          "chapterName": "学校教育",
           "tags": [
             "writing"
           ]
@@ -6745,8 +10204,8 @@ const VocabData = {
           "phon": "Irr'w3:dl",
           "pos": "",
           "cn": "几报答;  赏金",
-          "chapter": 6,
-          "chapterName": "科技发明",
+          "chapter": 5,
+          "chapterName": "学校教育",
           "tags": [
             "writing"
           ]
@@ -6756,8 +10215,8 @@ const VocabData = {
           "phon": "Ia'W3:d/",
           "pos": "",
           "cn": "奖;  奖品",
-          "chapter": 6,
-          "chapterName": "科技发明",
+          "chapter": 5,
+          "chapterName": "学校教育",
           "tags": [
             "writing"
           ]
@@ -6767,12 +10226,29 @@ const VocabData = {
           "phon": "Ipralzl",
           "pos": "n.",
           "cn": "奖赏",
-          "chapter": 6,
-          "chapterName": "科技发明",
+          "chapter": 5,
+          "chapterName": "学校教育",
           "tags": [
             "writing"
           ]
         },
+        {
+          "w": "fee",
+          "phon": "/f:1",
+          "pos": "",
+          "cn": "酬金;  费用",
+          "chapter": 5,
+          "chapterName": "学校教育",
+          "tags": [
+            "writing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "科技发明",
+      "words": [
         {
           "w": "technology",
           "phon": "Itek'nplad3il",
@@ -6799,7 +10275,7 @@ const VocabData = {
           "w": "polytechnic",
           "phon": "",
           "pos": "adj.",
-          "cn": "有关多种工艺的",
+          "cn": "有关多种工艺的 理工学院",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -6810,7 +10286,7 @@ const VocabData = {
           "w": "engineer",
           "phon": "",
           "pos": "",
-          "cn": "技师",
+          "cn": "技师 工程师 ,",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -6821,18 +10297,7 @@ const VocabData = {
           "w": "mechanic",
           "phon": "Imrlkanikl",
           "pos": "",
-          "cn": "机修工",
-          "chapter": 6,
-          "chapterName": "科技发明",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "mechanism",
-          "phon": "",
-          "pos": "",
-          "cn": "机器,机械",
+          "cn": "机修工 技工,机械师,",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -6862,10 +10327,109 @@ const VocabData = {
           ]
         },
         {
-          "w": "domain",
-          "phon": "IdameInl",
+          "w": "breakthrough",
+          "phon": "IbrerkBru:l",
           "pos": "",
-          "cn": "字  根 dom 意为",
+          "cn": "突破",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gizmo",
+          "phon": "",
+          "pos": "n.",
+          "cn": "小装置",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "patent",
+          "phon": "/peitntl",
+          "pos": "",
+          "cn": "得到:的专利权;  给::专利证 专利 专利权",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "devise",
+          "phon": "Idi'varzl",
+          "pos": "",
+          "cn": "设计,发明",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "invent",
+          "phon": "/In'ventl",
+          "pos": "",
+          "cn": "创造 发明 ,",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "discover",
+          "phon": "",
+          "pos": "",
+          "cn": "发现",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "disclose",
+          "phon": "Idis'klaUzl",
+          "pos": "",
+          "cn": "揭露,透露",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "reveal",
+          "phon": "IrIlvi:ll",
+          "pos": "",
+          "cn": "展现;  显示,透露",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "uncover",
+          "phon": "IAI'KAVa/",
+          "pos": "",
+          "cn": "揭露,发现",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "expose",
+          "phon": "/k'spauzl",
+          "pos": "",
+          "cn": "使暴露;  揭发 使曝光",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -6906,10 +10470,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "specialise",
-          "phon": "/speolaIzl",
+          "w": "ifaun derfanl",
+          "phon": "",
           "pos": "",
-          "cn": "例]",
+          "cn": "基础;  地基;  基金会",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -6921,17 +10485,6 @@ const VocabData = {
           "phon": "",
           "pos": "",
           "cn": "学生专攻工程学。",
-          "chapter": 6,
-          "chapterName": "科技发明",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "concentrate on",
-          "phon": "",
-          "pos": "",
-          "cn": "读",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -6972,6 +10525,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "apply",
+          "phon": "",
+          "pos": "",
+          "cn": "应用;  适用",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "appliance",
           "phon": "",
           "pos": "",
@@ -6997,7 +10561,7 @@ const VocabData = {
           "w": "device",
           "phon": "Idr'vaIsl",
           "pos": "",
-          "cn": "装置",
+          "cn": "装置 设备;  手段。策略",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7027,10 +10591,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "estimate",
+          "w": "instrument",
+          "phon": "/instrmantl",
+          "pos": "",
+          "cn": "仪器;  工具;  乐器",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tool",
           "phon": "",
           "pos": "",
-          "cn": "估价;  估计;  评价",
+          "cn": "工具",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gauge",
+          "phon": "Igeid3l",
+          "pos": "",
+          "cn": "测量仪器 测量;  判断",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "measure",
+          "phon": "/me33/",
+          "pos": "",
+          "cn": "衡量;  措施",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "calculate",
+          "phon": "/kalkjgleitl",
+          "pos": "",
+          "cn": "计算;  考虑,打算",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "count",
+          "phon": "/kaUntl",
+          "pos": "",
+          "cn": "计算",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "estsinell",
+          "phon": "",
+          "pos": "",
+          "cn": "估价;  估计;  评价 估价;  估计",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7039,7 +10669,7 @@ const VocabData = {
         },
         {
           "w": "accessory",
-          "phon": "Iak'sesari",
+          "phon": "",
           "pos": "",
           "cn": "附件,配件",
           "chapter": 6,
@@ -7071,21 +10701,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "gather",
-          "phon": "/ga0al",
-          "pos": "",
-          "cn": "他不辞辛劳地为我收集资料。",
-          "chapter": 6,
-          "chapterName": "科技发明",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "attach",
           "phon": "",
           "pos": "",
-          "cn": "使依附;  附加;  缚。系,",
+          "cn": "使依附;  附加;  缚。系, 贴",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7096,7 +10715,7 @@ const VocabData = {
           "w": "optics",
           "phon": "/Dptiksl",
           "pos": "",
-          "cn": "光学",
+          "cn": "光学 例",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7118,7 +10737,7 @@ const VocabData = {
           "w": "lens",
           "phon": "Ilenzl",
           "pos": "",
-          "cn": "照相机等的) 镜头",
+          "cn": "照相机等的) 镜头 透镜;",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7129,7 +10748,7 @@ const VocabData = {
           "w": "thing",
           "phon": "",
           "pos": "",
-          "cn": "更大或更小。",
+          "cn": "更大或更小。 以把物体看得更清楚",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7140,7 +10759,7 @@ const VocabData = {
           "w": "radar",
           "phon": "/reida:l",
           "pos": "",
-          "cn": "无线电定位装置",
+          "cn": "无线电定位装置 雷达 ,",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7159,10 +10778,32 @@ const VocabData = {
           ]
         },
         {
+          "w": "sensor",
+          "phon": "/sensal",
+          "pos": "",
+          "cn": "传感器",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "multimedia",
           "phon": "",
           "pos": "",
           "cn": "多媒体",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "network",
+          "phon": "",
+          "pos": "",
+          "cn": "电视网 网络;  广播网,",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7236,6 +10877,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "screen",
+          "phon": "Iskri:nl",
+          "pos": "n.",
+          "cn": "屏;  屏幕 遮蔽",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "loudspeaker",
           "phon": "",
           "pos": "",
@@ -7250,18 +10902,7 @@ const VocabData = {
           "w": "microphone",
           "phon": "/'malkrafaunl",
           "pos": "",
-          "cn": "话筒",
-          "chapter": 6,
-          "chapterName": "科技发明",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "microphone at",
-          "phon": "",
-          "pos": "",
-          "cn": "无法把我们说的话录下来。",
+          "cn": "话筒 麦克风",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7283,7 +10924,7 @@ const VocabData = {
           "w": "tape",
           "phon": "IteIpl",
           "pos": "",
-          "cn": "录音带;  胶带",
+          "cn": "录音带;  胶带 磁带",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7313,6 +10954,94 @@ const VocabData = {
           ]
         },
         {
+          "w": "wireless",
+          "phon": "/'walalas/",
+          "pos": "adj.",
+          "cn": "不用电线的,无线的",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wi-fi",
+          "phon": "",
+          "pos": "",
+          "cn": "是无线保真",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "high-definition",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "高分辨率的",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "audio",
+          "phon": "/3:diaul",
+          "pos": "adj.",
+          "cn": "声音的",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vision",
+          "phon": "/vi3anl",
+          "pos": "",
+          "cn": "视觉 视力",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fantasy",
+          "phon": "/'fantasil",
+          "pos": "",
+          "cn": "幻想",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pump",
+          "phon": "IpAmpl",
+          "pos": "",
+          "cn": "泵",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pummp",
+          "phon": "",
+          "pos": "",
+          "cn": "科技发明",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "generator",
           "phon": "Id3enarertal",
           "pos": "",
@@ -7327,7 +11056,7 @@ const VocabData = {
           "w": "gear",
           "phon": "Iglal",
           "pos": "",
-          "cn": "齿轮,传动装置",
+          "cn": "齿轮,传动装置 使适合",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7349,7 +11078,7 @@ const VocabData = {
           "w": "hydraulic",
           "phon": "/har'drolik/",
           "pos": "adj.",
-          "cn": "水力的 ,",
+          "cn": "水力的 , 液压的",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7368,10 +11097,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "compress",
-          "phon": "",
+          "w": "ventilation",
+          "phon": "Iventa'lerlanl",
           "pos": "",
-          "cn": "因为它一方面会压缩",
+          "cn": "通风;  通风设备",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7379,10 +11108,54 @@ const VocabData = {
           ]
         },
         {
-          "w": "mould",
-          "phon": "Imauldl",
+          "w": "condense",
+          "phon": "",
           "pos": "",
-          "cn": "模子",
+          "cn": "精简; (使气体) 凝结 简缩 ,",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "refine",
+          "phon": "IrI'fuln/",
+          "pos": "",
+          "cn": "精炼,提纯",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "simplify",
+          "phon": "/sllnplsfall",
+          "pos": "",
+          "cn": "精简",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "filter",
+          "phon": "",
+          "pos": "",
+          "cn": "过滤器 过滤; (光或声) 透过",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mode",
+          "phon": "",
+          "pos": "",
+          "cn": "模式;  方式",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7423,10 +11196,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "operate",
-          "phon": "/'oparertl",
+          "w": "facilitate",
+          "phon": "Ifa'silstertl",
           "pos": "",
-          "cn": "器太难了",
+          "cn": "使便利,促进",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7434,10 +11207,197 @@ const VocabData = {
           ]
         },
         {
-          "w": "facilitate",
-          "phon": "Ifa'silstertl",
+          "w": "transform",
+          "phon": "",
           "pos": "",
-          "cn": "使便利,促进",
+          "cn": "使改娈形态;  使改观",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "form",
+          "phon": "",
+          "pos": "",
+          "cn": "使改娈形态。 形状 )",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "alter ego",
+          "phon": "",
+          "pos": "",
+          "cn": "意为 源自拉丁语 alter; 知己。至交' 引申义为 就是世界上的另一个自我",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "turn",
+          "phon": "",
+          "pos": "",
+          "cn": "几 (依次轮到的)  机会",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "adjust",
+          "phon": "",
+          "pos": "",
+          "cn": "科技发明",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pinpoint",
+          "phon": "/pInpolntl",
+          "pos": "",
+          "cn": "精确指明::的位置 针尖;  极小的事物",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "accurate",
+          "phon": "Iakjgratl",
+          "pos": "adj.",
+          "cn": "准确的, 正确无误的",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "precise",
+          "phon": "Ipri'sarsl",
+          "pos": "adj.",
+          "cn": "精确的,准确的; 一丝不苟的",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "errot",
+          "phon": "",
+          "pos": "",
+          "cn": "错误,过失",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mistake",
+          "phon": "Img'steikl",
+          "pos": "",
+          "cn": "错误 误解",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fiaw",
+          "phon": "I3:/",
+          "pos": "",
+          "cn": "缺陷;  错误",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wrong",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "错误的",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fault",
+          "phon": "If3:Itl",
+          "pos": "n.",
+          "cn": "缺点;  故障",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "stumble",
+          "phon": "",
+          "pos": "",
+          "cn": "犯错误;  绊脚;  跌跌撞撞地走",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "contingency",
+          "phon": "Ikon'tind3onsil",
+          "pos": "",
+          "cn": "意外事件,可能发生的事",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "circumstance",
+          "phon": "/s3:kamnstansl",
+          "pos": "",
+          "cn": "情况;  环境;  条件; [~s] 境遇",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "bicycle",
+          "phon": "",
+          "pos": "",
+          "cn": "子>自行车 ) ,",
+          "chapter": 6,
+          "chapterName": "科技发明",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cyclone",
+          "phon": "",
+          "pos": "",
+          "cn": "旋风 ) , 回收利用 )。",
           "chapter": 6,
           "chapterName": "科技发明",
           "tags": [
@@ -7450,50 +11410,6 @@ const VocabData = {
       "id": 7,
       "name": "文化历史",
       "words": [
-        {
-          "w": "pinpoint",
-          "phon": "/pInpolntl",
-          "pos": "",
-          "cn": "精确指明::的位置",
-          "chapter": 7,
-          "chapterName": "文化历史",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "accurate",
-          "phon": "Iakjgratl",
-          "pos": "adj.",
-          "cn": "准确的,",
-          "chapter": 7,
-          "chapterName": "文化历史",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "precise",
-          "phon": "Ipri'sarsl",
-          "pos": "adj.",
-          "cn": "精确的,准确的; 一丝不苟的",
-          "chapter": 7,
-          "chapterName": "文化历史",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "mistake",
-          "phon": "Img'steikl",
-          "pos": "",
-          "cn": "错误",
-          "chapter": 7,
-          "chapterName": "文化历史",
-          "tags": [
-            "reading"
-          ]
-        },
         {
           "w": "culture",
           "phon": "/kAltfal",
@@ -7509,7 +11425,7 @@ const VocabData = {
           "w": "epic",
           "phon": "Iepikl",
           "pos": "adj.",
-          "cn": "宏大的",
+          "cn": "史诗 宏大的",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7520,7 +11436,7 @@ const VocabData = {
           "w": "ideology",
           "phon": "Ialdi'plad3il",
           "pos": "",
-          "cn": "意识形态",
+          "cn": "意识形态 思想体系",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7539,8 +11455,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "eplc",
-          "phon": "Ikan'venfanl",
+          "w": "convention",
+          "phon": "",
           "pos": "",
           "cn": "惯例;  大型会议",
           "chapter": 7,
@@ -7628,7 +11544,7 @@ const VocabData = {
         },
         {
           "w": "aboriginal",
-          "phon": "Iiabarid3anali",
+          "phon": "",
           "pos": "adj.",
           "cn": "本土原有的;  士著的",
           "chapter": 7,
@@ -7651,8 +11567,8 @@ const VocabData = {
         {
           "w": "native",
           "phon": "/nertrvi",
-          "pos": "",
-          "cn": "几。本地人",
+          "pos": "adj.",
+          "cn": "几。本地人 本士的",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7661,9 +11577,9 @@ const VocabData = {
         },
         {
           "w": "local",
-          "phon": "Ilaukali",
+          "phon": "",
           "pos": "adj.",
-          "cn": "当地的",
+          "cn": "当地的 当地人",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7683,7 +11599,7 @@ const VocabData = {
         },
         {
           "w": "foreigner",
-          "phon": "/forgnal",
+          "phon": "",
           "pos": "",
           "cn": "外国人",
           "chapter": 7,
@@ -7696,7 +11612,7 @@ const VocabData = {
           "w": "alien",
           "phon": "/ellianl",
           "pos": "adj.",
-          "cn": "外国的;  陌生的",
+          "cn": "外国的;  陌生的 外侨;  外星生物",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7718,7 +11634,7 @@ const VocabData = {
           "w": "humanitarian",
           "phon": "Ihju:man'tearianl",
           "pos": "adj.",
-          "cn": "人道主义的,博爱的",
+          "cn": "人道主义的,博爱的 人道主义者 几",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7737,32 +11653,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "inherit",
-          "phon": "IIn'hergtl",
-          "pos": "",
-          "cn": "财产等 );  经遗传获得",
-          "chapter": 7,
-          "chapterName": "文化历史",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "antique",
           "phon": "Ianti:k/",
-          "pos": "",
-          "cn": "古董",
-          "chapter": 7,
-          "chapterName": "文化历史",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "archaeology",
-          "phon": "",
-          "pos": "",
-          "cn": "考古学",
+          "pos": "adj.",
+          "cn": "古董 古董的",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7785,17 +11679,6 @@ const VocabData = {
           "phon": "/potarii",
           "pos": "",
           "cn": "陶器",
-          "chapter": 7,
-          "chapterName": "文化历史",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "engrave",
-          "phon": "Iingrervl",
-          "pos": "",
-          "cn": "名字 =",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7827,8 +11710,8 @@ const VocabData = {
         {
           "w": "etiquette",
           "phon": "",
-          "pos": "",
-          "cn": "礼节",
+          "pos": "n.",
+          "cn": "礼节 礼仪,",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7847,10 +11730,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "put",
+          "w": "ispirst",
           "phon": "",
-          "pos": "",
-          "cn": "入到某事中",
+          "pos": "n.",
+          "cn": "精神 心灵",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sacred",
+          "phon": "Mseikrsdl",
+          "pos": "adj.",
+          "cn": "神圣的;  宗教的",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7880,6 +11774,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "pope",
+          "phon": "Ipaupl",
+          "pos": "",
+          "cn": "教皇",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "bishop",
           "phon": "Ibilapl",
           "pos": "",
@@ -7895,6 +11800,116 @@ const VocabData = {
           "phon": "/mllanaril",
           "pos": "",
           "cn": "传教士",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "priest",
+          "phon": "Ipri:stl",
+          "pos": "",
+          "cn": "牧师;  神父;  教士",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "bible",
+          "phon": "/balbl/",
+          "pos": "",
+          "cn": "基督教的《圣经》",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "church",
+          "phon": "",
+          "pos": "",
+          "cn": "教堂",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cathedral",
+          "phon": "",
+          "pos": "",
+          "cn": "大教堂",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "choir",
+          "phon": "Ikwalal",
+          "pos": "",
+          "cn": "唱诗班",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "monk",
+          "phon": "ImAnkl",
+          "pos": "",
+          "cn": "僧侣",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "temple",
+          "phon": "/tempall",
+          "pos": "",
+          "cn": "寺院,庙宇",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "pagoda",
+          "phon": "Ipa'gaudal",
+          "pos": "",
+          "cn": "佛塔",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "empire",
+          "phon": "Iempalal",
+          "pos": "",
+          "cn": "帝国",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "imperial",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "帝国的",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7927,7 +11942,7 @@ const VocabData = {
           "w": "chronology",
           "phon": "Ikra'nplad3il",
           "pos": "",
-          "cn": "年表,",
+          "cn": "年表, 事件发生顺序表;  年代学",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7938,7 +11953,7 @@ const VocabData = {
           "w": "chronic",
           "phon": "",
           "pos": "",
-          "cn": "学;  年表) ,",
+          "cn": "学;  年表) , 长期的,慢性的 ) 希腊神话中宙斯",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -7971,7 +11986,95 @@ const VocabData = {
           "w": "kingdom",
           "phon": "",
           "pos": "",
-          "cn": "壬国",
+          "cn": "壬国 几:",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "queen",
+          "phon": "Iwi:nl",
+          "pos": "",
+          "cn": "王后;  女王 例二",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "prince",
+          "phon": "Iprinsl",
+          "pos": "n.",
+          "cn": "壬子;  亲王",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "princess",
+          "phon": "IprIn'sesl",
+          "pos": "n.",
+          "cn": "公主;  壬妃",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "majesty",
+          "phon": "",
+          "pos": "",
+          "cn": "威严 壮观;  陛下",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "nobility",
+          "phon": "Inao'bilgtil",
+          "pos": "",
+          "cn": "高尚的品质;  贵族 例",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "ird",
+          "phon": "/3:d/",
+          "pos": "",
+          "cn": "大人; [the L-] 上帝",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "knight",
+          "phon": "Inaltl",
+          "pos": "n.",
+          "cn": "骑士 封(某人)为爵士",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "guardian",
+          "phon": "/ga:dianl",
+          "pos": "adj.",
+          "cn": "保卫者;  监护人 守护的",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -8012,10 +12115,109 @@ const VocabData = {
           ]
         },
         {
+          "w": "status",
+          "phon": "/stertasl",
+          "pos": "n.",
+          "cn": "地位。身份",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "background",
           "phon": "Mbakgraundl",
           "pos": "",
           "cn": "背景; (个人出身。受教育 )经历",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "experience",
+          "phon": "Iik'spiariansl",
+          "pos": "n.",
+          "cn": "经验; (一次)经历, 体验",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "setback",
+          "phon": "",
+          "pos": "",
+          "cn": "次难忘的经历。",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "anecdote",
+          "phon": "Ianikdautl",
+          "pos": "",
+          "cn": "轶事,奇闻",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "an",
+          "phon": "",
+          "pos": "",
+          "cn": "字根 donldot 表示",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "accident",
+          "phon": "/akssdantl",
+          "pos": "",
+          "cn": "偶然的事 事故;  意外",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "incident",
+          "phon": "/nsadantl",
+          "pos": "",
+          "cn": "两国间的 )",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "prosperity",
+          "phon": "Ipro'sperstil",
+          "pos": "",
+          "cn": "繁荣 兴旺",
+          "chapter": 7,
+          "chapterName": "文化历史",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "adversity",
+          "phon": "",
+          "pos": "",
+          "cn": "逆境",
           "chapter": 7,
           "chapterName": "文化历史",
           "tags": [
@@ -8028,6 +12230,17 @@ const VocabData = {
       "id": 8,
       "name": "语言演化",
       "words": [
+        {
+          "w": "william yeats",
+          "phon": "",
+          "pos": "",
+          "cn": "叶芝",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
         {
           "w": "language",
           "phon": "MIaqgwid3l",
@@ -8055,6 +12268,17 @@ const VocabData = {
           "phon": "Isalnl",
           "pos": "",
           "cn": "符号;  征兆,迹象;  手势",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gesture",
+          "phon": "/d3estfal",
+          "pos": "",
+          "cn": "手势,姿势",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8117,6 +12341,83 @@ const VocabData = {
           ]
         },
         {
+          "w": "semantic",
+          "phon": "Isrmentik/",
+          "pos": "",
+          "cn": "语义的",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "syntax",
+          "phon": "/sIntaksl",
+          "pos": "",
+          "cn": "句法",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "grammar",
+          "phon": "Igramal",
+          "pos": "",
+          "cn": "语法;  语法书",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "phonetics",
+          "phon": "Ifalnetiksl",
+          "pos": "",
+          "cn": "语音学",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "intonation",
+          "phon": "",
+          "pos": "",
+          "cn": "语调",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "inflection",
+          "phon": "",
+          "pos": "",
+          "cn": "语调的抑扬变化",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dialect",
+          "phon": "/dalalektl",
+          "pos": "",
+          "cn": "方言,地方话",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "accent",
           "phon": "I:eksantl",
           "pos": "",
@@ -8161,10 +12462,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "verbal",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "口头的;  言语的 例",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "syllable",
           "phon": "Isllaball",
           "pos": "",
-          "cn": "音节",
+          "cn": "几 音节",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8176,6 +12488,94 @@ const VocabData = {
           "phon": "/fauni:m",
           "pos": "",
           "cn": "音位",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vowei",
+          "phon": "/vaU3ll",
+          "pos": "",
+          "cn": "元音",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "consonant",
+          "phon": "/kDnsanantl",
+          "pos": "",
+          "cn": "辅音",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "alphabet",
+          "phon": "/alfabetl",
+          "pos": "",
+          "cn": "字母表, (一种语言的)全部字母",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "logogram",
+          "phon": "Ilogagraml",
+          "pos": "",
+          "cn": "词符,缩记符",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vocabulary",
+          "phon": "Ivakabjslaril",
+          "pos": "",
+          "cn": "词汇",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dictionary",
+          "phon": "/dikfanaril",
+          "pos": "",
+          "cn": "词典。字典,辞典",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "idiom",
+          "phon": "/idiaml",
+          "pos": "",
+          "cn": "习语",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "is an idiom",
+          "phon": "",
+          "pos": "",
+          "cn": "活到老 学到老\"  是个习语。",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8197,7 +12597,7 @@ const VocabData = {
           "w": "clause",
           "phon": "/kI3:z/",
           "pos": "",
-          "cn": "分句",
+          "cn": "分句 从句;  条款",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8219,7 +12619,7 @@ const VocabData = {
           "w": "root",
           "phon": "Iru:tl",
           "pos": "",
-          "cn": "字根;  根源",
+          "cn": "字根;  根源 几。词根",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8230,7 +12630,18 @@ const VocabData = {
           "w": "prefix",
           "phon": "/pri:fiksl",
           "pos": "",
-          "cn": "前缀;  前置代号",
+          "cn": "前缀;  前置代号 词首,",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "suffix",
+          "phon": "/sAfiksl",
+          "pos": "",
+          "cn": "后缀,词尾;  尾标",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8260,6 +12671,105 @@ const VocabData = {
           ]
         },
         {
+          "w": "antonym",
+          "phon": "",
+          "pos": "",
+          "cn": "反义词",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "houn",
+          "phon": "InaUn/",
+          "pos": "",
+          "cn": "名词",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "singular",
+          "phon": "Msmgjglal",
+          "pos": "adj.",
+          "cn": "单数 单数的;  非凡的",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "plural",
+          "phon": "Ipluarall",
+          "pos": "adj.",
+          "cn": "复数 复数的;  多元的",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pronoun",
+          "phon": "",
+          "pos": "",
+          "cn": "代词",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "verb",
+          "phon": "1v3:b/",
+          "pos": "",
+          "cn": "动词",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "adjective",
+          "phon": "",
+          "pos": "",
+          "cn": "形容词",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "adverb",
+          "phon": "IRdv3:bl",
+          "pos": "",
+          "cn": "副词",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "preposition",
+          "phon": "Iprepa'zilonl",
+          "pos": "",
+          "cn": "介词",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "conjunction",
           "phon": "",
           "pos": "",
@@ -8274,7 +12784,7 @@ const VocabData = {
           "w": "consistent",
           "phon": "Ikan'sIstantl",
           "pos": "adj.",
-          "cn": "一致的;",
+          "cn": "一致的; 观点或看法) 连贯的",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8305,7 +12815,7 @@ const VocabData = {
         },
         {
           "w": "compile",
-          "phon": "Ikaln'pall'",
+          "phon": "",
           "pos": "",
           "cn": "编纂",
           "chapter": 8,
@@ -8315,10 +12825,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "well",
+          "w": "version",
           "phon": "",
           "pos": "",
-          "cn": "无论一首诗被翻译得多好,",
+          "cn": "译本;  版本",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8337,10 +12847,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "beoplel",
-          "phon": "/parafrerzi",
+          "w": "interpret",
+          "phon": "Iin't3:Prstl",
           "pos": "",
-          "cn": "改述",
+          "cn": "口译;  解释,说明;  领会。理解",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8348,10 +12858,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "interpret",
-          "phon": "Iin't3:Prstl",
+          "w": "eloquence",
+          "phon": "/elakwansl",
           "pos": "",
-          "cn": "口译;  解释,说明;  领会。理解",
+          "cn": "雄辩;  流利的口才",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "discussion",
+          "phon": "IdiskAfanl",
+          "pos": "",
+          "cn": "几。.讨论,谈论",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "percussion",
+          "phon": "",
+          "pos": "",
+          "cn": "摇| 轻敲 )",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "brainstorm",
+          "phon": "I'breInst:ml",
+          "pos": "",
+          "cn": "集体自由讨论, 头脑风暴",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "commentary",
+          "phon": "/kDmantaril",
+          "pos": "",
+          "cn": "评论 评注;  批评;  实况报道",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "negotiate",
+          "phon": "Inr'gavfiertl",
+          "pos": "",
+          "cn": "协商,谈判",
+          "chapter": 8,
+          "chapterName": "语言演化",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "contention",
+          "phon": "Ikan'tenjanl",
+          "pos": "",
+          "cn": "争论,争辩;  观点",
           "chapter": 8,
           "chapterName": "语言演化",
           "tags": [
@@ -8365,98 +12941,10 @@ const VocabData = {
       "name": "娱乐运动",
       "words": [
         {
-          "w": "communicate",
-          "phon": "Ika'mju:nskertl",
-          "pos": "",
-          "cn": "通过电子邮件来交流。",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "discussion",
-          "phon": "IdiskAfanl",
-          "pos": "",
-          "cn": "几。.讨论,谈论",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "percussion",
-          "phon": "",
-          "pos": "",
-          "cn": "摇|",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "brainstorm",
-          "phon": "I'breInst:ml",
-          "pos": "",
-          "cn": "集体自由讨论,",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "debate",
-          "phon": "Idrbertl",
-          "pos": "",
-          "cn": "讨论",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "commentary",
-          "phon": "/kDmantaril",
-          "pos": "",
-          "cn": "评论",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "negotiate",
-          "phon": "Inr'gavfiertl",
-          "pos": "",
-          "cn": "协商,谈判",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "contention",
-          "phon": "Ikan'tenjanl",
-          "pos": "",
-          "cn": "争论,争辩;  观点",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "medium",
           "phon": "",
-          "pos": "",
-          "cn": "媒介",
+          "pos": "adj.",
+          "cn": "媒介 中间的 , 中等的",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8467,7 +12955,7 @@ const VocabData = {
           "w": "media",
           "phon": "",
           "pos": "",
-          "cn": "大众传播媒介,媒体 (如电视。广播等 )",
+          "cn": "大众传播媒介,媒体 (如电视。广播等 ) 几",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8497,21 +12985,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "criticism",
-          "phon": "",
-          "pos": "",
-          "cn": "批评",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "erion",
           "phon": "",
           "pos": "",
-          "cn": "字根 crit 指",
+          "cn": "字根 crit 指 判断 (to judge ) 如:",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8522,7 +12999,106 @@ const VocabData = {
           "w": "crit",
           "phon": "",
           "pos": "",
-          "cn": "判断 )",
+          "cn": "判断 ) 名词后缀)>判断的东西,判断的依据",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "commentator",
+          "phon": "/kDmanteltal",
+          "pos": "",
+          "cn": "评论员;  实况解说员",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ik'spaunant-",
+          "phon": "",
+          "pos": "",
+          "cn": "阐述者 倡导者 ,拥护者",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "announcer",
+          "phon": "",
+          "pos": "n.",
+          "cn": "广播员 播音员",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "correspondent",
+          "phon": "",
+          "pos": "",
+          "cn": "通信者;  通讯员 记者",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "messenger",
+          "phon": "",
+          "pos": "",
+          "cn": "邮递员,信使",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "editor",
+          "phon": "",
+          "pos": "",
+          "cn": "编辑,校订者; (电台或电视台的 )记者,编辑",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "typist",
+          "phon": "",
+          "pos": "n.",
+          "cn": "打字员",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "handout",
+          "phon": "",
+          "pos": "",
+          "cn": "传单;  讲义",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "leaflet",
+          "phon": "Mi:flstl",
+          "pos": "",
+          "cn": "传单",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8577,7 +13153,7 @@ const VocabData = {
           "w": "forearm",
           "phon": "",
           "pos": "",
-          "cn": "前",
+          "cn": "前 前缀 fore 表示 \"前面的\"' 如: foresee 预见1 爸 以前生 [bear] 的人 >祖先) , forefather 臂 /, forebear 爸之前的爸爸>祖先 )",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8596,17 +13172,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "expect",
-          "phon": "Iik'spektl",
-          "pos": "",
-          "cn": "好的销售增长。",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "await",
           "phon": "",
           "pos": "",
@@ -8618,10 +13183,76 @@ const VocabData = {
           ]
         },
         {
+          "w": "pastime",
+          "phon": "/pa:staIml",
+          "pos": "n.",
+          "cn": "娱乐 消遣 ,",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "recreation",
+          "phon": "/irekrierjan}",
+          "pos": "",
+          "cn": "休闲 娱乐",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "roller coaster",
+          "phon": "",
+          "pos": "",
+          "cn": "些都是现在小学英语课本收录的词语:",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gossip",
+          "phon": "",
+          "pos": "n.",
+          "cn": "闲聊;  流言蜚语",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "read",
+          "phon": "",
+          "pos": "",
+          "cn": "卦栏目曾看过有关这件事的报道",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "consensus",
+          "phon": "Ikan'sensasl",
+          "pos": "",
+          "cn": "共识, 一致的意见",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "festival",
           "phon": "",
           "pos": "",
-          "cn": "节曰;",
+          "cn": "节曰; 音乐。电影等的 )节",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8633,17 +13264,6 @@ const VocabData = {
           "phon": "/f:stl",
           "pos": "",
           "cn": "盛宴;(宗教)节日",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "programme",
-          "phon": "/praugraml",
-          "pos": "",
-          "cn": "节目;  方案; (演出或活动的)程序",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8673,32 +13293,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "imitate",
-          "phon": "/imgtertl",
-          "pos": "",
-          "cn": "效仿",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "mimic",
-          "phon": "/mImlk/",
-          "pos": "",
-          "cn": "口音",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "circus",
           "phon": "/'83:Kas/",
           "pos": "",
-          "cn": "马戏团;  圆形广场",
+          "cn": "马戏团;  圆形广场 常用于地名 )",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8728,10 +13326,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "a concert to",
-          "phon": "",
+          "w": "concert",
+          "phon": "/kDnsatl",
           "pos": "",
-          "cn": "出席一场音乐会来为艾滋病慈善机构募捐",
+          "cn": "音乐会",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "melody",
+          "phon": "",
+          "pos": "n.",
+          "cn": "旋律",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8806,7 +13415,7 @@ const VocabData = {
         },
         {
           "w": "animation",
-          "phon": "Iang'mellanl",
+          "phon": "",
           "pos": "",
           "cn": "动画片;  动画制作",
           "chapter": 9,
@@ -8820,17 +13429,6 @@ const VocabData = {
           "phon": "/filml",
           "pos": "n.",
           "cn": "影片;  胶卷",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "good",
-          "phon": "",
-          "pos": "",
-          "cn": "有一部精彩的电影上映。",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8863,7 +13461,7 @@ const VocabData = {
           "w": "craftsman",
           "phon": "Ikra:ftsmanl",
           "pos": "n.",
-          "cn": "工匠;",
+          "cn": "工匠; 工艺师",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8893,6 +13491,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "scene",
+          "phon": "Isi:nl",
+          "pos": "n.",
+          "cn": "景色;  现场; 戏剧的 )场面",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "stage",
           "phon": "Isteld3l",
           "pos": "",
@@ -8907,7 +13516,7 @@ const VocabData = {
           "w": "gallery",
           "phon": "/galaril",
           "pos": "",
-          "cn": "美术馆",
+          "cn": "美术馆 几",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8939,8 +13548,8 @@ const VocabData = {
         {
           "w": "select",
           "phon": "Isallektl",
-          "pos": "",
-          "cn": "选择,挑选",
+          "pos": "adj.",
+          "cn": "选择,挑选 精选的",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8951,7 +13560,7 @@ const VocabData = {
           "w": "photograph",
           "phon": "/'fautagra:fl",
           "pos": "",
-          "cn": "几照片",
+          "cn": "几照片 相片",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8959,10 +13568,65 @@ const VocabData = {
           ]
         },
         {
-          "w": "carve",
-          "phon": "Ika:Vl",
+          "w": "photography",
+          "phon": "",
           "pos": "",
-          "cn": "是用大理石雕成的c",
+          "cn": "照相术 ) 影 ,",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "portrait",
+          "phon": "/p3:trstl",
+          "pos": "",
+          "cn": "肖像 半身画像",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "painting",
+          "phon": "/pelntdl",
+          "pos": "",
+          "cn": "油画 绘画;  作画;  涂漆",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sculpture",
+          "phon": "MskAlptfol",
+          "pos": "",
+          "cn": "雕塑",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sketch",
+          "phon": "Isketll",
+          "pos": "n.",
+          "cn": "素描,速写 草图 画速写",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "depict",
+          "phon": "Idr'piktl",
+          "pos": "",
+          "cn": "描述,描写;  描绘",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -8983,8 +13647,8 @@ const VocabData = {
         {
           "w": "classical",
           "phon": "/klasikall",
-          "pos": "",
-          "cn": "传统的",
+          "pos": "adj.",
+          "cn": "传统的 古典的",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9003,7 +13667,18 @@ const VocabData = {
           ]
         },
         {
-          "w": "hopl",
+          "w": "rock",
+          "phon": "Irbk/",
+          "pos": "",
+          "cn": "摇滚乐;  岩石",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "hip-hop",
           "phon": "",
           "pos": "",
           "cn": "嘻哈文化",
@@ -9014,10 +13689,76 @@ const VocabData = {
           ]
         },
         {
+          "w": "pop",
+          "phon": "",
+          "pos": "",
+          "cn": "流行音乐,流行乐曲",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dop",
+          "phon": "",
+          "pos": "",
+          "cn": "这些词义源自 发砰砰声;  爆裂;  突然出现 还可表示 拟声。",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "iyric",
+          "phon": "Mlrrik/",
+          "pos": "adj.",
+          "cn": "抒情的 抒情诗; [~s] 歌词",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "band",
+          "phon": "Ibendl",
+          "pos": "",
+          "cn": "乐队;  带;  波段",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "solo",
+          "phon": "/saUlaUl",
+          "pos": "adj.",
+          "cn": "独唱 独奏的,独唱的;  单独的 独奏 ,",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rhythm",
+          "phon": "/ridaml",
+          "pos": "",
+          "cn": "节奏,韵律",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "blues",
           "phon": "",
           "pos": "",
-          "cn": "即",
+          "cn": "即 节奏布鲁斯 '",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9039,7 +13780,7 @@ const VocabData = {
           "w": "tune",
           "phon": "Itju:nl",
           "pos": "",
-          "cn": "曲调;  短乐曲",
+          "cn": "曲调;  短乐曲 调试",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9080,8 +13821,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "guitar",
-          "phon": "Igr'",
+          "w": "igr'",
+          "phon": "",
           "pos": "",
           "cn": "吉他",
           "chapter": 9,
@@ -9105,7 +13846,84 @@ const VocabData = {
           "w": "trumpet",
           "phon": "/trAmPstl",
           "pos": "",
-          "cn": "喇叭,",
+          "cn": "喇叭, 小号",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "drum",
+          "phon": "",
+          "pos": "",
+          "cn": "鼓;  鼓状物;  大桶",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "flute",
+          "phon": "Itu:tl",
+          "pos": "n.",
+          "cn": "长笛",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "competition",
+          "phon": "",
+          "pos": "",
+          "cn": "竞争;  比赛",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "toumnament",
+          "phon": "/tuanamantl",
+          "pos": "",
+          "cn": "锦标赛,联赛",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "olympic",
+          "phon": "Ia'limpikl",
+          "pos": "adj.",
+          "cn": "奥林匹克运动会的",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sponsor",
+          "phon": "/sponsal",
+          "pos": "",
+          "cn": "发起人;  主办人;  赞助人",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "patron",
+          "phon": "/peitranl",
+          "pos": "",
+          "cn": "赞助人;  顾客,老主顾",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9124,10 +13942,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "champion",
-          "phon": "Itjampianl",
+          "w": "spectator",
+          "phon": "Ispek'tertal",
           "pos": "",
-          "cn": "冠军。第一名",
+          "cn": "观众",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9135,10 +13953,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "spectator",
-          "phon": "Ispek'tertal",
+          "w": "volunteer",
+          "phon": "Ivolan'tral",
           "pos": "",
-          "cn": "观众",
+          "cn": "志愿者 自愿做",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "famous",
+          "phon": "/felmasl",
+          "pos": "adj.",
+          "cn": "著名的。出名的",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wellknown",
+          "phon": "",
+          "pos": "",
+          "cn": "出名的",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "energetic",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "充满活力的, 精力充沛的",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vigorous",
+          "phon": "/'vigarasl",
+          "pos": "adj.",
+          "cn": "充满活力的;  活跃的,积极的",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "stadium",
+          "phon": "/steldialnl",
+          "pos": "",
+          "cn": "体育场 ,运动场",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gym",
+          "phon": "",
+          "pos": "",
+          "cn": "体育活动; (=gymnasium ) 健身房 ,体育馆",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9157,10 +14041,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "exercise",
-          "phon": "/eksasaIzl",
-          "pos": "",
-          "cn": "锻炼,运动;  习题。练习",
+          "w": "indoor",
+          "phon": "/ind3:/",
+          "pos": "adj.",
+          "cn": "室内的",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9168,10 +14052,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "indoor",
-          "phon": "/ind3:/",
-          "pos": "adj.",
-          "cn": "室内的",
+          "w": "good",
+          "phon": "",
+          "pos": "",
+          "cn": "内游戏",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9234,7 +14118,117 @@ const VocabData = {
           ]
         },
         {
-          "w": "i'tengsl",
+          "w": "sprawl",
+          "phon": "Ispr3:ll",
+          "pos": "",
+          "cn": "几 伸开四肢坐着 (或躺着);  延伸,蔓延",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "exercise",
+          "phon": "",
+          "pos": "",
+          "cn": "雅思词汇奠经",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "stretch",
+          "phon": "Istretll",
+          "pos": "",
+          "cn": "伸展;  伸长 (胳膊。腿 )",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "strain",
+          "phon": "IstreInl",
+          "pos": "",
+          "cn": "张力,拉力; (精神上的)紧张",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "chess",
+          "phon": "Itfesl",
+          "pos": "",
+          "cn": "国际象棋",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "badminton",
+          "phon": "/badmIntan/",
+          "pos": "",
+          "cn": "羽毛球",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "shuttlecock",
+          "phon": "",
+          "pos": "",
+          "cn": "该词还指踢毽的 毽子",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "golf",
+          "phon": "Igolfl",
+          "pos": "",
+          "cn": "高尔夫球",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "billiards",
+          "phon": "/brljadzl",
+          "pos": "",
+          "cn": "几。台球",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "snooker",
+          "phon": "",
+          "pos": "",
+          "cn": "等台球运动。 可泛指 pool _",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tennis",
           "phon": "",
           "pos": "",
           "cn": "网球",
@@ -9300,32 +14294,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "pitch",
-          "phon": "/rkgtl",
+          "w": "racket",
+          "phon": "",
           "pos": "",
           "cn": "网球。羽毛球等的 ) 球拍",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "kick",
-          "phon": "IkIk/",
-          "pos": "",
-          "cn": "路上。",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "knock",
-          "phon": "Inok/",
-          "pos": "",
-          "cn": "击;  撞",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9358,7 +14330,7 @@ const VocabData = {
           "w": "slip",
           "phon": "Islipl",
           "pos": "",
-          "cn": "滑倒",
+          "cn": "滑倒 几",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9369,29 +14341,7 @@ const VocabData = {
           "w": "glide",
           "phon": "Igladl",
           "pos": "",
-          "cn": "滑行",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "tumble",
-          "phon": "/tAmball",
-          "pos": "",
-          "cn": "滚下",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "ski",
-          "phon": "Iski:l",
-          "pos": "",
-          "cn": "滑雪板",
+          "cn": "滑行 滑动,掠过",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9432,17 +14382,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "jump",
-          "phon": "Id3Ampl",
-          "pos": "",
-          "cn": "消息时",
-          "chapter": 9,
-          "chapterName": "娱乐运动",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "leap",
           "phon": "Ili:pl",
           "pos": "",
@@ -9454,8 +14393,63 @@ const VocabData = {
           ]
         },
         {
+          "w": "plunge",
+          "phon": "",
+          "pos": "",
+          "cn": "纵身投入;  猛跌;(使〉投身 跳水;  猛跌",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "hop",
+          "phon": "Ihopl",
+          "pos": "",
+          "cn": "跳上 (或下);  单脚跳行;  齐足跳行",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tent",
+          "phon": "Itentl",
+          "pos": "",
+          "cn": "帐篷",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "camp",
+          "phon": "Ikampl",
+          "pos": "",
+          "cn": "营地;  阵营",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "picnic",
+          "phon": "/piknkl",
+          "pos": "",
+          "cn": "野餐;  野餐食物",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "hunt",
-          "phon": "Ihant:",
+          "phon": "",
           "pos": "n.",
           "cn": "打猎;  搜寻",
           "chapter": 9,
@@ -9468,7 +14462,7 @@ const VocabData = {
           "w": "race",
           "phon": "IreIsl",
           "pos": "",
-          "cn": "种族",
+          "cn": "种族 赛跑 _ 速度竞赛;  人种,",
           "chapter": 9,
           "chapterName": "娱乐运动",
           "tags": [
@@ -9477,7 +14471,7 @@ const VocabData = {
         },
         {
           "w": "marathon",
-          "phon": "",
+          "phon": "'maragan/",
           "pos": "",
           "cn": "马拉松赛跑;  马拉松式的活动",
           "chapter": 9,
@@ -9499,7 +14493,7 @@ const VocabData = {
         },
         {
           "w": "pace",
-          "phon": "IeIs'",
+          "phon": "",
           "pos": "",
           "cn": "步速。速度;  步调,节奏",
           "chapter": 9,
@@ -9529,6 +14523,61 @@ const VocabData = {
           "tags": [
             "writing"
           ]
+        },
+        {
+          "w": "cruise",
+          "phon": "Ikru:zl",
+          "pos": "",
+          "cn": "乘船游览;  以平稳的速度行驶",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "jog",
+          "phon": "Id3ogl",
+          "pos": "",
+          "cn": "慢跑",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "stride",
+          "phon": "Istraidl",
+          "pos": "",
+          "cn": "大步走。阔步行走",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wander",
+          "phon": "/wondal",
+          "pos": "",
+          "cn": "漫步;  走神,开小差",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "climb",
+          "phon": "",
+          "pos": "",
+          "cn": "娱乐运动",
+          "chapter": 9,
+          "chapterName": "娱乐运动",
+          "tags": [
+            "writing"
+          ]
         }
       ]
     },
@@ -9537,10 +14586,10 @@ const VocabData = {
       "name": "物品材料",
       "words": [
         {
-          "w": "bend",
-          "phon": "Ibendl",
+          "w": "stuff",
+          "phon": "IstAfl",
           "pos": "",
-          "cn": "身向我走来。",
+          "cn": "几 东西;  原料",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9581,21 +14630,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "artefact",
-          "phon": "/a:tsfaktl",
-          "pos": "",
-          "cn": "人造物品;  手工艺品",
-          "chapter": 10,
-          "chapterName": "物品材料",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "material",
           "phon": "Imatrariall",
           "pos": "adj.",
-          "cn": "物质的",
+          "cn": "物质的 材料 原料; 人才",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9605,8 +14643,8 @@ const VocabData = {
         {
           "w": "raw",
           "phon": "Ir3:/",
-          "pos": "",
-          "cn": "感情 ) 原始的",
+          "pos": "adj.",
+          "cn": "感情 ) 原始的 天然的,未经加工的;",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9614,10 +14652,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "souvenlr",
-          "phon": "",
-          "pos": "",
-          "cn": "主要的原棉产国是中国和印度。",
+          "w": "crude",
+          "phon": "Ikru:dl",
+          "pos": "adj.",
+          "cn": "原油 天然的,未经加工的;  粗糙的",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9639,7 +14677,7 @@ const VocabData = {
           "w": "outfit",
           "phon": "/autfitl",
           "pos": "",
-          "cn": "全套服装;  全套装备",
+          "cn": "全套服装;  全套装备 配备, 装备",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9658,32 +14696,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "garbage",
-          "phon": "/ga:bid3l",
-          "pos": "",
-          "cn": "他们向水中扔垃圾",
-          "chapter": 10,
-          "chapterName": "物品材料",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "trash",
-          "phon": "Itral/",
-          "pos": "",
-          "cn": "垃圾会对环境造成很大危害",
-          "chapter": 10,
-          "chapterName": "物品材料",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "recycle",
           "phon": "Iri:'salkall",
           "pos": "",
-          "cn": "使再循环",
+          "cn": "使再循环 回收利用;  反复应用",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9705,7 +14721,139 @@ const VocabData = {
           "w": "litter",
           "phon": "Ilital",
           "pos": "",
-          "cn": "乱丢东西",
+          "cn": "乱丢东西 垃圾, 废弃物",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "waste",
+          "phon": "/werstl",
+          "pos": "",
+          "cn": "几。废物;  浪费",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "junk",
+          "phon": "",
+          "pos": "",
+          "cn": "无用的东西,废物",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "landfill",
+          "phon": "Mlandfill",
+          "pos": "",
+          "cn": "垃圾填埋地;  垃圾填埋",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sewerage",
+          "phon": "/sju:arid3l",
+          "pos": "",
+          "cn": "排水系统,污水处理系统; (= sewage ) 污水",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "detergent",
+          "phon": "Idr't3:d3antl",
+          "pos": "",
+          "cn": "洗涤剂",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lotion",
+          "phon": "Ilaufanl",
+          "pos": "",
+          "cn": "洁肤乳;  润肤乳",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "shampoo",
+          "phon": "Ifam'pu:l",
+          "pos": "",
+          "cn": "洗发剂 用洗发剂洗(头发)",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "soap",
+          "phon": "IsaUpl",
+          "pos": "",
+          "cn": "用肥皂擦洗 肥皂",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tub",
+          "phon": "ItAb/",
+          "pos": "",
+          "cn": "盆; [美]浴缸,浴盆 几。桶.",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "in",
+          "phon": "",
+          "pos": "",
+          "cn": "中 使他舒服一些。",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "plug",
+          "phon": "Iplagl",
+          "pos": "",
+          "cn": "塞子;  插头",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lap",
+          "phon": "Itapl",
+          "pos": "",
+          "cn": "旋塞, 龙头",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9727,7 +14875,7 @@ const VocabData = {
           "w": "tube",
           "phon": "Itju:bl",
           "pos": "",
-          "cn": "管;",
+          "cn": "管; 电视机的) 显像管; [英](伦敦)地铁",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9747,9 +14895,141 @@ const VocabData = {
         },
         {
           "w": "broom",
-          "phon": "Ibru:m",
+          "phon": "",
           "pos": "",
-          "cn": "扫帚",
+          "cn": "扫帚 用扫帚扫",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sweep",
+          "phon": "Iswi:pl",
+          "pos": "",
+          "cn": "打扫; (迅猛地) 吹走;  掠过",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "swebp",
+          "phon": "",
+          "pos": "",
+          "cn": "刃/",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mattress",
+          "phon": "",
+          "pos": "n.",
+          "cn": "床垫",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "straw",
+          "phon": "",
+          "pos": "",
+          "cn": "床垫里填充着羽毛。棉花或稻草。",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "carpet",
+          "phon": "/ka:pstl",
+          "pos": "",
+          "cn": "地毯,毡毯,毛毯",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rug",
+          "phon": "IrAgl",
+          "pos": "",
+          "cn": "小地毯; 盖肩或腿的 )小毯子",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mat",
+          "phon": "Iatl",
+          "pos": "",
+          "cn": "地垫,地席",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cushion",
+          "phon": "",
+          "pos": "",
+          "cn": "软垫",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pad",
+          "phon": "Ipedl",
+          "pos": "",
+          "cn": "衬垫,垫;  便笺本",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "blanket",
+          "phon": "/blenkstl",
+          "pos": "",
+          "cn": "毛毯,毯子",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "quilt",
+          "phon": "Ikwrltl",
+          "pos": "n.",
+          "cn": "被子",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sheet",
+          "phon": "Ii:tl",
+          "pos": "",
+          "cn": "被单。床单; -张 (纸);薄板",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9782,18 +15062,7 @@ const VocabData = {
           "w": "towel",
           "phon": "/tauali",
           "pos": "",
-          "cn": "毛巾",
-          "chapter": 10,
-          "chapterName": "物品材料",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "dry",
-          "phon": "",
-          "pos": "",
-          "cn": "擦干了双手和面部。",
+          "cn": "毛巾 手巾 我用毛巾",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9826,7 +15095,7 @@ const VocabData = {
           "w": "razor",
           "phon": "/rerzal",
           "pos": "",
-          "cn": "剃刀",
+          "cn": "剃刀 用剃刀)剃",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9837,18 +15106,7 @@ const VocabData = {
           "w": "shave",
           "phon": "IJervl",
           "pos": "",
-          "cn": "剃须",
-          "chapter": 10,
-          "chapterName": "物品材料",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "fuse",
-          "phon": "Ifju:zl",
-          "pos": "",
-          "cn": "保险丝;  导火线",
+          "cn": "剃须 刮脸",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9867,10 +15125,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "cord",
+          "phon": "",
+          "pos": "",
+          "cn": "细绳,粗线",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "strikel",
           "phon": "",
           "pos": "",
-          "cn": "同源词是 chord ([乐器的」弦; 和音;  心弦) .",
+          "cn": "同源词是 chord ([乐器的」弦; 和音;  心弦) . 引起某 拨动某人心弦'",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9889,10 +15158,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "match",
-          "phon": "Imetl/",
+          "w": "candle",
+          "phon": "Ikandll",
           "pos": "",
-          "cn": "火柴;  比赛;  匹配的人或物",
+          "cn": "蜡烛",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9900,10 +15169,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "candle",
-          "phon": "Ikandll",
-          "pos": "",
-          "cn": "蜡烛",
+          "w": "wax",
+          "phon": "Iwaksl",
+          "pos": "n.",
+          "cn": "蜡;  蜂蜡",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9925,7 +15194,7 @@ const VocabData = {
           "w": "opportunity",
           "phon": "",
           "pos": "",
-          "cn": "就可能获得补给.",
+          "cn": "就可能获得补给. 开展贸易 大发一笔〉机会 )",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9955,10 +15224,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "duplicate",
-          "phon": "/dju:plskstl n. 副本,复制品",
+          "w": "cover",
+          "phon": "IkAVal",
           "pos": "",
-          "cn": "不要重复你已经做过的事",
+          "cn": "封面;  盖子;  套子",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "xeroxe",
+          "phon": "/zarDksl",
+          "pos": "",
+          "cn": "施乐复印件",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9969,7 +15249,95 @@ const VocabData = {
           "w": "memorandum",
           "phon": "",
           "pos": "",
-          "cn": "备忘录;  建议书; (= memo )",
+          "cn": "备忘录;  建议书; (= memo ) 公司或组织内部的 ) 公务便条",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "duplicgte",
+          "phon": "",
+          "pos": "",
+          "cn": "雅思词汇`经",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "stationery",
+          "phon": "Mstelfanaril",
+          "pos": "",
+          "cn": "文具;  信纸",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "glue",
+          "phon": "Iglu:l",
+          "pos": "",
+          "cn": "胶, 胶水",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ikl",
+          "phon": "",
+          "pos": "",
+          "cn": "墨水,油墨",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rubber",
+          "phon": "IrAbal",
+          "pos": "",
+          "cn": "橡胶; [英]橡皮擦",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "scisssors",
+          "phon": "/'SIZaZ/",
+          "pos": "",
+          "cn": "剪刀, 剪子",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "edge",
+          "phon": "",
+          "pos": "",
+          "cn": "边缘 , 边; 刀0",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rim",
+          "phon": "Iriml",
+          "pos": "",
+          "cn": "圆形物的 外缘,边缘",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9980,7 +15348,7 @@ const VocabData = {
           "w": "factor",
           "phon": "Ifaktal",
           "pos": "",
-          "cn": "因素",
+          "cn": "因素 要素",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -9991,7 +15359,7 @@ const VocabData = {
           "w": "section",
           "phon": "Isekfanl",
           "pos": "",
-          "cn": "部分;  章,",
+          "cn": "部分;  章, 节",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10002,7 +15370,7 @@ const VocabData = {
           "w": "insect",
           "phon": "",
           "pos": "",
-          "cn": "躯体分割成",
+          "cn": "躯体分割成 字根 sect 指 切割 (to cut) 如:",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10033,9 +15401,9 @@ const VocabData = {
         },
         {
           "w": "label",
-          "phon": "Mleibali",
+          "phon": "",
           "pos": "",
-          "cn": "标签",
+          "cn": "标签 标贴",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10076,17 +15444,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "went",
-          "phon": "",
-          "pos": "",
-          "cn": "然后走了进去。",
-          "chapter": 10,
-          "chapterName": "物品材料",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "handle",
           "phon": "/handll",
           "pos": "",
@@ -10098,10 +15455,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "company shuttered",
+          "w": "shutter",
           "phon": "",
           "pos": "",
-          "cn": "前停止了其香港投资银行的业务。",
+          "cn": "百叶窗;(相机〉快门",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10134,7 +15491,7 @@ const VocabData = {
           "w": "jar",
           "phon": "Id3a:l",
           "pos": "",
-          "cn": "罐",
+          "cn": "罐 广口瓶;  猛烈震动",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10153,10 +15510,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "pail",
-          "phon": "Iperll",
+          "w": "bucket",
+          "phon": "",
           "pos": "",
-          "cn": "通常是金属或木制的 )  桶,提桶",
+          "cn": "物品材料",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10222,7 +15579,7 @@ const VocabData = {
           "w": "lantern",
           "phon": "Ilantanl",
           "pos": "",
-          "cn": "提灯 ,",
+          "cn": "提灯 , 灯笼",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10241,10 +15598,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "flashlight",
-          "phon": "/fa[lartl",
+          "w": "refrigerator",
+          "phon": "",
           "pos": "",
-          "cn": "例 ]",
+          "cn": "冰箱",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10252,10 +15609,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "pedal",
-          "phon": "/pedll",
+          "w": "fridge",
+          "phon": "IfrId3/",
           "pos": "",
-          "cn": "踏板",
+          "cn": "冰箱",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vacuum",
+          "phon": "Ivekjuaml",
+          "pos": "adj.",
+          "cn": "真空;  真空吸尘器 真空的",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fan",
+          "phon": "",
+          "pos": "",
+          "cn": "扇子;  风扇;  狂热爱好者",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "switch",
+          "phon": "Iswitfl",
+          "pos": "",
+          "cn": "开关;  转换",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "hurdle",
+          "phon": "",
+          "pos": "",
+          "cn": "栏架;  跨栏赛跑",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fence",
+          "phon": "Ifensl",
+          "pos": "",
+          "cn": "栅栏;  围栏",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "shelf",
+          "phon": "Ifelfl",
+          "pos": "",
+          "cn": "架子, 搁板",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10266,7 +15689,7 @@ const VocabData = {
           "w": "ladder",
           "phon": "Iledal",
           "pos": "",
-          "cn": "梯子; (进步",
+          "cn": "梯子; (进步 晋升等的 ) 阶梯 勤奋常常",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10274,10 +15697,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "a best",
-          "phon": "",
+          "w": "stool",
+          "phon": "Istu:ll",
           "pos": "",
-          "cn": "到了一个最好的朋友。",
+          "cn": "甓子",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10289,6 +15712,116 @@ const VocabData = {
           "phon": "Idr3:/",
           "pos": "",
           "cn": "抽屉",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "umbrella",
+          "phon": "Ini'brelal",
+          "pos": "",
+          "cn": "伞 雨伞",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "raincoat",
+          "phon": "",
+          "pos": "",
+          "cn": "雨衣",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dredge",
+          "phon": "Idred3l",
+          "pos": "",
+          "cn": "挖泥船。挖掘机",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gan",
+          "phon": "Ikanl",
+          "pos": "",
+          "cn": "罐头。听",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mill",
+          "phon": "ImIll",
+          "pos": "",
+          "cn": "碾碎;  无目的地乱转 磨粉机;  磨坊",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "forge",
+          "phon": "If3:d3/",
+          "pos": "",
+          "cn": "锻铁炉 锻造;  伪造",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "alloy",
+          "phon": "",
+          "pos": "",
+          "cn": "合金; (金属的) 成色",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "metal",
+          "phon": "/etll",
+          "pos": "",
+          "cn": "金属",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lead",
+          "phon": "Iledl",
+          "pos": "",
+          "cn": "铅",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "brass",
+          "phon": "Ibra:sl",
+          "pos": "",
+          "cn": "黄铜;  黄铜制品",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10373,10 +15906,76 @@ const VocabData = {
           ]
         },
         {
+          "w": "cielt",
+          "phon": "",
+          "pos": "",
+          "cn": "雅思词汇奠经?",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fabric",
+          "phon": "/fabrikl",
+          "pos": "",
+          "cn": "织物 , 布料",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "canvas",
+          "phon": "/kanVasl",
+          "pos": "",
+          "cn": "帆布;  油画布",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "linen",
+          "phon": "Mlingnl",
+          "pos": "",
+          "cn": "亚麻布;  亚麻织品",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cotton",
+          "phon": "/kotnl",
+          "pos": "",
+          "cn": "棉;  棉线;  棉布",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "nylon",
+          "phon": "/nallonl",
+          "pos": "",
+          "cn": "尼龙",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "lumber",
           "phon": "IlAmbal",
           "pos": "n.",
-          "cn": "木材",
+          "cn": "木材 木料",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10398,7 +15997,7 @@ const VocabData = {
           "w": "mine",
           "phon": "Imalnl",
           "pos": "n.",
-          "cn": "矿",
+          "cn": "矿 矿井;  地雷",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10428,10 +16027,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "lubricate",
-          "phon": "Ilu:brkertl",
+          "w": "diamond",
+          "phon": "/daramand/",
           "pos": "",
-          "cn": "我们发现给机器加润滑油是必要的",
+          "cn": "金刚石,钻石;  菱形",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10439,10 +16038,87 @@ const VocabData = {
           ]
         },
         {
-          "w": "diamond",
-          "phon": "/daramand/",
+          "w": "crystal",
+          "phon": "IkrIstll",
           "pos": "",
-          "cn": "金刚石,钻石;  菱形",
+          "cn": "水晶;  结晶。晶体",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "inferior",
+          "phon": "",
+          "pos": "n.",
+          "cn": "级别(或地位)低的人;  次品",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "counterfeit",
+          "phon": "/kauntafitl",
+          "pos": "adj.",
+          "cn": "假冒的 伪造",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fake",
+          "phon": "Ifelkl",
+          "pos": "adj.",
+          "cn": "假冒的 冒充者;  假货",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fragile",
+          "phon": "/'fred3alll",
+          "pos": "adj.",
+          "cn": "易碎的;  脆弱的",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "miniature",
+          "phon": "/mIngtlal",
+          "pos": "adj.",
+          "cn": "微型的,很小的 缩微模型;  微型画",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "available",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "可获得的",
+          "chapter": 10,
+          "chapterName": "物品材料",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "durable",
+          "phon": "/djuaraball",
+          "pos": "adj.",
+          "cn": "耐用的。持久的",
           "chapter": 10,
           "chapterName": "物品材料",
           "tags": [
@@ -10459,7 +16135,7 @@ const VocabData = {
           "w": "fashion",
           "phon": "Ifafanl",
           "pos": "",
-          "cn": "时尚",
+          "cn": "时尚 制作。制成",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10481,7 +16157,7 @@ const VocabData = {
           "w": "trend",
           "phon": "Itrendl",
           "pos": "",
-          "cn": "倾向",
+          "cn": "倾向 趋势",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10501,9 +16177,9 @@ const VocabData = {
         },
         {
           "w": "current",
-          "phon": "IkArant",
+          "phon": "",
           "pos": "adj.",
-          "cn": "当前的",
+          "cn": "当前的 潮流,趋势",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10512,7 +16188,7 @@ const VocabData = {
         },
         {
           "w": "popularity",
-          "phon": "Ipopj'largtil",
+          "phon": "",
           "pos": "",
           "cn": "流行",
           "chapter": 11,
@@ -10522,10 +16198,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "prevail",
-          "phon": "Iprrlverll",
+          "w": "vogue",
+          "phon": "Ivaugl",
           "pos": "",
-          "cn": "普遍存在",
+          "cn": "流行",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "model",
+          "phon": "",
+          "pos": "",
+          "cn": "模型;  模范;  模特儿",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10547,7 +16234,18 @@ const VocabData = {
           "w": "idol",
           "phon": "/aldll",
           "pos": "",
-          "cn": "偶像。",
+          "cn": "偶像。 受到崇拜的人或物;  神像",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "luxury",
+          "phon": "MlAkjaril",
+          "pos": "",
+          "cn": "奢侈;  奢侈品",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10566,21 +16264,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "jewellery",
-          "phon": "/d3u:alril",
+          "w": "jewel",
+          "phon": "/d3u:all",
           "pos": "",
-          "cn": "首饰",
-          "chapter": 11,
-          "chapterName": "时尚潮流",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "gem",
-          "phon": "",
-          "pos": "",
-          "cn": "是这些藏品中的珍品。",
+          "cn": "宝石 那颗宝石闪",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10602,18 +16289,7 @@ const VocabData = {
           "w": "jade",
           "phon": "Id3eidl",
           "pos": "",
-          "cn": "玉石",
-          "chapter": 11,
-          "chapterName": "时尚潮流",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "adorn",
-          "phon": "",
-          "pos": "",
-          "cn": "珠宝来装扮自己",
+          "cn": "玉石 翡翠",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10632,21 +16308,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "embroider",
-          "phon": "IIm'bridal",
-          "pos": "",
-          "cn": "绣着玫瑰花。",
-          "chapter": 11,
-          "chapterName": "时尚潮流",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "hairdressing",
           "phon": "/heaidresml",
           "pos": "",
-          "cn": "美发",
+          "cn": "美发 理发",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10676,10 +16341,98 @@ const VocabData = {
           ]
         },
         {
+          "w": "so unnatural",
+          "phon": "",
+          "pos": "",
+          "cn": "我的室友把头发染成了红色, 看起来很不 自然。",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "masquerade",
+          "phon": "Iimeska'rerdl",
+          "pos": "",
+          "cn": "化装舞会 化装;  假扮",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "veil",
+          "phon": "Iverll",
+          "pos": "",
+          "cn": "面纱;  遮蔽物",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "costume",
+          "phon": "/kostjuml",
+          "pos": "",
+          "cn": "某历史时期或某地的)服装 戏服;",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fascinate",
+          "phon": "/fassnert",
+          "pos": "",
+          "cn": "迷住",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "decent",
+          "phon": "/di:santl",
+          "pos": "adj.",
+          "cn": "得体的;  尚好的",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "exquisite",
+          "phon": "Iik'skwIzstl",
+          "pos": "adj.",
+          "cn": "精致的;  雅致的",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "acquisition",
+          "phon": "",
+          "pos": "",
+          "cn": "获得 ) ,",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "grace",
           "phon": "Igrersl",
           "pos": "",
-          "cn": "优美",
+          "cn": "优美 优雅",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10690,7 +16443,7 @@ const VocabData = {
           "w": "elegance",
           "phon": "/elsgansl",
           "pos": "",
-          "cn": "他文风典雅,受人钦佩。",
+          "cn": "文雅,典雅",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10699,7 +16452,7 @@ const VocabData = {
         },
         {
           "w": "perfect",
-          "phon": "Ip3:fikti",
+          "phon": "",
           "pos": "adj.",
           "cn": "完美的",
           "chapter": 11,
@@ -10753,8 +16506,19 @@ const VocabData = {
           ]
         },
         {
+          "w": "charming",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "迷人的",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "pretty",
-          "phon": "Ipritii",
+          "phon": "",
           "pos": "adj.",
           "cn": "漂亮的",
           "chapter": 11,
@@ -10764,8 +16528,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "beautiful",
-          "phon": "/'bju:tgfali",
+          "w": "adj",
+          "phon": "",
           "pos": "",
           "cn": "美丽的",
           "chapter": 11,
@@ -10779,17 +16543,6 @@ const VocabData = {
           "phon": "",
           "pos": "adj.",
           "cn": "丑陋的",
-          "chapter": 11,
-          "chapterName": "时尚潮流",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "buy",
-          "phon": "",
-          "pos": "",
-          "cn": "你无法说服我买这个丑陋的花瓶!",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10822,18 +16575,7 @@ const VocabData = {
           "w": "uniform",
           "phon": "Nju:nsfo:ml",
           "pos": "adj.",
-          "cn": "一致的",
-          "chapter": 11,
-          "chapterName": "时尚潮流",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "garment",
-          "phon": "",
-          "pos": "",
-          "cn": "衣服应该小心清洗。",
+          "cn": "一致的 制服",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10842,9 +16584,9 @@ const VocabData = {
         },
         {
           "w": "laundry",
-          "phon": "Ml:ndri",
+          "phon": "",
           "pos": "n.",
-          "cn": "洗衣店;  要(或正在)洗的衣物 ,",
+          "cn": "洗衣店;  要(或正在)洗的衣物 , 刚洗好的衣物",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10856,6 +16598,28 @@ const VocabData = {
           "phon": "/w3:draobl",
           "pos": "",
           "cn": "衣柜; (某人的)全部服装",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "a white overall",
+          "phon": "",
+          "pos": "",
+          "cn": "那店员穿着白色的罩衣。",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "overcoat",
+          "phon": "Iauvakautl",
+          "pos": "n.",
+          "cn": "大衣",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10875,7 +16639,7 @@ const VocabData = {
         },
         {
           "w": "gown",
-          "phon": "Igavw",
+          "phon": "",
           "pos": "",
           "cn": "长外衣;  女礼服",
           "chapter": 11,
@@ -10885,10 +16649,153 @@ const VocabData = {
           ]
         },
         {
+          "w": "sweater",
+          "phon": "Iswetal",
+          "pos": "",
+          "cn": "毛衣,  线衣",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "jacket",
-          "phon": "Id3ekst",
+          "phon": "",
           "pos": "",
           "cn": "夹克衫",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "skirt",
+          "phon": "Isk3:tl",
+          "pos": "",
+          "cn": "裙子",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "jeans",
+          "phon": "",
+          "pos": "n.",
+          "cn": "牛仔裤",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "clasp",
+          "phon": "Ila:snl",
+          "pos": "",
+          "cn": "搭扣",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "button",
+          "phon": "",
+          "pos": "",
+          "cn": "扣上的纽扣 纽扣;  按钮",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "glove",
+          "phon": "IglAvl",
+          "pos": "",
+          "cn": "手套",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "hat",
+          "phon": "Ihetl",
+          "pos": "",
+          "cn": "常指带檐的)帽子",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "brim",
+          "phon": "",
+          "pos": "",
+          "cn": "边缘;  帽檐",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "scarf",
+          "phon": "",
+          "pos": "",
+          "cn": "围巾 头巾",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "handkerchief",
+          "phon": "/hankatlsfi",
+          "pos": "",
+          "cn": "手帕",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "scaff",
+          "phon": "",
+          "pos": "",
+          "cn": "时尚潮流",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wallet",
+          "phon": "/wDlatl",
+          "pos": "",
+          "cn": "钱包。皮夹子",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wrap",
+          "phon": "Irapl",
+          "pos": "n.",
+          "cn": "披肩",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10918,10 +16825,98 @@ const VocabData = {
           ]
         },
         {
+          "w": "sleeve",
+          "phon": "Isli:vl",
+          "pos": "",
+          "cn": "袖子",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sock",
+          "phon": "",
+          "pos": "",
+          "cn": "短袜",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "boot",
+          "phon": "Ibu:tl",
+          "pos": "",
+          "cn": "靴子",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lace",
+          "phon": "IleIsl",
+          "pos": "",
+          "cn": "鞋带;  花边",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tailor",
+          "phon": "/terlal",
+          "pos": "",
+          "cn": "裁缝",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sew",
+          "phon": "IsaUl",
+          "pos": "",
+          "cn": "缝补 缝制 ,",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "spin",
+          "phon": "Ispinl",
+          "pos": "",
+          "cn": "高速旋转;(乘车) 兜风 纺;(使〉旋转",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "needle",
+          "phon": "Ini:dll",
+          "pos": "",
+          "cn": "针",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "pin",
           "phon": "Ipinl",
           "pos": "",
-          "cn": "别针,大头针",
+          "cn": "别针,大头针 别住,钉住",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10951,10 +16946,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "mo",
-          "phon": "Istrapl",
+          "w": "strap",
+          "phon": "",
           "pos": "",
-          "cn": "带子",
+          "cn": "带子 用带子系 (或捆。扎 )",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -10966,6 +16961,17 @@ const VocabData = {
           "phon": "Istralpl",
           "pos": "",
           "cn": "条纹",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ribbon",
+          "phon": "/riban",
+          "pos": "",
+          "cn": "缎带, 丝带",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11006,8 +17012,19 @@ const VocabData = {
           ]
         },
         {
-          "w": "textile",
-          "phon": "Ibi:dl",
+          "w": "inek-issl",
+          "phon": "",
+          "pos": "",
+          "cn": "项链",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "bead",
+          "phon": "",
           "pos": "",
           "cn": "珠子; (液体的)小滴",
           "chapter": 11,
@@ -11017,10 +17034,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "a job of",
-          "phon": "",
+          "w": "textile",
+          "phon": "/tekstarll",
+          "pos": "adj.",
+          "cn": "纺织的 纺织品",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "velvet",
+          "phon": "/velvgtl",
           "pos": "",
-          "cn": "他找到一份剪羊毛的工作。",
+          "cn": "丝绒,天鹅绒",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11031,7 +17059,7 @@ const VocabData = {
           "w": "patch",
           "phon": "Ipatfl",
           "pos": "",
-          "cn": "补丁;",
+          "cn": "补丁; 与周围不同的)小片",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11061,21 +17089,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "colour",
-          "phon": "IkAlal",
-          "pos": "",
-          "cn": "颜色;  颜料",
-          "chapter": 11,
-          "chapterName": "时尚潮流",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "white",
           "phon": "/waItl",
           "pos": "adj.",
-          "cn": "白的",
+          "cn": "白的 白色",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11085,8 +17102,8 @@ const VocabData = {
         {
           "w": "yellow",
           "phon": "Njelaul",
-          "pos": "",
-          "cn": "黄色",
+          "pos": "adj.",
+          "cn": "黄色 黄的 叶",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11096,19 +17113,8 @@ const VocabData = {
         {
           "w": "brown",
           "phon": "",
-          "pos": "",
-          "cn": "褐色",
-          "chapter": 11,
-          "chapterName": "时尚潮流",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "grey",
-          "phon": "Igrerl",
-          "pos": "",
-          "cn": "灰色",
+          "pos": "adj.",
+          "cn": "褐色 褐色的",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11119,7 +17125,7 @@ const VocabData = {
           "w": "pink",
           "phon": "Ipkl",
           "pos": "adj.",
-          "cn": "粉红色的",
+          "cn": "粉红色的 粉红色",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11130,7 +17136,7 @@ const VocabData = {
           "w": "purple",
           "phon": "Mp3:pall",
           "pos": "n.",
-          "cn": "紫色",
+          "cn": "紫色 紫的",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11139,9 +17145,9 @@ const VocabData = {
         },
         {
           "w": "tan",
-          "phon": "Iten",
+          "phon": "",
           "pos": "adj.",
-          "cn": "棕黄色的",
+          "cn": "棕黄色的 棕黄色;  晒成的棕褐色",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11150,7 +17156,7 @@ const VocabData = {
         },
         {
           "w": "fade",
-          "phon": "Iferdi",
+          "phon": "",
           "pos": "",
           "cn": "逐渐消失;(使〉褪色",
           "chapter": 11,
@@ -11173,8 +17179,19 @@ const VocabData = {
         {
           "w": "figure",
           "phon": "/figa",
+          "pos": "n.",
+          "cn": "认为 身材;  身影;  重要人物;  数字",
+          "chapter": 11,
+          "chapterName": "时尚潮流",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "a hot figure",
+          "phon": "",
           "pos": "",
-          "cn": "认为",
+          "cn": "火的身材) ;a round figure ( 浑圆的体型 [注意, round",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11183,7 +17200,7 @@ const VocabData = {
         },
         {
           "w": "slender",
-          "phon": "/slendal",
+          "phon": "",
           "pos": "adj.",
           "cn": "苗条的;  微弱的",
           "chapter": 11,
@@ -11207,7 +17224,7 @@ const VocabData = {
           "w": "army",
           "phon": "",
           "pos": "",
-          "cn": "例",
+          "cn": "例 遭受了轻微的损失。",
           "chapter": 11,
           "chapterName": "时尚潮流",
           "tags": [
@@ -11243,32 +17260,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "appetite",
-          "phon": "Iepstattl",
-          "pos": "",
-          "cn": "食欲;  强烈欲望",
-          "chapter": 12,
-          "chapterName": "饮食健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "treat",
           "phon": "Itri:tl",
           "pos": "n.",
           "cn": "款待",
-          "chapter": 12,
-          "chapterName": "饮食健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "cater",
-          "phon": "/kertal",
-          "pos": "",
-          "cn": "本饭店也承办婚礼和聚会的酒宴",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11287,10 +17282,32 @@ const VocabData = {
           ]
         },
         {
-          "w": "recipe",
-          "phon": "/edsball",
+          "w": "edible",
+          "phon": "",
           "pos": "adj.",
           "cn": "可以吃的",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "recipe",
+          "phon": "/resspil",
+          "pos": "",
+          "cn": "食谱;  秘诀",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "must use two eggs",
+          "phon": "",
+          "pos": "",
+          "cn": "这个食谱上说,我必须用两个鸡蛋。",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11342,8 +17359,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "eneny-",
-          "phon": "/buferl",
+          "w": "buffet",
+          "phon": "",
           "pos": "",
           "cn": "自助餐",
           "chapter": 12,
@@ -11357,6 +17374,17 @@ const VocabData = {
           "phon": "/ba;bikju:l",
           "pos": "",
           "cn": "烧烤野餐;  烤架",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "supper",
+          "phon": "ISAPal",
+          "pos": "",
+          "cn": "晚餐",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11386,17 +17414,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "refreshment",
-          "phon": "Irr'frefmantl",
-          "pos": "",
-          "cn": "点心",
-          "chapter": 12,
-          "chapterName": "饮食健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "snack",
           "phon": "Isnakl",
           "pos": "",
@@ -11419,6 +17436,83 @@ const VocabData = {
           ]
         },
         {
+          "w": "cuisine",
+          "phon": "/kwrzi:nl",
+          "pos": "",
+          "cn": "菜肴;  烹饪",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "meny",
+          "phon": "",
+          "pos": "n.",
+          "cn": "菜单",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "order",
+          "phon": "/:dal",
+          "pos": "",
+          "cn": "几订单;  点的餐",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "takeaway",
+          "phon": "/telkawerl",
+          "pos": "",
+          "cn": "外卖食物",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "chef",
+          "phon": "IJefl",
+          "pos": "",
+          "cn": "厨师",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gourmet",
+          "phon": "/guamell",
+          "pos": "adj.",
+          "cn": "几 美食家 美味佳肴的",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vegetarian",
+          "phon": "Ived3o'tearionl",
+          "pos": "adj.",
+          "cn": "素食的;  无肉的 素食者",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "cutlery",
           "phon": "Iktlaril",
           "pos": "",
@@ -11430,10 +17524,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "silver",
+          "phon": "ISIlval",
+          "pos": "adj.",
+          "cn": "银;  银器 银的;  银色的",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "ceramic",
           "phon": "Isgrsemnik/",
           "pos": "adj.",
-          "cn": "陶瓷的",
+          "cn": "陶瓷的 几陶瓷制品",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11463,6 +17568,127 @@ const VocabData = {
           ]
         },
         {
+          "w": "saucer",
+          "phon": "",
+          "pos": "",
+          "cn": "茶托,茶碟",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tray",
+          "phon": "Itrell",
+          "pos": "",
+          "cn": "盘,托盘",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fork",
+          "phon": "",
+          "pos": "",
+          "cn": "餐叉;  分岔处",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "knife",
+          "phon": "",
+          "pos": "",
+          "cn": "刀",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "spoon",
+          "phon": "",
+          "pos": "",
+          "cn": "匙,调羹",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "glass",
+          "phon": "",
+          "pos": "",
+          "cn": "玻璃;  玻璃杯",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mug",
+          "phon": "",
+          "pos": "",
+          "cn": "几。大杯 马克杯",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "kettle",
+          "phon": "",
+          "pos": "",
+          "cn": "水壶; [美]锅",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pan",
+          "phon": "",
+          "pos": "",
+          "cn": "平底锅; [美]烤盔",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pot",
+          "phon": "",
+          "pos": "",
+          "cn": "锅;  壶",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "stove",
+          "phon": "IstaUv/",
+          "pos": "",
+          "cn": "炉子",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "furnace",
           "phon": "If3:ngs/",
           "pos": "",
@@ -11477,7 +17703,7 @@ const VocabData = {
           "w": "oven",
           "phon": "/AVanl",
           "pos": "n.",
-          "cn": "烤炉",
+          "cn": "烤炉 烤箱",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11510,18 +17736,7 @@ const VocabData = {
           "w": "drink",
           "phon": "Idrmkl",
           "pos": "",
-          "cn": "饮料",
-          "chapter": 12,
-          "chapterName": "饮食健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "beverage",
-          "phon": "/'bevarld3/",
-          "pos": "",
-          "cn": "为我们提供饮料。",
+          "cn": "饮料 喝酒",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11532,7 +17747,95 @@ const VocabData = {
           "w": "juice",
           "phon": "Id3u:s/",
           "pos": "",
-          "cn": "果汁,菜汁",
+          "cn": "果汁,菜汁 她正在",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "soda",
+          "phon": "",
+          "pos": "",
+          "cn": "无水碳酸钠;  苏打水; [美]汽水",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "coffee",
+          "phon": "/kDfl",
+          "pos": "",
+          "cn": "咖啡",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "put",
+          "phon": "",
+          "pos": "",
+          "cn": "加了些糖c",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "alcohol",
+          "phon": "/alkaholl",
+          "pos": "",
+          "cn": "酒精。乙醇;  酒",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "liquor",
+          "phon": "Ilikal",
+          "pos": "",
+          "cn": "烈性酒",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "brandy",
+          "phon": "Ibrandil",
+          "pos": "",
+          "cn": "白兰地酒",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "brand-new",
+          "phon": "",
+          "pos": "",
+          "cn": "某种东西烙上烙印,",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "drunk",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "醉的",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11563,7 +17866,7 @@ const VocabData = {
         },
         {
           "w": "sober",
-          "phon": "",
+          "phon": "1s3Ub3/",
           "pos": "adj.",
           "cn": "清醒的;  头脑清醒的",
           "chapter": 12,
@@ -11587,7 +17890,7 @@ const VocabData = {
           "w": "tomato",
           "phon": "Italma:taUl",
           "pos": "",
-          "cn": "番茄",
+          "cn": "几 番茄",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11599,6 +17902,72 @@ const VocabData = {
           "phon": "Ipa'tertaul",
           "pos": "",
           "cn": "马铃薯",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pea",
+          "phon": "Ipi:l",
+          "pos": "",
+          "cn": "豌豆",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "bean",
+          "phon": "Ibi:nl",
+          "pos": "",
+          "cn": "几豆",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cucumber",
+          "phon": "/kju:kAmbal",
+          "pos": "",
+          "cn": "黄瓜",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cabbage",
+          "phon": "/kabid3/",
+          "pos": "",
+          "cn": "洋白菜,卷心菜 甘蓝",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "onion",
+          "phon": "/njanl",
+          "pos": "",
+          "cn": "洋葱",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mushroom",
+          "phon": "MmAJru:ml",
+          "pos": "n.",
+          "cn": "蘑菇",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11673,9 +18042,251 @@ const VocabData = {
         },
         {
           "w": "strip",
-          "phon": "IstrIn",
+          "phon": "",
           "pos": "",
-          "cn": "除去",
+          "cn": "除去 条。带",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "core",
+          "phon": "",
+          "pos": "",
+          "cn": "果核",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cherry",
+          "phon": "Mtleril",
+          "pos": "",
+          "cn": "樱桃;  樱桃树",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "berry",
+          "phon": "Meril",
+          "pos": "",
+          "cn": "浆果",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "blueberry",
+          "phon": "",
+          "pos": "",
+          "cn": "蓝莓 几",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "grape",
+          "phon": "",
+          "pos": "",
+          "cn": "葡萄",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "peach",
+          "phon": "Ipi:tll",
+          "pos": "",
+          "cn": "桃子",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pear",
+          "phon": "",
+          "pos": "",
+          "cn": "梨",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "plum",
+          "phon": "Illl",
+          "pos": "",
+          "cn": "李子;  梅子",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "orange",
+          "phon": "/Drsnd3/",
+          "pos": "",
+          "cn": "橙子",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "melon",
+          "phon": "",
+          "pos": "",
+          "cn": "瓜,甜瓜",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lemon",
+          "phon": "Ilemanl",
+          "pos": "",
+          "cn": "柠檬",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "kiwi",
+          "phon": "",
+          "pos": "",
+          "cn": "猕猴桃 奇异果",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "crop",
+          "phon": "Ikropl",
+          "pos": "",
+          "cn": "庄稼;  收成,产量",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "grain",
+          "phon": "IgreInl",
+          "pos": "",
+          "cn": "谷物;  颗粒",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wheat",
+          "phon": "/wi:tl",
+          "pos": "",
+          "cn": "小麦",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "reap",
+          "phon": "Iripl",
+          "pos": "",
+          "cn": "收割;  收获",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "flour",
+          "phon": "IaUal",
+          "pos": "",
+          "cn": "面粉;  粉状物质",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "porridge",
+          "phon": "/porid3l",
+          "pos": "",
+          "cn": "麦片粥",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "paste",
+          "phon": "Iperstl",
+          "pos": "",
+          "cn": "糨糊;  面团",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "livestock",
+          "phon": "/lalvstDk/",
+          "pos": "",
+          "cn": "家畜",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "chicken",
+          "phon": "Mtfiksnl",
+          "pos": "",
+          "cn": "鸡",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "turkey",
+          "phon": "/t3:kil",
+          "pos": "",
+          "cn": "火鸡",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11716,6 +18327,28 @@ const VocabData = {
           ]
         },
         {
+          "w": "sausage",
+          "phon": "/sDsrd3/",
+          "pos": "",
+          "cn": "香肠",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ififi",
+          "phon": "",
+          "pos": "",
+          "cn": "鱼",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "pond",
           "phon": "Iondl",
           "pos": "",
@@ -11730,7 +18363,18 @@ const VocabData = {
           "w": "rod",
           "phon": "Irodl",
           "pos": "",
-          "cn": "竿",
+          "cn": "杆 , 竿",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cheese",
+          "phon": "",
+          "pos": "",
+          "cn": "我新买了一根钓鱼竿。 日",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11763,7 +18407,7 @@ const VocabData = {
           "w": "milk",
           "phon": "Imilkl",
           "pos": "",
-          "cn": "奶",
+          "cn": "奶 挤奶",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11771,10 +18415,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "cheese",
-          "phon": "Itfi:zl",
+          "w": "cream",
+          "phon": "/kri:ml",
           "pos": "",
-          "cn": "奶酪",
+          "cn": "奶油",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11785,7 +18429,7 @@ const VocabData = {
           "w": "butter",
           "phon": "/Atal",
           "pos": "",
-          "cn": "黄油",
+          "cn": "黄油 涂黄油",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11851,7 +18495,62 @@ const VocabData = {
           "w": "loaf",
           "phon": "Ilaufl",
           "pos": "",
-          "cn": "一条 (面包 )",
+          "cn": "几 一条 (面包 )",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pie",
+          "phon": "Iparl",
+          "pos": "",
+          "cn": "馅饼。派",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pizza",
+          "phon": "/pi:tsal",
+          "pos": "",
+          "cn": "比萨饼",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pasta",
+          "phon": "/pastal",
+          "pos": "",
+          "cn": "意大利面食",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "spaghetti",
+          "phon": "Ispa'getil",
+          "pos": "",
+          "cn": "意大利细面条",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "jam",
+          "phon": "Id3am/",
+          "pos": "",
+          "cn": "果酱",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11862,7 +18561,7 @@ const VocabData = {
           "w": "nut",
           "phon": "",
           "pos": "",
-          "cn": "坚果;  螺母",
+          "cn": "坚果;  螺母 几",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11892,10 +18591,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "ice candy",
-          "phon": "",
-          "pos": "",
-          "cn": "冰棒 /奶昔 /",
+          "w": "vanilla",
+          "phon": "/valnllal",
+          "pos": "adj.",
+          "cn": "香草 香草味的",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11904,9 +18603,9 @@ const VocabData = {
         },
         {
           "w": "mustard",
-          "phon": "",
+          "phon": "1mAstadl",
           "pos": "",
-          "cn": "芥末;  芥菜",
+          "cn": "芥末;  芥菜 几",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11936,10 +18635,87 @@ const VocabData = {
           ]
         },
         {
-          "w": "flavour",
-          "phon": "/Herval",
+          "w": "garlic",
+          "phon": "",
           "pos": "",
-          "cn": "味道;  口味;  特色。风格",
+          "cn": "蒜",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "scallion",
+          "phon": "",
+          "pos": "",
+          "cn": "大葱",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vinegar",
+          "phon": "",
+          "pos": "",
+          "cn": "醋",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "salt",
+          "phon": "Is3:ltl",
+          "pos": "",
+          "cn": "盐",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sugar",
+          "phon": "",
+          "pos": "",
+          "cn": "糖",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "candy",
+          "phon": "",
+          "pos": "",
+          "cn": "糖果",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "honey",
+          "phon": "/hAni",
+          "pos": "",
+          "cn": "蜂蜜",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sweet",
+          "phon": "Iswi:tl",
+          "pos": "adj.",
+          "cn": "甜的;  愉快的",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -11951,6 +18727,17 @@ const VocabData = {
           "phon": "/bital",
           "pos": "adj.",
           "cn": "苦的;  痛苦的;  严寒的",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "spicy",
+          "phon": "/spalsil",
+          "pos": "adj.",
+          "cn": "辣的",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -12002,6 +18789,72 @@ const VocabData = {
           ]
         },
         {
+          "w": "thirsty",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "渴的;  渴望的",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sauce",
+          "phon": "",
+          "pos": "",
+          "cn": "酱汁",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ketchup",
+          "phon": "/ketlopl",
+          "pos": "",
+          "cn": "番茄酱",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "perfume",
+          "phon": "/p3:fju:ml",
+          "pos": "",
+          "cn": "芳香;  香水 香味",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ingredient",
+          "phon": "",
+          "pos": "",
+          "cn": "成分;(烹调的)原料;  因素",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "digest",
+          "phon": "Idard3estl",
+          "pos": "",
+          "cn": "领悟",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "cook",
           "phon": "IkUk/",
           "pos": "n.",
@@ -12027,18 +18880,7 @@ const VocabData = {
           "w": "fry",
           "phon": "/frall",
           "pos": "",
-          "cn": "油煎",
-          "chapter": 12,
-          "chapterName": "饮食健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "roast",
-          "phon": "IraUstl",
-          "pos": "",
-          "cn": "烤肉",
+          "cn": "油煎 平底锅里正在煎",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -12048,8 +18890,74 @@ const VocabData = {
         {
           "w": "toast",
           "phon": "ItaUst/",
+          "pos": "n.",
+          "cn": "向'祝酒 为.干杯;  烤 烤面包片",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "suck",
+          "phon": "ISAK/",
           "pos": "",
-          "cn": "向'祝酒",
+          "cn": "吮吸",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "chew",
+          "phon": "Itlu:l",
+          "pos": "",
+          "cn": "咀嚼",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gum",
+          "phon": "IgAml",
+          "pos": "",
+          "cn": "口香糖;  树胶",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "grind",
+          "phon": "Igrandl",
+          "pos": "",
+          "cn": "碾碎 枯燥乏味的事",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "grnd",
+          "phon": "",
+          "pos": "",
+          "cn": "饮食健康",
+          "chapter": 12,
+          "chapterName": "饮食健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "slice",
+          "phon": "IslaIsl",
+          "pos": "",
+          "cn": "将切成薄片;  切,",
           "chapter": 12,
           "chapterName": "饮食健康",
           "tags": [
@@ -12063,10 +18971,21 @@ const VocabData = {
       "name": "建筑场所",
       "words": [
         {
-          "w": "slice",
-          "phon": "IslaIsl",
+          "w": "hugo",
+          "phon": "",
           "pos": "",
-          "cn": "将切成薄片;  切,",
+          "cn": "建造",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "construct v",
+          "phon": "",
+          "pos": "",
+          "cn": "建筑场所",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12143,7 +19062,216 @@ const VocabData = {
           "w": "establish",
           "phon": "Ii'steblifl",
           "pos": "",
-          "cn": "建立",
+          "cn": "建立 设立",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "found",
+          "phon": "",
+          "pos": "",
+          "cn": "创建,创办",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "concrete",
+          "phon": "/kpkri:tl",
+          "pos": "adj.",
+          "cn": "混凝士 具体的;  混凝土制的 例 _",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "steel",
+          "phon": "Isti:ll",
+          "pos": "",
+          "cn": "钢铁",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "stability",
+          "phon": "Ista'bilgtil",
+          "pos": "",
+          "cn": "稳定(性)",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "site",
+          "phon": "Isartl",
+          "pos": "",
+          "cn": "地点",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "venue",
+          "phon": "/'venju:!",
+          "pos": "",
+          "cn": "发生地点, 举行场所",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "landmark",
+          "phon": "/lendma:kl",
+          "pos": "",
+          "cn": "地标;  里程碑",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "situated",
+          "phon": "/sitfuertsdl",
+          "pos": "adj.",
+          "cn": "位于`的",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "migrate",
+          "phon": "Imargreitl",
+          "pos": "",
+          "cn": "迁徙;  移居",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "settle",
+          "phon": "Isetll",
+          "pos": "",
+          "cn": "使定居",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "dwelling",
+          "phon": "Idwelsl",
+          "pos": "",
+          "cn": "住所",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "skyscraper",
+          "phon": "/skaliskrerpal",
+          "pos": "",
+          "cn": "摩天大楼",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "villa",
+          "phon": "/vllal",
+          "pos": "",
+          "cn": "乡间别墅; [英]度假别墅",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "want to",
+          "phon": "",
+          "pos": "",
+          "cn": "买幢别墅",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "mansion",
+          "phon": "",
+          "pos": "n.",
+          "cn": "宅第 ,公馆",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "flat",
+          "phon": "Iatl",
+          "pos": "",
+          "cn": "公寓",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "hostel",
+          "phon": "/'hostll",
+          "pos": "n.",
+          "cn": "廉价招待所",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "hut",
+          "phon": "IhAtl",
+          "pos": "",
+          "cn": "小屋 , 棚屋",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cabin",
+          "phon": "Mkabgn/",
+          "pos": "",
+          "cn": "小木屋; 船上的)小舱",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12162,6 +19290,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "shed",
+          "phon": "Ifedl",
+          "pos": "",
+          "cn": "简易房,棚",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "cottage",
           "phon": "Ikotld3l",
           "pos": "",
@@ -12173,10 +19312,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "a summer cottage",
-          "phon": "/n3:Saril",
+          "w": "nursery",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "托儿所 托儿所的",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cradle",
+          "phon": "",
           "pos": "",
-          "cn": "托儿所",
+          "cn": "摇篮;  发源地",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12187,7 +19337,95 @@ const VocabData = {
           "w": "shelter",
           "phon": "/feltal",
           "pos": "",
-          "cn": "庇护处;  掩蔽",
+          "cn": "庇护处;  掩蔽 庇护;  遮蔽",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "block",
+          "phon": "Iblokl",
+          "pos": "",
+          "cn": "街区;  障碍; -块",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "grid",
+          "phon": "Igridl",
+          "pos": "",
+          "cn": "栅栏;  网格;  输电网",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "aisle",
+          "phon": "",
+          "pos": "",
+          "cn": "走廊, 过道",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "porch",
+          "phon": "Ip:tf/",
+          "pos": "",
+          "cn": "门廊",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "corridor",
+          "phon": "/kDrgdo:",
+          "pos": "",
+          "cn": "走廊。通道",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "stair",
+          "phon": "Isteal",
+          "pos": "",
+          "cn": "楼梯",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "staircase",
+          "phon": "/steakersl",
+          "pos": "",
+          "cn": "建筑内的)楼梯",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "layer",
+          "phon": "Ieral",
+          "pos": "",
+          "cn": "层",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12198,7 +19436,7 @@ const VocabData = {
           "w": "escalator",
           "phon": "/eskalertal",
           "pos": "",
-          "cn": "自动扶梯",
+          "cn": "自动扶梯 滚梯",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12218,9 +19456,9 @@ const VocabData = {
         },
         {
           "w": "pillar",
-          "phon": "/pllal",
+          "phon": "",
           "pos": "",
-          "cn": "柱子;  中坚。栋梁",
+          "cn": "柱子;  中坚。栋梁 强盗把他捆在柱子上。",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12239,10 +19477,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "rbentfl",
-          "phon": "",
-          "pos": "",
-          "cn": "长凳; [the ~]法官职位",
+          "w": "vault",
+          "phon": "IV3:Itl",
+          "pos": "n.",
+          "cn": "拱顶;  金库,保险库",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12250,10 +19488,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "parlour",
-          "phon": "/pa:lal",
+          "w": "arch",
+          "phon": "",
           "pos": "",
-          "cn": "装饰得很精美",
+          "cn": "拱门",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "ceiling",
+          "phon": "Isi:lml",
+          "pos": "",
+          "cn": "天花板, 顶棚",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "eaves",
+          "phon": "",
+          "pos": "",
+          "cn": "几屋檐",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "chimney",
+          "phon": "Mtlimnil",
+          "pos": "n.",
+          "cn": "烟囱",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "reception",
+          "phon": "Irisepfonl",
+          "pos": "",
+          "cn": "接待处",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "iobby",
+          "phon": "/lobil",
+          "pos": "",
+          "cn": "大厅, 前厅;  游说",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "bench",
+          "phon": "",
+          "pos": "",
+          "cn": "长凳; [the ~]法官职位",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12283,10 +19587,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "living",
-          "phon": "/lrvi ru:ml",
+          "w": "room",
+          "phon": "",
           "pos": "",
-          "cn": "客厅",
+          "cn": "客厅 起居室",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12308,7 +19612,84 @@ const VocabData = {
           "w": "balcony",
           "phon": "Ibelkanil",
           "pos": "",
-          "cn": "剧院的)楼座",
+          "cn": "剧院的)楼座 阳台;",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "terrace",
+          "phon": "/tergsl",
+          "pos": "",
+          "cn": "大阳台,露天平台",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "kitchen",
+          "phon": "/kitfanl",
+          "pos": "",
+          "cn": "厨房 灶间",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "lavatory",
+          "phon": "Ilavataril",
+          "pos": "",
+          "cn": "盥洗室,厕所",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "toilet",
+          "phon": "/tollstl",
+          "pos": "",
+          "cn": "抽水马桶; [英]厕所",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "bath",
+          "phon": "/ba:O/",
+          "pos": "",
+          "cn": "洗澡; [英]浴缸",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "basin",
+          "phon": "IbeIsanl",
+          "pos": "",
+          "cn": "盆;  盆地",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "reserve",
+          "phon": "Irr'z3:vl",
+          "pos": "",
+          "cn": "储备 (量);  自然保护区",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12319,18 +19700,7 @@ const VocabData = {
           "w": "store",
           "phon": "Ist3:/",
           "pos": "",
-          "cn": "贮存",
-          "chapter": 13,
-          "chapterName": "建筑场所",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "mall",
-          "phon": "Im3:l/",
-          "pos": "",
-          "cn": "当地",
+          "cn": "贮存 商店;  贮存物",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12349,8 +19719,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "next month",
-          "phon": "/supa,ma:kstl",
+          "w": "supermarket",
+          "phon": "",
           "pos": "",
           "cn": "超市",
           "chapter": 13,
@@ -12383,7 +19753,7 @@ const VocabData = {
         },
         {
           "w": "studio",
-          "phon": "/stju:diaul",
+          "phon": "",
           "pos": "",
           "cn": "演播室;  工作室;  单间公寓",
           "chapter": 13,
@@ -12396,7 +19766,7 @@ const VocabData = {
           "w": "downtown",
           "phon": "/davn'taunl",
           "pos": "adj.",
-          "cn": "市中心的",
+          "cn": "市中心的 市中心",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12418,7 +19788,7 @@ const VocabData = {
           "w": "peripheral",
           "phon": "Ipa'rifprall",
           "pos": "adj.",
-          "cn": "外围的",
+          "cn": "外围的 外围设备",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12437,10 +19807,32 @@ const VocabData = {
           ]
         },
         {
-          "w": "park",
-          "phon": "",
-          "pos": "",
-          "cn": "这座游乐场将填补小镇上没有儿童娱乐设施的空白",
+          "w": "void",
+          "phon": "IVoIdl",
+          "pos": "adj.",
+          "cn": "空的 空间;  空白;  空虚",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "spacious",
+          "phon": "Isperlasl",
+          "pos": "adj.",
+          "cn": "宽敞的",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "airtight",
+          "phon": "/eatartl",
+          "pos": "adj.",
+          "cn": "密封的, 不透气的",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12462,7 +19854,7 @@ const VocabData = {
           "w": "expanse",
           "phon": "Ik'spansl",
           "pos": "",
-          "cn": "几广阔",
+          "cn": "几广阔 辽阔",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12507,6 +19899,17 @@ const VocabData = {
           "phon": "/mersanl",
           "pos": "",
           "cn": "石匠。泥瓦匠",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "carponter",
+          "phon": "Itarll",
+          "pos": "",
+          "cn": "瓦;  瓷砖",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12591,6 +19994,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "apparatus",
+          "phon": "",
+          "pos": "",
+          "cn": "器械,装置",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "crane",
           "phon": "",
           "pos": "",
@@ -12602,30 +20016,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "malfunction",
-          "phon": "I:el'fnkjol",
-          "pos": "",
-          "cn": "前缀 mal 指",
-          "chapter": 13,
-          "chapterName": "建筑场所",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "jiks",
-          "phon": "",
-          "pos": "",
-          "cn": "了。你能修理吗?",
-          "chapter": 13,
-          "chapterName": "建筑场所",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "mend",
-          "phon": "Iend",
+          "phon": "",
           "pos": "",
           "cn": "修理;〈使〉康复",
           "chapter": 13,
@@ -12636,7 +20028,7 @@ const VocabData = {
         },
         {
           "w": "modify",
-          "phon": "",
+          "phon": "'nDdfl",
           "pos": "",
           "cn": "稍作修改",
           "chapter": 13,
@@ -12648,8 +20040,8 @@ const VocabData = {
         {
           "w": "trim",
           "phon": "",
-          "pos": "",
-          "cn": "修剪;  装饰",
+          "pos": "adj.",
+          "cn": "修剪;  装饰 整齐的 , 整洁的",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12657,10 +20049,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "weld",
+          "w": "saw",
           "phon": "",
           "pos": "",
-          "cn": "工作是把那些零件全部部焊接在一起 =",
+          "cn": "锯",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "screw",
+          "phon": "IsKIU:/",
+          "pos": "",
+          "cn": "螺丝钉;  螺旋桨",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12672,6 +20075,17 @@ const VocabData = {
           "phon": "Idrlll",
           "pos": "",
           "cn": "钻机;  反复练习",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "viaduct",
+          "phon": "",
+          "pos": "",
+          "cn": "高架桥",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12691,7 +20105,7 @@ const VocabData = {
         },
         {
           "w": "dam",
-          "phon": "Idam",
+          "phon": "",
           "pos": "",
           "cn": "水坝",
           "chapter": 13,
@@ -12737,7 +20151,7 @@ const VocabData = {
           "w": "design",
           "phon": "IdrzaInl",
           "pos": "",
-          "cn": "设计",
+          "cn": "设计 设计;  计划",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12745,10 +20159,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "good",
+          "w": "entrance",
           "phon": "",
           "pos": "",
-          "cn": "造了一个好借口",
+          "cn": "入口;  进入权 几",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "meet you",
+          "phon": "",
+          "pos": "",
+          "cn": "我会在动物园的入口处和你会合",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12759,7 +20184,7 @@ const VocabData = {
           "w": "entry",
           "phon": "/entril",
           "pos": "",
-          "cn": "没有看见我们进来。",
+          "cn": "进入;  进入权",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12778,10 +20203,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "exit",
-          "phon": "Megzstl",
-          "pos": "",
-          "cn": "出口;  退场;  离去",
+          "w": "outward",
+          "phon": "/autwadl",
+          "pos": "adj.",
+          "cn": "向外的",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12789,10 +20214,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "outward",
-          "phon": "/autwadl",
+          "w": "exterior",
+          "phon": "/ik'strarial",
           "pos": "adj.",
-          "cn": "向外的",
+          "cn": "外部的 外部,外观",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12814,7 +20239,40 @@ const VocabData = {
           "w": "inner",
           "phon": "/Inal",
           "pos": "adj.",
-          "cn": "内部的:",
+          "cn": "内部的: 内心的",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "interior",
+          "phon": "Iin'trarial",
+          "pos": "adj.",
+          "cn": "内部 内部的",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "inward",
+          "phon": "/inwadl",
+          "pos": "adj.",
+          "cn": "向内的;  内心的",
+          "chapter": 13,
+          "chapterName": "建筑场所",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "internal",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "内部的;  自身的;  国内的",
           "chapter": 13,
           "chapterName": "建筑场所",
           "tags": [
@@ -12842,7 +20300,7 @@ const VocabData = {
           "w": "navy",
           "phon": "",
           "pos": "",
-          "cn": "晕船 >恶心) ,",
+          "cn": "晕船 >恶心) , 星际航行者 宇航员 )",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -12850,7 +20308,18 @@ const VocabData = {
           ]
         },
         {
-          "w": "aviation",
+          "w": "voyage",
+          "phon": "/VDI-Id3/",
+          "pos": "",
+          "cn": "航海,航天;  航行",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "lervilerjanl",
           "phon": "",
           "pos": "",
           "cn": "航空;  航空学;  航空工业",
@@ -12864,18 +20333,7 @@ const VocabData = {
           "w": "journey",
           "phon": "/d33:nil",
           "pos": "",
-          "cn": "旅行",
-          "chapter": 14,
-          "chapterName": "交通旅行",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "safari",
-          "phon": "Isa'fa:ril",
-          "pos": "",
-          "cn": "婚礼结束后,我们会去非洲进行一次观兽旅行。",
+          "cn": "旅行 历程",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -12886,7 +20344,7 @@ const VocabData = {
           "w": "parade",
           "phon": "Ipa'rerdl",
           "pos": "",
-          "cn": "庆祝游行;  列队行进;  炫耀",
+          "cn": "庆祝游行;  列队行进;  炫耀 游行;  炫耀",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -12919,7 +20377,7 @@ const VocabData = {
           "w": "memorial",
           "phon": "Ig'mo:riall",
           "pos": "adj.",
-          "cn": "纪念的",
+          "cn": "纪念的 纪念碑 悼念的",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -12930,7 +20388,7 @@ const VocabData = {
           "w": "pyramid",
           "phon": "/piramidl",
           "pos": "",
-          "cn": "金字塔;  棱锥体",
+          "cn": "金字塔;  棱锥体 几",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -12949,10 +20407,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "visa",
+          "phon": "/vi:zal",
+          "pos": "n.",
+          "cn": "签证 你要获得",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "traffic",
           "phon": "/trafikl",
           "pos": "n.",
-          "cn": "交通",
+          "cn": "交通 车流",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -12996,7 +20465,7 @@ const VocabData = {
           "w": "helicopter",
           "phon": "/helskoptol",
           "pos": "",
-          "cn": "直升机",
+          "cn": "直升机 用直升机载送;  乘直升机旅行",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13004,10 +20473,87 @@ const VocabData = {
           ]
         },
         {
-          "w": "carry-on",
+          "w": "jet",
+          "phon": "Id3etl",
+          "pos": "",
+          "cn": "喷气式飞机;  喷射0",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "parachute",
           "phon": "",
-          "pos": "adj.",
-          "cn": "随身携带上",
+          "pos": "",
+          "cn": "降落伞",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "flight",
+          "phon": "/artl",
+          "pos": "",
+          "cn": "飞行;  航班",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "pilot",
+          "phon": "/parlatl",
+          "pos": "",
+          "cn": "飞行员",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "passenger",
+          "phon": "/pasInd3al",
+          "pos": "",
+          "cn": "几乘客",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "we want to make",
+          "phon": "",
+          "pos": "",
+          "cn": "所以想填一份行李遗失报告。 失了几件行李,",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "luggage",
+          "phon": "MIAgId3l",
+          "pos": "n.",
+          "cn": "行李",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "suitcase",
+          "phon": "/su:tkeIsl",
+          "pos": "",
+          "cn": "手提箱",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13037,10 +20583,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "fare",
-          "phon": "Ifeal",
+          "w": "atlas",
+          "phon": "Iatlasl",
           "pos": "",
-          "cn": "路费",
+          "cn": "地图册,地图集",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13048,10 +20594,109 @@ const VocabData = {
           ]
         },
         {
-          "w": "atlas",
-          "phon": "Iatlasl",
+          "w": "route",
+          "phon": "Iru:tl",
           "pos": "",
-          "cn": "地图册,地图集",
+          "cn": "路线",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "itinerary",
+          "phon": "",
+          "pos": "n.",
+          "cn": "行程 路线",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "passage",
+          "phon": "",
+          "pos": "n.",
+          "cn": "通过;  通道 走廊",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "intersection",
+          "phon": "",
+          "pos": "",
+          "cn": "十字路口 交叉路口",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "way",
+          "phon": "",
+          "pos": "",
+          "cn": "路;  方式",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "path",
+          "phon": "",
+          "pos": "",
+          "cn": "小路",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "lane",
+          "phon": "",
+          "pos": "",
+          "cn": "小巷;  车道",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "ayenue",
+          "phon": "",
+          "pos": "",
+          "cn": "几。大街;  途径",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "event",
+          "phon": "",
+          "pos": "",
+          "cn": "来到的 事件 ) 世界著名化妆品牌之一伊丽莎白雅顿 (Elizabeth",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "arden",
+          "phon": "",
+          "pos": "",
+          "cn": "最出名的香水叫 得名于美国纽约的第五大道",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13074,17 +20719,6 @@ const VocabData = {
           "phon": "/salnpaustl",
           "pos": "",
           "cn": "路标",
-          "chapter": 14,
-          "chapterName": "交通旅行",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "pave",
-          "phon": "Ipervl",
-          "pos": "",
-          "cn": "是用鹅卵石铺成的。",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13125,6 +20759,72 @@ const VocabData = {
           ]
         },
         {
+          "w": "ambulance",
+          "phon": "",
+          "pos": "",
+          "cn": "救护车",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "truck",
+          "phon": "ItrAk/",
+          "pos": "",
+          "cn": "卡车;  敞篷货运火车",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "van",
+          "phon": "Ivanl",
+          "pos": "",
+          "cn": "厢式货车;  客货车",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "wagon",
+          "phon": "",
+          "pos": "",
+          "cn": "四轮运货马车 (或牛车); [英](火车的) 货车车厢",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "carriage",
+          "phon": "Ikarld3l",
+          "pos": "",
+          "cn": "四轮马车; [英] 客运火车的)  车厢",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cartiage",
+          "phon": "",
+          "pos": "",
+          "cn": "交通旅行",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "tractor",
           "phon": "/traktal",
           "pos": "",
@@ -13147,10 +20847,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "hopped",
-          "phon": "",
+          "w": "cycle",
+          "phon": "/salkall",
           "pos": "",
-          "cn": "他们坐上一辆人力三轮车,",
+          "cn": "周期;  自行车",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13171,8 +20871,8 @@ const VocabData = {
         {
           "w": "motor",
           "phon": "/'mautal",
-          "pos": "",
-          "cn": "发动机",
+          "pos": "adj.",
+          "cn": "发动机 机动的",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13183,7 +20883,7 @@ const VocabData = {
           "w": "remote",
           "phon": "",
           "pos": "",
-          "cn": "向后移动,",
+          "cn": "向后移动, 移走 遥远的 ) , emotion ( 移动 到了外面 [e",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13213,10 +20913,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "tyre",
-          "phon": "Italal",
+          "w": "honk",
+          "phon": "Ihonkl",
           "pos": "",
-          "cn": "轮胎",
+          "cn": "汽车喇叭声;  鹅叫声",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13224,10 +20924,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "honk",
-          "phon": "Ihonkl",
+          "w": "crew",
+          "phon": "",
           "pos": "",
-          "cn": "汽车喇叭声;  鹅叫声",
+          "cn": "轮船 . 几 ( 飞机等上的 )全体工作人员; (有专门技术的 ) 一组工作人员",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13260,7 +20960,7 @@ const VocabData = {
           "w": "emergency",
           "phon": "/i'm3:d3ansil",
           "pos": "adj.",
-          "cn": "应急的",
+          "cn": "应急的 紧急事件",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13271,18 +20971,7 @@ const VocabData = {
           "w": "wreck",
           "phon": "Irekl",
           "pos": "",
-          "cn": "失事的船只 (或汽车。飞机等);  残",
-          "chapter": 14,
-          "chapterName": "交通旅行",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "crash",
-          "phon": "Ikraf/",
-          "pos": "",
-          "cn": "了汽车上。",
+          "cn": "失事的船只 (或汽车。飞机等);  残 使失事;  破坏 破的东西",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13293,7 +20982,7 @@ const VocabData = {
           "w": "crush",
           "phon": "ITAJ/",
           "pos": "",
-          "cn": "拥挤的人群;  迷恋;  迷恋对象",
+          "cn": "拥挤的人群;  迷恋;  迷恋对象 压坏",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13312,17 +21001,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "disappear",
-          "phon": "Idisapral",
-          "pos": "",
-          "cn": "三年了",
-          "chapter": 14,
-          "chapterName": "交通旅行",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "hazard",
           "phon": "Ihaz3d/",
           "pos": "n.",
@@ -13334,21 +21012,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "harbour",
-          "phon": "/ha:bal",
-          "pos": "n.",
-          "cn": "港0",
-          "chapter": 14,
-          "chapterName": "交通旅行",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "pretty little",
+          "w": "you won't",
           "phon": "",
           "pos": "",
-          "cn": "海港。",
+          "cn": "别为我哭泣》",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13389,7 +21056,18 @@ const VocabData = {
           ]
         },
         {
-          "w": "ikeria'",
+          "w": "seaman",
+          "phon": "Isi:manl",
+          "pos": "",
+          "cn": "海员, 水手",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "carrier",
           "phon": "",
           "pos": "",
           "cn": "航空母舰;  运输工具",
@@ -13414,7 +21092,18 @@ const VocabData = {
           "w": "liner",
           "phon": "Ilalnal",
           "pos": "",
-          "cn": "邮轮",
+          "cn": "邮轮 客轮",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "vessel",
+          "phon": "Ivesall",
+          "pos": "",
+          "cn": "大船,舰;  容器,器皿",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13433,8 +21122,118 @@ const VocabData = {
           ]
         },
         {
-          "w": "channel",
+          "w": "sail",
+          "phon": "Iserll",
+          "pos": "",
+          "cn": "航行;  驾驶 帆船 )",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "raft",
           "phon": "",
+          "pos": "n.",
+          "cn": "木筏,木排",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "canoe",
+          "phon": "",
+          "pos": "",
+          "cn": "独木舟",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "oar",
+          "phon": "",
+          "pos": "",
+          "cn": "几桨",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "deck",
+          "phon": "",
+          "pos": "",
+          "cn": "甲板",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "turbine",
+          "phon": "",
+          "pos": "",
+          "cn": "涡轮机",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "pralbela",
+          "phon": "",
+          "pos": "",
+          "cn": "螺旋桨,推进器",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "stern",
+          "phon": "",
+          "pos": "",
+          "cn": "船尾",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "aboard",
+          "phon": "",
+          "pos": "adv.",
+          "cn": "在(船。飞机等)上",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "embark",
+          "phon": "",
+          "pos": "",
+          "cn": "上船 (或飞机等 );  开始做",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "channel",
+          "phon": "'tlenl",
           "pos": "",
           "cn": "航道;  电视频道;  海峡",
           "chapter": 14,
@@ -13447,7 +21246,7 @@ const VocabData = {
           "w": "canal",
           "phon": "",
           "pos": "",
-          "cn": "空气等的)管",
+          "cn": "空气等的)管 运河; (人体内输送食物",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13458,29 +21257,7 @@ const VocabData = {
           "w": "ditch",
           "phon": "",
           "pos": "n.",
-          "cn": "沟,渠",
-          "chapter": 14,
-          "chapterName": "交通旅行",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "railroad",
-          "phon": "/rellraudl",
-          "pos": "",
-          "cn": "这条铁路正在建造中",
-          "chapter": 14,
-          "chapterName": "交通旅行",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "railway",
-          "phon": "/rellwel",
-          "pos": "",
-          "cn": "由铁路运送到你处。",
+          "cn": "沟,渠 抛弃",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13491,7 +21268,7 @@ const VocabData = {
           "w": "locomotive",
           "phon": "",
           "pos": "",
-          "cn": "机车",
+          "cn": "机车 火车头",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13510,8 +21287,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "postpone",
-          "phon": "Irelll",
+          "w": "rail",
+          "phon": "",
           "pos": "",
           "cn": "栏杆;  铁路路轨",
           "chapter": 14,
@@ -13525,17 +21302,6 @@ const VocabData = {
           "phon": "",
           "pos": "",
           "cn": "这名男子一直抓着",
-          "chapter": 14,
-          "chapterName": "交通旅行",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "depart",
-          "phon": "",
-          "pos": "",
-          "cn": "么时候出发?",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13565,10 +21331,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "paus'paun",
+          "w": "postpone",
           "phon": "",
           "pos": "",
-          "cn": "推迟",
+          "cn": "推迟 使延期",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13577,7 +21343,7 @@ const VocabData = {
         },
         {
           "w": "defer",
-          "phon": "Idrf3:",
+          "phon": "",
           "pos": "",
           "cn": "推迟,拖延",
           "chapter": 14,
@@ -13590,7 +21356,18 @@ const VocabData = {
           "w": "lull",
           "phon": "",
           "pos": "",
-          "cn": "使昏昏欲睡",
+          "cn": "使昏昏欲睡 暂停,暂时平静期",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "expire",
+          "phon": "Iull",
+          "pos": "",
+          "cn": "交通旅行",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13602,6 +21379,17 @@ const VocabData = {
           "phon": "Idju:l",
           "pos": "adj.",
           "cn": "到期的,预期的",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "postage",
+          "phon": "/paustid3l",
+          "pos": "",
+          "cn": "邮费,邮资",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13634,7 +21422,7 @@ const VocabData = {
           "w": "mail",
           "phon": "Imerll",
           "pos": "",
-          "cn": "邮件,邮包;  邮政",
+          "cn": "邮件,邮包;  邮政 邮寄",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13676,20 +21464,9 @@ const VocabData = {
         },
         {
           "w": "burden",
-          "phon": "Ib3:dn",
-          "pos": "",
-          "cn": "几重担",
-          "chapter": 14,
-          "chapterName": "交通旅行",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "transfer",
           "phon": "",
           "pos": "",
-          "cn": "搭 ] transfer to 转移到;  转学到",
+          "cn": "几重担 负担",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13708,10 +21485,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "transit",
+          "phon": "Mtransgtl",
+          "pos": "",
+          "cn": "运输;  通行;  过境,中转",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "deliver",
           "phon": "Idi'lrval",
           "pos": "",
-          "cn": "递送",
+          "cn": "递送 传送",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13722,7 +21510,7 @@ const VocabData = {
           "w": "convey",
           "phon": "Ikan'vell",
           "pos": "",
-          "cn": "传递",
+          "cn": "传递 运送,输送;  表达,",
           "chapter": 14,
           "chapterName": "交通旅行",
           "tags": [
@@ -13731,7 +21519,7 @@ const VocabData = {
         },
         {
           "w": "speed",
-          "phon": "Ispi:dl",
+          "phon": "",
           "pos": "",
           "cn": "速度;  迅速",
           "chapter": 14,
@@ -13750,6 +21538,17 @@ const VocabData = {
           "tags": [
             "reading"
           ]
+        },
+        {
+          "w": "swift",
+          "phon": "ISWIftl",
+          "pos": "adj.",
+          "cn": "迅速的;  敏捷的",
+          "chapter": 14,
+          "chapterName": "交通旅行",
+          "tags": [
+            "reading"
+          ]
         }
       ]
     },
@@ -13758,10 +21557,32 @@ const VocabData = {
       "name": "国家政府",
       "words": [
         {
+          "w": "chame",
+          "phon": "",
+          "pos": "",
+          "cn": "国。N雍",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "republic",
           "phon": "IrrpAblikl",
           "pos": "",
           "cn": "共和国,共和政体",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "marxism",
+          "phon": "/ma:ksIzaml",
+          "pos": "",
+          "cn": "马克思主义",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -13794,7 +21615,7 @@ const VocabData = {
           "w": "regime",
           "phon": "Irer3i:ml",
           "pos": "",
-          "cn": "统治制度,政权,",
+          "cn": "统治制度,政权, 政体",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -13835,10 +21656,87 @@ const VocabData = {
           ]
         },
         {
+          "w": "political",
+          "phon": "Ia'litikall",
+          "pos": "adj.",
+          "cn": "政治的;  政党的",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "hierarchy",
+          "phon": "/halra:kil",
+          "pos": "",
+          "cn": "等级制度;  统治集团",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "democracy",
+          "phon": "Idrmpkrasil",
+          "pos": "",
+          "cn": "民主制度;  民主国家 民主",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "bureaucracy",
+          "phon": "",
+          "pos": "",
+          "cn": "官僚制度;  官僚作风",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "egalitarian",
+          "phon": "Iligalg'tearianl",
+          "pos": "adj.",
+          "cn": "平等主义的 平等主义者",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "materialism",
+          "phon": "Ina'trarialrzaml",
+          "pos": "",
+          "cn": "唯物主义;  唯物论",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "revolution",
+          "phon": "",
+          "pos": "",
+          "cn": "革命;  巨大娈化",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "reform",
           "phon": "ITIf:ml",
           "pos": "n.",
-          "cn": "改革。改良",
+          "cn": "改革。改良 改良;(使〉改过自新",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -13849,7 +21747,84 @@ const VocabData = {
           "w": "conservative",
           "phon": "",
           "pos": "adj.",
-          "cn": "保守的",
+          "cn": "保守的 保守党党员",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "big mouth",
+          "phon": "",
+          "pos": "",
+          "cn": "到哪里都很健谈。",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "municipal",
+          "phon": "Imju:'nIsspall",
+          "pos": "adj.",
+          "cn": "市政的,地方政府的",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ng",
+          "phon": "",
+          "pos": "",
+          "cn": "所市立大学",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "neutral",
+          "phon": "/nju:trall",
+          "pos": "adj.",
+          "cn": "中立的;  中立国的",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "bilateral",
+          "phon": "Ibar'latarall",
+          "pos": "adj.",
+          "cn": "双边的",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "arena",
+          "phon": "",
+          "pos": "",
+          "cn": "竞技场,运动场;  舞台,活动领域",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "banner",
+          "phon": "",
+          "pos": "n.",
+          "cn": "横幅。标语",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -13870,8 +21845,8 @@ const VocabData = {
         {
           "w": "premier",
           "phon": "Ipremial",
-          "pos": "",
-          "cn": "总理,首相",
+          "pos": "adj.",
+          "cn": "总理,首相 首要的 , 第一的",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -13882,7 +21857,7 @@ const VocabData = {
           "w": "minister",
           "phon": "/mrngstal",
           "pos": "",
-          "cn": "部长",
+          "cn": "部长 大臣;  公使",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -13934,6 +21909,61 @@ const VocabData = {
           ]
         },
         {
+          "w": "meeting",
+          "phon": "/mi:tnl",
+          "pos": "",
+          "cn": "会议;  会面 几",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "headquarters",
+          "phon": "/'hedikw:tazl",
+          "pos": "",
+          "cn": "总部 , 总公司;  司令部",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "delegation",
+          "phon": "Idels'gerfanl",
+          "pos": "",
+          "cn": "代表团;  委派",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "police",
+          "phon": "Ipa'li:sl",
+          "pos": "",
+          "cn": "警察; [the ~]警方",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "statesman",
+          "phon": "/stertsmanl",
+          "pos": "",
+          "cn": "政治家",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "mayor",
           "phon": "Ineal",
           "pos": "",
@@ -13959,7 +21989,7 @@ const VocabData = {
           "w": "office",
           "phon": "/Dfgsl",
           "pos": "",
-          "cn": "局。厅",
+          "cn": "局。厅 官职; [0~]部 办公室;  要职,",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -13970,7 +22000,7 @@ const VocabData = {
           "w": "bureau",
           "phon": "/bjuaraul",
           "pos": "",
-          "cn": "几局",
+          "cn": "几局 处,科;  办事处",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -13981,7 +22011,7 @@ const VocabData = {
           "w": "department",
           "phon": "Idrpa:tmantl",
           "pos": "",
-          "cn": "所",
+          "cn": "所 企业等机构的)部门;",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14003,7 +22033,95 @@ const VocabData = {
           "w": "administration",
           "phon": "Iadimlng'strerfanl",
           "pos": "",
-          "cn": "管理 =",
+          "cn": "管理 = 行政",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "power",
+          "phon": "/paual",
+          "pos": "",
+          "cn": "能力;  权力;  政权;  能源",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "influence",
+          "phon": "/influansl",
+          "pos": "",
+          "cn": "影响 影响. 作用",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "affect",
+          "phon": "",
+          "pos": "",
+          "cn": "感情上) 打动,使悲伤",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "importance",
+          "phon": "",
+          "pos": "",
+          "cn": "重要,重要性",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "significance",
+          "phon": "IsIg'nfikansl",
+          "pos": "n.",
+          "cn": "重要性,意义",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "organisation",
+          "phon": "",
+          "pos": "",
+          "cn": "机构",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "association",
+          "phon": "",
+          "pos": "",
+          "cn": "协会,团体;  关联",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "union",
+          "phon": "Nju:njanl",
+          "pos": "",
+          "cn": "联合;  联盟;  工会",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14014,7 +22132,7 @@ const VocabData = {
           "w": "community",
           "phon": "/ka'mju:ngtil",
           "pos": "",
-          "cn": "社区;  群体; (生物的 _",
+          "cn": "社区;  群体; (生物的 _ 群落",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14025,7 +22143,7 @@ const VocabData = {
           "w": "consortium",
           "phon": "Ikan'sd:tialnl",
           "pos": "",
-          "cn": "联营企业",
+          "cn": "联营企业 财团",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14033,10 +22151,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "institution",
-          "phon": "",
+          "w": "league",
+          "phon": "Ili:gl",
           "pos": "",
-          "cn": "社会福利机构;(大学。银行等大型) 机构",
+          "cn": "联赛;  联盟。同盟",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14058,7 +22176,7 @@ const VocabData = {
           "w": "nation",
           "phon": "/nerjanl",
           "pos": "",
-          "cn": "国家;  民族;",
+          "cn": "国家;  民族; 国民",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14069,7 +22187,18 @@ const VocabData = {
           "w": "nationality",
           "phon": "",
           "pos": "",
-          "cn": "籍;  民族",
+          "cn": "几 籍;  民族",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "worldwide",
+          "phon": "/w3:ld'waId/",
+          "pos": "adj.",
+          "cn": "世界范围的 遍及全球的",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14080,7 +22209,7 @@ const VocabData = {
           "w": "federal",
           "phon": "/fedarall",
           "pos": "adj.",
-          "cn": "联邦的",
+          "cn": "联邦的 联合的",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14089,7 +22218,7 @@ const VocabData = {
         },
         {
           "w": "foreign",
-          "phon": "",
+          "phon": "'forsn/",
           "pos": "adj.",
           "cn": "外国的;  外来的;  外交的",
           "chapter": 15,
@@ -14102,7 +22231,128 @@ const VocabData = {
           "w": "abroad",
           "phon": "",
           "pos": "adv.",
-          "cn": "到国外",
+          "cn": "到国外 在国外;  广为流传",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "civil",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "公民的,国内的;  民用的;  斯文的",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "a civil war",
+          "phon": "",
+          "pos": "",
+          "cn": "内战",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "reign",
+          "phon": "IreInl",
+          "pos": "",
+          "cn": "君主统治时期 统治",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "puppet",
+          "phon": "/pAPSt",
+          "pos": "",
+          "cn": "玩偶;  傀儡",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "throne",
+          "phon": "/Graunl",
+          "pos": "",
+          "cn": "君王的)  宝座 王位;",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "crown",
+          "phon": "Ikraunl",
+          "pos": "",
+          "cn": "王冠",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wreath",
+          "phon": "Iri:gl",
+          "pos": "",
+          "cn": "察奠用的) 花圈 花环,花冠;",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "colony",
+          "phon": "/kolanil",
+          "pos": "",
+          "cn": "殖民地",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "liberty",
+          "phon": "/lrbatil",
+          "pos": "",
+          "cn": "自由",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "liberation",
+          "phon": "",
+          "pos": "",
+          "cn": "解放 几",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "independence",
+          "phon": "",
+          "pos": "",
+          "cn": "独立;  自立",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14124,7 +22374,7 @@ const VocabData = {
           "w": "refuge",
           "phon": "/refju:d3l",
           "pos": "",
-          "cn": "避难",
+          "cn": "避难 庇护;  避难所",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14154,10 +22404,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "demographic",
-          "phon": "Idemagrafiki",
+          "w": "citizen",
+          "phon": "/sitgzanl",
           "pos": "",
-          "cn": "人口统计〈学〉的",
+          "cn": "公民;  市民",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14167,8 +22417,19 @@ const VocabData = {
         {
           "w": "resident",
           "phon": "/rezidanti",
-          "pos": "",
-          "cn": "居民",
+          "pos": "adj.",
+          "cn": "居民 居住的",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ethnic",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "民族的 , 种族的",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14201,7 +22462,7 @@ const VocabData = {
           "w": "franchise",
           "phon": "",
           "pos": "",
-          "cn": "出售的特许经营权",
+          "cn": "出售的特许经营权 特许权; [the ~]选举权",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14231,21 +22492,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "elect",
-          "phon": "Iilektl",
-          "pos": "",
-          "cn": "组织了一次投票来选举总统。",
-          "chapter": 15,
-          "chapterName": "国家政府",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "election",
           "phon": "",
           "pos": "",
-          "cn": "选举;  当选",
+          "cn": "选举;  当选 几",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14287,7 +22537,7 @@ const VocabData = {
         },
         {
           "w": "nominate",
-          "phon": "Mnomanertl",
+          "phon": "",
           "pos": "",
           "cn": "提名;  任命",
           "chapter": 15,
@@ -14301,17 +22551,6 @@ const VocabData = {
           "phon": "Itjeklistl",
           "pos": "",
           "cn": "清单;  选民花名册",
-          "chapter": 15,
-          "chapterName": "国家政府",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "succession",
-          "phon": "Isak'sefan",
-          "pos": "",
-          "cn": "继位",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14366,7 +22605,7 @@ const VocabData = {
           "w": "flourish",
           "phon": "/'ArIFI",
           "pos": "",
-          "cn": "繁荣",
+          "cn": "繁荣 兴旺;  茁壮成长",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14388,7 +22627,7 @@ const VocabData = {
           "w": "prospect",
           "phon": "/prpspektl",
           "pos": "n.",
-          "cn": "希望=",
+          "cn": "希望= 可能性;  风景",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14421,7 +22660,7 @@ const VocabData = {
           "w": "standpoint",
           "phon": "Istendpointl",
           "pos": "",
-          "cn": "立场 =",
+          "cn": "立场 = 立足点",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14443,7 +22682,7 @@ const VocabData = {
           "w": "ethic",
           "phon": "/eBikl",
           "pos": "",
-          "cn": "行为准则; [~s] 道德规范,",
+          "cn": "行为准则; [~s] 道德规范, 伦理标准",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14476,7 +22715,7 @@ const VocabData = {
           "w": "proposal",
           "phon": "Ipra'pauzall",
           "pos": "",
-          "cn": "提议,",
+          "cn": "提议, 建议",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14487,7 +22726,7 @@ const VocabData = {
           "w": "declare",
           "phon": "Idrkleal",
           "pos": "",
-          "cn": "宣布",
+          "cn": "宣布 宣告;  宣称,声称",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14506,6 +22745,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "claim",
+          "phon": "",
+          "pos": "",
+          "cn": "声称;  主张;  索赔",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "proclaim",
           "phon": "Ipraklerml",
           "pos": "",
@@ -14517,10 +22767,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "build",
-          "phon": "",
+          "w": "state",
+          "phon": "Istertl",
           "pos": "",
-          "cn": "建一条通向该地区的新公路",
+          "cn": "陈述, 说明 国家;  州;  状况",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14528,10 +22778,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "lad'mrtl",
-          "phon": "",
+          "w": "clarify",
+          "phon": "/klargfarl",
           "pos": "",
-          "cn": "承认",
+          "cn": "阐明",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14539,10 +22789,230 @@ const VocabData = {
           ]
         },
         {
-          "w": "buy",
+          "w": "assist",
           "phon": "",
           "pos": "",
-          "cn": "我需要一张去德国的往返票",
+          "cn": "帮助 协助",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "aid",
+          "phon": "",
+          "pos": "",
+          "cn": "救援物资;  辅助物;  救助",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "monitor",
+          "phon": "/monrtal",
+          "pos": "",
+          "cn": "监视;  监听 监控器;  监视器;  班长",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "european",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "欧洲的 欧洲人",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "euro",
+          "phon": "",
+          "pos": "",
+          "cn": "欧元 几",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "latin",
+          "phon": "Ilatinl",
+          "pos": "adj.",
+          "cn": "拉丁语的;  拉丁人的 拉丁语;  拉丁人",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "jewish",
+          "phon": "Nd3u:Ijl",
+          "pos": "adj.",
+          "cn": "犹太教的;  犹太人的",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "arabian",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "阿拉伯的",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "portuguese",
+          "phon": "Ip:tfg'gi:zl",
+          "pos": "adj.",
+          "cn": "葡萄牙的 葡萄牙语;  葡萄牙人",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "roman",
+          "phon": "/raumanl",
+          "pos": "adj.",
+          "cn": "罗马的;  古罗马帝国的 古罗马人;(现代)罗马 市民",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "spanish",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "西班牙的 西班牙语;  西班牙人",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "swiss",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "瑞士的 瑞士人 例",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "greek",
+          "phon": "Igri:kl",
+          "pos": "adj.",
+          "cn": "希腊的 希腊人;  古希腊人;  希腊语;  古希腊语",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "italian",
+          "phon": "Irtalianl",
+          "pos": "adj.",
+          "cn": "意大利的 意大利人;  意大利语",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "indian",
+          "phon": "Mindianl",
+          "pos": "adj.",
+          "cn": "印度的 印度人",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "australia",
+          "phon": "/Dlstrerlial",
+          "pos": "",
+          "cn": "澳大利亚",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "new zealand",
+          "phon": "",
+          "pos": "",
+          "cn": "新西兰",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "canada",
+          "phon": "/kanadal",
+          "pos": "",
+          "cn": "加拿大",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "britain",
+          "phon": "/britan",
+          "pos": "",
+          "cn": "不列颠",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "france",
+          "phon": "",
+          "pos": "",
+          "cn": "法国",
+          "chapter": 15,
+          "chapterName": "国家政府",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "germany",
+          "phon": "/d33:manil",
+          "pos": "",
+          "cn": "德国",
           "chapter": 15,
           "chapterName": "国家政府",
           "tags": [
@@ -14556,32 +23026,21 @@ const VocabData = {
       "name": "社会经济",
       "words": [
         {
+          "w": "chpter",
+          "phon": "",
+          "pos": "",
+          "cn": "经济",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "economy",
           "phon": "/['konamil",
           "pos": "",
           "cn": "经济;  节约",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "economical",
-          "phon": "",
-          "pos": "",
-          "cn": "经济上的",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "trade",
-          "phon": "Itreidl",
-          "pos": "",
-          "cn": "贸易",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14613,8 +23072,8 @@ const VocabData = {
         {
           "w": "merchant",
           "phon": "Mm3:tfantl",
-          "pos": "",
-          "cn": "商人",
+          "pos": "adj.",
+          "cn": "商人 商业的",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14635,8 +23094,85 @@ const VocabData = {
         {
           "w": "fund",
           "phon": "IfAndl",
+          "pos": "n.",
+          "cn": "资助 基金; [~s] 资金",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "donate",
+          "phon": "Idaulnertl",
           "pos": "",
-          "cn": "资助",
+          "cn": "捐赠,捐献",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "endow",
+          "phon": "IIn'daol",
+          "pos": "",
+          "cn": "捐赠;  赋予",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "use",
+          "phon": "",
+          "pos": "",
+          "cn": "市中心被指定供商业活动使用",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "advertise",
+          "phon": "Iadvatarzl",
+          "pos": "",
+          "cn": "做广告",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "slogan",
+          "phon": "/slouganl",
+          "pos": "",
+          "cn": "标语。口号",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "a play on words",
+          "phon": "",
+          "pos": "",
+          "cn": "那条广告口号是在玩文字游戏。",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "lease",
+          "phon": "Ili:s/",
+          "pos": "",
+          "cn": "租约 出租;  租用 我们",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14658,7 +23194,7 @@ const VocabData = {
           "w": "retail",
           "phon": "/ri:telll",
           "pos": "",
-          "cn": "以价格零售",
+          "cn": "以价格零售 零售",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14688,10 +23224,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "currenay",
-          "phon": "Ira'maufan",
+          "w": "promotion",
+          "phon": "",
           "pos": "",
           "cn": "促销活动;  晋升",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "voucher",
+          "phon": "/vautfal",
+          "pos": "",
+          "cn": "代金券",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14713,7 +23260,7 @@ const VocabData = {
           "w": "currency",
           "phon": "/kAransil",
           "pos": "",
-          "cn": "货币;  通用",
+          "cn": "货币;  通用 流行",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14743,10 +23290,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "is given to you",
+          "phon": "",
+          "pos": "",
+          "cn": "收据",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "invoice",
           "phon": "/InV3IS/",
           "pos": "",
-          "cn": "给这些商品开了一张发票",
+          "cn": "发票",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14757,7 +23315,7 @@ const VocabData = {
           "w": "tax",
           "phon": "Itaks/",
           "pos": "",
-          "cn": "税",
+          "cn": "税 对征税",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14768,7 +23326,18 @@ const VocabData = {
           "w": "levy",
           "phon": "Mlevil",
           "pos": "n.",
-          "cn": "税款",
+          "cn": "税款 征 (税)",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "tariff",
+          "phon": "",
+          "pos": "n.",
+          "cn": "关税; (公共服务的) 收费",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14779,7 +23348,7 @@ const VocabData = {
           "w": "duty",
           "phon": "/dju:til",
           "pos": "",
-          "cn": "我有义务要坦白地对你说。",
+          "cn": "职责;  义务;  关税",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14787,21 +23356,65 @@ const VocabData = {
           ]
         },
         {
-          "w": "impose",
-          "phon": "IImpauzl",
-          "pos": "",
-          "cn": "她常常把自己的价值观强加给女儿。",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "re",
+          "w": "guty",
           "phon": "",
           "pos": "",
-          "cn": "衰退",
+          "cn": "雅思词汇奠经",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "corsure",
+          "phon": "",
+          "pos": "",
+          "cn": "向反方向摆 着 , 相反\"  的意思。op 和 pose 组合就是 放\" 所以 oppose 就是 阻挠\"  的意思。 反对 ,",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "consume",
+          "phon": "Ikansju:ml",
+          "pos": "",
+          "cn": "喝",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cost",
+          "phon": "IkDstl",
+          "pos": "",
+          "cn": "需付费 费用;  代价; [~s] 成本",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "expense",
+          "phon": "Iik'spensl",
+          "pos": "n.",
+          "cn": "费用 ,花费",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "gross",
+          "phon": "Igrausl",
+          "pos": "adj.",
+          "cn": "总的 , 毛的",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14842,10 +23455,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "diminish",
-          "phon": "Idg'mInifl",
+          "w": "bond",
+          "phon": "Ibondl",
           "pos": "",
-          "cn": "我们应尽力减少生产成本。",
+          "cn": "债券",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14853,10 +23466,65 @@ const VocabData = {
           ]
         },
         {
-          "w": "reduce",
-          "phon": "Irrdju:sl",
+          "w": "debt",
+          "phon": "Idetl",
           "pos": "",
-          "cn": "减小",
+          "cn": "债务",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "deficit",
+          "phon": "/defasatl",
+          "pos": "n.",
+          "cn": "赤字 逆差",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "inflation",
+          "phon": "",
+          "pos": "",
+          "cn": "通货膨胀",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "deflation",
+          "phon": "",
+          "pos": "n.",
+          "cn": "通货紧缩",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "downsize",
+          "phon": "/daunsarzl",
+          "pos": "",
+          "cn": "使精简;  裁员",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "daclne",
+          "phon": "",
+          "pos": "",
+          "cn": "社会经济",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14897,32 +23565,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "escalate",
-          "phon": "/eskalertl",
-          "pos": "",
-          "cn": "这个国家的生活费用在不断上涨。",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "expand",
           "phon": "Ik'spandl",
           "pos": "",
           "cn": "扩充,扩大; 扩展",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "increase",
-          "phon": "",
-          "pos": "",
-          "cn": "大影响",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14941,21 +23587,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "affluent",
-          "phon": "Iafluantl",
-          "pos": "",
-          "cn": "富足的",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "fluent",
           "phon": "",
           "pos": "",
-          "cn": "流 (to flow)",
+          "cn": "流 (to flow) 如: fluid ( 液体) . 字根 flu 指",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14966,18 +23601,7 @@ const VocabData = {
           "w": "fluency",
           "phon": "",
           "pos": "",
-          "cn": "引申-下",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "enrich",
-          "phon": "In'rrtj/",
-          "pos": "",
-          "cn": "财富多",
+          "cn": "引申-下 该词原表示 流向: 财源不断滚滚流入 , 即为 富裕的",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -14988,7 +23612,7 @@ const VocabData = {
           "w": "sufficient",
           "phon": "Isa'fifontl",
           "pos": "adj.",
-          "cn": "足够的",
+          "cn": "足够的 例",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15032,7 +23656,7 @@ const VocabData = {
           "w": "lack",
           "phon": "Iakl",
           "pos": "",
-          "cn": "缺乏,",
+          "cn": "缺乏, 不足 缺少 , 没有",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15051,21 +23675,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "a number",
-          "phon": "",
-          "pos": "",
-          "cn": "往来。",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "frm",
           "phon": "If3:ml",
-          "pos": "",
-          "cn": "公司",
+          "pos": "adj.",
+          "cn": "公司 坚定的;  坚固的",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15077,6 +23690,61 @@ const VocabData = {
           "phon": "/entapralzl",
           "pos": "",
           "cn": "企业;  事业",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "agent",
+          "phon": "",
+          "pos": "",
+          "cn": "代理人,代理商",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "entity",
+          "phon": "/'entstil",
+          "pos": "",
+          "cn": "实体,独立存在物",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "vest",
+          "phon": "",
+          "pos": "",
+          "cn": "拉丁语 vestis 指 英语中 衣服 (clothing) ' 所以 invest 就是进入 (in) 衣服 指 \"汗衫, 背心 '",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "input",
+          "phon": "Mnputl",
+          "pos": "",
+          "cn": "输人信息;  投入物",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "product",
+          "phon": "/prodaktl",
+          "pos": "",
+          "cn": "产品;  产物",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15098,7 +23766,7 @@ const VocabData = {
           "w": "goods",
           "phon": "Igudzl",
           "pos": "",
-          "cn": "商品",
+          "cn": "商品 货物",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15131,7 +23799,7 @@ const VocabData = {
           "w": "guarantee",
           "phon": "",
           "pos": "",
-          "cn": "担保物",
+          "cn": "担保物 担保;  确保 保证;  保修单;  担保金,",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15142,7 +23810,7 @@ const VocabData = {
           "w": "reliable",
           "phon": "Irilalaball",
           "pos": "adj.",
-          "cn": "可靠的 ,",
+          "cn": "可靠的 , 可信赖的",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15151,9 +23819,9 @@ const VocabData = {
         },
         {
           "w": "negotiation",
-          "phon": "Inligaufieijon",
+          "phon": "",
           "pos": "",
-          "cn": "协商",
+          "cn": "谈判 , 协商",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15164,7 +23832,7 @@ const VocabData = {
           "w": "attend",
           "phon": "",
           "pos": "",
-          "cn": "参加",
+          "cn": "参加 出席",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15183,10 +23851,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "auction",
-          "phon": "I3:kfanl",
+          "w": "sale",
+          "phon": "Iserll",
           "pos": "",
-          "cn": "卖出去了",
+          "cn": "卖。销售;  销售额",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15194,10 +23862,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "price",
-          "phon": "",
+          "w": "wholesale",
+          "phon": "/haulserll",
           "pos": "",
-          "cn": "拍卖价格",
+          "cn": "批发",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15208,7 +23876,7 @@ const VocabData = {
           "w": "put sth",
           "phon": "",
           "pos": "",
-          "cn": "将某物交付拍卖",
+          "cn": "将某物交付拍卖 源自拉丁语 augere 增加 ) 同",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15219,29 +23887,7 @@ const VocabData = {
           "w": "deal",
           "phon": "Idi:ll",
           "pos": "",
-          "cn": "应付",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "transaction",
-          "phon": "Itranzakfanl",
-          "pos": "",
-          "cn": "业务",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "turnover",
-          "phon": "/t3:naUval",
-          "pos": "",
-          "cn": "年营业额约为8亿英镑",
+          "cn": "应付 买卖; [~ with] 处理 协议。交易;  大量 几",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15252,7 +23898,18 @@ const VocabData = {
           "w": "dump",
           "phon": "IdAmpl",
           "pos": "",
-          "cn": "丢弃",
+          "cn": "丢弃 倾倒;  倾销",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "we import",
+          "phon": "",
+          "pos": "",
+          "cn": "例",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15271,10 +23928,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "share",
+          "phon": "",
+          "pos": "",
+          "cn": "股份,股票; (在若千人之间分得的) 一份 共享;  分担",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "benefit",
           "phon": "/bengfitl",
           "pos": "",
-          "cn": "益处",
+          "cn": "益处 有利于;  获益",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15285,7 +23953,7 @@ const VocabData = {
           "w": "interest",
           "phon": "/Intrastl",
           "pos": "",
-          "cn": "使感兴趣",
+          "cn": "使感兴趣 兴趣;  利益;  利息",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15296,7 +23964,18 @@ const VocabData = {
           "w": "dividend",
           "phon": "/drvsdandl",
           "pos": "",
-          "cn": "红利",
+          "cn": "红利 股息",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "stock",
+          "phon": "Istok/",
+          "pos": "",
+          "cn": "股本;  股票;  库存",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15326,21 +24005,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "writelsign a cheque",
+          "w": "cash",
           "phon": "",
           "pos": "",
-          "cn": "开 /签支票",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "cash",
-          "phon": "Ikafl",
-          "pos": "",
-          "cn": "现金",
+          "cn": "现金 兑现 (支票)",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15351,7 +24019,7 @@ const VocabData = {
           "w": "coin",
           "phon": "IkInl",
           "pos": "",
-          "cn": "硬币",
+          "cn": "硬币 铸币;  创造 (新词语)",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15384,7 +24052,7 @@ const VocabData = {
           "w": "treasure",
           "phon": "/tre3al",
           "pos": "",
-          "cn": "珍品",
+          "cn": "金银财宝;  宝物 珍品",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15417,7 +24085,7 @@ const VocabData = {
           "w": "possess",
           "phon": "Ipa'zesl",
           "pos": "",
-          "cn": "拥有;  影响。控制",
+          "cn": "拥有;  影响。控制 占用=",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15428,7 +24096,7 @@ const VocabData = {
           "w": "sediment",
           "phon": "",
           "pos": "",
-          "cn": "坐下的东西 〉沉",
+          "cn": "坐下的东西 〉沉 坐下来的地方 〉拥有 ) ,",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15439,18 +24107,7 @@ const VocabData = {
           "w": "legacy",
           "phon": "Mlegasil",
           "pos": "",
-          "cn": "遗产",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "descend",
-          "phon": "Idr'sendl",
-          "pos": "",
-          "cn": "她是法国贵族的后裔。",
+          "cn": "遗产 遗赠",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15469,10 +24126,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "reimburse",
+          "w": "valuable",
+          "phon": "Ivaljuaball",
+          "pos": "adj.",
+          "cn": "贵重的;  很重要的 很值钱的 ,",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cheap",
+          "phon": "Itfi:pl",
+          "pos": "adj.",
+          "cn": "廉价的;  质劣价低的",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "incentive",
+          "phon": "/In'sentrv/",
+          "pos": "",
+          "cn": "激励 刺激 ,",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "salary",
+          "phon": "/salaril",
+          "pos": "",
+          "cn": "工资, (尤指按月领的)薪水",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "income",
+          "phon": "MkAml",
+          "pos": "",
+          "cn": "收入",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "payment",
+          "phon": "Ipelmantl",
+          "pos": "",
+          "cn": "支付;  支付的款项;  付款额",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "pay",
           "phon": "",
           "pos": "",
-          "cn": "赔偿,补偿",
+          "cn": "苹果支付 ) ,你更喜欢 哪一种支付方式呢?",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15484,17 +24207,6 @@ const VocabData = {
           "phon": "/petraull",
           "pos": "",
           "cn": "工资名单",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "remuneration",
-          "phon": "Irlimju:na'rerlan",
-          "pos": "",
-          "cn": "报酬",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15549,7 +24261,7 @@ const VocabData = {
           "w": "career",
           "phon": "Ikaral",
           "pos": "",
-          "cn": "职业,",
+          "cn": "职业, 事业;  职业生涯",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15568,6 +24280,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "lokjg'peifanl",
+          "phon": "",
+          "pos": "",
+          "cn": "占领, 占据;  职业",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "job",
           "phon": "Id3Db/",
           "pos": "",
@@ -15579,10 +24302,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "labour",
-          "phon": "Mleibal",
+          "w": "workforce",
+          "phon": "/'w3:kf3:s/",
           "pos": "",
-          "cn": "从事艰苦的体力劳动",
+          "cn": "劳动力;  全体员工",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "workaholic",
+          "phon": "",
+          "pos": "",
+          "cn": "工作狂",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15601,10 +24335,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "clerk",
-          "phon": "Ip3:sa'nel/",
+          "w": "personnel",
+          "phon": "",
           "pos": "n.",
-          "cn": "人员",
+          "cn": "人员 职员;  人事部门",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "clerk",
+          "phon": "Ikla:k/",
+          "pos": "",
+          "cn": "店员;  办事员;  接待员",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15615,7 +24360,7 @@ const VocabData = {
           "w": "intervjew",
           "phon": "/Intavju:l",
           "pos": "",
-          "cn": "对进行面试;  采访",
+          "cn": "对进行面试;  采访 面试;  采访",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15634,10 +24379,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "unemployment",
+          "phon": "",
+          "pos": "",
+          "cn": "几",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "hire",
           "phon": "Ihalal",
           "pos": "",
-          "cn": "几租赁 (业)",
+          "cn": "几租赁 (业) 租用",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15656,21 +24412,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "fire",
+          "w": "lay-off",
           "phon": "",
           "pos": "",
-          "cn": "火",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "lay-off",
-          "phon": "IlerDfI",
-          "pos": "",
-          "cn": "因岗位不足的 ) 解雇 ,",
+          "cn": "因岗位不足的 ) 解雇 , 裁员;  歇工期",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15689,10 +24434,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "resign",
-          "phon": "IrrzaInl",
+          "w": "sack",
+          "phon": "",
           "pos": "",
-          "cn": "辞职",
+          "cn": "大0袋。麻布袋 开除",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15701,9 +24446,9 @@ const VocabData = {
         },
         {
           "w": "result",
-          "phon": "Isakl",
+          "phon": "",
           "pos": "",
-          "cn": "大0袋。麻布袋",
+          "cn": "后果,结果 导致",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15722,10 +24467,32 @@ const VocabData = {
           ]
         },
         {
+          "w": "ioss",
+          "phon": "",
+          "pos": "",
+          "cn": "遗失;  损失;  亏损",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "opportunity",
           "phon": "/opa'tju:ngtil",
           "pos": "",
           "cn": "机会,时机",
+          "chapter": 16,
+          "chapterName": "社会经济",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "chance",
+          "phon": "Itja:nsl",
+          "pos": "",
+          "cn": "机会;  可能性",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15744,17 +24511,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "solve",
-          "phon": "IsDlvl",
-          "pos": "",
-          "cn": "我必须使他认识到解决这个问题的必要性。",
-          "chapter": 16,
-          "chapterName": "社会经济",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "sustainable",
           "phon": "Isa'stelnaball",
           "pos": "adj.",
@@ -15766,10 +24522,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "common",
-          "phon": "",
+          "w": "sanction",
+          "phon": "Isenklanl",
           "pos": "",
-          "cn": "目标。",
+          "cn": "对'实施制裁 批准;  制裁",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15777,10 +24533,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "improve",
+          "w": "collaborate",
           "phon": "",
           "pos": "",
-          "cn": "他提出一个建议以改进那项计划",
+          "cn": "倒 ) 合作) ; col (一起) + lapse (落",
           "chapter": 16,
           "chapterName": "社会经济",
           "tags": [
@@ -15794,10 +24550,21 @@ const VocabData = {
       "name": "法律法规",
       "words": [
         {
-          "w": "good",
+          "w": "boter",
           "phon": "",
           "pos": "",
-          "cn": "亚里士多德",
+          "cn": "士律去规 蕈-",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "iaw",
+          "phon": "/13:1",
+          "pos": "n.",
+          "cn": "法律;  规律;  定理",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -15819,7 +24586,7 @@ const VocabData = {
           "w": "rule",
           "phon": "Iru:ll",
           "pos": "",
-          "cn": "规则",
+          "cn": "规则 统治",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -15874,7 +24641,7 @@ const VocabData = {
           "w": "charter",
           "phon": "/t「a:tal",
           "pos": "",
-          "cn": "宪章",
+          "cn": "宪章 飞机等 )",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -15886,6 +24653,17 @@ const VocabData = {
           "phon": "/prautakoll",
           "pos": "",
           "cn": "议定书。协议;  礼仪",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "internet protocol",
+          "phon": "",
+          "pos": "",
+          "cn": "网际协议) ; prototype (第一个形 式 原型) , 始祖马 ) ,",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -15907,7 +24685,7 @@ const VocabData = {
           "w": "norm",
           "phon": "In:m/",
           "pos": "",
-          "cn": "标准; [~s]行为准则",
+          "cn": "标准; [~s]行为准则 规范",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -15960,7 +24738,7 @@ const VocabData = {
         },
         {
           "w": "admission",
-          "phon": "",
+          "phon": "!ad'mifanl",
           "pos": "",
           "cn": "承认;  人场费;  准许进入",
           "chapter": 17,
@@ -15973,7 +24751,7 @@ const VocabData = {
           "w": "perform",
           "phon": "",
           "pos": "",
-          "cn": "履行,",
+          "cn": "履行, 执行",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -15995,7 +24773,7 @@ const VocabData = {
           "w": "default",
           "phon": "Idrf3:lt/",
           "pos": "",
-          "cn": "不支付",
+          "cn": "不支付 不履行 违约;  默认值",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16014,10 +24792,109 @@ const VocabData = {
           ]
         },
         {
-          "w": "legislate",
-          "phon": "Mled3sslertl",
+          "w": "constraint",
+          "phon": "",
           "pos": "",
-          "cn": "禁止在工作场所出",
+          "cn": "约束。限制;  克制",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "official",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "正式的 官方的",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mandatory",
+          "phon": "/mandataril",
+          "pos": "adj.",
+          "cn": "法定的,强制的",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "command",
+          "phon": "",
+          "pos": "",
+          "cn": "命令) . 要求;  需要)。 制执行 )",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "potent",
+          "phon": "/pautantl",
+          "pos": "adj.",
+          "cn": "强有力的 很有效的",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "obligation",
+          "phon": "",
+          "pos": "",
+          "cn": "义务。责任",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "court",
+          "phon": "/3:t",
+          "pos": "",
+          "cn": "法院;  庭院",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "supreme",
+          "phon": "Iso'pri:ml",
+          "pos": "adj.",
+          "cn": "最高的;  最大的",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "enat",
+          "phon": "Inaktl",
+          "pos": "",
+          "cn": "通过 (法律 );  表演",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "enact",
+          "phon": "",
+          "pos": "",
+          "cn": "法律法规",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16037,9 +24914,9 @@ const VocabData = {
         },
         {
           "w": "fair",
-          "phon": "",
+          "phon": "!feal",
           "pos": "adj.",
-          "cn": "公平的 ,",
+          "cn": "公平的 , 公正的",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16050,7 +24927,7 @@ const VocabData = {
           "w": "just",
           "phon": "Id3Astl",
           "pos": "adj.",
-          "cn": "公正的;  正义的",
+          "cn": "公正的;  正义的 刚刚;  仅仅",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16061,7 +24938,7 @@ const VocabData = {
           "w": "justice",
           "phon": "",
           "pos": "",
-          "cn": "公平;",
+          "cn": "公平; 证明 正当 法官",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16072,7 +24949,7 @@ const VocabData = {
           "w": "prejudice",
           "phon": "/pred3gdssl",
           "pos": "",
-          "cn": "偏见",
+          "cn": "偏见 成见",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16091,10 +24968,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "mediate",
-          "phon": "/ni:diertl",
+          "w": "prosecute",
+          "phon": "",
           "pos": "",
-          "cn": "调解",
+          "cn": "检举。起诉",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "prosecutor",
+          "phon": "",
+          "pos": "",
+          "cn": "几",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "persecution",
+          "phon": "",
+          "pos": "",
+          "cn": "诉人 几",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "condemn",
+          "phon": "Ikndeml",
+          "pos": "",
+          "cn": "指责 谴责",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "complain",
+          "phon": "Ikam'pleInl",
+          "pos": "",
+          "cn": "抱怨;  投诉",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "boycott",
+          "phon": "",
+          "pos": "",
+          "cn": "拒绝购买",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "session",
+          "phon": "Isefanl",
+          "pos": "",
+          "cn": "会议;  会期",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16146,6 +25089,72 @@ const VocabData = {
           ]
         },
         {
+          "w": "whisper",
+          "phon": "",
+          "pos": "",
+          "cn": "低声说;  私下谈论",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mutter",
+          "phon": "",
+          "pos": "",
+          "cn": "轻声低语;  小声抱怨",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "silent",
+          "phon": "/sallantl",
+          "pos": "adj.",
+          "cn": "沉默的;  寂静无声的",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mute",
+          "phon": "Iju:tl",
+          "pos": "adj.",
+          "cn": "缄默的;  哑的;  无声的 哑巴",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "investigate",
+          "phon": "Iin'vestggertl",
+          "pos": "",
+          "cn": "调查",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "witness",
+          "phon": "",
+          "pos": "",
+          "cn": "巳u 法律法规",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "justify",
           "phon": "/d3Astsfal",
           "pos": "",
@@ -16169,9 +25178,9 @@ const VocabData = {
         },
         {
           "w": "suitable",
-          "phon": "Msu:tabali",
+          "phon": "",
           "pos": "adj.",
-          "cn": "合适的,",
+          "cn": "合适的, 适宜的",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16201,10 +25210,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "suspect",
-          "phon": "",
+          "w": "trial",
+          "phon": "/tralall",
           "pos": "",
-          "cn": "嫌疑犯",
+          "cn": "试验;  审判",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16215,7 +25224,7 @@ const VocabData = {
           "w": "sentence",
           "phon": "/sentansl",
           "pos": "",
-          "cn": "判决",
+          "cn": "判决 宣判",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16227,6 +25236,39 @@ const VocabData = {
           "phon": "",
           "pos": "",
           "cn": "逮捕",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "prizz",
+          "phon": "",
+          "pos": "",
+          "cn": "几监狱;  监禁",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "oversee",
+          "phon": "",
+          "pos": "",
+          "cn": "监管",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "supervise",
+          "phon": "",
+          "pos": "",
+          "cn": "监督,管理。指导",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16259,7 +25301,7 @@ const VocabData = {
           "w": "sin",
           "phon": "IsInl",
           "pos": "",
-          "cn": "罪孽",
+          "cn": "罪孽 犯戒律",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16289,10 +25331,65 @@ const VocabData = {
           ]
         },
         {
+          "w": "bribe",
+          "phon": "",
+          "pos": "",
+          "cn": "贿赂 向'行贿",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rob",
+          "phon": "Irobl",
+          "pos": "",
+          "cn": "抢劫;  夺走",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sth",
+          "phon": "",
+          "pos": "",
+          "cn": "抢劫某人的某物",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pirate",
+          "phon": "/palaratl",
+          "pos": "",
+          "cn": "海盗;  盗版者",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "steal",
+          "phon": "Isti:ll",
+          "pos": "",
+          "cn": "偷。窃取;  剽窃",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "thief",
           "phon": "/Oi:fl",
           "pos": "",
-          "cn": "窃贼,",
+          "cn": "窃贼, 偷窃犯",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16355,21 +25452,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "trap",
-          "phon": "Itrepl",
-          "pos": "",
-          "cn": "陷阱;  诡计",
-          "chapter": 17,
-          "chapterName": "法律法规",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "trick",
           "phon": "Itrik/",
           "pos": "",
-          "cn": "诡计",
+          "cn": "诡计 哄骗",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16380,7 +25466,7 @@ const VocabData = {
           "w": "tricker",
           "phon": "",
           "pos": "",
-          "cn": "施诡计的",
+          "cn": "施诡计的 人 骗子",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16413,7 +25499,7 @@ const VocabData = {
           "w": "stigma",
           "phon": "/stigmal",
           "pos": "",
-          "cn": "耻辱",
+          "cn": "耻辱 污名",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16433,7 +25519,7 @@ const VocabData = {
         },
         {
           "w": "conform",
-          "phon": "Ikanf:m",
+          "phon": "",
           "pos": "",
           "cn": "遵守;  顺从;  相符合",
           "chapter": 17,
@@ -16443,7 +25529,29 @@ const VocabData = {
           ]
         },
         {
-          "w": "lau'berl",
+          "w": "coat",
+          "phon": "",
+          "pos": "",
+          "cn": "外套必须与穿衣者的身材相符合。",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "reconcile",
+          "phon": "/rekansarll",
+          "pos": "",
+          "cn": "使和解;  调和",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "obey",
           "phon": "",
           "pos": "",
           "cn": "服从,顺从",
@@ -16467,8 +25575,8 @@ const VocabData = {
         {
           "w": "fine",
           "phon": "IfaInl",
-          "pos": "",
-          "cn": "罚款",
+          "pos": "adj.",
+          "cn": "罚款 美好的",
           "chapter": 17,
           "chapterName": "法律法规",
           "tags": [
@@ -16496,6 +25604,193 @@ const VocabData = {
           "tags": [
             "writing"
           ]
+        },
+        {
+          "w": "ownership",
+          "phon": "/aunafIpl",
+          "pos": "",
+          "cn": "所有权。物主身份",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "copyright",
+          "phon": "/kopirattl",
+          "pos": "",
+          "cn": "版权",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "privilege",
+          "phon": "/prrvslrd3l",
+          "pos": "",
+          "cn": "特权",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "accredit",
+          "phon": "",
+          "pos": "",
+          "cn": "把:'归于;  委任",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "clue",
+          "phon": "",
+          "pos": "",
+          "cn": "线索;  提示",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "clew",
+          "phon": "",
+          "pos": "",
+          "cn": "着线原路返回。因此,",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "acess",
+          "phon": "Iaksesl",
+          "pos": "",
+          "cn": "的机会 或权利 ) 通路,人径;  查阅 (或使用 接近 -",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "anonymous",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "匿名的",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "false",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "不正确的;  虚假的;  伪造的",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "on libraries seems",
+          "phon": "",
+          "pos": "",
+          "cn": "减少图书馆的数量并不是",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "genuine",
+          "phon": "/d3enjusnl",
+          "pos": "adj.",
+          "cn": "真诚的;  真正的",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "procedure",
+          "phon": "Ipra'si:d3al",
+          "pos": "",
+          "cn": "手续;  程序",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "routine",
+          "phon": "Iru:ti:nl",
+          "pos": "adj.",
+          "cn": "例行公事;  常规 惯例的",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "consequence",
+          "phon": "/kDnsakwansl",
+          "pos": "",
+          "cn": "后果",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "demand",
+          "phon": "Idi'ma:ndl",
+          "pos": "",
+          "cn": "需要 要求;  需求;  需求量",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "request",
+          "phon": "Irr'kwestl",
+          "pos": "n.",
+          "cn": "要求,请求",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "a seat belt",
+          "phon": "",
+          "pos": "",
+          "cn": "根据法律规定。你应系上安全带",
+          "chapter": 17,
+          "chapterName": "法律法规",
+          "tags": [
+            "writing"
+          ]
         }
       ]
     },
@@ -16504,120 +25799,10 @@ const VocabData = {
       "name": "沙场争锋",
       "words": [
         {
-          "w": "la'npnsmasl",
-          "phon": "",
-          "pos": "adj.",
-          "cn": "匿名的",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "synonym",
-          "phon": "If3:lsl",
-          "pos": "adj.",
-          "cn": "不正确的;  虚假的;  伪造的",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "on libraries seems",
+          "w": "maybe",
           "phon": "",
           "pos": "",
-          "cn": "减少图书馆的数量并不是",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "genuine",
-          "phon": "/d3enjusnl",
-          "pos": "adj.",
-          "cn": "真诚的;  真正的",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "procedure",
-          "phon": "Ipra'si:d3al",
-          "pos": "",
-          "cn": "手续;  程序",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "routine",
-          "phon": "Iru:ti:nl",
-          "pos": "",
-          "cn": "例行公事;  常规",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "consequence",
-          "phon": "/kDnsakwansl",
-          "pos": "",
-          "cn": "后果",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "demand",
-          "phon": "Idi'ma:ndl",
-          "pos": "",
-          "cn": "需要",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "request",
-          "phon": "Irr'kwestl",
-          "pos": "n.",
-          "cn": "要求,请求",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "require",
-          "phon": "Irrkwalal",
-          "pos": "",
-          "cn": "根据法律规定。你应系上安全带",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "petition",
-          "phon": "Is'tjanl",
-          "pos": "",
-          "cn": "请愿书;  上诉",
+          "cn": "都会来找你",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16650,7 +25835,7 @@ const VocabData = {
           "w": "enormity",
           "phon": "/I'n:mgtil",
           "pos": "",
-          "cn": "巨大;  滔天大罪",
+          "cn": "几 巨大;  滔天大罪",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16661,7 +25846,7 @@ const VocabData = {
           "w": "campaign",
           "phon": "Ikampelnl",
           "pos": "",
-          "cn": "政治 /运动",
+          "cn": "政治 /运动 战役; (社会 参加(或领导) 运动",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16673,17 +25858,6 @@ const VocabData = {
           "phon": "",
           "pos": "",
           "cn": "战斗,战役",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "struggle",
-          "phon": "MstrAgall",
-          "pos": "",
-          "cn": "父亲努力控制住自己的脾气。",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16705,7 +25879,18 @@ const VocabData = {
           "w": "bombard",
           "phon": "",
           "pos": "",
-          "cn": "轰击",
+          "cn": "轰击 轰炸;  连珠炮般质问 或批评 )",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "bomb",
+          "phon": "IboIl",
+          "pos": "",
+          "cn": "炸弹",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16736,7 +25921,7 @@ const VocabData = {
         },
         {
           "w": "gunpowder",
-          "phon": "Iglnpaudali",
+          "phon": "",
           "pos": "",
           "cn": "火药",
           "chapter": 18,
@@ -16749,7 +25934,7 @@ const VocabData = {
           "w": "tank",
           "phon": "Itankl",
           "pos": "",
-          "cn": "入泥中",
+          "cn": "坦克;  罐。槽,缸",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16760,7 +25945,7 @@ const VocabData = {
           "w": "cannon",
           "phon": "/'kananl",
           "pos": "",
-          "cn": "加农炮;(飞机上的)  自动机关炮",
+          "cn": "加农炮;(飞机上的)  自动机关炮 大炮",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16771,7 +25956,18 @@ const VocabData = {
           "w": "missile",
           "phon": "/IsaIll",
           "pos": "",
-          "cn": "导弹;  投掷物",
+          "cn": "导弹;  投掷物 手榴弹是",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "weapon",
+          "phon": "/'wepanl",
+          "pos": "",
+          "cn": "武器。兵器;  手段",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16783,6 +25979,17 @@ const VocabData = {
           "phon": "/pIstll",
           "pos": "",
           "cn": "手枪",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "rifle",
+          "phon": "",
+          "pos": "",
+          "cn": "步枪",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16804,18 +26011,7 @@ const VocabData = {
           "w": "target",
           "phon": "Ita:gatl",
           "pos": "",
-          "cn": "对象",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "deflect",
-          "phon": "Idiflektl",
-          "pos": "",
-          "cn": "偏离原本的路径。",
+          "cn": "对象 靶子; 目标,",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16848,18 +26044,7 @@ const VocabData = {
           "w": "flamboyant",
           "phon": "",
           "pos": "",
-          "cn": "走动",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "flare",
-          "phon": "Ical",
-          "pos": "",
-          "cn": "例 一",
+          "cn": "走动 引人注目的,炫耀的) 。那么 flamingo 就是 的一团 火焰 (flam) 猜猜是什么?",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16870,7 +26055,7 @@ const VocabData = {
           "w": "glitter",
           "phon": "/glitol",
           "pos": "",
-          "cn": "发光小物",
+          "cn": "发光小物 闪烁;  闪现",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16881,7 +26066,7 @@ const VocabData = {
           "w": "glow",
           "phon": "Iglaul",
           "pos": "",
-          "cn": "发出微弱稳定的光",
+          "cn": "发出微弱稳定的光 微弱稳定的光",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16892,7 +26077,18 @@ const VocabData = {
           "w": "blade",
           "phon": "Iblerdl",
           "pos": "",
-          "cn": "锋;",
+          "cn": "锋; 刃 螺旋桨的 )  叶片",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "sword",
+          "phon": "IS3:d/",
+          "pos": "",
+          "cn": "刀, 剑",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16903,7 +26099,7 @@ const VocabData = {
           "w": "hammer",
           "phon": "Ihamal",
           "pos": "",
-          "cn": "锤,榔头",
+          "cn": "锤,榔头 用锤击",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16922,10 +26118,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "atrow",
+          "phon": "/'ar3Ul",
+          "pos": "n.",
+          "cn": "箭;  箭头",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "spear",
           "phon": "Ispral",
           "pos": "",
-          "cn": "矛;  标枪",
+          "cn": "矛;  标枪 用尖物刺穿",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16947,7 +26154,7 @@ const VocabData = {
           "w": "shield",
           "phon": "/Fiildl",
           "pos": "",
-          "cn": "盾;  防护物",
+          "cn": "盾;  防护物 保护",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -16988,10 +26195,32 @@ const VocabData = {
           ]
         },
         {
+          "w": "deploy",
+          "phon": "Idrpl3Il",
+          "pos": "",
+          "cn": "部署",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "hit",
+          "phon": "",
+          "pos": "",
+          "cn": "击。打;  击中",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "beat",
           "phon": "Ibi:tl",
           "pos": "",
-          "cn": "节拍;  击鼓声; (心脏",
+          "cn": "节拍;  击鼓声; (心脏 等的)跳动",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17022,20 +26251,9 @@ const VocabData = {
         },
         {
           "w": "chop",
-          "phon": "ItfDpi",
-          "pos": "",
-          "cn": "切碎 (食物 );  劈 (木头)",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "salad",
           "phon": "",
           "pos": "",
-          "cn": "要做色拉就得把洋葱剁碎。",
+          "cn": "切碎 (食物 );  劈 (木头)",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17068,7 +26286,7 @@ const VocabData = {
           "w": "predicament",
           "phon": "",
           "pos": "",
-          "cn": "其中 plight 除了作 \"困境\"  讲。还表示",
+          "cn": "其中 plight 除了作 \"困境\"  讲。还表示 如果你已经和一个女 婚约;  誓约\"  和 \"承诺;  保证\" 孩有了婚约 ,但她现在还不能和你住在一起。与你彼此 那可真是让人进退两 你也不能够去找其他女孩. 关照 . 难的 plight !",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17090,7 +26308,7 @@ const VocabData = {
           "w": "pitfall",
           "phon": "/pItfo:ll",
           "pos": "",
-          "cn": "困难",
+          "cn": "困难 陷阱;  危险",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17101,7 +26319,7 @@ const VocabData = {
           "w": "pit",
           "phon": "",
           "pos": "",
-          "cn": "俗语;",
+          "cn": "俗语; 长一智)",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17110,7 +26328,7 @@ const VocabData = {
         },
         {
           "w": "conspiracy",
-          "phon": "Ikan'spIrasii",
+          "phon": "",
           "pos": "",
           "cn": "阴谋,密谋,合谋",
           "chapter": 18,
@@ -17122,8 +26340,8 @@ const VocabData = {
         {
           "w": "destitute",
           "phon": "/deststju:tl",
-          "pos": "",
-          "cn": "一无所有的;  缺乏的",
+          "pos": "adj.",
+          "cn": "一无所有的;  缺乏的 赤贫的 ,",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17134,7 +26352,7 @@ const VocabData = {
           "w": "famine",
           "phon": "/famsn",
           "pos": "",
-          "cn": "饥荒",
+          "cn": "饥荒 那一年",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17164,6 +26382,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "seize",
+          "phon": "Isi:zl",
+          "pos": "",
+          "cn": "抓住;  夺取",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "pursue",
           "phon": "Ia'sju:l",
           "pos": "",
@@ -17178,7 +26407,7 @@ const VocabData = {
           "w": "threat",
           "phon": "IGretl",
           "pos": "",
-          "cn": "威胁",
+          "cn": "威胁 恐吓",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17208,21 +26437,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "invade",
-          "phon": "",
-          "pos": "",
-          "cn": "侵犯",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "trespass",
           "phon": "/trespasl",
-          "pos": "",
-          "cn": "非法侵入",
+          "pos": "n.",
+          "cn": "非法侵入 罪过;  非法侵入",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17233,29 +26451,7 @@ const VocabData = {
           "w": "intrude",
           "phon": "IIn'tru:dl",
           "pos": "",
-          "cn": "闯人",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "attack",
-          "phon": "",
-          "pos": "",
-          "cn": "例 二",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "assault",
-          "phon": "",
-          "pos": "",
-          "cn": "猛攻;〈身体)侵犯",
+          "cn": "闯人 侵入;  侵扰",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17266,7 +26462,7 @@ const VocabData = {
           "w": "challenge",
           "phon": "/tfalsnd3",
           "pos": "",
-          "cn": "向挑战",
+          "cn": "向挑战 挑战",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17277,7 +26473,7 @@ const VocabData = {
           "w": "siege",
           "phon": "Isi:d3l",
           "pos": "",
-          "cn": "围攻",
+          "cn": "围攻 包围",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17288,7 +26484,7 @@ const VocabData = {
           "w": "enclose",
           "phon": "/In'klauzl",
           "pos": "",
-          "cn": "随信附上",
+          "cn": "随信附上 包围;  把:.'封入信封,",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17318,10 +26514,98 @@ const VocabData = {
           ]
         },
         {
-          "w": "prevent",
-          "phon": "Ipri'ventl",
+          "w": "coase",
+          "phon": "",
           "pos": "",
-          "cn": "防止;  阻止,",
+          "cn": "他们终于由于缺乏资金而停工了",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "cease",
+          "phon": "",
+          "pos": "",
+          "cn": "辨析 stop ,",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "oppose",
+          "phon": "I3pauzl",
+          "pos": "",
+          "cn": "抵制 反对 ,",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "oppress",
+          "phon": "Ipresl",
+          "pos": "",
+          "cn": "压迫 压制;  使压抑",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "counter",
+          "phon": "",
+          "pos": "",
+          "cn": "柜台;  工作台",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "deter",
+          "phon": "/dr't3:/",
+          "pos": "",
+          "cn": "阻止,威慑住",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "forbid",
+          "phon": "",
+          "pos": "",
+          "cn": "阻止",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "prohibit",
+          "phon": "Ipra'hibstl",
+          "pos": "",
+          "cn": "禁止,不允许",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "revolt",
+          "phon": "Iri'vaUltl",
+          "pos": "n.",
+          "cn": "叛乱;  反抗",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17373,6 +26657,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "never",
+          "phon": "",
+          "pos": "",
+          "cn": "位真正的爱国者永远不会出卖自己的国家。",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "patron",
           "phon": "",
           "pos": "",
@@ -17387,18 +26682,7 @@ const VocabData = {
           "w": "blame",
           "phon": "IbleIml",
           "pos": "",
-          "cn": "工具差。",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "reproach",
-          "phon": "Irrprautll",
-          "pos": "",
-          "cn": "可指摘",
+          "cn": "几",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17420,7 +26704,7 @@ const VocabData = {
           "w": "proof",
           "phon": "Iru:fl",
           "pos": "",
-          "cn": "证据",
+          "cn": "证据 证明",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17453,18 +26737,7 @@ const VocabData = {
           "w": "terrific",
           "phon": "Ita'rifik/",
           "pos": "adj.",
-          "cn": "极好的;  很大的,",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "terrific crash",
-          "phon": "",
-          "pos": "",
-          "cn": "天花板塌了下来。",
+          "cn": "极好的;  很大的, 很强的",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17486,7 +26759,7 @@ const VocabData = {
           "w": "alarm",
           "phon": "",
           "pos": "",
-          "cn": "忧虑;  警报;  警报器",
+          "cn": "忧虑;  警报;  警报器 惊恐,",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17497,7 +26770,7 @@ const VocabData = {
           "w": "dread",
           "phon": "Idredl",
           "pos": "",
-          "cn": "极为害怕,非常担心",
+          "cn": "极为害怕,非常担心 恐惧,忧虑",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17516,8 +26789,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "limlit",
-          "phon": "/tenfan",
+          "w": "tension",
+          "phon": "",
           "pos": "",
           "cn": "紧张;  拉紧状态",
           "chapter": 18,
@@ -17530,7 +26803,7 @@ const VocabData = {
           "w": "turbulent",
           "phon": "Mt3:bjglantl",
           "pos": "adj.",
-          "cn": "动荡的,",
+          "cn": "动荡的, 混乱的;  汹涌的",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17615,17 +26888,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "contend",
-          "phon": "/kantendl",
-          "pos": "",
-          "cn": "这不是他的过错",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "rival",
           "phon": "/ralvall",
           "pos": "",
@@ -17637,8 +26899,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "contest",
-          "phon": "Ikam'petstal",
+          "w": "competitor",
+          "phon": "",
           "pos": "",
           "cn": "竞争者。对手",
           "chapter": 18,
@@ -17651,7 +26913,7 @@ const VocabData = {
           "w": "enemy",
           "phon": "",
           "pos": "",
-          "cn": "敌人",
+          "cn": "敌人 仇敌;  敌兵,敌军",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17681,19 +26943,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "manoeuvre",
-          "phon": "Ialnu:val",
-          "pos": "",
-          "cn": "策略,巧计; [~s] 军事演习",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "maneuver",
-          "phon": "/blu:printl",
+          "w": "blueprint",
+          "phon": "",
           "pos": "",
           "cn": "蓝图;  行动计划",
           "chapter": 18,
@@ -17704,9 +26955,9 @@ const VocabData = {
         },
         {
           "w": "compel",
-          "phon": "Ikampel'",
+          "phon": "",
           "pos": "",
-          "cn": "强迫",
+          "cn": "强迫 迫使",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17725,10 +26976,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "protest",
+          "w": "refute",
           "phon": "",
           "pos": "",
-          "cn": "抗议;  申明",
+          "cn": "反驳 驳斥;  否认",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17736,10 +26987,98 @@ const VocabData = {
           ]
         },
         {
-          "w": "because",
+          "w": "camfort",
           "phon": "",
           "pos": "",
-          "cn": "他重新考虑了自己在这件事情上的决定。",
+          "cn": "观点。",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "might",
+          "phon": "",
+          "pos": "",
+          "cn": "力量。威力",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "force",
+          "phon": "",
+          "pos": "",
+          "cn": "力量;  武力",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "reinforce",
+          "phon": "",
+          "pos": "",
+          "cn": "增援;  增强,加强;  加固",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "mitigate",
+          "phon": "",
+          "pos": "",
+          "cn": "减轻 缓和",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "comfort",
+          "phon": "",
+          "pos": "",
+          "cn": "安慰;  舒适",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "event",
+          "phon": "",
+          "pos": "",
+          "cn": "事件,大事;  公开活动",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "matter",
+          "phon": "/matal",
+          "pos": "",
+          "cn": "事情;  物质",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "savage",
+          "phon": "Isavld3/",
+          "pos": "adj.",
+          "cn": "凶猛的 凶狠地攻击 野蛮人 野蛮的 ,",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17750,7 +27089,7 @@ const VocabData = {
           "w": "reckless",
           "phon": "/reklasl",
           "pos": "adj.",
-          "cn": "鲁莽的.",
+          "cn": "鲁莽的. 不计后果的",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17783,7 +27122,7 @@ const VocabData = {
           "w": "evil",
           "phon": "/i:vall",
           "pos": "adj.",
-          "cn": "邪恶的",
+          "cn": "邪恶的 邪恶;  祸害",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17792,7 +27131,7 @@ const VocabData = {
         },
         {
           "w": "devil",
-          "phon": "",
+          "phon": "/devall",
           "pos": "",
           "cn": "魔鬼;  恶棍",
           "chapter": 18,
@@ -17805,18 +27144,7 @@ const VocabData = {
           "w": "punishment",
           "phon": "IpAnIJmantl",
           "pos": "",
-          "cn": "处罚",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "execute",
-          "phon": "/eksskju:tl",
-          "pos": "",
-          "cn": "我们可以在 20天内完成这一大批订单。",
+          "cn": "刀 处罚 惩罚 , 惩罚",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17836,9 +27164,9 @@ const VocabData = {
         },
         {
           "w": "sacrifice",
-          "phon": "",
+          "phon": "Isakrgfaisl",
           "pos": "",
-          "cn": "如: sacred (神圣的) ;",
+          "cn": "牺牲;  以.作祭品 牺牲;  献祭",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17850,17 +27178,6 @@ const VocabData = {
           "phon": "/ka3ualtil",
           "pos": "",
           "cn": "伤亡人员",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "bury",
-          "phon": "Iberil",
-          "pos": "",
-          "cn": "埋葬了他的好友之后,他感到很弧独。",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17882,7 +27199,7 @@ const VocabData = {
           "w": "grave",
           "phon": "Igrervl",
           "pos": "adj.",
-          "cn": "庄重的,严肃的",
+          "cn": "庄重的,严肃的 坟墓;  死亡",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17893,7 +27210,7 @@ const VocabData = {
           "w": "tomb",
           "phon": "/tu:lnl",
           "pos": "",
-          "cn": "坟墓,",
+          "cn": "坟墓, 壕",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17915,7 +27232,7 @@ const VocabData = {
           "w": "maritime",
           "phon": "/margtalml",
           "pos": "adj.",
-          "cn": "海的",
+          "cn": "海的 海上的,海事的",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17934,10 +27251,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "fleet",
+          "phon": "",
+          "pos": "",
+          "cn": "舰队。船队;  机群,车队",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "troop",
           "phon": "Itru:pl",
           "pos": "",
-          "cn": "一群,",
+          "cn": "一群, 结队前行 一队; [~s] 军队",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -17956,17 +27284,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "hover",
-          "phon": "/hoval",
-          "pos": "",
-          "cn": "机悬停在人群上空。",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
           "w": "prolong",
           "phon": "",
           "pos": "",
@@ -17978,8 +27295,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "proceed",
-          "phon": "/prougresl n. 前进;  进步;  进程",
+          "w": "progress",
+          "phon": "",
           "pos": "",
           "cn": "沙场争锋",
           "chapter": 18,
@@ -17992,7 +27309,7 @@ const VocabData = {
           "w": "military",
           "phon": "/'mllatril",
           "pos": "adj.",
-          "cn": "军事的 ,",
+          "cn": "军事的 , 军用的",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18014,7 +27331,7 @@ const VocabData = {
           "w": "poison",
           "phon": "/p3Izanl",
           "pos": "",
-          "cn": "毒药",
+          "cn": "毒物, 毒药 毒害",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18025,7 +27342,7 @@ const VocabData = {
           "w": "devastate",
           "phon": "",
           "pos": "",
-          "cn": "摧毁",
+          "cn": "摧毁 毁坏,",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18037,6 +27354,72 @@ const VocabData = {
           "phon": "Iriskl",
           "pos": "",
           "cn": "危险,风险",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "adventure",
+          "phon": "",
+          "pos": "",
+          "cn": "冒险,冒险经历",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "peril",
+          "phon": "",
+          "pos": "",
+          "cn": "重大危险;  险情,危险",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "catastrophe",
+          "phon": "",
+          "pos": "",
+          "cn": "重大灾难 大祸",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "collapse",
+          "phon": "",
+          "pos": "n.",
+          "cn": "倒塌;  崩溃",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "torture",
+          "phon": "",
+          "pos": "",
+          "cn": "拷问;  痛苦。折磨",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "damage",
+          "phon": "",
+          "pos": "n.",
+          "cn": "损害;  伤害",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18056,7 +27439,7 @@ const VocabData = {
         },
         {
           "w": "mislead",
-          "phon": "IIsli:d'",
+          "phon": "",
           "pos": "",
           "cn": "使误入歧途",
           "chapter": 18,
@@ -18099,6 +27482,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "he immediately sounded",
+          "phon": "",
+          "pos": "",
+          "cn": "撤退",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
           "w": "withdraw",
           "phon": "",
           "pos": "",
@@ -18124,7 +27518,7 @@ const VocabData = {
           "w": "to",
           "phon": "",
           "pos": "",
-          "cn": "沉迷于,",
+          "cn": "沉迷于, 听",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18136,17 +27530,6 @@ const VocabData = {
           "phon": "Iskelpl",
           "pos": "",
           "cn": "逃跑;  逃脱;  逃避",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "nl",
-          "phon": "",
-          "pos": "",
-          "cn": "他从那场大火里设法逃了出来。",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18169,39 +27552,6 @@ const VocabData = {
           "phon": "Ikwitl",
           "pos": "",
           "cn": "放弃,停止;  辞去;  离开",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "abandon",
-          "phon": "",
-          "pos": "",
-          "cn": "放弃希望",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "forgo",
-          "phon": "If3:'gaUl",
-          "pos": "",
-          "cn": "放弃",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "discard",
-          "phon": "Idis'ka:dl",
-          "pos": "",
-          "cn": "过时的理论",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18234,7 +27584,7 @@ const VocabData = {
           "w": "safeguard",
           "phon": "Mserfga:dl",
           "pos": "",
-          "cn": "保护措施",
+          "cn": "保护措施 保护 保卫",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18242,10 +27592,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "defeat",
-          "phon": "Idrfi:tl",
-          "pos": "n.",
-          "cn": "失败",
+          "w": "resist",
+          "phon": "",
+          "pos": "",
+          "cn": "反对;  抵御;  忍住",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18257,6 +27607,39 @@ const VocabData = {
           "phon": "Mkaptfol",
           "pos": "",
           "cn": "战利品",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "victory",
+          "phon": "/viktaril",
+          "pos": "",
+          "cn": "胜利 成功",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "triumph",
+          "phon": "/tralamfl",
+          "pos": "",
+          "cn": "伟大胜利 , 非凡的成功",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "arch of triumph",
+          "phon": "",
+          "pos": "",
+          "cn": "语; 凯旋门 ) ,",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18311,18 +27694,7 @@ const VocabData = {
           "w": "medal",
           "phon": "/medll",
           "pos": "",
-          "cn": "维多利亚赢得金牌的那一刻真是",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "honour",
-          "phon": "/Dnal",
-          "pos": "",
-          "cn": "尊敬。敬意;  荣誉",
+          "cn": "勋章,奖章",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18332,8 +27704,8 @@ const VocabData = {
         {
           "w": "glorious",
           "phon": "",
-          "pos": "",
-          "cn": "荣耀的",
+          "pos": "adj.",
+          "cn": "荣耀的 光荣的 ,",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18341,32 +27713,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "contribute",
-          "phon": "Ikan'tribju:tl",
+          "w": "owe",
+          "phon": "",
           "pos": "",
-          "cn": "讨论中很少发言",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "devote",
-          "phon": "Idr'vautl",
-          "pos": "",
-          "cn": "她继续致力于研究工作。",
-          "chapter": 18,
-          "chapterName": "沙场争锋",
-          "tags": [
-            "reading"
-          ]
-        },
-        {
-          "w": "guard",
-          "phon": "Iga:dl",
-          "pos": "",
-          "cn": "警卫员",
+          "cn": "应把.+归功于;  欠 (情) ,感激",
           "chapter": 18,
           "chapterName": "沙场争锋",
           "tags": [
@@ -18394,6 +27744,72 @@ const VocabData = {
           "tags": [
             "reading"
           ]
+        },
+        {
+          "w": "spy",
+          "phon": "Ispall",
+          "pos": "",
+          "cn": "间谍。特务 搜集情报,从事间谍活动",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "scout",
+          "phon": "Iskautl",
+          "pos": "",
+          "cn": "侦察员,侦察机 昂 搜寻",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "enenasi",
+          "phon": "",
+          "pos": "",
+          "cn": "私人撒信: 加上面微信",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "general",
+          "phon": "/d3enarall",
+          "pos": "adj.",
+          "cn": "将军 总的; 一般性的",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "soldier",
+          "phon": "/'s3U1d33/",
+          "pos": "",
+          "cn": "战士, 士兵",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
+        },
+        {
+          "w": "veteran",
+          "phon": "/vetaranl",
+          "pos": "",
+          "cn": "老兵;  老手",
+          "chapter": 18,
+          "chapterName": "沙场争锋",
+          "tags": [
+            "reading"
+          ]
         }
       ]
     },
@@ -18401,50 +27817,6 @@ const VocabData = {
       "id": 19,
       "name": "社会角色",
       "words": [
-        {
-          "w": "enenasi",
-          "phon": "",
-          "pos": "",
-          "cn": "私人撒信:",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "general",
-          "phon": "/d3enarall",
-          "pos": "adj.",
-          "cn": "总的; 一般性的",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "soldier",
-          "phon": "/'s3U1d33/",
-          "pos": "",
-          "cn": "战士,",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "veteran",
-          "phon": "",
-          "pos": "",
-          "cn": "晰!",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
         {
           "w": "pioneer",
           "phon": "",
@@ -18460,7 +27832,7 @@ const VocabData = {
           "w": "herald",
           "phon": "/heraldl",
           "pos": "",
-          "cn": "使者",
+          "cn": "使者 传令官;  先驱, 预兆 预告;  宣布",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18479,10 +27851,120 @@ const VocabData = {
           ]
         },
         {
+          "w": "successor",
+          "phon": "Isak'sesal",
+          "pos": "",
+          "cn": "接替者 , 继任者;  后继的事物",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "generation",
+          "phon": "Id3ena'reilanl",
+          "pos": "",
+          "cn": "几一代 (约20至30年); -代人",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "surname",
+          "phon": "/s3:nerml",
+          "pos": "n.",
+          "cn": "姓",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gender",
+          "phon": "/d3endal",
+          "pos": "",
+          "cn": "性别",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sex",
+          "phon": "Iseksl",
+          "pos": "",
+          "cn": "性别;  性行为",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "female",
+          "phon": "/fi:merll",
+          "pos": "adj.",
+          "cn": "女子;  雌性生物 女的;  雌性的",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "couple",
+          "phon": "/kApall",
+          "pos": "n.",
+          "cn": "夫妻。情侣;  两个, 几个",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "spouse",
+          "phon": "Ispausl",
+          "pos": "",
+          "cn": "配偶 指夫或妻 )",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "get",
+          "phon": "",
+          "pos": "",
+          "cn": "偶领到了免费的票 古希腊人签订协议叫 spendo 古罗马人结婚时有一个 习俗, 即男女双方的亲友聚在女方父亲家中签订婚约",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "husband",
+          "phon": "/hAzbandl",
+          "pos": "",
+          "cn": "丈夫",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "gay",
           "phon": "Igerl",
           "pos": "adj.",
-          "cn": "同性恋的;  快乐的;  艳丽的",
+          "cn": "同性恋的;  快乐的;  艳丽的 同性恋者 (尤指男性 )",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18501,10 +27983,109 @@ const VocabData = {
           ]
         },
         {
+          "w": "sibling",
+          "phon": "/'sIblil",
+          "pos": "",
+          "cn": "兄;  弟;  姐;  妹",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "cousin",
           "phon": "IKAZanl",
           "pos": "",
-          "cn": "姐。妹 )",
+          "cn": "姐。妹 ) 堂(或表)兄 (或弟",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "nephew",
+          "phon": "/nefju:l",
+          "pos": "",
+          "cn": "侄子;  外甥",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "niece",
+          "phon": "",
+          "pos": "",
+          "cn": "侄女;  外甥女",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "twin",
+          "phon": "ItwInl",
+          "pos": "adj.",
+          "cn": "双胞胎之一 成双的",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "twist",
+          "phon": "",
+          "pos": "",
+          "cn": "如: twice",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "embryo",
+          "phon": "/embriavl",
+          "pos": "adj.",
+          "cn": "胚胎的;  初期的 胚胎",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "infant",
+          "phon": "/infantl",
+          "pos": "adj.",
+          "cn": "供婴儿用的;  婴儿的 婴儿",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "orphan",
+          "phon": "I3:fanl",
+          "pos": "",
+          "cn": "使成为弧儿 弧儿",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "juvenile",
+          "phon": "/d3u:vanalll",
+          "pos": "adj.",
+          "cn": "少年的 少年",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18537,7 +28118,7 @@ const VocabData = {
           "w": "gang",
           "phon": "Igan/",
           "pos": "",
-          "cn": "一帮,",
+          "cn": "一帮, 一伙 (常聚在一起闹事。打斗的年轻人 )",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18559,7 +28140,7 @@ const VocabData = {
           "w": "folk",
           "phon": "Ifaukl",
           "pos": "",
-          "cn": "人们; [~s] 家属",
+          "cn": "人们; [~s] 家属 亲属",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18570,7 +28151,7 @@ const VocabData = {
           "w": "relative",
           "phon": "/relatIvi",
           "pos": "n.",
-          "cn": "亲戚",
+          "cn": "亲戚 相对的;  有关的",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18581,7 +28162,7 @@ const VocabData = {
           "w": "intimate",
           "phon": "/Intslstl",
           "pos": "adj.",
-          "cn": "亲密的;  个人隐私的",
+          "cn": "亲密的;  个人隐私的 密友。至交",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18622,10 +28203,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "beloved",
+          "phon": "",
+          "pos": "n.",
+          "cn": "爱人 深受喜爱的",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "madam",
           "phon": "/adaml",
           "pos": "",
-          "cn": "夫人=",
+          "cn": "夫人= 女士; [英]自以为是的小姑娘",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18656,7 +28248,7 @@ const VocabData = {
         },
         {
           "w": "mistress",
-          "phon": "",
+          "phon": "!inlstrgsl",
           "pos": "",
           "cn": "女主人;  情妇",
           "chapter": 19,
@@ -18670,6 +28262,127 @@ const VocabData = {
           "phon": "",
           "pos": "n.",
           "cn": "家庭主妇",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "widow",
+          "phon": "/widaUl",
+          "pos": "n.",
+          "cn": "寡妇,遗孀",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "maid",
+          "phon": "",
+          "pos": "",
+          "cn": "女佣 女仆;  少女",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "maiden",
+          "phon": "/eldnl",
+          "pos": "",
+          "cn": "少女,姑娘",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "household",
+          "phon": "/haushauldl",
+          "pos": "n.",
+          "cn": "家庭 , 一户;  家务",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "chore",
+          "phon": "ItJ3:/",
+          "pos": "",
+          "cn": "家庭杂务;  乏味无聊的工作",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "host",
+          "phon": "",
+          "pos": "n.",
+          "cn": "主人,东道主",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "landlord",
+          "phon": "Ilandl3:d/",
+          "pos": "",
+          "cn": "地主;  房东;(酒吧)店主",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tenant",
+          "phon": "/'tenantl",
+          "pos": "",
+          "cn": "房客;  租户",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "guest",
+          "phon": "Igestl",
+          "pos": "",
+          "cn": "客人 宾客;  旅客",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "customer",
+          "phon": "/kAstalnal",
+          "pos": "",
+          "cn": "顾客,主顾,客户",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "customet",
+          "phon": "",
+          "pos": "",
+          "cn": "社会角色",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18699,28 +28412,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "chase",
-          "phon": "ItJeIsl",
-          "pos": "",
-          "cn": "速行驶的轿车",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "miss",
-          "phon": "ImIs/",
-          "pos": "",
-          "cn": "人非常想念她的宝宝。",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "appointment",
           "phon": "",
           "pos": "",
@@ -18732,10 +28423,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "jalkampanil",
+          "phon": "",
+          "pos": "",
+          "cn": "陪伴;  伴随",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "dependent",
           "phon": "Idrpendantl",
           "pos": "adj.",
-          "cn": "依靠的 ,",
+          "cn": "依靠的 , 依赖的",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18765,17 +28467,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "marry",
-          "phon": "/inaril",
-          "pos": "",
-          "cn": "要容易。",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "wedding",
           "phon": "/'wednl",
           "pos": "",
@@ -18791,17 +28482,6 @@ const VocabData = {
           "phon": "Ihunimu:nl",
           "pos": "",
           "cn": "蜜月",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "kiss",
-          "phon": "/kIS/",
-          "pos": "n.",
-          "cn": "吻",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18831,10 +28511,54 @@ const VocabData = {
           ]
         },
         {
+          "w": "respective",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "分别的 各自的",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "commuter",
+          "phon": "Ikka'mju:tal",
+          "pos": "",
+          "cn": "上下班往返者,通勤者",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "member",
+          "phon": "/membal",
+          "pos": "",
+          "cn": "成员;  会员",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "boss",
           "phon": "IbDS/",
           "pos": "",
-          "cn": "老板",
+          "cn": "老板 对:指手画脚 上司",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "manager",
+          "phon": "/'manld3al",
+          "pos": "",
+          "cn": "经理,管理人",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18867,7 +28591,7 @@ const VocabData = {
           "w": "subordinate",
           "phon": "/sab3:dsnat/",
           "pos": "adj.",
-          "cn": "次要的;  下级的",
+          "cn": "次要的;  下级的 部属 , 下级",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18878,7 +28602,7 @@ const VocabData = {
           "w": "partner",
           "phon": "/pa:tnal",
           "pos": "",
-          "cn": "盟友;  合伙人;  搭档",
+          "cn": "盟友;  合伙人;  搭档 伙伴 ,",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18933,7 +28657,7 @@ const VocabData = {
           "w": "friendship",
           "phon": "/'frendfipl",
           "pos": "",
-          "cn": "友好",
+          "cn": "友好 友谊;  友情 ,",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18963,10 +28687,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "deputy",
-          "phon": "/depjgtil",
+          "w": "apprentice",
+          "phon": "",
           "pos": "",
-          "cn": "副手",
+          "cn": "学徒,徒弟",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -18974,7 +28698,18 @@ const VocabData = {
           ]
         },
         {
-          "w": "hlarad",
+          "w": "deputy",
+          "phon": "/depjgtil",
+          "pos": "",
+          "cn": "副手 代理人,",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "hero",
           "phon": "",
           "pos": "",
           "cn": "男主角,男主人公;  英雄;  勇士",
@@ -18988,7 +28723,7 @@ const VocabData = {
           "w": "heroine",
           "phon": "",
           "pos": "",
-          "cn": "女主角",
+          "cn": "女主角 女主人公;  女英雄",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -19032,7 +28767,73 @@ const VocabData = {
           "w": "commander",
           "phon": "Ika'ma:ndal",
           "pos": "",
-          "cn": "司令官",
+          "cn": "司令官 指挥官",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "director",
+          "phon": "Ids'rektal",
+          "pos": "",
+          "cn": "主管;  理事;  导演",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "proponent",
+          "phon": "Iprapaunantl",
+          "pos": "",
+          "cn": "拥护者,支持者",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "committee",
+          "phon": "",
+          "pos": "",
+          "cn": "委员会",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "couneil",
+          "phon": "/kaunsall",
+          "pos": "",
+          "cn": "委员会;  市政委员会",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "specialist",
+          "phon": "Ispefalsstl",
+          "pos": "",
+          "cn": "专家;  专科医生",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "consultant",
+          "phon": "IkansAltantl",
+          "pos": "",
+          "cn": "顾问; [英]会诊医师",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -19044,28 +28845,6 @@ const VocabData = {
           "phon": "/vetargnaril",
           "pos": "adj.",
           "cn": "兽医的",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "counsellor",
-          "phon": "/'kaunsalal",
-          "pos": "",
-          "cn": "辅导顾问; (美国的 )律师",
-          "chapter": 19,
-          "chapterName": "社会角色",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "solicitor",
-          "phon": "Isallisgtal",
-          "pos": "",
-          "cn": "事务律师;(美国的)法务官",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -19095,10 +28874,76 @@ const VocabData = {
           ]
         },
         {
+          "w": "fireman",
+          "phon": "",
+          "pos": "",
+          "cn": "消防队员;  司炉工",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gardener",
+          "phon": "/ga:dnal",
+          "pos": "",
+          "cn": "园丁 花匠",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "barber",
+          "phon": "",
+          "pos": "",
+          "cn": "理发师",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "haircut",
+          "phon": "/heakAtl",
+          "pos": "n.",
+          "cn": "理发",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fisherman",
+          "phon": "/fifamanl",
+          "pos": "",
+          "cn": "垂钓者 渔民,渔夫,",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "butcher",
+          "phon": "/but[al",
+          "pos": "",
+          "cn": "屠夫;  杀人狂",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "groom",
           "phon": "Igru:ml",
           "pos": "",
-          "cn": "给动物 )刷洗;  理毛。梳毛",
+          "cn": "给动物 )刷洗;  理毛。梳毛 马夫;  新郎",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -19109,7 +28954,7 @@ const VocabData = {
           "w": "hostage",
           "phon": "/hst1d3/",
           "pos": "",
-          "cn": "人质",
+          "cn": "人质 例1 A British journalist was held hostage for over 位英国记者被作为人质扣押了两年多。",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -19120,7 +28965,40 @@ const VocabData = {
           "w": "toil",
           "phon": "It3Ill",
           "pos": "",
-          "cn": "圈套",
+          "cn": "圈套 苦工, 苦活;  网,",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "beggar",
+          "phon": "/begal",
+          "pos": "",
+          "cn": "乞丐",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "coward",
+          "phon": "",
+          "pos": "",
+          "cn": "那个乞丐一把硬币 恳求;  乞讨",
+          "chapter": 19,
+          "chapterName": "社会角色",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "slave",
+          "phon": "Islervl",
+          "pos": "",
+          "cn": "奴隶",
           "chapter": 19,
           "chapterName": "社会角色",
           "tags": [
@@ -19133,17 +29011,6 @@ const VocabData = {
       "id": 20,
       "name": "行为动作",
       "words": [
-        {
-          "w": "act",
-          "phon": "",
-          "pos": "",
-          "cn": "行为",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
         {
           "w": "behave",
           "phon": "",
@@ -19160,6 +29027,17 @@ const VocabData = {
           "phon": "Idi:dl",
           "pos": "",
           "cn": "行为;  功绩;  契约",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "accustom",
+          "phon": "",
+          "pos": "",
+          "cn": "使习惯 (于)",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19200,6 +29078,61 @@ const VocabData = {
           ]
         },
         {
+          "w": "bear",
+          "phon": "",
+          "pos": "",
+          "cn": "生 (孩子);容忍;  承担 (责任)",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "adopt",
+          "phon": "Ia'doptl",
+          "pos": "",
+          "cn": "收养;  采取。采用",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "nourish",
+          "phon": "/nrIJI",
+          "pos": "",
+          "cn": "滋养,给提供营养",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "support",
+          "phon": "Isap3:tl",
+          "pos": "",
+          "cn": "支撑;  支持;  供养 支持;  帮助",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "exhale",
+          "phon": "",
+          "pos": "",
+          "cn": "呼气。呼出",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "intake",
           "phon": "/intelk/",
           "pos": "",
@@ -19211,32 +29144,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "revive",
-          "phon": "Irrvarvl",
-          "pos": "",
-          "cn": "使他苏醒过来了",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "glare",
           "phon": "Igleal",
           "pos": "",
-          "cn": "刺眼的光;  怒视",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "headlights",
-          "phon": "",
-          "pos": "",
-          "cn": "暂时什么也看不见。",
+          "cn": "刺眼的光;  怒视 怒目而视;  发出强光",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19247,18 +29158,7 @@ const VocabData = {
           "w": "glimpse",
           "phon": "Iglimpsl",
           "pos": "",
-          "cn": "一瞥",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "caught a",
-          "phon": "",
-          "pos": "",
-          "cn": "见了我们的新邻居。",
+          "cn": "一瞥 瞥见",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19269,7 +29169,7 @@ const VocabData = {
           "w": "glance",
           "phon": "Igla:nsl",
           "pos": "",
-          "cn": "一瞥",
+          "cn": "一瞥 瞥 迅速看一眼 几",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19280,18 +29180,7 @@ const VocabData = {
           "w": "peep",
           "phon": "Ipi:pl",
           "pos": "",
-          "cn": "偷看",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "gaze",
-          "phon": "Igerzl",
-          "pos": "",
-          "cn": "注视",
+          "cn": "偷看 偷偷一瞥 窥视",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19302,7 +29191,7 @@ const VocabData = {
           "w": "peer",
           "phon": "Ipral",
           "pos": "",
-          "cn": "同辈",
+          "cn": "同辈 同等地位的人, 盯着看",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19310,10 +29199,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "statue",
-          "phon": "",
+          "w": "stare",
+          "phon": "Isteal",
           "pos": "",
-          "cn": "持续固定的东西 〉雕像 )",
+          "cn": "盯着看 凝视,",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19321,10 +29210,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "contemplate",
-          "phon": "/kpntampleitl",
+          "w": "vow",
+          "phon": "IvaUl",
           "pos": "",
-          "cn": "做这一棘手的肾移植手术。",
+          "cn": "发誓 誓约",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19332,7 +29221,7 @@ const VocabData = {
           ]
         },
         {
-          "w": "contemplata",
+          "w": "voi",
           "phon": "",
           "pos": "",
           "cn": "行为动作",
@@ -19343,7 +29232,7 @@ const VocabData = {
           ]
         },
         {
-          "w": "laugl",
+          "w": "oath",
           "phon": "",
           "pos": "",
           "cn": "誓言;  宣誓",
@@ -19354,10 +29243,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "pledge",
-          "phon": "Ipled3l",
+          "w": "whistle",
+          "phon": "/WISal/",
           "pos": "",
-          "cn": "保证,",
+          "cn": "口哨;  哨子;  汽笛声",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19376,10 +29265,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "hasten",
-          "phon": "/heisanl",
+          "w": "assert",
+          "phon": "/3'53:t/",
           "pos": "",
-          "cn": "她显然正急着把车",
+          "cn": "断言 ,坚称; 坚持(自己)的主张",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19387,10 +29276,43 @@ const VocabData = {
           ]
         },
         {
-          "w": "scold",
-          "phon": "Iskauldi",
+          "w": "quarrel",
+          "phon": "IkwDI3I/",
           "pos": "",
-          "cn": "无故地责骂小孩。",
+          "cn": "吵架。争论",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "argument",
+          "phon": "/a:gjgmantl",
+          "pos": "",
+          "cn": "辩论 , 争论;  论点。论据",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "hurry",
+          "phon": "/haril",
+          "pos": "",
+          "cn": "几匆忙",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "curse",
+          "phon": "",
+          "pos": "",
+          "cn": "咒语;  咒骂话 诅咒;  咒骂",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19401,7 +29323,7 @@ const VocabData = {
           "w": "provoke",
           "phon": "Ipra'vaukl",
           "pos": "",
-          "cn": "挑拨;  引起",
+          "cn": "挑拨;  引起 激怒",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19420,32 +29342,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "boast",
-          "phon": "Ib3Ust",
-          "pos": "",
-          "cn": "应当夸耀自己的学识。",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "tease",
-          "phon": "Iti:zl",
-          "pos": "",
-          "cn": "那样嘲弄别人,就会丧失朋友们的好感。",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "mock",
           "phon": "",
           "pos": "adj.",
-          "cn": "模拟的;  假装的",
+          "cn": "模拟的;  假装的 嘲笑,嘲弄",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19456,18 +29356,7 @@ const VocabData = {
           "w": "touch",
           "phon": "ItAtll",
           "pos": "",
-          "cn": "触觉;  接触",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "tap",
-          "phon": "Itepl",
-          "pos": "",
-          "cn": "轻拍了拍我的肩膀",
+          "cn": "触觉;  接触 触摸;  触动",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19486,32 +29375,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "applaud",
+          "w": "catch",
           "phon": "",
           "pos": "",
-          "cn": "演出结束时 ,大家都热烈鼓掌",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "kneel",
-          "phon": "Ini:ll",
-          "pos": "",
-          "cn": "人跪下来进行祷告",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "catch",
-          "phon": "Ikatll",
-          "pos": "",
-          "cn": "本能。",
+          "cn": "行为动作",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19544,7 +29411,7 @@ const VocabData = {
           "w": "grasp",
           "phon": "Igra:spl",
           "pos": "",
-          "cn": "抓牢。握紧;  完全理解",
+          "cn": "抓牢。握紧;  完全理解 全面领会",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19566,7 +29433,7 @@ const VocabData = {
           "w": "grip",
           "phon": "Igripl",
           "pos": "",
-          "cn": "紧握 ,抓牢",
+          "cn": "紧握 ,抓牢 紧握 抓牢;  理解,了解",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19577,7 +29444,7 @@ const VocabData = {
           "w": "mess",
           "phon": "Imesl",
           "pos": "",
-          "cn": "弄乱",
+          "cn": "混乱,脏乱 弄乱",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19589,17 +29456,6 @@ const VocabData = {
           "phon": "ItwIst/",
           "pos": "",
           "cn": "几。拧,扭动",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "a dustbin suddenly",
-          "phon": "",
-          "pos": "",
-          "cn": "人群逃散开c",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19621,7 +29477,7 @@ const VocabData = {
           "w": "fasten",
           "phon": "/fa:sanl",
           "pos": "",
-          "cn": "扣牢。系牢 ,",
+          "cn": "扣牢。系牢 , 缚紧",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19630,7 +29486,7 @@ const VocabData = {
         },
         {
           "w": "loosen",
-          "phon": "Ilu:san",
+          "phon": "",
           "pos": "",
           "cn": "解开,松开;  放宽",
           "chapter": 20,
@@ -19641,20 +29497,9 @@ const VocabData = {
         },
         {
           "w": "scratch",
-          "phon": "Iskretf",
+          "phon": "",
           "pos": "n.",
           "cn": "乱涂;  划痕,擦伤",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "wipe",
-          "phon": "/walpl",
-          "pos": "",
-          "cn": "擦掉了灰尘",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19665,7 +29510,7 @@ const VocabData = {
           "w": "scrape",
           "phon": "Iskrerpl",
           "pos": "",
-          "cn": "几刮;",
+          "cn": "几刮; 擦伤",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19684,10 +29529,43 @@ const VocabData = {
           ]
         },
         {
-          "w": "split",
-          "phon": "Isplitl",
+          "w": "my",
+          "phon": "",
           "pos": "",
-          "cn": "了数组",
+          "cn": "我晒过太阳后皮肤总会脱皮。",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "shake",
+          "phon": "",
+          "pos": "n.",
+          "cn": "摇动,颤动",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "whirl",
+          "phon": "/W3:l/",
+          "pos": "",
+          "cn": "回旋",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "shuffle",
+          "phon": "IJafall",
+          "pos": "",
+          "cn": "洗牌",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19696,7 +29574,7 @@ const VocabData = {
         },
         {
           "w": "collide",
-          "phon": "Ikallaldi",
+          "phon": "",
           "pos": "",
           "cn": "碰撞;  抵触",
           "chapter": 20,
@@ -19709,7 +29587,7 @@ const VocabData = {
           "w": "bond",
           "phon": "",
           "pos": "",
-          "cn": "与:黏合",
+          "cn": "与:黏合 或连接 ) 几 黏合;(感情的)  纽带",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19720,7 +29598,29 @@ const VocabData = {
           "w": "penetrate",
           "phon": "Ipenstrertl",
           "pos": "",
-          "cn": "刺入,",
+          "cn": "刺入, 穿透;  渗透;  洞察",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pierce",
+          "phon": "",
+          "pos": "",
+          "cn": "刺穿,刺破,穿透;  使心如刀割",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tow",
+          "phon": "",
+          "pos": "",
+          "cn": "牵引 几。牵引",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19731,7 +29631,7 @@ const VocabData = {
           "w": "arrange",
           "phon": "Ia'relnd3l",
           "pos": "",
-          "cn": "安排,整理,",
+          "cn": "安排,整理, 使有条理",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19739,10 +29639,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "manipulate",
-          "phon": "Ima'nipjglertl",
+          "w": "steer",
+          "phon": "",
           "pos": "",
-          "cn": "他用他的信用控制他的拥戴者。",
+          "cn": "为",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19753,7 +29653,7 @@ const VocabData = {
           "w": "baptise",
           "phon": "Ibep'talzl",
           "pos": "",
-          "cn": "给'施行洗礼",
+          "cn": "给'施行洗礼 或浸礼 )",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19764,18 +29664,7 @@ const VocabData = {
           "w": "bet",
           "phon": "Ibetl",
           "pos": "",
-          "cn": "几。打赌;  赌注",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "gamble",
-          "phon": "Igamball",
-          "pos": "",
-          "cn": "去冒险。",
+          "cn": "几。打赌;  赌注 下注。打赌;  敢说",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19786,7 +29675,7 @@ const VocabData = {
           "w": "promise",
           "phon": "/promgsl",
           "pos": "",
-          "cn": "承诺",
+          "cn": "几 承诺 诺言",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19830,29 +29719,7 @@ const VocabData = {
           "w": "abstract",
           "phon": "",
           "pos": "",
-          "cn": "拉出来 〉一个事物的实质内容被拉走了",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "obsess",
-          "phon": "",
-          "pos": "",
-          "cn": "迷住,对.着迷",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "mesmerise",
-          "phon": "/mezmaralzl",
-          "pos": "",
-          "cn": "吸引,迷住",
+          "cn": "拉出来 〉一个事物的实质内容被拉走了 的;  摘要) ;  拉着离开 > distract (使分心) =",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19885,7 +29752,7 @@ const VocabData = {
           "w": "amaze",
           "phon": "",
           "pos": "",
-          "cn": "使惊奇",
+          "cn": "使惊奇 使惊愕",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19896,7 +29763,7 @@ const VocabData = {
           "w": "marvel",
           "phon": "/a:voll",
           "pos": "",
-          "cn": "奇迹",
+          "cn": "奇迹 感到惊讶,大为赞叹",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19907,7 +29774,7 @@ const VocabData = {
           "w": "to roll",
           "phon": "",
           "pos": "",
-          "cn": "的含义: involve ( 滚在里边 >包含",
+          "cn": "的含义: involve ( 滚在里边 >包含 牵涉 ) ,",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19926,10 +29793,87 @@ const VocabData = {
           ]
         },
         {
+          "w": "you",
+          "phon": "",
+          "pos": "",
+          "cn": "但愿我没有说什么让你不高兴的话",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "bewilder",
           "phon": "Ibr'wildal",
           "pos": "",
-          "cn": "使迷惑",
+          "cn": "使迷惑 使不知所措",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "irony",
+          "phon": "/alaranil",
+          "pos": "",
+          "cn": "反话;  有讽刺意味的情形",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "annoy",
+          "phon": "",
+          "pos": "",
+          "cn": "贫穷的国家拥有最丰富的自然资源。",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "indignity",
+          "phon": "/In'digntil",
+          "pos": "",
+          "cn": "侮辱。轻蔑",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "contempt",
+          "phon": "Ikon'temptl",
+          "pos": "",
+          "cn": "轻视 藐视",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "disregard",
+          "phon": "Idisriga:dl",
+          "pos": "",
+          "cn": "忽视 , 漠视",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ignorance",
+          "phon": "/ignaransl",
+          "pos": "",
+          "cn": "几无知 愚昧",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19939,19 +29883,8 @@ const VocabData = {
         {
           "w": "bias",
           "phon": "/ba13s/",
-          "pos": "",
-          "cn": "使偏心",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "deviate",
-          "phon": "/di:viertl",
-          "pos": "",
-          "cn": "偏离了事实。",
+          "pos": "n.",
+          "cn": "使偏心 偏见,偏心",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -19970,17 +29903,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "flee",
-          "phon": "Ili:l",
-          "pos": "",
-          "cn": "逃离",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "fly",
           "phon": "",
           "pos": "",
@@ -19992,10 +29914,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "bully",
-          "phon": "/'bulil",
+          "w": "prostitute",
+          "phon": "",
           "pos": "",
-          "cn": "欺凌",
+          "cn": "拉皮条 类似于 词义逐渐贬降 的",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20003,10 +29925,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "convict",
+          "w": "panic",
           "phon": "",
           "pos": "",
-          "cn": "已决犯",
+          "cn": "惊恐, 惊慌",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "revenge",
+          "phon": "Iri'vend3l",
+          "pos": "",
+          "cn": "报仇,复仇",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20017,18 +29950,7 @@ const VocabData = {
           "w": "strangle",
           "phon": "Istrengall",
           "pos": "",
-          "cn": "压制;  勒死,扼死",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "massacre",
-          "phon": "/'masakal",
-          "pos": "",
-          "cn": "屠杀",
+          "cn": "压制;  勒死,扼死 扼杀",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20039,7 +29961,7 @@ const VocabData = {
           "w": "decimation",
           "phon": "Idess'merfanl",
           "pos": "",
-          "cn": "大批杀死",
+          "cn": "大批杀死 大量毁灭;  大大削弱",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20058,21 +29980,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "impede",
-          "phon": "Impi:dl",
-          "pos": "",
-          "cn": "碍他的进度",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "pedal",
           "phon": "",
           "pos": "",
-          "cn": "用脚操作的东西 「踏",
+          "cn": "用脚操作的东西 「踏 双脚被缠住了 )妨碍 ) ,",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20092,9 +30003,9 @@ const VocabData = {
         },
         {
           "w": "bait",
-          "phon": "Ibeitl",
+          "phon": "",
           "pos": "",
-          "cn": "使上当发火",
+          "cn": "使上当发火 诱饵;  诱惑物",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20160,7 +30071,7 @@ const VocabData = {
           "w": "distributor",
           "phon": "",
           "pos": "",
-          "cn": "分发;  分布",
+          "cn": "分发;  分布 分发 几 者;  批发商",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20169,9 +30080,9 @@ const VocabData = {
         },
         {
           "w": "despatch",
-          "phon": "Idi'spatfl",
+          "phon": "",
           "pos": "",
-          "cn": "完早饭就离开了。",
+          "cn": "生了小孩 (hatch ) 找工作 _ 征婚 (match ) 哀悼某人 去世 (despatch 被派遣到上帝身边了 )",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20193,7 +30104,7 @@ const VocabData = {
           "w": "disguise",
           "phon": "",
           "pos": "",
-          "cn": "掩饰;  假扮,伪装",
+          "cn": "掩饰;  假扮,伪装 几 假扮;  伪装物",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20226,7 +30137,7 @@ const VocabData = {
           "w": "re",
           "phon": "",
           "pos": "",
-          "cn": "去 > refuse ( 拒绝); fuse ( 熔丝",
+          "cn": "去 > refuse ( 拒绝); fuse ( 熔丝 保险丝); di (二; 向两边分别倾倒 > diffuse ( 散 分别) + fuse ( 倾倒 ) 播;  扩散)",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20234,7 +30145,73 @@ const VocabData = {
           ]
         },
         {
-          "w": "la'spalal",
+          "w": "exclude",
+          "phon": "Iik'sklu:dl",
+          "pos": "",
+          "cn": "把:排除在外;  拒绝",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "reverse",
+          "phon": "ItI'V3:s/",
+          "pos": "adj.",
+          "cn": "相反的情况;  反面 相反的",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "undertake",
+          "phon": "",
+          "pos": "",
+          "cn": "承担;  许诺。保证",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "convince",
+          "phon": "Ikan'vInsl",
+          "pos": "",
+          "cn": "使确信,使信服;  说服",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "reassure",
+          "phon": "",
+          "pos": "",
+          "cn": "使安心 , 使放心",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wish",
+          "phon": "IwIl/",
+          "pos": "",
+          "cn": "某事发生 ) 希望",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "aspire",
           "phon": "",
           "pos": "",
           "cn": "渴望",
@@ -20248,18 +30225,7 @@ const VocabData = {
           "w": "desire",
           "phon": "Idrzaral",
           "pos": "",
-          "cn": "欲望",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "yearn",
-          "phon": "",
-          "pos": "",
-          "cn": "渴望回家。",
+          "cn": "欲望 愿望",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20270,7 +30236,7 @@ const VocabData = {
           "w": "invoke",
           "phon": "",
           "pos": "",
-          "cn": "唤起",
+          "cn": "唤起 感情等);  向祈求帮助;  恳求",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20278,8 +30244,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "yeam",
-          "phon": "Itll",
+          "w": "itch",
+          "phon": "",
           "pos": "",
           "cn": "痒;  渴望",
           "chapter": 20,
@@ -20311,10 +30277,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "fulfil",
-          "phon": "/folfill",
-          "pos": "",
-          "cn": "完成这项任务",
+          "w": "sort",
+          "phon": "Is3:tl",
+          "pos": "n.",
+          "cn": "种类,类别",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20366,10 +30332,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "exert",
+          "w": "ex",
           "phon": "",
           "pos": "",
-          "cn": "运用,行使;  施加",
+          "cn": "技巧等向外部结合 ) exert ( 运",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20380,7 +30346,7 @@ const VocabData = {
           "w": "tackle",
           "phon": "/takall",
           "pos": "",
-          "cn": "用具,器材",
+          "cn": "用具,器材 处理 应对 , 解决",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20388,7 +30354,95 @@ const VocabData = {
           ]
         },
         {
-          "w": "boy",
+          "w": "cope",
+          "phon": "/kaUpl",
+          "pos": "",
+          "cn": "应付 , 处理",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dispose",
+          "phon": "",
+          "pos": "",
+          "cn": "安排 布置,",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ikondktl v",
+          "phon": "",
+          "pos": "",
+          "cn": "进行。实施",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "omit",
+          "phon": "",
+          "pos": "",
+          "cn": "遗漏;  省略;  删去",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "delete",
+          "phon": "Idrli:tl",
+          "pos": "",
+          "cn": "删除,删掉",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cancel",
+          "phon": "Ikansall",
+          "pos": "",
+          "cn": "取消;  废除",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "clear",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "清晰的;  明显的 清除",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "erase",
+          "phon": "IIrerzl",
+          "pos": "",
+          "cn": "清除;  抹去",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "river",
           "phon": "",
           "pos": "",
           "cn": "他们救起了掉进河里的小男孩。",
@@ -20402,7 +30456,18 @@ const VocabData = {
           "w": "resort",
           "phon": "IrI'Z3:tl",
           "pos": "",
-          "cn": "求助于,",
+          "cn": "求助于, 采取。诉诸",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "recover",
+          "phon": "ITIkAVal",
+          "pos": "",
+          "cn": "重新拿回;  恢复健康; (从不愉快的经历中)复原",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20424,7 +30489,7 @@ const VocabData = {
           "w": "rectify",
           "phon": "/rektgfarl",
           "pos": "",
-          "cn": "纠正。矫正,",
+          "cn": "纠正。矫正, 改正",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20443,10 +30508,43 @@ const VocabData = {
           ]
         },
         {
-          "w": "magnify",
-          "phon": "/magngfall",
+          "w": "replenish",
+          "phon": "Irrplenijl",
           "pos": "",
-          "cn": "如:",
+          "cn": "重新装满,补充",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gain",
+          "phon": "IgeInl",
+          "pos": "",
+          "cn": "增加;  改进",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "offer",
+          "phon": "IDfal",
+          "pos": "n.",
+          "cn": "给予 (物);  提议",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "enlarge",
+          "phon": "Inlla:d3/",
+          "pos": "",
+          "cn": "照片或文件 )",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20457,7 +30555,7 @@ const VocabData = {
           "w": "magnifer",
           "phon": "",
           "pos": "",
-          "cn": "字根 magnlmajlmax 都指",
+          "cn": "字根 magnlmajlmax 都指 大 (great )",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20468,18 +30566,7 @@ const VocabData = {
           "w": "amplify",
           "phon": "Nemplgfail",
           "pos": "",
-          "cn": "陈述等 )",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "exaggerate",
-          "phon": "Ig'zad3arertl",
-          "pos": "",
-          "cn": "画家可能会对形状进行夸大或扭曲",
+          "cn": "陈述等 ) 增强;  扩大 (声音); 充实",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20501,18 +30588,7 @@ const VocabData = {
           "w": "backup",
           "phon": "IbakApl",
           "pos": "adj.",
-          "cn": "备用的",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "propel",
-          "phon": "",
-          "pos": "",
-          "cn": "这驱使他走向犯罪。",
+          "cn": "备用的 后援 支持; (文件等的)备份",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20531,17 +30607,6 @@ const VocabData = {
           ]
         },
         {
-          "w": "raise",
-          "phon": "Irerzl",
-          "pos": "",
-          "cn": "太有野心 ,请举手吧c",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "leak",
           "phon": "Iliik/",
           "pos": "",
@@ -20553,10 +30618,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "spill",
-          "phon": "Ispill",
+          "w": "over",
+          "phon": "",
           "pos": "",
-          "cn": "茶杯太满了,茶可能会溢出来。",
+          "cn": "波及",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20575,6 +30640,17 @@ const VocabData = {
           ]
         },
         {
+          "w": "ooze",
+          "phon": "",
+          "pos": "",
+          "cn": "行为动怍",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "evacuate",
           "phon": "Ii'vakjuertl",
           "pos": "",
@@ -20586,10 +30662,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "vacu",
+          "phon": "",
+          "pos": "",
+          "cn": "空)",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "trench",
           "phon": "Itrentf/",
           "pos": "",
-          "cn": "掘沟于;  砍除",
+          "cn": "沟 掘沟于;  砍除 渠 壕沟",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20633,7 +30720,7 @@ const VocabData = {
           "w": "regard",
           "phon": "Irrga:dl",
           "pos": "",
-          "cn": "尊重;  问候",
+          "cn": "尊重;  问候 看待",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20641,10 +30728,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "flatter",
-          "phon": "",
+          "w": "cause",
+          "phon": "I3:z/",
           "pos": "",
-          "cn": "例 ]",
+          "cn": "原因 理由;  事业 引起。导致",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20652,10 +30739,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "worship",
-          "phon": "/w3:[ipi",
+          "w": "sake",
+          "phon": "Iseikl",
           "pos": "",
-          "cn": "礼拜;  爱慕",
+          "cn": "理由; 目的",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20677,7 +30764,7 @@ const VocabData = {
           "w": "objective",
           "phon": "Iab'd3ektrvl",
           "pos": "adj.",
-          "cn": "客观的",
+          "cn": "宗旨;  目标 客观的",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20696,10 +30783,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "trigger",
-          "phon": "MtrIgal",
+          "w": "seek",
+          "phon": "Isi:k/",
           "pos": "",
-          "cn": "引发,触发",
+          "cn": "寻找;  寻求",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20710,7 +30797,7 @@ const VocabData = {
           "w": "good",
           "phon": "",
           "pos": "",
-          "cn": "他们健康的最合理的饮食。",
+          "cn": "他们健康的最合理的饮食。 追求",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20740,6 +30827,94 @@ const VocabData = {
           ]
         },
         {
+          "w": "specify",
+          "phon": "",
+          "pos": "",
+          "cn": "具体指定,详细说明",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "enlighten",
+          "phon": "IIn'lartn/",
+          "pos": "",
+          "cn": "开导 启迪 启发 ,",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "impart",
+          "phon": "Im'pa:tl",
+          "pos": "",
+          "cn": "传授;  透露",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "deserve",
+          "phon": "/diz3:Vl",
+          "pos": "",
+          "cn": "应得;  应受",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "drop",
+          "phon": "Idropl",
+          "pos": "",
+          "cn": "滴",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "plummet",
+          "phon": "IplAmgtl",
+          "pos": "",
+          "cn": "垂直掉下; (价格。水平等)  骤然下跌",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "overshadow",
+          "phon": "",
+          "pos": "",
+          "cn": "遮蔽;  使黯然失色",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "oyershadow",
+          "phon": "",
+          "pos": "",
+          "cn": "行为动作",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "invite",
           "phon": "IIn'valtl",
           "pos": "",
@@ -20751,21 +30926,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "welcome",
-          "phon": "/welkamnl",
-          "pos": "",
-          "cn": "建设性的批评。",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "welcome aboard",
           "phon": "",
           "pos": "",
-          "cn": "欢迎做",
+          "cn": "欢迎做 欢迎搭乘 (飞机 火车。轮船等);  欢迎加入",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20776,7 +30940,7 @@ const VocabData = {
           "w": "greet",
           "phon": "Igri:tl",
           "pos": "",
-          "cn": "向问好",
+          "cn": "向问好 迎接;  对作出反应",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20798,7 +30962,7 @@ const VocabData = {
           "w": "celebrate",
           "phon": "/selsbrertl",
           "pos": "v.",
-          "cn": "庆祝 (节日",
+          "cn": "庆祝 (节日 事件等 )",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20817,21 +30981,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "assort",
+          "w": "bless",
           "phon": "",
           "pos": "",
-          "cn": "他的行动和他的诺言不一致。",
-          "chapter": 20,
-          "chapterName": "行为动作",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "correspond",
-          "phon": "/kDrs 'spondl",
-          "pos": "",
-          "cn": "这些货物与我的订货单不符 _",
+          "cn": "祝福,为祈求上帝保佑",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20840,9 +30993,20 @@ const VocabData = {
         },
         {
           "w": "accord",
-          "phon": "I3k3:d",
+          "phon": "",
           "pos": "",
           "cn": "协议",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "recall",
+          "phon": "ITIk3:l/",
+          "pos": "",
+          "cn": "回忆 , 回想起",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20861,10 +31025,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "remind",
-          "phon": "Irrmnalndl",
+          "w": "select",
+          "phon": "",
           "pos": "",
-          "cn": "使想起",
+          "cn": "把集合在一起的分离出 一起 〉记起, 想起) ,",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20872,10 +31036,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "me of",
-          "phon": "",
+          "w": "remind",
+          "phon": "Irrmnalndl",
           "pos": "",
-          "cn": "这些照片使我想起了我的童年。",
+          "cn": "使想起",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20896,8 +31060,8 @@ const VocabData = {
         {
           "w": "repeat",
           "phon": "Iripi:tl",
-          "pos": "",
-          "cn": "重复",
+          "pos": "adj.",
+          "cn": "重复 再次光顾的",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20908,7 +31072,7 @@ const VocabData = {
           "w": "competelcompetition",
           "phon": "",
           "pos": "",
-          "cn": "求的情绪 〉食欲;  强烈欲望) .",
+          "cn": "求的情绪 〉食欲;  强烈欲望) . 竞争) , repetition (再次寻",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20927,10 +31091,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "pervade",
-          "phon": "Ipa'verdl",
+          "w": "surpass",
+          "phon": "",
           "pos": "",
-          "cn": "弥漫。渗透。遍及",
+          "cn": "看 ) 在",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20938,10 +31102,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "invade",
+          "w": "survey",
           "phon": "",
           "pos": "",
-          "cn": "走迸来",
+          "cn": "比: ..活得长",
+          "chapter": 20,
+          "chapterName": "行为动作",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pervade",
+          "phon": "Ipa'verdl",
+          "pos": "",
+          "cn": "弥漫。渗透。遍及",
           "chapter": 20,
           "chapterName": "行为动作",
           "tags": [
@@ -20958,31 +31133,14 @@ const VocabData = {
           "tags": [
             "writing"
           ]
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "name": "身心健康",
-      "words": [
+        },
         {
           "w": "substitute",
           "phon": "MSAbststju:tl",
           "pos": "",
-          "cn": "替换",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "good",
-          "phon": "",
-          "pos": "",
-          "cn": "我们推荐这个品牌,它可以很好地替代原来的那个",
-          "chapter": 21,
-          "chapterName": "身心健康",
+          "cn": "替换 代用品;  代替者;  替补 运动员 )",
+          "chapter": 20,
+          "chapterName": "行为动作",
           "tags": [
             "writing"
           ]
@@ -20992,8 +31150,8 @@ const VocabData = {
           "phon": "Idi'stIgwill",
           "pos": "",
           "cn": "区别,辨别;  使出众。使著名",
-          "chapter": 21,
-          "chapterName": "身心健康",
+          "chapter": 20,
+          "chapterName": "行为动作",
           "tags": [
             "writing"
           ]
@@ -21002,49 +31160,33 @@ const VocabData = {
           "w": "differentiate",
           "phon": "/drfa'renjieit",
           "pos": "",
-          "cn": "区分 ,",
-          "chapter": 21,
-          "chapterName": "身心健康",
+          "cn": "区分 , 区别;  差别对待",
+          "chapter": 20,
+          "chapterName": "行为动作",
           "tags": [
             "writing"
           ]
         },
         {
-          "w": "lean",
-          "phon": "Ili:nl",
-          "pos": "adj.",
-          "cn": "瘦的;  贫乏的",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "sideways",
-          "phon": "/sardwerzl",
-          "pos": "",
-          "cn": "侧面猛拍了刺猬一下。",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "lung",
+          "w": "minklalnl n",
           "phon": "",
           "pos": "",
-          "cn": "身体强健不仅是拥有健康身体最为关键的因素",
-          "chapter": 21,
-          "chapterName": "身心健康",
+          "cn": "斜坡;  倾斜",
+          "chapter": 20,
+          "chapterName": "行为动作",
           "tags": [
             "writing"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "身心健康",
+      "words": [
         {
           "w": "feel",
-          "phon": "",
+          "phon": "!f:l/",
           "pos": "",
           "cn": "感觉到,感知;  触碰",
           "chapter": 21,
@@ -21068,7 +31210,7 @@ const VocabData = {
           "w": "emotion",
           "phon": "ITmaujanl",
           "pos": "",
-          "cn": "感情",
+          "cn": "感情 情绪,情感,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21079,7 +31221,7 @@ const VocabData = {
           "w": "temper",
           "phon": "/tempal",
           "pos": "",
-          "cn": "坏脾气;  情绪。心情",
+          "cn": "坏脾气;  情绪。心情 使缓和",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21098,10 +31240,87 @@ const VocabData = {
           ]
         },
         {
+          "w": "attitude",
+          "phon": "/atstju:dl",
+          "pos": "",
+          "cn": "态度。看法",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "character",
+          "phon": "Mkroktal",
+          "pos": "",
+          "cn": "性格;  特征;  人物 角色",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "personality",
+          "phon": "",
+          "pos": "",
+          "cn": "个性,人格",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "trait",
+          "phon": "Itrettl",
+          "pos": "",
+          "cn": "特性 特点",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "large",
+          "phon": "",
+          "pos": "",
+          "cn": "伯纳德身材矮小脑袋大。",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "flesh",
+          "phon": "Ilell",
+          "pos": "",
+          "cn": "肉;  人类",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mankind",
+          "phon": "Imankarndl",
+          "pos": "",
+          "cn": "人类;  男人",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "human",
           "phon": "/hju:man",
           "pos": "adj.",
-          "cn": "人类的;  有人性的",
+          "cn": "几 人类的;  有人性的 人类",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21110,7 +31329,7 @@ const VocabData = {
         },
         {
           "w": "bone",
-          "phon": "IbaUn",
+          "phon": "",
           "pos": "",
           "cn": "骨;  骨骼",
           "chapter": 21,
@@ -21123,7 +31342,7 @@ const VocabData = {
           "w": "backbone",
           "phon": "/baekbaunl",
           "pos": "",
-          "cn": "中坚;  骨气",
+          "cn": "脊柱;  骨干, 中坚;  骨气",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21134,7 +31353,18 @@ const VocabData = {
           "w": "skeleton",
           "phon": "/skelstanl",
           "pos": "",
-          "cn": "患病使他骨瘦如柴。",
+          "cn": "骨骼,骨架;  框架,梗概",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "skull",
+          "phon": "",
+          "pos": "",
+          "cn": "头脑;  头骨",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21154,7 +31384,7 @@ const VocabData = {
         },
         {
           "w": "mind",
-          "phon": "Imalndi",
+          "phon": "",
           "pos": "",
           "cn": "头脑;  思考能力;  思维;  意见;  记忆力",
           "chapter": 21,
@@ -21189,7 +31419,7 @@ const VocabData = {
           "w": "cheek",
           "phon": "Itji:k/",
           "pos": "",
-          "cn": "一只黄蜂",
+          "cn": "面颊,颊 一只黄蜂",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21209,9 +31439,9 @@ const VocabData = {
         },
         {
           "w": "brow",
-          "phon": "IbraUi",
+          "phon": "",
           "pos": "",
-          "cn": "几。额;  眉,",
+          "cn": "几。额;  眉, 眉毛",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21244,7 +31474,18 @@ const VocabData = {
           "w": "mouth",
           "phon": "Imaugl",
           "pos": "",
-          "cn": "口",
+          "cn": "口 嘴;  河0",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tongue",
+          "phon": "",
+          "pos": "",
+          "cn": "舌头;  语言",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21266,18 +31507,7 @@ const VocabData = {
           "w": "gorge",
           "phon": "",
           "pos": "",
-          "cn": "咽喉;  暴食;  山峡。峡谷",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "chin",
-          "phon": "Itlinl",
-          "pos": "",
-          "cn": "本用上钩拳击中了他的下巴。",
+          "cn": "咽喉;  暴食;  山峡。峡谷 狼吞虎咽",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21351,32 +31581,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "wrist",
+          "phon": "IrIst/",
+          "pos": "",
+          "cn": "腕。腕关节",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "thumb",
           "phon": "/OAIn",
           "pos": "",
           "cn": "拇指",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "palm",
-          "phon": "Ipa:m",
-          "pos": "",
-          "cn": "棕榈树;  手掌",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "finger",
-          "phon": "/fmgal",
-          "pos": "",
-          "cn": "例 一",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21407,7 +31626,7 @@ const VocabData = {
         },
         {
           "w": "abdomen",
-          "phon": "Iabdaman",
+          "phon": "",
           "pos": "",
           "cn": "腹。腹部",
           "chapter": 21,
@@ -21429,7 +31648,7 @@ const VocabData = {
         },
         {
           "w": "organ",
-          "phon": "N3:gon",
+          "phon": "",
           "pos": "",
           "cn": "器官;  风琴;  机构",
           "chapter": 21,
@@ -21453,7 +31672,7 @@ const VocabData = {
           "w": "stomach",
           "phon": "/stamak/",
           "pos": "",
-          "cn": "胃口;",
+          "cn": "胃口; 腹部 胃",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21475,7 +31694,18 @@ const VocabData = {
           "w": "kidney",
           "phon": "/kidnil",
           "pos": "n.",
-          "cn": "肾",
+          "cn": "肾 肾脏",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lung",
+          "phon": "",
+          "pos": "",
+          "cn": "肺",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21529,8 +31759,8 @@ const VocabData = {
         {
           "w": "joint",
           "phon": "Id3ointl",
-          "pos": "",
-          "cn": "接合处;  关节",
+          "pos": "adj.",
+          "cn": "接合处;  关节 共同的, 联合的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21552,7 +31782,7 @@ const VocabData = {
           "w": "ankle",
           "phon": "Nenkall",
           "pos": "",
-          "cn": "踝关节 ,",
+          "cn": "踝关节 , 踝",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21596,7 +31826,7 @@ const VocabData = {
           "w": "pore",
           "phon": "",
           "pos": "",
-          "cn": "毛孔;  小孔,气孔",
+          "cn": "毛孔;  小孔,气孔 凝视;  沉思",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21619,6 +31849,17 @@ const VocabData = {
           "phon": "/a:taril",
           "pos": "",
           "cn": "动脉;  干线",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "nerve",
+          "phon": "",
+          "pos": "",
+          "cn": "焦虑 神经;  紧张,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21662,7 +31903,7 @@ const VocabData = {
           "w": "goad",
           "phon": "",
           "pos": "",
-          "cn": "是赶牛等牲畜用的",
+          "cn": "是赶牛等牲畜用的 尖头棒 ' 引申义为",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21692,8 +31933,107 @@ const VocabData = {
           ]
         },
         {
-          "w": "tall",
-          "phon": "Iblalndl",
+          "w": "habit",
+          "phon": "/'habsti",
+          "pos": "",
+          "cn": "习惯",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sense",
+          "phon": "",
+          "pos": "",
+          "cn": "感官;  感觉",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sight",
+          "phon": "Isartl",
+          "pos": "",
+          "cn": "视力;  看见;  景物",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "eyesight",
+          "phon": "",
+          "pos": "",
+          "cn": "视力",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "view",
+          "phon": "/vju:l",
+          "pos": "",
+          "cn": "视野;  见解;  风景;  察看",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "visual",
+          "phon": "/VI3uall",
+          "pos": "adj.",
+          "cn": "视力的,视觉的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "strong visual appeal",
+          "phon": "",
+          "pos": "",
+          "cn": "设计在视觉上很有感染力",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "visible",
+          "phon": "/vizgball",
+          "pos": "adj.",
+          "cn": "看得见的 可见的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vague",
+          "phon": "Iveigl",
+          "pos": "adj.",
+          "cn": "含糊的;  不清楚的,模糊的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "blind",
+          "phon": "",
           "pos": "adj.",
           "cn": "盲目的;  瞎的;  未察觉的",
           "chapter": 21,
@@ -21706,7 +32046,7 @@ const VocabData = {
           "w": "dumb",
           "phon": "IdAml",
           "pos": "adj.",
-          "cn": "哑的;  不肯开口的",
+          "cn": "哑的;  不肯开口的 例",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21739,7 +32079,7 @@ const VocabData = {
           "w": "indent",
           "phon": "",
           "pos": "",
-          "cn": "使成锯齿状;  使段落缩迸) 。注意 dandelion",
+          "cn": "使成锯齿状;  使段落缩迸) 。注意 dandelion 一",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21758,10 +32098,87 @@ const VocabData = {
           ]
         },
         {
-          "w": "couldn't stop yawning",
+          "w": "nap",
+          "phon": "Inapl",
+          "pos": "n.",
+          "cn": "小睡;  绒毛",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "doze",
+          "phon": "Idauzl",
+          "pos": "",
+          "cn": "小睡,打盹儿",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "quiet",
+          "phon": "Ikwalatl",
+          "pos": "adj.",
+          "cn": "安静的;  寂静的;  平静的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "asleep",
+          "phon": "Ia'sli:pl",
+          "pos": "adj.",
+          "cn": "睡着的;  不活跃的;  麻木的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cripple",
+          "phon": "/kripall",
+          "pos": "",
+          "cn": "跛子;  残疾人 使跛",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lame",
+          "phon": "Ilerml",
+          "pos": "adj.",
+          "cn": "解释或借口) 无说服力的 瘸的,跛的;",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dwarf",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "矮小的 童话中的)  小矮人;  侏儒",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cinderella",
           "phon": "",
           "pos": "",
-          "cn": "我感到很困,",
+          "cn": "和 the Seven DwarfslDwares (七个小矮人) .",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21772,18 +32189,7 @@ const VocabData = {
           "w": "pregnancy",
           "phon": "/pregnansil",
           "pos": "",
-          "cn": "怀孕",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "born",
-          "phon": "Ib3:D",
-          "pos": "adj.",
-          "cn": "天生的;  与生俱来的",
+          "cn": "怀孕 妊娠",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21805,7 +32211,7 @@ const VocabData = {
           "w": "clone",
           "phon": "Iklaunl",
           "pos": "",
-          "cn": "以无性繁殖技术复制,",
+          "cn": "以无性繁殖技术复制, 克隆动物 克隆 或植物 )",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21835,10 +32241,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "patient",
-          "phon": "/pelfontl",
-          "pos": "adj.",
-          "cn": "有耐心的。能忍耐的",
+          "w": "illness",
+          "phon": "/ilngsl",
+          "pos": "n.",
+          "cn": "病,疾病",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21846,10 +32252,87 @@ const VocabData = {
           ]
         },
         {
-          "w": "dysfunction",
-          "phon": "Idis'fxnkfan",
+          "w": "dlsable",
+          "phon": "",
           "pos": "",
-          "cn": "神经功能障碍致使他残疾。",
+          "cn": "的健康。",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "infection",
+          "phon": "/In'fekfanl",
+          "pos": "",
+          "cn": "传染;  传染病;  影响",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "detriment",
+          "phon": "/detramantl",
+          "pos": "",
+          "cn": "损害;  损害物",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "broken",
+          "phon": "/braukanl",
+          "pos": "adj.",
+          "cn": "弄坏的;  破碎的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "disable",
+          "phon": "Idis'erball",
+          "pos": "",
+          "cn": "使丧失能力 使伤残",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "invalid",
+          "phon": "/invali:dl",
+          "pos": "adj.",
+          "cn": "病弱者,伤残者 病弱的,伤残的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ivalid",
+          "phon": "",
+          "pos": "",
+          "cn": "身心健廉",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "patient",
+          "phon": "/pelfontl",
+          "pos": "adj.",
+          "cn": "有耐心的。能忍耐的 病人",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21860,7 +32343,7 @@ const VocabData = {
           "w": "dysaesthesia",
           "phon": "",
           "pos": "",
-          "cn": "感觉迟钝 )",
+          "cn": "感觉迟钝 ) 营养不良 )",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21868,8 +32351,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "dystrophy",
-          "phon": "/dalalbi:ti:zl",
+          "w": "diabetes",
+          "phon": "",
           "pos": "",
           "cn": "糖尿病",
           "chapter": 21,
@@ -21881,8 +32364,8 @@ const VocabData = {
         {
           "w": "overweight",
           "phon": "",
-          "pos": "",
-          "cn": "超重",
+          "pos": "adj.",
+          "cn": "超重 使超重;  过于重视 超重的,过胖的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21901,21 +32384,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "paralyse",
-          "phon": "/par?laIzl",
-          "pos": "",
-          "cn": "使麻痹;  使瘫痪;  使无助",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "dizzy",
           "phon": "/drzil",
           "pos": "adj.",
-          "cn": "头晕目眩的",
+          "cn": "头晕目眩的 眩晕的 使眩晕",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21937,7 +32409,7 @@ const VocabData = {
           "w": "sanatorium",
           "phon": "",
           "pos": "",
-          "cn": "对健康有益的地方",
+          "cn": "对健康有益的地方 一 疗养院) ,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -21959,7 +32431,18 @@ const VocabData = {
           "w": "hypersomnia",
           "phon": "",
           "pos": "",
-          "cn": "嗜  睡 ) _",
+          "cn": "嗜  睡 ) _ 出  单  词 insomnia ( 失  眠 ) 而由 Thanatos 则衍生出",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "allergy",
+          "phon": "/alad3il",
+          "pos": "",
+          "cn": "敏感症;  过敏性",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22003,7 +32486,7 @@ const VocabData = {
           "w": "pimple",
           "phon": "Ipimpall",
           "pos": "",
-          "cn": "粉刺 ,",
+          "cn": "粉刺 , 丘疹",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22014,7 +32497,7 @@ const VocabData = {
           "w": "mole",
           "phon": "",
           "pos": "",
-          "cn": "的小痘痘",
+          "cn": "的小痘痘 脸上还可能有的: dimple ( 酒窝) ,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22055,19 +32538,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "fu",
-          "phon": "/Hlu:/",
-          "pos": "",
-          "cn": "很快。",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "injure",
-          "phon": "/fi:val",
+          "w": "fever",
+          "phon": "",
           "pos": "",
           "cn": "狂热;  发烧,发热",
           "chapter": 21,
@@ -22088,10 +32560,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "choke",
-          "phon": "Itlaukl",
+          "w": "swell",
+          "phon": "Iswell",
           "pos": "",
-          "cn": "她感到难以压下心中的怒火。",
+          "cn": "肿胀,膨胀;〈使〉增加",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22099,10 +32571,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "hurt",
-          "phon": "/h3:t/",
+          "w": "injure",
+          "phon": "/1nd3a/",
           "pos": "",
-          "cn": "重损害了他的名誉。",
+          "cn": "使遵受损伤;  损害 伤害",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "injury",
+          "phon": "/ind3aril",
+          "pos": "",
+          "cn": "伤害;  损害",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22132,10 +32615,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "scar",
+          "phon": "Iska:l",
+          "pos": "",
+          "cn": "疤痕 伤疤",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "wound",
           "phon": "/wu:ndl",
           "pos": "",
-          "cn": "创伤",
+          "cn": "创伤 伤害;  伤口",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22146,7 +32640,7 @@ const VocabData = {
           "w": "trauma",
           "phon": "/tr3:nal",
           "pos": "",
-          "cn": "外伤,",
+          "cn": "外伤, 身体上的伤;  精神创伤;  痛苦经历",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22155,9 +32649,20 @@ const VocabData = {
         },
         {
           "w": "psychotrauma",
+          "phon": "",
+          "pos": "",
+          "cn": "几",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lump",
           "phon": "IlAmpl",
           "pos": "",
-          "cn": "使成块状",
+          "cn": "块;  肿块 使成块状",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22168,7 +32673,7 @@ const VocabData = {
           "w": "pain",
           "phon": "Ipernl",
           "pos": "",
-          "cn": "痛苦;  疼痛",
+          "cn": "痛苦;  疼痛 使痛苦",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22190,7 +32695,95 @@ const VocabData = {
           "w": "mortal",
           "phon": "/'m3:tl/",
           "pos": "n.",
-          "cn": "凡人,人类",
+          "cn": "凡人,人类 必死的;  致命的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "demise",
+          "phon": "'dr'maIzl",
+          "pos": "",
+          "cn": "禅让 死亡;  君权的转移或授予",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "doom",
+          "phon": "",
+          "pos": "",
+          "cn": "厄运;  毁灭 使注定失败 (或死亡等 )",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "meet one's doom",
+          "phon": "",
+          "pos": "",
+          "cn": "死亡 把 mood (心情〉反过来 (心情不好) . 就变成了 doom",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fatal",
+          "phon": "/fertll",
+          "pos": "adj.",
+          "cn": "致命的;  毁灭性的;  决定性的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lethal",
+          "phon": "Ili:Qall",
+          "pos": "adj.",
+          "cn": "致命的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "corpus",
+          "phon": "",
+          "pos": "",
+          "cn": "词的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "body",
+          "phon": "",
+          "pos": "",
+          "cn": "文集;  本金 之义就是a collection or 知识体或资金体 )",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "overwork",
+          "phon": "",
+          "pos": "",
+          "cn": "过度操劳;  过度工作",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22209,32 +32802,21 @@ const VocabData = {
           ]
         },
         {
-          "w": "fatigue",
-          "phon": "Ifa'ti:gl",
-          "pos": "",
-          "cn": "疲劳",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "faint",
-          "phon": "Iferntl",
-          "pos": "adj.",
-          "cn": "模糊的;  微弱的;  虚弱的",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "feeble",
           "phon": "Ifi:ball",
           "pos": "adj.",
-          "cn": "虚弱的 ,",
+          "cn": "虚弱的 , 无力的;  微弱的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "weary",
+          "phon": "/wraril",
+          "pos": "adj.",
+          "cn": "疲倦的;  厌烦的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22246,6 +32828,17 @@ const VocabData = {
           "phon": "/wi:kanl",
           "pos": "",
           "cn": "削弱;  变软弱",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "uncomfortable",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "不舒服的;  不自在的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22297,10 +32890,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "adj",
-          "phon": "",
-          "pos": "",
-          "cn": "他对形势进行了敏锐的分析。",
+          "w": "sore",
+          "phon": "/53:1",
+          "pos": "adj.",
+          "cn": "疼痛的;  恼火的;  严重的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22410,7 +33003,7 @@ const VocabData = {
           "w": "curative",
           "phon": "/kjuaratrvl",
           "pos": "adj.",
-          "cn": "治疗的",
+          "cn": "治疗的 药品",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22429,10 +33022,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "prescription",
-          "phon": "Ipri'skripfonl",
+          "w": "fitness",
+          "phon": "/fitngsl",
           "pos": "",
-          "cn": "药方;  秘诀",
+          "cn": "健康;  适合",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22440,10 +33033,87 @@ const VocabData = {
           ]
         },
         {
-          "w": "transplant",
-          "phon": "Itrans'pla:ntl",
+          "w": "ftness",
+          "phon": "",
           "pos": "",
-          "cn": "病人的躯体排斥移植的心脏。",
+          "cn": "例",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "clinic",
+          "phon": "/klInrk/",
+          "pos": "",
+          "cn": "诊所;  门诊部",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "physician",
+          "phon": "",
+          "pos": "",
+          "cn": "内科医生",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "surgeon",
+          "phon": "/S3:d3an",
+          "pos": "",
+          "cn": "外科医生",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cure",
+          "phon": "",
+          "pos": "",
+          "cn": "治好 治愈 疗法;  治疗",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "long",
+          "phon": "",
+          "pos": "",
+          "cn": "这可怕的伤口费了很长时间才愈合。",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "treatment",
+          "phon": "/tri:tmantl",
+          "pos": "",
+          "cn": "治疗 , 疗法;  待遇",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "prescription",
+          "phon": "Ipri'skripfonl",
+          "pos": "",
+          "cn": "药方;  秘诀 处方",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22454,7 +33124,84 @@ const VocabData = {
           "w": "injection",
           "phon": "In'd3ekjon/",
           "pos": "",
-          "cn": "注射;  注射物;  单射",
+          "cn": "注射;  注射物;  单射 函数 )",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "precaution",
+          "phon": "Ipri'ko:Janl",
+          "pos": "",
+          "cn": "警惕;  预防措施 预防",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vaccinate",
+          "phon": "",
+          "pos": "",
+          "cn": "预防接种",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "quarantine",
+          "phon": "",
+          "pos": "",
+          "cn": "检疫;  隔离检疫期 对进行隔离检疫",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "segregate",
+          "phon": "/segrigertl",
+          "pos": "",
+          "cn": "隔离",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "isolate",
+          "phon": "/aIsalertl",
+          "pos": "",
+          "cn": "使隔离,使弧立。使脱离",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pharmacy",
+          "phon": "/fa:masil",
+          "pos": "",
+          "cn": "药店;  药剂学",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "medicine",
+          "phon": "Mmedsanl",
+          "pos": "n.",
+          "cn": "药; 医学",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22498,7 +33245,7 @@ const VocabData = {
           "w": "acupuncture",
           "phon": "IakjgipAnktfal",
           "pos": "",
-          "cn": "针灸",
+          "cn": "针灸 中医针灸疗法",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22506,10 +33253,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "penicillin",
-          "phon": "Ieng'silsn",
+          "w": "ieng'silsn",
+          "phon": "",
           "pos": "n.",
           "cn": "青霹素",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "morphine",
+          "phon": "/m:f:n",
+          "pos": "",
+          "cn": "吗啡",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "recovery",
+          "phon": "IrI'kAvaril",
+          "pos": "",
+          "cn": "恢复,痊愈 几",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "irifreli",
+          "phon": "",
+          "pos": "",
+          "cn": "使恢复精神",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "relief",
+          "phon": "Irrli:fl",
+          "pos": "",
+          "cn": "宽慰 轻松;  减轻 缓解",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "relieve",
+          "phon": "Irili:v/",
+          "pos": "",
+          "cn": "救济;  减轻, 解除 (痛苦。不快等 )",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "resume",
+          "phon": "Irrzju:ml",
+          "pos": "",
+          "cn": "重新开始,(中断后) 继续",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22530,8 +33343,8 @@ const VocabData = {
         {
           "w": "normal",
           "phon": "/n3:mall",
-          "pos": "",
-          "cn": "规范的",
+          "pos": "adj.",
+          "cn": "规范的 正常的;  正规的,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22563,8 +33376,8 @@ const VocabData = {
         {
           "w": "optimistic",
           "phon": "",
-          "pos": "",
-          "cn": "乐观主义的",
+          "pos": "adj.",
+          "cn": "乐观主义的 乐观的,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22594,6 +33407,61 @@ const VocabData = {
           ]
         },
         {
+          "w": "negative",
+          "phon": "/negatrvl",
+          "pos": "adj.",
+          "cn": "怀疑的;  消极的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "passive",
+          "phon": "/pasIV/",
+          "pos": "adj.",
+          "cn": "被动的。消极的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "enthusiastic",
+          "phon": "Ingju:zi'astikl",
+          "pos": "adj.",
+          "cn": "热心的,热情的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "apathetic",
+          "phon": "Iapa'detikl",
+          "pos": "adj.",
+          "cn": "无动于衷的,漠不关心的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "negligible",
+          "phon": "/'neglid3sball",
+          "pos": "adj.",
+          "cn": "微不足道的 可以忽略的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "happiness",
           "phon": "",
           "pos": "",
@@ -22605,19 +33473,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "delight",
-          "phon": "Idrlaltl",
-          "pos": "",
-          "cn": "乐趣",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "merry",
-          "phon": "Mmeri",
+          "phon": "",
           "pos": "adj.",
           "cn": "愉快的,欢乐的;  微醉的",
           "chapter": 21,
@@ -22630,7 +33487,7 @@ const VocabData = {
           "w": "fun",
           "phon": "",
           "pos": "n.",
-          "cn": "乐趣;  玩笑",
+          "cn": "乐趣;  玩笑 有趣的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22641,7 +33498,7 @@ const VocabData = {
           "w": "joke",
           "phon": "Id3aUkl",
           "pos": "",
-          "cn": "笑话;  玩笑",
+          "cn": "笑话;  玩笑 说笑话;  开玩笑",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22682,6 +33539,61 @@ const VocabData = {
           ]
         },
         {
+          "w": "thrill",
+          "phon": "",
+          "pos": "",
+          "cn": "激动",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cheer",
+          "phon": "Itfral",
+          "pos": "",
+          "cn": "使振作;(向〉欢呼",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "pleasure",
+          "phon": "/ple3ai",
+          "pos": "",
+          "cn": "愉快 高兴;  荣幸 (用于回答对方的感谢 )",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "exhilarate",
+          "phon": "",
+          "pos": "",
+          "cn": "使高兴,使兴奋",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "satisfactory",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "令人满意的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "desirable",
           "phon": "Idrzalaroball",
           "pos": "",
@@ -22695,8 +33607,8 @@ const VocabData = {
         {
           "w": "exciting",
           "phon": "Ik'sartml",
-          "pos": "",
-          "cn": "使人激动的",
+          "pos": "adj.",
+          "cn": "使人激动的 令人兴奋的,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22738,20 +33650,9 @@ const VocabData = {
         },
         {
           "w": "fond",
-          "phon": "Ifondi",
+          "phon": "",
           "pos": "adj.",
           "cn": "喜爱的;  溺爱的",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "spoil",
-          "phon": "",
-          "pos": "",
-          "cn": "亲可能会宠坏她的孩子。",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22762,7 +33663,106 @@ const VocabData = {
           "w": "favourite",
           "phon": "",
           "pos": "",
-          "cn": "利的",
+          "cn": "利的 东西",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "surprising",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "令人惊讶的,出人意料的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "startle",
+          "phon": "",
+          "pos": "",
+          "cn": "吃惊 使大吃一惊",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "amazing",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "惊人的 令人惊叹的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "astound",
+          "phon": "",
+          "pos": "",
+          "cn": "使大吃一惊。使惊骇",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "hectic",
+          "phon": "/'hektiki",
+          "pos": "adj.",
+          "cn": "兴奋活跃的,忙乱的,繁忙的 这个新闻记者过",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "liberal",
+          "phon": "Ilibarall",
+          "pos": "adj.",
+          "cn": "大方的;  自由主义的 慷慨的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "a liberal unionist",
+          "phon": "",
+          "pos": "",
+          "cn": "英国的)自",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "generous",
+          "phon": "/d3enarasi",
+          "pos": "adj.",
+          "cn": "慷慨的;  宽厚的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gentle",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "温和的;  柔和的;  文雅的;  出身名门的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22784,7 +33784,7 @@ const VocabData = {
           "w": "modest",
           "phon": "/mpdgstl",
           "pos": "adj.",
-          "cn": "谦虚的",
+          "cn": "谦虚的 谦逊的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22795,7 +33795,7 @@ const VocabData = {
           "w": "humorous",
           "phon": "/hju:marasl",
           "pos": "adj.",
-          "cn": "富于幽默感的",
+          "cn": "富于幽默感的 诙谐的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22825,8 +33825,8 @@ const VocabData = {
           ]
         },
         {
-          "w": "daring",
-          "phon": "Imr'strariasl",
+          "w": "mysterious",
+          "phon": "",
           "pos": "adj.",
           "cn": "神秘的;  不可思议的",
           "chapter": 21,
@@ -22839,7 +33839,18 @@ const VocabData = {
           "w": "curious",
           "phon": "/kjuariasl",
           "pos": "adj.",
-          "cn": "好奇的 ,",
+          "cn": "好奇的 , 好求知的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "daring",
+          "phon": "/dearml",
+          "pos": "adj.",
+          "cn": "勇敢的 , 大胆的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22894,7 +33905,7 @@ const VocabData = {
           "w": "proud",
           "phon": "Iraudl",
           "pos": "adj.",
-          "cn": "骄傲的,",
+          "cn": "骄傲的, 自豪的;  令人自豪的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22925,7 +33936,7 @@ const VocabData = {
         },
         {
           "w": "stern",
-          "phon": "Ist3:n",
+          "phon": "",
           "pos": "adj.",
           "cn": "严厉的;  坚定的",
           "chapter": 21,
@@ -22938,7 +33949,7 @@ const VocabData = {
           "w": "sternness",
           "phon": "",
           "pos": "",
-          "cn": "刻 ,",
+          "cn": "几 刻 , 严厉",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22949,7 +33960,7 @@ const VocabData = {
           "w": "friendly",
           "phon": "/frendlil",
           "pos": "adj.",
-          "cn": "友好的,",
+          "cn": "友好的, 友善的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -22991,9 +34002,9 @@ const VocabData = {
         },
         {
           "w": "freedom",
-          "phon": "/fri:daml",
+          "phon": "",
           "pos": "",
-          "cn": "自由 =",
+          "cn": "自由 = 独立自主",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23015,7 +34026,7 @@ const VocabData = {
           "w": "conern",
           "phon": "/kan's3:n/",
           "pos": "",
-          "cn": "关心;  忧虑",
+          "cn": "关心;  忧虑 涉及;  使担忧;  关心",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23048,7 +34059,7 @@ const VocabData = {
           "w": "considerate",
           "phon": "Ikan'sidargtl",
           "pos": "adj.",
-          "cn": "考虑周到的,",
+          "cn": "考虑周到的, 体谅的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23114,7 +34125,7 @@ const VocabData = {
           "w": "mercy",
           "phon": "/m3:Sil",
           "pos": "n.",
-          "cn": "仁慈",
+          "cn": "仁慈 宽容,怜悯",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23126,6 +34137,94 @@ const VocabData = {
           "phon": "",
           "pos": "",
           "cn": "仰慕",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "remarkable",
+          "phon": "Irr'ma:kaball",
+          "pos": "adj.",
+          "cn": "值得注意的;  非凡的,卓越的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "grateful",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "感激的;  表示感激的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "gratitude",
+          "phon": "Igratstju:d/",
+          "pos": "",
+          "cn": "感恩 感激,感谢",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "eager",
+          "phon": "/i:gal",
+          "pos": "adj.",
+          "cn": "渴望的 . 热切的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sound",
+          "phon": "Isaundl",
+          "pos": "adj.",
+          "cn": "睡眠)酣畅的;  合理的 健全的; 声音",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "picturesque",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "如画的;  独特的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "prominent",
+          "phon": "/promsnantl",
+          "pos": "adj.",
+          "cn": "突出的, 显著的;  重要的,杰出的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "awesome",
+          "phon": "/3:saml",
+          "pos": "adj.",
+          "cn": "卓越的, 引起敬畏的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23147,7 +34246,7 @@ const VocabData = {
           "w": "tough",
           "phon": "ItAfl",
           "pos": "adj.",
-          "cn": "艰难的;  坚强的",
+          "cn": "艰难的;  坚强的 坚韧不拔的;  强硬的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23191,7 +34290,7 @@ const VocabData = {
           "w": "tender",
           "phon": "/tendal",
           "pos": "adj.",
-          "cn": "脆弱的;  温柔的;  软弱的;  疼痛的",
+          "cn": "脆弱的;  温柔的;  软弱的;  疼痛的 投标",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23210,10 +34309,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "liable",
-          "phon": "Mlalaball",
+          "w": "delicate",
+          "phon": "",
           "pos": "adj.",
-          "cn": "有责任的;  有倾向的",
+          "cn": "精致的;  微妙的;  脆弱的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23221,7 +34320,249 @@ const VocabData = {
           ]
         },
         {
-          "w": "intuition",
+          "w": "mundane",
+          "phon": "IAndelnl",
+          "pos": "adj.",
+          "cn": "平凡的, 世俗的;  世界的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "naive",
+          "phon": "Inali:vl",
+          "pos": "adj.",
+          "cn": "天真的;  幼稚的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "childish",
+          "phon": "/tfaildill",
+          "pos": "adj.",
+          "cn": "孩子般的;  幼稚的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sincere",
+          "phon": "IsInsral",
+          "pos": "adj.",
+          "cn": "真诚的。诚挚的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "liable",
+          "phon": "Mlalaball",
+          "pos": "adj.",
+          "cn": "有责任的;  有倾向的 可能的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "trustworthy",
+          "phon": "/trAst w3:Gil",
+          "pos": "adj.",
+          "cn": "值得信赖的 可靠的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "enterprising",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "有事业心的 有进取心的;  有魄力的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sane",
+          "phon": "Iselnl",
+          "pos": "adj.",
+          "cn": "心智健全的;  理智的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "strenuous",
+          "phon": "/strenjuasl",
+          "pos": "adj.",
+          "cn": "发奋的;  繁重的,艰苦的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "laborious",
+          "phon": "",
+          "pos": "",
+          "cn": "煌的;  光荣的 ):  充满了 labour ( 劳动",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rigorous",
+          "phon": "/rigarasl",
+          "pos": "adj.",
+          "cn": "严格的,严厉的; 一丝不苟的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "strict",
+          "phon": "Istriktl",
+          "pos": "adj.",
+          "cn": "严格的;  严厉的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "severe",
+          "phon": "ISa'Vtal",
+          "pos": "adj.",
+          "cn": "严厉的; 十分严重的;  艰巨的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "mutual",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "相互的,彼此的;  共同的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "resemble",
+          "phon": "Irizemball",
+          "pos": "",
+          "cn": "与相像,类似",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "similar",
+          "phon": "/slmalal",
+          "pos": "adj.",
+          "cn": "相似的,类似的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "simultaneous",
+          "phon": "",
+          "pos": "",
+          "cn": "同时 发生的 )",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "familiar",
+          "phon": "Ifa'mrlial",
+          "pos": "adj.",
+          "cn": "熟悉的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "naked",
+          "phon": "/nelkgdl",
+          "pos": "adj.",
+          "cn": "裸体的,赤条条的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "beach",
+          "phon": "",
+          "pos": "",
+          "cn": "那不是指光秃秃的沙滩 , 而是指天体浴场。英 语中的 却没有用 naked 一词 裸奔\"  和 裸泳 而是:",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "bare",
+          "phon": "Ibeal",
+          "pos": "adj.",
+          "cn": "赤裸的;  无遮蔽的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "private",
+          "phon": "/pralvstl",
+          "pos": "adj.",
+          "cn": "私人的, 个人的;  私下的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lintju'ilanl",
           "phon": "",
           "pos": "",
           "cn": "直觉",
@@ -23234,8 +34575,8 @@ const VocabData = {
         {
           "w": "spontaneous",
           "phon": "Ispon'telniasl",
-          "pos": "",
-          "cn": "自然的,本能的;  自然产生的",
+          "pos": "adj.",
+          "cn": "自然的,本能的;  自然产生的 自发的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23245,8 +34586,8 @@ const VocabData = {
         {
           "w": "implicit",
           "phon": "Iim'plrsstl",
-          "pos": "",
-          "cn": "含蓄的;  不怀疑的,无保留的",
+          "pos": "adj.",
+          "cn": "含蓄的;  不怀疑的,无保留的 暗示的,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23267,8 +34608,8 @@ const VocabData = {
         {
           "w": "imaginary",
           "phon": "Ii'mad3anaril",
-          "pos": "",
-          "cn": "虚构的",
+          "pos": "adj.",
+          "cn": "虚构的 想象的.",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23287,10 +34628,76 @@ const VocabData = {
           ]
         },
         {
+          "w": "fate",
+          "phon": "Ifertl",
+          "pos": "",
+          "cn": "命运。宿命",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fortune",
+          "phon": "",
+          "pos": "",
+          "cn": "她不知道接下来等待她的将是什么样的命运。",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "agony",
+          "phon": "",
+          "pos": "",
+          "cn": "极度的痛苦;  挣扎",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "grief",
+          "phon": "Igri:fl",
+          "pos": "",
+          "cn": "极度悲伤",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "miserable",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "痛苦的 极不愉快的 ,",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "distress",
+          "phon": "Idrstresl",
+          "pos": "",
+          "cn": "悲痛;  穷困。不幸 使伤心,使忧虑",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "sadness",
           "phon": "/sadngsl",
           "pos": "",
-          "cn": "悲痛 .",
+          "cn": "悲痛 . 悲哀",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23323,7 +34730,7 @@ const VocabData = {
           "w": "discourage",
           "phon": "Idis'kArId3l",
           "pos": "",
-          "cn": "使灰心 ,",
+          "cn": "使灰心 , 使气馁;  劝阻",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23334,7 +34741,7 @@ const VocabData = {
           "w": "wretched",
           "phon": "/'retfsdl",
           "pos": "adj.",
-          "cn": "不幸的 ,",
+          "cn": "不幸的 , 可怜的,悲惨的;  恶劣的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23345,7 +34752,7 @@ const VocabData = {
           "w": "frustrating",
           "phon": "IfrA'strertn/",
           "pos": "adj.",
-          "cn": "令人灰心的 ,",
+          "cn": "令人灰心的 , 使人沮丧的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23356,7 +34763,7 @@ const VocabData = {
           "w": "anger",
           "phon": "Iengal",
           "pos": "",
-          "cn": "几怒,怒气",
+          "cn": "几怒,怒气 使发怒",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23364,10 +34771,43 @@ const VocabData = {
           ]
         },
         {
-          "w": "furious",
-          "phon": "/fjuariasl",
+          "w": "frown",
+          "phon": "/fraunl",
           "pos": "",
-          "cn": "暴怒的",
+          "cn": "皱眉,不悦 皱眉,表示不悦",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rage",
+          "phon": "Irerd3l",
+          "pos": "",
+          "cn": "几。盛怒 狂怒",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "me",
+          "phon": "",
+          "pos": "",
+          "cn": "孩子们的吵闹使我恼火。",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "hatred",
+          "phon": "/hertrodl",
+          "pos": "",
+          "cn": "憎恶,憎恨,仇恨",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23389,7 +34829,18 @@ const VocabData = {
           "w": "disgust",
           "phon": "IdIs'gAstl",
           "pos": "",
-          "cn": "厌恶,嫌恶",
+          "cn": "厌恶,嫌恶 使厌恶,使作呕",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "vex",
+          "phon": "Iveksl",
+          "pos": "",
+          "cn": "使烦恼,使恼火",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23411,7 +34862,7 @@ const VocabData = {
           "w": "bore",
           "phon": "",
           "pos": "",
-          "cn": "讨厌的人;  令人生厌的事",
+          "cn": "讨厌的人;  令人生厌的事 烦扰;  钻孔",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23422,7 +34873,18 @@ const VocabData = {
           "w": "bother",
           "phon": "IbD0al",
           "pos": "",
-          "cn": "困难",
+          "cn": "困难 几。麻烦 做某事 );〈使〉苦恼 花费时间精力",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "troublesome",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "令人烦恼的;  麻烦的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23432,8 +34894,8 @@ const VocabData = {
         {
           "w": "awful",
           "phon": "I3:fall",
-          "pos": "",
-          "cn": "极讨厌的",
+          "pos": "adj.",
+          "cn": "极讨厌的 令人不愉快的 ,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23444,7 +34906,7 @@ const VocabData = {
           "w": "unpleasant",
           "phon": "IAnplezantl",
           "pos": "adj.",
-          "cn": "令人不愉快的",
+          "cn": "令人不愉快的 讨厌的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23465,8 +34927,8 @@ const VocabData = {
         {
           "w": "hostile",
           "phon": "/'hpstarll",
-          "pos": "",
-          "cn": "不友善的;  敌对的",
+          "pos": "adj.",
+          "cn": "不友善的;  敌对的 怀有敌意的,",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23497,7 +34959,7 @@ const VocabData = {
         },
         {
           "w": "mad",
-          "phon": "Imad",
+          "phon": "",
           "pos": "adj.",
           "cn": "发疯的;  恼火的",
           "chapter": 21,
@@ -23508,9 +34970,9 @@ const VocabData = {
         },
         {
           "w": "crazy",
-          "phon": "",
-          "pos": "",
-          "cn": "身心健康",
+          "phon": "/krerzil",
+          "pos": "adj.",
+          "cn": "疯狂的;  荒唐的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23521,7 +34983,7 @@ const VocabData = {
           "w": "wicked",
           "phon": "/wiksdl",
           "pos": "adj.",
-          "cn": "邪恶的 ,",
+          "cn": "邪恶的 , 缺德的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23540,10 +35002,21 @@ const VocabData = {
           ]
         },
         {
+          "w": "vulgar",
+          "phon": "/VAIgal",
+          "pos": "adj.",
+          "cn": "粗俗的, 庸俗的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
           "w": "mean",
           "phon": "Imi:nl",
           "pos": "adj.",
-          "cn": "卑鄙的;  吝啬的",
+          "cn": "卑鄙的;  吝啬的 意思是",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23587,7 +35060,95 @@ const VocabData = {
           "w": "rash",
           "phon": "IraJ/",
           "pos": "adj.",
-          "cn": "草率的 ,",
+          "cn": "草率的 , 鲁莽的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rashness",
+          "phon": "",
+          "pos": "",
+          "cn": "急躁,鲁莽 几",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "bgo",
+          "phon": "",
+          "pos": "",
+          "cn": "岛3",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "volatile",
+          "phon": "/volatarll",
+          "pos": "adj.",
+          "cn": "易变的,反复无常的;  易挥发的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "weird",
+          "phon": "/wladl",
+          "pos": "adj.",
+          "cn": "怪诞的,古怪的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wizard",
+          "phon": "",
+          "pos": "",
+          "cn": "都 \"巫\" 到一块儿了 !",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "excessive",
+          "phon": "Ik'sesrvl",
+          "pos": "adj.",
+          "cn": "过分的,过多的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "anxiety",
+          "phon": "Ian'zalatil",
+          "pos": "",
+          "cn": "焦虑,担心;  渴望",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "restless",
+          "phon": "/restlasl",
+          "pos": "adj.",
+          "cn": "不安定的。焦躁不安的 不耐烦的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23599,6 +35160,17 @@ const VocabData = {
           "phon": "IAIi:zil",
           "pos": "adj.",
           "cn": "心神不安的,忧虑的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fuss",
+          "phon": "",
+          "pos": "",
+          "cn": "大惊小怪,无谓的纷扰",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23620,7 +35192,7 @@ const VocabData = {
           "w": "unkind",
           "phon": "",
           "pos": "adj.",
-          "cn": "不仁慈的",
+          "cn": "不仁慈的 不和善的,刻薄的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23628,10 +35200,65 @@ const VocabData = {
           ]
         },
         {
-          "w": "toy",
+          "w": "jealous",
           "phon": "",
+          "pos": "adj.",
+          "cn": "嫉妒的。妒忌的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "suspicion",
+          "phon": "Isa'spilanl",
           "pos": "",
-          "cn": "友们很羡慕",
+          "cn": "怀疑,嫌疑",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "unsatisfactory",
+          "phon": "IAnisetss'faktaril",
+          "pos": "adj.",
+          "cn": "不符合要求的,不足的 不能令人满意的 ,",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "unstable",
+          "phon": "/Anstetball",
+          "pos": "adj.",
+          "cn": "不稳定的;  易娈的;  不牢固的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "unsuitable",
+          "phon": "IAnst:taball",
+          "pos": "",
+          "cn": "不适宜的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "unwilling",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "不愿意的 不情愿的;  勉强的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23686,7 +35313,18 @@ const VocabData = {
           "w": "embarrass",
           "phon": "Im'barasl",
           "pos": "",
-          "cn": "使尴尬,使窘迫 ,",
+          "cn": "使尴尬,使窘迫 , 使局促不安",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "regret",
+          "phon": "",
+          "pos": "n.",
+          "cn": "遗憾;  抱歉;  悲叹 后悔;  痛惜,惋惜",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23708,7 +35346,7 @@ const VocabData = {
           "w": "ashamed",
           "phon": "Ia'fermdl",
           "pos": "adj.",
-          "cn": "惭愧的,",
+          "cn": "惭愧的, 感到难为情的;  耻于:的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23717,9 +35355,20 @@ const VocabData = {
         },
         {
           "w": "sigh",
-          "phon": "Isal:",
+          "phon": "",
           "pos": "n.",
           "cn": "叹息,叹气",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "weep",
+          "phon": "Iwipl",
+          "pos": "",
+          "cn": "哭泣 流泪;  哀悼 几。哭泣",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23730,18 +35379,7 @@ const VocabData = {
           "w": "tolerance",
           "phon": "Mtolaransl",
           "pos": "",
-          "cn": "忍受。容忍",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "ignorant men",
-          "phon": "",
-          "pos": "",
-          "cn": "老去更昏庸。",
+          "cn": "忍受。容忍 宽容",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23751,8 +35389,8 @@ const VocabData = {
         {
           "w": "sly",
           "phon": "Islall",
-          "pos": "",
-          "cn": "狡诈的",
+          "pos": "adj.",
+          "cn": "狡诈的 狡猾的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23782,21 +35420,10 @@ const VocabData = {
           ]
         },
         {
-          "w": "arbitrary parameter",
-          "phon": "",
-          "pos": "",
-          "cn": "任意参数",
-          "chapter": 21,
-          "chapterName": "身心健康",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
           "w": "ridiculous",
           "phon": "Iridikjlasl",
           "pos": "adj.",
-          "cn": "荒谬的",
+          "cn": "荒谬的 可笑的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23807,7 +35434,7 @@ const VocabData = {
           "w": "stupid",
           "phon": "/stju:psdl",
           "pos": "adj.",
-          "cn": "愚蠢的;  麻木的;  乏味的",
+          "cn": "傻瓜。笨蛋 愚蠢的;  麻木的;  乏味的",
           "chapter": 21,
           "chapterName": "身心健康",
           "tags": [
@@ -23846,20 +35473,91 @@ const VocabData = {
           "tags": [
             "writing"
           ]
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "name": "时间日期",
-      "words": [
+        },
+        {
+          "w": "oblivious",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "不知道的。末注意的 她没有注意",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "naughty",
+          "phon": "/n3:til",
+          "pos": "adj.",
+          "cn": "淘气的. 顽皮的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "greedy",
+          "phon": "Igri:dil",
+          "pos": "adj.",
+          "cn": "贪吃的;  贪婪的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "obtrusive",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "过分炫耀的,过分突出的,扎眼的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "try",
+          "phon": "",
+          "pos": "",
+          "cn": "些不那么扎眼的衣服。",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "slothful",
+          "phon": "Islaugfoll",
+          "pos": "adj.",
+          "cn": "懒散的 偷懒的 例",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sluggish",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "行动迟缓的",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        },
         {
           "w": "impulse",
           "phon": "MImPAIs/",
           "pos": "",
           "cn": "冲动,心血来潮",
-          "chapter": 22,
-          "chapterName": "时间日期",
+          "chapter": 21,
+          "chapterName": "身心健康",
           "tags": [
             "writing"
           ]
@@ -23869,8 +35567,8 @@ const VocabData = {
           "phon": "/rid3sd/",
           "pos": "adj.",
           "cn": "固执的;  严格的;  刚硬的",
-          "chapter": 22,
-          "chapterName": "时间日期",
+          "chapter": 21,
+          "chapterName": "身心健康",
           "tags": [
             "writing"
           ]
@@ -23880,8 +35578,8 @@ const VocabData = {
           "phon": "/stAbanl",
           "pos": "adj.",
           "cn": "顽固的,固执的",
-          "chapter": 22,
-          "chapterName": "时间日期",
+          "chapter": 21,
+          "chapterName": "身心健康",
           "tags": [
             "writing"
           ]
@@ -23890,7 +35588,24 @@ const VocabData = {
           "w": "stereotype",
           "phon": "/steriataIpl",
           "pos": "",
-          "cn": "老一套,模式化观念,",
+          "cn": "老一套,模式化观念, 刻板印象",
+          "chapter": 21,
+          "chapterName": "身心健康",
+          "tags": [
+            "writing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "时间日期",
+      "words": [
+        {
+          "w": "kungfu panda",
+          "phon": "",
+          "pos": "",
+          "cn": "明日还未可知,但是今日是上 昨日已成往事 苍的礼赠,那就是为什么我们称之为 \"礼物 /",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -23901,7 +35616,7 @@ const VocabData = {
           "w": "daily",
           "phon": "/dellil",
           "pos": "adj.",
-          "cn": "每日的",
+          "cn": "每日的 日报",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -23912,7 +35627,7 @@ const VocabData = {
           "w": "monthly",
           "phon": "/mAnglil",
           "pos": "adj.",
-          "cn": "每月的",
+          "cn": "每月的 每月一次 几月刊",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -23934,7 +35649,7 @@ const VocabData = {
           "w": "annual",
           "phon": "Ianjuall",
           "pos": "adj.",
-          "cn": "每年的; -年的",
+          "cn": "每年的; -年的 年报",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -23964,10 +35679,98 @@ const VocabData = {
           ]
         },
         {
-          "w": "dawn",
-          "phon": "Id3:nl",
+          "w": "era",
+          "phon": "/raral",
           "pos": "",
-          "cn": "黎明;  开端",
+          "cn": "时代。年代,纪元",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "present",
+          "phon": "/prezantl",
+          "pos": "adj.",
+          "cn": "现在的 目前;  礼物。赠送物",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "contemporary",
+          "phon": "Ikan'tempararil",
+          "pos": "adj.",
+          "cn": "当代的;  同时代的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "tempor",
+          "phon": "",
+          "pos": "",
+          "cn": "时间 ) + ary (形容词后缀) > contemporary",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "medieval",
+          "phon": "/medii:vall",
+          "pos": "adj.",
+          "cn": "中世纪的;  守旧的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "century",
+          "phon": "/sentfaril",
+          "pos": "",
+          "cn": "世纪;  百年",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "millennium",
+          "phon": "Imr'leniaml",
+          "pos": "",
+          "cn": "一千年,千年期;  千禧年",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "billion",
+          "phon": "/biljan",
+          "pos": "num.",
+          "cn": "十亿;  大量",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "dozen",
+          "phon": "",
+          "pos": "",
+          "cn": "一打,十二个; +来个",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -24000,7 +35803,84 @@ const VocabData = {
           "w": "night",
           "phon": "Inartl",
           "pos": "",
-          "cn": "夜",
+          "cn": "夜 夜间;  晚上;  夜场",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "modern",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "现代的;  近代的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "up-to-date",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "直到目前的;  现代的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "first",
+          "phon": "If3:st/",
+          "pos": "",
+          "cn": "第",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "secondly",
+          "phon": "Isekandlil",
+          "pos": "",
+          "cn": "其次",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "finish",
+          "phon": "/finrll",
+          "pos": "",
+          "cn": "最后部分 结尾 完成;  结束",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "instant",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "立即的 瞬间",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "immediately",
+          "phon": "",
+          "pos": "",
+          "cn": "留@",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -24022,7 +35902,7 @@ const VocabData = {
           "w": "minute",
           "phon": "",
           "pos": "",
-          "cn": "指极短的时间,",
+          "cn": "指极短的时间, 但可觉察到时间的持续 =",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -24044,7 +35924,128 @@ const VocabData = {
           "w": "former",
           "phon": "/f3:mal",
           "pos": "adj.",
-          "cn": "以前的;  前者的",
+          "cn": "以前的;  前者的 前者",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "preceding",
+          "phon": "Ipri'si:dil",
+          "pos": "adj.",
+          "cn": "在前的, 在先的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "precedent",
+          "phon": "/presdantl",
+          "pos": "",
+          "cn": "先例;  常规",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "foremost",
+          "phon": "/f3:IaUstl",
+          "pos": "adj.",
+          "cn": "最前的;  最重要的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "opening",
+          "phon": "IoupanI/",
+          "pos": "adj.",
+          "cn": "开始的 开始 开端",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "my mind",
+          "phon": "",
+          "pos": "",
+          "cn": "起初 , 我不同意他们的提 不过后来我改了主意。 议,",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "intermediate",
+          "phon": "IInta'mi:diatl",
+          "pos": "adj.",
+          "cn": "中间的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "midst",
+          "phon": "",
+          "pos": "",
+          "cn": "中部。中间",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "simultaneous",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "同时发生 或进行)的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "ongoing",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "进行中的;  继续存在的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "everlasting",
+          "phon": "",
+          "pos": "adj.",
+          "cn": "永恒的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "permanent",
+          "phon": "/p3:manantl",
+          "pos": "adj.",
+          "cn": "永久的",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -24055,7 +36056,7 @@ const VocabData = {
           "w": "punctual",
           "phon": "IpMktfuall",
           "pos": "adj.",
-          "cn": "准时的 ,",
+          "cn": "准时的 , 守时的",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -24085,7 +36086,18 @@ const VocabData = {
           ]
         },
         {
-          "w": "chamber",
+          "w": "imminent",
+          "phon": "/Imanantl",
+          "pos": "adj.",
+          "cn": "(尤指不愉快的事) 即将发生的,逼近的",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "cock",
           "phon": "",
           "pos": "",
           "cn": "羲",
@@ -24096,18 +36108,7 @@ const VocabData = {
           ]
         },
         {
-          "w": "cradle",
-          "phon": "",
-          "pos": "",
-          "cn": "羲",
-          "chapter": 22,
-          "chapterName": "时间日期",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "experiment",
+          "w": "enterprise",
           "phon": "",
           "pos": "",
           "cn": "翥",
@@ -24118,18 +36119,7 @@ const VocabData = {
           ]
         },
         {
-          "w": "fertilise",
-          "phon": "",
-          "pos": "",
-          "cn": "素",
-          "chapter": 22,
-          "chapterName": "时间日期",
-          "tags": [
-            "writing"
-          ]
-        },
-        {
-          "w": "jr",
+          "w": "insist",
           "phon": "",
           "pos": "",
           "cn": "翥",
@@ -24140,7 +36130,18 @@ const VocabData = {
           ]
         },
         {
-          "w": "lane",
+          "w": "insomnia",
+          "phon": "",
+          "pos": "",
+          "cn": "诏22",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "logogram",
           "phon": "",
           "pos": "",
           "cn": "索",
@@ -24162,7 +36163,7 @@ const VocabData = {
           ]
         },
         {
-          "w": "orientation",
+          "w": "originate",
           "phon": "",
           "pos": "",
           "cn": "煞",
@@ -24173,7 +36174,18 @@ const VocabData = {
           ]
         },
         {
-          "w": "prescription",
+          "w": "peninsula",
+          "phon": "",
+          "pos": "",
+          "cn": "翥",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "plaza",
           "phon": "",
           "pos": "",
           "cn": "素",
@@ -24184,7 +36196,7 @@ const VocabData = {
           ]
         },
         {
-          "w": "scholar",
+          "w": "shuffle",
           "phon": "",
           "pos": "",
           "cn": "索",
@@ -24206,7 +36218,7 @@ const VocabData = {
           ]
         },
         {
-          "w": "starve",
+          "w": "sort",
           "phon": "",
           "pos": "",
           "cn": "翥",
@@ -24217,10 +36229,76 @@ const VocabData = {
           ]
         },
         {
-          "w": "fltrp",
+          "w": "vacation",
+          "phon": "",
+          "pos": "",
+          "cn": "翥",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "wqun",
+          "phon": "",
+          "pos": "",
+          "cn": "鬟 词汇真经 宫 逻辑词群记忆",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "sun moon star",
+          "phon": "",
+          "pos": "",
+          "cn": "眼 鼍",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "fashon",
+          "phon": "",
+          "pos": "",
+          "cn": "记载人类文明 学为贵 沟通世界文化",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "com",
           "phon": "",
           "pos": "",
           "cn": "事半功倍。",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "lxtcs",
+          "phon": "",
+          "pos": "",
+          "cn": "耳听 蜚 篙 警",
+          "chapter": 22,
+          "chapterName": "时间日期",
+          "tags": [
+            "writing"
+          ]
+        },
+        {
+          "w": "rearlo",
+          "phon": "",
+          "pos": "",
+          "cn": "地道搭配",
           "chapter": 22,
           "chapterName": "时间日期",
           "tags": [
@@ -24230,24 +36308,13 @@ const VocabData = {
       ]
     }
   ],
-  "total": 2190
+  "total": 3288
 };
 
-// Helper methods
-VocabData.getChapter = function(id) {
-  return this.chapters.find(c => c.id === parseInt(id));
-};
-
-VocabData.totalWords = function() {
-  return this.chapters.reduce((sum, c) => sum + c.words.length, 0);
-};
-
+VocabData.getChapter = function(id) { return this.chapters.find(c => c.id === parseInt(id)); };
+VocabData.totalWords = function() { return this.chapters.reduce((s, c) => s + c.words.length, 0); };
 VocabData.allWords = function() {
   const list = [];
-  this.chapters.forEach(ch => {
-    ch.words.forEach(w => {
-      list.push({ ...w, chapter: ch.id, chapterName: ch.name });
-    });
-  });
+  this.chapters.forEach(ch => { ch.words.forEach(w => { list.push({ ...w, chapter: ch.id, chapterName: ch.name }); }); });
   return list;
 };
