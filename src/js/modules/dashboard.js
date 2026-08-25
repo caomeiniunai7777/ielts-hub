@@ -1,5 +1,8 @@
 /* ========================================
    Module 1: 每日打卡、待办与多维计划看板
+   - Smart plan import (淘口令式解析)
+   - Calendar auto-distribution
+   - Todo auto-sync from plan
    ======================================== */
 
 const Dashboard = {
@@ -11,7 +14,7 @@ const Dashboard = {
       <div class="pill-tabs">
         <div class="pill-tab ${this.activeTab === 'todo' ? 'active' : ''}" onclick="Dashboard.switchTab('todo')">待办清单</div>
         <div class="pill-tab ${this.activeTab === 'calendar' ? 'active' : ''}" onclick="Dashboard.switchTab('calendar')">打卡日历</div>
-        <div class="pill-tab ${this.activeTab === 'plan' ? 'active' : ''}" onclick="Dashboard.switchTab('plan')">周计划</div>
+        <div class="pill-tab ${this.activeTab === 'plan' ? 'active' : ''}" onclick="Dashboard.switchTab('plan')">备考计划</div>
       </div>
       <div id="dash-content"></div>
     `;
@@ -45,9 +48,33 @@ const Dashboard = {
     }
   },
 
-  // --- Todo List ---
+  // ========================================
+  // Todo List — auto-syncs from plan
+  // ========================================
+
   renderTodo() {
     const todos = Store.get('todos') || [];
+    const planTasks = this.getTodayPlanTasks();
+    
+    // Merge: plan tasks that aren't already in todos
+    const existingTexts = new Set(todos.map(t => t.text.toLowerCase()));
+    const newPlanTasks = planTasks.filter(pt => !existingTexts.has(pt.name.toLowerCase()));
+    
+    // Add plan tasks as todo items (auto-generated, marked with source)
+    if (newPlanTasks.length > 0) {
+      newPlanTasks.forEach(pt => {
+        todos.push({
+          id: Utils.uid(),
+          text: `[${pt.module}] ${pt.name}`,
+          done: false,
+          createdAt: Utils.today(),
+          completedAt: null,
+          planTaskId: pt.id,
+        });
+      });
+      Store.set('todos', todos);
+    }
+
     const active = todos.filter(t => !t.done);
     const done = todos.filter(t => t.done);
 
@@ -83,10 +110,11 @@ const Dashboard = {
   },
 
   renderTodoItem(t) {
+    const isPlanTask = t.planTaskId ? '<span class="tag-chip orange" style="margin-right:6px;font-size:9px;padding:1px 6px">计划</span>' : '';
     return `
       <div class="check-item ${t.done ? 'done' : ''}" data-id="${t.id}">
         <div class="check-box ${t.done ? 'checked' : ''}" onclick="Dashboard.toggleTodo('${t.id}')"></div>
-        <span class="check-text">${Utils.esc(t.text)}</span>
+        <span class="check-text">${isPlanTask}${Utils.esc(t.text)}</span>
       </div>
     `;
   },
@@ -123,6 +151,10 @@ const Dashboard = {
         const checkins = Store.get('checkins') || {};
         checkins[Utils.today()] = true;
         Store.set('checkins', checkins);
+        // Sync plan progress
+        if (t.planTaskId) {
+          this.syncPlanProgress(t.planTaskId);
+        }
       }
       this.renderTab();
     }
@@ -145,9 +177,13 @@ const Dashboard = {
     return streak;
   },
 
-  // --- Calendar ---
+  // ========================================
+  // Calendar — with plan task capsules
+  // ========================================
+
   renderCalendar() {
     const checkins = Store.get('checkins') || {};
+    const planData = Store.get('weekPlan') || [];
     const year = this.calMonth.getFullYear();
     const month = this.calMonth.getMonth();
     const monthName = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'][month];
@@ -156,6 +192,12 @@ const Dashboard = {
     const today = Utils.today();
     const streak = this.streak();
     const totalDays = Object.keys(checkins).length;
+
+    // Module colors
+    const moduleColors = {
+      '词汇': '#EAA844', '听力': '#5B9BD5', '阅读': '#6FAA5B',
+      '写作': '#D9534F', '口语': '#9B59B6', '模考': '#2B2825',
+    };
 
     let cells = '';
     ['日', '一', '二', '三', '四', '五', '六'].forEach(d => {
@@ -168,12 +210,20 @@ const Dashboard = {
       const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
       const isChecked = checkins[dateStr];
       const isToday = dateStr === today;
+      // Get plan tasks for this date
+      const dayTasks = planData.filter(r => r.date === dateStr);
+      const taskCapsules = dayTasks.map(t => {
+        const color = moduleColors[t.module] || '#9E9488';
+        return `<div style="font-size:8px;padding:1px 4px;background:${color}22;color:${color};border-radius:3px;margin-top:2px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">${t.module}</div>`;
+      }).join('');
+
       cells += `
         <div onclick="Dashboard.toggleCheckin('${dateStr}')"
-             style="text-align:center;padding:10px 0;border-radius:var(--r-sm);cursor:pointer;
-             ${isChecked ? 'background:rgba(234,168,68,0.15);color:var(--accent-orange-deep);font-weight:600' : ''}
+             style="text-align:center;padding:6px 4px;border-radius:var(--r-sm);cursor:pointer;min-height:48px;
+             ${isChecked ? 'background:rgba(234,168,68,0.12);' : ''}
              ${isToday ? 'border:2px solid var(--accent-orange)' : 'border:1px solid var(--border-light)'}">
-          ${d}${isChecked ? ' <span style="font-size:10px">●</span>' : ''}
+          <div style="font-size:13px;color:${isChecked ? 'var(--accent-orange-deep)' : 'var(--text-body)'};font-weight:${isToday ? '600' : '400'}">${d}</div>
+          ${taskCapsules}
         </div>`;
     }
 
@@ -197,7 +247,10 @@ const Dashboard = {
           </div>
         </div>
         <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:4px">${cells}</div>
-        <div style="margin-top:14px;font-size:12px;color:var(--text-muted)">点击日期可打卡/取消</div>
+        <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
+          ${Object.entries(moduleColors).map(([m, c]) => `<div style="display:flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:50%;background:${c}22;border:1px solid ${c}"></span><span style="font-size:10px;color:var(--text-muted)">${m}</span></div>`).join('')}
+        </div>
+        <div style="margin-top:8px;font-size:12px;color:var(--text-muted)">点击日期可打卡/取消 · 胶囊显示当日计划任务</div>
       </div>
     `;
   },
@@ -226,7 +279,10 @@ const Dashboard = {
     App.updateMetrics();
   },
 
-  // --- Week Plan (Feishu-style) ---
+  // ========================================
+  // Plan (备考计划) — with smart import
+  // ========================================
+
   renderPlan() {
     const plan = Store.get('weekPlan') || [];
     const modules = ['词汇', '听力', '阅读', '写作', '口语', '模考'];
@@ -235,16 +291,20 @@ const Dashboard = {
       <div class="bento-card" style="overflow-x:auto">
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
           <div>
-            <div class="section-title">本周备考计划</div>
-            <div class="section-meta">飞书多维表格风格 · 可自由增删改</div>
+            <div class="section-title">备考计划</div>
+            <div class="section-meta">飞书多维表格风格 · 支持智能导入 · 可自由增删改</div>
           </div>
-          <button class="btn btn-primary" onclick="Dashboard.addPlanRow()">+ 新增任务</button>
+          <div style="display:flex;gap:8px">
+            <button class="btn btn-smart-import" onclick="Dashboard.showImportModal()">✦ 智能导入计划</button>
+            <button class="btn btn-primary" onclick="Dashboard.addPlanRow()">+ 新增任务</button>
+          </div>
         </div>
         <table class="data-table">
           <thead>
             <tr>
               <th>任务名称</th>
               <th>模块</th>
+              <th style="width:60px">日期</th>
               <th style="width:80px">难度</th>
               <th style="width:70px">目标量</th>
               <th style="width:70px">已完成</th>
@@ -254,7 +314,7 @@ const Dashboard = {
             </tr>
           </thead>
           <tbody id="plan-body">
-            ${plan.length ? plan.map(r => this.renderPlanRow(r, modules)).join('') : '<tr><td colspan="8"><div class="empty-state"><div class="text">暂无计划，点击「新增任务」开始安排</div></div></td></tr>'}
+            ${plan.length ? plan.map(r => this.renderPlanRow(r, modules)).join('') : '<tr><td colspan="9"><div class="empty-state"><div class="text">暂无计划，点击「智能导入计划」或「新增任务」开始安排</div></div></td></tr>'}
           </tbody>
         </table>
       </div>
@@ -263,6 +323,7 @@ const Dashboard = {
 
   renderPlanRow(r, modules) {
     const pct = Utils.progressPct(r.completed, r.target);
+    const dateShort = r.date ? r.date.slice(5) : '—';
     return `
       <tr data-id="${r.id}">
         <td><input type="text" value="${Utils.esc(r.name)}" onchange="Dashboard.updatePlan('${r.id}','name',this.value)"></td>
@@ -271,6 +332,7 @@ const Dashboard = {
             ${modules.map(m => `<option ${r.module === m ? 'selected' : ''}>${m}</option>`).join('')}
           </select>
         </td>
+        <td><span style="font-size:11px;color:var(--text-muted)">${dateShort}</span></td>
         <td><div class="difficulty" data-id="${r.id}">
           ${[1,2,3,4,5].map(i => `<span class="star ${i <= r.difficulty ? 'filled' : ''}" onclick="Dashboard.setDifficulty('${r.id}',${i})">★</span>`).join('')}
         </div></td>
@@ -290,7 +352,7 @@ const Dashboard = {
 
   addPlanRow() {
     const plan = Store.get('weekPlan') || [];
-    plan.push({ id: Utils.uid(), name: '', module: '词汇', difficulty: 3, target: 1, completed: 0, note: '' });
+    plan.push({ id: Utils.uid(), name: '', module: '词汇', date: Utils.today(), difficulty: 3, target: 1, completed: 0, note: '' });
     Store.set('weekPlan', plan);
     this.renderTab();
   },
@@ -301,8 +363,6 @@ const Dashboard = {
     if (r) {
       r[field] = value;
       Store.set('weekPlan', plan);
-      // Re-render row for progress bar update
-      const modules = ['词汇', '听力', '阅读', '写作', '口语', '模考'];
       const tr = document.querySelector(`tr[data-id="${id}"]`);
       if (tr && (field === 'target' || field === 'completed')) {
         const pct = Utils.progressPct(r.completed, r.target);
@@ -328,5 +388,199 @@ const Dashboard = {
     const plan = Store.get('weekPlan') || [];
     Store.set('weekPlan', plan.filter(x => x.id !== id));
     this.renderTab();
+  },
+
+  // ========================================
+  // Smart Import — 淘口令式智能计划解析
+  // ========================================
+
+  showImportModal() {
+    App.showModal(`
+      <div class="modal-title">✦ 智能导入计划</div>
+      <div class="modal-body">
+        <div style="margin-bottom:12px">
+          <label class="form-label">起始日期（Day 1 绑定到该日期）</label>
+          <input type="date" class="form-input" id="import-start-date" value="${Utils.today()}">
+        </div>
+        <div style="margin-bottom:12px">
+          <label class="form-label">粘贴计划内容（支持 Markdown 表格 / 分行排期）</label>
+          <textarea class="form-textarea" id="import-text" placeholder="粘贴你的备考计划，例如：
+
+Day 1 | 词汇 | 自然地理 Ch.1 背词 | 60min
+Day 2 | 阅读 | 剑14 Test 1 精读 | 45min
+Day 3 | 听力 | 剑14 Test 1 精听 | 30min
+Day 4 | 写作 | Task 2 练习 | 40min
+Day 5 | 口语 | Part 1 话题练习 | 20min
+
+或 Markdown 表格格式：
+
+| Day | 模块 | 任务 | 时长 |
+|-----|------|------|------|
+| Day 1 | 词汇 | Ch.1 自然地理 | 60 |
+| Day 2 | 阅读 | 剑14 T1 | 45 |
+
+也可直接粘贴分行的任意格式文本。" style="min-height:200px;font-size:12px;line-height:1.6"></textarea>
+        </div>
+        <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px">
+          解析规则：自动识别 Day/天数/日期、模块（词汇/听力/阅读/写作/口语/模考）、任务名称、耗时。Day 1 = 起始日期，后续顺延。
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="App.closeModal()">取消</button>
+        <button class="btn btn-primary" onclick="Dashboard.parseAndImport()">智能解析并生成</button>
+      </div>
+    `);
+  },
+
+  parseAndImport() {
+    const startDate = document.getElementById('import-start-date').value || Utils.today();
+    const text = document.getElementById('import-text').value.trim();
+
+    if (!text) {
+      Utils.toast('请粘贴计划内容');
+      return;
+    }
+
+    const lines = text.split('\n').map(l => l.trim()).filter(l => l);
+    const plan = Store.get('weekPlan') || [];
+    const modules = ['词汇', '听力', '阅读', '写作', '口语', '模考'];
+    let currentDay = 0;
+    let parsedCount = 0;
+
+    for (const line of lines) {
+      // Skip markdown table separators (|---|---|)
+      if (/^[\|\-:\s]+$/.test(line)) continue;
+      // Skip headers like | Day | 模块 |...
+      if (/day.*模块.*任务/i.test(line) || /day.*module.*task/i.test(line)) continue;
+
+      // Parse the line
+      const result = this.parsePlanLine(line, modules);
+      if (!result) continue;
+
+      // Assign date based on day number
+      currentDay = result.dayNum || (currentDay + 1);
+      if (!result.dayNum) result.dayNum = currentDay;
+      const taskDate = Utils.addDays(startDate, result.dayNum - 1);
+
+      plan.push({
+        id: Utils.uid(),
+        name: result.name,
+        module: result.module,
+        date: taskDate,
+        difficulty: result.difficulty || 3,
+        target: result.target || 1,
+        completed: 0,
+        note: result.note || (result.duration ? result.duration + 'min' : ''),
+      });
+      parsedCount++;
+    }
+
+    Store.set('weekPlan', plan);
+    App.closeModal();
+    Utils.toast(`已导入 ${parsedCount} 条计划`);
+    this.renderTab();
+  },
+
+  parsePlanLine(line, modules) {
+    // Remove markdown table pipes if present
+    let clean = line.replace(/^\|/, '').replace(/\|$/, '').trim();
+
+    // Try pipe-separated format: Day 1 | 词汇 | task | 60min
+    let parts = clean.split('|').map(p => p.trim()).filter(p => p);
+
+    // If no pipes, try comma/tab/space separation
+    if (parts.length < 2) {
+      parts = clean.split(/[\t,]+/).map(p => p.trim()).filter(p => p);
+    }
+
+    // If still single part, try space separation with known module keywords
+    if (parts.length < 2) {
+      parts = [clean];
+    }
+
+    // Extract day number
+    let dayNum = 0;
+    let dayMatch = null;
+    for (let i = 0; i < parts.length; i++) {
+      const m = parts[i].match(/day\s*(\d+)/i) || parts[i].match(/^第\s*(\d+)\s*天/) || parts[i].match(/^(\d+)\s*[日天]/);
+      if (m) {
+        dayNum = parseInt(m[1]);
+        parts.splice(i, 1);
+        break;
+      }
+    }
+
+    // Extract date (YYYY-MM-DD)
+    let dateStr = '';
+    for (let i = 0; i < parts.length; i++) {
+      const m = parts[i].match(/(\d{4})-(\d{1,2})-(\d{1,2})/);
+      if (m) {
+        dateStr = `${m[1]}-${m[2].padStart(2,'0')}-${m[3].padStart(2,'0')}`;
+        parts.splice(i, 1);
+        break;
+      }
+    }
+
+    // Extract module
+    let module = '词汇';
+    for (let i = 0; i < parts.length; i++) {
+      let found = false;
+      for (const mod of modules) {
+        if (parts[i].includes(mod)) {
+          module = mod;
+          parts.splice(i, 1);
+          found = true;
+          break;
+        }
+      }
+      if (found) break;
+    }
+
+    // Extract duration (e.g. 60min, 45分钟, 30m)
+    let duration = '';
+    for (let i = 0; i < parts.length; i++) {
+      const m = parts[i].match(/(\d+)\s*(min|分钟|m)/i);
+      if (m) {
+        duration = m[1] + 'min';
+        parts.splice(i, 1);
+        break;
+      }
+    }
+
+    // Extract difficulty (e.g. 难度3, ★★★, D3)
+    let difficulty = 3;
+    for (let i = 0; i < parts.length; i++) {
+      const m = parts[i].match(/(?:难度|D|★)\s*(\d)/i) || parts[i].match(/(★+)/);
+      if (m) {
+        difficulty = m[1] ? parseInt(m[1]) : m[1].length;
+        parts.splice(i, 1);
+        break;
+      }
+    }
+
+    // Remaining parts = task name
+    const name = parts.join(' ').trim();
+    if (!name) return null;
+
+    return { dayNum, dateStr, module, name, duration, difficulty, target: 1 };
+  },
+
+  // ========================================
+  // Cross-view sync helpers
+  // ========================================
+
+  getTodayPlanTasks() {
+    const plan = Store.get('weekPlan') || [];
+    const today = Utils.today();
+    return plan.filter(r => r.date === today);
+  },
+
+  syncPlanProgress(planTaskId) {
+    const plan = Store.get('weekPlan') || [];
+    const r = plan.find(x => x.id === planTaskId);
+    if (r) {
+      r.completed = Math.min(r.target || 1, (r.completed || 0) + 1);
+      Store.set('weekPlan', plan);
+    }
   },
 };

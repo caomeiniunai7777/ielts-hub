@@ -621,3 +621,20 @@
   background: var(--divider);
   margin: 20px 0;
 }
+
+/* --- Smart Import Button --- */
+.btn-smart-import {
+  background: var(--bg-card-warm-deep);
+  color: var(--accent-orange-deep);
+  border: 1px solid var(--accent-orange);
+  font-size: 12px;
+  padding: 7px 16px;
+  border-radius: var(--r-pill);
+  font-weight: 500;
+  transition: all var(--dur) var(--ease);
+}
+
+.btn-smart-import:hover {
+  background: var(--accent-orange);
+  color: #fff;
+}
