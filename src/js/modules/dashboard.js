@@ -49,32 +49,14 @@ const Dashboard = {
   },
 
   // ========================================
-  // Todo List — auto-syncs from plan
+  // Todo List — auto-syncs from plan (deduplicated)
   // ========================================
 
   renderTodo() {
-    const todos = Store.get('todos') || [];
-    const planTasks = this.getTodayPlanTasks();
-    
-    // Merge: plan tasks that aren't already in todos
-    const existingTexts = new Set(todos.map(t => t.text.toLowerCase()));
-    const newPlanTasks = planTasks.filter(pt => !existingTexts.has(pt.name.toLowerCase()));
-    
-    // Add plan tasks as todo items (auto-generated, marked with source)
-    if (newPlanTasks.length > 0) {
-      newPlanTasks.forEach(pt => {
-        todos.push({
-          id: Utils.uid(),
-          text: `[${pt.module}] ${pt.name}`,
-          done: false,
-          createdAt: Utils.today(),
-          completedAt: null,
-          planTaskId: pt.id,
-        });
-      });
-      Store.set('todos', todos);
-    }
+    // Sync plan tasks to todos ONCE with dedup by planTaskId
+    this.syncPlansToTodos();
 
+    const todos = Store.get('todos') || [];
     const active = todos.filter(t => !t.done);
     const done = todos.filter(t => t.done);
 
@@ -107,6 +89,50 @@ const Dashboard = {
         ${done.length ? '<div style="margin-top:12px"><button class="btn-ghost" onclick="Dashboard.clearDone()">清除已完成</button></div>' : ''}
       </div>
     `;
+  },
+
+  // Sync plan tasks to todos with strict dedup by planTaskId
+  syncPlansToTodos() {
+    let todos = Store.get('todos') || [];
+    let dirty = false;
+
+    // 1. Clean up historical duplicate data: dedup by planTaskId (keep first occurrence)
+    const seenPlanIds = new Set();
+    const deduped = [];
+    for (const t of todos) {
+      if (t.planTaskId) {
+        if (seenPlanIds.has(t.planTaskId)) {
+          dirty = true; // duplicate found, will be removed
+          continue;
+        }
+        seenPlanIds.add(t.planTaskId);
+      }
+      deduped.push(t);
+    }
+    if (dirty) {
+      todos = deduped;
+    }
+
+    // 2. Add today's plan tasks that don't have a corresponding todo yet
+    const planTasks = this.getTodayPlanTasks();
+    const existingPlanIds = new Set(todos.filter(t => t.planTaskId).map(t => t.planTaskId));
+    for (const pt of planTasks) {
+      if (!existingPlanIds.has(pt.id)) {
+        todos.push({
+          id: `plan_${pt.id}_${Utils.today()}`,
+          text: `[${pt.module}] ${pt.name}`,
+          done: false,
+          createdAt: Utils.today(),
+          completedAt: null,
+          planTaskId: pt.id,
+        });
+        dirty = true;
+      }
+    }
+
+    if (dirty) {
+      Store.set('todos', todos);
+    }
   },
 
   renderTodoItem(t) {
@@ -142,22 +168,19 @@ const Dashboard = {
   toggleTodo(id) {
     const todos = Store.get('todos') || [];
     const t = todos.find(x => x.id === id);
-    if (t) {
-      t.done = !t.done;
-      t.completedAt = t.done ? Utils.today() : null;
-      Store.set('todos', todos);
-      // Auto check-in when completing a task
-      if (t.done) {
-        const checkins = Store.get('checkins') || {};
-        checkins[Utils.today()] = true;
-        Store.set('checkins', checkins);
-        // Sync plan progress
-        if (t.planTaskId) {
-          this.syncPlanProgress(t.planTaskId);
-        }
+    if (!t) return;
+    t.done = !t.done;
+    t.completedAt = t.done ? Utils.today() : null;
+    Store.set('todos', todos);
+    if (t.done) {
+      const checkins = Store.get('checkins') || {};
+      checkins[Utils.today()] = true;
+      Store.set('checkins', checkins);
+      if (t.planTaskId) {
+        this.syncPlanProgress(t.planTaskId);
       }
-      this.renderTab();
     }
+    this.renderTab();
   },
 
   clearDone() {
