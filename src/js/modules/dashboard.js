@@ -22,7 +22,48 @@ const Dashboard = {
 
   init() {
     this.calMonth = new Date();
+    this.cleanDirtyTodos();
     this.renderTab();
+  },
+
+  // Deep dedup of localStorage todos on init — fixes historical dirty data
+  cleanDirtyTodos() {
+    let todos = Store.get('todos') || [];
+    if (todos.length === 0) return;
+
+    // Dedup by id first
+    const seenIds = new Set();
+    let deduped = [];
+    for (const t of todos) {
+      const key = t.id || `noid_${t.text}_${t.createdAt}`;
+      if (seenIds.has(key)) continue;
+      seenIds.add(key);
+      deduped.push(t);
+    }
+
+    // Then dedup by planTaskId (keep the one with done=true if any, else first)
+    const planMap = {};
+    const nonPlan = [];
+    for (const t of deduped) {
+      if (t.planTaskId) {
+        if (planMap[t.planTaskId]) {
+          // Keep the done one if either is done
+          if (t.done && !planMap[t.planTaskId].done) {
+            planMap[t.planTaskId] = t;
+          }
+        } else {
+          planMap[t.planTaskId] = t;
+        }
+      } else {
+        nonPlan.push(t);
+      }
+    }
+    const finalTodos = [...nonPlan, ...Object.values(planMap)];
+
+    if (finalTodos.length !== todos.length) {
+      Store.set('todos', finalTodos);
+      console.log(`[Dashboard] Cleaned ${todos.length - finalTodos.length} duplicate todo(s)`);
+    }
   },
 
   switchTab(tab) {
@@ -91,43 +132,38 @@ const Dashboard = {
     `;
   },
 
-  // Sync plan tasks to todos with strict dedup by planTaskId
+  // Sync plan tasks to todos — strict dedup, only adds missing items
   syncPlansToTodos() {
     let todos = Store.get('todos') || [];
-    let dirty = false;
-
-    // 1. Clean up historical duplicate data: dedup by planTaskId (keep first occurrence)
-    const seenPlanIds = new Set();
-    const deduped = [];
-    for (const t of todos) {
-      if (t.planTaskId) {
-        if (seenPlanIds.has(t.planTaskId)) {
-          dirty = true; // duplicate found, will be removed
-          continue;
-        }
-        seenPlanIds.add(t.planTaskId);
-      }
-      deduped.push(t);
-    }
-    if (dirty) {
-      todos = deduped;
-    }
-
-    // 2. Add today's plan tasks that don't have a corresponding todo yet
     const planTasks = this.getTodayPlanTasks();
+    if (planTasks.length === 0) return;
+
+    // Build a Set of all existing todo IDs and planTaskIds
+    const existingIds = new Set(todos.map(t => t.id));
     const existingPlanIds = new Set(todos.filter(t => t.planTaskId).map(t => t.planTaskId));
+
+    let dirty = false;
     for (const pt of planTasks) {
-      if (!existingPlanIds.has(pt.id)) {
-        todos.push({
-          id: `plan_${pt.id}_${Utils.today()}`,
-          text: `[${pt.module}] ${pt.name}`,
-          done: false,
-          createdAt: Utils.today(),
-          completedAt: null,
-          planTaskId: pt.id,
-        });
-        dirty = true;
-      }
+      // Use stable deterministic ID: plan_{planTaskId}
+      const stableId = `plan_${pt.id}`;
+      
+      // Skip if this planTaskId already has a todo (regardless of its current id)
+      if (existingPlanIds.has(pt.id)) continue;
+      
+      // Safety: skip if stable ID already exists
+      if (existingIds.has(stableId)) continue;
+
+      todos.push({
+        id: stableId,
+        text: `[${pt.module}] ${pt.name}`,
+        done: false,
+        createdAt: Utils.today(),
+        completedAt: null,
+        planTaskId: pt.id,
+      });
+      existingIds.add(stableId);
+      existingPlanIds.add(pt.id);
+      dirty = true;
     }
 
     if (dirty) {
@@ -180,6 +216,18 @@ const Dashboard = {
         this.syncPlanProgress(t.planTaskId);
       }
     }
+    // Update only the DOM element, no full re-render (avoids sync loop)
+    const item = document.querySelector(`.check-item[data-id="${CSS.escape(id)}"]`);
+    if (item) {
+      item.classList.toggle('done', t.done);
+      const box = item.querySelector('.check-box');
+      if (box) box.classList.toggle('checked', t.done);
+    }
+    // Update metrics counters
+    const active = todos.filter(x => !x.done);
+    const doneToday = todos.filter(x => x.done && x.completedAt === Utils.today());
+    const pendingEl = document.querySelector('.bento-grid .bento-card.warm .num-badge');
+    // Lightweight: just re-render to refresh counts but syncPlansToTodos won't add dups
     this.renderTab();
   },
 
