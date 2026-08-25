@@ -295,6 +295,7 @@ const Dashboard = {
             <div class="section-meta">飞书多维表格风格 · 支持智能导入 · 可自由增删改</div>
           </div>
           <div style="display:flex;gap:8px">
+            <button class="btn btn-outline-danger" onclick="Dashboard.confirmClearPlan()">清空所有计划</button>
             <button class="btn btn-smart-import" onclick="Dashboard.showImportModal()">✦ 智能导入计划</button>
             <button class="btn btn-primary" onclick="Dashboard.addPlanRow()">+ 新增任务</button>
           </div>
@@ -387,6 +388,44 @@ const Dashboard = {
   delPlanRow(id) {
     const plan = Store.get('weekPlan') || [];
     Store.set('weekPlan', plan.filter(x => x.id !== id));
+    // Sync: remove corresponding uncompleted todos
+    const todos = Store.get('todos') || [];
+    Store.set('todos', todos.filter(t => t.planTaskId !== id || t.done));
+    this.renderTab();
+  },
+
+  // ========================================
+  // Clear All Plans
+  // ========================================
+
+  confirmClearPlan() {
+    const plan = Store.get('weekPlan') || [];
+    if (plan.length === 0) {
+      Utils.toast('当前没有计划可清空');
+      return;
+    }
+    App.showModal(`
+      <div class="modal-title">确认清空</div>
+      <div class="modal-body">
+        <div style="font-size:13px;color:var(--text-body);line-height:1.7">
+          确定要清空所有已排计划与关联待办吗？<br>
+          <span style="color:var(--text-muted);font-size:12px">已打卡记录不受影响。</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="App.closeModal()">取消</button>
+        <button class="btn btn-primary" style="background:#C0392B" onclick="Dashboard.clearAllPlan()">确认清空</button>
+      </div>
+    `);
+  },
+
+  clearAllPlan() {
+    Store.set('weekPlan', []);
+    // Remove plan-generated uncompleted todos (keep manually added & completed)
+    const todos = Store.get('todos') || [];
+    Store.set('todos', todos.filter(t => !t.planTaskId || t.done));
+    App.closeModal();
+    Utils.toast('已清空所有计划');
     this.renderTab();
   },
 
@@ -424,6 +463,10 @@ Day 5 | 口语 | Part 1 话题练习 | 20min
         <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px">
           解析规则：自动识别 Day/天数/日期、模块（词汇/听力/阅读/写作/口语/模考）、任务名称、耗时。Day 1 = 起始日期，后续顺延。
         </div>
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+          <input type="checkbox" id="import-overwrite" checked style="accent-color:var(--accent-orange)">
+          <label for="import-overwrite" style="font-size:12px;color:var(--text-body);cursor:pointer">覆盖现有计划（勾选时先清空旧计划，不勾选则追加）</label>
+        </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-secondary" onclick="App.closeModal()">取消</button>
@@ -441,8 +484,16 @@ Day 5 | 口语 | Part 1 话题练习 | 20min
       return;
     }
 
+    const overwrite = document.getElementById('import-overwrite').checked;
     const lines = text.split('\n').map(l => l.trim()).filter(l => l);
-    const plan = Store.get('weekPlan') || [];
+    const plan = overwrite ? [] : (Store.get('weekPlan') || []);
+
+    // If overwrite, also clean up plan-generated todos
+    if (overwrite) {
+      const todos = Store.get('todos') || [];
+      Store.set('todos', todos.filter(t => !t.planTaskId));
+    }
+
     const modules = ['词汇', '听力', '阅读', '写作', '口语', '模考'];
     let currentDay = 0;
     let parsedCount = 0;
