@@ -117,11 +117,11 @@ const App = {
     const vocab = Store.get('vocab') || {};
     const synProgress = Store.get('synonyms538') || {};
     const vocabMastered = Object.values(vocab).filter(v => v.mastered).length;
-    const synMastered = Object.values(synProgress).filter(p => p.mastered).length;
+    const synMastered = Object.values(synProgress).filter(p => p.isMastered).length;
     const mastered = vocabMastered + synMastered;
 
     const vocabPending = Object.values(vocab).filter(v => !v.mastered && v.pass > 0).length;
-    const synInUse = Object.values(synProgress).filter(p => !p.mastered && p.studied).length;
+    const synInUse = Object.values(synProgress).filter(p => p.studied && !p.isMastered).length;
     const pending = vocabPending + synInUse;
 
     const sessions = Store.get('focusSessions') || [];

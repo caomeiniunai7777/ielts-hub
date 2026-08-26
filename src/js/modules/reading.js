@@ -9,7 +9,7 @@ const Reading = {
   synSubView: 'list', // list | study | test | testSetup | testResult
   synStudyIdx: 0,
   synStudyHide: 'none', // none | cn | en
-  synTestMode: null, // today | custom | errors | random
+  synTestMode: null, // today | ebbinghaus | errors | custom
   synTestRange: { start: 1, end: 20 },
   synTestQuestions: [],
   synTestIdx: 0,
@@ -127,8 +127,8 @@ const Reading = {
       <div class="bento-grid cols-2">
         ${groups.map(g => {
           const p = progress[g.id] || {};
-          const status = p.mastered ? 'done' : p.studied ? 'active' : '';
-          const statusText = p.mastered ? '已掌握' : p.studied ? '待复习' : '未背';
+          const status = p.isMastered ? 'done' : p.studied ? 'active' : '';
+          const statusText = p.isMastered ? '永久掌握' : p.studied ? (p.nextReviewDate && p.nextReviewDate <= Utils.today() ? '待复习' : '已学') : '未背';
           return `
             <div class="bento-card">
               <div style="display:flex;align-items:center;gap:6px;margin-bottom:10px">
@@ -286,11 +286,15 @@ const Reading = {
   },
 
   markSynMastered(groupId) {
+    this.markStudied(groupId);
+    // Directly mark as mastered (stage 5)
     const progress = Store.get('synonyms538') || {};
     if (!progress[groupId]) progress[groupId] = {};
-    progress[groupId].mastered = true;
     progress[groupId].studied = true;
+    progress[groupId].isMastered = true;
+    progress[groupId].reviewStage = 5;
     progress[groupId].lastReview = Utils.today();
+    progress[groupId].nextReviewDate = null;
     Store.set('synonyms538', progress);
     App.updateMetrics();
     Utils.toast('已标记掌握');
@@ -306,14 +310,15 @@ const Reading = {
   renderSynTestSetup() {
     const progress = Store.get('synonyms538') || {};
     const today = Utils.today();
-    const todayStudied = Object.entries(progress).filter(([id, p]) => p.studied && p.lastReview === today);
-    const errorGroups = Object.entries(progress).filter(([id, p]) => p.studied && !p.mastered);
+    const todayStudied = this.getTodayStudiedGroups();
+    const dueReview = this.getEbbinghausDueGroups();
+    const errorGroups = this.getErrorGroups();
 
     return `
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px">
         <div>
           <div class="section-title">538 考点词考核</div>
-          <div class="section-meta">选择考核范围，精准检测背诵效果</div>
+          <div class="section-meta">仅针对已学词汇出题 · 艾宾浩斯滚动复习</div>
         </div>
         <button class="btn-ghost" onclick="Reading.synSubView='list';Reading.renderView()">返回列表</button>
       </div>
@@ -322,18 +327,42 @@ const Reading = {
         <div class="bento-card" style="cursor:pointer;border:2px solid ${this.synTestMode==='today'?'var(--accent-orange)':'transparent'}" onclick="Reading.selectTestMode('today')">
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
             <span class="num-badge">A</span>
-            <span class="tag-chip orange">推荐</span>
+            <span class="tag-chip orange">今日必做</span>
             <span class="status-dot active" style="margin-left:auto">${todayStudied.length} 组</span>
           </div>
           <div style="font-family:var(--font-serif);font-size:16px;font-weight:600;color:var(--text-title);margin-bottom:4px">当日已背巩固</div>
           <div style="font-size:12px;color:var(--text-muted)">今日待考：${todayStudied.length} 组考点</div>
-          ${todayStudied.length === 0 ? '<div style="font-size:11px;color:var(--text-muted);margin-top:4px">今天还没有背词，去背诵后再来考核</div>' : ''}
+          ${todayStudied.length === 0 ? '<div style="font-size:11px;color:var(--text-muted);margin-top:4px">今日尚未背诵考点词，请先去背诵</div>' : ''}
         </div>
 
-        <!-- Mode B: Custom range -->
-        <div class="bento-card" style="cursor:pointer;border:2px solid ${this.synTestMode==='custom'?'var(--accent-orange)':'transparent'}" onclick="Reading.selectTestMode('custom')">
+        <!-- Mode B: Ebbinghaus review -->
+        <div class="bento-card" style="cursor:pointer;border:2px solid ${this.synTestMode==='ebbinghaus'?'var(--accent-orange)':'transparent'}" onclick="Reading.selectTestMode('ebbinghaus')">
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
             <span class="num-badge">B</span>
+            <span class="tag-chip green">智能唤醒</span>
+            <span class="status-dot ${dueReview.length > 0 ? 'key' : ''}" style="margin-left:auto">${dueReview.length} 组</span>
+          </div>
+          <div style="font-family:var(--font-serif);font-size:16px;font-weight:600;color:var(--text-title);margin-bottom:4px">艾宾浩斯滚动复习</div>
+          <div style="font-size:12px;color:var(--text-muted)">今日待复习：${dueReview.length} 组（1/2/4/7/15天节点）</div>
+          ${dueReview.length === 0 ? '<div style="font-size:11px;color:var(--dot-done);margin-top:4px">暂无到期复习词，继续背新词！</div>' : ''}
+        </div>
+
+        <!-- Mode C: Error review -->
+        <div class="bento-card" style="cursor:pointer;border:2px solid ${this.synTestMode==='errors'?'var(--accent-orange)':'transparent'}" onclick="Reading.selectTestMode('errors')">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <span class="num-badge">C</span>
+            <span class="tag-chip red">弱项攻坚</span>
+            <span class="status-dot key" style="margin-left:auto">${errorGroups.length} 组</span>
+          </div>
+          <div style="font-family:var(--font-serif);font-size:16px;font-weight:600;color:var(--text-title);margin-bottom:4px">错题本/弱项攻坚</div>
+          <div style="font-size:12px;color:var(--text-muted)">历史答错且未消除的考点词</div>
+          ${errorGroups.length === 0 ? '<div style="font-size:11px;color:var(--text-muted);margin-top:4px">暂无错题</div>' : ''}
+        </div>
+
+        <!-- Mode D: Custom range (only studied words in range) -->
+        <div class="bento-card" style="cursor:pointer;border:2px solid ${this.synTestMode==='custom'?'var(--accent-orange)':'transparent'}" onclick="Reading.selectTestMode('custom')">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <span class="num-badge">D</span>
             <span class="status-dot" style="margin-left:auto">自定义</span>
           </div>
           <div style="font-family:var(--font-serif);font-size:16px;font-weight:600;color:var(--text-title);margin-bottom:8px">自定义范围考核</div>
@@ -347,31 +376,7 @@ const Reading = {
             <span class="tag-chip" style="cursor:pointer" onclick="Reading.setTestRange(1,20)">前20组</span>
             <span class="tag-chip" style="cursor:pointer" onclick="Reading.setTestRange(1,40)">前40组</span>
             <span class="tag-chip" style="cursor:pointer" onclick="Reading.setTestRange(1,54)">第1类</span>
-            <span class="tag-chip" style="cursor:pointer" onclick="Reading.setTestRange(55,${Synonyms538.groups.length})">第2+3类</span>
           </div>
-        </div>
-
-        <!-- Mode C: Error review -->
-        <div class="bento-card" style="cursor:pointer;border:2px solid ${this.synTestMode==='errors'?'var(--accent-orange)':'transparent'}" onclick="Reading.selectTestMode('errors')">
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
-            <span class="num-badge">C</span>
-            <span class="tag-chip red">待复习</span>
-            <span class="status-dot key" style="margin-left:auto">${errorGroups.length} 组</span>
-          </div>
-          <div style="font-family:var(--font-serif);font-size:16px;font-weight:600;color:var(--text-title);margin-bottom:4px">错题/待复习专项</div>
-          <div style="font-size:12px;color:var(--text-muted)">从待复习的考点池中抽题</div>
-          ${errorGroups.length === 0 ? '<div style="font-size:11px;color:var(--text-muted);margin-top:4px">暂无待复习词条</div>' : ''}
-        </div>
-
-        <!-- Mode D: Random all -->
-        <div class="bento-card" style="cursor:pointer;border:2px solid ${this.synTestMode==='random'?'var(--accent-orange)':'transparent'}" onclick="Reading.selectTestMode('random')">
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
-            <span class="num-badge">D</span>
-            <span class="tag-chip green">全书</span>
-            <span class="status-dot done" style="margin-left:auto">538 组</span>
-          </div>
-          <div style="font-family:var(--font-serif);font-size:16px;font-weight:600;color:var(--text-title);margin-bottom:4px">全书随机挑战</div>
-          <div style="font-size:12px;color:var(--text-muted)">从全部 538 组考点中随机抽题</div>
         </div>
       </div>
 
@@ -403,44 +408,40 @@ const Reading = {
   },
 
   launchSynTest() {
-    const progress = Store.get('synonyms538') || {};
-    const today = Utils.today();
     let pool = [];
+    let studiedPool = this.getAllStudiedGroups(); // for distractor source
 
     if (this.synTestMode === 'today') {
-      pool = Object.entries(progress)
-        .filter(([id, p]) => p.studied && p.lastReview === today)
-        .map(([id, p]) => Synonyms538.groups.find(g => g.id == id))
-        .filter(g => g);
+      pool = this.getTodayStudiedGroups();
+    } else if (this.synTestMode === 'ebbinghaus') {
+      pool = this.getEbbinghausDueGroups();
+    } else if (this.synTestMode === 'errors') {
+      pool = this.getErrorGroups();
     } else if (this.synTestMode === 'custom') {
       const s = Math.max(1, this.synTestRange.start);
       const e = Math.min(Synonyms538.groups.length, this.synTestRange.end);
-      pool = Synonyms538.groups.filter(g => g.id >= s && g.id <= e);
-    } else if (this.synTestMode === 'errors') {
-      pool = Object.entries(progress)
-        .filter(([id, p]) => p.studied && !p.mastered)
-        .map(([id, p]) => Synonyms538.groups.find(g => g.id == id))
-        .filter(g => g);
-    } else {
-      pool = [...Synonyms538.groups];
+      // Custom range: only include studied words in range (strict isolation)
+      pool = Synonyms538.groups.filter(g => g.id >= s && g.id <= e && this.isStudied(g.id));
+      // If no studied words in range, allow all in range as fallback
+      if (pool.length === 0) {
+        Utils.toast('该范围内尚无已学词汇，请先背诵');
+        return;
+      }
     }
 
     if (pool.length === 0) {
-      Utils.toast('所选范围内没有考点词，请先背诵');
+      Utils.toast('所选范围内没有已学考点词，请先背诵后再来考核');
       return;
     }
 
-    // Shuffle pool
     pool.sort(() => Math.random() - 0.5);
-
-    // Get question count
     const countEl = document.getElementById('syn-test-count');
     let count = countEl ? parseInt(countEl.value) : 20;
     if (count === 0 || count > pool.length) count = pool.length;
     pool = pool.slice(0, count);
 
-    // Generate questions (mix of 3 types)
-    this.synTestQuestions = pool.map(g => this.generateSynQuestion(g));
+    // Generate questions with distractors from studied pool only
+    this.synTestQuestions = pool.map(g => this.generateSynQuestion(g, studiedPool));
     this.synTestIdx = 0;
     this.synTestScore = { correct: 0, wrong: 0, wrongGroups: [] };
     this.synTestStartTime = Date.now();
@@ -448,40 +449,133 @@ const Reading = {
     this.renderView();
   },
 
-  generateSynQuestion(g) {
-    // 4 question types: 0=multi-blank chain, 1=cn-en match, 2=en-cn match, 3=pair matching
+  // ========================================
+  // Ebbinghaus Engine
+  // ========================================
+
+  ebbinghausIntervals: [0, 1, 2, 4, 7, 15],
+
+  getTodayStudiedGroups() {
+    const progress = Store.get('synonyms538') || {};
+    const today = Utils.today();
+    return Object.entries(progress)
+      .filter(([id, p]) => p.studied && p.lastStudiedDate === today)
+      .map(([id, p]) => Synonyms538.groups.find(g => g.id == id))
+      .filter(g => g);
+  },
+
+  getAllStudiedGroups() {
+    const progress = Store.get('synonyms538') || {};
+    return Object.entries(progress)
+      .filter(([id, p]) => p.studied)
+      .map(([id, p]) => Synonyms538.groups.find(g => g.id == id))
+      .filter(g => g);
+  },
+
+  getEbbinghausDueGroups() {
+    const progress = Store.get('synonyms538') || {};
+    const today = Utils.today();
+    return Object.entries(progress)
+      .filter(([id, p]) => {
+        if (!p.studied || p.isMastered) return false;
+        return p.nextReviewDate && p.nextReviewDate <= today;
+      })
+      .map(([id, p]) => Synonyms538.groups.find(g => g.id == id))
+      .filter(g => g);
+  },
+
+  getErrorGroups() {
+    const progress = Store.get('synonyms538') || {};
+    return Object.entries(progress)
+      .filter(([id, p]) => p.studied && !p.isMastered && (p.historyMistakes || 0) > 0)
+      .map(([id, p]) => Synonyms538.groups.find(g => g.id == id))
+      .filter(g => g);
+  },
+
+  isStudied(groupId) {
+    const progress = Store.get('synonyms538') || {};
+    return progress[groupId]?.studied === true;
+  },
+
+  // Called when user marks a word as studied in study mode
+  markStudied(groupId) {
+    const progress = Store.get('synonyms538') || {};
+    if (!progress[groupId]) progress[groupId] = {};
+    progress[groupId].studied = true;
+    progress[groupId].lastStudiedDate = Utils.today();
+    progress[groupId].lastReview = Utils.today();
+    progress[groupId].reviewStage = 0;
+    progress[groupId].nextReviewDate = Utils.addDays(Utils.today(), 1);
+    progress[groupId].historyMistakes = progress[groupId].historyMistakes || 0;
+    progress[groupId].isMastered = false;
+    Store.set('synonyms538', progress);
+  },
+
+  // Update Ebbinghaus state after a quiz answer
+  updateEbbinghaus(groupId, isCorrect) {
+    const progress = Store.get('synonyms538') || {};
+    if (!progress[groupId]) progress[groupId] = { studied: true };
+    const p = progress[groupId];
+    p.studied = true;
+    p.lastReview = Utils.today();
+
+    if (isCorrect) {
+      // Advance stage
+      p.reviewStage = Math.min((p.reviewStage || 0) + 1, 5);
+      if (p.reviewStage >= 5) {
+        p.isMastered = true;
+        p.nextReviewDate = null;
+      } else {
+        p.isMastered = false;
+        const interval = this.ebbinghausIntervals[p.reviewStage];
+        p.nextReviewDate = Utils.addDays(Utils.today(), interval);
+      }
+      p.error = false;
+    } else {
+      // Demote to stage 0/1
+      p.reviewStage = Math.max(0, (p.reviewStage || 0) - 1);
+      p.historyMistakes = (p.historyMistakes || 0) + 1;
+      p.isMastered = false;
+      p.error = true;
+      p.nextReviewDate = Utils.addDays(Utils.today(), 1); // Review tomorrow
+    }
+
+    Store.set('synonyms538', progress);
+  },
+
+  generateSynQuestion(g, studiedPool) {
+    // Use studiedPool for distractors (strict isolation — no unseen words)
+    const distractorPool = studiedPool && studiedPool.length >= 4 ? studiedPool : Synonyms538.groups;
     const chain = g.chain.map(item => item.w);
     const qType = chain.length >= 3 ? Math.floor(Math.random() * 4) : Math.floor(Math.random() * 3);
 
     if (qType === 0 && chain.length >= 3) {
-      // Type 1: Multi-blank chain fill — ALL blanks must be filled
+      // Type 1: Multi-blank chain fill
       const blankCount = Math.min(chain.length - 1, Math.max(1, Math.floor(chain.length / 2)));
-      const blankIndices = [];
       const available = [];
       for (let i = 1; i < chain.length; i++) available.push(i);
       available.sort(() => Math.random() - 0.5);
-      for (let i = 0; i < blankCount; i++) blankIndices.push(available[i]);
+      const blankIndices = available.slice(0, blankCount);
       const blankWords = blankIndices.map(i => chain[i]);
       const displayChain = chain.map((w, i) => blankIndices.includes(i) ? null : w);
-      const allChainWords = Synonyms538.groups.flatMap(x => x.chain.map(item => item.w));
+      // Distractors from studied pool chain words
+      const allChainWords = distractorPool.flatMap(x => x.chain.map(item => item.w));
       const distractors = allChainWords.filter(w => !chain.includes(w)).sort(() => Math.random() - 0.5).slice(0, blankCount + 3);
       const options = [...blankWords, ...distractors].sort(() => Math.random() - 0.5);
-      const blanksRemaining = [...blankWords];
-      return { type: 0, group: g, blankIndices, blankWords, displayChain, options, blanksRemaining, filledBlanks: [], answered: false, correct: false };
+      return { type: 0, group: g, blankIndices, blankWords, displayChain, options, blanksRemaining: [...blankWords], filledBlanks: [], answered: false, correct: false };
     } else if (qType === 1) {
-      // Type 2: Chinese → English
-      const distractors = Synonyms538.groups.filter(x => x.id !== g.id).sort(() => Math.random() - 0.5).slice(0, 4);
+      // Type 2: Chinese → English — distractors from studied pool
+      const distractors = distractorPool.filter(x => x.id !== g.id).sort(() => Math.random() - 0.5).slice(0, 4);
       const options = [...distractors.map(d => d.core), g.core].sort(() => Math.random() - 0.5);
       return { type: 1, group: g, correctCn: g.cn, options, answered: false, correct: false };
     } else if (qType === 2) {
-      // Type 3: English → Chinese
-      const distractors = Synonyms538.groups.filter(x => x.id !== g.id).sort(() => Math.random() - 0.5).slice(0, 4);
+      // Type 3: English → Chinese — distractors from studied pool
+      const distractors = distractorPool.filter(x => x.id !== g.id).sort(() => Math.random() - 0.5).slice(0, 4);
       const options = [...distractors.map(d => d.cn), g.cn].sort(() => Math.random() - 0.5);
       return { type: 2, group: g, correctCn: g.cn, options, answered: false, correct: false };
     } else {
-      // Type 4: Pair matching — 4 groups, match core to synonym
-      const pairs = [];
-      const otherGroups = Synonyms538.groups.filter(x => x.id !== g.id).sort(() => Math.random() - 0.5).slice(0, 3);
+      // Type 4: Pair matching — all 4 from studied pool
+      const otherGroups = distractorPool.filter(x => x.id !== g.id).sort(() => Math.random() - 0.5).slice(0, 3);
       const allFour = [g, ...otherGroups];
       const leftCol = allFour.map(x => x.core);
       const rightCol = allFour.map(x => x.chain[Math.floor(Math.random() * x.chain.length)]?.w || x.core).sort(() => Math.random() - 0.5);
@@ -679,12 +773,6 @@ const Reading = {
     } else {
       this.synTestScore.wrong++;
       this.synTestScore.wrongGroups.push(q.group);
-      const progress = Store.get('synonyms538') || {};
-      if (!progress[q.group.id]) progress[q.group.id] = {};
-      progress[q.group.id].studied = true;
-      progress[q.group.id].error = true;
-      progress[q.group.id].lastReview = Utils.today();
-      Store.set('synonyms538', progress);
     }
     setTimeout(() => this.synTestNext(), 1500);
   },
@@ -750,12 +838,6 @@ const Reading = {
     } else {
       this.synTestScore.wrong++;
       this.synTestScore.wrongGroups.push(q.group);
-      const progress = Store.get('synonyms538') || {};
-      if (!progress[q.group.id]) progress[q.group.id] = {};
-      progress[q.group.id].studied = true;
-      progress[q.group.id].error = true;
-      progress[q.group.id].lastReview = Utils.today();
-      Store.set('synonyms538', progress);
     }
     setTimeout(() => this.synTestNext(), 1500);
   },
@@ -788,13 +870,8 @@ const Reading = {
     } else {
       this.synTestScore.wrong++;
       this.synTestScore.wrongGroups.push(q.group);
-      const progress = Store.get('synonyms538') || {};
-      if (!progress[q.group.id]) progress[q.group.id] = {};
-      progress[q.group.id].studied = true;
-      progress[q.group.id].error = true;
-      progress[q.group.id].lastReview = Utils.today();
-      Store.set('synonyms538', progress);
     }
+    // Ebbinghaus state is updated in batch at finishSynTest()
     setTimeout(() => this.synTestNext(), 1200);
   },
 
@@ -829,23 +906,12 @@ const Reading = {
     const score = this.synTestScore.correct;
     const total = this.synTestQuestions.length;
     const pct = total > 0 ? Math.round(score * 100 / total) : 0;
-    const elapsed = Math.round((Date.now() - this.synTestStartTime) / 1000);
 
-    // Auto-master words with >= 80% accuracy
-    if (pct >= 80) {
-      const progress = Store.get('synonyms538') || {};
-      this.synTestQuestions.forEach(q => {
-        if (q.correct) {
-          if (!progress[q.group.id]) progress[q.group.id] = {};
-          progress[q.group.id].mastered = true;
-          progress[q.group.id].studied = true;
-          progress[q.group.id].lastReview = Utils.today();
-          progress[q.group.id].error = false;
-        }
-      });
-      Store.set('synonyms538', progress);
-      App.updateMetrics();
-    }
+    // Update Ebbinghaus state for each question
+    this.synTestQuestions.forEach(q => {
+      this.updateEbbinghaus(q.group.id, q.correct);
+    });
+    App.updateMetrics();
 
     // Store wrong groups for retry
     this.synTestScore.retryGroups = this.synTestScore.wrongGroups.map(g => g.id);
