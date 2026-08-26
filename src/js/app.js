@@ -36,6 +36,10 @@ const App = {
               <span class="nav-dot"></span>
               <span>阅读刷题与538</span>
             </div>
+            <div class="nav-item" data-route="/listening">
+              <span class="nav-dot"></span>
+              <span>听力语料听写</span>
+            </div>
             <div class="nav-item" data-route="/speaking">
               <span class="nav-dot"></span>
               <span>口语练测中心</span>
@@ -92,6 +96,7 @@ const App = {
     Router.register('/dashboard', () => this.renderPage('dashboard', '每日打卡与计划', Dashboard));
     Router.register('/vocabulary', () => this.renderPage('vocabulary', '词汇闪卡真经', Vocabulary));
     Router.register('/reading', () => this.renderPage('reading', '阅读刷题与538', Reading));
+    Router.register('/listening', () => this.renderPage('listening', '听力语料听写', Listening));
     Router.register('/speaking', () => this.renderPage('speaking', '口语练测中心', Speaking));
     Router.register('/writing', () => this.renderPage('writing', '写作精批中心', Writing));
     Router.register('/resources', () => this.renderPage('resources', '备考资源导航', Resources));
