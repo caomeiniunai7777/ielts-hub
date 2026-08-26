@@ -308,7 +308,6 @@ const Reading = {
     const today = Utils.today();
     const todayStudied = Object.entries(progress).filter(([id, p]) => p.studied && p.lastReview === today);
     const errorGroups = Object.entries(progress).filter(([id, p]) => p.studied && !p.mastered);
-    const masteredCount = Object.values(progress).filter(p => p.mastered).length;
 
     return `
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px">
@@ -338,13 +337,13 @@ const Reading = {
             <span class="status-dot" style="margin-left:auto">自定义</span>
           </div>
           <div style="font-family:var(--font-serif);font-size:16px;font-weight:600;color:var(--text-title);margin-bottom:8px">自定义范围考核</div>
-          <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
+          <div onclick="event.stopPropagation()" style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
             <span style="font-size:12px;color:var(--text-muted)">从 №</span>
-            <input type="number" class="form-input" style="width:60px;padding:4px 8px;text-align:center" value="${this.synTestRange.start}" min="1" max="${Synonyms538.groups.length}" onchange="Reading.synTestRange.start=parseInt(this.value)||1">
+            <input type="number" class="form-input" style="width:64px;padding:4px 8px;text-align:center;position:relative;z-index:10" value="${this.synTestRange.start}" min="1" max="538" oninput="Reading.synTestRange.start=Math.max(1,parseInt(this.value)||1)" onclick="event.stopPropagation()" onmousedown="event.stopPropagation()">
             <span style="font-size:12px;color:var(--text-muted)">到 №</span>
-            <input type="number" class="form-input" style="width:60px;padding:4px 8px;text-align:center" value="${this.synTestRange.end}" min="1" max="${Synonyms538.groups.length}" onchange="Reading.synTestRange.end=parseInt(this.value)||20">
+            <input type="number" class="form-input" style="width:64px;padding:4px 8px;text-align:center;position:relative;z-index:10" value="${this.synTestRange.end}" min="1" max="538" oninput="Reading.synTestRange.end=Math.min(538,parseInt(this.value)||20)" onclick="event.stopPropagation()" onmousedown="event.stopPropagation()">
           </div>
-          <div style="display:flex;gap:4px;flex-wrap:wrap">
+          <div style="display:flex;gap:4px;flex-wrap:wrap" onclick="event.stopPropagation()">
             <span class="tag-chip" style="cursor:pointer" onclick="Reading.setTestRange(1,20)">前20组</span>
             <span class="tag-chip" style="cursor:pointer" onclick="Reading.setTestRange(1,40)">前40组</span>
             <span class="tag-chip" style="cursor:pointer" onclick="Reading.setTestRange(1,54)">第1类</span>
@@ -369,10 +368,10 @@ const Reading = {
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
             <span class="num-badge">D</span>
             <span class="tag-chip green">全书</span>
-            <span class="status-dot done" style="margin-left:auto">${Synonyms538.groups.length} 组</span>
+            <span class="status-dot done" style="margin-left:auto">538 组</span>
           </div>
           <div style="font-family:var(--font-serif);font-size:16px;font-weight:600;color:var(--text-title);margin-bottom:4px">全书随机挑战</div>
-          <div style="font-size:12px;color:var(--text-muted)">从全部 ${Synonyms538.groups.length} 组考点中随机抽题</div>
+          <div style="font-size:12px;color:var(--text-muted)">从全部 538 组考点中随机抽题</div>
         </div>
       </div>
 
@@ -450,36 +449,43 @@ const Reading = {
   },
 
   generateSynQuestion(g) {
-    // Randomly pick question type: 0=chain fill, 1=cn-en match, 2=en-cn match
-    const qType = Math.floor(Math.random() * 3);
+    // 4 question types: 0=multi-blank chain, 1=cn-en match, 2=en-cn match, 3=pair matching
     const chain = g.chain.map(item => item.w);
-    const correctCn = g.cn;
+    const qType = chain.length >= 3 ? Math.floor(Math.random() * 4) : Math.floor(Math.random() * 3);
 
     if (qType === 0 && chain.length >= 3) {
-      // Type 1: Chain fill-in-blank
-      const blankIdx = 1 + Math.floor(Math.random() * (chain.length - 2));
-      const blankWord = chain[blankIdx];
-      const displayChain = chain.map((w, i) => i === blankIdx ? null : w);
-      const distractors = Synonyms538.groups
-        .flatMap(x => x.chain.map(item => item.w))
-        .filter(w => !chain.includes(w))
-        .sort(() => Math.random() - 0.5).slice(0, 4);
-      const options = [...distractors, blankWord].sort(() => Math.random() - 0.5);
-      return { type: 0, group: g, blankIdx, blankWord, displayChain, options, answered: false, correct: false };
+      // Type 1: Multi-blank chain fill — ALL blanks must be filled
+      const blankCount = Math.min(chain.length - 1, Math.max(1, Math.floor(chain.length / 2)));
+      const blankIndices = [];
+      const available = [];
+      for (let i = 1; i < chain.length; i++) available.push(i);
+      available.sort(() => Math.random() - 0.5);
+      for (let i = 0; i < blankCount; i++) blankIndices.push(available[i]);
+      const blankWords = blankIndices.map(i => chain[i]);
+      const displayChain = chain.map((w, i) => blankIndices.includes(i) ? null : w);
+      const allChainWords = Synonyms538.groups.flatMap(x => x.chain.map(item => item.w));
+      const distractors = allChainWords.filter(w => !chain.includes(w)).sort(() => Math.random() - 0.5).slice(0, blankCount + 3);
+      const options = [...blankWords, ...distractors].sort(() => Math.random() - 0.5);
+      const blanksRemaining = [...blankWords];
+      return { type: 0, group: g, blankIndices, blankWords, displayChain, options, blanksRemaining, filledBlanks: [], answered: false, correct: false };
     } else if (qType === 1) {
-      // Type 2: Chinese → English (pick the English word matching the Chinese meaning)
-      const distractors = Synonyms538.groups
-        .filter(x => x.id !== g.id)
-        .sort(() => Math.random() - 0.5).slice(0, 4);
+      // Type 2: Chinese → English
+      const distractors = Synonyms538.groups.filter(x => x.id !== g.id).sort(() => Math.random() - 0.5).slice(0, 4);
       const options = [...distractors.map(d => d.core), g.core].sort(() => Math.random() - 0.5);
-      return { type: 1, group: g, correctCn, options, answered: false, correct: false };
+      return { type: 1, group: g, correctCn: g.cn, options, answered: false, correct: false };
+    } else if (qType === 2) {
+      // Type 3: English → Chinese
+      const distractors = Synonyms538.groups.filter(x => x.id !== g.id).sort(() => Math.random() - 0.5).slice(0, 4);
+      const options = [...distractors.map(d => d.cn), g.cn].sort(() => Math.random() - 0.5);
+      return { type: 2, group: g, correctCn: g.cn, options, answered: false, correct: false };
     } else {
-      // Type 3: English → Chinese (pick the Chinese meaning matching the English word)
-      const distractors = Synonyms538.groups
-        .filter(x => x.id !== g.id)
-        .sort(() => Math.random() - 0.5).slice(0, 4);
-      const options = [...distractors.map(d => d.cn), correctCn].sort(() => Math.random() - 0.5);
-      return { type: 2, group: g, correctCn, options, answered: false, correct: false };
+      // Type 4: Pair matching — 4 groups, match core to synonym
+      const pairs = [];
+      const otherGroups = Synonyms538.groups.filter(x => x.id !== g.id).sort(() => Math.random() - 0.5).slice(0, 3);
+      const allFour = [g, ...otherGroups];
+      const leftCol = allFour.map(x => x.core);
+      const rightCol = allFour.map(x => x.chain[Math.floor(Math.random() * x.chain.length)]?.w || x.core).sort(() => Math.random() - 0.5);
+      return { type: 3, group: g, allFour, leftCol, rightCol, matches: {}, answered: false, correct: false };
     }
   },
 
@@ -491,12 +497,13 @@ const Reading = {
     const q = this.synTestQuestions[this.synTestIdx];
     const total = this.synTestQuestions.length;
     const progressPct = Math.round(this.synTestIdx * 100 / total);
-    const score = this.synTestScore.correct + this.synTestScore.wrong;
     const elapsed = Math.round((Date.now() - this.synTestStartTime) / 1000);
+
+    const typeLabels = ['全链通关', '中→英选择', '英→中选择', '同义匹配'];
 
     let questionHtml = '';
     if (q.type === 0) {
-      // Chain fill
+      // Multi-blank chain fill
       questionHtml = `
         <div style="text-align:center;padding:16px 0;border:1px solid var(--border-card);border-radius:var(--r-md);margin-bottom:20px">
           <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;margin-bottom:6px">CORE WORD</div>
@@ -509,20 +516,21 @@ const Reading = {
         <div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-bottom:24px;justify-content:center">
           ${q.displayChain.map((w, i) => {
             if (w === null) {
-              return `<span id="syn-blank" style="display:inline-block;min-width:90px;padding:8px 14px;border:2px dashed var(--accent-orange);border-radius:var(--r-sm);text-align:center;font-size:14px;color:var(--text-muted)">? ? ?</span>`;
+              const filled = q.filledBlanks[i];
+              return `<span class="syn-blank-slot" data-idx="${i}" style="display:inline-block;min-width:80px;padding:8px 14px;border:2px dashed ${filled ? 'var(--dot-done)' : 'var(--accent-orange)'};border-radius:var(--r-sm);text-align:center;font-size:14px;color:${filled ? 'var(--dot-done)' : 'var(--text-muted)'};font-weight:${filled ? '600' : '400'};cursor:pointer" onclick="Reading.unfillBlank(${i})">${filled || '? ? ?'}</span>`;
             }
-            return `<span style="display:inline-flex;align-items:center;gap:3px"><span style="font-family:var(--font-serif);font-size:16px;color:var(--text-body)">${w}</span></span>`;
+            return `<span style="font-family:var(--font-serif);font-size:16px;color:var(--text-body)">${w}</span>`;
           }).map((html, i, arr) => html + (i < arr.length - 1 ? '<span style="color:var(--text-muted);font-size:12px">=</span>' : '')).join('')}
         </div>
-        <div style="font-size:12px;color:var(--text-muted);margin-bottom:10px;text-align:center">选择正确的同义替换词</div>
-        <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center">
-          ${q.options.map((o, i) => `
-            <div class="tag-chip syn-option" data-option="${o}" style="cursor:pointer;font-size:14px;padding:8px 16px" onclick="Reading.synTestAnswer(${i},'${o}')">${o}</div>
-          `).join('')}
+        <div style="font-size:12px;color:var(--text-muted);margin-bottom:10px;text-align:center">点击词块填入空位 · 再点空位可撤回 · 全部填对才算通过</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center" id="syn-options-area">
+          ${q.options.map((o, i) => {
+            const used = q.filledBlanks.includes(o);
+            return `<div class="tag-chip syn-option" data-option="${o}" data-idx="${i}" style="cursor:${used ? 'default' : 'pointer'};font-size:14px;padding:8px 16px;${used ? 'opacity:0.3;pointer-events:none' : ''}" onclick="Reading.fillBlank(${i},'${o}')">${o}</div>`;
+          }).join('')}
         </div>
       `;
     } else if (q.type === 1) {
-      // CN → EN
       questionHtml = `
         <div style="text-align:center;padding:24px 0;margin-bottom:20px">
           <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;margin-bottom:8px">选择对应的英文主词</div>
@@ -530,12 +538,11 @@ const Reading = {
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center">
           ${q.options.map((o, i) => `
-            <div class="tag-chip syn-option" data-option="${o}" style="cursor:pointer;font-size:15px;padding:10px 20px;font-family:var(--font-serif)" onclick="Reading.synTestAnswer(${i},'${o}')">${o} ${Audio.btn(o, {size: 13})}</div>
+            <div class="tag-chip syn-option" data-option="${o}" style="cursor:pointer;font-size:15px;padding:10px 20px;font-family:var(--font-serif)" onclick="Reading.synTestAnswer('${o}')">${o} ${Audio.btn(o, {size: 13})}</div>
           `).join('')}
         </div>
       `;
-    } else {
-      // EN → CN
+    } else if (q.type === 2) {
       questionHtml = `
         <div style="text-align:center;padding:24px 0;margin-bottom:20px">
           <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;margin-bottom:8px">选择对应的中文释义</div>
@@ -547,15 +554,37 @@ const Reading = {
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center">
           ${q.options.map((o, i) => `
-            <div class="tag-chip syn-option" data-option="${o}" style="cursor:pointer;font-size:14px;padding:8px 16px" onclick="Reading.synTestAnswer(${i},'${o}')">${o}</div>
+            <div class="tag-chip syn-option" data-option="${o}" style="cursor:pointer;font-size:14px;padding:8px 16px" onclick="Reading.synTestAnswer('${o}')">${o}</div>
           `).join('')}
         </div>
+      `;
+    } else {
+      // Type 4: Pair matching
+      questionHtml = `
+        <div style="text-align:center;padding:16px 0;margin-bottom:20px">
+          <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;margin-bottom:8px">将左侧主词与右侧同义替换词配对</div>
+        </div>
+        <div style="display:flex;gap:20px;justify-content:center;margin-bottom:20px">
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <div style="font-size:10px;color:var(--text-muted);text-transform:uppercase;margin-bottom:4px;text-align:center">CORE</div>
+            ${q.leftCol.map((word, i) => `
+              <div class="syn-pair-left" data-word="${word}" data-idx="${i}" style="padding:10px 20px;border:2px solid ${q.matches[word] ? 'var(--accent-orange)' : 'var(--border-card)'};border-radius:var(--r-sm);cursor:pointer;text-align:center;font-family:var(--font-serif);font-size:15px;font-weight:600;color:var(--text-title);background:${q.matches[word] ? 'rgba(234,168,68,0.06)' : 'var(--bg-card-warm)'}" onclick="Reading.selectPairLeft('${word}')">${word}</div>
+            `).join('')}
+          </div>
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <div style="font-size:10px;color:var(--text-muted);text-transform:uppercase;margin-bottom:4px;text-align:center">SYNONYM</div>
+            ${q.rightCol.map((word, i) => {
+              const matched = Object.entries(q.matches).find(([k,v]) => v === word);
+              return `<div class="syn-pair-right" data-word="${word}" data-idx="${i}" style="padding:10px 20px;border:2px solid ${matched ? 'var(--dot-done)' : 'var(--border-card)'};border-radius:var(--r-sm);cursor:pointer;text-align:center;font-size:14px;color:var(--text-body);background:${matched ? 'rgba(111,170,91,0.06)' : 'var(--bg-card-warm)'}" onclick="Reading.selectPairRight('${word}')">${word}</div>`;
+            }).join('')}
+          </div>
+        </div>
+        <div id="syn-pair-status" style="text-align:center;font-size:12px;color:var(--text-muted)">${Object.keys(q.matches).length}/4 已配对</div>
       `;
     }
 
     return `
       <div class="bento-card" style="max-width:600px;margin:0 auto">
-        <!-- Progress bar -->
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
           <span style="font-size:12px;color:var(--text-muted)">第 ${this.synTestIdx + 1} / ${total} 题</span>
           <div style="display:flex;gap:8px;align-items:center">
@@ -565,38 +594,184 @@ const Reading = {
           </div>
         </div>
         <div class="progress-track" style="margin-bottom:20px"><div class="progress-fill" style="width:${progressPct}%"></div></div>
-
-        <!-- Question type label -->
         <div style="text-align:center;margin-bottom:8px">
-          <span class="tag-chip orange">${q.type === 0 ? '同义链填空' : q.type === 1 ? '中→英选择' : '英→中选择'}</span>
+          <span class="tag-chip orange">${typeLabels[q.type]}</span>
           <span class="num-badge" style="margin-left:4px">№ ${String(q.group.id).padStart(3, '0')}</span>
         </div>
-
         ${questionHtml}
-
         <div style="margin-top:24px;display:flex;justify-content:space-between;align-items:center">
           <button class="btn-ghost" onclick="Reading.synTestSkip()">跳过</button>
-          ${this.synTestIdx > 0 ? `<button class="btn-ghost" onclick="Reading.synTestPrev()">← 上一题</button>` : ''}
+          ${q.type === 0 && q.filledBlanks.length > 0 ? '<button class="btn btn-primary" id="syn-chain-confirm" style="display:none" onclick="Reading.confirmChainFill()">确认</button>' : ''}
           <button class="btn-ghost" onclick="Reading.synTestQuit()">放弃</button>
         </div>
       </div>
     `;
   },
 
-  synTestAnswer(optionIdx, selected) {
+  // Multi-blank chain fill interaction
+  fillBlank(optionIdx, word) {
+    const q = this.synTestQuestions[this.synTestIdx];
+    if (q.type !== 0 || q.answered) return;
+    // Find first empty blank slot
+    for (const idx of q.blankIndices) {
+      if (!q.filledBlanks[idx]) {
+        q.filledBlanks[idx] = word;
+        // Remove from remaining
+        const ri = q.blanksRemaining.indexOf(word);
+        if (ri >= 0) q.blanksRemaining.splice(ri, 1);
+        break;
+      }
+    }
+    // Check if all filled
+    const allFilled = q.blankIndices.every(idx => q.filledBlanks[idx]);
+    if (allFilled) {
+      this.confirmChainFill();
+    } else {
+      this.renderView();
+    }
+  },
+
+  unfillBlank(idx) {
+    const q = this.synTestQuestions[this.synTestIdx];
+    if (q.type !== 0 || q.answered) return;
+    const word = q.filledBlanks[idx];
+    if (word) {
+      delete q.filledBlanks[idx];
+      q.blanksRemaining.push(word);
+      this.renderView();
+    }
+  },
+
+  confirmChainFill() {
+    const q = this.synTestQuestions[this.synTestIdx];
+    if (q.type !== 0 || q.answered) return;
+    q.answered = true;
+    // Check each blank — blankWords are the correct answers in order of blankIndices
+    let allCorrect = true;
+    for (let bi = 0; bi < q.blankIndices.length; bi++) {
+      const idx = q.blankIndices[bi];
+      const filled = q.filledBlanks[idx];
+      const correctWord = q.blankWords[bi];
+      if (filled !== correctWord) {
+        allCorrect = false;
+      }
+    }
+    q.correct = allCorrect;
+
+    // Visual feedback
+    Utils.$$('.syn-blank-slot').forEach(el => {
+      const idx = parseInt(el.dataset.idx);
+      const bi = q.blankIndices.indexOf(idx);
+      const filled = q.filledBlanks[idx];
+      const correctWord = q.blankWords[bi];
+      if (filled === correctWord) {
+        el.style.borderColor = 'var(--dot-done)';
+        el.style.color = 'var(--dot-done)';
+      } else {
+        el.style.borderColor = 'var(--dot-key)';
+        el.style.color = 'var(--dot-key)';
+      }
+    });
+    Utils.$$('.syn-option').forEach(el => { el.style.pointerEvents = 'none'; });
+
+    if (allCorrect) {
+      this.synTestScore.correct++;
+    } else {
+      this.synTestScore.wrong++;
+      this.synTestScore.wrongGroups.push(q.group);
+      const progress = Store.get('synonyms538') || {};
+      if (!progress[q.group.id]) progress[q.group.id] = {};
+      progress[q.group.id].studied = true;
+      progress[q.group.id].error = true;
+      progress[q.group.id].lastReview = Utils.today();
+      Store.set('synonyms538', progress);
+    }
+    setTimeout(() => this.synTestNext(), 1500);
+  },
+
+  // Pair matching interaction
+  _pairLeftSel: null,
+  selectPairLeft(word) {
+    this._pairLeftSel = word;
+    Utils.$$('.syn-pair-left').forEach(el => {
+      el.style.background = el.dataset.word === word ? 'rgba(234,168,68,0.15)' : 'var(--bg-card-warm)';
+    });
+  },
+
+  selectPairRight(word) {
+    const q = this.synTestQuestions[this.synTestIdx];
+    if (q.type !== 3 || q.answered) return;
+    if (!this._pairLeftSel) {
+      Utils.toast('请先点击左侧主词');
+      return;
+    }
+    // Check if this right word is already matched
+    const existingMatch = Object.entries(q.matches).find(([k,v]) => v === word);
+    if (existingMatch) {
+      delete q.matches[existingMatch[0]];
+    }
+    // Remove previous match for this left word
+    delete q.matches[this._pairLeftSel];
+    q.matches[this._pairLeftSel] = word;
+    this._pairLeftSel = null;
+
+    // Check if all 4 matched
+    if (Object.keys(q.matches).length === 4) {
+      this.confirmPairMatch();
+    } else {
+      this.renderView();
+    }
+  },
+
+  confirmPairMatch() {
+    const q = this.synTestQuestions[this.synTestIdx];
+    if (q.type !== 3 || q.answered) return;
+    q.answered = true;
+    let allCorrect = true;
+    for (const group of q.allFour) {
+      const matched = q.matches[group.core];
+      const isCorrect = group.chain.some(item => item.w === matched);
+      if (!isCorrect) allCorrect = false;
+      // Visual
+      Utils.$$('.syn-pair-left').forEach(el => {
+        if (el.dataset.word === group.core) {
+          el.style.borderColor = isCorrect ? 'var(--dot-done)' : 'var(--dot-key)';
+        }
+      });
+      Utils.$$('.syn-pair-right').forEach(el => {
+        if (el.dataset.word === matched) {
+          el.style.borderColor = isCorrect ? 'var(--dot-done)' : 'var(--dot-key)';
+        }
+      });
+    }
+    q.correct = allCorrect;
+    if (allCorrect) {
+      this.synTestScore.correct++;
+    } else {
+      this.synTestScore.wrong++;
+      this.synTestScore.wrongGroups.push(q.group);
+      const progress = Store.get('synonyms538') || {};
+      if (!progress[q.group.id]) progress[q.group.id] = {};
+      progress[q.group.id].studied = true;
+      progress[q.group.id].error = true;
+      progress[q.group.id].lastReview = Utils.today();
+      Store.set('synonyms538', progress);
+    }
+    setTimeout(() => this.synTestNext(), 1500);
+  },
+
+  synTestAnswer(selected) {
     const q = this.synTestQuestions[this.synTestIdx];
     if (q.answered) return;
     q.answered = true;
 
     let correctAnswer = '';
-    if (q.type === 0) correctAnswer = q.blankWord;
-    else if (q.type === 1) correctAnswer = q.group.core;
+    if (q.type === 1) correctAnswer = q.group.core;
     else correctAnswer = q.correctCn;
 
     const isCorrect = selected === correctAnswer;
     q.correct = isCorrect;
 
-    // Update options visual
     Utils.$$('.syn-option').forEach(el => {
       const val = el.dataset.option;
       if (val === correctAnswer) {
@@ -613,7 +788,6 @@ const Reading = {
     } else {
       this.synTestScore.wrong++;
       this.synTestScore.wrongGroups.push(q.group);
-      // Mark as error in progress
       const progress = Store.get('synonyms538') || {};
       if (!progress[q.group.id]) progress[q.group.id] = {};
       progress[q.group.id].studied = true;
@@ -621,8 +795,6 @@ const Reading = {
       progress[q.group.id].lastReview = Utils.today();
       Store.set('synonyms538', progress);
     }
-
-    // Auto-advance after 1.2s
     setTimeout(() => this.synTestNext(), 1200);
   },
 
@@ -689,6 +861,7 @@ const Reading = {
     const elapsed = Math.round((Date.now() - this.synTestStartTime) / 1000);
     const passed = pct >= 80;
     const wrongGroups = this.synTestScore.wrongGroups;
+    const correctGroups = this.synTestQuestions.filter(q => q.correct).map(q => q.group);
     const mins = Math.floor(elapsed / 60);
     const secs = elapsed % 60;
 
@@ -696,7 +869,7 @@ const Reading = {
       <div class="bento-card" style="max-width:600px;margin:0 auto;text-align:center">
         <div style="font-size:48px;margin-bottom:8px;opacity:0.2">●</div>
         <div style="font-family:var(--font-serif);font-size:48px;font-weight:600;color:${passed ? 'var(--dot-done)' : 'var(--dot-key)'}">${pct}%</div>
-        <div style="font-size:13px;color:var(--text-muted);margin-top:4px;margin-bottom:24px">${passed ? '考核通过！正确率 ≥ 80%' : '继续努力，正确率未达 80%'}</div>
+        <div style="font-size:13px;color:var(--text-muted);margin-top:4px;margin-bottom:24px">${passed ? '考核通过！正确率 ≥ 80%，已掌握词条自动流转' : '继续努力，正确率未达 80%'}</div>
 
         <div class="bento-grid cols-3" style="margin-bottom:24px">
           <div class="bento-card warm" style="padding:14px">
@@ -713,9 +886,18 @@ const Reading = {
           </div>
         </div>
 
+        ${correctGroups.length > 0 ? `
+          <div style="text-align:left;margin-bottom:16px">
+            <div style="font-size:13px;font-weight:600;color:var(--dot-done);margin-bottom:8px">✓ 掌握清单 (${correctGroups.length})</div>
+            <div style="display:flex;flex-wrap:wrap;gap:4px">
+              ${correctGroups.map(g => `<span class="tag-chip green" style="font-size:11px">${g.core}</span>`).join('')}
+            </div>
+          </div>
+        ` : ''}
+
         ${wrongGroups.length > 0 ? `
           <div style="text-align:left;margin-bottom:24px">
-            <div style="font-size:13px;font-weight:600;color:var(--text-title);margin-bottom:8px">错误考点词 · 同义链对比</div>
+            <div style="font-size:13px;font-weight:600;color:var(--dot-key);margin-bottom:8px">✗ 需强化清单 (${wrongGroups.length}) · 同义链对比</div>
             ${wrongGroups.map(g => `
               <div style="padding:12px;border:1px solid var(--border-card);border-radius:var(--r-sm);margin-bottom:8px">
                 <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px">
